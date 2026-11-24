@@ -31,7 +31,7 @@ To restore the two forks' local state: check out the commit above, then `git app
 
 ## Not in the repository (only on the training machine)
 
-- All network weights (`*.pt`, about 56 GB), including the champion `runs/train-opt-20261123/results/selfplay-a` update 27,772, the long run up to 29,772 and the 1.35M student.
+- Network weights (`*.pt`, about 56 GB) are not in git. Four of them are attached to the release `weights-2026-11-23` of this repository: the champion (`selfplay-a` update 27,772), the 1.35M student (update 3,000), the long run's latest checkpoint (29,772) and the parent (25,772). The release notes say where each file belongs. Every other checkpoint is only on the training machine.
 - `checkpoints/`, `replay-data/`, `.human-play-data/`.
 - Downloaded replays (`raw*/`), raw battle responses with other players' names, the client network log, browser profiles, screenshots and video.
 - Result files over 1 MB (per-battle logs, fixture sets); the exact list is at the end of `.gitignore`.
