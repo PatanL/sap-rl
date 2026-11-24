@@ -18,6 +18,11 @@
 !*.log
 !*.yml
 !*.yaml
+!*.csv
+!*.diff
+!*.sha256
+!SHA256SUMS
+!*.SHA256SUMS
 !Cargo.lock
 !Dockerfile*
 !.gitignore
@@ -44,9 +49,12 @@
 /engine-rs/golden/
 /engine-rs/env-golden/
 
-# Runs: only the November 2026 campaign; older run folders stay local (their code is in sapai-gym)
+# Runs: folders dated 2026-11-21 or later; older run folders stay local (not reviewed for this repository)
 /runs/*
-!/runs/*-2026112[1-3]/
+!/runs/*-2026112[1-9]/
+!/runs/*-20261130/
+!/runs/*-202612[0-9][0-9]/
+!/runs/*-2027[0-9][0-9][0-9][0-9]/
 
 # Inside runs: caches, vendored duplicates, raw replays, client captures, session data
 __pycache__/
@@ -62,6 +70,12 @@ live-guest-profile/
 
 # Client network log (session data)
 network*.jsonl
+
+# Per-battle and per-seat logs are large by nature (about 13 MB each)
+*-battles.jsonl
+seats.jsonl
+*-pairs.json
+*-fights.json
 
 # Results over 1 MB stay local (generated list; pinned pools and engine libraries are kept)
 /runs/client-oracle-20261123/session2/network.jsonl

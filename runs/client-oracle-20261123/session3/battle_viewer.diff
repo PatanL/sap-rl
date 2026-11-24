@@ -1,0 +1,8 @@
+69c69
+<     if manifest in ('dev','control') and not speed_selected and time.monotonic()-start>3 and any(e[0]=='get' for e in events):
+---
+>     if (manifest in ('dev','control') or os.environ.get('SAP_FAST')=='1') and not speed_selected and time.monotonic()-start>3 and any(e[0]=='get' for e in events):
+85c85
+<     page.wait_for_timeout(120)
+---
+>     page.wait_for_timeout(int(os.environ.get('SAP_SHOT_INTERVAL_MS','120')))

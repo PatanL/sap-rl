@@ -1,0 +1,8 @@
+40c40,44
+<                 if op=='arena/queue' and any('"action": "response"' in v and '/api/arena/queue"' in v and '"status": 200' in v for v in (D/'network.jsonl').read_text().splitlines()):allow=False
+---
+>                 if op=='arena/queue':
+>                     # Counted allowance: one queue originally, plus one per explicit grant line in session3/queue-grants.txt.
+>                     done=sum('"action": "response"' in v and '/api/arena/queue"' in v and '"status": 200' in v for v in (D/'network.jsonl').read_text().splitlines())
+>                     gf=HERE/'session3/queue-grants.txt';grants=sum(1 for v in gf.read_text().splitlines() if v.strip() and not v.startswith('#')) if gf.exists() else 0
+>                     if done>=1+grants:allow=False

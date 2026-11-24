@@ -36,6 +36,6 @@ To restore the two forks' local state: check out the commit above, then `git app
 - Downloaded replays (`raw*/`), raw battle responses with other players' names, the client network log, browser profiles, screenshots and video.
 - Result files over 1 MB (per-battle logs, fixture sets); the exact list is at the end of `.gitignore`.
 - `engine-rs/golden/` and `engine-rs/env-golden/` (about 800 MB of generated test fixtures) and `engine-rs/target/`.
-- Run folders from before 2026-11-21 (their code is in `sapai-gym`).
+- Run folders from before 2026-11-21 (about 300 folders of earlier campaigns; not reviewed for this repository, so left out).
 
 Keep this repository private: it holds replay ids and two players' in-game handles used as reference points.

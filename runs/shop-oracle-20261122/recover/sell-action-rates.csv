@@ -1,0 +1,1906 @@
+split,cohort,turn_selection,category,name,attempted,misses,failure_rate
+all,new pet/summon,all turns,action,any pet purchase,702,23,0.03276353276353276
+all,new pet/summon,all turns,action,board merge,223,8,0.03587443946188341
+all,new pet/summon,all turns,action,board order request,615,20,0.032520325203252036
+all,new pet/summon,all turns,action,buy,700,22,0.03142857142857143
+all,new pet/summon,all turns,action,buy merge,186,7,0.03763440860215054
+all,new pet/summon,all turns,action,end,703,23,0.032716927453769556
+all,new pet/summon,all turns,action,food,619,22,0.035541195476575124
+all,new pet/summon,all turns,action,freeze/unfreeze request,506,22,0.043478260869565216
+all,new pet/summon,all turns,action,roll,635,21,0.03307086614173228
+all,new pet/summon,all turns,action,sell,644,19,0.029503105590062112
+all,new pet/summon,all turns,action,start,703,23,0.032716927453769556
+all,new pet/summon,all turns,overall,(all),703,23,0.032716927453769556
+all,new pet/summon,all turns,seller before endpoint,(unidentified seller),276,6,0.021739130434782608
+all,new pet/summon,all turns,seller before endpoint,Ant,33,1,0.030303030303030304
+all,new pet/summon,all turns,seller before endpoint,Armadillo,1,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Badger,1,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Beaver,36,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Bee,3,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Blowfish,6,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Boar,1,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Bus,3,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Camel,8,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Cat,5,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Cow,226,9,0.03982300884955752
+all,new pet/summon,all turns,seller before endpoint,Crab,9,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Cricket,31,1,0.03225806451612903
+all,new pet/summon,all turns,seller before endpoint,Crocodile,6,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Deer,22,2,0.09090909090909091
+all,new pet/summon,all turns,seller before endpoint,Dog,6,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Dolphin,16,1,0.0625
+all,new pet/summon,all turns,seller before endpoint,Dragon,4,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Duck,39,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Elephant,5,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Fish,26,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Flamingo,5,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Fly,4,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Giraffe,37,2,0.05405405405405406
+all,new pet/summon,all turns,seller before endpoint,Gorilla,2,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Hedgehog,7,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Horse,25,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Kangaroo,16,1,0.0625
+all,new pet/summon,all turns,seller before endpoint,Mammoth,3,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Monkey,23,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Mosquito,14,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Otter,30,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Ox,7,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Parrot,8,1,0.125
+all,new pet/summon,all turns,seller before endpoint,Peacock,12,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Penguin,10,1,0.1
+all,new pet/summon,all turns,seller before endpoint,Pig,62,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Pigeon,91,1,0.01098901098901099
+all,new pet/summon,all turns,seller before endpoint,Rabbit,11,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Ram,12,6,0.5
+all,new pet/summon,all turns,seller before endpoint,Rat,5,1,0.2
+all,new pet/summon,all turns,seller before endpoint,Rhino,5,1,0.2
+all,new pet/summon,all turns,seller before endpoint,Rooster,1,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Scorpion,7,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Seal,1,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Shark,3,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Sheep,10,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Skunk,8,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Snail,25,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Snake,4,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Spider,8,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Squirrel,6,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Swan,17,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Tiger,4,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Turkey,14,1,0.07142857142857142
+all,new pet/summon,all turns,seller before endpoint,Turtle,8,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Whale,10,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Wolverine,3,1,0.3333333333333333
+all,new pet/summon,all turns,seller before endpoint,Worm,8,0,0.0
+all,new pet/summon,all turns,seller before endpoint,Zombie Cricket,1,1,1.0
+all,new pet/summon,all turns,seller before endpoint,Zombie Fly,1,0,0.0
+all,new pet/summon,at least one sale,action,any pet purchase,644,19,0.029503105590062112
+all,new pet/summon,at least one sale,action,board merge,190,6,0.031578947368421054
+all,new pet/summon,at least one sale,action,board order request,557,16,0.02872531418312388
+all,new pet/summon,at least one sale,action,buy,644,19,0.029503105590062112
+all,new pet/summon,at least one sale,action,buy merge,164,6,0.036585365853658534
+all,new pet/summon,at least one sale,action,end,644,19,0.029503105590062112
+all,new pet/summon,at least one sale,action,food,560,18,0.03214285714285714
+all,new pet/summon,at least one sale,action,freeze/unfreeze request,471,18,0.03821656050955414
+all,new pet/summon,at least one sale,action,roll,594,18,0.030303030303030304
+all,new pet/summon,at least one sale,action,sell,644,19,0.029503105590062112
+all,new pet/summon,at least one sale,action,start,644,19,0.029503105590062112
+all,new pet/summon,at least one sale,overall,(all),644,19,0.029503105590062112
+all,new pet/summon,at least one sale,seller before endpoint,(unidentified seller),276,6,0.021739130434782608
+all,new pet/summon,at least one sale,seller before endpoint,Ant,33,1,0.030303030303030304
+all,new pet/summon,at least one sale,seller before endpoint,Armadillo,1,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Badger,1,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Beaver,36,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Bee,3,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Blowfish,6,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Boar,1,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Bus,3,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Camel,8,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Cat,5,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Cow,226,9,0.03982300884955752
+all,new pet/summon,at least one sale,seller before endpoint,Crab,9,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Cricket,31,1,0.03225806451612903
+all,new pet/summon,at least one sale,seller before endpoint,Crocodile,6,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Deer,22,2,0.09090909090909091
+all,new pet/summon,at least one sale,seller before endpoint,Dog,6,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Dolphin,16,1,0.0625
+all,new pet/summon,at least one sale,seller before endpoint,Dragon,4,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Duck,39,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Elephant,5,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Fish,26,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Flamingo,5,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Fly,4,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Giraffe,37,2,0.05405405405405406
+all,new pet/summon,at least one sale,seller before endpoint,Gorilla,2,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Hedgehog,7,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Horse,25,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Kangaroo,16,1,0.0625
+all,new pet/summon,at least one sale,seller before endpoint,Mammoth,3,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Monkey,23,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Mosquito,14,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Otter,30,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Ox,7,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Parrot,8,1,0.125
+all,new pet/summon,at least one sale,seller before endpoint,Peacock,12,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Penguin,10,1,0.1
+all,new pet/summon,at least one sale,seller before endpoint,Pig,62,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Pigeon,91,1,0.01098901098901099
+all,new pet/summon,at least one sale,seller before endpoint,Rabbit,11,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Ram,12,6,0.5
+all,new pet/summon,at least one sale,seller before endpoint,Rat,5,1,0.2
+all,new pet/summon,at least one sale,seller before endpoint,Rhino,5,1,0.2
+all,new pet/summon,at least one sale,seller before endpoint,Rooster,1,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Scorpion,7,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Seal,1,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Shark,3,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Sheep,10,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Skunk,8,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Snail,25,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Snake,4,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Spider,8,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Squirrel,6,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Swan,17,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Tiger,4,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Turkey,14,1,0.07142857142857142
+all,new pet/summon,at least one sale,seller before endpoint,Turtle,8,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Whale,10,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Wolverine,3,1,0.3333333333333333
+all,new pet/summon,at least one sale,seller before endpoint,Worm,8,0,0.0
+all,new pet/summon,at least one sale,seller before endpoint,Zombie Cricket,1,1,1.0
+all,new pet/summon,at least one sale,seller before endpoint,Zombie Fly,1,0,0.0
+all,new pet/summon,no sale,action,any pet purchase,58,4,0.06896551724137931
+all,new pet/summon,no sale,action,board merge,33,2,0.06060606060606061
+all,new pet/summon,no sale,action,board order request,58,4,0.06896551724137931
+all,new pet/summon,no sale,action,buy,56,3,0.05357142857142857
+all,new pet/summon,no sale,action,buy merge,22,1,0.045454545454545456
+all,new pet/summon,no sale,action,end,59,4,0.06779661016949153
+all,new pet/summon,no sale,action,food,59,4,0.06779661016949153
+all,new pet/summon,no sale,action,freeze/unfreeze request,35,4,0.11428571428571428
+all,new pet/summon,no sale,action,roll,41,3,0.07317073170731707
+all,new pet/summon,no sale,action,start,59,4,0.06779661016949153
+all,new pet/summon,no sale,overall,(all),59,4,0.06779661016949153
+all,new pet/summon,sell-heavy (2+),action,any pet purchase,467,14,0.029978586723768737
+all,new pet/summon,sell-heavy (2+),action,board merge,117,5,0.042735042735042736
+all,new pet/summon,sell-heavy (2+),action,board order request,390,12,0.03076923076923077
+all,new pet/summon,sell-heavy (2+),action,buy,467,14,0.029978586723768737
+all,new pet/summon,sell-heavy (2+),action,buy merge,109,5,0.045871559633027525
+all,new pet/summon,sell-heavy (2+),action,end,467,14,0.029978586723768737
+all,new pet/summon,sell-heavy (2+),action,food,395,13,0.03291139240506329
+all,new pet/summon,sell-heavy (2+),action,freeze/unfreeze request,341,14,0.04105571847507331
+all,new pet/summon,sell-heavy (2+),action,roll,420,13,0.030952380952380953
+all,new pet/summon,sell-heavy (2+),action,sell,467,14,0.029978586723768737
+all,new pet/summon,sell-heavy (2+),action,start,467,14,0.029978586723768737
+all,new pet/summon,sell-heavy (2+),overall,(all),467,14,0.029978586723768737
+all,new pet/summon,sell-heavy (2+),seller before endpoint,(unidentified seller),242,5,0.02066115702479339
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Ant,28,1,0.03571428571428571
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Armadillo,1,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Badger,1,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Beaver,29,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Blowfish,5,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Boar,1,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Bus,2,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Camel,6,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Cat,4,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Cow,193,7,0.03626943005181347
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Crab,8,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Cricket,28,1,0.03571428571428571
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Crocodile,6,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Deer,20,1,0.05
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Dog,5,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Dolphin,14,1,0.07142857142857142
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Dragon,4,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Duck,38,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Elephant,5,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Fish,22,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Flamingo,5,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Fly,4,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Giraffe,34,2,0.058823529411764705
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Gorilla,2,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Hedgehog,6,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Horse,23,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Kangaroo,12,1,0.08333333333333333
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Mammoth,2,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Monkey,22,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Mosquito,13,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Otter,28,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Ox,6,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Parrot,8,1,0.125
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Peacock,9,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Penguin,9,1,0.1111111111111111
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Pig,47,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Pigeon,73,1,0.0136986301369863
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Rabbit,10,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Ram,11,6,0.5454545454545454
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Rat,3,1,0.3333333333333333
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Rhino,5,1,0.2
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Rooster,1,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Scorpion,7,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Seal,1,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Shark,3,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Sheep,8,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Skunk,7,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Snail,22,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Snake,4,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Spider,6,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Squirrel,4,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Swan,14,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Tiger,4,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Turkey,12,1,0.08333333333333333
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Turtle,8,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Whale,8,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Wolverine,2,1,0.5
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Worm,8,0,0.0
+all,new pet/summon,sell-heavy (2+),seller before endpoint,Zombie Fly,1,0,0.0
+all,original strict,all turns,action,any pet purchase,6000,52,0.008666666666666666
+all,original strict,all turns,action,board merge,2387,7,0.002932551319648094
+all,original strict,all turns,action,board order request,5269,45,0.00854052002277472
+all,original strict,all turns,action,buy,5228,44,0.008416220351951033
+all,original strict,all turns,action,buy merge,2682,26,0.009694258016405667
+all,original strict,all turns,action,end,6735,61,0.009057164068299926
+all,original strict,all turns,action,food,4761,56,0.011762234824616677
+all,original strict,all turns,action,freeze/unfreeze request,4452,45,0.010107816711590296
+all,original strict,all turns,action,roll,6346,61,0.00961235423889064
+all,original strict,all turns,action,sell,3061,33,0.010780790591310029
+all,original strict,all turns,action,start,6735,61,0.009057164068299926
+all,original strict,all turns,overall,(all),6735,61,0.009057164068299926
+all,original strict,all turns,seller before endpoint,Ant,165,0,0.0
+all,original strict,all turns,seller before endpoint,Armadillo,13,0,0.0
+all,original strict,all turns,seller before endpoint,Badger,20,0,0.0
+all,original strict,all turns,seller before endpoint,Beaver,229,2,0.008733624454148471
+all,original strict,all turns,seller before endpoint,Bison,3,0,0.0
+all,original strict,all turns,seller before endpoint,Blowfish,27,1,0.037037037037037035
+all,original strict,all turns,seller before endpoint,Boar,2,0,0.0
+all,original strict,all turns,seller before endpoint,Bus,3,0,0.0
+all,original strict,all turns,seller before endpoint,Camel,41,0,0.0
+all,original strict,all turns,seller before endpoint,Cat,41,1,0.024390243902439025
+all,original strict,all turns,seller before endpoint,Cow,210,5,0.023809523809523808
+all,original strict,all turns,seller before endpoint,Crab,48,0,0.0
+all,original strict,all turns,seller before endpoint,Cricket,162,0,0.0
+all,original strict,all turns,seller before endpoint,Crocodile,38,0,0.0
+all,original strict,all turns,seller before endpoint,Deer,99,0,0.0
+all,original strict,all turns,seller before endpoint,Dodo,20,0,0.0
+all,original strict,all turns,seller before endpoint,Dog,31,1,0.03225806451612903
+all,original strict,all turns,seller before endpoint,Dolphin,60,1,0.016666666666666666
+all,original strict,all turns,seller before endpoint,Dragon,8,0,0.0
+all,original strict,all turns,seller before endpoint,Duck,307,0,0.0
+all,original strict,all turns,seller before endpoint,Elephant,18,1,0.05555555555555555
+all,original strict,all turns,seller before endpoint,Fish,141,0,0.0
+all,original strict,all turns,seller before endpoint,Flamingo,60,0,0.0
+all,original strict,all turns,seller before endpoint,Fly,9,0,0.0
+all,original strict,all turns,seller before endpoint,Giraffe,127,3,0.023622047244094488
+all,original strict,all turns,seller before endpoint,Gorilla,9,0,0.0
+all,original strict,all turns,seller before endpoint,Hedgehog,40,1,0.025
+all,original strict,all turns,seller before endpoint,Hippo,11,0,0.0
+all,original strict,all turns,seller before endpoint,Horse,97,1,0.010309278350515464
+all,original strict,all turns,seller before endpoint,Kangaroo,71,0,0.0
+all,original strict,all turns,seller before endpoint,Leopard,2,0,0.0
+all,original strict,all turns,seller before endpoint,Mammoth,6,0,0.0
+all,original strict,all turns,seller before endpoint,Monkey,72,0,0.0
+all,original strict,all turns,seller before endpoint,Mosquito,50,1,0.02
+all,original strict,all turns,seller before endpoint,Otter,139,2,0.014388489208633094
+all,original strict,all turns,seller before endpoint,Ox,45,2,0.044444444444444446
+all,original strict,all turns,seller before endpoint,Parrot,26,0,0.0
+all,original strict,all turns,seller before endpoint,Peacock,63,0,0.0
+all,original strict,all turns,seller before endpoint,Penguin,48,3,0.0625
+all,original strict,all turns,seller before endpoint,Pig,251,1,0.00398406374501992
+all,original strict,all turns,seller before endpoint,Pigeon,260,2,0.007692307692307693
+all,original strict,all turns,seller before endpoint,Rabbit,124,2,0.016129032258064516
+all,original strict,all turns,seller before endpoint,Ram,1,0,0.0
+all,original strict,all turns,seller before endpoint,Rat,30,2,0.06666666666666667
+all,original strict,all turns,seller before endpoint,Rhino,9,0,0.0
+all,original strict,all turns,seller before endpoint,Rooster,5,0,0.0
+all,original strict,all turns,seller before endpoint,Scorpion,35,0,0.0
+all,original strict,all turns,seller before endpoint,Seal,3,0,0.0
+all,original strict,all turns,seller before endpoint,Shark,17,0,0.0
+all,original strict,all turns,seller before endpoint,Sheep,44,1,0.022727272727272728
+all,original strict,all turns,seller before endpoint,Skunk,44,1,0.022727272727272728
+all,original strict,all turns,seller before endpoint,Sloth,1,0,0.0
+all,original strict,all turns,seller before endpoint,Snail,187,3,0.016042780748663103
+all,original strict,all turns,seller before endpoint,Snake,7,1,0.14285714285714285
+all,original strict,all turns,seller before endpoint,Spider,74,1,0.013513513513513514
+all,original strict,all turns,seller before endpoint,Squirrel,30,0,0.0
+all,original strict,all turns,seller before endpoint,Swan,51,1,0.0196078431372549
+all,original strict,all turns,seller before endpoint,Tiger,10,0,0.0
+all,original strict,all turns,seller before endpoint,Turkey,38,0,0.0
+all,original strict,all turns,seller before endpoint,Turtle,34,1,0.029411764705882353
+all,original strict,all turns,seller before endpoint,Whale,38,0,0.0
+all,original strict,all turns,seller before endpoint,Wolverine,3,0,0.0
+all,original strict,all turns,seller before endpoint,Worm,76,0,0.0
+all,original strict,at least one sale,action,any pet purchase,3045,33,0.01083743842364532
+all,original strict,at least one sale,action,board merge,1050,4,0.0038095238095238095
+all,original strict,at least one sale,action,board order request,2636,27,0.01024279210925645
+all,original strict,at least one sale,action,buy,3036,33,0.010869565217391304
+all,original strict,at least one sale,action,buy merge,1232,17,0.013798701298701298
+all,original strict,at least one sale,action,end,3061,33,0.010780790591310029
+all,original strict,at least one sale,action,food,2233,29,0.012987012987012988
+all,original strict,at least one sale,action,freeze/unfreeze request,2203,24,0.010894235133908307
+all,original strict,at least one sale,action,roll,2750,33,0.012
+all,original strict,at least one sale,action,sell,3061,33,0.010780790591310029
+all,original strict,at least one sale,action,start,3061,33,0.010780790591310029
+all,original strict,at least one sale,overall,(all),3061,33,0.010780790591310029
+all,original strict,at least one sale,seller before endpoint,Ant,165,0,0.0
+all,original strict,at least one sale,seller before endpoint,Armadillo,13,0,0.0
+all,original strict,at least one sale,seller before endpoint,Badger,20,0,0.0
+all,original strict,at least one sale,seller before endpoint,Beaver,229,2,0.008733624454148471
+all,original strict,at least one sale,seller before endpoint,Bison,3,0,0.0
+all,original strict,at least one sale,seller before endpoint,Blowfish,27,1,0.037037037037037035
+all,original strict,at least one sale,seller before endpoint,Boar,2,0,0.0
+all,original strict,at least one sale,seller before endpoint,Bus,3,0,0.0
+all,original strict,at least one sale,seller before endpoint,Camel,41,0,0.0
+all,original strict,at least one sale,seller before endpoint,Cat,41,1,0.024390243902439025
+all,original strict,at least one sale,seller before endpoint,Cow,210,5,0.023809523809523808
+all,original strict,at least one sale,seller before endpoint,Crab,48,0,0.0
+all,original strict,at least one sale,seller before endpoint,Cricket,162,0,0.0
+all,original strict,at least one sale,seller before endpoint,Crocodile,38,0,0.0
+all,original strict,at least one sale,seller before endpoint,Deer,99,0,0.0
+all,original strict,at least one sale,seller before endpoint,Dodo,20,0,0.0
+all,original strict,at least one sale,seller before endpoint,Dog,31,1,0.03225806451612903
+all,original strict,at least one sale,seller before endpoint,Dolphin,60,1,0.016666666666666666
+all,original strict,at least one sale,seller before endpoint,Dragon,8,0,0.0
+all,original strict,at least one sale,seller before endpoint,Duck,307,0,0.0
+all,original strict,at least one sale,seller before endpoint,Elephant,18,1,0.05555555555555555
+all,original strict,at least one sale,seller before endpoint,Fish,141,0,0.0
+all,original strict,at least one sale,seller before endpoint,Flamingo,60,0,0.0
+all,original strict,at least one sale,seller before endpoint,Fly,9,0,0.0
+all,original strict,at least one sale,seller before endpoint,Giraffe,127,3,0.023622047244094488
+all,original strict,at least one sale,seller before endpoint,Gorilla,9,0,0.0
+all,original strict,at least one sale,seller before endpoint,Hedgehog,40,1,0.025
+all,original strict,at least one sale,seller before endpoint,Hippo,11,0,0.0
+all,original strict,at least one sale,seller before endpoint,Horse,97,1,0.010309278350515464
+all,original strict,at least one sale,seller before endpoint,Kangaroo,71,0,0.0
+all,original strict,at least one sale,seller before endpoint,Leopard,2,0,0.0
+all,original strict,at least one sale,seller before endpoint,Mammoth,6,0,0.0
+all,original strict,at least one sale,seller before endpoint,Monkey,72,0,0.0
+all,original strict,at least one sale,seller before endpoint,Mosquito,50,1,0.02
+all,original strict,at least one sale,seller before endpoint,Otter,139,2,0.014388489208633094
+all,original strict,at least one sale,seller before endpoint,Ox,45,2,0.044444444444444446
+all,original strict,at least one sale,seller before endpoint,Parrot,26,0,0.0
+all,original strict,at least one sale,seller before endpoint,Peacock,63,0,0.0
+all,original strict,at least one sale,seller before endpoint,Penguin,48,3,0.0625
+all,original strict,at least one sale,seller before endpoint,Pig,251,1,0.00398406374501992
+all,original strict,at least one sale,seller before endpoint,Pigeon,260,2,0.007692307692307693
+all,original strict,at least one sale,seller before endpoint,Rabbit,124,2,0.016129032258064516
+all,original strict,at least one sale,seller before endpoint,Ram,1,0,0.0
+all,original strict,at least one sale,seller before endpoint,Rat,30,2,0.06666666666666667
+all,original strict,at least one sale,seller before endpoint,Rhino,9,0,0.0
+all,original strict,at least one sale,seller before endpoint,Rooster,5,0,0.0
+all,original strict,at least one sale,seller before endpoint,Scorpion,35,0,0.0
+all,original strict,at least one sale,seller before endpoint,Seal,3,0,0.0
+all,original strict,at least one sale,seller before endpoint,Shark,17,0,0.0
+all,original strict,at least one sale,seller before endpoint,Sheep,44,1,0.022727272727272728
+all,original strict,at least one sale,seller before endpoint,Skunk,44,1,0.022727272727272728
+all,original strict,at least one sale,seller before endpoint,Sloth,1,0,0.0
+all,original strict,at least one sale,seller before endpoint,Snail,187,3,0.016042780748663103
+all,original strict,at least one sale,seller before endpoint,Snake,7,1,0.14285714285714285
+all,original strict,at least one sale,seller before endpoint,Spider,74,1,0.013513513513513514
+all,original strict,at least one sale,seller before endpoint,Squirrel,30,0,0.0
+all,original strict,at least one sale,seller before endpoint,Swan,51,1,0.0196078431372549
+all,original strict,at least one sale,seller before endpoint,Tiger,10,0,0.0
+all,original strict,at least one sale,seller before endpoint,Turkey,38,0,0.0
+all,original strict,at least one sale,seller before endpoint,Turtle,34,1,0.029411764705882353
+all,original strict,at least one sale,seller before endpoint,Whale,38,0,0.0
+all,original strict,at least one sale,seller before endpoint,Wolverine,3,0,0.0
+all,original strict,at least one sale,seller before endpoint,Worm,76,0,0.0
+all,original strict,no sale,action,any pet purchase,2955,19,0.006429780033840948
+all,original strict,no sale,action,board merge,1337,3,0.002243829468960359
+all,original strict,no sale,action,board order request,2633,18,0.006836308393467528
+all,original strict,no sale,action,buy,2192,11,0.005018248175182482
+all,original strict,no sale,action,buy merge,1450,9,0.006206896551724138
+all,original strict,no sale,action,end,3674,28,0.007621121393576484
+all,original strict,no sale,action,food,2528,27,0.010680379746835443
+all,original strict,no sale,action,freeze/unfreeze request,2249,21,0.009337483325922631
+all,original strict,no sale,action,roll,3596,28,0.00778642936596218
+all,original strict,no sale,action,start,3674,28,0.007621121393576484
+all,original strict,no sale,overall,(all),3674,28,0.007621121393576484
+all,original strict,sell-heavy (2+),action,any pet purchase,839,8,0.009535160905840286
+all,original strict,sell-heavy (2+),action,board merge,335,2,0.005970149253731343
+all,original strict,sell-heavy (2+),action,board order request,771,8,0.010376134889753566
+all,original strict,sell-heavy (2+),action,buy,839,8,0.009535160905840286
+all,original strict,sell-heavy (2+),action,buy merge,283,4,0.014134275618374558
+all,original strict,sell-heavy (2+),action,end,840,8,0.009523809523809525
+all,original strict,sell-heavy (2+),action,food,588,6,0.01020408163265306
+all,original strict,sell-heavy (2+),action,freeze/unfreeze request,601,8,0.013311148086522463
+all,original strict,sell-heavy (2+),action,roll,738,8,0.01084010840108401
+all,original strict,sell-heavy (2+),action,sell,840,8,0.009523809523809525
+all,original strict,sell-heavy (2+),action,start,840,8,0.009523809523809525
+all,original strict,sell-heavy (2+),overall,(all),840,8,0.009523809523809525
+all,original strict,sell-heavy (2+),seller before endpoint,Ant,70,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Armadillo,4,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Badger,9,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Beaver,131,1,0.007633587786259542
+all,original strict,sell-heavy (2+),seller before endpoint,Bison,2,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Blowfish,9,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Camel,16,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Cat,14,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Cow,103,2,0.019417475728155338
+all,original strict,sell-heavy (2+),seller before endpoint,Crab,13,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Cricket,76,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Crocodile,16,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Deer,40,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Dodo,7,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Dog,7,1,0.14285714285714285
+all,original strict,sell-heavy (2+),seller before endpoint,Dolphin,21,1,0.047619047619047616
+all,original strict,sell-heavy (2+),seller before endpoint,Dragon,5,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Duck,214,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Elephant,4,1,0.25
+all,original strict,sell-heavy (2+),seller before endpoint,Fish,56,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Flamingo,20,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Fly,2,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Giraffe,47,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Gorilla,1,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Hedgehog,21,1,0.047619047619047616
+all,original strict,sell-heavy (2+),seller before endpoint,Hippo,4,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Horse,32,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Kangaroo,20,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Leopard,1,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Mammoth,1,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Monkey,17,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Mosquito,28,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Otter,55,1,0.01818181818181818
+all,original strict,sell-heavy (2+),seller before endpoint,Ox,17,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Parrot,11,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Peacock,26,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Penguin,10,1,0.1
+all,original strict,sell-heavy (2+),seller before endpoint,Pig,123,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Pigeon,111,1,0.009009009009009009
+all,original strict,sell-heavy (2+),seller before endpoint,Rabbit,63,2,0.031746031746031744
+all,original strict,sell-heavy (2+),seller before endpoint,Rat,9,1,0.1111111111111111
+all,original strict,sell-heavy (2+),seller before endpoint,Rhino,3,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Rooster,4,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Scorpion,17,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Seal,1,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Shark,8,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Sheep,14,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Skunk,22,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Sloth,1,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Snail,64,1,0.015625
+all,original strict,sell-heavy (2+),seller before endpoint,Snake,3,1,0.3333333333333333
+all,original strict,sell-heavy (2+),seller before endpoint,Spider,25,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Squirrel,11,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Swan,16,1,0.0625
+all,original strict,sell-heavy (2+),seller before endpoint,Tiger,4,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Turkey,21,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Turtle,12,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Whale,18,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Wolverine,1,0,0.0
+all,original strict,sell-heavy (2+),seller before endpoint,Worm,31,0,0.0
+all,record-certified new,all turns,action,any pet purchase,251,11,0.043824701195219126
+all,record-certified new,all turns,action,board merge,81,3,0.037037037037037035
+all,record-certified new,all turns,action,board order request,221,10,0.04524886877828054
+all,record-certified new,all turns,action,buy,251,11,0.043824701195219126
+all,record-certified new,all turns,action,buy merge,71,2,0.028169014084507043
+all,record-certified new,all turns,action,end,252,11,0.04365079365079365
+all,record-certified new,all turns,action,food,248,11,0.04435483870967742
+all,record-certified new,all turns,action,freeze/unfreeze request,194,11,0.05670103092783505
+all,record-certified new,all turns,action,roll,238,11,0.046218487394957986
+all,record-certified new,all turns,action,sell,251,11,0.043824701195219126
+all,record-certified new,all turns,action,start,252,11,0.04365079365079365
+all,record-certified new,all turns,overall,(all),252,11,0.04365079365079365
+all,record-certified new,all turns,seller before endpoint,Ant,7,1,0.14285714285714285
+all,record-certified new,all turns,seller before endpoint,Armadillo,1,0,0.0
+all,record-certified new,all turns,seller before endpoint,Beaver,5,0,0.0
+all,record-certified new,all turns,seller before endpoint,Bee,3,0,0.0
+all,record-certified new,all turns,seller before endpoint,Blowfish,1,0,0.0
+all,record-certified new,all turns,seller before endpoint,Bus,3,0,0.0
+all,record-certified new,all turns,seller before endpoint,Camel,4,0,0.0
+all,record-certified new,all turns,seller before endpoint,Cat,3,0,0.0
+all,record-certified new,all turns,seller before endpoint,Cow,187,6,0.03208556149732621
+all,record-certified new,all turns,seller before endpoint,Crab,4,0,0.0
+all,record-certified new,all turns,seller before endpoint,Cricket,9,0,0.0
+all,record-certified new,all turns,seller before endpoint,Crocodile,2,0,0.0
+all,record-certified new,all turns,seller before endpoint,Deer,12,1,0.08333333333333333
+all,record-certified new,all turns,seller before endpoint,Dog,4,0,0.0
+all,record-certified new,all turns,seller before endpoint,Dolphin,8,1,0.125
+all,record-certified new,all turns,seller before endpoint,Duck,1,0,0.0
+all,record-certified new,all turns,seller before endpoint,Elephant,3,0,0.0
+all,record-certified new,all turns,seller before endpoint,Fish,7,0,0.0
+all,record-certified new,all turns,seller before endpoint,Flamingo,1,0,0.0
+all,record-certified new,all turns,seller before endpoint,Fly,2,0,0.0
+all,record-certified new,all turns,seller before endpoint,Giraffe,20,2,0.1
+all,record-certified new,all turns,seller before endpoint,Gorilla,2,0,0.0
+all,record-certified new,all turns,seller before endpoint,Hedgehog,1,0,0.0
+all,record-certified new,all turns,seller before endpoint,Horse,7,0,0.0
+all,record-certified new,all turns,seller before endpoint,Kangaroo,6,1,0.16666666666666666
+all,record-certified new,all turns,seller before endpoint,Mammoth,2,0,0.0
+all,record-certified new,all turns,seller before endpoint,Monkey,12,0,0.0
+all,record-certified new,all turns,seller before endpoint,Mosquito,3,0,0.0
+all,record-certified new,all turns,seller before endpoint,Otter,9,0,0.0
+all,record-certified new,all turns,seller before endpoint,Ox,2,0,0.0
+all,record-certified new,all turns,seller before endpoint,Parrot,4,1,0.25
+all,record-certified new,all turns,seller before endpoint,Peacock,3,0,0.0
+all,record-certified new,all turns,seller before endpoint,Penguin,4,1,0.25
+all,record-certified new,all turns,seller before endpoint,Pig,24,0,0.0
+all,record-certified new,all turns,seller before endpoint,Pigeon,40,0,0.0
+all,record-certified new,all turns,seller before endpoint,Rabbit,3,0,0.0
+all,record-certified new,all turns,seller before endpoint,Ram,10,4,0.4
+all,record-certified new,all turns,seller before endpoint,Rat,2,1,0.5
+all,record-certified new,all turns,seller before endpoint,Rhino,3,1,0.3333333333333333
+all,record-certified new,all turns,seller before endpoint,Rooster,1,0,0.0
+all,record-certified new,all turns,seller before endpoint,Scorpion,4,0,0.0
+all,record-certified new,all turns,seller before endpoint,Seal,1,0,0.0
+all,record-certified new,all turns,seller before endpoint,Shark,1,0,0.0
+all,record-certified new,all turns,seller before endpoint,Sheep,5,0,0.0
+all,record-certified new,all turns,seller before endpoint,Skunk,5,0,0.0
+all,record-certified new,all turns,seller before endpoint,Snail,8,0,0.0
+all,record-certified new,all turns,seller before endpoint,Snake,3,0,0.0
+all,record-certified new,all turns,seller before endpoint,Spider,3,0,0.0
+all,record-certified new,all turns,seller before endpoint,Swan,5,0,0.0
+all,record-certified new,all turns,seller before endpoint,Tiger,1,0,0.0
+all,record-certified new,all turns,seller before endpoint,Turkey,6,0,0.0
+all,record-certified new,all turns,seller before endpoint,Whale,7,0,0.0
+all,record-certified new,all turns,seller before endpoint,Wolverine,1,1,1.0
+all,record-certified new,all turns,seller before endpoint,Worm,5,0,0.0
+all,record-certified new,all turns,seller before endpoint,Zombie Cricket,1,1,1.0
+all,record-certified new,all turns,seller before endpoint,Zombie Fly,1,0,0.0
+all,record-certified new,at least one sale,action,any pet purchase,251,11,0.043824701195219126
+all,record-certified new,at least one sale,action,board merge,81,3,0.037037037037037035
+all,record-certified new,at least one sale,action,board order request,220,10,0.045454545454545456
+all,record-certified new,at least one sale,action,buy,251,11,0.043824701195219126
+all,record-certified new,at least one sale,action,buy merge,71,2,0.028169014084507043
+all,record-certified new,at least one sale,action,end,251,11,0.043824701195219126
+all,record-certified new,at least one sale,action,food,247,11,0.044534412955465584
+all,record-certified new,at least one sale,action,freeze/unfreeze request,193,11,0.05699481865284974
+all,record-certified new,at least one sale,action,roll,237,11,0.046413502109704644
+all,record-certified new,at least one sale,action,sell,251,11,0.043824701195219126
+all,record-certified new,at least one sale,action,start,251,11,0.043824701195219126
+all,record-certified new,at least one sale,overall,(all),251,11,0.043824701195219126
+all,record-certified new,at least one sale,seller before endpoint,Ant,7,1,0.14285714285714285
+all,record-certified new,at least one sale,seller before endpoint,Armadillo,1,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Beaver,5,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Bee,3,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Blowfish,1,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Bus,3,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Camel,4,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Cat,3,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Cow,187,6,0.03208556149732621
+all,record-certified new,at least one sale,seller before endpoint,Crab,4,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Cricket,9,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Crocodile,2,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Deer,12,1,0.08333333333333333
+all,record-certified new,at least one sale,seller before endpoint,Dog,4,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Dolphin,8,1,0.125
+all,record-certified new,at least one sale,seller before endpoint,Duck,1,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Elephant,3,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Fish,7,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Flamingo,1,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Fly,2,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Giraffe,20,2,0.1
+all,record-certified new,at least one sale,seller before endpoint,Gorilla,2,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Hedgehog,1,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Horse,7,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Kangaroo,6,1,0.16666666666666666
+all,record-certified new,at least one sale,seller before endpoint,Mammoth,2,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Monkey,12,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Mosquito,3,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Otter,9,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Ox,2,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Parrot,4,1,0.25
+all,record-certified new,at least one sale,seller before endpoint,Peacock,3,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Penguin,4,1,0.25
+all,record-certified new,at least one sale,seller before endpoint,Pig,24,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Pigeon,40,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Rabbit,3,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Ram,10,4,0.4
+all,record-certified new,at least one sale,seller before endpoint,Rat,2,1,0.5
+all,record-certified new,at least one sale,seller before endpoint,Rhino,3,1,0.3333333333333333
+all,record-certified new,at least one sale,seller before endpoint,Rooster,1,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Scorpion,4,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Seal,1,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Shark,1,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Sheep,5,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Skunk,5,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Snail,8,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Snake,3,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Spider,3,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Swan,5,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Tiger,1,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Turkey,6,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Whale,7,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Wolverine,1,1,1.0
+all,record-certified new,at least one sale,seller before endpoint,Worm,5,0,0.0
+all,record-certified new,at least one sale,seller before endpoint,Zombie Cricket,1,1,1.0
+all,record-certified new,at least one sale,seller before endpoint,Zombie Fly,1,0,0.0
+all,record-certified new,no sale,action,board order request,1,0,0.0
+all,record-certified new,no sale,action,end,1,0,0.0
+all,record-certified new,no sale,action,food,1,0,0.0
+all,record-certified new,no sale,action,freeze/unfreeze request,1,0,0.0
+all,record-certified new,no sale,action,roll,1,0,0.0
+all,record-certified new,no sale,action,start,1,0,0.0
+all,record-certified new,no sale,overall,(all),1,0,0.0
+all,record-certified new,sell-heavy (2+),action,any pet purchase,196,8,0.04081632653061224
+all,record-certified new,sell-heavy (2+),action,board merge,50,3,0.06
+all,record-certified new,sell-heavy (2+),action,board order request,169,8,0.047337278106508875
+all,record-certified new,sell-heavy (2+),action,buy,196,8,0.04081632653061224
+all,record-certified new,sell-heavy (2+),action,buy merge,55,1,0.01818181818181818
+all,record-certified new,sell-heavy (2+),action,end,196,8,0.04081632653061224
+all,record-certified new,sell-heavy (2+),action,food,196,8,0.04081632653061224
+all,record-certified new,sell-heavy (2+),action,freeze/unfreeze request,150,8,0.05333333333333334
+all,record-certified new,sell-heavy (2+),action,roll,183,8,0.04371584699453552
+all,record-certified new,sell-heavy (2+),action,sell,196,8,0.04081632653061224
+all,record-certified new,sell-heavy (2+),action,start,196,8,0.04081632653061224
+all,record-certified new,sell-heavy (2+),overall,(all),196,8,0.04081632653061224
+all,record-certified new,sell-heavy (2+),seller before endpoint,Ant,7,1,0.14285714285714285
+all,record-certified new,sell-heavy (2+),seller before endpoint,Armadillo,1,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Beaver,5,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Blowfish,1,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Bus,2,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Camel,4,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Cat,3,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Cow,156,4,0.02564102564102564
+all,record-certified new,sell-heavy (2+),seller before endpoint,Crab,4,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Cricket,9,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Crocodile,2,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Deer,12,1,0.08333333333333333
+all,record-certified new,sell-heavy (2+),seller before endpoint,Dog,4,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Dolphin,8,1,0.125
+all,record-certified new,sell-heavy (2+),seller before endpoint,Duck,1,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Elephant,3,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Fish,7,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Flamingo,1,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Fly,2,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Giraffe,20,2,0.1
+all,record-certified new,sell-heavy (2+),seller before endpoint,Gorilla,2,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Hedgehog,1,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Horse,7,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Kangaroo,6,1,0.16666666666666666
+all,record-certified new,sell-heavy (2+),seller before endpoint,Mammoth,1,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Monkey,12,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Mosquito,3,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Otter,9,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Ox,2,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Parrot,4,1,0.25
+all,record-certified new,sell-heavy (2+),seller before endpoint,Peacock,3,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Penguin,4,1,0.25
+all,record-certified new,sell-heavy (2+),seller before endpoint,Pig,17,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Pigeon,30,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Rabbit,3,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Ram,9,4,0.4444444444444444
+all,record-certified new,sell-heavy (2+),seller before endpoint,Rat,2,1,0.5
+all,record-certified new,sell-heavy (2+),seller before endpoint,Rhino,3,1,0.3333333333333333
+all,record-certified new,sell-heavy (2+),seller before endpoint,Rooster,1,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Scorpion,4,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Seal,1,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Shark,1,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Sheep,5,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Skunk,5,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Snail,8,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Snake,3,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Spider,3,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Swan,5,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Tiger,1,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Turkey,6,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Whale,7,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Wolverine,1,1,1.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Worm,5,0,0.0
+all,record-certified new,sell-heavy (2+),seller before endpoint,Zombie Fly,1,0,0.0
+dev,new pet/summon,all turns,action,any pet purchase,435,14,0.03218390804597701
+dev,new pet/summon,all turns,action,board merge,130,4,0.03076923076923077
+dev,new pet/summon,all turns,action,board order request,382,12,0.031413612565445025
+dev,new pet/summon,all turns,action,buy,433,13,0.03002309468822171
+dev,new pet/summon,all turns,action,buy merge,118,7,0.059322033898305086
+dev,new pet/summon,all turns,action,end,436,14,0.03211009174311927
+dev,new pet/summon,all turns,action,food,388,13,0.03350515463917526
+dev,new pet/summon,all turns,action,freeze/unfreeze request,326,14,0.04294478527607362
+dev,new pet/summon,all turns,action,roll,397,13,0.0327455919395466
+dev,new pet/summon,all turns,action,sell,405,11,0.027160493827160494
+dev,new pet/summon,all turns,action,start,436,14,0.03211009174311927
+dev,new pet/summon,all turns,overall,(all),436,14,0.03211009174311927
+dev,new pet/summon,all turns,seller before endpoint,(unidentified seller),172,4,0.023255813953488372
+dev,new pet/summon,all turns,seller before endpoint,Ant,21,1,0.047619047619047616
+dev,new pet/summon,all turns,seller before endpoint,Armadillo,1,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Beaver,23,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Bee,1,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Blowfish,1,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Bus,2,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Camel,4,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Cat,4,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Cow,144,6,0.041666666666666664
+dev,new pet/summon,all turns,seller before endpoint,Crab,6,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Cricket,18,1,0.05555555555555555
+dev,new pet/summon,all turns,seller before endpoint,Crocodile,5,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Deer,13,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Dog,4,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Dolphin,11,1,0.09090909090909091
+dev,new pet/summon,all turns,seller before endpoint,Dragon,3,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Duck,26,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Elephant,4,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Fish,17,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Flamingo,3,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Fly,1,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Giraffe,29,1,0.034482758620689655
+dev,new pet/summon,all turns,seller before endpoint,Gorilla,1,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Hedgehog,2,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Horse,18,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Kangaroo,9,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Mammoth,2,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Monkey,16,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Mosquito,4,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Otter,16,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Ox,5,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Parrot,6,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Peacock,7,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Penguin,4,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Pig,39,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Pigeon,60,1,0.016666666666666666
+dev,new pet/summon,all turns,seller before endpoint,Rabbit,8,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Ram,7,4,0.5714285714285714
+dev,new pet/summon,all turns,seller before endpoint,Rat,2,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Rhino,1,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Scorpion,6,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Shark,3,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Sheep,6,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Skunk,6,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Snail,13,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Snake,3,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Spider,7,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Squirrel,4,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Swan,11,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Tiger,3,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Turkey,10,1,0.1
+dev,new pet/summon,all turns,seller before endpoint,Turtle,5,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Whale,8,0,0.0
+dev,new pet/summon,all turns,seller before endpoint,Wolverine,2,1,0.5
+dev,new pet/summon,all turns,seller before endpoint,Worm,6,0,0.0
+dev,new pet/summon,at least one sale,action,any pet purchase,405,11,0.027160493827160494
+dev,new pet/summon,at least one sale,action,board merge,112,2,0.017857142857142856
+dev,new pet/summon,at least one sale,action,board order request,352,9,0.02556818181818182
+dev,new pet/summon,at least one sale,action,buy,405,11,0.027160493827160494
+dev,new pet/summon,at least one sale,action,buy merge,106,6,0.05660377358490566
+dev,new pet/summon,at least one sale,action,end,405,11,0.027160493827160494
+dev,new pet/summon,at least one sale,action,food,357,10,0.028011204481792718
+dev,new pet/summon,at least one sale,action,freeze/unfreeze request,304,11,0.03618421052631579
+dev,new pet/summon,at least one sale,action,roll,374,11,0.029411764705882353
+dev,new pet/summon,at least one sale,action,sell,405,11,0.027160493827160494
+dev,new pet/summon,at least one sale,action,start,405,11,0.027160493827160494
+dev,new pet/summon,at least one sale,overall,(all),405,11,0.027160493827160494
+dev,new pet/summon,at least one sale,seller before endpoint,(unidentified seller),172,4,0.023255813953488372
+dev,new pet/summon,at least one sale,seller before endpoint,Ant,21,1,0.047619047619047616
+dev,new pet/summon,at least one sale,seller before endpoint,Armadillo,1,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Beaver,23,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Bee,1,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Blowfish,1,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Bus,2,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Camel,4,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Cat,4,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Cow,144,6,0.041666666666666664
+dev,new pet/summon,at least one sale,seller before endpoint,Crab,6,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Cricket,18,1,0.05555555555555555
+dev,new pet/summon,at least one sale,seller before endpoint,Crocodile,5,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Deer,13,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Dog,4,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Dolphin,11,1,0.09090909090909091
+dev,new pet/summon,at least one sale,seller before endpoint,Dragon,3,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Duck,26,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Elephant,4,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Fish,17,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Flamingo,3,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Fly,1,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Giraffe,29,1,0.034482758620689655
+dev,new pet/summon,at least one sale,seller before endpoint,Gorilla,1,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Hedgehog,2,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Horse,18,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Kangaroo,9,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Mammoth,2,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Monkey,16,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Mosquito,4,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Otter,16,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Ox,5,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Parrot,6,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Peacock,7,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Penguin,4,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Pig,39,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Pigeon,60,1,0.016666666666666666
+dev,new pet/summon,at least one sale,seller before endpoint,Rabbit,8,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Ram,7,4,0.5714285714285714
+dev,new pet/summon,at least one sale,seller before endpoint,Rat,2,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Rhino,1,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Scorpion,6,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Shark,3,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Sheep,6,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Skunk,6,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Snail,13,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Snake,3,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Spider,7,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Squirrel,4,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Swan,11,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Tiger,3,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Turkey,10,1,0.1
+dev,new pet/summon,at least one sale,seller before endpoint,Turtle,5,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Whale,8,0,0.0
+dev,new pet/summon,at least one sale,seller before endpoint,Wolverine,2,1,0.5
+dev,new pet/summon,at least one sale,seller before endpoint,Worm,6,0,0.0
+dev,new pet/summon,no sale,action,any pet purchase,30,3,0.1
+dev,new pet/summon,no sale,action,board merge,18,2,0.1111111111111111
+dev,new pet/summon,no sale,action,board order request,30,3,0.1
+dev,new pet/summon,no sale,action,buy,28,2,0.07142857142857142
+dev,new pet/summon,no sale,action,buy merge,12,1,0.08333333333333333
+dev,new pet/summon,no sale,action,end,31,3,0.0967741935483871
+dev,new pet/summon,no sale,action,food,31,3,0.0967741935483871
+dev,new pet/summon,no sale,action,freeze/unfreeze request,22,3,0.13636363636363635
+dev,new pet/summon,no sale,action,roll,23,2,0.08695652173913043
+dev,new pet/summon,no sale,action,start,31,3,0.0967741935483871
+dev,new pet/summon,no sale,overall,(all),31,3,0.0967741935483871
+dev,new pet/summon,sell-heavy (2+),action,any pet purchase,291,9,0.030927835051546393
+dev,new pet/summon,sell-heavy (2+),action,board merge,72,2,0.027777777777777776
+dev,new pet/summon,sell-heavy (2+),action,board order request,244,7,0.028688524590163935
+dev,new pet/summon,sell-heavy (2+),action,buy,291,9,0.030927835051546393
+dev,new pet/summon,sell-heavy (2+),action,buy merge,70,5,0.07142857142857142
+dev,new pet/summon,sell-heavy (2+),action,end,291,9,0.030927835051546393
+dev,new pet/summon,sell-heavy (2+),action,food,251,8,0.03187250996015936
+dev,new pet/summon,sell-heavy (2+),action,freeze/unfreeze request,220,9,0.04090909090909091
+dev,new pet/summon,sell-heavy (2+),action,roll,261,9,0.034482758620689655
+dev,new pet/summon,sell-heavy (2+),action,sell,291,9,0.030927835051546393
+dev,new pet/summon,sell-heavy (2+),action,start,291,9,0.030927835051546393
+dev,new pet/summon,sell-heavy (2+),overall,(all),291,9,0.030927835051546393
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,(unidentified seller),148,4,0.02702702702702703
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Ant,16,1,0.0625
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Armadillo,1,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Beaver,18,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Blowfish,1,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Bus,2,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Camel,3,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Cat,3,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Cow,125,4,0.032
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Crab,6,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Cricket,15,1,0.06666666666666667
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Crocodile,5,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Deer,13,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Dog,3,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Dolphin,9,1,0.1111111111111111
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Dragon,3,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Duck,25,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Elephant,4,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Fish,14,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Flamingo,3,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Fly,1,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Giraffe,26,1,0.038461538461538464
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Gorilla,1,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Hedgehog,2,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Horse,17,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Kangaroo,5,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Mammoth,1,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Monkey,16,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Mosquito,4,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Otter,14,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Ox,5,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Parrot,6,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Peacock,5,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Penguin,4,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Pig,31,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Pigeon,48,1,0.020833333333333332
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Rabbit,7,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Ram,6,4,0.6666666666666666
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Rat,1,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Rhino,1,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Scorpion,6,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Shark,3,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Sheep,4,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Skunk,5,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Snail,11,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Snake,3,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Spider,5,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Squirrel,3,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Swan,11,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Tiger,3,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Turkey,8,1,0.125
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Turtle,5,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Whale,6,0,0.0
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Wolverine,2,1,0.5
+dev,new pet/summon,sell-heavy (2+),seller before endpoint,Worm,6,0,0.0
+dev,original strict,all turns,action,any pet purchase,3809,39,0.010238907849829351
+dev,original strict,all turns,action,board merge,1529,4,0.002616088947024199
+dev,original strict,all turns,action,board order request,3372,33,0.009786476868327402
+dev,original strict,all turns,action,buy,3313,32,0.009658919408391186
+dev,original strict,all turns,action,buy merge,1686,19,0.011269276393831554
+dev,original strict,all turns,action,end,4304,45,0.010455390334572491
+dev,original strict,all turns,action,food,3066,41,0.013372472276581865
+dev,original strict,all turns,action,freeze/unfreeze request,2856,32,0.011204481792717087
+dev,original strict,all turns,action,roll,4055,45,0.011097410604192354
+dev,original strict,all turns,action,sell,1925,23,0.011948051948051949
+dev,original strict,all turns,action,start,4304,45,0.010455390334572491
+dev,original strict,all turns,overall,(all),4304,45,0.010455390334572491
+dev,original strict,all turns,seller before endpoint,Ant,107,0,0.0
+dev,original strict,all turns,seller before endpoint,Armadillo,9,0,0.0
+dev,original strict,all turns,seller before endpoint,Badger,10,0,0.0
+dev,original strict,all turns,seller before endpoint,Beaver,136,2,0.014705882352941176
+dev,original strict,all turns,seller before endpoint,Bison,3,0,0.0
+dev,original strict,all turns,seller before endpoint,Blowfish,19,1,0.05263157894736842
+dev,original strict,all turns,seller before endpoint,Boar,2,0,0.0
+dev,original strict,all turns,seller before endpoint,Bus,1,0,0.0
+dev,original strict,all turns,seller before endpoint,Camel,28,0,0.0
+dev,original strict,all turns,seller before endpoint,Cat,27,1,0.037037037037037035
+dev,original strict,all turns,seller before endpoint,Cow,133,3,0.022556390977443608
+dev,original strict,all turns,seller before endpoint,Crab,25,0,0.0
+dev,original strict,all turns,seller before endpoint,Cricket,94,0,0.0
+dev,original strict,all turns,seller before endpoint,Crocodile,21,0,0.0
+dev,original strict,all turns,seller before endpoint,Deer,63,0,0.0
+dev,original strict,all turns,seller before endpoint,Dodo,14,0,0.0
+dev,original strict,all turns,seller before endpoint,Dog,19,0,0.0
+dev,original strict,all turns,seller before endpoint,Dolphin,36,1,0.027777777777777776
+dev,original strict,all turns,seller before endpoint,Dragon,6,0,0.0
+dev,original strict,all turns,seller before endpoint,Duck,188,0,0.0
+dev,original strict,all turns,seller before endpoint,Elephant,11,0,0.0
+dev,original strict,all turns,seller before endpoint,Fish,98,0,0.0
+dev,original strict,all turns,seller before endpoint,Flamingo,33,0,0.0
+dev,original strict,all turns,seller before endpoint,Fly,6,0,0.0
+dev,original strict,all turns,seller before endpoint,Giraffe,72,3,0.041666666666666664
+dev,original strict,all turns,seller before endpoint,Gorilla,2,0,0.0
+dev,original strict,all turns,seller before endpoint,Hedgehog,18,0,0.0
+dev,original strict,all turns,seller before endpoint,Hippo,9,0,0.0
+dev,original strict,all turns,seller before endpoint,Horse,66,1,0.015151515151515152
+dev,original strict,all turns,seller before endpoint,Kangaroo,49,0,0.0
+dev,original strict,all turns,seller before endpoint,Mammoth,5,0,0.0
+dev,original strict,all turns,seller before endpoint,Monkey,39,0,0.0
+dev,original strict,all turns,seller before endpoint,Mosquito,30,0,0.0
+dev,original strict,all turns,seller before endpoint,Otter,88,1,0.011363636363636364
+dev,original strict,all turns,seller before endpoint,Ox,32,2,0.0625
+dev,original strict,all turns,seller before endpoint,Parrot,18,0,0.0
+dev,original strict,all turns,seller before endpoint,Peacock,35,0,0.0
+dev,original strict,all turns,seller before endpoint,Penguin,32,1,0.03125
+dev,original strict,all turns,seller before endpoint,Pig,158,1,0.006329113924050633
+dev,original strict,all turns,seller before endpoint,Pigeon,168,2,0.011904761904761904
+dev,original strict,all turns,seller before endpoint,Rabbit,87,2,0.022988505747126436
+dev,original strict,all turns,seller before endpoint,Ram,1,0,0.0
+dev,original strict,all turns,seller before endpoint,Rat,22,0,0.0
+dev,original strict,all turns,seller before endpoint,Rhino,6,0,0.0
+dev,original strict,all turns,seller before endpoint,Rooster,5,0,0.0
+dev,original strict,all turns,seller before endpoint,Scorpion,17,0,0.0
+dev,original strict,all turns,seller before endpoint,Seal,2,0,0.0
+dev,original strict,all turns,seller before endpoint,Shark,13,0,0.0
+dev,original strict,all turns,seller before endpoint,Sheep,26,1,0.038461538461538464
+dev,original strict,all turns,seller before endpoint,Skunk,26,0,0.0
+dev,original strict,all turns,seller before endpoint,Sloth,1,0,0.0
+dev,original strict,all turns,seller before endpoint,Snail,118,2,0.01694915254237288
+dev,original strict,all turns,seller before endpoint,Snake,7,1,0.14285714285714285
+dev,original strict,all turns,seller before endpoint,Spider,47,1,0.02127659574468085
+dev,original strict,all turns,seller before endpoint,Squirrel,20,0,0.0
+dev,original strict,all turns,seller before endpoint,Swan,28,1,0.03571428571428571
+dev,original strict,all turns,seller before endpoint,Tiger,8,0,0.0
+dev,original strict,all turns,seller before endpoint,Turkey,23,0,0.0
+dev,original strict,all turns,seller before endpoint,Turtle,25,1,0.04
+dev,original strict,all turns,seller before endpoint,Whale,19,0,0.0
+dev,original strict,all turns,seller before endpoint,Wolverine,1,0,0.0
+dev,original strict,all turns,seller before endpoint,Worm,50,0,0.0
+dev,original strict,at least one sale,action,any pet purchase,1916,23,0.012004175365344467
+dev,original strict,at least one sale,action,board merge,668,2,0.0029940119760479044
+dev,original strict,at least one sale,action,board order request,1657,20,0.012070006035003017
+dev,original strict,at least one sale,action,buy,1908,23,0.012054507337526206
+dev,original strict,at least one sale,action,buy merge,764,12,0.015706806282722512
+dev,original strict,at least one sale,action,end,1925,23,0.011948051948051949
+dev,original strict,at least one sale,action,food,1416,20,0.014124293785310734
+dev,original strict,at least one sale,action,freeze/unfreeze request,1414,16,0.011315417256011316
+dev,original strict,at least one sale,action,roll,1723,23,0.013348810214741729
+dev,original strict,at least one sale,action,sell,1925,23,0.011948051948051949
+dev,original strict,at least one sale,action,start,1925,23,0.011948051948051949
+dev,original strict,at least one sale,overall,(all),1925,23,0.011948051948051949
+dev,original strict,at least one sale,seller before endpoint,Ant,107,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Armadillo,9,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Badger,10,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Beaver,136,2,0.014705882352941176
+dev,original strict,at least one sale,seller before endpoint,Bison,3,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Blowfish,19,1,0.05263157894736842
+dev,original strict,at least one sale,seller before endpoint,Boar,2,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Bus,1,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Camel,28,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Cat,27,1,0.037037037037037035
+dev,original strict,at least one sale,seller before endpoint,Cow,133,3,0.022556390977443608
+dev,original strict,at least one sale,seller before endpoint,Crab,25,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Cricket,94,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Crocodile,21,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Deer,63,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Dodo,14,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Dog,19,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Dolphin,36,1,0.027777777777777776
+dev,original strict,at least one sale,seller before endpoint,Dragon,6,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Duck,188,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Elephant,11,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Fish,98,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Flamingo,33,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Fly,6,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Giraffe,72,3,0.041666666666666664
+dev,original strict,at least one sale,seller before endpoint,Gorilla,2,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Hedgehog,18,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Hippo,9,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Horse,66,1,0.015151515151515152
+dev,original strict,at least one sale,seller before endpoint,Kangaroo,49,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Mammoth,5,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Monkey,39,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Mosquito,30,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Otter,88,1,0.011363636363636364
+dev,original strict,at least one sale,seller before endpoint,Ox,32,2,0.0625
+dev,original strict,at least one sale,seller before endpoint,Parrot,18,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Peacock,35,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Penguin,32,1,0.03125
+dev,original strict,at least one sale,seller before endpoint,Pig,158,1,0.006329113924050633
+dev,original strict,at least one sale,seller before endpoint,Pigeon,168,2,0.011904761904761904
+dev,original strict,at least one sale,seller before endpoint,Rabbit,87,2,0.022988505747126436
+dev,original strict,at least one sale,seller before endpoint,Ram,1,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Rat,22,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Rhino,6,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Rooster,5,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Scorpion,17,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Seal,2,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Shark,13,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Sheep,26,1,0.038461538461538464
+dev,original strict,at least one sale,seller before endpoint,Skunk,26,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Sloth,1,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Snail,118,2,0.01694915254237288
+dev,original strict,at least one sale,seller before endpoint,Snake,7,1,0.14285714285714285
+dev,original strict,at least one sale,seller before endpoint,Spider,47,1,0.02127659574468085
+dev,original strict,at least one sale,seller before endpoint,Squirrel,20,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Swan,28,1,0.03571428571428571
+dev,original strict,at least one sale,seller before endpoint,Tiger,8,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Turkey,23,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Turtle,25,1,0.04
+dev,original strict,at least one sale,seller before endpoint,Whale,19,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Wolverine,1,0,0.0
+dev,original strict,at least one sale,seller before endpoint,Worm,50,0,0.0
+dev,original strict,no sale,action,any pet purchase,1893,16,0.008452192287374538
+dev,original strict,no sale,action,board merge,861,2,0.0023228803716608595
+dev,original strict,no sale,action,board order request,1715,13,0.007580174927113703
+dev,original strict,no sale,action,buy,1405,9,0.006405693950177936
+dev,original strict,no sale,action,buy merge,922,7,0.007592190889370932
+dev,original strict,no sale,action,end,2379,22,0.009247583018074821
+dev,original strict,no sale,action,food,1650,21,0.012727272727272728
+dev,original strict,no sale,action,freeze/unfreeze request,1442,16,0.011095700416088766
+dev,original strict,no sale,action,roll,2332,22,0.009433962264150943
+dev,original strict,no sale,action,start,2379,22,0.009247583018074821
+dev,original strict,no sale,overall,(all),2379,22,0.009247583018074821
+dev,original strict,sell-heavy (2+),action,any pet purchase,523,5,0.009560229445506692
+dev,original strict,sell-heavy (2+),action,board merge,216,1,0.004629629629629629
+dev,original strict,sell-heavy (2+),action,board order request,477,5,0.010482180293501049
+dev,original strict,sell-heavy (2+),action,buy,523,5,0.009560229445506692
+dev,original strict,sell-heavy (2+),action,buy merge,184,3,0.016304347826086956
+dev,original strict,sell-heavy (2+),action,end,523,5,0.009560229445506692
+dev,original strict,sell-heavy (2+),action,food,363,4,0.011019283746556474
+dev,original strict,sell-heavy (2+),action,freeze/unfreeze request,382,5,0.013089005235602094
+dev,original strict,sell-heavy (2+),action,roll,460,5,0.010869565217391304
+dev,original strict,sell-heavy (2+),action,sell,523,5,0.009560229445506692
+dev,original strict,sell-heavy (2+),action,start,523,5,0.009560229445506692
+dev,original strict,sell-heavy (2+),overall,(all),523,5,0.009560229445506692
+dev,original strict,sell-heavy (2+),seller before endpoint,Ant,44,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Armadillo,2,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Badger,5,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Beaver,75,1,0.013333333333333334
+dev,original strict,sell-heavy (2+),seller before endpoint,Bison,2,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Blowfish,5,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Camel,11,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Cat,11,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Cow,68,2,0.029411764705882353
+dev,original strict,sell-heavy (2+),seller before endpoint,Crab,4,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Cricket,43,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Crocodile,7,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Deer,30,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Dodo,5,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Dog,3,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Dolphin,14,1,0.07142857142857142
+dev,original strict,sell-heavy (2+),seller before endpoint,Dragon,5,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Duck,128,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Elephant,2,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Fish,36,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Flamingo,12,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Fly,1,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Giraffe,22,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Hedgehog,8,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Hippo,3,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Horse,22,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Kangaroo,14,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Mammoth,1,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Monkey,10,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Mosquito,17,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Otter,36,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Ox,10,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Parrot,9,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Peacock,11,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Penguin,6,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Pig,79,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Pigeon,64,1,0.015625
+dev,original strict,sell-heavy (2+),seller before endpoint,Rabbit,41,2,0.04878048780487805
+dev,original strict,sell-heavy (2+),seller before endpoint,Rat,7,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Rhino,3,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Rooster,4,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Scorpion,11,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Shark,6,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Sheep,9,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Skunk,15,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Sloth,1,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Snail,48,1,0.020833333333333332
+dev,original strict,sell-heavy (2+),seller before endpoint,Snake,3,1,0.3333333333333333
+dev,original strict,sell-heavy (2+),seller before endpoint,Spider,16,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Squirrel,7,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Swan,9,1,0.1111111111111111
+dev,original strict,sell-heavy (2+),seller before endpoint,Tiger,3,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Turkey,14,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Turtle,8,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Whale,9,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Wolverine,1,0,0.0
+dev,original strict,sell-heavy (2+),seller before endpoint,Worm,20,0,0.0
+dev,record-certified new,all turns,action,any pet purchase,156,6,0.038461538461538464
+dev,record-certified new,all turns,action,board merge,43,1,0.023255813953488372
+dev,record-certified new,all turns,action,board order request,138,6,0.043478260869565216
+dev,record-certified new,all turns,action,buy,156,6,0.038461538461538464
+dev,record-certified new,all turns,action,buy merge,45,2,0.044444444444444446
+dev,record-certified new,all turns,action,end,157,6,0.03821656050955414
+dev,record-certified new,all turns,action,food,155,6,0.03870967741935484
+dev,record-certified new,all turns,action,freeze/unfreeze request,124,6,0.04838709677419355
+dev,record-certified new,all turns,action,roll,149,6,0.040268456375838924
+dev,record-certified new,all turns,action,sell,156,6,0.038461538461538464
+dev,record-certified new,all turns,action,start,157,6,0.03821656050955414
+dev,record-certified new,all turns,overall,(all),157,6,0.03821656050955414
+dev,record-certified new,all turns,seller before endpoint,Ant,5,1,0.2
+dev,record-certified new,all turns,seller before endpoint,Armadillo,1,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Beaver,2,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Bee,1,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Blowfish,1,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Bus,2,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Camel,2,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Cat,3,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Cow,118,4,0.03389830508474576
+dev,record-certified new,all turns,seller before endpoint,Crab,2,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Cricket,5,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Crocodile,1,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Deer,7,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Dog,2,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Dolphin,5,1,0.2
+dev,record-certified new,all turns,seller before endpoint,Duck,1,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Elephant,2,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Fish,3,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Fly,1,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Giraffe,14,1,0.07142857142857142
+dev,record-certified new,all turns,seller before endpoint,Gorilla,1,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Horse,6,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Kangaroo,3,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Mammoth,2,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Monkey,8,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Mosquito,2,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Otter,5,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Ox,2,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Parrot,2,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Peacock,2,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Pig,15,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Pigeon,29,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Rabbit,2,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Ram,5,2,0.4
+dev,record-certified new,all turns,seller before endpoint,Rat,1,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Scorpion,4,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Shark,1,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Sheep,4,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Skunk,3,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Snail,4,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Snake,3,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Spider,2,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Swan,4,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Tiger,1,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Turkey,4,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Whale,5,0,0.0
+dev,record-certified new,all turns,seller before endpoint,Wolverine,1,1,1.0
+dev,record-certified new,all turns,seller before endpoint,Worm,4,0,0.0
+dev,record-certified new,at least one sale,action,any pet purchase,156,6,0.038461538461538464
+dev,record-certified new,at least one sale,action,board merge,43,1,0.023255813953488372
+dev,record-certified new,at least one sale,action,board order request,137,6,0.043795620437956206
+dev,record-certified new,at least one sale,action,buy,156,6,0.038461538461538464
+dev,record-certified new,at least one sale,action,buy merge,45,2,0.044444444444444446
+dev,record-certified new,at least one sale,action,end,156,6,0.038461538461538464
+dev,record-certified new,at least one sale,action,food,154,6,0.03896103896103896
+dev,record-certified new,at least one sale,action,freeze/unfreeze request,123,6,0.04878048780487805
+dev,record-certified new,at least one sale,action,roll,148,6,0.04054054054054054
+dev,record-certified new,at least one sale,action,sell,156,6,0.038461538461538464
+dev,record-certified new,at least one sale,action,start,156,6,0.038461538461538464
+dev,record-certified new,at least one sale,overall,(all),156,6,0.038461538461538464
+dev,record-certified new,at least one sale,seller before endpoint,Ant,5,1,0.2
+dev,record-certified new,at least one sale,seller before endpoint,Armadillo,1,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Beaver,2,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Bee,1,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Blowfish,1,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Bus,2,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Camel,2,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Cat,3,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Cow,118,4,0.03389830508474576
+dev,record-certified new,at least one sale,seller before endpoint,Crab,2,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Cricket,5,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Crocodile,1,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Deer,7,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Dog,2,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Dolphin,5,1,0.2
+dev,record-certified new,at least one sale,seller before endpoint,Duck,1,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Elephant,2,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Fish,3,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Fly,1,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Giraffe,14,1,0.07142857142857142
+dev,record-certified new,at least one sale,seller before endpoint,Gorilla,1,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Horse,6,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Kangaroo,3,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Mammoth,2,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Monkey,8,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Mosquito,2,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Otter,5,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Ox,2,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Parrot,2,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Peacock,2,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Pig,15,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Pigeon,29,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Rabbit,2,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Ram,5,2,0.4
+dev,record-certified new,at least one sale,seller before endpoint,Rat,1,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Scorpion,4,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Shark,1,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Sheep,4,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Skunk,3,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Snail,4,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Snake,3,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Spider,2,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Swan,4,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Tiger,1,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Turkey,4,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Whale,5,0,0.0
+dev,record-certified new,at least one sale,seller before endpoint,Wolverine,1,1,1.0
+dev,record-certified new,at least one sale,seller before endpoint,Worm,4,0,0.0
+dev,record-certified new,no sale,action,board order request,1,0,0.0
+dev,record-certified new,no sale,action,end,1,0,0.0
+dev,record-certified new,no sale,action,food,1,0,0.0
+dev,record-certified new,no sale,action,freeze/unfreeze request,1,0,0.0
+dev,record-certified new,no sale,action,roll,1,0,0.0
+dev,record-certified new,no sale,action,start,1,0,0.0
+dev,record-certified new,no sale,overall,(all),1,0,0.0
+dev,record-certified new,sell-heavy (2+),action,any pet purchase,125,4,0.032
+dev,record-certified new,sell-heavy (2+),action,board merge,29,1,0.034482758620689655
+dev,record-certified new,sell-heavy (2+),action,board order request,108,4,0.037037037037037035
+dev,record-certified new,sell-heavy (2+),action,buy,125,4,0.032
+dev,record-certified new,sell-heavy (2+),action,buy merge,36,1,0.027777777777777776
+dev,record-certified new,sell-heavy (2+),action,end,125,4,0.032
+dev,record-certified new,sell-heavy (2+),action,food,125,4,0.032
+dev,record-certified new,sell-heavy (2+),action,freeze/unfreeze request,100,4,0.04
+dev,record-certified new,sell-heavy (2+),action,roll,117,4,0.03418803418803419
+dev,record-certified new,sell-heavy (2+),action,sell,125,4,0.032
+dev,record-certified new,sell-heavy (2+),action,start,125,4,0.032
+dev,record-certified new,sell-heavy (2+),overall,(all),125,4,0.032
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Ant,5,1,0.2
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Armadillo,1,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Beaver,2,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Blowfish,1,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Bus,2,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Camel,2,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Cat,3,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Cow,99,2,0.020202020202020204
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Crab,2,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Cricket,5,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Crocodile,1,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Deer,7,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Dog,2,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Dolphin,5,1,0.2
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Duck,1,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Elephant,2,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Fish,3,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Fly,1,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Giraffe,14,1,0.07142857142857142
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Gorilla,1,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Horse,6,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Kangaroo,3,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Mammoth,1,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Monkey,8,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Mosquito,2,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Otter,5,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Ox,2,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Parrot,2,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Peacock,2,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Pig,12,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Pigeon,23,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Rabbit,2,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Ram,4,2,0.5
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Rat,1,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Scorpion,4,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Shark,1,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Sheep,4,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Skunk,3,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Snail,4,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Snake,3,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Spider,2,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Swan,4,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Tiger,1,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Turkey,4,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Whale,5,0,0.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Wolverine,1,1,1.0
+dev,record-certified new,sell-heavy (2+),seller before endpoint,Worm,4,0,0.0
+heldout,new pet/summon,all turns,action,any pet purchase,267,9,0.033707865168539325
+heldout,new pet/summon,all turns,action,board merge,93,4,0.043010752688172046
+heldout,new pet/summon,all turns,action,board order request,233,8,0.034334763948497854
+heldout,new pet/summon,all turns,action,buy,267,9,0.033707865168539325
+heldout,new pet/summon,all turns,action,buy merge,68,0,0.0
+heldout,new pet/summon,all turns,action,end,267,9,0.033707865168539325
+heldout,new pet/summon,all turns,action,food,231,9,0.03896103896103896
+heldout,new pet/summon,all turns,action,freeze/unfreeze request,180,8,0.044444444444444446
+heldout,new pet/summon,all turns,action,roll,238,8,0.03361344537815126
+heldout,new pet/summon,all turns,action,sell,239,8,0.03347280334728033
+heldout,new pet/summon,all turns,action,start,267,9,0.033707865168539325
+heldout,new pet/summon,all turns,overall,(all),267,9,0.033707865168539325
+heldout,new pet/summon,all turns,seller before endpoint,(unidentified seller),104,2,0.019230769230769232
+heldout,new pet/summon,all turns,seller before endpoint,Ant,12,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Badger,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Beaver,13,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Bee,2,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Blowfish,5,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Boar,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Bus,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Camel,4,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Cat,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Cow,82,3,0.036585365853658534
+heldout,new pet/summon,all turns,seller before endpoint,Crab,3,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Cricket,13,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Crocodile,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Deer,9,2,0.2222222222222222
+heldout,new pet/summon,all turns,seller before endpoint,Dog,2,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Dolphin,5,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Dragon,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Duck,13,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Elephant,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Fish,9,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Flamingo,2,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Fly,3,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Giraffe,8,1,0.125
+heldout,new pet/summon,all turns,seller before endpoint,Gorilla,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Hedgehog,5,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Horse,7,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Kangaroo,7,1,0.14285714285714285
+heldout,new pet/summon,all turns,seller before endpoint,Mammoth,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Monkey,7,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Mosquito,10,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Otter,14,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Ox,2,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Parrot,2,1,0.5
+heldout,new pet/summon,all turns,seller before endpoint,Peacock,5,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Penguin,6,1,0.16666666666666666
+heldout,new pet/summon,all turns,seller before endpoint,Pig,23,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Pigeon,31,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Rabbit,3,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Ram,5,2,0.4
+heldout,new pet/summon,all turns,seller before endpoint,Rat,3,1,0.3333333333333333
+heldout,new pet/summon,all turns,seller before endpoint,Rhino,4,1,0.25
+heldout,new pet/summon,all turns,seller before endpoint,Rooster,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Scorpion,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Seal,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Sheep,4,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Skunk,2,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Snail,12,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Snake,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Spider,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Squirrel,2,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Swan,6,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Tiger,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Turkey,4,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Turtle,3,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Whale,2,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Wolverine,1,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Worm,2,0,0.0
+heldout,new pet/summon,all turns,seller before endpoint,Zombie Cricket,1,1,1.0
+heldout,new pet/summon,all turns,seller before endpoint,Zombie Fly,1,0,0.0
+heldout,new pet/summon,at least one sale,action,any pet purchase,239,8,0.03347280334728033
+heldout,new pet/summon,at least one sale,action,board merge,78,4,0.05128205128205128
+heldout,new pet/summon,at least one sale,action,board order request,205,7,0.03414634146341464
+heldout,new pet/summon,at least one sale,action,buy,239,8,0.03347280334728033
+heldout,new pet/summon,at least one sale,action,buy merge,58,0,0.0
+heldout,new pet/summon,at least one sale,action,end,239,8,0.03347280334728033
+heldout,new pet/summon,at least one sale,action,food,203,8,0.03940886699507389
+heldout,new pet/summon,at least one sale,action,freeze/unfreeze request,167,7,0.041916167664670656
+heldout,new pet/summon,at least one sale,action,roll,220,7,0.031818181818181815
+heldout,new pet/summon,at least one sale,action,sell,239,8,0.03347280334728033
+heldout,new pet/summon,at least one sale,action,start,239,8,0.03347280334728033
+heldout,new pet/summon,at least one sale,overall,(all),239,8,0.03347280334728033
+heldout,new pet/summon,at least one sale,seller before endpoint,(unidentified seller),104,2,0.019230769230769232
+heldout,new pet/summon,at least one sale,seller before endpoint,Ant,12,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Badger,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Beaver,13,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Bee,2,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Blowfish,5,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Boar,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Bus,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Camel,4,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Cat,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Cow,82,3,0.036585365853658534
+heldout,new pet/summon,at least one sale,seller before endpoint,Crab,3,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Cricket,13,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Crocodile,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Deer,9,2,0.2222222222222222
+heldout,new pet/summon,at least one sale,seller before endpoint,Dog,2,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Dolphin,5,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Dragon,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Duck,13,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Elephant,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Fish,9,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Flamingo,2,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Fly,3,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Giraffe,8,1,0.125
+heldout,new pet/summon,at least one sale,seller before endpoint,Gorilla,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Hedgehog,5,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Horse,7,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Kangaroo,7,1,0.14285714285714285
+heldout,new pet/summon,at least one sale,seller before endpoint,Mammoth,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Monkey,7,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Mosquito,10,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Otter,14,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Ox,2,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Parrot,2,1,0.5
+heldout,new pet/summon,at least one sale,seller before endpoint,Peacock,5,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Penguin,6,1,0.16666666666666666
+heldout,new pet/summon,at least one sale,seller before endpoint,Pig,23,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Pigeon,31,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Rabbit,3,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Ram,5,2,0.4
+heldout,new pet/summon,at least one sale,seller before endpoint,Rat,3,1,0.3333333333333333
+heldout,new pet/summon,at least one sale,seller before endpoint,Rhino,4,1,0.25
+heldout,new pet/summon,at least one sale,seller before endpoint,Rooster,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Scorpion,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Seal,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Sheep,4,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Skunk,2,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Snail,12,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Snake,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Spider,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Squirrel,2,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Swan,6,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Tiger,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Turkey,4,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Turtle,3,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Whale,2,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Wolverine,1,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Worm,2,0,0.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Zombie Cricket,1,1,1.0
+heldout,new pet/summon,at least one sale,seller before endpoint,Zombie Fly,1,0,0.0
+heldout,new pet/summon,no sale,action,any pet purchase,28,1,0.03571428571428571
+heldout,new pet/summon,no sale,action,board merge,15,0,0.0
+heldout,new pet/summon,no sale,action,board order request,28,1,0.03571428571428571
+heldout,new pet/summon,no sale,action,buy,28,1,0.03571428571428571
+heldout,new pet/summon,no sale,action,buy merge,10,0,0.0
+heldout,new pet/summon,no sale,action,end,28,1,0.03571428571428571
+heldout,new pet/summon,no sale,action,food,28,1,0.03571428571428571
+heldout,new pet/summon,no sale,action,freeze/unfreeze request,13,1,0.07692307692307693
+heldout,new pet/summon,no sale,action,roll,18,1,0.05555555555555555
+heldout,new pet/summon,no sale,action,start,28,1,0.03571428571428571
+heldout,new pet/summon,no sale,overall,(all),28,1,0.03571428571428571
+heldout,new pet/summon,sell-heavy (2+),action,any pet purchase,176,5,0.028409090909090908
+heldout,new pet/summon,sell-heavy (2+),action,board merge,45,3,0.06666666666666667
+heldout,new pet/summon,sell-heavy (2+),action,board order request,146,5,0.03424657534246575
+heldout,new pet/summon,sell-heavy (2+),action,buy,176,5,0.028409090909090908
+heldout,new pet/summon,sell-heavy (2+),action,buy merge,39,0,0.0
+heldout,new pet/summon,sell-heavy (2+),action,end,176,5,0.028409090909090908
+heldout,new pet/summon,sell-heavy (2+),action,food,144,5,0.034722222222222224
+heldout,new pet/summon,sell-heavy (2+),action,freeze/unfreeze request,121,5,0.04132231404958678
+heldout,new pet/summon,sell-heavy (2+),action,roll,159,4,0.025157232704402517
+heldout,new pet/summon,sell-heavy (2+),action,sell,176,5,0.028409090909090908
+heldout,new pet/summon,sell-heavy (2+),action,start,176,5,0.028409090909090908
+heldout,new pet/summon,sell-heavy (2+),overall,(all),176,5,0.028409090909090908
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,(unidentified seller),94,1,0.010638297872340425
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Ant,12,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Badger,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Beaver,11,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Blowfish,4,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Boar,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Camel,3,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Cat,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Cow,68,3,0.04411764705882353
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Crab,2,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Cricket,13,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Crocodile,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Deer,7,1,0.14285714285714285
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Dog,2,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Dolphin,5,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Dragon,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Duck,13,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Elephant,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Fish,8,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Flamingo,2,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Fly,3,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Giraffe,8,1,0.125
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Gorilla,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Hedgehog,4,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Horse,6,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Kangaroo,7,1,0.14285714285714285
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Mammoth,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Monkey,6,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Mosquito,9,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Otter,14,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Ox,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Parrot,2,1,0.5
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Peacock,4,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Penguin,5,1,0.2
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Pig,16,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Pigeon,25,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Rabbit,3,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Ram,5,2,0.4
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Rat,2,1,0.5
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Rhino,4,1,0.25
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Rooster,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Scorpion,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Seal,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Sheep,4,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Skunk,2,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Snail,11,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Snake,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Spider,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Squirrel,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Swan,3,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Tiger,1,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Turkey,4,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Turtle,3,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Whale,2,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Worm,2,0,0.0
+heldout,new pet/summon,sell-heavy (2+),seller before endpoint,Zombie Fly,1,0,0.0
+heldout,original strict,all turns,action,any pet purchase,2191,13,0.005933363760839799
+heldout,original strict,all turns,action,board merge,858,3,0.0034965034965034965
+heldout,original strict,all turns,action,board order request,1897,12,0.0063257775434897206
+heldout,original strict,all turns,action,buy,1915,12,0.006266318537859008
+heldout,original strict,all turns,action,buy merge,996,7,0.007028112449799197
+heldout,original strict,all turns,action,end,2431,16,0.00658165364047717
+heldout,original strict,all turns,action,food,1695,15,0.008849557522123894
+heldout,original strict,all turns,action,freeze/unfreeze request,1596,13,0.008145363408521303
+heldout,original strict,all turns,action,roll,2291,16,0.006983849847228284
+heldout,original strict,all turns,action,sell,1136,10,0.008802816901408451
+heldout,original strict,all turns,action,start,2431,16,0.00658165364047717
+heldout,original strict,all turns,overall,(all),2431,16,0.00658165364047717
+heldout,original strict,all turns,seller before endpoint,Ant,58,0,0.0
+heldout,original strict,all turns,seller before endpoint,Armadillo,4,0,0.0
+heldout,original strict,all turns,seller before endpoint,Badger,10,0,0.0
+heldout,original strict,all turns,seller before endpoint,Beaver,93,0,0.0
+heldout,original strict,all turns,seller before endpoint,Blowfish,8,0,0.0
+heldout,original strict,all turns,seller before endpoint,Bus,2,0,0.0
+heldout,original strict,all turns,seller before endpoint,Camel,13,0,0.0
+heldout,original strict,all turns,seller before endpoint,Cat,14,0,0.0
+heldout,original strict,all turns,seller before endpoint,Cow,77,2,0.025974025974025976
+heldout,original strict,all turns,seller before endpoint,Crab,23,0,0.0
+heldout,original strict,all turns,seller before endpoint,Cricket,68,0,0.0
+heldout,original strict,all turns,seller before endpoint,Crocodile,17,0,0.0
+heldout,original strict,all turns,seller before endpoint,Deer,36,0,0.0
+heldout,original strict,all turns,seller before endpoint,Dodo,6,0,0.0
+heldout,original strict,all turns,seller before endpoint,Dog,12,1,0.08333333333333333
+heldout,original strict,all turns,seller before endpoint,Dolphin,24,0,0.0
+heldout,original strict,all turns,seller before endpoint,Dragon,2,0,0.0
+heldout,original strict,all turns,seller before endpoint,Duck,119,0,0.0
+heldout,original strict,all turns,seller before endpoint,Elephant,7,1,0.14285714285714285
+heldout,original strict,all turns,seller before endpoint,Fish,43,0,0.0
+heldout,original strict,all turns,seller before endpoint,Flamingo,27,0,0.0
+heldout,original strict,all turns,seller before endpoint,Fly,3,0,0.0
+heldout,original strict,all turns,seller before endpoint,Giraffe,55,0,0.0
+heldout,original strict,all turns,seller before endpoint,Gorilla,7,0,0.0
+heldout,original strict,all turns,seller before endpoint,Hedgehog,22,1,0.045454545454545456
+heldout,original strict,all turns,seller before endpoint,Hippo,2,0,0.0
+heldout,original strict,all turns,seller before endpoint,Horse,31,0,0.0
+heldout,original strict,all turns,seller before endpoint,Kangaroo,22,0,0.0
+heldout,original strict,all turns,seller before endpoint,Leopard,2,0,0.0
+heldout,original strict,all turns,seller before endpoint,Mammoth,1,0,0.0
+heldout,original strict,all turns,seller before endpoint,Monkey,33,0,0.0
+heldout,original strict,all turns,seller before endpoint,Mosquito,20,1,0.05
+heldout,original strict,all turns,seller before endpoint,Otter,51,1,0.0196078431372549
+heldout,original strict,all turns,seller before endpoint,Ox,13,0,0.0
+heldout,original strict,all turns,seller before endpoint,Parrot,8,0,0.0
+heldout,original strict,all turns,seller before endpoint,Peacock,28,0,0.0
+heldout,original strict,all turns,seller before endpoint,Penguin,16,2,0.125
+heldout,original strict,all turns,seller before endpoint,Pig,93,0,0.0
+heldout,original strict,all turns,seller before endpoint,Pigeon,92,0,0.0
+heldout,original strict,all turns,seller before endpoint,Rabbit,37,0,0.0
+heldout,original strict,all turns,seller before endpoint,Rat,8,2,0.25
+heldout,original strict,all turns,seller before endpoint,Rhino,3,0,0.0
+heldout,original strict,all turns,seller before endpoint,Scorpion,18,0,0.0
+heldout,original strict,all turns,seller before endpoint,Seal,1,0,0.0
+heldout,original strict,all turns,seller before endpoint,Shark,4,0,0.0
+heldout,original strict,all turns,seller before endpoint,Sheep,18,0,0.0
+heldout,original strict,all turns,seller before endpoint,Skunk,18,1,0.05555555555555555
+heldout,original strict,all turns,seller before endpoint,Snail,69,1,0.014492753623188406
+heldout,original strict,all turns,seller before endpoint,Spider,27,0,0.0
+heldout,original strict,all turns,seller before endpoint,Squirrel,10,0,0.0
+heldout,original strict,all turns,seller before endpoint,Swan,23,0,0.0
+heldout,original strict,all turns,seller before endpoint,Tiger,2,0,0.0
+heldout,original strict,all turns,seller before endpoint,Turkey,15,0,0.0
+heldout,original strict,all turns,seller before endpoint,Turtle,9,0,0.0
+heldout,original strict,all turns,seller before endpoint,Whale,19,0,0.0
+heldout,original strict,all turns,seller before endpoint,Wolverine,2,0,0.0
+heldout,original strict,all turns,seller before endpoint,Worm,26,0,0.0
+heldout,original strict,at least one sale,action,any pet purchase,1129,10,0.008857395925597875
+heldout,original strict,at least one sale,action,board merge,382,2,0.005235602094240838
+heldout,original strict,at least one sale,action,board order request,979,7,0.007150153217568948
+heldout,original strict,at least one sale,action,buy,1128,10,0.008865248226950355
+heldout,original strict,at least one sale,action,buy merge,468,5,0.010683760683760684
+heldout,original strict,at least one sale,action,end,1136,10,0.008802816901408451
+heldout,original strict,at least one sale,action,food,817,9,0.011015911872705019
+heldout,original strict,at least one sale,action,freeze/unfreeze request,789,8,0.010139416983523447
+heldout,original strict,at least one sale,action,roll,1027,10,0.009737098344693282
+heldout,original strict,at least one sale,action,sell,1136,10,0.008802816901408451
+heldout,original strict,at least one sale,action,start,1136,10,0.008802816901408451
+heldout,original strict,at least one sale,overall,(all),1136,10,0.008802816901408451
+heldout,original strict,at least one sale,seller before endpoint,Ant,58,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Armadillo,4,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Badger,10,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Beaver,93,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Blowfish,8,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Bus,2,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Camel,13,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Cat,14,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Cow,77,2,0.025974025974025976
+heldout,original strict,at least one sale,seller before endpoint,Crab,23,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Cricket,68,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Crocodile,17,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Deer,36,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Dodo,6,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Dog,12,1,0.08333333333333333
+heldout,original strict,at least one sale,seller before endpoint,Dolphin,24,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Dragon,2,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Duck,119,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Elephant,7,1,0.14285714285714285
+heldout,original strict,at least one sale,seller before endpoint,Fish,43,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Flamingo,27,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Fly,3,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Giraffe,55,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Gorilla,7,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Hedgehog,22,1,0.045454545454545456
+heldout,original strict,at least one sale,seller before endpoint,Hippo,2,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Horse,31,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Kangaroo,22,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Leopard,2,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Mammoth,1,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Monkey,33,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Mosquito,20,1,0.05
+heldout,original strict,at least one sale,seller before endpoint,Otter,51,1,0.0196078431372549
+heldout,original strict,at least one sale,seller before endpoint,Ox,13,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Parrot,8,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Peacock,28,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Penguin,16,2,0.125
+heldout,original strict,at least one sale,seller before endpoint,Pig,93,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Pigeon,92,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Rabbit,37,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Rat,8,2,0.25
+heldout,original strict,at least one sale,seller before endpoint,Rhino,3,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Scorpion,18,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Seal,1,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Shark,4,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Sheep,18,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Skunk,18,1,0.05555555555555555
+heldout,original strict,at least one sale,seller before endpoint,Snail,69,1,0.014492753623188406
+heldout,original strict,at least one sale,seller before endpoint,Spider,27,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Squirrel,10,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Swan,23,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Tiger,2,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Turkey,15,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Turtle,9,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Whale,19,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Wolverine,2,0,0.0
+heldout,original strict,at least one sale,seller before endpoint,Worm,26,0,0.0
+heldout,original strict,no sale,action,any pet purchase,1062,3,0.002824858757062147
+heldout,original strict,no sale,action,board merge,476,1,0.0021008403361344537
+heldout,original strict,no sale,action,board order request,918,5,0.0054466230936819175
+heldout,original strict,no sale,action,buy,787,2,0.0025412960609911056
+heldout,original strict,no sale,action,buy merge,528,2,0.003787878787878788
+heldout,original strict,no sale,action,end,1295,6,0.004633204633204633
+heldout,original strict,no sale,action,food,878,6,0.00683371298405467
+heldout,original strict,no sale,action,freeze/unfreeze request,807,5,0.006195786864931847
+heldout,original strict,no sale,action,roll,1264,6,0.004746835443037975
+heldout,original strict,no sale,action,start,1295,6,0.004633204633204633
+heldout,original strict,no sale,overall,(all),1295,6,0.004633204633204633
+heldout,original strict,sell-heavy (2+),action,any pet purchase,316,3,0.00949367088607595
+heldout,original strict,sell-heavy (2+),action,board merge,119,1,0.008403361344537815
+heldout,original strict,sell-heavy (2+),action,board order request,294,3,0.01020408163265306
+heldout,original strict,sell-heavy (2+),action,buy,316,3,0.00949367088607595
+heldout,original strict,sell-heavy (2+),action,buy merge,99,1,0.010101010101010102
+heldout,original strict,sell-heavy (2+),action,end,317,3,0.00946372239747634
+heldout,original strict,sell-heavy (2+),action,food,225,2,0.008888888888888889
+heldout,original strict,sell-heavy (2+),action,freeze/unfreeze request,219,3,0.0136986301369863
+heldout,original strict,sell-heavy (2+),action,roll,278,3,0.01079136690647482
+heldout,original strict,sell-heavy (2+),action,sell,317,3,0.00946372239747634
+heldout,original strict,sell-heavy (2+),action,start,317,3,0.00946372239747634
+heldout,original strict,sell-heavy (2+),overall,(all),317,3,0.00946372239747634
+heldout,original strict,sell-heavy (2+),seller before endpoint,Ant,26,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Armadillo,2,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Badger,4,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Beaver,56,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Blowfish,4,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Camel,5,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Cat,3,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Cow,35,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Crab,9,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Cricket,33,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Crocodile,9,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Deer,10,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Dodo,2,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Dog,4,1,0.25
+heldout,original strict,sell-heavy (2+),seller before endpoint,Dolphin,7,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Duck,86,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Elephant,2,1,0.5
+heldout,original strict,sell-heavy (2+),seller before endpoint,Fish,20,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Flamingo,8,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Fly,1,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Giraffe,25,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Gorilla,1,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Hedgehog,13,1,0.07692307692307693
+heldout,original strict,sell-heavy (2+),seller before endpoint,Hippo,1,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Horse,10,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Kangaroo,6,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Leopard,1,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Monkey,7,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Mosquito,11,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Otter,19,1,0.05263157894736842
+heldout,original strict,sell-heavy (2+),seller before endpoint,Ox,7,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Parrot,2,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Peacock,15,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Penguin,4,1,0.25
+heldout,original strict,sell-heavy (2+),seller before endpoint,Pig,44,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Pigeon,47,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Rabbit,22,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Rat,2,1,0.5
+heldout,original strict,sell-heavy (2+),seller before endpoint,Scorpion,6,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Seal,1,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Shark,2,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Sheep,5,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Skunk,7,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Snail,16,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Spider,9,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Squirrel,4,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Swan,7,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Tiger,1,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Turkey,7,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Turtle,4,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Whale,9,0,0.0
+heldout,original strict,sell-heavy (2+),seller before endpoint,Worm,11,0,0.0
+heldout,record-certified new,all turns,action,any pet purchase,95,5,0.05263157894736842
+heldout,record-certified new,all turns,action,board merge,38,2,0.05263157894736842
+heldout,record-certified new,all turns,action,board order request,83,4,0.04819277108433735
+heldout,record-certified new,all turns,action,buy,95,5,0.05263157894736842
+heldout,record-certified new,all turns,action,buy merge,26,0,0.0
+heldout,record-certified new,all turns,action,end,95,5,0.05263157894736842
+heldout,record-certified new,all turns,action,food,93,5,0.053763440860215055
+heldout,record-certified new,all turns,action,freeze/unfreeze request,70,5,0.07142857142857142
+heldout,record-certified new,all turns,action,roll,89,5,0.056179775280898875
+heldout,record-certified new,all turns,action,sell,95,5,0.05263157894736842
+heldout,record-certified new,all turns,action,start,95,5,0.05263157894736842
+heldout,record-certified new,all turns,overall,(all),95,5,0.05263157894736842
+heldout,record-certified new,all turns,seller before endpoint,Ant,2,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Beaver,3,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Bee,2,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Bus,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Camel,2,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Cow,69,2,0.028985507246376812
+heldout,record-certified new,all turns,seller before endpoint,Crab,2,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Cricket,4,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Crocodile,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Deer,5,1,0.2
+heldout,record-certified new,all turns,seller before endpoint,Dog,2,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Dolphin,3,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Elephant,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Fish,4,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Flamingo,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Fly,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Giraffe,6,1,0.16666666666666666
+heldout,record-certified new,all turns,seller before endpoint,Gorilla,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Hedgehog,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Horse,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Kangaroo,3,1,0.3333333333333333
+heldout,record-certified new,all turns,seller before endpoint,Monkey,4,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Mosquito,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Otter,4,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Parrot,2,1,0.5
+heldout,record-certified new,all turns,seller before endpoint,Peacock,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Penguin,4,1,0.25
+heldout,record-certified new,all turns,seller before endpoint,Pig,9,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Pigeon,11,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Rabbit,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Ram,5,2,0.4
+heldout,record-certified new,all turns,seller before endpoint,Rat,1,1,1.0
+heldout,record-certified new,all turns,seller before endpoint,Rhino,3,1,0.3333333333333333
+heldout,record-certified new,all turns,seller before endpoint,Rooster,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Seal,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Sheep,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Skunk,2,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Snail,4,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Spider,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Swan,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Turkey,2,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Whale,2,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Worm,1,0,0.0
+heldout,record-certified new,all turns,seller before endpoint,Zombie Cricket,1,1,1.0
+heldout,record-certified new,all turns,seller before endpoint,Zombie Fly,1,0,0.0
+heldout,record-certified new,at least one sale,action,any pet purchase,95,5,0.05263157894736842
+heldout,record-certified new,at least one sale,action,board merge,38,2,0.05263157894736842
+heldout,record-certified new,at least one sale,action,board order request,83,4,0.04819277108433735
+heldout,record-certified new,at least one sale,action,buy,95,5,0.05263157894736842
+heldout,record-certified new,at least one sale,action,buy merge,26,0,0.0
+heldout,record-certified new,at least one sale,action,end,95,5,0.05263157894736842
+heldout,record-certified new,at least one sale,action,food,93,5,0.053763440860215055
+heldout,record-certified new,at least one sale,action,freeze/unfreeze request,70,5,0.07142857142857142
+heldout,record-certified new,at least one sale,action,roll,89,5,0.056179775280898875
+heldout,record-certified new,at least one sale,action,sell,95,5,0.05263157894736842
+heldout,record-certified new,at least one sale,action,start,95,5,0.05263157894736842
+heldout,record-certified new,at least one sale,overall,(all),95,5,0.05263157894736842
+heldout,record-certified new,at least one sale,seller before endpoint,Ant,2,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Beaver,3,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Bee,2,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Bus,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Camel,2,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Cow,69,2,0.028985507246376812
+heldout,record-certified new,at least one sale,seller before endpoint,Crab,2,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Cricket,4,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Crocodile,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Deer,5,1,0.2
+heldout,record-certified new,at least one sale,seller before endpoint,Dog,2,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Dolphin,3,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Elephant,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Fish,4,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Flamingo,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Fly,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Giraffe,6,1,0.16666666666666666
+heldout,record-certified new,at least one sale,seller before endpoint,Gorilla,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Hedgehog,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Horse,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Kangaroo,3,1,0.3333333333333333
+heldout,record-certified new,at least one sale,seller before endpoint,Monkey,4,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Mosquito,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Otter,4,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Parrot,2,1,0.5
+heldout,record-certified new,at least one sale,seller before endpoint,Peacock,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Penguin,4,1,0.25
+heldout,record-certified new,at least one sale,seller before endpoint,Pig,9,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Pigeon,11,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Rabbit,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Ram,5,2,0.4
+heldout,record-certified new,at least one sale,seller before endpoint,Rat,1,1,1.0
+heldout,record-certified new,at least one sale,seller before endpoint,Rhino,3,1,0.3333333333333333
+heldout,record-certified new,at least one sale,seller before endpoint,Rooster,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Seal,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Sheep,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Skunk,2,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Snail,4,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Spider,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Swan,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Turkey,2,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Whale,2,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Worm,1,0,0.0
+heldout,record-certified new,at least one sale,seller before endpoint,Zombie Cricket,1,1,1.0
+heldout,record-certified new,at least one sale,seller before endpoint,Zombie Fly,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),action,any pet purchase,71,4,0.056338028169014086
+heldout,record-certified new,sell-heavy (2+),action,board merge,21,2,0.09523809523809523
+heldout,record-certified new,sell-heavy (2+),action,board order request,61,4,0.06557377049180328
+heldout,record-certified new,sell-heavy (2+),action,buy,71,4,0.056338028169014086
+heldout,record-certified new,sell-heavy (2+),action,buy merge,19,0,0.0
+heldout,record-certified new,sell-heavy (2+),action,end,71,4,0.056338028169014086
+heldout,record-certified new,sell-heavy (2+),action,food,71,4,0.056338028169014086
+heldout,record-certified new,sell-heavy (2+),action,freeze/unfreeze request,50,4,0.08
+heldout,record-certified new,sell-heavy (2+),action,roll,66,4,0.06060606060606061
+heldout,record-certified new,sell-heavy (2+),action,sell,71,4,0.056338028169014086
+heldout,record-certified new,sell-heavy (2+),action,start,71,4,0.056338028169014086
+heldout,record-certified new,sell-heavy (2+),overall,(all),71,4,0.056338028169014086
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Ant,2,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Beaver,3,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Camel,2,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Cow,57,2,0.03508771929824561
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Crab,2,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Cricket,4,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Crocodile,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Deer,5,1,0.2
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Dog,2,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Dolphin,3,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Elephant,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Fish,4,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Flamingo,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Fly,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Giraffe,6,1,0.16666666666666666
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Gorilla,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Hedgehog,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Horse,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Kangaroo,3,1,0.3333333333333333
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Monkey,4,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Mosquito,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Otter,4,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Parrot,2,1,0.5
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Peacock,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Penguin,4,1,0.25
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Pig,5,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Pigeon,7,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Rabbit,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Ram,5,2,0.4
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Rat,1,1,1.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Rhino,3,1,0.3333333333333333
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Rooster,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Seal,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Sheep,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Skunk,2,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Snail,4,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Spider,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Swan,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Turkey,2,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Whale,2,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Worm,1,0,0.0
+heldout,record-certified new,sell-heavy (2+),seller before endpoint,Zombie Fly,1,0,0.0
