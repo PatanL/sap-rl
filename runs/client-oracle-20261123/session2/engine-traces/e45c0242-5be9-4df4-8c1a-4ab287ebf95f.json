@@ -1,0 +1,348 @@
+{
+  "battle_id": "e45c0242-5be9-4df4-8c1a-4ab287ebf95f",
+  "recorded_seed": -1724265195,
+  "engine_seed": 2570702101,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Badger",
+          "attack": 36,
+          "health": 42,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 4,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dragon",
+          "attack": 10,
+          "health": 13,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 27,
+          "health": 33,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Deer",
+          "attack": 24,
+          "health": 20,
+          "perk": "status-extra-life",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Hedgehog",
+          "attack": 4,
+          "health": 2,
+          "perk": "status-extra-life",
+          "slot": 0
+        },
+        {
+          "pet": "Hedgehog",
+          "attack": 7,
+          "health": 3,
+          "perk": "status-steak-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Camel",
+          "attack": 6,
+          "health": 13,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 12,
+          "health": 24,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 13,
+          "health": 17,
+          "perk": "status-melon-armor",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Badger",
+          "attack": 36,
+          "health": 42,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 4,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dragon",
+          "attack": 10,
+          "health": 13,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 27,
+          "health": 33,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Deer",
+          "attack": 24,
+          "health": 20,
+          "perk": "status-extra-life",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Hedgehog",
+          "attack": 4,
+          "health": 2,
+          "perk": "status-extra-life",
+          "slot": 0
+        },
+        {
+          "pet": "Hedgehog",
+          "attack": 7,
+          "health": 3,
+          "perk": "status-steak-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Camel",
+          "attack": 6,
+          "health": 13,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 12,
+          "health": 8,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 13,
+          "health": 11,
+          "perk": "status-melon-armor",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Badger",
+          "attack": 36,
+          "health": 30,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Dragon",
+          "attack": 10,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 27,
+          "health": 25,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Deer",
+          "attack": 24,
+          "health": 12,
+          "perk": "status-extra-life",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Hedgehog",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Hedgehog",
+          "attack": 7,
+          "health": 1,
+          "perk": "status-steak-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Camel",
+          "attack": 6,
+          "health": 11,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 14,
+          "health": 10,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 13,
+          "health": 11,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Badger",
+          "attack": 36,
+          "health": 7,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 27,
+          "health": 15,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 24,
+          "health": 2,
+          "perk": "status-extra-life",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Camel",
+          "attack": 6,
+          "health": 7,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 18,
+          "health": 14,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 13,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Badger",
+          "attack": 36,
+          "health": 1,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 27,
+          "health": 15,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 24,
+          "health": 2,
+          "perk": "status-extra-life",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 20,
+          "health": 18,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 13,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Deer",
+          "attack": 24,
+          "health": 1,
+          "perk": "status-extra-life",
+          "slot": 0
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Deer",
+          "attack": 24,
+          "health": 1,
+          "perk": "status-extra-life",
+          "slot": 0
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

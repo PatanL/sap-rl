@@ -1,0 +1,571 @@
+{
+  "summary": {
+    "all": {
+      "eligible": 7445,
+      "attempted": 6735,
+      "skipped": 710,
+      "matched": 6596,
+      "missed": 139,
+      "complete": 6730,
+      "board": 6620,
+      "wallet": 6730,
+      "frozenIds": 6730,
+      "frozenDetail": 6705,
+      "retention": 6710,
+      "skips": {
+        "unidentified purchased/merged pet": 670,
+        "unmapped purchased food enum": 7,
+        "unidentified referenced board pet after summon": 33
+      },
+      "errors": {
+        "recorded action could not be mapped": 5
+      }
+    },
+    "dev": {
+      "eligible": 4745,
+      "attempted": 4304,
+      "skipped": 441,
+      "matched": 4211,
+      "missed": 93,
+      "complete": 4302,
+      "board": 4229,
+      "wallet": 4302,
+      "frozenIds": 4302,
+      "frozenDetail": 4283,
+      "retention": 4288,
+      "skips": {
+        "unidentified purchased/merged pet": 418,
+        "unmapped purchased food enum": 5,
+        "unidentified referenced board pet after summon": 18
+      },
+      "errors": {
+        "recorded action could not be mapped": 2
+      }
+    },
+    "heldout": {
+      "eligible": 2700,
+      "attempted": 2431,
+      "skipped": 269,
+      "matched": 2385,
+      "missed": 46,
+      "complete": 2428,
+      "board": 2391,
+      "wallet": 2428,
+      "frozenIds": 2428,
+      "frozenDetail": 2422,
+      "retention": 2422,
+      "skips": {
+        "unidentified purchased/merged pet": 252,
+        "unidentified referenced board pet after summon": 15,
+        "unmapped purchased food enum": 2
+      },
+      "errors": {
+        "recorded action could not be mapped": 3
+      }
+    }
+  },
+  "versions": {
+    "v31": {
+      "all": {
+        "eligible": 7445,
+        "attempted": 6735,
+        "skipped": 710,
+        "matched": 6596,
+        "missed": 139,
+        "complete": 6730,
+        "board": 6620,
+        "wallet": 6730,
+        "frozenIds": 6730,
+        "frozenDetail": 6705,
+        "retention": 6710,
+        "skips": {
+          "unidentified purchased/merged pet": 670,
+          "unmapped purchased food enum": 7,
+          "unidentified referenced board pet after summon": 33
+        },
+        "errors": {
+          "recorded action could not be mapped": 5
+        }
+      },
+      "dev": {
+        "eligible": 4745,
+        "attempted": 4304,
+        "skipped": 441,
+        "matched": 4211,
+        "missed": 93,
+        "complete": 4302,
+        "board": 4229,
+        "wallet": 4302,
+        "frozenIds": 4302,
+        "frozenDetail": 4283,
+        "retention": 4288,
+        "skips": {
+          "unidentified purchased/merged pet": 418,
+          "unmapped purchased food enum": 5,
+          "unidentified referenced board pet after summon": 18
+        },
+        "errors": {
+          "recorded action could not be mapped": 2
+        }
+      },
+      "heldout": {
+        "eligible": 2700,
+        "attempted": 2431,
+        "skipped": 269,
+        "matched": 2385,
+        "missed": 46,
+        "complete": 2428,
+        "board": 2391,
+        "wallet": 2428,
+        "frozenIds": 2428,
+        "frozenDetail": 2422,
+        "retention": 2422,
+        "skips": {
+          "unidentified purchased/merged pet": 252,
+          "unidentified referenced board pet after summon": 15,
+          "unmapped purchased food enum": 2
+        },
+        "errors": {
+          "recorded action could not be mapped": 3
+        }
+      }
+    },
+    "v30": {
+      "all": {
+        "eligible": 7445,
+        "attempted": 6735,
+        "skipped": 710,
+        "matched": 6596,
+        "missed": 139,
+        "complete": 6730,
+        "board": 6620,
+        "wallet": 6730,
+        "frozenIds": 6730,
+        "frozenDetail": 6705,
+        "retention": 6710,
+        "skips": {
+          "unidentified purchased/merged pet": 670,
+          "unmapped purchased food enum": 7,
+          "unidentified referenced board pet after summon": 33
+        },
+        "errors": {
+          "recorded action could not be mapped": 5
+        }
+      },
+      "dev": {
+        "eligible": 4745,
+        "attempted": 4304,
+        "skipped": 441,
+        "matched": 4211,
+        "missed": 93,
+        "complete": 4302,
+        "board": 4229,
+        "wallet": 4302,
+        "frozenIds": 4302,
+        "frozenDetail": 4283,
+        "retention": 4288,
+        "skips": {
+          "unidentified purchased/merged pet": 418,
+          "unmapped purchased food enum": 5,
+          "unidentified referenced board pet after summon": 18
+        },
+        "errors": {
+          "recorded action could not be mapped": 2
+        }
+      },
+      "heldout": {
+        "eligible": 2700,
+        "attempted": 2431,
+        "skipped": 269,
+        "matched": 2385,
+        "missed": 46,
+        "complete": 2428,
+        "board": 2391,
+        "wallet": 2428,
+        "frozenIds": 2428,
+        "frozenDetail": 2422,
+        "retention": 2422,
+        "skips": {
+          "unidentified purchased/merged pet": 252,
+          "unidentified referenced board pet after summon": 15,
+          "unmapped purchased food enum": 2
+        },
+        "errors": {
+          "recorded action could not be mapped": 3
+        }
+      }
+    },
+    "v31-refresh": {
+      "all": {
+        "eligible": 7445,
+        "attempted": 6735,
+        "skipped": 710,
+        "matched": 6596,
+        "missed": 139,
+        "complete": 6730,
+        "board": 6620,
+        "wallet": 6730,
+        "frozenIds": 6730,
+        "frozenDetail": 6705,
+        "retention": 6710,
+        "skips": {
+          "unidentified purchased/merged pet": 670,
+          "unmapped purchased food enum": 7,
+          "unidentified referenced board pet after summon": 33
+        },
+        "errors": {
+          "recorded action could not be mapped": 5
+        }
+      },
+      "dev": {
+        "eligible": 4745,
+        "attempted": 4304,
+        "skipped": 441,
+        "matched": 4211,
+        "missed": 93,
+        "complete": 4302,
+        "board": 4229,
+        "wallet": 4302,
+        "frozenIds": 4302,
+        "frozenDetail": 4283,
+        "retention": 4288,
+        "skips": {
+          "unidentified purchased/merged pet": 418,
+          "unmapped purchased food enum": 5,
+          "unidentified referenced board pet after summon": 18
+        },
+        "errors": {
+          "recorded action could not be mapped": 2
+        }
+      },
+      "heldout": {
+        "eligible": 2700,
+        "attempted": 2431,
+        "skipped": 269,
+        "matched": 2385,
+        "missed": 46,
+        "complete": 2428,
+        "board": 2391,
+        "wallet": 2428,
+        "frozenIds": 2428,
+        "frozenDetail": 2422,
+        "retention": 2422,
+        "skips": {
+          "unidentified purchased/merged pet": 252,
+          "unidentified referenced board pet after summon": 15,
+          "unmapped purchased food enum": 2
+        },
+        "errors": {
+          "recorded action could not be mapped": 3
+        }
+      }
+    }
+  },
+  "pairedV31V30": {
+    "(True, True)": 6596,
+    "(None, None)": 710,
+    "(False, False)": 139
+  },
+  "pairedV31Refresh": {
+    "(True, True)": 6596,
+    "(None, None)": 710,
+    "(False, False)": 139
+  },
+  "diagnostics": {
+    "terminalDifferencePatterns": {
+      "permanent": 100,
+      "frozen": 24,
+      "action": 5,
+      "perk": 9,
+      "perk, frozen": 1
+    },
+    "signatures": {
+      "all": {
+        "Dragon excludes tier-one buyer": 44,
+        "Scorpion Peanut timing": 30,
+        "Rabbit multi-target notification order": 18,
+        "Rabbit counts Canned Food shop targets": 7
+      },
+      "dev": {
+        "Scorpion Peanut timing": 22,
+        "Rabbit multi-target notification order": 15,
+        "Rabbit counts Canned Food shop targets": 3,
+        "Dragon excludes tier-one buyer": 28
+      },
+      "heldout": {
+        "Dragon excludes tier-one buyer": 16,
+        "Rabbit multi-target notification order": 3,
+        "Scorpion Peanut timing": 8,
+        "Rabbit counts Canned Food shop targets": 4
+      }
+    },
+    "replaySources": {
+      "('archive', 'dev')": {
+        "eligible": 484,
+        "attempted": 440,
+        "skipped": 44,
+        "matched": 433,
+        "missed": 7,
+        "complete": 440,
+        "board": 434,
+        "wallet": 440,
+        "frozenIds": 440,
+        "frozenDetail": 439,
+        "retention": 439,
+        "skips": {
+          "unidentified purchased/merged pet": 41,
+          "unidentified referenced board pet after summon": 3
+        },
+        "errors": {}
+      },
+      "('archive', 'heldout')": {
+        "eligible": 369,
+        "attempted": 332,
+        "skipped": 37,
+        "matched": 329,
+        "missed": 3,
+        "complete": 332,
+        "board": 329,
+        "wallet": 332,
+        "frozenIds": 332,
+        "frozenDetail": 332,
+        "retention": 332,
+        "skips": {
+          "unidentified purchased/merged pet": 37
+        },
+        "errors": {}
+      },
+      "('raw', 'dev')": {
+        "eligible": 4261,
+        "attempted": 3864,
+        "skipped": 397,
+        "matched": 3778,
+        "missed": 86,
+        "complete": 3862,
+        "board": 3795,
+        "wallet": 3862,
+        "frozenIds": 3862,
+        "frozenDetail": 3844,
+        "retention": 3849,
+        "skips": {
+          "unidentified purchased/merged pet": 377,
+          "unmapped purchased food enum": 5,
+          "unidentified referenced board pet after summon": 15
+        },
+        "errors": {
+          "recorded action could not be mapped": 2
+        }
+      },
+      "('raw', 'heldout')": {
+        "eligible": 2331,
+        "attempted": 2099,
+        "skipped": 232,
+        "matched": 2056,
+        "missed": 43,
+        "complete": 2096,
+        "board": 2062,
+        "wallet": 2096,
+        "frozenIds": 2096,
+        "frozenDetail": 2090,
+        "retention": 2090,
+        "skips": {
+          "unidentified purchased/merged pet": 215,
+          "unidentified referenced board pet after summon": 15,
+          "unmapped purchased food enum": 2
+        },
+        "errors": {
+          "recorded action could not be mapped": 3
+        }
+      }
+    },
+    "matchesWithMiss": {
+      "heldout": 37,
+      "dev": 58
+    },
+    "coverageChecks": {
+      "all": {
+        "no implicit source identities": {
+          "eligible": 5522,
+          "attempted": 4891,
+          "skipped": 631,
+          "matched": 4778,
+          "missed": 113,
+          "complete": 4887,
+          "board": 4796,
+          "wallet": 4887,
+          "frozenIds": 4887,
+          "frozenDetail": 4869,
+          "retention": 4871,
+          "skips": {
+            "unidentified purchased/merged pet": 596,
+            "unmapped purchased food enum": 3,
+            "unidentified referenced board pet after summon": 32
+          },
+          "errors": {
+            "recorded action could not be mapped": 4
+          }
+        },
+        "implicit source identity used": {
+          "eligible": 1923,
+          "attempted": 1844,
+          "skipped": 79,
+          "matched": 1818,
+          "missed": 26,
+          "complete": 1843,
+          "board": 1824,
+          "wallet": 1843,
+          "frozenIds": 1843,
+          "frozenDetail": 1836,
+          "retention": 1839,
+          "skips": {
+            "unidentified purchased/merged pet": 74,
+            "unmapped purchased food enum": 4,
+            "unidentified referenced board pet after summon": 1
+          },
+          "errors": {
+            "recorded action could not be mapped": 1
+          }
+        },
+        "no pet purchase": {
+          "eligible": 736,
+          "attempted": 735,
+          "skipped": 1,
+          "matched": 721,
+          "missed": 14,
+          "complete": 735,
+          "board": 729,
+          "wallet": 735,
+          "frozenIds": 735,
+          "frozenDetail": 727,
+          "retention": 735,
+          "skips": {
+            "unidentified referenced board pet after summon": 1
+          },
+          "errors": {}
+        }
+      },
+      "dev": {
+        "no implicit source identities": {
+          "eligible": 3536,
+          "attempted": 3147,
+          "skipped": 389,
+          "matched": 3075,
+          "missed": 72,
+          "complete": 3146,
+          "board": 3088,
+          "wallet": 3146,
+          "frozenIds": 3146,
+          "frozenDetail": 3133,
+          "retention": 3135,
+          "skips": {
+            "unidentified purchased/merged pet": 369,
+            "unmapped purchased food enum": 2,
+            "unidentified referenced board pet after summon": 18
+          },
+          "errors": {
+            "recorded action could not be mapped": 1
+          }
+        },
+        "implicit source identity used": {
+          "eligible": 1209,
+          "attempted": 1157,
+          "skipped": 52,
+          "matched": 1136,
+          "missed": 21,
+          "complete": 1156,
+          "board": 1141,
+          "wallet": 1156,
+          "frozenIds": 1156,
+          "frozenDetail": 1150,
+          "retention": 1153,
+          "skips": {
+            "unidentified purchased/merged pet": 49,
+            "unmapped purchased food enum": 3
+          },
+          "errors": {
+            "recorded action could not be mapped": 1
+          }
+        },
+        "no pet purchase": {
+          "eligible": 496,
+          "attempted": 495,
+          "skipped": 1,
+          "matched": 486,
+          "missed": 9,
+          "complete": 495,
+          "board": 492,
+          "wallet": 495,
+          "frozenIds": 495,
+          "frozenDetail": 489,
+          "retention": 495,
+          "skips": {
+            "unidentified referenced board pet after summon": 1
+          },
+          "errors": {}
+        }
+      },
+      "heldout": {
+        "no implicit source identities": {
+          "eligible": 1986,
+          "attempted": 1744,
+          "skipped": 242,
+          "matched": 1703,
+          "missed": 41,
+          "complete": 1741,
+          "board": 1708,
+          "wallet": 1741,
+          "frozenIds": 1741,
+          "frozenDetail": 1736,
+          "retention": 1736,
+          "skips": {
+            "unidentified purchased/merged pet": 227,
+            "unidentified referenced board pet after summon": 14,
+            "unmapped purchased food enum": 1
+          },
+          "errors": {
+            "recorded action could not be mapped": 3
+          }
+        },
+        "implicit source identity used": {
+          "eligible": 714,
+          "attempted": 687,
+          "skipped": 27,
+          "matched": 682,
+          "missed": 5,
+          "complete": 687,
+          "board": 683,
+          "wallet": 687,
+          "frozenIds": 687,
+          "frozenDetail": 686,
+          "retention": 686,
+          "skips": {
+            "unidentified purchased/merged pet": 25,
+            "unmapped purchased food enum": 1,
+            "unidentified referenced board pet after summon": 1
+          },
+          "errors": {}
+        },
+        "no pet purchase": {
+          "eligible": 240,
+          "attempted": 240,
+          "skipped": 0,
+          "matched": 235,
+          "missed": 5,
+          "complete": 240,
+          "board": 237,
+          "wallet": 240,
+          "frozenIds": 240,
+          "frozenDetail": 238,
+          "retention": 240,
+          "skips": {},
+          "errors": {}
+        }
+      }
+    },
+    "noGenIssuesAmongExact": true
+  },
+  "heldoutMatchBootstrap95": [
+    0.9754428341384863,
+    0.9863398955403777
+  ]
+}

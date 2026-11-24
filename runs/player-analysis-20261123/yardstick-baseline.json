@@ -1,0 +1,26 @@
+{
+ "definition": "mean of bot-v-field score at turns 3,5,7,10,12; ranked pool matches with sha256(matchId)%5<2; 4000 pairs x 8 seeds per turn; engine turtle-v31-replay-852b274e7eb2-20261123",
+ "index": {
+  "v22-sampled": 21.6,
+  "v25-sampled": 21.9,
+  "25772-sampled": 26.6,
+  "25772-greedy": 31.1
+ },
+ "fieldBoardsPerTurn": {
+  "1": 809,
+  "2": 805,
+  "3": 803,
+  "4": 804,
+  "5": 803,
+  "6": 803,
+  "7": 802,
+  "8": 787,
+  "9": 746,
+  "10": 690,
+  "11": 601,
+  "12": 503,
+  "13": 355,
+  "14": 201,
+  "15": 99
+ }
+}

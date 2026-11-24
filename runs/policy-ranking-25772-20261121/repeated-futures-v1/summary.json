@@ -1,0 +1,49 @@
+{
+  "eligible": 32,
+  "completedContinuations": 768,
+  "selected": 11,
+  "selectionGain": 0.09375,
+  "independentConfirmation": {
+    "mean": 0.010416666666666664,
+    "origin95": [
+      -0.026041666666666668,
+      0.05729166666666667
+    ]
+  },
+  "confirmedPositive": 3,
+  "confirmedNegative": 4,
+  "confirmedTied": 4,
+  "ridgeAllFutures": {
+    "mean": 0.015625,
+    "origin95": [
+      -0.010416666666666666,
+      0.04427083333333333
+    ]
+  },
+  "frozenCriticAllFutures": {
+    "mean": 0.013020833333333332,
+    "origin95": [
+      -0.013020833333333332,
+      0.041666666666666664
+    ]
+  },
+  "unconditionalSample": {
+    "mean": -0.002604166666666668,
+    "origin95": [
+      -0.0546875,
+      0.05208333333333334
+    ]
+  },
+  "splitCorrelation": -0.09933397046009078,
+  "sameTraceOrigins": 1,
+  "sameTraceWorldDisagreements": 0,
+  "distinctShops": {
+    "count": 31,
+    "pairedWorldOutcomeVariance": 0.28079178885630496,
+    "estimatedBetweenOriginEffectVariance": 0.0022876615618551074,
+    "selectPositive": 11,
+    "nonzeroInBoth": 15,
+    "sameDirectionNonzero": 7,
+    "oppositeDirection": 8
+  }
+}

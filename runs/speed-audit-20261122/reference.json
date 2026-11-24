@@ -1,0 +1,23 @@
+{
+  "root": "/tmp/sap-rl-restore.5dIqhk/runs/search-throughput-5x-20260912-v1/reference-source",
+  "combinedPythonFiles": 105,
+  "combinedTreeHash": "7ffafac0cfd6a2e80854ca885fd34bdaf939b885913701a075b760cecc6f2e59",
+  "battlePackageFiles": 20,
+  "battlePackageTreeHash": "a6c0280b34719ac3dc3bd80ae957f2081a1c01b43d45f291b7602e4bc1ddff38",
+  "diff": {
+    "sapai/sapai/paired_random_tape.py": {
+      "v30": "bef4b4c98487861819122db203ce4943e2b3be3af74eba63379a7089ee27ff0f",
+      "checkout": null
+    },
+    "sapai/sapai/turtle_pack.py": {
+      "v30": "6fe49781971b4919fd26ada5806e4e00a443d2422241e467c473f31b92b6f9c4",
+      "checkout": "47122478fe7566055b748f102846a5352c30437f27d4c97768612ca7f393d0b2"
+    },
+    "sapai/sapai/shop.py": {
+      "v30": "d6843507c1731772bc98550a0d04d0c952148f1652aee61bbd4be32bd959bf50",
+      "checkout": "7839147ab123147c2884b70ebfb7b09ecda51065e5dff280bd5e0a7db8dcfae1"
+    }
+  },
+  "checkoutOnly": [],
+  "battle": "03332ca6c673d4c138b6ffed7c4272a497e9660f42ff875964c327ef98ecd923"
+}

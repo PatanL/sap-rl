@@ -1,0 +1,51 @@
+{
+  "version": 25781,
+  "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2",
+  "updates": 3,
+  "elapsed": 13.992316554998979,
+  "learned": 24591,
+  "delivered": 29619,
+  "seat": 42553,
+  "live": 31674,
+  "frozen": 10879,
+  "pending": 2055,
+  "queued": 4477,
+  "stale": 551,
+  "matches": 17,
+  "queue_highwater": 8251,
+  "backpressure_hits": 3,
+  "assignment": {
+    "mirror": 102,
+    "parent:seat1": 24,
+    "snapshot-25775:seat1": 16,
+    "snapshot-25775:seat0": 16,
+    "snapshot-25778:seat1": 13,
+    "snapshot-25778:seat0": 13,
+    "parent:seat0": 24
+  },
+  "gpu_util_mean": 59.07142857142857,
+  "gpu_samples": 28,
+  "peak_bytes": 4284481536,
+  "learned_s": 1757.4645272883333,
+  "collected_s": 2116.8045965496785,
+  "seat_s": 3041.1690467935605,
+  "stale_share": 0.02191551984726752,
+  "fully_overlapped_inference_waves": 106,
+  "seats_fully_served_during_updates": 16676,
+  "main_seconds": {
+    "other": 0.04659403860569,
+    "inference_service": 10.62313081137836,
+    "worker_wait_and_copy": 0.44168979581445456,
+    "await_learner": 2.617372951237485,
+    "publish": 0.2635289579629898
+  },
+  "overlap_with_learner_seconds": {
+    "other": 0.009775335667654872,
+    "inference_service": 5.295102842850611,
+    "worker_wait_and_copy": 0.12762191542424262,
+    "await_learner": 2.617132374085486
+  },
+  "learner_seconds": 8.049632468027994,
+  "worker_seconds": {},
+  "counts": {}
+}

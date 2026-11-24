@@ -1,0 +1,30 @@
+[
+  {
+    "batchedLoss": false,
+    "rows": 4107,
+    "turns": 277,
+    "maxLen": 31,
+    "microbatches": 19,
+    "paddedCeiling": null,
+    "seconds": [
+      0.7246344720479101,
+      0.7432312259916216,
+      0.7275965458247811
+    ],
+    "decisions_s": 5644.611733752022
+  },
+  {
+    "batchedLoss": true,
+    "rows": 4107,
+    "turns": 277,
+    "maxLen": 31,
+    "microbatches": 19,
+    "paddedCeiling": null,
+    "seconds": [
+      0.5094158567953855,
+      0.529093116056174,
+      0.5102180868852884
+    ],
+    "decisions_s": 8049.499038875451
+  }
+]

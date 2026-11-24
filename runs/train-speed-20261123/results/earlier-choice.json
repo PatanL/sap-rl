@@ -1,0 +1,33 @@
+{
+  "reference": "priority",
+  "workers": 8,
+  "games": 24,
+  "target": 8192,
+  "backend": "rust",
+  "fast_actor": false,
+  "qualifier": 512,
+  "geometry": "block-both",
+  "args": [
+    "--concurrent",
+    "--cap",
+    512,
+    "--workers",
+    8,
+    "--games",
+    48,
+    "--target",
+    8192,
+    "--battle-backend",
+    "rust",
+    "--priority-inference",
+    "--cap",
+    512,
+    "--games",
+    24
+  ],
+  "measured_winner": "tiled-other",
+  "steady": 1678.7598090750153,
+  "fused": true,
+  "backlog": 1.0,
+  "matched_original": "matched-original"
+}

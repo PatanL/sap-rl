@@ -1,0 +1,488 @@
+{
+  "battle_id": "916edd0d-3b7c-49ea-8e5a-00586b20d2dd",
+  "recorded_seed": -2144422264,
+  "engine_seed": 2150545032,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Worm",
+          "attack": 7,
+          "health": 10,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rat",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Pig",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Horse",
+          "attack": 5,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Horse",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dodo",
+          "attack": 6,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Sheep",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Horse",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Worm",
+          "attack": 7,
+          "health": 10,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rat",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Pig",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Horse",
+          "attack": 5,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Horse",
+          "attack": 6,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dodo",
+          "attack": 6,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Sheep",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Horse",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Worm",
+          "attack": 7,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rat",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Pig",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Horse",
+          "attack": 6,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 6,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Sheep",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Horse",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Rat",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Snail",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Pig",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dodo",
+          "attack": 6,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Sheep",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Horse",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Rat",
+          "attack": 6,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Snail",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Pig",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Sheep",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Horse",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Rabbit",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snail",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Pig",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ram",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Ram",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dirty Rat",
+          "attack": 3,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Horse",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Snail",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Pig",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ram",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dirty Rat",
+          "attack": 3,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Horse",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [
+        {
+          "pet": "Pig",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dirty Rat",
+          "attack": 3,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Horse",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-07",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Horse",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Horse",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    }
+  ]
+}

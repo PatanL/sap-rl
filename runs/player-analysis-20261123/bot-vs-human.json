@@ -1,0 +1,1958 @@
+{
+ "seats": 3000,
+ "meanLastTurn": 11.850666666666667,
+ "lines": [
+  {
+   "line": "Horse and Cricket by turn 2",
+   "bot": 0.005666666666666667,
+   "botMedianTurn": 1,
+   "maxwu": 0.08227848101265822,
+   "field": 0.09467149508535955
+  },
+  {
+   "line": "Elephant ahead of Camel",
+   "bot": 0.0006666666666666666,
+   "botMedianTurn": 7,
+   "maxwu": 0.0949367088607595,
+   "field": 0.1024314536989136
+  },
+  {
+   "line": "Elephant ahead of Blowfish",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 6,
+   "maxwu": 0.05063291139240506,
+   "field": 0.11019141231246767
+  },
+  {
+   "line": "Elephant, Blowfish and Wolverine",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0189873417721519,
+   "field": 0.04862907397827212
+  },
+  {
+   "line": "Wolverine on board",
+   "bot": 0.134,
+   "botMedianTurn": 10,
+   "maxwu": 0.18354430379746836,
+   "field": 0.16916709777547853
+  },
+  {
+   "line": "Tiger behind Blowfish",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.012658227848101266,
+   "field": 0.04966373512674599
+  },
+  {
+   "line": "Any Sleeping Pill",
+   "bot": 0.08133333333333333,
+   "botMedianTurn": 8,
+   "maxwu": 0.7151898734177216,
+   "field": 0.6704604242110709
+  },
+  {
+   "line": "Pill on Flamingo",
+   "bot": 0.024666666666666667,
+   "botMedianTurn": 7,
+   "maxwu": 0.2721518987341772,
+   "field": 0.25142265907915157
+  },
+  {
+   "line": "Chocolate",
+   "bot": 0.5683333333333334,
+   "botMedianTurn": 10,
+   "maxwu": 0.6518987341772152,
+   "field": 0.7294361096740818
+  },
+  {
+   "line": "Pill on Mammoth",
+   "bot": 0.002,
+   "botMedianTurn": 14,
+   "maxwu": 0.06329113924050633,
+   "field": 0.04811174340403518
+  },
+  {
+   "line": "Turkey with two or more summoners",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0759493670886076,
+   "field": 0.06518365235385411
+  },
+  {
+   "line": "Tiger behind Leopard",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.03164556962025317,
+   "field": 0.059493016037247805
+  },
+  {
+   "line": "Fly late",
+   "bot": 0.01633333333333333,
+   "botMedianTurn": 11,
+   "maxwu": 0.13291139240506328,
+   "field": 0.14485256078634248
+  },
+  {
+   "line": "Two or more Deer",
+   "bot": 0.0033333333333333335,
+   "botMedianTurn": 8,
+   "maxwu": 0.12658227848101267,
+   "field": 0.09156751163993793
+  },
+  {
+   "line": "Rhino on board",
+   "bot": 0.098,
+   "botMedianTurn": 8,
+   "maxwu": 0.13924050632911392,
+   "field": 0.10967408173823073
+  },
+  {
+   "line": "Pill on Turtle",
+   "bot": 0.010333333333333333,
+   "botMedianTurn": 8,
+   "maxwu": 0.25316455696202533,
+   "field": 0.23693740300051733
+  },
+  {
+   "line": "Melon on Leopard",
+   "bot": 0.005,
+   "botMedianTurn": 12,
+   "maxwu": 0.04430379746835443,
+   "field": 0.05431971029487843
+  },
+  {
+   "line": "Dolphin late",
+   "bot": 0.25133333333333335,
+   "botMedianTurn": 7,
+   "maxwu": 0.04430379746835443,
+   "field": 0.13450594930160373
+  },
+  {
+   "line": "Tiger behind Crocodile",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 12,
+   "maxwu": 0.0,
+   "field": 0.012415933781686497
+  },
+  {
+   "line": "Tiger behind Snake",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.012658227848101266,
+   "field": 0.03983445421624418
+  },
+  {
+   "line": "Shark with two or more summoners",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0379746835443038,
+   "field": 0.05845835488877393
+  },
+  {
+   "line": "Scorpion on board",
+   "bot": 0.0026666666666666666,
+   "botMedianTurn": 12,
+   "maxwu": 0.13924050632911392,
+   "field": 0.15933781686497672
+  },
+  {
+   "line": "Pill on a pet bought that turn",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.3291139240506329,
+   "field": 0.2721158820486291
+  },
+  {
+   "line": "Snail by turn 3",
+   "bot": 0.36633333333333334,
+   "botMedianTurn": 3,
+   "maxwu": 0.2088607594936709,
+   "field": 0.1469218830832902
+  },
+  {
+   "line": "Skunk on board",
+   "bot": 0.02033333333333333,
+   "botMedianTurn": 6,
+   "maxwu": 0.35443037974683544,
+   "field": 0.3626487325400931
+  },
+  {
+   "line": "Mushroom on Deer",
+   "bot": 0.02,
+   "botMedianTurn": 12,
+   "maxwu": 0.11392405063291139,
+   "field": 0.04397309881013968
+  },
+  {
+   "line": "Dragon on board",
+   "bot": 0.0026666666666666666,
+   "botMedianTurn": 12,
+   "maxwu": 0.08227848101265822,
+   "field": 0.11329539575788929
+  },
+  {
+   "line": "Melon on Skunk",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 12,
+   "maxwu": 0.006329113924050633,
+   "field": 0.015002586652871184
+  },
+  {
+   "line": "Tiger behind Shark",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.007759958613554061
+  },
+  {
+   "line": "Mammoth with Tiger behind",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 12,
+   "maxwu": 0.006329113924050633,
+   "field": 0.04655975168132437
+  },
+  {
+   "line": "Tiger behind Mammoth",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 12,
+   "maxwu": 0.006329113924050633,
+   "field": 0.04655975168132437
+  },
+  {
+   "line": "Tiger behind Boar",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0379746835443038,
+   "field": 0.02379720641489912
+  },
+  {
+   "line": "Mushroom on Scorpion",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0189873417721519,
+   "field": 0.022762545266425245
+  },
+  {
+   "line": "Melon on Boar",
+   "bot": 0.033666666666666664,
+   "botMedianTurn": 12,
+   "maxwu": 0.05063291139240506,
+   "field": 0.03776513191929643
+  },
+  {
+   "line": "Mushroom on ?",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0020693222969477496
+  },
+  {
+   "line": "Melon on Cat",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.01189860320744956
+  },
+  {
+   "line": "Melon on Gorilla",
+   "bot": 0.023,
+   "botMedianTurn": 12,
+   "maxwu": 0.06962025316455696,
+   "field": 0.01810657009829281
+  },
+  {
+   "line": "Mushroom on Mammoth",
+   "bot": 0.03266666666666666,
+   "botMedianTurn": 12,
+   "maxwu": 0.056962025316455694,
+   "field": 0.09363683393688567
+  },
+  {
+   "line": "Tiger behind Whale",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.007242628039317123
+  },
+  {
+   "line": "Melon on Tiger",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0379746835443038,
+   "field": 0.02793585100879462
+  },
+  {
+   "line": "Elephant ahead of Peacock",
+   "bot": 0.0023333333333333335,
+   "botMedianTurn": 4,
+   "maxwu": 0.02531645569620253,
+   "field": 0.014485256078634247
+  },
+  {
+   "line": "Pill on Rabbit",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0010346611484738748
+  },
+  {
+   "line": "Sheep by turn 4",
+   "bot": 0.044333333333333336,
+   "botMedianTurn": 3,
+   "maxwu": 0.056962025316455694,
+   "field": 0.0553543714433523
+  },
+  {
+   "line": "Cat with Cow, Seal or Rabbit",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.04430379746835443,
+   "field": 0.06621831350232799
+  },
+  {
+   "line": "Tiger behind Parrot",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.018623900672529746
+  },
+  {
+   "line": "Tiger behind Skunk",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.03164556962025317,
+   "field": 0.029487842731505433
+  },
+  {
+   "line": "Pill on Sheep",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.011381272633212623
+  },
+  {
+   "line": "Tiger behind Turkey",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0031039834454216243
+  },
+  {
+   "line": "Mushroom Mammoth with Tiger behind",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.029487842731505433
+  },
+  {
+   "line": "Tiger behind Camel",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.017071908949818936
+  },
+  {
+   "line": "Pill on Spider",
+   "bot": 0.0013333333333333333,
+   "botMedianTurn": 10,
+   "maxwu": 0.056962025316455694,
+   "field": 0.09467149508535955
+  },
+  {
+   "line": "Melon on Bison",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 14,
+   "maxwu": 0.0,
+   "field": 0.005173305742369374
+  },
+  {
+   "line": "Pill on Cricket",
+   "bot": 0.0016666666666666668,
+   "botMedianTurn": 9,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0020693222969477496
+  },
+  {
+   "line": "Melon on Elephant",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 12,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0346611484738748
+  },
+  {
+   "line": "Mushroom on Wolverine",
+   "bot": 0.011333333333333334,
+   "botMedianTurn": 12,
+   "maxwu": 0.03164556962025317,
+   "field": 0.03621314019658562
+  },
+  {
+   "line": "Melon on Badger",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.008794619762027936
+  },
+  {
+   "line": "Melon on Sheep",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 16,
+   "maxwu": 0.0,
+   "field": 0.0010346611484738748
+  },
+  {
+   "line": "Tiger behind Wolverine",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.04430379746835443,
+   "field": 0.02017589239524056
+  },
+  {
+   "line": "Tiger behind Deer",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 14,
+   "maxwu": 0.012658227848101266,
+   "field": 0.007242628039317123
+  },
+  {
+   "line": "Melon on Snake",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0189873417721519,
+   "field": 0.019141231246766685
+  },
+  {
+   "line": "Tiger behind Armadillo",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.002586652871184687
+  },
+  {
+   "line": "Tiger behind Kangaroo",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.002586652871184687
+  },
+  {
+   "line": "Mushroom on Hedgehog",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.012658227848101266,
+   "field": 0.02379720641489912
+  },
+  {
+   "line": "Mushroom on Tiger",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.01965856182100362
+  },
+  {
+   "line": "Tiger behind Turtle",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 13,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0031039834454216243
+  },
+  {
+   "line": "Melon on Rhino",
+   "bot": 0.014,
+   "botMedianTurn": 12,
+   "maxwu": 0.03164556962025317,
+   "field": 0.015002586652871184
+  },
+  {
+   "line": "Melon on Dolphin",
+   "bot": 0.018666666666666668,
+   "botMedianTurn": 12,
+   "maxwu": 0.006329113924050633,
+   "field": 0.005690636316606311
+  },
+  {
+   "line": "Pill on Ant",
+   "bot": 0.006,
+   "botMedianTurn": 8,
+   "maxwu": 0.06962025316455696,
+   "field": 0.04862907397827212
+  },
+  {
+   "line": "Melon on Dog",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.00982928091050181
+  },
+  {
+   "line": "Mushroom on Fly",
+   "bot": 0.0013333333333333333,
+   "botMedianTurn": 16,
+   "maxwu": 0.02531645569620253,
+   "field": 0.017071908949818936
+  },
+  {
+   "line": "Melon on Otter",
+   "bot": 0.016,
+   "botMedianTurn": 12,
+   "maxwu": 0.0,
+   "field": 0.0015519917227108122
+  },
+  {
+   "line": "Melon on Ant",
+   "bot": 0.04033333333333333,
+   "botMedianTurn": 12,
+   "maxwu": 0.0,
+   "field": 0.0031039834454216243
+  },
+  {
+   "line": "Melon on Peacock",
+   "bot": 0.01,
+   "botMedianTurn": 12,
+   "maxwu": 0.006329113924050633,
+   "field": 0.006725297465080186
+  },
+  {
+   "line": "Mushroom on Leopard",
+   "bot": 0.0026666666666666666,
+   "botMedianTurn": 13,
+   "maxwu": 0.0,
+   "field": 0.0010346611484738748
+  },
+  {
+   "line": "Mushroom on Cow",
+   "bot": 0.0026666666666666666,
+   "botMedianTurn": 13,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Tiger behind Giraffe",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Melon on Shark",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0189873417721519,
+   "field": 0.025349198137609934
+  },
+  {
+   "line": "Melon on Blowfish",
+   "bot": 0.012666666666666666,
+   "botMedianTurn": 12,
+   "maxwu": 0.0,
+   "field": 0.005173305742369374
+  },
+  {
+   "line": "Mushroom on Skunk",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 11,
+   "maxwu": 0.0,
+   "field": 0.0031039834454216243
+  },
+  {
+   "line": "Melon on Cricket",
+   "bot": 0.011333333333333334,
+   "botMedianTurn": 12,
+   "maxwu": 0.0,
+   "field": 0.004138644593895499
+  },
+  {
+   "line": "Melon on Seal",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.002586652871184687
+  },
+  {
+   "line": "Mushroom on Snake",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.012658227848101266,
+   "field": 0.019141231246766685
+  },
+  {
+   "line": "Melon on Armadillo",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0010346611484738748
+  },
+  {
+   "line": "Pill on Hedgehog",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Melon on Fly",
+   "bot": 0.001,
+   "botMedianTurn": 13,
+   "maxwu": 0.0189873417721519,
+   "field": 0.01603724780134506
+  },
+  {
+   "line": "Melon on Crab",
+   "bot": 0.023333333333333334,
+   "botMedianTurn": 12,
+   "maxwu": 0.006329113924050633,
+   "field": 0.002586652871184687
+  },
+  {
+   "line": "Melon on Dodo",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.008277289187790998
+  },
+  {
+   "line": "Melon on Swan",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.012658227848101266,
+   "field": 0.007242628039317123
+  },
+  {
+   "line": "Tiger behind Rhino",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0189873417721519,
+   "field": 0.015519917227108122
+  },
+  {
+   "line": "Melon on Hippo",
+   "bot": 0.0036666666666666666,
+   "botMedianTurn": 12,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0015519917227108122
+  },
+  {
+   "line": "Melon on Wolverine",
+   "bot": 0.018,
+   "botMedianTurn": 12,
+   "maxwu": 0.0189873417721519,
+   "field": 0.01189860320744956
+  },
+  {
+   "line": "Mushroom on Turtle",
+   "bot": 0.014666666666666666,
+   "botMedianTurn": 11,
+   "maxwu": 0.0189873417721519,
+   "field": 0.010346611484738748
+  },
+  {
+   "line": "Tiger behind Tiger",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0015519917227108122
+  },
+  {
+   "line": "Tiger behind Dodo",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0036213140196585617
+  },
+  {
+   "line": "Mushroom on Shark",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0036213140196585617
+  },
+  {
+   "line": "Melon on Whale",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.012658227848101266,
+   "field": 0.00982928091050181
+  },
+  {
+   "line": "Tiger behind Hedgehog",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.004138644593895499
+  },
+  {
+   "line": "Mushroom on Turkey",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.004138644593895499
+  },
+  {
+   "line": "Melon on Mammoth",
+   "bot": 0.026,
+   "botMedianTurn": 13,
+   "maxwu": 0.012658227848101266,
+   "field": 0.002586652871184687
+  },
+  {
+   "line": "Melon on Camel",
+   "bot": 0.006666666666666667,
+   "botMedianTurn": 12,
+   "maxwu": 0.02531645569620253,
+   "field": 0.008277289187790998
+  },
+  {
+   "line": "Melon on Parrot",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.012658227848101266,
+   "field": 0.01189860320744956
+  },
+  {
+   "line": "Mushroom on Blowfish",
+   "bot": 0.0023333333333333335,
+   "botMedianTurn": 12,
+   "maxwu": 0.0,
+   "field": 0.007759958613554061
+  },
+  {
+   "line": "Melon on Rooster",
+   "bot": 0.001,
+   "botMedianTurn": 12,
+   "maxwu": 0.006329113924050633,
+   "field": 0.006725297465080186
+  },
+  {
+   "line": "Tiger behind Cow",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 11,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Pill on Deer",
+   "bot": 0.004666666666666667,
+   "botMedianTurn": 10,
+   "maxwu": 0.006329113924050633,
+   "field": 0.005690636316606311
+  },
+  {
+   "line": "Mushroom on Rooster",
+   "bot": 0.001,
+   "botMedianTurn": 13,
+   "maxwu": 0.0,
+   "field": 0.0010346611484738748
+  },
+  {
+   "line": "Pill on Swan",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Pill on Armadillo",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Mushroom on Boar",
+   "bot": 0.009333333333333334,
+   "botMedianTurn": 12,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0015519917227108122
+  },
+  {
+   "line": "Melon on Horse",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0015519917227108122
+  },
+  {
+   "line": "Melon on Deer",
+   "bot": 0.02033333333333333,
+   "botMedianTurn": 12,
+   "maxwu": 0.0,
+   "field": 0.007242628039317123
+  },
+  {
+   "line": "Mushroom on Camel",
+   "bot": 0.0013333333333333333,
+   "botMedianTurn": 13,
+   "maxwu": 0.0,
+   "field": 0.0015519917227108122
+  },
+  {
+   "line": "Mushroom on Elephant",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.012658227848101266,
+   "field": 0.015002586652871184
+  },
+  {
+   "line": "Melon on Dragon",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0015519917227108122
+  },
+  {
+   "line": "Melon on Kangaroo",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0015519917227108122
+  },
+  {
+   "line": "Tiger behind Dolphin",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 10,
+   "maxwu": 0.0,
+   "field": 0.0010346611484738748
+  },
+  {
+   "line": "Mushroom on Horse",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Pill on Badger",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0015519917227108122
+  },
+  {
+   "line": "Tiger behind Penguin",
+   "bot": 0.0006666666666666666,
+   "botMedianTurn": 11,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Pill on Cow",
+   "bot": 0.0006666666666666666,
+   "botMedianTurn": 15,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Tiger behind Gorilla",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Mushroom on Monkey",
+   "bot": 0.014333333333333333,
+   "botMedianTurn": 12,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0010346611484738748
+  },
+  {
+   "line": "Melon on Worm",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0031039834454216243
+  },
+  {
+   "line": "Melon on Snail",
+   "bot": 0.014333333333333333,
+   "botMedianTurn": 13,
+   "maxwu": 0.0,
+   "field": 0.0020693222969477496
+  },
+  {
+   "line": "Mushroom on Cricket",
+   "bot": 0.0013333333333333333,
+   "botMedianTurn": 11,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Melon on Squirrel",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0010346611484738748
+  },
+  {
+   "line": "Melon on Rabbit",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0189873417721519,
+   "field": 0.004138644593895499
+  },
+  {
+   "line": "Tiger behind Badger",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0015519917227108122
+  },
+  {
+   "line": "Melon on Flamingo",
+   "bot": 0.03,
+   "botMedianTurn": 12,
+   "maxwu": 0.0,
+   "field": 0.0015519917227108122
+  },
+  {
+   "line": "Melon on Turkey",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0036213140196585617
+  },
+  {
+   "line": "Melon on Fish",
+   "bot": 0.029666666666666668,
+   "botMedianTurn": 12,
+   "maxwu": 0.0,
+   "field": 0.0015519917227108122
+  },
+  {
+   "line": "Pill on Bus",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Melon on Monkey",
+   "bot": 0.004666666666666667,
+   "botMedianTurn": 13,
+   "maxwu": 0.0,
+   "field": 0.002586652871184687
+  },
+  {
+   "line": "Melon on Crocodile",
+   "bot": 0.04566666666666667,
+   "botMedianTurn": 12,
+   "maxwu": 0.0,
+   "field": 0.002586652871184687
+  },
+  {
+   "line": "Mushroom on Cat",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0015519917227108122
+  },
+  {
+   "line": "Pill on Rat",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 7,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Melon on Hedgehog",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Tiger behind Hippo",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0020693222969477496
+  },
+  {
+   "line": "Pill on Blowfish",
+   "bot": 0.0006666666666666666,
+   "botMedianTurn": 8,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Mushroom on Dog",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Melon on Spider",
+   "bot": 0.0006666666666666666,
+   "botMedianTurn": 13,
+   "maxwu": 0.0,
+   "field": 0.0010346611484738748
+  },
+  {
+   "line": "Melon on Turtle",
+   "bot": 0.017333333333333333,
+   "botMedianTurn": 13,
+   "maxwu": 0.006329113924050633,
+   "field": 0.002586652871184687
+  },
+  {
+   "line": "Mushroom on Badger",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0010346611484738748
+  },
+  {
+   "line": "Pill on Ox",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Mushroom on Peacock",
+   "bot": 0.0016666666666666668,
+   "botMedianTurn": 11,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Pill on Dolphin",
+   "bot": 0.0013333333333333333,
+   "botMedianTurn": 9,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Tiger behind Ox",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Melon on Cow",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Tiger behind Seal",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Pill on Cat",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Pill on Kangaroo",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Pill on Crocodile",
+   "bot": 0.0013333333333333333,
+   "botMedianTurn": 9,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Pill on Snail",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 12,
+   "maxwu": 0.0,
+   "field": 0.0010346611484738748
+  },
+  {
+   "line": "Mushroom on Parrot",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0020693222969477496
+  },
+  {
+   "line": "Pill on Monkey",
+   "bot": 0.0033333333333333335,
+   "botMedianTurn": 11,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Mushroom on Crocodile",
+   "bot": 0.015666666666666666,
+   "botMedianTurn": 11,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Tiger behind Otter",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Pill on Rooster",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Mushroom on Swan",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Mushroom on Whale",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Melon on Bee",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Tiger behind Monkey",
+   "bot": 0.001,
+   "botMedianTurn": 14,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Mushroom on Spider",
+   "bot": 0.001,
+   "botMedianTurn": 12,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Mushroom on Rhino",
+   "bot": 0.0023333333333333335,
+   "botMedianTurn": 11,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Tiger behind Dog",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0010346611484738748
+  },
+  {
+   "line": "Mushroom on Sheep",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Tiger behind Ant",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Pill on Fish",
+   "bot": 0.0006666666666666666,
+   "botMedianTurn": 10,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Melon on Rat",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 13,
+   "maxwu": 0.0,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Tiger behind Spider",
+   "bot": 0.0003333333333333333,
+   "botMedianTurn": 14,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0005173305742369374
+  },
+  {
+   "line": "Melon on Ox",
+   "bot": 0.0,
+   "botMedianTurn": null,
+   "maxwu": 0.006329113924050633,
+   "field": 0.0
+  },
+  {
+   "line": "Pill on Hippo",
+   "bot": 0.0016666666666666668,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Pill on Otter",
+   "bot": 0.004333333333333333,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Pill on Crab",
+   "bot": 0.003,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Mushroom on Flamingo",
+   "bot": 0.015,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Pill on Skunk",
+   "bot": 0.0003333333333333333,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Mushroom on Gorilla",
+   "bot": 0.009,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Melon on Penguin",
+   "bot": 0.007666666666666666,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Mushroom on Penguin",
+   "bot": 0.015666666666666666,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Mushroom on Crab",
+   "bot": 0.006,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Mushroom on Dolphin",
+   "bot": 0.0026666666666666666,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Mushroom on Fish",
+   "bot": 0.005,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Mushroom on Otter",
+   "bot": 0.006333333333333333,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Mushroom on Hippo",
+   "bot": 0.001,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Pill on Peacock",
+   "bot": 0.004666666666666667,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Pill on Wolverine",
+   "bot": 0.0013333333333333333,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Mushroom on Ant",
+   "bot": 0.007333333333333333,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Pill on Camel",
+   "bot": 0.0013333333333333333,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Pill on Gorilla",
+   "bot": 0.0003333333333333333,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Pill on Bison",
+   "bot": 0.0003333333333333333,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Pill on Rhino",
+   "bot": 0.001,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Tiger behind Peacock",
+   "bot": 0.0003333333333333333,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Mushroom on Snail",
+   "bot": 0.004,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Pill on Penguin",
+   "bot": 0.004666666666666667,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Tiger behind Snail",
+   "bot": 0.0003333333333333333,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Pill on Leopard",
+   "bot": 0.001,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Tiger behind Cricket",
+   "bot": 0.0006666666666666666,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Pill on Whale",
+   "bot": 0.0003333333333333333,
+   "maxwu": 0.0,
+   "field": 0.0
+  },
+  {
+   "line": "Pill on Boar",
+   "bot": 0.001,
+   "maxwu": 0.0,
+   "field": 0.0
+  }
+ ],
+ "pets turn 3-5": {
+  "boards": 9000,
+  "bot": {
+   "Crab": 0.2812222222222222,
+   "Pig": 0.1228888888888889,
+   "Ant": 0.51,
+   "Snail": 0.5723333333333334,
+   "Beaver": 0.19377777777777777,
+   "Deer": 0.026444444444444444,
+   "Otter": 0.7656666666666667,
+   "Flamingo": 0.44855555555555554,
+   "Fish": 0.5335555555555556,
+   "Spider": 0.055,
+   "Peacock": 0.27211111111111114,
+   "Cricket": 0.37533333333333335,
+   "Pigeon": 0.016666666666666666,
+   "Mosquito": 0.026333333333333334,
+   "Skunk": 0.003,
+   "Camel": 0.09133333333333334,
+   "Dolphin": 0.141,
+   "Hippo": 0.008777777777777778,
+   "Whale": 0.002777777777777778,
+   "Turtle": 0.020777777777777777,
+   "Blowfish": 0.019444444444444445,
+   "Sheep": 0.03777777777777778,
+   "Elephant": 0.021333333333333333,
+   "Penguin": 0.026555555555555554,
+   "Duck": 0.010555555555555556,
+   "Kangaroo": 0.012333333333333333,
+   "Rat": 0.009222222222222222,
+   "Dodo": 0.004666666666666667,
+   "Horse": 0.0038888888888888888,
+   "Swan": 0.00011111111111111112,
+   "Hedgehog": 0.0005555555555555556,
+   "Bison": 0.001,
+   "Ox": 0.0011111111111111111,
+   "Rabbit": 0.00022222222222222223,
+   "Dog": 0.001,
+   "Badger": 0.00022222222222222223,
+   "Giraffe": 0.0003333333333333333,
+   "Worm": 0.00022222222222222223
+  },
+  "maxwu": {
+   "Crab": 0.14316239316239315,
+   "Ant": 0.16666666666666666,
+   "Flamingo": 0.19444444444444445,
+   "Peacock": 0.2222222222222222,
+   "Blowfish": 0.02564102564102564,
+   "Ox": 0.11965811965811966,
+   "Pig": 0.10256410256410256,
+   "Hedgehog": 0.08547008547008547,
+   "Mosquito": 0.010683760683760684,
+   "Skunk": 0.029914529914529916,
+   "Snail": 0.2670940170940171,
+   "Swan": 0.14316239316239315,
+   "Giraffe": 0.14743589743589744,
+   "Kangaroo": 0.20726495726495728,
+   "Camel": 0.17307692307692307,
+   "Pigeon": 0.0811965811965812,
+   "Otter": 0.1111111111111111,
+   "Turtle": 0.021367521367521368,
+   "Penguin": 0.027777777777777776,
+   "Rabbit": 0.25,
+   "Worm": 0.16025641025641027,
+   "Spider": 0.23076923076923078,
+   "Horse": 0.1752136752136752,
+   "Elephant": 0.1282051282051282,
+   "Beaver": 0.1111111111111111,
+   "Badger": 0.04700854700854701,
+   "Cricket": 0.16880341880341881,
+   "Fish": 0.0811965811965812,
+   "Deer": 0.03205128205128205,
+   "Whale": 0.017094017094017096,
+   "Sheep": 0.0641025641025641,
+   "Duck": 0.017094017094017096,
+   "Dolphin": 0.05128205128205128,
+   "Dodo": 0.08974358974358974,
+   "Squirrel": 0.01282051282051282,
+   "Parrot": 0.02564102564102564,
+   "Dog": 0.09829059829059829,
+   "Hippo": 0.010683760683760684,
+   "Rat": 0.0405982905982906,
+   "Bus": 0.002136752136752137,
+   "Bee": 0.002136752136752137
+  },
+  "field": {
+   "Horse": 0.12208695652173913,
+   "Spider": 0.16852173913043478,
+   "Dolphin": 0.10591304347826087,
+   "Elephant": 0.1631304347826087,
+   "Flamingo": 0.2102608695652174,
+   "Whale": 0.023304347826086955,
+   "Camel": 0.17408695652173914,
+   "Peacock": 0.17008695652173914,
+   "Cricket": 0.19530434782608697,
+   "Hedgehog": 0.06156521739130435,
+   "Deer": 0.0328695652173913,
+   "Rabbit": 0.1911304347826087,
+   "Worm": 0.14608695652173914,
+   "Fish": 0.14765217391304347,
+   "Dog": 0.09443478260869566,
+   "Swan": 0.1302608695652174,
+   "Sheep": 0.05791304347826087,
+   "Turtle": 0.02191304347826087,
+   "Ant": 0.20678260869565218,
+   "Pig": 0.13078260869565217,
+   "Otter": 0.1356521739130435,
+   "Kangaroo": 0.1257391304347826,
+   "Pigeon": 0.12591304347826088,
+   "Snail": 0.23756521739130435,
+   "Squirrel": 0.013391304347826087,
+   "Skunk": 0.022608695652173914,
+   "Blowfish": 0.028695652173913042,
+   "Ox": 0.13756521739130434,
+   "Beaver": 0.14782608695652175,
+   "Parrot": 0.020695652173913042,
+   "Giraffe": 0.17808695652173914,
+   "Badger": 0.08365217391304348,
+   "Penguin": 0.02208695652173913,
+   "Hippo": 0.01008695652173913,
+   "Mosquito": 0.04573913043478261,
+   "Dodo": 0.08156521739130435,
+   "Crab": 0.09791304347826087,
+   "Duck": 0.019130434782608695,
+   "Rat": 0.06208695652173913,
+   "Bison": 0.00591304347826087,
+   "Bus": 0.0005217391304347826,
+   "Ram": 0.00017391304347826088,
+   "Sloth": 0.0010434782608695651,
+   "Bee": 0.00034782608695652176,
+   "Zombie Cricket": 0.00017391304347826088
+  }
+ },
+ "pets turn 6-9": {
+  "boards": 11726,
+  "bot": {
+   "Crab": 0.27792938768548525,
+   "Deer": 0.2256523963841037,
+   "Ant": 0.4054238444482347,
+   "Snail": 0.6795156063448746,
+   "Beaver": 0.017226675763261128,
+   "Otter": 0.5010233668770254,
+   "Flamingo": 0.45036670646426746,
+   "Fish": 0.3772812553300358,
+   "Spider": 0.03206549548012963,
+   "Peacock": 0.2141395190175678,
+   "Monkey": 0.08553641480470749,
+   "Cricket": 0.2771618625277162,
+   "Turtle": 0.17149923247484222,
+   "Penguin": 0.34086645062254817,
+   "Skunk": 0.011768719085792257,
+   "Crocodile": 0.07675251577690602,
+   "Mosquito": 0.001279208596281767,
+   "Camel": 0.10378645744499403,
+   "Hippo": 0.0415316390926147,
+   "Dolphin": 0.23247484223093978,
+   "Whale": 0.01057479106259594,
+   "Blowfish": 0.12519188128944225,
+   "Sheep": 0.02319631587924271,
+   "Leopard": 0.002643697765648985,
+   "Rhino": 0.04571038717380181,
+   "Cow": 0.06822445846836091,
+   "Gorilla": 0.010915913354937745,
+   "Rooster": 0.0150093808630394,
+   "Kangaroo": 0.00520211495821252,
+   "Mammoth": 0.012109841378134062,
+   "Rat": 0.005031553812041617,
+   "Wolverine": 0.009636704758655978,
+   "Boar": 0.010148388197168685,
+   "Scorpion": 0.0002558417192563534,
+   "Elephant": 0.009295582466314173,
+   "Dodo": 0.003922906361930752,
+   "Bison": 0.00520211495821252,
+   "Pig": 0.008869179600886918,
+   "Horse": 0.00042640286542725567,
+   "Fly": 0.0008528057308545113,
+   "Pigeon": 0.00042640286542725567,
+   "Seal": 0.00034112229234180454,
+   "Tiger": 8.528057308545113e-05,
+   "Dragon": 8.528057308545113e-05,
+   "Bus": 0.00034112229234180454,
+   "Duck": 0.0005969640115981579,
+   "Ox": 0.00034112229234180454,
+   "Zombie Cricket": 0.00034112229234180454,
+   "Turkey": 0.0002558417192563534,
+   "Badger": 0.00017056114617090227,
+   "Swan": 8.528057308545113e-05,
+   "Dog": 0.0008528057308545113,
+   "Snake": 0.0002558417192563534,
+   "Armadillo": 0.0002558417192563534,
+   "Rabbit": 0.00017056114617090227,
+   "Squirrel": 8.528057308545113e-05,
+   "Parrot": 8.528057308545113e-05,
+   "Giraffe": 8.528057308545113e-05,
+   "Worm": 8.528057308545113e-05
+  },
+  "maxwu": {
+   "Crab": 0.12060301507537688,
+   "Flamingo": 0.048576214405360134,
+   "Blowfish": 0.10720268006700168,
+   "Peacock": 0.18760469011725292,
+   "Hedgehog": 0.09212730318257957,
+   "Cow": 0.06532663316582915,
+   "Armadillo": 0.021775544388609715,
+   "Pig": 0.021775544388609715,
+   "Ox": 0.1407035175879397,
+   "Skunk": 0.19765494137353434,
+   "Deer": 0.20603015075376885,
+   "Whale": 0.09547738693467336,
+   "Monkey": 0.10552763819095477,
+   "Rhino": 0.07202680067001675,
+   "Turkey": 0.06030150753768844,
+   "Snail": 0.17755443886097153,
+   "Swan": 0.09212730318257957,
+   "Giraffe": 0.12562814070351758,
+   "Kangaroo": 0.1541038525963149,
+   "Tiger": 0.018425460636515914,
+   "Ant": 0.06532663316582915,
+   "Penguin": 0.06700167504187604,
+   "Otter": 0.051926298157453935,
+   "Wolverine": 0.01340033500837521,
+   "Rabbit": 0.2646566164154104,
+   "Worm": 0.12227805695142378,
+   "Gorilla": 0.018425460636515914,
+   "Cat": 0.01675041876046901,
+   "Horse": 0.09045226130653267,
+   "Camel": 0.2629815745393635,
+   "Elephant": 0.1323283082077052,
+   "Turtle": 0.1373534338358459,
+   "Badger": 0.035175879396984924,
+   "Spider": 0.15912897822445563,
+   "Leopard": 0.01507537688442211,
+   "Seal": 0.020100502512562814,
+   "Shark": 0.10217755443886097,
+   "Cricket": 0.08542713567839195,
+   "Fish": 0.02680067001675042,
+   "Boar": 0.011725293132328308,
+   "Mammoth": 0.02847571189279732,
+   "Snake": 0.010050251256281407,
+   "Sheep": 0.07202680067001675,
+   "Dragon": 0.018425460636515914,
+   "Dolphin": 0.035175879396984924,
+   "Rooster": 0.011725293132328308,
+   "Crocodile": 0.01340033500837521,
+   "Dodo": 0.09045226130653267,
+   "Squirrel": 0.04187604690117253,
+   "Scorpion": 0.01507537688442211,
+   "Fly": 0.01340033500837521,
+   "Parrot": 0.09715242881072027,
+   "Dog": 0.08542713567839195,
+   "Hippo": 0.021775544388609715,
+   "Rat": 0.020100502512562814,
+   "Bus": 0.006700167504187605,
+   "Ram": 0.0033500837520938024,
+   "Bee": 0.0033500837520938024,
+   "Beaver": 0.006700167504187605,
+   "Duck": 0.0016750418760469012,
+   "Mosquito": 0.0033500837520938024
+  },
+  "field": {
+   "Spider": 0.07659517783402157,
+   "Elephant": 0.18889036898894365,
+   "Whale": 0.10923138404156121,
+   "Camel": 0.21380045291061675,
+   "Dolphin": 0.11362728120420941,
+   "Blowfish": 0.15465565472225923,
+   "Mammoth": 0.01891567869988011,
+   "Wolverine": 0.01092313840415612,
+   "Peacock": 0.13587318502730786,
+   "Hedgehog": 0.05674703609964034,
+   "Deer": 0.22099373917676834,
+   "Leopard": 0.018649260690022644,
+   "Cow": 0.05355001998135074,
+   "Turkey": 0.07353137072066071,
+   "Rabbit": 0.23125083255628082,
+   "Worm": 0.10683362195284402,
+   "Fish": 0.05461569202078061,
+   "Monkey": 0.12042094045557479,
+   "Seal": 0.010523511389369921,
+   "Turtle": 0.1252164646330092,
+   "Swan": 0.10470227787398428,
+   "Dog": 0.09258025842546956,
+   "Sheep": 0.05807912614892767,
+   "Fly": 0.011056347409084854,
+   "Rhino": 0.052484347941920875,
+   "Otter": 0.065405621420008,
+   "Giraffe": 0.19395231117623551,
+   "Crocodile": 0.03663247635540162,
+   "Snail": 0.18009857466364726,
+   "Cricket": 0.08418809111495937,
+   "Kangaroo": 0.0851205541494605,
+   "Shark": 0.07965898494738244,
+   "Skunk": 0.19142134008258957,
+   "Squirrel": 0.04822165978420141,
+   "Ant": 0.06940189156787,
+   "Flamingo": 0.057013454109497805,
+   "Ox": 0.14586386039696284,
+   "Parrot": 0.10177167976555215,
+   "Scorpion": 0.034767550286399364,
+   "Penguin": 0.0819235380311709,
+   "Badger": 0.0855201811642467,
+   "Rooster": 0.0321033701878247,
+   "Hippo": 0.031570534168109766,
+   "Dragon": 0.015718662581590517,
+   "Pig": 0.027307846010390303,
+   "Boar": 0.016784334621020382,
+   "Cat": 0.02011455974423871,
+   "Dodo": 0.0823231650459571,
+   "Crab": 0.06940189156787,
+   "Rat": 0.04036232849340615,
+   "Bison": 0.032369788197682166,
+   "Armadillo": 0.014120154522445718,
+   "Horse": 0.056613827094711605,
+   "Gorilla": 0.007193286266151592,
+   "Tiger": 0.014519781537231918,
+   "Duck": 0.0027973891035033968,
+   "Pigeon": 0.011455974423871054,
+   "Snake": 0.014253363527374451,
+   "Mosquito": 0.014919408552018116,
+   "Beaver": 0.01758358865059278,
+   "Zombie Fly": 0.0002664180098574664,
+   "Bus": 0.0026641800985746636,
+   "Sloth": 0.0026641800985746636,
+   "Ram": 0.0005328360197149328,
+   "Bee": 0.0007992540295723991
+  }
+ },
+ "pets turn 10+": {
+  "boards": 8826,
+  "bot": {
+   "Leopard": 0.044980738726489916,
+   "Penguin": 0.35350101971447995,
+   "Monkey": 0.2684115114434625,
+   "Flamingo": 0.2883525946068434,
+   "Camel": 0.07273963290278722,
+   "Otter": 0.26365284387038296,
+   "Crab": 0.22059823249490143,
+   "Rhino": 0.09539995467935644,
+   "Peacock": 0.12961704056197598,
+   "Crocodile": 0.3405846363018355,
+   "Deer": 0.24756401540901882,
+   "Mammoth": 0.2601404939950147,
+   "Ant": 0.3268751416270111,
+   "Blowfish": 0.11692726036709722,
+   "Snail": 0.4091321096759574,
+   "Cow": 0.11012916383412645,
+   "Fish": 0.24552458644912759,
+   "Cricket": 0.18558803535010196,
+   "Turtle": 0.1876274643099932,
+   "Gorilla": 0.15012463176977114,
+   "Dolphin": 0.18309539995467936,
+   "Rooster": 0.025039655563108998,
+   "Boar": 0.14717878993881714,
+   "Wolverine": 0.1411738046680263,
+   "Snake": 0.002605937004305461,
+   "Hippo": 0.03376387944708815,
+   "Skunk": 0.006231588488556538,
+   "Dragon": 0.0012463176977113076,
+   "Fly": 0.012236573759347382,
+   "Elephant": 0.003285746657602538,
+   "Rat": 0.0028325402220711533,
+   "Spider": 0.011896668932698844,
+   "Bison": 0.0035123498753682303,
+   "Whale": 0.005891683661907999,
+   "Sheep": 0.009857239972807614,
+   "Dog": 0.00011330160888284614,
+   "Tiger": 0.0020394289598912306,
+   "Dodo": 0.001699524133242692,
+   "Scorpion": 0.0010197144799456153,
+   "Armadillo": 0.0010197144799456153,
+   "Bus": 0.0010197144799456153,
+   "Turkey": 0.00022660321776569228,
+   "Zombie Fly": 0.00011330160888284614,
+   "Kangaroo": 0.00022660321776569228,
+   "Mosquito": 0.00011330160888284614,
+   "Shark": 0.00011330160888284614,
+   "Zombie Cricket": 0.00022660321776569228,
+   "Pig": 0.00011330160888284614
+  },
+  "maxwu": {
+   "Rhino": 0.14563106796116504,
+   "Pig": 0.007281553398058253,
+   "Monkey": 0.19902912621359223,
+   "Turkey": 0.0825242718446602,
+   "Wolverine": 0.2524271844660194,
+   "Leopard": 0.1407766990291262,
+   "Tiger": 0.1820388349514563,
+   "Swan": 0.07281553398058252,
+   "Skunk": 0.25,
+   "Kangaroo": 0.06553398058252427,
+   "Mammoth": 0.1941747572815534,
+   "Penguin": 0.009708737864077669,
+   "Ant": 0.01699029126213592,
+   "Otter": 0.03640776699029126,
+   "Hedgehog": 0.08980582524271845,
+   "Rabbit": 0.14563106796116504,
+   "Gorilla": 0.18689320388349515,
+   "Cat": 0.17233009708737865,
+   "Worm": 0.07281553398058252,
+   "Whale": 0.0825242718446602,
+   "Deer": 0.25485436893203883,
+   "Fly": 0.09223300970873786,
+   "Blowfish": 0.14320388349514562,
+   "Elephant": 0.11165048543689321,
+   "Turtle": 0.09951456310679611,
+   "Spider": 0.055825242718446605,
+   "Cow": 0.0703883495145631,
+   "Seal": 0.03640776699029126,
+   "Squirrel": 0.019417475728155338,
+   "Camel": 0.1820388349514563,
+   "Scorpion": 0.0970873786407767,
+   "Shark": 0.14563106796116504,
+   "Peacock": 0.08737864077669903,
+   "Boar": 0.12864077669902912,
+   "Fish": 0.019417475728155338,
+   "Snake": 0.1407766990291262,
+   "Sheep": 0.009708737864077669,
+   "Crab": 0.050970873786407765,
+   "Dragon": 0.07766990291262135,
+   "Cricket": 0.038834951456310676,
+   "Badger": 0.009708737864077669,
+   "Ox": 0.09223300970873786,
+   "Rooster": 0.03155339805825243,
+   "Dolphin": 0.021844660194174758,
+   "Dodo": 0.07524271844660194,
+   "Parrot": 0.09951456310679611,
+   "Pigeon": 0.0048543689320388345,
+   "Dog": 0.050970873786407765,
+   "Armadillo": 0.02912621359223301,
+   "Giraffe": 0.0048543689320388345,
+   "Horse": 0.012135922330097087,
+   "Snail": 0.007281553398058253,
+   "Crocodile": 0.021844660194174758,
+   "Mosquito": 0.0024271844660194173,
+   "Duck": 0.0024271844660194173,
+   "Hippo": 0.012135922330097087,
+   "Beaver": 0.0024271844660194173
+  },
+  "field": {
+   "Blowfish": 0.19157027412454444,
+   "Elephant": 0.17049595943590556,
+   "Hedgehog": 0.05545872286483917,
+   "Cow": 0.0942798288702266,
+   "Wolverine": 0.15781967992394233,
+   "Tiger": 0.2356203454286167,
+   "Leopard": 0.20519727459990492,
+   "Turkey": 0.08001901441926794,
+   "Deer": 0.1826968784661702,
+   "Rooster": 0.040247187450483286,
+   "Rhino": 0.08445571224845508,
+   "Fly": 0.11012517826018063,
+   "Monkey": 0.1635240057043258,
+   "Crocodile": 0.053715734431944225,
+   "Otter": 0.027570907938520045,
+   "Dolphin": 0.05339882744414514,
+   "Snake": 0.1451434004119791,
+   "Scorpion": 0.08968467754713992,
+   "Shark": 0.1510061796862621,
+   "Swan": 0.06559974647440976,
+   "Mammoth": 0.18887656472825226,
+   "Boar": 0.13278402788781493,
+   "Peacock": 0.06987799080969735,
+   "Skunk": 0.2814134051655839,
+   "Dragon": 0.11313579464427191,
+   "Turtle": 0.11773094596735859,
+   "Camel": 0.16384091269212486,
+   "Ant": 0.02630327998732372,
+   "Cat": 0.21232768182538425,
+   "Badger": 0.07716685152907622,
+   "Giraffe": 0.024084931072730152,
+   "Gorilla": 0.06623356045000792,
+   "Whale": 0.11012517826018063,
+   "Hippo": 0.017746791316748535,
+   "Pigeon": 0.007922674694977025,
+   "Fish": 0.02202503565203613,
+   "Spider": 0.020598954206940263,
+   "Parrot": 0.11202662018697512,
+   "Dodo": 0.07637458405957852,
+   "Ox": 0.09697353826651878,
+   "Rabbit": 0.07447314213278403,
+   "Crab": 0.030739977816510854,
+   "Kangaroo": 0.02234194263983521,
+   "Mosquito": 0.007447314213278403,
+   "Bison": 0.031215338298209477,
+   "Dog": 0.057993978767231814,
+   "Cricket": 0.03438440817620028,
+   "Pig": 0.007288860719378862,
+   "Beaver": 0.008714942164474727,
+   "Sheep": 0.017271430835049912,
+   "Worm": 0.05339882744414514,
+   "Horse": 0.014260814450958644,
+   "Armadillo": 0.021708128664237047,
+   "Penguin": 0.027412454444620503,
+   "Flamingo": 0.004595151323086674,
+   "Snail": 0.021866582158136586,
+   "Rat": 0.014260814450958644,
+   "Duck": 0.005545872286483917,
+   "Squirrel": 0.02535255902392648,
+   "Seal": 0.01267627951196324,
+   "Zombie Fly": 0.00047536048169862145,
+   "Sloth": 0.002218348914593567,
+   "Bus": 0.0012676279511963239,
+   "Bee": 0.0007922674694977025
+  }
+ },
+ "foodsPerGame": {
+  "bot": {
+   "Salad Bowl": 1.8806666666666667,
+   "Bread": 1.772,
+   "Cupcake": 0.3516666666666667,
+   "Pear": 1.697,
+   "Sleeping Pill": 0.08466666666666667,
+   "Garlic": 0.12266666666666666,
+   "Sushi": 0.8496666666666667,
+   "Chocolate": 0.9316666666666666,
+   "Apple": 0.13733333333333334,
+   "Milk": 1.1813333333333333,
+   "Chili": 0.511,
+   "Cake": 0.022,
+   "Melon": 0.44633333333333336,
+   "Pizza": 0.43533333333333335,
+   "Mushroom": 0.21666666666666667,
+   "Honey": 0.025333333333333333,
+   "Meat Bone": 0.036,
+   "Steak": 0.3636666666666667,
+   "Bread Crumbs": 0.0026666666666666666,
+   "Canned Food": 0.008333333333333333
+  },
+  "maxwu": {
+   "Salad Bowl": 0.8417721518987342,
+   "Garlic": 0.24050632911392406,
+   "Apple": 2.0316455696202533,
+   "Sleeping Pill": 1.240506329113924,
+   "Milk": 1.759493670886076,
+   "Cupcake": 0.18354430379746836,
+   "Bread Crumbs": 0.8924050632911392,
+   "Cake": 0.5632911392405063,
+   "Canned Food": 0.25316455696202533,
+   "Bread": 1.2658227848101267,
+   "Mushroom": 0.34177215189873417,
+   "Melon": 0.5189873417721519,
+   "Pear": 1.1962025316455696,
+   "Chili": 0.21518987341772153,
+   "Chocolate": 1.1835443037974684,
+   "Pizza": 0.2911392405063291,
+   "Sushi": 0.27848101265822783,
+   "Better Apple": 0.3037974683544304,
+   "Steak": 0.18354430379746836,
+   "?": 0.0379746835443038,
+   "Honey": 0.13291139240506328,
+   "Better Milk": 0.10126582278481013,
+   "Meat Bone": 0.06329113924050633,
+   "Best Milk": 0.012658227848101266
+  },
+  "field": {
+   "Bread Crumbs": 0.7884117951370926,
+   "Apple": 1.758923952405587,
+   "Sleeping Pill": 1.0848422141748577,
+   "Cake": 0.561821003621314,
+   "Salad Bowl": 0.7884117951370926,
+   "Garlic": 0.2736678737713399,
+   "Pear": 1.3673047077082257,
+   "Chocolate": 1.536471805483704,
+   "Bread": 1.1412312467666839,
+   "Milk": 1.7666839110191412,
+   "Honey": 0.0775995861355406,
+   "Canned Food": 0.4014485256078634,
+   "Better Apple": 0.3978272115882049,
+   "Melon": 0.4438696326952923,
+   "Chili": 0.16244180031039834,
+   "Meat Bone": 0.10398344542162442,
+   "Sushi": 0.40610450077599586,
+   "Mushroom": 0.3481634764614589,
+   "Pizza": 0.3750646663217796,
+   "Steak": 0.28142783238489394,
+   "Better Milk": 0.12312467666839111,
+   "Cupcake": 0.15830315571650286,
+   "Best Apple": 0.020693222969477496,
+   "?": 0.02431453698913606,
+   "Best Milk": 0.004138644593895499
+  }
+ },
+ "rollsPerTurn": {
+  "bot": 2.511054230423042,
+  "field": 1.6213550783418007,
+  "target": 1.586823003908431
+ }
+}

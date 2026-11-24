@@ -1,0 +1,791 @@
+{
+  "backend": "rust",
+  "training": true,
+  "games": 512,
+  "workers": 10,
+  "wall": 50.71117367898114,
+  "matches": 2562,
+  "battles": 30286,
+  "waves": 845,
+  "seat": 709228,
+  "live": 709228,
+  "seat_s": 13985.635680405521,
+  "games_s": 50.521410058823044,
+  "learned_s": 12933.737328817779,
+  "learned": 655885,
+  "delivered": 703160,
+  "updates": 80,
+  "stale": 37980,
+  "stale_share": 0.05473687244636925,
+  "queued": 9295,
+  "backlog": 1.0,
+  "pending_stale": 391,
+  "gpu": 72.27272727272727,
+  "main_seconds": {
+    "turn_capture": 9.413824317511171,
+    "actor": 22.990245390683413,
+    "ghost": 0.23051607026718557,
+    "engine": 0.818635948235169,
+    "reset": 4.640474914340302,
+    "wait_publish": 12.034051676513627
+  },
+  "learner_wall": 48.470371395815164,
+  "actor_timing": {
+    "policy_stream_s": 19.539574258327487,
+    "service_s": 22.454776062630117
+  },
+  "mean_active_seats": 839.3230769230769,
+  "policy_batch_percentiles": [
+    822.0,
+    838.0,
+    854.0,
+    905.0
+  ],
+  "peak_gib": 2.341796875,
+  "steady": {
+    "seconds": 35.88930618390441,
+    "seat_s": 13782.183180876807,
+    "games_s": 57.09221399683044,
+    "learned_s": 13249.4616226971
+  },
+  "events": [
+    {
+      "version": 1,
+      "min_version": 0,
+      "max_version": 0,
+      "seconds": 1.4978877359535545,
+      "decisions": 8203,
+      "turns": 663,
+      "stale": 0
+    },
+    {
+      "version": 2,
+      "min_version": 0,
+      "max_version": 0,
+      "seconds": 2.0824890648946166,
+      "decisions": 8194,
+      "turns": 499,
+      "stale": 0
+    },
+    {
+      "version": 3,
+      "min_version": 0,
+      "max_version": 1,
+      "seconds": 2.657619238831103,
+      "decisions": 8199,
+      "turns": 566,
+      "stale": 0
+    },
+    {
+      "version": 4,
+      "min_version": 0,
+      "max_version": 2,
+      "seconds": 3.2368575939908624,
+      "decisions": 8210,
+      "turns": 555,
+      "stale": 0
+    },
+    {
+      "version": 5,
+      "min_version": 1,
+      "max_version": 4,
+      "seconds": 3.875473777996376,
+      "decisions": 8195,
+      "turns": 673,
+      "stale": 2048
+    },
+    {
+      "version": 6,
+      "min_version": 2,
+      "max_version": 5,
+      "seconds": 4.4717779769562185,
+      "decisions": 8199,
+      "turns": 643,
+      "stale": 2813
+    },
+    {
+      "version": 7,
+      "min_version": 3,
+      "max_version": 6,
+      "seconds": 5.287067016819492,
+      "decisions": 8205,
+      "turns": 587,
+      "stale": 3599
+    },
+    {
+      "version": 8,
+      "min_version": 4,
+      "max_version": 7,
+      "seconds": 5.876783509971574,
+      "decisions": 8202,
+      "turns": 589,
+      "stale": 3916
+    },
+    {
+      "version": 9,
+      "min_version": 5,
+      "max_version": 8,
+      "seconds": 6.46384690888226,
+      "decisions": 8192,
+      "turns": 596,
+      "stale": 4722
+    },
+    {
+      "version": 10,
+      "min_version": 6,
+      "max_version": 9,
+      "seconds": 7.042280887952074,
+      "decisions": 8202,
+      "turns": 577,
+      "stale": 5392
+    },
+    {
+      "version": 11,
+      "min_version": 7,
+      "max_version": 10,
+      "seconds": 7.644689140841365,
+      "decisions": 8198,
+      "turns": 572,
+      "stale": 6337
+    },
+    {
+      "version": 12,
+      "min_version": 8,
+      "max_version": 11,
+      "seconds": 8.226224890910089,
+      "decisions": 8196,
+      "turns": 562,
+      "stale": 7287
+    },
+    {
+      "version": 13,
+      "min_version": 9,
+      "max_version": 12,
+      "seconds": 8.818871313938871,
+      "decisions": 8201,
+      "turns": 608,
+      "stale": 8294
+    },
+    {
+      "version": 14,
+      "min_version": 10,
+      "max_version": 12,
+      "seconds": 9.409651960944757,
+      "decisions": 8197,
+      "turns": 615,
+      "stale": 8766
+    },
+    {
+      "version": 15,
+      "min_version": 11,
+      "max_version": 14,
+      "seconds": 10.006249554920942,
+      "decisions": 8192,
+      "turns": 605,
+      "stale": 9603
+    },
+    {
+      "version": 16,
+      "min_version": 12,
+      "max_version": 15,
+      "seconds": 10.819018043810502,
+      "decisions": 8203,
+      "turns": 647,
+      "stale": 10183
+    },
+    {
+      "version": 17,
+      "min_version": 13,
+      "max_version": 16,
+      "seconds": 11.41329832188785,
+      "decisions": 8203,
+      "turns": 667,
+      "stale": 11108
+    },
+    {
+      "version": 18,
+      "min_version": 14,
+      "max_version": 16,
+      "seconds": 11.994555925019085,
+      "decisions": 8195,
+      "turns": 685,
+      "stale": 11784
+    },
+    {
+      "version": 19,
+      "min_version": 15,
+      "max_version": 18,
+      "seconds": 12.57896099681966,
+      "decisions": 8201,
+      "turns": 717,
+      "stale": 12348
+    },
+    {
+      "version": 20,
+      "min_version": 16,
+      "max_version": 18,
+      "seconds": 13.149493978824466,
+      "decisions": 8192,
+      "turns": 761,
+      "stale": 12590
+    },
+    {
+      "version": 21,
+      "min_version": 17,
+      "max_version": 20,
+      "seconds": 13.732297403970733,
+      "decisions": 8200,
+      "turns": 794,
+      "stale": 13018
+    },
+    {
+      "version": 22,
+      "min_version": 18,
+      "max_version": 20,
+      "seconds": 14.457534616813064,
+      "decisions": 8192,
+      "turns": 817,
+      "stale": 13339
+    },
+    {
+      "version": 23,
+      "min_version": 19,
+      "max_version": 22,
+      "seconds": 15.062846350949258,
+      "decisions": 8194,
+      "turns": 819,
+      "stale": 13724
+    },
+    {
+      "version": 24,
+      "min_version": 20,
+      "max_version": 22,
+      "seconds": 15.621729183010757,
+      "decisions": 8199,
+      "turns": 839,
+      "stale": 13832
+    },
+    {
+      "version": 25,
+      "min_version": 21,
+      "max_version": 23,
+      "seconds": 16.220381850842386,
+      "decisions": 8193,
+      "turns": 849,
+      "stale": 14125
+    },
+    {
+      "version": 26,
+      "min_version": 22,
+      "max_version": 24,
+      "seconds": 16.813494693953544,
+      "decisions": 8198,
+      "turns": 833,
+      "stale": 14291
+    },
+    {
+      "version": 27,
+      "min_version": 23,
+      "max_version": 25,
+      "seconds": 17.384951940970495,
+      "decisions": 8195,
+      "turns": 817,
+      "stale": 14574
+    },
+    {
+      "version": 28,
+      "min_version": 24,
+      "max_version": 27,
+      "seconds": 17.99245775793679,
+      "decisions": 8199,
+      "turns": 828,
+      "stale": 14910
+    },
+    {
+      "version": 29,
+      "min_version": 25,
+      "max_version": 27,
+      "seconds": 18.80722851981409,
+      "decisions": 8204,
+      "turns": 800,
+      "stale": 15125
+    },
+    {
+      "version": 30,
+      "min_version": 26,
+      "max_version": 28,
+      "seconds": 19.39850136381574,
+      "decisions": 8193,
+      "turns": 805,
+      "stale": 15588
+    },
+    {
+      "version": 31,
+      "min_version": 27,
+      "max_version": 29,
+      "seconds": 19.992368533974513,
+      "decisions": 8195,
+      "turns": 824,
+      "stale": 16043
+    },
+    {
+      "version": 32,
+      "min_version": 28,
+      "max_version": 30,
+      "seconds": 20.56290303589776,
+      "decisions": 8195,
+      "turns": 822,
+      "stale": 16440
+    },
+    {
+      "version": 33,
+      "min_version": 29,
+      "max_version": 32,
+      "seconds": 21.152255365857854,
+      "decisions": 8193,
+      "turns": 844,
+      "stale": 16850
+    },
+    {
+      "version": 34,
+      "min_version": 30,
+      "max_version": 32,
+      "seconds": 21.759770462987944,
+      "decisions": 8194,
+      "turns": 861,
+      "stale": 17180
+    },
+    {
+      "version": 35,
+      "min_version": 31,
+      "max_version": 33,
+      "seconds": 22.579755143960938,
+      "decisions": 8198,
+      "turns": 838,
+      "stale": 17494
+    },
+    {
+      "version": 36,
+      "min_version": 32,
+      "max_version": 34,
+      "seconds": 23.157114936970174,
+      "decisions": 8204,
+      "turns": 839,
+      "stale": 17782
+    },
+    {
+      "version": 37,
+      "min_version": 33,
+      "max_version": 36,
+      "seconds": 23.772850170033053,
+      "decisions": 8198,
+      "turns": 877,
+      "stale": 18200
+    },
+    {
+      "version": 38,
+      "min_version": 34,
+      "max_version": 37,
+      "seconds": 24.373608263907954,
+      "decisions": 8197,
+      "turns": 824,
+      "stale": 18416
+    },
+    {
+      "version": 39,
+      "min_version": 35,
+      "max_version": 37,
+      "seconds": 24.957156623946503,
+      "decisions": 8203,
+      "turns": 836,
+      "stale": 18543
+    },
+    {
+      "version": 40,
+      "min_version": 36,
+      "max_version": 38,
+      "seconds": 25.52168076997623,
+      "decisions": 8198,
+      "turns": 834,
+      "stale": 18647
+    },
+    {
+      "version": 41,
+      "min_version": 37,
+      "max_version": 39,
+      "seconds": 26.300046894932166,
+      "decisions": 8201,
+      "turns": 826,
+      "stale": 18986
+    },
+    {
+      "version": 42,
+      "min_version": 38,
+      "max_version": 41,
+      "seconds": 26.915220090886578,
+      "decisions": 8200,
+      "turns": 842,
+      "stale": 19394
+    },
+    {
+      "version": 43,
+      "min_version": 39,
+      "max_version": 42,
+      "seconds": 27.51704195397906,
+      "decisions": 8193,
+      "turns": 830,
+      "stale": 19801
+    },
+    {
+      "version": 44,
+      "min_version": 40,
+      "max_version": 43,
+      "seconds": 28.120909722987562,
+      "decisions": 8193,
+      "turns": 818,
+      "stale": 20165
+    },
+    {
+      "version": 45,
+      "min_version": 41,
+      "max_version": 43,
+      "seconds": 28.681311128893867,
+      "decisions": 8193,
+      "turns": 812,
+      "stale": 20430
+    },
+    {
+      "version": 46,
+      "min_version": 42,
+      "max_version": 45,
+      "seconds": 29.281088365940377,
+      "decisions": 8207,
+      "turns": 800,
+      "stale": 20640
+    },
+    {
+      "version": 47,
+      "min_version": 43,
+      "max_version": 45,
+      "seconds": 30.096559390891343,
+      "decisions": 8196,
+      "turns": 791,
+      "stale": 21040
+    },
+    {
+      "version": 48,
+      "min_version": 44,
+      "max_version": 46,
+      "seconds": 30.670081519987434,
+      "decisions": 8197,
+      "turns": 750,
+      "stale": 21421
+    },
+    {
+      "version": 49,
+      "min_version": 45,
+      "max_version": 47,
+      "seconds": 31.243375150021166,
+      "decisions": 8193,
+      "turns": 725,
+      "stale": 21664
+    },
+    {
+      "version": 50,
+      "min_version": 46,
+      "max_version": 49,
+      "seconds": 31.83428275794722,
+      "decisions": 8201,
+      "turns": 723,
+      "stale": 22294
+    },
+    {
+      "version": 51,
+      "min_version": 47,
+      "max_version": 50,
+      "seconds": 32.41359109687619,
+      "decisions": 8201,
+      "turns": 741,
+      "stale": 22961
+    },
+    {
+      "version": 52,
+      "min_version": 48,
+      "max_version": 51,
+      "seconds": 33.15675374586135,
+      "decisions": 8196,
+      "turns": 788,
+      "stale": 23391
+    },
+    {
+      "version": 53,
+      "min_version": 49,
+      "max_version": 51,
+      "seconds": 33.94217510102317,
+      "decisions": 8193,
+      "turns": 784,
+      "stale": 23683
+    },
+    {
+      "version": 54,
+      "min_version": 50,
+      "max_version": 53,
+      "seconds": 34.84571591881104,
+      "decisions": 8206,
+      "turns": 804,
+      "stale": 23922
+    },
+    {
+      "version": 55,
+      "min_version": 51,
+      "max_version": 53,
+      "seconds": 35.432201951975,
+      "decisions": 8193,
+      "turns": 795,
+      "stale": 24062
+    },
+    {
+      "version": 56,
+      "min_version": 52,
+      "max_version": 55,
+      "seconds": 36.03828377299942,
+      "decisions": 8201,
+      "turns": 728,
+      "stale": 24531
+    },
+    {
+      "version": 57,
+      "min_version": 53,
+      "max_version": 56,
+      "seconds": 36.628229692811146,
+      "decisions": 8201,
+      "turns": 670,
+      "stale": 24816
+    },
+    {
+      "version": 58,
+      "min_version": 54,
+      "max_version": 57,
+      "seconds": 37.21781269693747,
+      "decisions": 8192,
+      "turns": 646,
+      "stale": 25154
+    },
+    {
+      "version": 59,
+      "min_version": 55,
+      "max_version": 57,
+      "seconds": 37.799111420987174,
+      "decisions": 8198,
+      "turns": 632,
+      "stale": 25567
+    },
+    {
+      "version": 60,
+      "min_version": 56,
+      "max_version": 58,
+      "seconds": 38.37727720593102,
+      "decisions": 8199,
+      "turns": 624,
+      "stale": 26408
+    },
+    {
+      "version": 61,
+      "min_version": 57,
+      "max_version": 59,
+      "seconds": 38.95194027200341,
+      "decisions": 8211,
+      "turns": 620,
+      "stale": 27117
+    },
+    {
+      "version": 62,
+      "min_version": 58,
+      "max_version": 61,
+      "seconds": 39.77496560290456,
+      "decisions": 8195,
+      "turns": 629,
+      "stale": 27944
+    },
+    {
+      "version": 63,
+      "min_version": 59,
+      "max_version": 62,
+      "seconds": 40.368706356035545,
+      "decisions": 8204,
+      "turns": 638,
+      "stale": 28479
+    },
+    {
+      "version": 64,
+      "min_version": 60,
+      "max_version": 63,
+      "seconds": 40.95802132599056,
+      "decisions": 8207,
+      "turns": 627,
+      "stale": 29037
+    },
+    {
+      "version": 65,
+      "min_version": 61,
+      "max_version": 64,
+      "seconds": 41.55003651184961,
+      "decisions": 8213,
+      "turns": 604,
+      "stale": 29881
+    },
+    {
+      "version": 66,
+      "min_version": 62,
+      "max_version": 65,
+      "seconds": 42.13579788291827,
+      "decisions": 8202,
+      "turns": 612,
+      "stale": 30741
+    },
+    {
+      "version": 67,
+      "min_version": 63,
+      "max_version": 66,
+      "seconds": 42.720335674937814,
+      "decisions": 8197,
+      "turns": 621,
+      "stale": 31380
+    },
+    {
+      "version": 68,
+      "min_version": 64,
+      "max_version": 67,
+      "seconds": 43.308712956961244,
+      "decisions": 8196,
+      "turns": 659,
+      "stale": 32155
+    },
+    {
+      "version": 69,
+      "min_version": 65,
+      "max_version": 68,
+      "seconds": 44.090020483825356,
+      "decisions": 8201,
+      "turns": 678,
+      "stale": 33054
+    },
+    {
+      "version": 70,
+      "min_version": 66,
+      "max_version": 69,
+      "seconds": 44.673868669895455,
+      "decisions": 8204,
+      "turns": 669,
+      "stale": 33757
+    },
+    {
+      "version": 71,
+      "min_version": 67,
+      "max_version": 70,
+      "seconds": 45.26954851183109,
+      "decisions": 8192,
+      "turns": 682,
+      "stale": 34209
+    },
+    {
+      "version": 72,
+      "min_version": 68,
+      "max_version": 70,
+      "seconds": 45.84170419583097,
+      "decisions": 8205,
+      "turns": 681,
+      "stale": 34818
+    },
+    {
+      "version": 73,
+      "min_version": 69,
+      "max_version": 72,
+      "seconds": 46.41155259683728,
+      "decisions": 8197,
+      "turns": 688,
+      "stale": 35347
+    },
+    {
+      "version": 74,
+      "min_version": 70,
+      "max_version": 73,
+      "seconds": 47.01451640599407,
+      "decisions": 8197,
+      "turns": 713,
+      "stale": 35801
+    },
+    {
+      "version": 75,
+      "min_version": 71,
+      "max_version": 74,
+      "seconds": 47.626443636836484,
+      "decisions": 8197,
+      "turns": 726,
+      "stale": 36270
+    },
+    {
+      "version": 76,
+      "min_version": 72,
+      "max_version": 74,
+      "seconds": 48.35473858891055,
+      "decisions": 8193,
+      "turns": 733,
+      "stale": 36606
+    },
+    {
+      "version": 77,
+      "min_version": 73,
+      "max_version": 75,
+      "seconds": 48.95047799893655,
+      "decisions": 8196,
+      "turns": 752,
+      "stale": 37056
+    },
+    {
+      "version": 78,
+      "min_version": 74,
+      "max_version": 76,
+      "seconds": 49.5398216098547,
+      "decisions": 8200,
+      "turns": 770,
+      "stale": 37441
+    },
+    {
+      "version": 79,
+      "min_version": 75,
+      "max_version": 77,
+      "seconds": 50.12136017601006,
+      "decisions": 8202,
+      "turns": 799,
+      "stale": 37730
+    },
+    {
+      "version": 80,
+      "min_version": 76,
+      "max_version": 78,
+      "seconds": 50.71116782189347,
+      "decisions": 8201,
+      "turns": 806,
+      "stale": 37980
+    }
+  ],
+  "assignment": {
+    "mirror": 3074
+  },
+  "live_decisions_by_opponent": {
+    "ghost": 0,
+    "mirror": 709228,
+    "frozen": 0
+  },
+  "ghost": {
+    "battles": 0,
+    "own_sequence": 0,
+    "team_checked": 0,
+    "by_turn": {},
+    "set_gold": 0
+  },
+  "library_sha256": "68147ae0dd09304979b2a661cab375a3d871d73c41957a07a8ea7ad2599e6eac",
+  "seed": 2577223,
+  "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2"
+}

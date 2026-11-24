@@ -1,0 +1,3026 @@
+{
+ "targets": [
+  "maxwu27"
+ ],
+ "seats": {
+  "field": 1933,
+  "target": 158
+ },
+ "names": {
+  "maxwu27": 158
+ },
+ "rawOutcome": {
+  "field": {
+   "1": 940,
+   "2": 969,
+   "3": 24
+  },
+  "target": {
+   "1": 110,
+   "2": 48
+  }
+ },
+ "winRate": {
+  "field": 0.48629073978272114,
+  "target": 0.6962025316455697
+ },
+ "meanLastTurn": {
+  "field": 12.117434040351785,
+  "target": 11.335443037974683
+ },
+ "lines": [
+  {
+   "line": "Horse and Cricket by turn 2",
+   "field": {
+    "share": 0.09467149508535955,
+    "n": 183,
+    "winWith": 0.4918032786885246,
+    "medianFirstTurn": 1
+   },
+   "target": {
+    "share": 0.08227848101265822,
+    "n": 13,
+    "winWith": 0.8461538461538461,
+    "medianFirstTurn": 1
+   }
+  },
+  {
+   "line": "Elephant ahead of Camel",
+   "field": {
+    "share": 0.1024314536989136,
+    "n": 198,
+    "winWith": 0.4393939393939394,
+    "medianFirstTurn": 5
+   },
+   "target": {
+    "share": 0.0949367088607595,
+    "n": 15,
+    "winWith": 0.4666666666666667,
+    "medianFirstTurn": 5
+   }
+  },
+  {
+   "line": "Elephant ahead of Blowfish",
+   "field": {
+    "share": 0.11019141231246767,
+    "n": 213,
+    "winWith": 0.5211267605633803,
+    "medianFirstTurn": 7
+   },
+   "target": {
+    "share": 0.05063291139240506,
+    "n": 8,
+    "winWith": 0.625,
+    "medianFirstTurn": 7
+   }
+  },
+  {
+   "line": "Elephant, Blowfish and Wolverine",
+   "field": {
+    "share": 0.04862907397827212,
+    "n": 94,
+    "winWith": 0.6170212765957447,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.0189873417721519,
+    "n": 3,
+    "winWith": 0.6666666666666666,
+    "medianFirstTurn": 10
+   }
+  },
+  {
+   "line": "Wolverine on board",
+   "field": {
+    "share": 0.16916709777547853,
+    "n": 327,
+    "winWith": 0.4801223241590214,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.18354430379746836,
+    "n": 29,
+    "winWith": 0.5862068965517241,
+    "medianFirstTurn": 10
+   }
+  },
+  {
+   "line": "Tiger behind Blowfish",
+   "field": {
+    "share": 0.04966373512674599,
+    "n": 96,
+    "winWith": 0.5104166666666666,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.012658227848101266,
+    "n": 2,
+    "winWith": 0.5,
+    "medianFirstTurn": 15
+   }
+  },
+  {
+   "line": "Any Sleeping Pill",
+   "field": {
+    "share": 0.6704604242110709,
+    "n": 1296,
+    "winWith": 0.5077160493827161,
+    "medianFirstTurn": 6
+   },
+   "target": {
+    "share": 0.7151898734177216,
+    "n": 113,
+    "winWith": 0.672566371681416,
+    "medianFirstTurn": 5
+   }
+  },
+  {
+   "line": "Pill on Flamingo",
+   "field": {
+    "share": 0.25142265907915157,
+    "n": 486,
+    "winWith": 0.5020576131687243,
+    "medianFirstTurn": 5
+   },
+   "target": {
+    "share": 0.2721518987341772,
+    "n": 43,
+    "winWith": 0.7674418604651163,
+    "medianFirstTurn": 5
+   }
+  },
+  {
+   "line": "Chocolate",
+   "field": {
+    "share": 0.7294361096740818,
+    "n": 1410,
+    "winWith": 0.5049645390070922,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.6518987341772152,
+    "n": 103,
+    "winWith": 0.7281553398058253,
+    "medianFirstTurn": 10
+   }
+  },
+  {
+   "line": "Pill on Mammoth",
+   "field": {
+    "share": 0.04811174340403518,
+    "n": 93,
+    "winWith": 0.4838709677419355,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.06329113924050633,
+    "n": 10,
+    "winWith": 0.3,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Turkey with two or more summoners",
+   "field": {
+    "share": 0.06518365235385411,
+    "n": 126,
+    "winWith": 0.5,
+    "medianFirstTurn": 9
+   },
+   "target": {
+    "share": 0.0759493670886076,
+    "n": 12,
+    "winWith": 0.75,
+    "medianFirstTurn": 9
+   }
+  },
+  {
+   "line": "Tiger behind Leopard",
+   "field": {
+    "share": 0.059493016037247805,
+    "n": 115,
+    "winWith": 0.6,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.03164556962025317,
+    "n": 5,
+    "winWith": 0.6,
+    "medianFirstTurn": 14
+   }
+  },
+  {
+   "line": "Fly late",
+   "field": {
+    "share": 0.14485256078634248,
+    "n": 280,
+    "winWith": 0.4714285714285714,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.13291139240506328,
+    "n": 21,
+    "winWith": 0.7142857142857143,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Two or more Deer",
+   "field": {
+    "share": 0.09156751163993793,
+    "n": 177,
+    "winWith": 0.4463276836158192,
+    "medianFirstTurn": 8
+   },
+   "target": {
+    "share": 0.12658227848101267,
+    "n": 20,
+    "winWith": 0.6,
+    "medianFirstTurn": 8
+   }
+  },
+  {
+   "line": "Rhino on board",
+   "field": {
+    "share": 0.10967408173823073,
+    "n": 212,
+    "winWith": 0.4858490566037736,
+    "medianFirstTurn": 7
+   },
+   "target": {
+    "share": 0.13924050632911392,
+    "n": 22,
+    "winWith": 0.6818181818181818,
+    "medianFirstTurn": 7
+   }
+  },
+  {
+   "line": "Pill on Turtle",
+   "field": {
+    "share": 0.23693740300051733,
+    "n": 458,
+    "winWith": 0.5218340611353712,
+    "medianFirstTurn": 9
+   },
+   "target": {
+    "share": 0.25316455696202533,
+    "n": 40,
+    "winWith": 0.7,
+    "medianFirstTurn": 9
+   }
+  },
+  {
+   "line": "Melon on Leopard",
+   "field": {
+    "share": 0.05431971029487843,
+    "n": 105,
+    "winWith": 0.580952380952381,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.04430379746835443,
+    "n": 7,
+    "winWith": 0.5714285714285714,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Dolphin late",
+   "field": {
+    "share": 0.13450594930160373,
+    "n": 260,
+    "winWith": 0.46923076923076923,
+    "medianFirstTurn": 7
+   },
+   "target": {
+    "share": 0.04430379746835443,
+    "n": 7,
+    "winWith": 1.0,
+    "medianFirstTurn": 7
+   }
+  },
+  {
+   "line": "Tiger behind Crocodile",
+   "field": {
+    "share": 0.012415933781686497,
+    "n": 24,
+    "winWith": 0.4583333333333333,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Tiger behind Snake",
+   "field": {
+    "share": 0.03983445421624418,
+    "n": 77,
+    "winWith": 0.35064935064935066,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.012658227848101266,
+    "n": 2,
+    "winWith": 0.5,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Shark with two or more summoners",
+   "field": {
+    "share": 0.05845835488877393,
+    "n": 113,
+    "winWith": 0.4778761061946903,
+    "medianFirstTurn": 9
+   },
+   "target": {
+    "share": 0.0379746835443038,
+    "n": 6,
+    "winWith": 0.8333333333333334,
+    "medianFirstTurn": 9
+   }
+  },
+  {
+   "line": "Scorpion on board",
+   "field": {
+    "share": 0.15933781686497672,
+    "n": 308,
+    "winWith": 0.4448051948051948,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.13924050632911392,
+    "n": 22,
+    "winWith": 0.7727272727272727,
+    "medianFirstTurn": 10
+   }
+  },
+  {
+   "line": "Pill on a pet bought that turn",
+   "field": {
+    "share": 0.2721158820486291,
+    "n": 526,
+    "winWith": 0.5399239543726235,
+    "medianFirstTurn": 7
+   },
+   "target": {
+    "share": 0.3291139240506329,
+    "n": 52,
+    "winWith": 0.6538461538461539,
+    "medianFirstTurn": 6
+   }
+  },
+  {
+   "line": "Snail by turn 3",
+   "field": {
+    "share": 0.1469218830832902,
+    "n": 284,
+    "winWith": 0.545774647887324,
+    "medianFirstTurn": 3
+   },
+   "target": {
+    "share": 0.2088607594936709,
+    "n": 33,
+    "winWith": 0.8181818181818182,
+    "medianFirstTurn": 3
+   }
+  },
+  {
+   "line": "Skunk on board",
+   "field": {
+    "share": 0.3626487325400931,
+    "n": 701,
+    "winWith": 0.46219686162624823,
+    "medianFirstTurn": 8
+   },
+   "target": {
+    "share": 0.35443037974683544,
+    "n": 56,
+    "winWith": 0.6071428571428571,
+    "medianFirstTurn": 8
+   }
+  },
+  {
+   "line": "Mushroom on Deer",
+   "field": {
+    "share": 0.04397309881013968,
+    "n": 85,
+    "winWith": 0.5294117647058824,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.11392405063291139,
+    "n": 18,
+    "winWith": 0.6666666666666666,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Dragon on board",
+   "field": {
+    "share": 0.11329539575788929,
+    "n": 219,
+    "winWith": 0.5570776255707762,
+    "medianFirstTurn": 9
+   },
+   "target": {
+    "share": 0.08227848101265822,
+    "n": 13,
+    "winWith": 0.7692307692307693,
+    "medianFirstTurn": 9
+   }
+  },
+  {
+   "line": "Melon on Skunk",
+   "field": {
+    "share": 0.015002586652871184,
+    "n": 29,
+    "winWith": 0.6206896551724138,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Tiger behind Shark",
+   "field": {
+    "share": 0.007759958613554061,
+    "n": 15,
+    "winWith": 0.7333333333333333,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mammoth with Tiger behind",
+   "field": {
+    "share": 0.04655975168132437,
+    "n": 90,
+    "winWith": 0.5,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Tiger behind Mammoth",
+   "field": {
+    "share": 0.04655975168132437,
+    "n": 90,
+    "winWith": 0.5,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Tiger behind Boar",
+   "field": {
+    "share": 0.02379720641489912,
+    "n": 46,
+    "winWith": 0.32608695652173914,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0379746835443038,
+    "n": 6,
+    "winWith": 0.8333333333333334,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Mushroom on Scorpion",
+   "field": {
+    "share": 0.022762545266425245,
+    "n": 44,
+    "winWith": 0.4318181818181818,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0189873417721519,
+    "n": 3,
+    "winWith": 0.3333333333333333,
+    "medianFirstTurn": 13
+   }
+  },
+  {
+   "line": "Melon on Boar",
+   "field": {
+    "share": 0.03776513191929643,
+    "n": 73,
+    "winWith": 0.3835616438356164,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.05063291139240506,
+    "n": 8,
+    "winWith": 0.75,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Mushroom on ?",
+   "field": {
+    "share": 0.0020693222969477496,
+    "n": 4,
+    "winWith": 0.5,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Melon on Cat",
+   "field": {
+    "share": 0.01189860320744956,
+    "n": 23,
+    "winWith": 0.7391304347826086,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 14
+   }
+  },
+  {
+   "line": "Melon on Gorilla",
+   "field": {
+    "share": 0.01810657009829281,
+    "n": 35,
+    "winWith": 0.5714285714285714,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.06962025316455696,
+    "n": 11,
+    "winWith": 0.6363636363636364,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Mushroom on Mammoth",
+   "field": {
+    "share": 0.09363683393688567,
+    "n": 181,
+    "winWith": 0.5359116022099447,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.056962025316455694,
+    "n": 9,
+    "winWith": 0.7777777777777778,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Tiger behind Whale",
+   "field": {
+    "share": 0.007242628039317123,
+    "n": 14,
+    "winWith": 0.42857142857142855,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 10
+   }
+  },
+  {
+   "line": "Melon on Tiger",
+   "field": {
+    "share": 0.02793585100879462,
+    "n": 54,
+    "winWith": 0.4074074074074074,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0379746835443038,
+    "n": 6,
+    "winWith": 0.5,
+    "medianFirstTurn": 14
+   }
+  },
+  {
+   "line": "Elephant ahead of Peacock",
+   "field": {
+    "share": 0.014485256078634247,
+    "n": 28,
+    "winWith": 0.5714285714285714,
+    "medianFirstTurn": 3
+   },
+   "target": {
+    "share": 0.02531645569620253,
+    "n": 4,
+    "winWith": 0.75,
+    "medianFirstTurn": 3
+   }
+  },
+  {
+   "line": "Pill on Rabbit",
+   "field": {
+    "share": 0.0010346611484738748,
+    "n": 2,
+    "winWith": 0.5,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 9
+   }
+  },
+  {
+   "line": "Sheep by turn 4",
+   "field": {
+    "share": 0.0553543714433523,
+    "n": 107,
+    "winWith": 0.4672897196261682,
+    "medianFirstTurn": 3
+   },
+   "target": {
+    "share": 0.056962025316455694,
+    "n": 9,
+    "winWith": 0.6666666666666666,
+    "medianFirstTurn": 3
+   }
+  },
+  {
+   "line": "Cat with Cow, Seal or Rabbit",
+   "field": {
+    "share": 0.06621831350232799,
+    "n": 128,
+    "winWith": 0.5390625,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.04430379746835443,
+    "n": 7,
+    "winWith": 0.7142857142857143,
+    "medianFirstTurn": 9
+   }
+  },
+  {
+   "line": "Tiger behind Parrot",
+   "field": {
+    "share": 0.018623900672529746,
+    "n": 36,
+    "winWith": 0.5277777777777778,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 9
+   }
+  },
+  {
+   "line": "Tiger behind Skunk",
+   "field": {
+    "share": 0.029487842731505433,
+    "n": 57,
+    "winWith": 0.45614035087719296,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.03164556962025317,
+    "n": 5,
+    "winWith": 0.6,
+    "medianFirstTurn": 9
+   }
+  },
+  {
+   "line": "Pill on Sheep",
+   "field": {
+    "share": 0.011381272633212623,
+    "n": 22,
+    "winWith": 0.5454545454545454,
+    "medianFirstTurn": 8
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 8
+   }
+  },
+  {
+   "line": "Tiger behind Turkey",
+   "field": {
+    "share": 0.0031039834454216243,
+    "n": 6,
+    "winWith": 0.16666666666666666,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 9
+   }
+  },
+  {
+   "line": "Mushroom Mammoth with Tiger behind",
+   "field": {
+    "share": 0.029487842731505433,
+    "n": 57,
+    "winWith": 0.5964912280701754,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Tiger behind Camel",
+   "field": {
+    "share": 0.017071908949818936,
+    "n": 33,
+    "winWith": 0.3333333333333333,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 9
+   }
+  },
+  {
+   "line": "Pill on Spider",
+   "field": {
+    "share": 0.09467149508535955,
+    "n": 183,
+    "winWith": 0.4262295081967213,
+    "medianFirstTurn": 5
+   },
+   "target": {
+    "share": 0.056962025316455694,
+    "n": 9,
+    "winWith": 0.6666666666666666,
+    "medianFirstTurn": 7
+   }
+  },
+  {
+   "line": "Melon on Bison",
+   "field": {
+    "share": 0.005173305742369374,
+    "n": 10,
+    "winWith": 0.5,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Cricket",
+   "field": {
+    "share": 0.0020693222969477496,
+    "n": 4,
+    "winWith": 0.75,
+    "medianFirstTurn": 6
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 9
+   }
+  },
+  {
+   "line": "Melon on Elephant",
+   "field": {
+    "share": 0.0346611484738748,
+    "n": 67,
+    "winWith": 0.5074626865671642,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Mushroom on Wolverine",
+   "field": {
+    "share": 0.03621314019658562,
+    "n": 70,
+    "winWith": 0.4857142857142857,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.03164556962025317,
+    "n": 5,
+    "winWith": 0.8,
+    "medianFirstTurn": 14
+   }
+  },
+  {
+   "line": "Melon on Badger",
+   "field": {
+    "share": 0.008794619762027936,
+    "n": 17,
+    "winWith": 0.5294117647058824,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Melon on Sheep",
+   "field": {
+    "share": 0.0010346611484738748,
+    "n": 2,
+    "winWith": 0.5,
+    "medianFirstTurn": 17
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Tiger behind Wolverine",
+   "field": {
+    "share": 0.02017589239524056,
+    "n": 39,
+    "winWith": 0.5641025641025641,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.04430379746835443,
+    "n": 7,
+    "winWith": 0.7142857142857143,
+    "medianFirstTurn": 13
+   }
+  },
+  {
+   "line": "Tiger behind Deer",
+   "field": {
+    "share": 0.007242628039317123,
+    "n": 14,
+    "winWith": 0.7142857142857143,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.012658227848101266,
+    "n": 2,
+    "winWith": 0.5,
+    "medianFirstTurn": 10
+   }
+  },
+  {
+   "line": "Melon on Snake",
+   "field": {
+    "share": 0.019141231246766685,
+    "n": 37,
+    "winWith": 0.43243243243243246,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0189873417721519,
+    "n": 3,
+    "winWith": 0.3333333333333333,
+    "medianFirstTurn": 13
+   }
+  },
+  {
+   "line": "Tiger behind Armadillo",
+   "field": {
+    "share": 0.002586652871184687,
+    "n": 5,
+    "winWith": 0.4,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Tiger behind Kangaroo",
+   "field": {
+    "share": 0.002586652871184687,
+    "n": 5,
+    "winWith": 0.4,
+    "medianFirstTurn": 9
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 9
+   }
+  },
+  {
+   "line": "Mushroom on Hedgehog",
+   "field": {
+    "share": 0.02379720641489912,
+    "n": 46,
+    "winWith": 0.3695652173913043,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.012658227848101266,
+    "n": 2,
+    "winWith": 0.5,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Mushroom on Tiger",
+   "field": {
+    "share": 0.01965856182100362,
+    "n": 38,
+    "winWith": 0.47368421052631576,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 15
+   }
+  },
+  {
+   "line": "Tiger behind Turtle",
+   "field": {
+    "share": 0.0031039834454216243,
+    "n": 6,
+    "winWith": 0.0,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Melon on Rhino",
+   "field": {
+    "share": 0.015002586652871184,
+    "n": 29,
+    "winWith": 0.4482758620689655,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.03164556962025317,
+    "n": 5,
+    "winWith": 0.8,
+    "medianFirstTurn": 13
+   }
+  },
+  {
+   "line": "Melon on Dolphin",
+   "field": {
+    "share": 0.005690636316606311,
+    "n": 11,
+    "winWith": 0.6363636363636364,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 13
+   }
+  },
+  {
+   "line": "Pill on Ant",
+   "field": {
+    "share": 0.04862907397827212,
+    "n": 94,
+    "winWith": 0.4148936170212766,
+    "medianFirstTurn": 5
+   },
+   "target": {
+    "share": 0.06962025316455696,
+    "n": 11,
+    "winWith": 0.45454545454545453,
+    "medianFirstTurn": 5
+   }
+  },
+  {
+   "line": "Melon on Dog",
+   "field": {
+    "share": 0.00982928091050181,
+    "n": 19,
+    "winWith": 0.15789473684210525,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Fly",
+   "field": {
+    "share": 0.017071908949818936,
+    "n": 33,
+    "winWith": 0.45454545454545453,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.02531645569620253,
+    "n": 4,
+    "winWith": 1.0,
+    "medianFirstTurn": 16
+   }
+  },
+  {
+   "line": "Melon on Otter",
+   "field": {
+    "share": 0.0015519917227108122,
+    "n": 3,
+    "winWith": 0.3333333333333333,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Ant",
+   "field": {
+    "share": 0.0031039834454216243,
+    "n": 6,
+    "winWith": 0.6666666666666666,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Peacock",
+   "field": {
+    "share": 0.006725297465080186,
+    "n": 13,
+    "winWith": 0.5384615384615384,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Mushroom on Leopard",
+   "field": {
+    "share": 0.0010346611484738748,
+    "n": 2,
+    "winWith": 0.5,
+    "medianFirstTurn": 16
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Cow",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Tiger behind Giraffe",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 9
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Shark",
+   "field": {
+    "share": 0.025349198137609934,
+    "n": 49,
+    "winWith": 0.5102040816326531,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0189873417721519,
+    "n": 3,
+    "winWith": 0.3333333333333333,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Melon on Blowfish",
+   "field": {
+    "share": 0.005173305742369374,
+    "n": 10,
+    "winWith": 0.2,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Skunk",
+   "field": {
+    "share": 0.0031039834454216243,
+    "n": 6,
+    "winWith": 0.16666666666666666,
+    "medianFirstTurn": 14
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Cricket",
+   "field": {
+    "share": 0.004138644593895499,
+    "n": 8,
+    "winWith": 0.25,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Seal",
+   "field": {
+    "share": 0.002586652871184687,
+    "n": 5,
+    "winWith": 0.8,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 15
+   }
+  },
+  {
+   "line": "Mushroom on Snake",
+   "field": {
+    "share": 0.019141231246766685,
+    "n": 37,
+    "winWith": 0.4594594594594595,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.012658227848101266,
+    "n": 2,
+    "winWith": 0.5,
+    "medianFirstTurn": 13
+   }
+  },
+  {
+   "line": "Melon on Armadillo",
+   "field": {
+    "share": 0.0010346611484738748,
+    "n": 2,
+    "winWith": 1.0,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Hedgehog",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 4
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 5
+   }
+  },
+  {
+   "line": "Melon on Fly",
+   "field": {
+    "share": 0.01603724780134506,
+    "n": 31,
+    "winWith": 0.6129032258064516,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0189873417721519,
+    "n": 3,
+    "winWith": 0.6666666666666666,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Melon on Crab",
+   "field": {
+    "share": 0.002586652871184687,
+    "n": 5,
+    "winWith": 0.2,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Melon on Dodo",
+   "field": {
+    "share": 0.008277289187790998,
+    "n": 16,
+    "winWith": 0.4375,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Melon on Swan",
+   "field": {
+    "share": 0.007242628039317123,
+    "n": 14,
+    "winWith": 0.6428571428571429,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.012658227848101266,
+    "n": 2,
+    "winWith": 0.5,
+    "medianFirstTurn": 13
+   }
+  },
+  {
+   "line": "Tiger behind Rhino",
+   "field": {
+    "share": 0.015519917227108122,
+    "n": 30,
+    "winWith": 0.6333333333333333,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.0189873417721519,
+    "n": 3,
+    "winWith": 0.3333333333333333,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Melon on Hippo",
+   "field": {
+    "share": 0.0015519917227108122,
+    "n": 3,
+    "winWith": 0.0,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Melon on Wolverine",
+   "field": {
+    "share": 0.01189860320744956,
+    "n": 23,
+    "winWith": 0.6956521739130435,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0189873417721519,
+    "n": 3,
+    "winWith": 0.3333333333333333,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Mushroom on Turtle",
+   "field": {
+    "share": 0.010346611484738748,
+    "n": 20,
+    "winWith": 0.5,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0189873417721519,
+    "n": 3,
+    "winWith": 0.6666666666666666,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Tiger behind Tiger",
+   "field": {
+    "share": 0.0015519917227108122,
+    "n": 3,
+    "winWith": 0.6666666666666666,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Tiger behind Dodo",
+   "field": {
+    "share": 0.0036213140196585617,
+    "n": 7,
+    "winWith": 0.2857142857142857,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Shark",
+   "field": {
+    "share": 0.0036213140196585617,
+    "n": 7,
+    "winWith": 0.5714285714285714,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Whale",
+   "field": {
+    "share": 0.00982928091050181,
+    "n": 19,
+    "winWith": 0.3157894736842105,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.012658227848101266,
+    "n": 2,
+    "winWith": 0.0,
+    "medianFirstTurn": 13
+   }
+  },
+  {
+   "line": "Tiger behind Hedgehog",
+   "field": {
+    "share": 0.004138644593895499,
+    "n": 8,
+    "winWith": 0.25,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Turkey",
+   "field": {
+    "share": 0.004138644593895499,
+    "n": 8,
+    "winWith": 0.375,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Mammoth",
+   "field": {
+    "share": 0.002586652871184687,
+    "n": 5,
+    "winWith": 0.4,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.012658227848101266,
+    "n": 2,
+    "winWith": 1.0,
+    "medianFirstTurn": 13
+   }
+  },
+  {
+   "line": "Melon on Camel",
+   "field": {
+    "share": 0.008277289187790998,
+    "n": 16,
+    "winWith": 0.5,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.02531645569620253,
+    "n": 4,
+    "winWith": 0.5,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Melon on Parrot",
+   "field": {
+    "share": 0.01189860320744956,
+    "n": 23,
+    "winWith": 0.6086956521739131,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.012658227848101266,
+    "n": 2,
+    "winWith": 1.0,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Mushroom on Blowfish",
+   "field": {
+    "share": 0.007759958613554061,
+    "n": 15,
+    "winWith": 0.4666666666666667,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Rooster",
+   "field": {
+    "share": 0.006725297465080186,
+    "n": 13,
+    "winWith": 0.5384615384615384,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Tiger behind Cow",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Deer",
+   "field": {
+    "share": 0.005690636316606311,
+    "n": 11,
+    "winWith": 0.6363636363636364,
+    "medianFirstTurn": 9
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 8
+   }
+  },
+  {
+   "line": "Mushroom on Rooster",
+   "field": {
+    "share": 0.0010346611484738748,
+    "n": 2,
+    "winWith": 0.5,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Swan",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 4
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Armadillo",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Boar",
+   "field": {
+    "share": 0.0015519917227108122,
+    "n": 3,
+    "winWith": 0.3333333333333333,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 14
+   }
+  },
+  {
+   "line": "Melon on Horse",
+   "field": {
+    "share": 0.0015519917227108122,
+    "n": 3,
+    "winWith": 0.3333333333333333,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Melon on Deer",
+   "field": {
+    "share": 0.007242628039317123,
+    "n": 14,
+    "winWith": 0.21428571428571427,
+    "medianFirstTurn": 14
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Camel",
+   "field": {
+    "share": 0.0015519917227108122,
+    "n": 3,
+    "winWith": 0.0,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Elephant",
+   "field": {
+    "share": 0.015002586652871184,
+    "n": 29,
+    "winWith": 0.3793103448275862,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.012658227848101266,
+    "n": 2,
+    "winWith": 1.0,
+    "medianFirstTurn": 17
+   }
+  },
+  {
+   "line": "Melon on Dragon",
+   "field": {
+    "share": 0.0015519917227108122,
+    "n": 3,
+    "winWith": 1.0,
+    "medianFirstTurn": 14
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Melon on Kangaroo",
+   "field": {
+    "share": 0.0015519917227108122,
+    "n": 3,
+    "winWith": 0.3333333333333333,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 13
+   }
+  },
+  {
+   "line": "Tiger behind Dolphin",
+   "field": {
+    "share": 0.0010346611484738748,
+    "n": 2,
+    "winWith": 1.0,
+    "medianFirstTurn": 9
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Horse",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Badger",
+   "field": {
+    "share": 0.0015519917227108122,
+    "n": 3,
+    "winWith": 0.6666666666666666,
+    "medianFirstTurn": 8
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Tiger behind Penguin",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 9
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Cow",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Tiger behind Gorilla",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Monkey",
+   "field": {
+    "share": 0.0010346611484738748,
+    "n": 2,
+    "winWith": 0.5,
+    "medianFirstTurn": 14
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 14
+   }
+  },
+  {
+   "line": "Melon on Worm",
+   "field": {
+    "share": 0.0031039834454216243,
+    "n": 6,
+    "winWith": 0.5,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Snail",
+   "field": {
+    "share": 0.0020693222969477496,
+    "n": 4,
+    "winWith": 0.5,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Cricket",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Squirrel",
+   "field": {
+    "share": 0.0010346611484738748,
+    "n": 2,
+    "winWith": 0.5,
+    "medianFirstTurn": 15
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Rabbit",
+   "field": {
+    "share": 0.004138644593895499,
+    "n": 8,
+    "winWith": 0.875,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0189873417721519,
+    "n": 3,
+    "winWith": 0.6666666666666666,
+    "medianFirstTurn": 12
+   }
+  },
+  {
+   "line": "Tiger behind Badger",
+   "field": {
+    "share": 0.0015519917227108122,
+    "n": 3,
+    "winWith": 0.0,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Flamingo",
+   "field": {
+    "share": 0.0015519917227108122,
+    "n": 3,
+    "winWith": 0.6666666666666666,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Turkey",
+   "field": {
+    "share": 0.0036213140196585617,
+    "n": 7,
+    "winWith": 0.5714285714285714,
+    "medianFirstTurn": 14
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 16
+   }
+  },
+  {
+   "line": "Melon on Fish",
+   "field": {
+    "share": 0.0015519917227108122,
+    "n": 3,
+    "winWith": 0.3333333333333333,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Bus",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 9
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Monkey",
+   "field": {
+    "share": 0.002586652871184687,
+    "n": 5,
+    "winWith": 0.0,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Crocodile",
+   "field": {
+    "share": 0.002586652871184687,
+    "n": 5,
+    "winWith": 0.8,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Cat",
+   "field": {
+    "share": 0.0015519917227108122,
+    "n": 3,
+    "winWith": 0.3333333333333333,
+    "medianFirstTurn": 17
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Rat",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 8
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 7
+   }
+  },
+  {
+   "line": "Melon on Hedgehog",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Tiger behind Hippo",
+   "field": {
+    "share": 0.0020693222969477496,
+    "n": 4,
+    "winWith": 0.75,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Pill on Blowfish",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Dog",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Spider",
+   "field": {
+    "share": 0.0010346611484738748,
+    "n": 2,
+    "winWith": 0.5,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Turtle",
+   "field": {
+    "share": 0.002586652871184687,
+    "n": 5,
+    "winWith": 0.4,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 14
+   }
+  },
+  {
+   "line": "Mushroom on Badger",
+   "field": {
+    "share": 0.0010346611484738748,
+    "n": 2,
+    "winWith": 1.0,
+    "medianFirstTurn": 18
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Ox",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 8
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Peacock",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 14
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Dolphin",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Tiger behind Ox",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Cow",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 14
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Tiger behind Seal",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Cat",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Kangaroo",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 6
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Crocodile",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 9
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Snail",
+   "field": {
+    "share": 0.0010346611484738748,
+    "n": 2,
+    "winWith": 1.0,
+    "medianFirstTurn": 9
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Parrot",
+   "field": {
+    "share": 0.0020693222969477496,
+    "n": 4,
+    "winWith": 0.25,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Monkey",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Crocodile",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Tiger behind Otter",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 14
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Rooster",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 9
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Swan",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 14
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Whale",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 14
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Bee",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Tiger behind Monkey",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Spider",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Rhino",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Tiger behind Dog",
+   "field": {
+    "share": 0.0010346611484738748,
+    "n": 2,
+    "winWith": 0.0,
+    "medianFirstTurn": 12
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Mushroom on Sheep",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 15
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Tiger behind Ant",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 11
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Pill on Fish",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 8
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Melon on Rat",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 13
+   },
+   "target": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   }
+  },
+  {
+   "line": "Tiger behind Spider",
+   "field": {
+    "share": 0.0005173305742369374,
+    "n": 1,
+    "winWith": 0.0,
+    "medianFirstTurn": 10
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 11
+   }
+  },
+  {
+   "line": "Melon on Ox",
+   "field": {
+    "share": 0.0,
+    "n": 0,
+    "winWith": 0.0,
+    "medianFirstTurn": null
+   },
+   "target": {
+    "share": 0.006329113924050633,
+    "n": 1,
+    "winWith": 1.0,
+    "medianFirstTurn": 11
+   }
+  }
+ ],
+ "pets turn 3-5": {
+  "field": {
+   "boards": 5750,
+   "share": {
+    "Horse": 0.12208695652173913,
+    "Spider": 0.16852173913043478,
+    "Dolphin": 0.10591304347826087,
+    "Elephant": 0.1631304347826087,
+    "Flamingo": 0.2102608695652174,
+    "Whale": 0.023304347826086955,
+    "Camel": 0.17408695652173914,
+    "Peacock": 0.17008695652173914,
+    "Cricket": 0.19530434782608697,
+    "Hedgehog": 0.06156521739130435,
+    "Deer": 0.0328695652173913,
+    "Rabbit": 0.1911304347826087,
+    "Worm": 0.14608695652173914,
+    "Fish": 0.14765217391304347,
+    "Dog": 0.09443478260869566,
+    "Swan": 0.1302608695652174,
+    "Sheep": 0.05791304347826087,
+    "Turtle": 0.02191304347826087,
+    "Ant": 0.20678260869565218,
+    "Pig": 0.13078260869565217,
+    "Otter": 0.1356521739130435,
+    "Kangaroo": 0.1257391304347826,
+    "Pigeon": 0.12591304347826088,
+    "Snail": 0.23756521739130435,
+    "Squirrel": 0.013391304347826087,
+    "Skunk": 0.022608695652173914,
+    "Blowfish": 0.028695652173913042,
+    "Ox": 0.13756521739130434,
+    "Beaver": 0.14782608695652175,
+    "Parrot": 0.020695652173913042,
+    "Giraffe": 0.17808695652173914,
+    "Badger": 0.08365217391304348,
+    "Penguin": 0.02208695652173913,
+    "Hippo": 0.01008695652173913,
+    "Mosquito": 0.04573913043478261,
+    "Dodo": 0.08156521739130435,
+    "Crab": 0.09791304347826087,
+    "Duck": 0.019130434782608695,
+    "Rat": 0.06208695652173913,
+    "Bison": 0.00591304347826087,
+    "Bus": 0.0005217391304347826,
+    "Ram": 0.00017391304347826088,
+    "Sloth": 0.0010434782608695651,
+    "Bee": 0.00034782608695652176,
+    "Zombie Cricket": 0.00017391304347826088
+   }
+  },
+  "target": {
+   "boards": 468,
+   "share": {
+    "Crab": 0.14316239316239315,
+    "Ant": 0.16666666666666666,
+    "Flamingo": 0.19444444444444445,
+    "Peacock": 0.2222222222222222,
+    "Blowfish": 0.02564102564102564,
+    "Ox": 0.11965811965811966,
+    "Pig": 0.10256410256410256,
+    "Hedgehog": 0.08547008547008547,
+    "Mosquito": 0.010683760683760684,
+    "Skunk": 0.029914529914529916,
+    "Snail": 0.2670940170940171,
+    "Swan": 0.14316239316239315,
+    "Giraffe": 0.14743589743589744,
+    "Kangaroo": 0.20726495726495728,
+    "Camel": 0.17307692307692307,
+    "Pigeon": 0.0811965811965812,
+    "Otter": 0.1111111111111111,
+    "Turtle": 0.021367521367521368,
+    "Penguin": 0.027777777777777776,
+    "Rabbit": 0.25,
+    "Worm": 0.16025641025641027,
+    "Spider": 0.23076923076923078,
+    "Horse": 0.1752136752136752,
+    "Elephant": 0.1282051282051282,
+    "Beaver": 0.1111111111111111,
+    "Badger": 0.04700854700854701,
+    "Cricket": 0.16880341880341881,
+    "Fish": 0.0811965811965812,
+    "Deer": 0.03205128205128205,
+    "Whale": 0.017094017094017096,
+    "Sheep": 0.0641025641025641,
+    "Duck": 0.017094017094017096,
+    "Dolphin": 0.05128205128205128,
+    "Dodo": 0.08974358974358974,
+    "Squirrel": 0.01282051282051282,
+    "Parrot": 0.02564102564102564,
+    "Dog": 0.09829059829059829,
+    "Hippo": 0.010683760683760684,
+    "Rat": 0.0405982905982906,
+    "Bus": 0.002136752136752137,
+    "Bee": 0.002136752136752137
+   }
+  }
+ },
+ "pets turn 6-9": {
+  "field": {
+   "boards": 7507,
+   "share": {
+    "Spider": 0.07659517783402157,
+    "Elephant": 0.18889036898894365,
+    "Whale": 0.10923138404156121,
+    "Camel": 0.21380045291061675,
+    "Dolphin": 0.11362728120420941,
+    "Blowfish": 0.15465565472225923,
+    "Mammoth": 0.01891567869988011,
+    "Wolverine": 0.01092313840415612,
+    "Peacock": 0.13587318502730786,
+    "Hedgehog": 0.05674703609964034,
+    "Deer": 0.22099373917676834,
+    "Leopard": 0.018649260690022644,
+    "Cow": 0.05355001998135074,
+    "Turkey": 0.07353137072066071,
+    "Rabbit": 0.23125083255628082,
+    "Worm": 0.10683362195284402,
+    "Fish": 0.05461569202078061,
+    "Monkey": 0.12042094045557479,
+    "Seal": 0.010523511389369921,
+    "Turtle": 0.1252164646330092,
+    "Swan": 0.10470227787398428,
+    "Dog": 0.09258025842546956,
+    "Sheep": 0.05807912614892767,
+    "Fly": 0.011056347409084854,
+    "Rhino": 0.052484347941920875,
+    "Otter": 0.065405621420008,
+    "Giraffe": 0.19395231117623551,
+    "Crocodile": 0.03663247635540162,
+    "Snail": 0.18009857466364726,
+    "Cricket": 0.08418809111495937,
+    "Kangaroo": 0.0851205541494605,
+    "Shark": 0.07965898494738244,
+    "Skunk": 0.19142134008258957,
+    "Squirrel": 0.04822165978420141,
+    "Ant": 0.06940189156787,
+    "Flamingo": 0.057013454109497805,
+    "Ox": 0.14586386039696284,
+    "Parrot": 0.10177167976555215,
+    "Scorpion": 0.034767550286399364,
+    "Penguin": 0.0819235380311709,
+    "Badger": 0.0855201811642467,
+    "Rooster": 0.0321033701878247,
+    "Hippo": 0.031570534168109766,
+    "Dragon": 0.015718662581590517,
+    "Pig": 0.027307846010390303,
+    "Boar": 0.016784334621020382,
+    "Cat": 0.02011455974423871,
+    "Dodo": 0.0823231650459571,
+    "Crab": 0.06940189156787,
+    "Rat": 0.04036232849340615,
+    "Bison": 0.032369788197682166,
+    "Armadillo": 0.014120154522445718,
+    "Horse": 0.056613827094711605,
+    "Gorilla": 0.007193286266151592,
+    "Tiger": 0.014519781537231918,
+    "Duck": 0.0027973891035033968,
+    "Pigeon": 0.011455974423871054,
+    "Snake": 0.014253363527374451,
+    "Mosquito": 0.014919408552018116,
+    "Beaver": 0.01758358865059278,
+    "Zombie Fly": 0.0002664180098574664,
+    "Bus": 0.0026641800985746636,
+    "Sloth": 0.0026641800985746636,
+    "Ram": 0.0005328360197149328,
+    "Bee": 0.0007992540295723991
+   }
+  },
+  "target": {
+   "boards": 597,
+   "share": {
+    "Crab": 0.12060301507537688,
+    "Flamingo": 0.048576214405360134,
+    "Blowfish": 0.10720268006700168,
+    "Peacock": 0.18760469011725292,
+    "Hedgehog": 0.09212730318257957,
+    "Cow": 0.06532663316582915,
+    "Armadillo": 0.021775544388609715,
+    "Pig": 0.021775544388609715,
+    "Ox": 0.1407035175879397,
+    "Skunk": 0.19765494137353434,
+    "Deer": 0.20603015075376885,
+    "Whale": 0.09547738693467336,
+    "Monkey": 0.10552763819095477,
+    "Rhino": 0.07202680067001675,
+    "Turkey": 0.06030150753768844,
+    "Snail": 0.17755443886097153,
+    "Swan": 0.09212730318257957,
+    "Giraffe": 0.12562814070351758,
+    "Kangaroo": 0.1541038525963149,
+    "Tiger": 0.018425460636515914,
+    "Ant": 0.06532663316582915,
+    "Penguin": 0.06700167504187604,
+    "Otter": 0.051926298157453935,
+    "Wolverine": 0.01340033500837521,
+    "Rabbit": 0.2646566164154104,
+    "Worm": 0.12227805695142378,
+    "Gorilla": 0.018425460636515914,
+    "Cat": 0.01675041876046901,
+    "Horse": 0.09045226130653267,
+    "Camel": 0.2629815745393635,
+    "Elephant": 0.1323283082077052,
+    "Turtle": 0.1373534338358459,
+    "Badger": 0.035175879396984924,
+    "Spider": 0.15912897822445563,
+    "Leopard": 0.01507537688442211,
+    "Seal": 0.020100502512562814,
+    "Shark": 0.10217755443886097,
+    "Cricket": 0.08542713567839195,
+    "Fish": 0.02680067001675042,
+    "Boar": 0.011725293132328308,
+    "Mammoth": 0.02847571189279732,
+    "Snake": 0.010050251256281407,
+    "Sheep": 0.07202680067001675,
+    "Dragon": 0.018425460636515914,
+    "Dolphin": 0.035175879396984924,
+    "Rooster": 0.011725293132328308,
+    "Crocodile": 0.01340033500837521,
+    "Dodo": 0.09045226130653267,
+    "Squirrel": 0.04187604690117253,
+    "Scorpion": 0.01507537688442211,
+    "Fly": 0.01340033500837521,
+    "Parrot": 0.09715242881072027,
+    "Dog": 0.08542713567839195,
+    "Hippo": 0.021775544388609715,
+    "Rat": 0.020100502512562814,
+    "Bus": 0.006700167504187605,
+    "Ram": 0.0033500837520938024,
+    "Bee": 0.0033500837520938024,
+    "Beaver": 0.006700167504187605,
+    "Duck": 0.0016750418760469012,
+    "Mosquito": 0.0033500837520938024
+   }
+  }
+ },
+ "pets turn 10+": {
+  "field": {
+   "boards": 6311,
+   "share": {
+    "Blowfish": 0.19157027412454444,
+    "Elephant": 0.17049595943590556,
+    "Hedgehog": 0.05545872286483917,
+    "Cow": 0.0942798288702266,
+    "Wolverine": 0.15781967992394233,
+    "Tiger": 0.2356203454286167,
+    "Leopard": 0.20519727459990492,
+    "Turkey": 0.08001901441926794,
+    "Deer": 0.1826968784661702,
+    "Rooster": 0.040247187450483286,
+    "Rhino": 0.08445571224845508,
+    "Fly": 0.11012517826018063,
+    "Monkey": 0.1635240057043258,
+    "Crocodile": 0.053715734431944225,
+    "Otter": 0.027570907938520045,
+    "Dolphin": 0.05339882744414514,
+    "Snake": 0.1451434004119791,
+    "Scorpion": 0.08968467754713992,
+    "Shark": 0.1510061796862621,
+    "Swan": 0.06559974647440976,
+    "Mammoth": 0.18887656472825226,
+    "Boar": 0.13278402788781493,
+    "Peacock": 0.06987799080969735,
+    "Skunk": 0.2814134051655839,
+    "Dragon": 0.11313579464427191,
+    "Turtle": 0.11773094596735859,
+    "Camel": 0.16384091269212486,
+    "Ant": 0.02630327998732372,
+    "Cat": 0.21232768182538425,
+    "Badger": 0.07716685152907622,
+    "Giraffe": 0.024084931072730152,
+    "Gorilla": 0.06623356045000792,
+    "Whale": 0.11012517826018063,
+    "Hippo": 0.017746791316748535,
+    "Pigeon": 0.007922674694977025,
+    "Fish": 0.02202503565203613,
+    "Spider": 0.020598954206940263,
+    "Parrot": 0.11202662018697512,
+    "Dodo": 0.07637458405957852,
+    "Ox": 0.09697353826651878,
+    "Rabbit": 0.07447314213278403,
+    "Crab": 0.030739977816510854,
+    "Kangaroo": 0.02234194263983521,
+    "Mosquito": 0.007447314213278403,
+    "Bison": 0.031215338298209477,
+    "Dog": 0.057993978767231814,
+    "Cricket": 0.03438440817620028,
+    "Pig": 0.007288860719378862,
+    "Beaver": 0.008714942164474727,
+    "Sheep": 0.017271430835049912,
+    "Worm": 0.05339882744414514,
+    "Horse": 0.014260814450958644,
+    "Armadillo": 0.021708128664237047,
+    "Penguin": 0.027412454444620503,
+    "Flamingo": 0.004595151323086674,
+    "Snail": 0.021866582158136586,
+    "Rat": 0.014260814450958644,
+    "Duck": 0.005545872286483917,
+    "Squirrel": 0.02535255902392648,
+    "Seal": 0.01267627951196324,
+    "Zombie Fly": 0.00047536048169862145,
+    "Sloth": 0.002218348914593567,
+    "Bus": 0.0012676279511963239,
+    "Bee": 0.0007922674694977025
+   }
+  },
+  "target": {
+   "boards": 412,
+   "share": {
+    "Rhino": 0.14563106796116504,
+    "Pig": 0.007281553398058253,
+    "Monkey": 0.19902912621359223,
+    "Turkey": 0.0825242718446602,
+    "Wolverine": 0.2524271844660194,
+    "Leopard": 0.1407766990291262,
+    "Tiger": 0.1820388349514563,
+    "Swan": 0.07281553398058252,
+    "Skunk": 0.25,
+    "Kangaroo": 0.06553398058252427,
+    "Mammoth": 0.1941747572815534,
+    "Penguin": 0.009708737864077669,
+    "Ant": 0.01699029126213592,
+    "Otter": 0.03640776699029126,
+    "Hedgehog": 0.08980582524271845,
+    "Rabbit": 0.14563106796116504,
+    "Gorilla": 0.18689320388349515,
+    "Cat": 0.17233009708737865,
+    "Worm": 0.07281553398058252,
+    "Whale": 0.0825242718446602,
+    "Deer": 0.25485436893203883,
+    "Fly": 0.09223300970873786,
+    "Blowfish": 0.14320388349514562,
+    "Elephant": 0.11165048543689321,
+    "Turtle": 0.09951456310679611,
+    "Spider": 0.055825242718446605,
+    "Cow": 0.0703883495145631,
+    "Seal": 0.03640776699029126,
+    "Squirrel": 0.019417475728155338,
+    "Camel": 0.1820388349514563,
+    "Scorpion": 0.0970873786407767,
+    "Shark": 0.14563106796116504,
+    "Peacock": 0.08737864077669903,
+    "Boar": 0.12864077669902912,
+    "Fish": 0.019417475728155338,
+    "Snake": 0.1407766990291262,
+    "Sheep": 0.009708737864077669,
+    "Crab": 0.050970873786407765,
+    "Dragon": 0.07766990291262135,
+    "Cricket": 0.038834951456310676,
+    "Badger": 0.009708737864077669,
+    "Ox": 0.09223300970873786,
+    "Rooster": 0.03155339805825243,
+    "Dolphin": 0.021844660194174758,
+    "Dodo": 0.07524271844660194,
+    "Parrot": 0.09951456310679611,
+    "Pigeon": 0.0048543689320388345,
+    "Dog": 0.050970873786407765,
+    "Armadillo": 0.02912621359223301,
+    "Giraffe": 0.0048543689320388345,
+    "Horse": 0.012135922330097087,
+    "Snail": 0.007281553398058253,
+    "Crocodile": 0.021844660194174758,
+    "Mosquito": 0.0024271844660194173,
+    "Duck": 0.0024271844660194173,
+    "Hippo": 0.012135922330097087,
+    "Beaver": 0.0024271844660194173
+   }
+  }
+ },
+ "rollsPerTurn": {
+  "field": 1.6213550783418007,
+  "target": 1.586823003908431
+ },
+ "foodsPerGame": {
+  "field": {
+   "Bread Crumbs": 0.7884117951370926,
+   "Apple": 1.758923952405587,
+   "Sleeping Pill": 1.0848422141748577,
+   "Cake": 0.561821003621314,
+   "Salad Bowl": 0.7884117951370926,
+   "Garlic": 0.2736678737713399,
+   "Pear": 1.3673047077082257,
+   "Chocolate": 1.536471805483704,
+   "Bread": 1.1412312467666839,
+   "Milk": 1.7666839110191412,
+   "Honey": 0.0775995861355406,
+   "Canned Food": 0.4014485256078634,
+   "Better Apple": 0.3978272115882049,
+   "Melon": 0.4438696326952923,
+   "Chili": 0.16244180031039834,
+   "Meat Bone": 0.10398344542162442,
+   "Sushi": 0.40610450077599586,
+   "Mushroom": 0.3481634764614589,
+   "Pizza": 0.3750646663217796,
+   "Steak": 0.28142783238489394,
+   "Better Milk": 0.12312467666839111,
+   "Cupcake": 0.15830315571650286,
+   "Best Apple": 0.020693222969477496,
+   "?": 0.02431453698913606,
+   "Best Milk": 0.004138644593895499
+  },
+  "target": {
+   "Salad Bowl": 0.8417721518987342,
+   "Garlic": 0.24050632911392406,
+   "Apple": 2.0316455696202533,
+   "Sleeping Pill": 1.240506329113924,
+   "Milk": 1.759493670886076,
+   "Cupcake": 0.18354430379746836,
+   "Bread Crumbs": 0.8924050632911392,
+   "Cake": 0.5632911392405063,
+   "Canned Food": 0.25316455696202533,
+   "Bread": 1.2658227848101267,
+   "Mushroom": 0.34177215189873417,
+   "Melon": 0.5189873417721519,
+   "Pear": 1.1962025316455696,
+   "Chili": 0.21518987341772153,
+   "Chocolate": 1.1835443037974684,
+   "Pizza": 0.2911392405063291,
+   "Sushi": 0.27848101265822783,
+   "Better Apple": 0.3037974683544304,
+   "Steak": 0.18354430379746836,
+   "?": 0.0379746835443038,
+   "Honey": 0.13291139240506328,
+   "Better Milk": 0.10126582278481013,
+   "Meat Bone": 0.06329113924050633,
+   "Best Milk": 0.012658227848101266
+  }
+ }
+}

@@ -1,0 +1,1 @@
+Counter({'snapshots raw': 7188, 'eligible raw': 6592, 'snapshots archive': 933, 'eligible archive': 853, 'action-only turns without terminal snapshot': 2}) Counter({5: 21117, 6: 16494, 8: 9443, 4: 8123, 11: 8121, 0: 8121, 1: 8121, 2: 8119, 9: 5609, 7: 3483, 12: 676, 3: 9}) Counter({'order batches': 11732, 'freeze batches': 8846}) Counter() 340 680

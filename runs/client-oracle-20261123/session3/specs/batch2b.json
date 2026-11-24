@@ -1,0 +1,913 @@
+[
+ {
+  "name": "h7-fly-two-snipes-dolphin-first",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "name": "h7r-fly-two-snipes-croc-first",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    7,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "name": "h8-fly-two-snipes-deer-back",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Duck",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Deer",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "name": "f13-tiger-killed-by-original",
+  "nseeds": 2,
+  "left": [
+   [
+    "Hedgehog",
+    9,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    3,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "f14-hedgehog-tiger-die-together",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    3,
+    20
+   ],
+   [
+    "Hedgehog",
+    2,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    21
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "e5-wolv-vs-rhino",
+  "nseeds": 2,
+  "left": [
+   [
+    "Rhino",
+    6,
+    20
+   ],
+   [
+    "Pig",
+    2,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Duck",
+    4,
+    22
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    7
+   ],
+   [
+    "Fish",
+    2,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "f2x-tiger-faint-continues",
+  "nseeds": 2,
+  "left": [
+   [
+    "Hedgehog",
+    9,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Mammoth",
+    3,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    4
+   ],
+   [
+    "Fish",
+    2,
+    40
+   ]
+  ]
+ },
+ {
+  "name": "d1-crab-round",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    3,
+    30
+   ],
+   [
+    "Crab",
+    4,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "name": "d1t-crab-temp",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    3,
+    20,
+    {
+     "thp": 20
+    }
+   ],
+   [
+    "Crab",
+    4,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "name": "d3t-dodo-temp",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    4,
+    5,
+    {
+     "tatk": 4
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "name": "d4-dodo-chain",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    6,
+    5
+   ],
+   [
+    "Dodo",
+    10,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "name": "d4t-dodo-tie",
+  "nseeds": 8,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "name": "d2c-crab-skunk-tie",
+  "nseeds": 8,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ]
+ },
+ {
+  "name": "d6-dead-dodo-acts",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    4,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ]
+  ]
+ },
+ {
+  "name": "c1-whale-release",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "c2-whale2-release",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1,
+    {
+     "lvl": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "c3-whale-honey",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1,
+    {
+     "perk": "Honey"
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "c4-whale-mushroom",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "c5-whale-fly",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "c6-whale-cricket",
+  "nseeds": 2,
+  "left": [
+   [
+    "Cricket",
+    3,
+    4
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "c7-whale-sheep-blast",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    5,
+    2
+   ],
+   [
+    "Sheep",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ]
+ },
+ {
+  "name": "g1-rabbit-turtle2",
+  "nseeds": 2,
+  "left": [
+   [
+    "Turtle",
+    2,
+    1,
+    {
+     "lvl": 2
+    }
+   ],
+   [
+    "Fish",
+    3,
+    10
+   ],
+   [
+    "Fish",
+    4,
+    12
+   ],
+   [
+    "Rabbit",
+    1,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "g2-seal-turtle",
+  "nseeds": 2,
+  "left": [
+   [
+    "Turtle",
+    2,
+    1
+   ],
+   [
+    "Seal",
+    3,
+    8
+   ],
+   [
+    "Fish",
+    1,
+    10
+   ],
+   [
+    "Fish",
+    2,
+    11
+   ],
+   [
+    "Fish",
+    3,
+    12
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "h1-deer-gap-behind",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Deer",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ],
+   null,
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ]
+ },
+ {
+  "name": "h2-deer-no-gap",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Deer",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ],
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ]
+ },
+ {
+  "name": "h3-fly-gap",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Pig",
+    3,
+    1
+   ],
+   null,
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ]
+ },
+ {
+  "name": "h4-sheep-mid",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Sheep",
+    3,
+    1
+   ],
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ]
+ },
+ {
+  "name": "h5-sheep-gap-ahead",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   null,
+   [
+    "Sheep",
+    3,
+    1
+   ],
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ]
+ }
+]

@@ -1,0 +1,24 @@
+{
+  "checkpoint": {
+    "sha256": "98c3ad5594f23da618e634ad25c17dc1a19ccd435599a956411c9b175c437134",
+    "update": 25872,
+    "source_revision": "turtle-v31-replay-852b274e7eb2-20261123",
+    "joint_freeze": true
+  },
+  "batch": 128,
+  "matches": 1000,
+  "battles": 11945,
+  "decisions": 294676,
+  "matched_visible_boards_both_seats": 11945,
+  "missing_reference": 0,
+  "unused_reference": 0,
+  "wall": 20.196575020905584,
+  "phases": {
+    "act_s": 19.191385308513418,
+    "step_s": 0.5014185907784849,
+    "verify_projection_and_encode_s": 0.44555437355302274
+  },
+  "includes_reference_projection_check": true,
+  "hidden_fields_from_archive": true,
+  "outputs_measured": "Rust rollout and serialization rehearsal only; no new independent ghost index"
+}

@@ -1,0 +1,1010 @@
+[
+  {
+    "block": 0,
+    "model": "medium",
+    "batch": 64,
+    "precision": "bf16",
+    "ms": 3.7320876597530313
+  },
+  {
+    "block": 0,
+    "model": "medium",
+    "batch": 4,
+    "precision": "bf16",
+    "ms": 3.2839487668954663
+  },
+  {
+    "block": 0,
+    "model": "mid",
+    "batch": 4,
+    "precision": "bf16",
+    "ms": 2.773213562452131
+  },
+  {
+    "block": 0,
+    "model": "small",
+    "batch": 4,
+    "precision": "fp32",
+    "ms": 2.391060891871651
+  },
+  {
+    "block": 0,
+    "model": "mid",
+    "batch": 64,
+    "precision": "bf16",
+    "ms": 3.218371214138137
+  },
+  {
+    "block": 0,
+    "model": "mid",
+    "batch": 256,
+    "precision": "bf16",
+    "ms": 4.010232346546319
+  },
+  {
+    "block": 0,
+    "model": "parent",
+    "batch": 256,
+    "precision": "fp32",
+    "ms": 23.539131765978205
+  },
+  {
+    "block": 0,
+    "model": "small",
+    "batch": 4,
+    "precision": "bf16",
+    "ms": 2.9193624440166683
+  },
+  {
+    "block": 0,
+    "model": "medium",
+    "batch": 1,
+    "precision": "fp32",
+    "ms": 3.032451340307792
+  },
+  {
+    "block": 0,
+    "model": "medium",
+    "batch": 4,
+    "precision": "fp32",
+    "ms": 2.845454210829404
+  },
+  {
+    "block": 0,
+    "model": "mid",
+    "batch": 256,
+    "precision": "fp32",
+    "ms": 5.375015885672635
+  },
+  {
+    "block": 0,
+    "model": "mid",
+    "batch": 64,
+    "precision": "fp32",
+    "ms": 3.9427402274062238
+  },
+  {
+    "block": 0,
+    "model": "parent",
+    "batch": 64,
+    "precision": "fp32",
+    "ms": 8.062109558118713
+  },
+  {
+    "block": 0,
+    "model": "medium",
+    "batch": 16,
+    "precision": "fp32",
+    "ms": 2.9426087728805013
+  },
+  {
+    "block": 0,
+    "model": "parent",
+    "batch": 16,
+    "precision": "fp32",
+    "ms": 4.267715460931261
+  },
+  {
+    "block": 0,
+    "model": "mid",
+    "batch": 1,
+    "precision": "fp32",
+    "ms": 2.6317172321594424
+  },
+  {
+    "block": 0,
+    "model": "mid",
+    "batch": 1024,
+    "precision": "bf16",
+    "ms": 11.108324552575747
+  },
+  {
+    "block": 0,
+    "model": "small",
+    "batch": 16,
+    "precision": "bf16",
+    "ms": 2.750905773912867
+  },
+  {
+    "block": 0,
+    "model": "parent",
+    "batch": 64,
+    "precision": "bf16",
+    "ms": 4.5121033520748215
+  },
+  {
+    "block": 0,
+    "model": "medium",
+    "batch": 1,
+    "precision": "bf16",
+    "ms": 3.7715547562887273
+  },
+  {
+    "block": 0,
+    "model": "parent",
+    "batch": 1,
+    "precision": "bf16",
+    "ms": 2.994746124992768
+  },
+  {
+    "block": 0,
+    "model": "small",
+    "batch": 256,
+    "precision": "bf16",
+    "ms": 3.2131089828908443
+  },
+  {
+    "block": 0,
+    "model": "small",
+    "batch": 1024,
+    "precision": "fp32",
+    "ms": 7.873450095454852
+  },
+  {
+    "block": 0,
+    "model": "small",
+    "batch": 64,
+    "precision": "fp32",
+    "ms": 2.8059800000240407
+  },
+  {
+    "block": 0,
+    "model": "parent",
+    "batch": 1024,
+    "precision": "bf16",
+    "ms": 44.381082678834595
+  },
+  {
+    "block": 0,
+    "model": "medium",
+    "batch": 16,
+    "precision": "bf16",
+    "ms": 3.2870402404417596
+  },
+  {
+    "block": 0,
+    "model": "parent",
+    "batch": 4,
+    "precision": "fp32",
+    "ms": 3.493897125331892
+  },
+  {
+    "block": 0,
+    "model": "mid",
+    "batch": 4,
+    "precision": "fp32",
+    "ms": 2.9094565608021288
+  },
+  {
+    "block": 0,
+    "model": "parent",
+    "batch": 16,
+    "precision": "bf16",
+    "ms": 3.0861460965954595
+  },
+  {
+    "block": 0,
+    "model": "small",
+    "batch": 1,
+    "precision": "bf16",
+    "ms": 2.557846329485377
+  },
+  {
+    "block": 0,
+    "model": "parent",
+    "batch": 256,
+    "precision": "bf16",
+    "ms": 11.204890777460403
+  },
+  {
+    "block": 0,
+    "model": "parent",
+    "batch": 1,
+    "precision": "fp32",
+    "ms": 3.745255758985877
+  },
+  {
+    "block": 0,
+    "model": "small",
+    "batch": 256,
+    "precision": "fp32",
+    "ms": 3.7838623393326998
+  },
+  {
+    "block": 0,
+    "model": "small",
+    "batch": 1,
+    "precision": "fp32",
+    "ms": 3.1991105578425856
+  },
+  {
+    "block": 0,
+    "model": "small",
+    "batch": 16,
+    "precision": "fp32",
+    "ms": 2.766521983883447
+  },
+  {
+    "block": 0,
+    "model": "mid",
+    "batch": 1,
+    "precision": "bf16",
+    "ms": 3.0287286628865533
+  },
+  {
+    "block": 0,
+    "model": "medium",
+    "batch": 64,
+    "precision": "fp32",
+    "ms": 4.068606222669284
+  },
+  {
+    "block": 0,
+    "model": "mid",
+    "batch": 16,
+    "precision": "bf16",
+    "ms": 3.2973497743821807
+  },
+  {
+    "block": 0,
+    "model": "medium",
+    "batch": 1024,
+    "precision": "fp32",
+    "ms": 38.25594288193517
+  },
+  {
+    "block": 0,
+    "model": "mid",
+    "batch": 1024,
+    "precision": "fp32",
+    "ms": 17.413819545052117
+  },
+  {
+    "block": 0,
+    "model": "parent",
+    "batch": 1024,
+    "precision": "fp32",
+    "ms": 90.70068357201914
+  },
+  {
+    "block": 0,
+    "model": "small",
+    "batch": 64,
+    "precision": "bf16",
+    "ms": 3.5045710909697743
+  },
+  {
+    "block": 0,
+    "model": "medium",
+    "batch": 256,
+    "precision": "fp32",
+    "ms": 10.714633985319072
+  },
+  {
+    "block": 0,
+    "model": "medium",
+    "batch": 1024,
+    "precision": "bf16",
+    "ms": 30.304284223044913
+  },
+  {
+    "block": 0,
+    "model": "small",
+    "batch": 1024,
+    "precision": "bf16",
+    "ms": 6.7473442241963415
+  },
+  {
+    "block": 0,
+    "model": "parent",
+    "batch": 4,
+    "precision": "bf16",
+    "ms": 3.3740667729741998
+  },
+  {
+    "block": 0,
+    "model": "medium",
+    "batch": 256,
+    "precision": "bf16",
+    "ms": 8.364378785093626
+  },
+  {
+    "block": 0,
+    "model": "mid",
+    "batch": 16,
+    "precision": "fp32",
+    "ms": 2.6719095702800484
+  },
+  {
+    "block": 1,
+    "model": "small",
+    "batch": 4,
+    "precision": "bf16",
+    "ms": 2.618817457308372
+  },
+  {
+    "block": 1,
+    "model": "small",
+    "batch": 4,
+    "precision": "fp32",
+    "ms": 2.389116005765067
+  },
+  {
+    "block": 1,
+    "model": "small",
+    "batch": 64,
+    "precision": "fp32",
+    "ms": 2.33505855107473
+  },
+  {
+    "block": 1,
+    "model": "mid",
+    "batch": 1,
+    "precision": "fp32",
+    "ms": 2.5780135506971016
+  },
+  {
+    "block": 1,
+    "model": "mid",
+    "batch": 16,
+    "precision": "bf16",
+    "ms": 2.791649325647288
+  },
+  {
+    "block": 1,
+    "model": "parent",
+    "batch": 4,
+    "precision": "bf16",
+    "ms": 3.2762152194562884
+  },
+  {
+    "block": 1,
+    "model": "small",
+    "batch": 16,
+    "precision": "fp32",
+    "ms": 2.3995463270694017
+  },
+  {
+    "block": 1,
+    "model": "parent",
+    "batch": 16,
+    "precision": "bf16",
+    "ms": 3.1852562290926776
+  },
+  {
+    "block": 1,
+    "model": "small",
+    "batch": 1,
+    "precision": "bf16",
+    "ms": 2.5518463355385594
+  },
+  {
+    "block": 1,
+    "model": "small",
+    "batch": 256,
+    "precision": "bf16",
+    "ms": 2.98751766482989
+  },
+  {
+    "block": 1,
+    "model": "parent",
+    "batch": 64,
+    "precision": "fp32",
+    "ms": 7.543676558675037
+  },
+  {
+    "block": 1,
+    "model": "medium",
+    "batch": 4,
+    "precision": "bf16",
+    "ms": 3.806450999238425
+  },
+  {
+    "block": 1,
+    "model": "medium",
+    "batch": 16,
+    "precision": "bf16",
+    "ms": 3.830988115320603
+  },
+  {
+    "block": 1,
+    "model": "medium",
+    "batch": 64,
+    "precision": "fp32",
+    "ms": 4.387316552715169
+  },
+  {
+    "block": 1,
+    "model": "small",
+    "batch": 256,
+    "precision": "fp32",
+    "ms": 3.2449918799102306
+  },
+  {
+    "block": 1,
+    "model": "mid",
+    "batch": 256,
+    "precision": "bf16",
+    "ms": 3.5861611055831113
+  },
+  {
+    "block": 1,
+    "model": "medium",
+    "batch": 4,
+    "precision": "fp32",
+    "ms": 3.2999683171510696
+  },
+  {
+    "block": 1,
+    "model": "mid",
+    "batch": 1024,
+    "precision": "bf16",
+    "ms": 9.445648692134354
+  },
+  {
+    "block": 1,
+    "model": "medium",
+    "batch": 256,
+    "precision": "bf16",
+    "ms": 8.363578779002031
+  },
+  {
+    "block": 1,
+    "model": "parent",
+    "batch": 1024,
+    "precision": "bf16",
+    "ms": 44.64320577163663
+  },
+  {
+    "block": 1,
+    "model": "medium",
+    "batch": 16,
+    "precision": "fp32",
+    "ms": 3.1074422101179757
+  },
+  {
+    "block": 1,
+    "model": "medium",
+    "batch": 1024,
+    "precision": "bf16",
+    "ms": 31.419122332914007
+  },
+  {
+    "block": 1,
+    "model": "medium",
+    "batch": 1,
+    "precision": "bf16",
+    "ms": 6.1411150058524475
+  },
+  {
+    "block": 1,
+    "model": "small",
+    "batch": 1024,
+    "precision": "fp32",
+    "ms": 11.504009779956606
+  },
+  {
+    "block": 1,
+    "model": "mid",
+    "batch": 4,
+    "precision": "fp32",
+    "ms": 3.7617305707600384
+  },
+  {
+    "block": 1,
+    "model": "parent",
+    "batch": 64,
+    "precision": "bf16",
+    "ms": 8.818581881415513
+  },
+  {
+    "block": 1,
+    "model": "parent",
+    "batch": 1,
+    "precision": "fp32",
+    "ms": 3.330501908850339
+  },
+  {
+    "block": 1,
+    "model": "medium",
+    "batch": 1024,
+    "precision": "fp32",
+    "ms": 38.284729002043605
+  },
+  {
+    "block": 1,
+    "model": "mid",
+    "batch": 64,
+    "precision": "fp32",
+    "ms": 2.7573325464295015
+  },
+  {
+    "block": 1,
+    "model": "small",
+    "batch": 1024,
+    "precision": "bf16",
+    "ms": 6.91039099668463
+  },
+  {
+    "block": 1,
+    "model": "parent",
+    "batch": 16,
+    "precision": "fp32",
+    "ms": 4.901900680528747
+  },
+  {
+    "block": 1,
+    "model": "parent",
+    "batch": 4,
+    "precision": "fp32",
+    "ms": 3.3412469913148217
+  },
+  {
+    "block": 1,
+    "model": "medium",
+    "batch": 64,
+    "precision": "bf16",
+    "ms": 4.1898072231560946
+  },
+  {
+    "block": 1,
+    "model": "mid",
+    "batch": 64,
+    "precision": "bf16",
+    "ms": 3.1538533253802195
+  },
+  {
+    "block": 1,
+    "model": "medium",
+    "batch": 256,
+    "precision": "fp32",
+    "ms": 10.638498235493898
+  },
+  {
+    "block": 1,
+    "model": "medium",
+    "batch": 1,
+    "precision": "fp32",
+    "ms": 2.938102102941937
+  },
+  {
+    "block": 1,
+    "model": "small",
+    "batch": 1,
+    "precision": "fp32",
+    "ms": 2.5276932089279094
+  },
+  {
+    "block": 1,
+    "model": "mid",
+    "batch": 1,
+    "precision": "bf16",
+    "ms": 2.990351446593801
+  },
+  {
+    "block": 1,
+    "model": "small",
+    "batch": 64,
+    "precision": "bf16",
+    "ms": 3.240776765677664
+  },
+  {
+    "block": 1,
+    "model": "parent",
+    "batch": 1024,
+    "precision": "fp32",
+    "ms": 90.93553001164562
+  },
+  {
+    "block": 1,
+    "model": "mid",
+    "batch": 16,
+    "precision": "fp32",
+    "ms": 3.0131392284399934
+  },
+  {
+    "block": 1,
+    "model": "parent",
+    "batch": 256,
+    "precision": "fp32",
+    "ms": 23.307613329961896
+  },
+  {
+    "block": 1,
+    "model": "mid",
+    "batch": 4,
+    "precision": "bf16",
+    "ms": 3.539705571408073
+  },
+  {
+    "block": 1,
+    "model": "small",
+    "batch": 16,
+    "precision": "bf16",
+    "ms": 3.331510013797217
+  },
+  {
+    "block": 1,
+    "model": "parent",
+    "batch": 256,
+    "precision": "bf16",
+    "ms": 11.410412559699681
+  },
+  {
+    "block": 1,
+    "model": "mid",
+    "batch": 256,
+    "precision": "fp32",
+    "ms": 5.117715776173605
+  },
+  {
+    "block": 1,
+    "model": "parent",
+    "batch": 1,
+    "precision": "bf16",
+    "ms": 3.6285383264637656
+  },
+  {
+    "block": 1,
+    "model": "mid",
+    "batch": 1024,
+    "precision": "fp32",
+    "ms": 17.20531289983127
+  },
+  {
+    "block": 2,
+    "model": "mid",
+    "batch": 16,
+    "precision": "fp32",
+    "ms": 2.636471013021138
+  },
+  {
+    "block": 2,
+    "model": "mid",
+    "batch": 1,
+    "precision": "bf16",
+    "ms": 2.729952775148882
+  },
+  {
+    "block": 2,
+    "model": "parent",
+    "batch": 64,
+    "precision": "fp32",
+    "ms": 7.711763312626216
+  },
+  {
+    "block": 2,
+    "model": "parent",
+    "batch": 1024,
+    "precision": "bf16",
+    "ms": 44.85837921189765
+  },
+  {
+    "block": 2,
+    "model": "mid",
+    "batch": 1024,
+    "precision": "bf16",
+    "ms": 10.728109653832185
+  },
+  {
+    "block": 2,
+    "model": "parent",
+    "batch": 256,
+    "precision": "bf16",
+    "ms": 11.161603240503204
+  },
+  {
+    "block": 2,
+    "model": "medium",
+    "batch": 4,
+    "precision": "bf16",
+    "ms": 4.023082218029433
+  },
+  {
+    "block": 2,
+    "model": "medium",
+    "batch": 256,
+    "precision": "bf16",
+    "ms": 8.080762112513185
+  },
+  {
+    "block": 2,
+    "model": "small",
+    "batch": 1,
+    "precision": "fp32",
+    "ms": 2.4243856573270426
+  },
+  {
+    "block": 2,
+    "model": "medium",
+    "batch": 64,
+    "precision": "fp32",
+    "ms": 4.84712499504288
+  },
+  {
+    "block": 2,
+    "model": "medium",
+    "batch": 256,
+    "precision": "fp32",
+    "ms": 10.784919114990366
+  },
+  {
+    "block": 2,
+    "model": "parent",
+    "batch": 256,
+    "precision": "fp32",
+    "ms": 23.746079325469005
+  },
+  {
+    "block": 2,
+    "model": "medium",
+    "batch": 1024,
+    "precision": "fp32",
+    "ms": 39.64639599952433
+  },
+  {
+    "block": 2,
+    "model": "mid",
+    "batch": 256,
+    "precision": "bf16",
+    "ms": 3.650264788625969
+  },
+  {
+    "block": 2,
+    "model": "parent",
+    "batch": 16,
+    "precision": "fp32",
+    "ms": 3.980489887504114
+  },
+  {
+    "block": 2,
+    "model": "small",
+    "batch": 16,
+    "precision": "fp32",
+    "ms": 2.684114112829169
+  },
+  {
+    "block": 2,
+    "model": "medium",
+    "batch": 64,
+    "precision": "bf16",
+    "ms": 4.025503553243147
+  },
+  {
+    "block": 2,
+    "model": "medium",
+    "batch": 16,
+    "precision": "fp32",
+    "ms": 2.8429225656307406
+  },
+  {
+    "block": 2,
+    "model": "mid",
+    "batch": 1,
+    "precision": "fp32",
+    "ms": 2.67116645247572
+  },
+  {
+    "block": 2,
+    "model": "mid",
+    "batch": 1024,
+    "precision": "fp32",
+    "ms": 17.26761744875047
+  },
+  {
+    "block": 2,
+    "model": "mid",
+    "batch": 64,
+    "precision": "fp32",
+    "ms": 4.010657236600916
+  },
+  {
+    "block": 2,
+    "model": "small",
+    "batch": 4,
+    "precision": "fp32",
+    "ms": 4.1520255617797375
+  },
+  {
+    "block": 2,
+    "model": "small",
+    "batch": 1024,
+    "precision": "fp32",
+    "ms": 7.5918742352061805
+  },
+  {
+    "block": 2,
+    "model": "parent",
+    "batch": 4,
+    "precision": "fp32",
+    "ms": 3.628204111009836
+  },
+  {
+    "block": 2,
+    "model": "parent",
+    "batch": 4,
+    "precision": "bf16",
+    "ms": 5.208171671256423
+  },
+  {
+    "block": 2,
+    "model": "mid",
+    "batch": 16,
+    "precision": "bf16",
+    "ms": 4.460918898176816
+  },
+  {
+    "block": 2,
+    "model": "small",
+    "batch": 1,
+    "precision": "bf16",
+    "ms": 4.057912776867549
+  },
+  {
+    "block": 2,
+    "model": "small",
+    "batch": 16,
+    "precision": "bf16",
+    "ms": 3.26857255357835
+  },
+  {
+    "block": 2,
+    "model": "small",
+    "batch": 4,
+    "precision": "bf16",
+    "ms": 3.0716801217446723
+  },
+  {
+    "block": 2,
+    "model": "medium",
+    "batch": 1,
+    "precision": "bf16",
+    "ms": 3.4463323342303434
+  },
+  {
+    "block": 2,
+    "model": "small",
+    "batch": 64,
+    "precision": "fp32",
+    "ms": 2.3729469006260238
+  },
+  {
+    "block": 2,
+    "model": "mid",
+    "batch": 4,
+    "precision": "bf16",
+    "ms": 4.028596889434589
+  },
+  {
+    "block": 2,
+    "model": "small",
+    "batch": 256,
+    "precision": "bf16",
+    "ms": 3.751695000876983
+  },
+  {
+    "block": 2,
+    "model": "mid",
+    "batch": 4,
+    "precision": "fp32",
+    "ms": 2.980171780412396
+  },
+  {
+    "block": 2,
+    "model": "small",
+    "batch": 256,
+    "precision": "fp32",
+    "ms": 3.592134453356266
+  },
+  {
+    "block": 2,
+    "model": "parent",
+    "batch": 1,
+    "precision": "fp32",
+    "ms": 2.923282328993082
+  },
+  {
+    "block": 2,
+    "model": "parent",
+    "batch": 64,
+    "precision": "bf16",
+    "ms": 4.356443338717024
+  },
+  {
+    "block": 2,
+    "model": "parent",
+    "batch": 16,
+    "precision": "bf16",
+    "ms": 3.2912216459711394
+  },
+  {
+    "block": 2,
+    "model": "mid",
+    "batch": 256,
+    "precision": "fp32",
+    "ms": 5.0655819941312075
+  },
+  {
+    "block": 2,
+    "model": "mid",
+    "batch": 64,
+    "precision": "bf16",
+    "ms": 3.1612685415893793
+  },
+  {
+    "block": 2,
+    "model": "parent",
+    "batch": 1024,
+    "precision": "fp32",
+    "ms": 90.30095743946731
+  },
+  {
+    "block": 2,
+    "model": "small",
+    "batch": 1024,
+    "precision": "bf16",
+    "ms": 6.747630450667606
+  },
+  {
+    "block": 2,
+    "model": "medium",
+    "batch": 16,
+    "precision": "bf16",
+    "ms": 3.636598897476991
+  },
+  {
+    "block": 2,
+    "model": "parent",
+    "batch": 1,
+    "precision": "bf16",
+    "ms": 3.10254433295793
+  },
+  {
+    "block": 2,
+    "model": "small",
+    "batch": 64,
+    "precision": "bf16",
+    "ms": 3.1196538928068347
+  },
+  {
+    "block": 2,
+    "model": "medium",
+    "batch": 4,
+    "precision": "fp32",
+    "ms": 2.951272013079789
+  },
+  {
+    "block": 2,
+    "model": "medium",
+    "batch": 1,
+    "precision": "fp32",
+    "ms": 2.7824172025753393
+  },
+  {
+    "block": 2,
+    "model": "medium",
+    "batch": 1024,
+    "precision": "bf16",
+    "ms": 30.65645798212952
+  }
+]

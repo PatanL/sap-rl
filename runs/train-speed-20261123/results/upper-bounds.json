@@ -1,0 +1,33 @@
+[
+  {
+    "cap": 1536,
+    "checks": {
+      "results/g48/batch.pt bf16": {
+        "loss_abs": 0.0008121182721247955,
+        "gradient_relative_l2": 0.02918314831959594,
+        "delta_relative_l2": 0.005878660762431517,
+        "weight_max_abs": 3.0100345611572266e-06
+      },
+      "results/batch.pt bf16": {
+        "loss_abs": 8.103338381970637e-07,
+        "gradient_relative_l2": 0.015341364559918816,
+        "delta_relative_l2": 0.005259229398659345,
+        "weight_max_abs": 2.808868885040283e-06
+      },
+      "results/g48/batch.pt fp32": {
+        "loss_abs": 2.83727716321458e-09,
+        "gradient_relative_l2": 1.0898660293181139e-06,
+        "delta_relative_l2": 9.250481505001547e-06,
+        "weight_max_abs": 5.960464477539063e-08
+      },
+      "results/batch.pt fp32": {
+        "loss_abs": 6.245066841437108e-08,
+        "gradient_relative_l2": 8.928725282748459e-07,
+        "delta_relative_l2": 8.2789429629544e-06,
+        "weight_max_abs": 1.4901161193847656e-08
+      }
+    },
+    "passed": true,
+    "rate": 4718.650800609701
+  }
+]

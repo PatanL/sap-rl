@@ -1,0 +1,15 @@
+{
+  "ckpt": "../train-live-20261123/parent-hist-frozen50/update-026022.pt",
+  "eval": "../train-eval-20261123/receipts/parent-hist-frozen50-26022-champ-0669109e9b6e.json",
+  "score": 0.4921875,
+  "ci95": [
+    0.421875,
+    0.5625
+  ],
+  "sha": "5e281688bb119ddd4cfba63be935f167eb2e7fbc34be99de51db72cc048b4357",
+  "learned": 2049960,
+  "stale": 1406140,
+  "elapsed": 2592.009486299008,
+  "rate": 790.8767351492329,
+  "stale_fraction": 0.40685744046757905
+}

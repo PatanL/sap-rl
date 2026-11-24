@@ -1,0 +1,8 @@
+Counter({'all_traced_draws waves': 25340, 'validated eligible turns': 6730, 'one_gold waves': 3409})
+{'split': 'all', 'cohort': 'one_gold', 'tier': 1, 'total': 725, 'identified': 725, 'outside': 0, 'chi2': 10.90344827586207, 'df': 9, 'p_conditionally_on_known_and_supported': 0.28238519957159725}
+{'split': 'all', 'cohort': 'one_gold', 'tier': 2, 'total': 1617, 'identified': 1612, 'outside': 0, 'chi2': 10.8287841191067, 'df': 19, 'p_conditionally_on_known_and_supported': 0.9294633551817818}
+{'split': 'all', 'cohort': 'one_gold', 'tier': 3, 'total': 2298, 'identified': 2296, 'outside': 0, 'chi2': 31.848432055749132, 'df': 29, 'p_conditionally_on_known_and_supported': 0.32656552627951313}
+{'split': 'all', 'cohort': 'one_gold', 'tier': 4, 'total': 2426, 'identified': 2426, 'outside': 0, 'chi2': 31.741137675185488, 'df': 39, 'p_conditionally_on_known_and_supported': 0.7888552323883805}
+{'split': 'all', 'cohort': 'one_gold', 'tier': 5, 'total': 2638, 'identified': 2618, 'outside': 0, 'chi2': 40.89992360580597, 'df': 49, 'p_conditionally_on_known_and_supported': 0.788102550757732}
+{'split': 'all', 'cohort': 'one_gold', 'tier': 6, 'total': 2901, 'identified': 2889, 'outside': 0, 'chi2': 62.58878504672898, 'df': 59, 'p_conditionally_on_known_and_supported': 0.3501110574853533}
+{'split': 'all', 'cohort': 'opening', 'tier': 1, 'total': 2040, 'identified': 2040, 'outside': 0, 'chi2': 11.30392156862745, 'df': 9, 'p_conditionally_on_known_and_supported': 0.2554505453286455}

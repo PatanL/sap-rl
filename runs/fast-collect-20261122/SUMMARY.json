@@ -1,0 +1,288 @@
+{
+  "chosen": "pipe96-mid",
+  "platform": "NVIDIA GB10, eight permitted CPU cores",
+  "parameters": 1349741,
+  "parent_effective_fixed_ms": 4.64063754982569,
+  "actor_comparison_7_to_13": 1.8556936881036945,
+  "four_core_batching_collection_ratio": 2.8659754375762128,
+  "four_core_batching_projected_complete_ratio": 2.1852536069181445,
+  "chosen_main_policy_batch": 485.867816091954,
+  "outcomes": {
+    "4c-narrow-parent": {
+      "matches_s": 2.0499636231940888,
+      "seat_decisions_s": 595.0894400794157,
+      "accepted_decisions_s": 447.775387515086,
+      "learner_decisions_s": 2082.5147089146517,
+      "projected_learned_decisions_s": 368.5343558455566,
+      "wall_percent": {
+        "engine": 41.01337277753796,
+        "observation": 3.2093125104773597,
+        "forward": 45.8973628271106,
+        "wait": 5.525684471647916,
+        "other": 4.354267413226166
+      }
+    },
+    "4c-wide-parent": {
+      "matches_s": 6.0723552683739985,
+      "seat_decisions_s": 1682.3585045453485,
+      "accepted_decisions_s": 1283.3132621694067,
+      "learner_decisions_s": 2162.269596714943,
+      "projected_learned_decisions_s": 805.3410303847576,
+      "wall_percent": {
+        "engine": 73.77648575767101,
+        "observation": 9.665791507867151,
+        "forward": 12.94621356529446,
+        "wait": 2.318346718996327,
+        "other": 1.2931624501710504
+      }
+    },
+    "wide-parent": {
+      "matches_s": 8.286804285165212,
+      "seat_decisions_s": 2333.6790770485622,
+      "accepted_decisions_s": 1762.4770320530115,
+      "learner_decisions_s": 2843.8574020348788,
+      "projected_learned_decisions_s": 1088.1175531739052,
+      "wall_percent": {
+        "engine": 73.23782615903018,
+        "observation": 8.997521589200554,
+        "forward": 13.457551839305712,
+        "wait": 3.1743387055701735,
+        "other": 1.13276170689338
+      }
+    },
+    "wide-parent-random": {
+      "matches_s": 2.3051579082176703,
+      "seat_decisions_s": 4060.3666104121567,
+      "accepted_decisions_s": 3071.9763702459722,
+      "learner_decisions_s": 2183.0798706546507,
+      "projected_learned_decisions_s": 1276.174691493191,
+      "wall_percent": {
+        "engine": 62.7671065619743,
+        "observation": 8.033865758078157,
+        "forward": 22.79039438773197,
+        "wait": 4.476980907595474,
+        "other": 1.9316523846201015
+      }
+    },
+    "wide-small": {
+      "matches_s": 6.50117849272059,
+      "seat_decisions_s": 3761.2624321848443,
+      "accepted_decisions_s": 2601.69426751489,
+      "learner_decisions_s": 5644.611733752022,
+      "projected_learned_decisions_s": 1780.8645456273052,
+      "wall_percent": {
+        "engine": 76.31166195137436,
+        "observation": 8.226619798386322,
+        "forward": 9.089915319043861,
+        "wait": 4.74223755096442,
+        "other": 1.6295653802310366
+      }
+    },
+    "wide-mid": {
+      "matches_s": 10.482212287707423,
+      "seat_decisions_s": 4319.32113481074,
+      "accepted_decisions_s": 3432.2935924953026,
+      "learner_decisions_s": 3687.5598395559514,
+      "projected_learned_decisions_s": 1777.675359477791,
+      "wall_percent": {
+        "engine": 68.87515382435828,
+        "observation": 11.260690754341478,
+        "forward": 12.584391272909297,
+        "wait": 5.278953393042015,
+        "other": 2.0008107553489243
+      }
+    },
+    "wide-medium": {
+      "matches_s": 7.251486540406972,
+      "seat_decisions_s": 3740.2069243550736,
+      "accepted_decisions_s": 3075.928321704333,
+      "learner_decisions_s": 4279.39905563303,
+      "projected_learned_decisions_s": 1789.6041984009528,
+      "wall_percent": {
+        "engine": 67.88954666655216,
+        "observation": 8.279533061539196,
+        "forward": 17.35979101575169,
+        "wait": 4.733667282372116,
+        "other": 1.737461973784835
+      }
+    },
+    "pipe-parent": {
+      "matches_s": 10.222925161952858,
+      "seat_decisions_s": 2978.82325539211,
+      "accepted_decisions_s": 2249.853889453442,
+      "learner_decisions_s": 2792.1892462204473,
+      "projected_learned_decisions_s": 1245.9270312965164,
+      "wall_percent": {
+        "engine": 59.25531290441877,
+        "observation": 7.450971152424288,
+        "forward": 26.439049021073828,
+        "wait": 1.7919507507431298,
+        "other": 5.062716171339981
+      }
+    },
+    "pipe-mid": {
+      "matches_s": 12.436858891071457,
+      "seat_decisions_s": 5147.248782914679,
+      "accepted_decisions_s": 4105.636877175214,
+      "learner_decisions_s": 6137.342692208239,
+      "projected_learned_decisions_s": 2459.9971438299626,
+      "wall_percent": {
+        "engine": 45.62535755506389,
+        "observation": 7.34127992032329,
+        "forward": 34.500502103213364,
+        "wait": 2.9422115755421734,
+        "other": 9.590648845857283
+      }
+    },
+    "pipe96-small": {
+      "matches_s": 11.668367238081505,
+      "seat_decisions_s": 6687.45612484776,
+      "accepted_decisions_s": 4637.769935054022,
+      "learner_decisions_s": 5676.163576493281,
+      "projected_learned_decisions_s": 2552.347341781535,
+      "wall_percent": {
+        "engine": 69.66365777204776,
+        "observation": 8.852859790857016,
+        "forward": 15.227567645515265,
+        "wait": 3.340270337458079,
+        "other": 2.9156444541218858
+      }
+    },
+    "pipe96-mid": {
+      "matches_s": 15.14780262135863,
+      "seat_decisions_s": 6092.898090598771,
+      "accepted_decisions_s": 4813.903465326138,
+      "learner_decisions_s": 6179.264564483521,
+      "projected_learned_decisions_s": 2705.8972463144705,
+      "wall_percent": {
+        "engine": 59.33501978178374,
+        "observation": 10.62769676515333,
+        "forward": 21.14841671211073,
+        "wait": 3.4901005672206806,
+        "other": 5.3987661737315165
+      }
+    },
+    "pipe96-medium": {
+      "matches_s": 12.664289563744472,
+      "seat_decisions_s": 6514.376944045937,
+      "accepted_decisions_s": 5366.048528620034,
+      "learner_decisions_s": 4420.781083541186,
+      "projected_learned_decisions_s": 2423.882581874123,
+      "wall_percent": {
+        "engine": 56.3286743709906,
+        "observation": 7.349103483150823,
+        "forward": 30.074462481886723,
+        "wait": 3.2331578964026213,
+        "other": 3.0146017675692343
+      }
+    },
+    "pipe96-parent": {
+      "matches_s": 14.047029885418734,
+      "seat_decisions_s": 4063.1781126014403,
+      "accepted_decisions_s": 3071.5318093326246,
+      "learner_decisions_s": 2226.879278454293,
+      "projected_learned_decisions_s": 1290.9399489749674,
+      "wall_percent": {
+        "engine": 64.09261122285811,
+        "observation": 8.701819191884729,
+        "forward": 23.060814981055945,
+        "wait": 2.179008473014622,
+        "other": 1.965746131186588
+      }
+    }
+  },
+  "ceiling_with_public_observations": {
+    "seconds": 36.44868966098875,
+    "workers": 8,
+    "gamesPerActor": 96,
+    "observationEncoding": true,
+    "seat": 428777,
+    "eligible": 338164,
+    "matches": 1066,
+    "battles": 10674,
+    "seat_s": 11763.852253347879,
+    "eligible_s": 9277.809521968604,
+    "matches_s": 29.246593222278335,
+    "battles_s": 292.8500338223255,
+    "verifiedTicks": 732,
+    "warm": 384
+  },
+  "second_sampling_seed": {
+    "seed": 9020,
+    "matches_s": 18.553130426012327,
+    "seat_s": 7633.849803578136,
+    "accepted_s": 6071.0057865833805,
+    "learner_s": 6187.381875595889,
+    "projected_s": 3064.3207088676613
+  },
+  "stock_grouping_update": {
+    "rows": 4097,
+    "oom": true
+  },
+  "same_turns_update": {
+    "small": {
+      "batchedLoss": false,
+      "rows": 4097,
+      "turns": 187,
+      "maxLen": 51,
+      "microbatches": 13,
+      "paddedCeiling": null,
+      "seconds": [
+        0.5956341929268092,
+        0.5928512248210609,
+        0.5934469099156559
+      ],
+      "decisions_s": 6903.73465855992
+    },
+    "mid": {
+      "batchedLoss": false,
+      "rows": 4097,
+      "turns": 187,
+      "maxLen": 51,
+      "microbatches": 13,
+      "paddedCeiling": null,
+      "seconds": [
+        0.6778066710103303,
+        0.6656520050019026,
+        0.6675501489080489
+      ],
+      "decisions_s": 6137.36661837572
+    },
+    "medium": {
+      "batchedLoss": false,
+      "rows": 4097,
+      "turns": 187,
+      "maxLen": 51,
+      "microbatches": 13,
+      "paddedCeiling": null,
+      "seconds": [
+        0.9500261680223048,
+        0.9436770249158144,
+        0.9350074450485408
+      ],
+      "decisions_s": 4341.527759845053
+    },
+    "parent": {
+      "batchedLoss": false,
+      "rows": 4097,
+      "turns": 187,
+      "maxLen": 51,
+      "microbatches": 47,
+      "paddedCeiling": 128,
+      "seconds": [
+        1.9943624399602413,
+        2.0145641521085054,
+        2.00317360390909
+      ],
+      "decisions_s": 2045.2545860253526
+    }
+  },
+  "matched_taped_repeat": {
+    "seed": 9020,
+    "matches_s": 18.082578402806853,
+    "seat_s": 7555.9671171060445,
+    "accepted_s": 6019.403935931993,
+    "learner_s": 6250.126656694177,
+    "projected_s": 3066.297990241677
+  }
+}

@@ -1,0 +1,18 @@
+{
+ "compiled sorted compact cap 3072 fp32": {
+  "error": {
+   "relative_l2": 3.288750232634252e-06,
+   "max_abs": 4.284083843231201e-08,
+   "cosine": 0.99999999999467
+  },
+  "loss": 0.2808050215244293
+ },
+ "compiled sorted compact cap 3072 bf16": {
+  "error": {
+   "relative_l2": 0.042929038687068564,
+   "max_abs": 0.0007514944300055504,
+   "cosine": 0.9992727857668035
+  },
+  "loss": 0.2776671051979065
+ }
+}

@@ -1,0 +1,2173 @@
+{
+  "split": "dev",
+  "replayFile": "6fde3ece-6274-421c-881b-b9e56a3584de.json",
+  "why": "The real frozen Scorpion was bare. The native constructor attached Peanut while the pet was still in the shop.",
+  "headlineDifference": "Frozen Scorpion #250 perk none / Peanut",
+  "seed": 3878421060,
+  "result": {
+    "key": [
+      "01a1ce58-bcfb-783e-8577-d12054514edf",
+      "01a1ce5b-830c-7ae6-a4e1-5b7e3e7374e8",
+      12
+    ],
+    "split": "dev",
+    "source": "raw",
+    "pets": [
+      "Camel",
+      "Elephant",
+      "Gorilla",
+      "Penguin",
+      "Skunk"
+    ],
+    "foods": [
+      "Pear",
+      "Steak"
+    ],
+    "ops": [
+      "end",
+      "food",
+      "roll",
+      "start"
+    ],
+    "actions": 6,
+    "boardSize": 5,
+    "inferred": 0,
+    "shapeIssues": {},
+    "direct": [
+      "Gorilla",
+      "Penguin",
+      "Skunk"
+    ],
+    "frozenPetNames": [
+      "Scorpion"
+    ],
+    "reproduced": false,
+    "boardMatch": true,
+    "ever": [
+      "board",
+      "economy",
+      "frozen IDs",
+      "gain",
+      "gold",
+      "level/xp",
+      "perk",
+      "permanent",
+      "remaining IDs",
+      "species/order",
+      "spent",
+      "temporary"
+    ],
+    "diff": [
+      "frozen"
+    ],
+    "tries": 65536,
+    "distinct": 3,
+    "seed": 3878421060,
+    "first": [
+      "permanent",
+      "frozen"
+    ],
+    "completed": true,
+    "uncDiff": 0,
+    "genIssues": [],
+    "costErrors": [],
+    "orderEvidence": 0,
+    "unresolvedEviction": [],
+    "inventoryMatch": true,
+    "frozenIdsMatch": true,
+    "actual": {
+      "board": [
+        [
+          "Gorilla",
+          1,
+          1,
+          10,
+          13,
+          0,
+          0,
+          null
+        ],
+        [
+          "Camel",
+          2,
+          2,
+          13,
+          13,
+          0,
+          7,
+          "Bread"
+        ],
+        [
+          "Elephant",
+          2,
+          2,
+          13,
+          17,
+          0,
+          0,
+          "Mushroom"
+        ],
+        [
+          "Skunk",
+          2,
+          2,
+          9,
+          11,
+          0,
+          0,
+          "Steak"
+        ],
+        [
+          "Penguin",
+          2,
+          2,
+          5,
+          6,
+          0,
+          0,
+          "Steak"
+        ]
+      ],
+      "frozen": [
+        [
+          250,
+          "pet",
+          "Scorpion",
+          1,
+          0,
+          1,
+          3,
+          0,
+          0,
+          null,
+          3
+        ]
+      ],
+      "spent": 10,
+      "gold": 0,
+      "gain": 0
+    },
+    "result": {
+      "board": [
+        [
+          "Gorilla",
+          1,
+          1,
+          10,
+          13,
+          0,
+          0,
+          null
+        ],
+        [
+          "Camel",
+          2,
+          2,
+          13,
+          13,
+          0,
+          7,
+          "Bread"
+        ],
+        [
+          "Elephant",
+          2,
+          2,
+          13,
+          17,
+          0,
+          0,
+          "Mushroom"
+        ],
+        [
+          "Skunk",
+          2,
+          2,
+          9,
+          11,
+          0,
+          0,
+          "Steak"
+        ],
+        [
+          "Penguin",
+          2,
+          2,
+          5,
+          6,
+          0,
+          0,
+          "Steak"
+        ]
+      ],
+      "frozen": [
+        [
+          250,
+          "pet",
+          "Scorpion",
+          1,
+          0,
+          1,
+          3,
+          0,
+          0,
+          "Peanut",
+          3
+        ]
+      ],
+      "spent": 10,
+      "gold": 0,
+      "gain": 0
+    },
+    "error": null,
+    "at": null,
+    "op": null,
+    "budgetAtError": null
+  },
+  "fixture": {
+    "key": [
+      "01a1ce58-bcfb-783e-8577-d12054514edf",
+      "01a1ce5b-830c-7ae6-a4e1-5b7e3e7374e8",
+      12
+    ],
+    "before": {
+      "turn": 11,
+      "tier": 6,
+      "board": [
+        {
+          "id": 110,
+          "name": "Skunk",
+          "x": 0,
+          "lvl": 2,
+          "xp": 2,
+          "a": 7,
+          "h": 9,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 78,
+          "name": "Penguin",
+          "x": 1,
+          "lvl": 2,
+          "xp": 2,
+          "a": 5,
+          "h": 6,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 164,
+          "name": "Gorilla",
+          "x": 2,
+          "lvl": 1,
+          "xp": 1,
+          "a": 8,
+          "h": 11,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 33,
+          "name": "Camel",
+          "x": 3,
+          "lvl": 2,
+          "xp": 2,
+          "a": 11,
+          "h": 11,
+          "ta": 0,
+          "th": 7,
+          "perk": "Bread",
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 35,
+          "name": "Elephant",
+          "x": 4,
+          "lvl": 2,
+          "xp": 2,
+          "a": 13,
+          "h": 17,
+          "ta": 0,
+          "th": 0,
+          "perk": "Mushroom",
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        }
+      ],
+      "shop": [
+        {
+          "id": 237,
+          "name": "Snake",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 8,
+          "h": 3,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 238,
+          "name": "Gorilla",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 7,
+          "h": 10,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 239,
+          "name": "Penguin",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 3,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 240,
+          "name": "Camel",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 3,
+          "h": 3,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 241,
+          "name": "Dodo",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 4,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        }
+      ],
+      "food": [
+        {
+          "id": 242,
+          "name": "Steak",
+          "f": true,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      ],
+      "unc": 242,
+      "spent": 10,
+      "gain": 0,
+      "gold": 0,
+      "rolls": 7,
+      "buffs": [],
+      "result": 2,
+      "wins": 6,
+      "losses": 4,
+      "pslots": 5,
+      "fslots": 2
+    },
+    "after": {
+      "turn": 12,
+      "tier": 6,
+      "board": [
+        {
+          "id": 164,
+          "name": "Gorilla",
+          "x": 0,
+          "lvl": 1,
+          "xp": 1,
+          "a": 10,
+          "h": 13,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 33,
+          "name": "Camel",
+          "x": 1,
+          "lvl": 2,
+          "xp": 2,
+          "a": 13,
+          "h": 13,
+          "ta": 0,
+          "th": 7,
+          "perk": "Bread",
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 35,
+          "name": "Elephant",
+          "x": 2,
+          "lvl": 2,
+          "xp": 2,
+          "a": 13,
+          "h": 17,
+          "ta": 0,
+          "th": 0,
+          "perk": "Mushroom",
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 110,
+          "name": "Skunk",
+          "x": 3,
+          "lvl": 2,
+          "xp": 2,
+          "a": 9,
+          "h": 11,
+          "ta": 0,
+          "th": 0,
+          "perk": "Steak",
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 78,
+          "name": "Penguin",
+          "x": 4,
+          "lvl": 2,
+          "xp": 2,
+          "a": 5,
+          "h": 6,
+          "ta": 0,
+          "th": 0,
+          "perk": "Steak",
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        }
+      ],
+      "shop": [
+        {
+          "id": 250,
+          "name": "Scorpion",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 1,
+          "h": 3,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": true,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 252,
+          "name": "Rhino",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 6,
+          "h": 7,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 249,
+          "name": "Crab",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 4,
+          "h": 1,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 253,
+          "name": "Rat",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 3,
+          "h": 6,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 251,
+          "name": "Pig",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 4,
+          "h": 1,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        }
+      ],
+      "food": [],
+      "unc": 255,
+      "spent": 10,
+      "gain": 0,
+      "gold": 0,
+      "rolls": 1,
+      "buffs": [],
+      "result": 2,
+      "wins": 6,
+      "losses": 5,
+      "pslots": 5,
+      "fslots": 2
+    },
+    "steps": [
+      [
+        "start",
+        null
+      ],
+      [
+        "food",
+        null
+      ],
+      [
+        "roll",
+        null
+      ],
+      [
+        "food",
+        null
+      ],
+      [
+        "food",
+        null
+      ],
+      [
+        "end",
+        null
+      ]
+    ],
+    "actions": [
+      {
+        "t": 4,
+        "seed": 1346616951
+      },
+      {
+        "t": 8,
+        "seed": 1511330310,
+        "orders": [
+          [
+            110,
+            0
+          ],
+          [
+            164,
+            1
+          ],
+          [
+            33,
+            2
+          ],
+          [
+            35,
+            3
+          ],
+          [
+            78,
+            4
+          ]
+        ],
+        "id": 242,
+        "target": 78,
+        "spell": {
+          "id": 242,
+          "name": "Steak",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      },
+      {
+        "t": 5,
+        "seed": 55999369
+      },
+      {
+        "t": 8,
+        "seed": 365710319,
+        "orders": [
+          [
+            164,
+            0
+          ],
+          [
+            33,
+            1
+          ],
+          [
+            35,
+            2
+          ],
+          [
+            110,
+            3
+          ],
+          [
+            78,
+            4
+          ]
+        ],
+        "id": 254,
+        "target": 110,
+        "spell": {
+          "id": 254,
+          "name": "Steak",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      },
+      {
+        "t": 8,
+        "seed": 1718690866,
+        "id": 255,
+        "target": 164,
+        "spell": {
+          "id": 255,
+          "name": "Pear",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      },
+      {
+        "t": 11,
+        "seed": 393810858,
+        "freeze": [
+          [
+            250,
+            true
+          ],
+          [
+            252,
+            false
+          ],
+          [
+            249,
+            false
+          ],
+          [
+            253,
+            false
+          ],
+          [
+            251,
+            false
+          ]
+        ]
+      }
+    ],
+    "names": {
+      "242": "Steak",
+      "78": "Penguin",
+      "254": "Steak",
+      "110": "Skunk",
+      "255": "Pear",
+      "164": "Gorilla"
+    },
+    "inferred": {},
+    "run": {
+      "state": {
+        "board": [
+          [
+            "Gorilla",
+            1,
+            1,
+            10,
+            13,
+            0,
+            0,
+            null
+          ],
+          [
+            "Camel",
+            2,
+            2,
+            13,
+            13,
+            0,
+            7,
+            "Bread"
+          ],
+          [
+            "Elephant",
+            2,
+            2,
+            13,
+            17,
+            0,
+            0,
+            "Mushroom"
+          ],
+          [
+            "Skunk",
+            2,
+            2,
+            9,
+            11,
+            0,
+            0,
+            "Steak"
+          ],
+          [
+            "Penguin",
+            2,
+            2,
+            5,
+            6,
+            0,
+            0,
+            "Steak"
+          ]
+        ],
+        "frozen": [
+          [
+            250,
+            "pet",
+            "Scorpion",
+            1,
+            0,
+            1,
+            3,
+            0,
+            0,
+            "Peanut",
+            3
+          ]
+        ],
+        "spent": 10,
+        "gold": 0,
+        "gain": 0
+      },
+      "shopDetail": [
+        {
+          "uid": 250,
+          "kind": "pet",
+          "body": [
+            "Scorpion",
+            1,
+            0,
+            1,
+            3,
+            0,
+            0,
+            "Peanut"
+          ],
+          "cost": 3,
+          "frozen": true,
+          "reward": false
+        },
+        {
+          "uid": 252,
+          "kind": "pet",
+          "body": [
+            "Rhino",
+            1,
+            0,
+            6,
+            7,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        },
+        {
+          "uid": 249,
+          "kind": "pet",
+          "body": [
+            "Crab",
+            1,
+            0,
+            4,
+            1,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        },
+        {
+          "uid": 253,
+          "kind": "pet",
+          "body": [
+            "Rat",
+            1,
+            0,
+            3,
+            6,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        },
+        {
+          "uid": 251,
+          "kind": "pet",
+          "body": [
+            "Pig",
+            1,
+            0,
+            4,
+            1,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        }
+      ],
+      "unc": 255,
+      "genIssues": [],
+      "costErrors": [],
+      "orderEvidence": 0,
+      "unresolvedEviction": [],
+      "inventory": [
+        249,
+        250,
+        251,
+        252,
+        253
+      ],
+      "log": [
+        {
+          "op": "start",
+          "id": null,
+          "x": null,
+          "target": null,
+          "gold0": 0,
+          "gold": 10,
+          "cost": 0,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Skunk",
+                2,
+                2,
+                9,
+                11,
+                0,
+                0,
+                null
+              ],
+              [
+                "Penguin",
+                2,
+                2,
+                5,
+                6,
+                0,
+                0,
+                null
+              ],
+              [
+                "Gorilla",
+                1,
+                1,
+                8,
+                11,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                2,
+                2,
+                13,
+                13,
+                0,
+                0,
+                "Bread"
+              ],
+              [
+                "Elephant",
+                2,
+                2,
+                13,
+                17,
+                0,
+                0,
+                "Mushroom"
+              ]
+            ],
+            "frozen": [
+              [
+                242,
+                "food",
+                "Steak",
+                3
+              ]
+            ],
+            "spent": 0,
+            "gold": 10,
+            "gain": 0
+          },
+          "uses": {
+            "35": 0,
+            "33": 0,
+            "164": 0,
+            "78": 0,
+            "110": 0
+          },
+          "offers": [
+            [
+              243,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              244,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              245,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              246,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              247,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              248,
+              "food",
+              "food-none",
+              0,
+              false
+            ],
+            [
+              242,
+              "food",
+              "Steak",
+              3,
+              true
+            ]
+          ],
+          "uids": [
+            110,
+            78,
+            164,
+            33,
+            35
+          ],
+          "unc": 248,
+          "gen": [
+            [
+              243,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              244,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              245,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              246,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              247,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              248,
+              "food",
+              "roll",
+              null
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "food",
+          "id": 242,
+          "x": null,
+          "target": 78,
+          "gold0": 10,
+          "gold": 7,
+          "cost": 3,
+          "realCost": 3,
+          "state": {
+            "board": [
+              [
+                "Skunk",
+                2,
+                2,
+                9,
+                11,
+                0,
+                0,
+                null
+              ],
+              [
+                "Gorilla",
+                1,
+                1,
+                8,
+                11,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                2,
+                2,
+                13,
+                13,
+                0,
+                0,
+                "Bread"
+              ],
+              [
+                "Elephant",
+                2,
+                2,
+                13,
+                17,
+                0,
+                0,
+                "Mushroom"
+              ],
+              [
+                "Penguin",
+                2,
+                2,
+                5,
+                6,
+                0,
+                0,
+                "Steak"
+              ]
+            ],
+            "frozen": [],
+            "spent": 3,
+            "gold": 7,
+            "gain": 0
+          },
+          "uses": {
+            "78": 0,
+            "35": 0,
+            "33": 0,
+            "164": 0,
+            "110": 0
+          },
+          "offers": [
+            [
+              243,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              244,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              245,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              246,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              247,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              248,
+              "food",
+              "food-none",
+              0,
+              false
+            ]
+          ],
+          "uids": [
+            110,
+            164,
+            33,
+            35,
+            78
+          ],
+          "unc": 248,
+          "gen": [
+            [
+              243,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              244,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              245,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              246,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              247,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              248,
+              "food",
+              "roll",
+              null
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "roll",
+          "id": null,
+          "x": null,
+          "target": null,
+          "gold0": 7,
+          "gold": 6,
+          "cost": 1,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Skunk",
+                2,
+                2,
+                9,
+                11,
+                0,
+                0,
+                null
+              ],
+              [
+                "Gorilla",
+                1,
+                1,
+                8,
+                11,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                2,
+                2,
+                13,
+                13,
+                0,
+                0,
+                "Bread"
+              ],
+              [
+                "Elephant",
+                2,
+                2,
+                13,
+                17,
+                0,
+                0,
+                "Mushroom"
+              ],
+              [
+                "Penguin",
+                2,
+                2,
+                5,
+                6,
+                0,
+                0,
+                "Steak"
+              ]
+            ],
+            "frozen": [],
+            "spent": 4,
+            "gold": 6,
+            "gain": 0
+          },
+          "uses": {
+            "78": 0,
+            "35": 0,
+            "33": 0,
+            "164": 0,
+            "110": 0
+          },
+          "offers": [
+            [
+              250,
+              "pet",
+              "pet-scorpion",
+              3,
+              false
+            ],
+            [
+              252,
+              "pet",
+              "pet-rhino",
+              3,
+              false
+            ],
+            [
+              249,
+              "pet",
+              "pet-crab",
+              3,
+              false
+            ],
+            [
+              253,
+              "pet",
+              "pet-rat",
+              3,
+              false
+            ],
+            [
+              251,
+              "pet",
+              "pet-pig",
+              3,
+              false
+            ],
+            [
+              254,
+              "food",
+              "Steak",
+              3,
+              false
+            ],
+            [
+              255,
+              "food",
+              "Pear",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            110,
+            164,
+            33,
+            35,
+            78
+          ],
+          "unc": 255,
+          "gen": [
+            [
+              243,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              244,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              245,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              246,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              247,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              248,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              249,
+              "pet",
+              "roll",
+              "Crab"
+            ],
+            [
+              250,
+              "pet",
+              "roll",
+              "Scorpion"
+            ],
+            [
+              251,
+              "pet",
+              "roll",
+              "Pig"
+            ],
+            [
+              252,
+              "pet",
+              "roll",
+              "Rhino"
+            ],
+            [
+              253,
+              "pet",
+              "roll",
+              "Rat"
+            ],
+            [
+              254,
+              "food",
+              "roll",
+              "Steak"
+            ],
+            [
+              255,
+              "food",
+              "roll",
+              "Pear"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "food",
+          "id": 254,
+          "x": null,
+          "target": 110,
+          "gold0": 6,
+          "gold": 3,
+          "cost": 3,
+          "realCost": 3,
+          "state": {
+            "board": [
+              [
+                "Gorilla",
+                1,
+                1,
+                8,
+                11,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                2,
+                2,
+                13,
+                13,
+                0,
+                0,
+                "Bread"
+              ],
+              [
+                "Elephant",
+                2,
+                2,
+                13,
+                17,
+                0,
+                0,
+                "Mushroom"
+              ],
+              [
+                "Skunk",
+                2,
+                2,
+                9,
+                11,
+                0,
+                0,
+                "Steak"
+              ],
+              [
+                "Penguin",
+                2,
+                2,
+                5,
+                6,
+                0,
+                0,
+                "Steak"
+              ]
+            ],
+            "frozen": [],
+            "spent": 7,
+            "gold": 3,
+            "gain": 0
+          },
+          "uses": {
+            "78": 0,
+            "110": 0,
+            "35": 0,
+            "33": 0,
+            "164": 0
+          },
+          "offers": [
+            [
+              250,
+              "pet",
+              "pet-scorpion",
+              3,
+              false
+            ],
+            [
+              252,
+              "pet",
+              "pet-rhino",
+              3,
+              false
+            ],
+            [
+              249,
+              "pet",
+              "pet-crab",
+              3,
+              false
+            ],
+            [
+              253,
+              "pet",
+              "pet-rat",
+              3,
+              false
+            ],
+            [
+              251,
+              "pet",
+              "pet-pig",
+              3,
+              false
+            ],
+            [
+              255,
+              "food",
+              "Pear",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            164,
+            33,
+            35,
+            110,
+            78
+          ],
+          "unc": 255,
+          "gen": [
+            [
+              243,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              244,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              245,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              246,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              247,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              248,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              249,
+              "pet",
+              "roll",
+              "Crab"
+            ],
+            [
+              250,
+              "pet",
+              "roll",
+              "Scorpion"
+            ],
+            [
+              251,
+              "pet",
+              "roll",
+              "Pig"
+            ],
+            [
+              252,
+              "pet",
+              "roll",
+              "Rhino"
+            ],
+            [
+              253,
+              "pet",
+              "roll",
+              "Rat"
+            ],
+            [
+              254,
+              "food",
+              "roll",
+              "Steak"
+            ],
+            [
+              255,
+              "food",
+              "roll",
+              "Pear"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "food",
+          "id": 255,
+          "x": null,
+          "target": 164,
+          "gold0": 3,
+          "gold": 0,
+          "cost": 3,
+          "realCost": 3,
+          "state": {
+            "board": [
+              [
+                "Gorilla",
+                1,
+                1,
+                10,
+                13,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                2,
+                2,
+                13,
+                13,
+                0,
+                0,
+                "Bread"
+              ],
+              [
+                "Elephant",
+                2,
+                2,
+                13,
+                17,
+                0,
+                0,
+                "Mushroom"
+              ],
+              [
+                "Skunk",
+                2,
+                2,
+                9,
+                11,
+                0,
+                0,
+                "Steak"
+              ],
+              [
+                "Penguin",
+                2,
+                2,
+                5,
+                6,
+                0,
+                0,
+                "Steak"
+              ]
+            ],
+            "frozen": [],
+            "spent": 10,
+            "gold": 0,
+            "gain": 0
+          },
+          "uses": {
+            "78": 0,
+            "110": 0,
+            "35": 0,
+            "33": 0,
+            "164": 0
+          },
+          "offers": [
+            [
+              250,
+              "pet",
+              "pet-scorpion",
+              3,
+              false
+            ],
+            [
+              252,
+              "pet",
+              "pet-rhino",
+              3,
+              false
+            ],
+            [
+              249,
+              "pet",
+              "pet-crab",
+              3,
+              false
+            ],
+            [
+              253,
+              "pet",
+              "pet-rat",
+              3,
+              false
+            ],
+            [
+              251,
+              "pet",
+              "pet-pig",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            164,
+            33,
+            35,
+            110,
+            78
+          ],
+          "unc": 255,
+          "gen": [
+            [
+              243,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              244,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              245,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              246,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              247,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              248,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              249,
+              "pet",
+              "roll",
+              "Crab"
+            ],
+            [
+              250,
+              "pet",
+              "roll",
+              "Scorpion"
+            ],
+            [
+              251,
+              "pet",
+              "roll",
+              "Pig"
+            ],
+            [
+              252,
+              "pet",
+              "roll",
+              "Rhino"
+            ],
+            [
+              253,
+              "pet",
+              "roll",
+              "Rat"
+            ],
+            [
+              254,
+              "food",
+              "roll",
+              "Steak"
+            ],
+            [
+              255,
+              "food",
+              "roll",
+              "Pear"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "end",
+          "id": null,
+          "x": null,
+          "target": null,
+          "gold0": 0,
+          "gold": 0,
+          "cost": 0,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Gorilla",
+                1,
+                1,
+                10,
+                13,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                2,
+                2,
+                13,
+                13,
+                0,
+                7,
+                "Bread"
+              ],
+              [
+                "Elephant",
+                2,
+                2,
+                13,
+                17,
+                0,
+                0,
+                "Mushroom"
+              ],
+              [
+                "Skunk",
+                2,
+                2,
+                9,
+                11,
+                0,
+                0,
+                "Steak"
+              ],
+              [
+                "Penguin",
+                2,
+                2,
+                5,
+                6,
+                0,
+                0,
+                "Steak"
+              ]
+            ],
+            "frozen": [
+              [
+                250,
+                "pet",
+                "Scorpion",
+                1,
+                0,
+                1,
+                3,
+                0,
+                0,
+                "Peanut",
+                3
+              ]
+            ],
+            "spent": 10,
+            "gold": 0,
+            "gain": 0
+          },
+          "uses": {
+            "78": 0,
+            "110": 0,
+            "35": 0,
+            "33": 0,
+            "164": 0
+          },
+          "offers": [
+            [
+              250,
+              "pet",
+              "pet-scorpion",
+              3,
+              true
+            ],
+            [
+              252,
+              "pet",
+              "pet-rhino",
+              3,
+              false
+            ],
+            [
+              249,
+              "pet",
+              "pet-crab",
+              3,
+              false
+            ],
+            [
+              253,
+              "pet",
+              "pet-rat",
+              3,
+              false
+            ],
+            [
+              251,
+              "pet",
+              "pet-pig",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            164,
+            33,
+            35,
+            110,
+            78
+          ],
+          "unc": 255,
+          "gen": [
+            [
+              243,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              244,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              245,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              246,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              247,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              248,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              249,
+              "pet",
+              "roll",
+              "Crab"
+            ],
+            [
+              250,
+              "pet",
+              "roll",
+              "Scorpion"
+            ],
+            [
+              251,
+              "pet",
+              "roll",
+              "Pig"
+            ],
+            [
+              252,
+              "pet",
+              "roll",
+              "Rhino"
+            ],
+            [
+              253,
+              "pet",
+              "roll",
+              "Rat"
+            ],
+            [
+              254,
+              "food",
+              "roll",
+              "Steak"
+            ],
+            [
+              255,
+              "food",
+              "roll",
+              "Pear"
+            ]
+          ],
+          "stock": []
+        }
+      ]
+    }
+  },
+  "foodTargetProbe": {
+    "key": [
+      "01a1ce58-bcfb-783e-8577-d12054514edf",
+      "01a1ce5b-830c-7ae6-a4e1-5b7e3e7374e8",
+      12
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  }
+}

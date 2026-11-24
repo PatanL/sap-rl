@@ -1,0 +1,180 @@
+{
+  "device": "cpu",
+  "workers": 1,
+  "candidate": "compact",
+  "checkpoint": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+  "ratios": {
+    "seconds": {
+      "original": 87.4245781977661,
+      "prepared": 68.3297490500845,
+      "speedup": 1.2794511821444774
+    },
+    "battleScoringSeconds": {
+      "original": 47.660608609672636,
+      "prepared": 28.467876881361008,
+      "speedup": 1.674189080144499
+    }
+  },
+  "rows": [
+    {
+      "origin": 0,
+      "turn": 3,
+      "seat": 0,
+      "scorer": "original",
+      "seconds": 11.844404326984659,
+      "battleScoringSeconds": 6.259273218922317,
+      "plannedBattles": 1168,
+      "signature": "20dade513e2809eb33bcd0bead1bbf6140c67acf761f452a0a0f215b1f4a480c"
+    },
+    {
+      "origin": 0,
+      "turn": 3,
+      "seat": 0,
+      "scorer": "prepared",
+      "seconds": 9.42583861388266,
+      "battleScoringSeconds": 3.8709172911476344,
+      "plannedBattles": 1168,
+      "signature": "20dade513e2809eb33bcd0bead1bbf6140c67acf761f452a0a0f215b1f4a480c"
+    },
+    {
+      "origin": 0,
+      "turn": 3,
+      "seat": 0,
+      "scorer": "prepared",
+      "seconds": 9.364074938930571,
+      "battleScoringSeconds": 3.7826132241170853,
+      "plannedBattles": 1168,
+      "signature": "20dade513e2809eb33bcd0bead1bbf6140c67acf761f452a0a0f215b1f4a480c"
+    },
+    {
+      "origin": 0,
+      "turn": 3,
+      "seat": 0,
+      "scorer": "original",
+      "seconds": 11.76785557786934,
+      "battleScoringSeconds": 6.215908071026206,
+      "plannedBattles": 1168,
+      "signature": "20dade513e2809eb33bcd0bead1bbf6140c67acf761f452a0a0f215b1f4a480c"
+    },
+    {
+      "origin": 1,
+      "turn": 5,
+      "seat": 1,
+      "scorer": "prepared",
+      "seconds": 8.399954776046798,
+      "battleScoringSeconds": 3.3030165389645845,
+      "plannedBattles": 1176,
+      "signature": "a7f4363f1a1a2cec48de520bc11c2dcc7cce29c7677bc58e2445a22d393c3b70"
+    },
+    {
+      "origin": 1,
+      "turn": 5,
+      "seat": 1,
+      "scorer": "original",
+      "seconds": 10.698191548930481,
+      "battleScoringSeconds": 5.661088554188609,
+      "plannedBattles": 1176,
+      "signature": "a7f4363f1a1a2cec48de520bc11c2dcc7cce29c7677bc58e2445a22d393c3b70"
+    },
+    {
+      "origin": 1,
+      "turn": 5,
+      "seat": 1,
+      "scorer": "original",
+      "seconds": 10.65542034409009,
+      "battleScoringSeconds": 5.626311372034252,
+      "plannedBattles": 1176,
+      "signature": "a7f4363f1a1a2cec48de520bc11c2dcc7cce29c7677bc58e2445a22d393c3b70"
+    },
+    {
+      "origin": 1,
+      "turn": 5,
+      "seat": 1,
+      "scorer": "prepared",
+      "seconds": 8.28368809609674,
+      "battleScoringSeconds": 3.2161813811399043,
+      "plannedBattles": 1176,
+      "signature": "a7f4363f1a1a2cec48de520bc11c2dcc7cce29c7677bc58e2445a22d393c3b70"
+    },
+    {
+      "origin": 2,
+      "turn": 7,
+      "seat": 0,
+      "scorer": "original",
+      "seconds": 10.673164915060624,
+      "battleScoringSeconds": 6.208246645051986,
+      "plannedBattles": 1176,
+      "signature": "534ea62809024c9ba74e3e66fc7cc12f30245031d7d4a8fb4444f2f54672e077"
+    },
+    {
+      "origin": 2,
+      "turn": 7,
+      "seat": 0,
+      "scorer": "prepared",
+      "seconds": 8.346270035021007,
+      "battleScoringSeconds": 3.8191720219329,
+      "plannedBattles": 1176,
+      "signature": "534ea62809024c9ba74e3e66fc7cc12f30245031d7d4a8fb4444f2f54672e077"
+    },
+    {
+      "origin": 2,
+      "turn": 7,
+      "seat": 0,
+      "scorer": "prepared",
+      "seconds": 8.348156386986375,
+      "battleScoringSeconds": 3.8471404428128153,
+      "plannedBattles": 1176,
+      "signature": "534ea62809024c9ba74e3e66fc7cc12f30245031d7d4a8fb4444f2f54672e077"
+    },
+    {
+      "origin": 2,
+      "turn": 7,
+      "seat": 0,
+      "scorer": "original",
+      "seconds": 10.696242667967454,
+      "battleScoringSeconds": 6.211262720171362,
+      "plannedBattles": 1176,
+      "signature": "534ea62809024c9ba74e3e66fc7cc12f30245031d7d4a8fb4444f2f54672e077"
+    },
+    {
+      "origin": 3,
+      "turn": 9,
+      "seat": 1,
+      "scorer": "prepared",
+      "seconds": 8.093397699063644,
+      "battleScoringSeconds": 3.3168672521132976,
+      "plannedBattles": 1184,
+      "signature": "c8ea161feca26fc3da33aa1d2706cc0c0eb1f4f6feb4ed13951a22ab3a5bc89d"
+    },
+    {
+      "origin": 3,
+      "turn": 9,
+      "seat": 1,
+      "scorer": "original",
+      "seconds": 10.548603442963213,
+      "battleScoringSeconds": 5.738582128193229,
+      "plannedBattles": 1184,
+      "signature": "c8ea161feca26fc3da33aa1d2706cc0c0eb1f4f6feb4ed13951a22ab3a5bc89d"
+    },
+    {
+      "origin": 3,
+      "turn": 9,
+      "seat": 1,
+      "scorer": "original",
+      "seconds": 10.540695373900235,
+      "battleScoringSeconds": 5.739935900084674,
+      "plannedBattles": 1184,
+      "signature": "c8ea161feca26fc3da33aa1d2706cc0c0eb1f4f6feb4ed13951a22ab3a5bc89d"
+    },
+    {
+      "origin": 3,
+      "turn": 9,
+      "seat": 1,
+      "scorer": "prepared",
+      "seconds": 8.068368504056707,
+      "battleScoringSeconds": 3.3119687291327864,
+      "plannedBattles": 1184,
+      "signature": "c8ea161feca26fc3da33aa1d2706cc0c0eb1f4f6feb4ed13951a22ab3a5bc89d"
+    }
+  ]
+}

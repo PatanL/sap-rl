@@ -1,0 +1,271 @@
+{
+  "backend": "rust",
+  "training": true,
+  "games": 256,
+  "workers": 10,
+  "wall": 62.54013770981692,
+  "matches": 882,
+  "battles": 11976,
+  "waves": 718,
+  "seat": 302130,
+  "live": 225322,
+  "seat_s": 4830.977530012293,
+  "games_s": 14.102943042633445,
+  "learned_s": 3146.795117611456,
+  "learned": 196801,
+  "delivered": 222387,
+  "updates": 24,
+  "stale": 21160,
+  "stale_share": 0.09708158799051206,
+  "queued": 4426,
+  "backlog": 0.5,
+  "pending_stale": 1258,
+  "gpu": 76.008,
+  "main_seconds": {
+    "turn_capture": 2.386408720165491,
+    "actor": 24.78709604497999,
+    "engine": 0.3245750821661204,
+    "reset": 0.23198649194091558,
+    "wait_publish": 34.6263120691292
+  },
+  "learner_wall": 50.29794314550236,
+  "actor_timing": {
+    "policy_stream_s": 23.237437065124524,
+    "service_s": 24.7150057523977
+  },
+  "mean_active_seats": 420.79387186629526,
+  "policy_batch_percentiles": [
+    98.0,
+    210.0,
+    322.0,
+    338.0
+  ],
+  "peak_gib": 3.888671875,
+  "steady": {
+    "seconds": 42.26441028597765,
+    "seat_s": 4647.3379074517725,
+    "games_s": 14.811515818543977,
+    "learned_s": 3297.6680315105204
+  },
+  "events": [
+    {
+      "version": 25773,
+      "min_version": 25772,
+      "max_version": 25772,
+      "seconds": 4.334987598937005,
+      "decisions": 8204,
+      "turns": 1064,
+      "stale": 0
+    },
+    {
+      "version": 25774,
+      "min_version": 25772,
+      "max_version": 25773,
+      "seconds": 6.684908262919635,
+      "decisions": 8198,
+      "turns": 648,
+      "stale": 0
+    },
+    {
+      "version": 25775,
+      "min_version": 25773,
+      "max_version": 25774,
+      "seconds": 9.234516480006278,
+      "decisions": 8216,
+      "turns": 619,
+      "stale": 1150
+    },
+    {
+      "version": 25776,
+      "min_version": 25774,
+      "max_version": 25775,
+      "seconds": 11.680143643869087,
+      "decisions": 8215,
+      "turns": 625,
+      "stale": 1863
+    },
+    {
+      "version": 25777,
+      "min_version": 25775,
+      "max_version": 25776,
+      "seconds": 14.30192756280303,
+      "decisions": 8208,
+      "turns": 680,
+      "stale": 2768
+    },
+    {
+      "version": 25778,
+      "min_version": 25776,
+      "max_version": 25777,
+      "seconds": 16.81790116499178,
+      "decisions": 8193,
+      "turns": 704,
+      "stale": 3791
+    },
+    {
+      "version": 25779,
+      "min_version": 25777,
+      "max_version": 25778,
+      "seconds": 19.292344708926976,
+      "decisions": 8193,
+      "turns": 738,
+      "stale": 4639
+    },
+    {
+      "version": 25780,
+      "min_version": 25778,
+      "max_version": 25779,
+      "seconds": 21.826087074819952,
+      "decisions": 8197,
+      "turns": 717,
+      "stale": 5211
+    },
+    {
+      "version": 25781,
+      "min_version": 25779,
+      "max_version": 25780,
+      "seconds": 24.377775277011096,
+      "decisions": 8198,
+      "turns": 655,
+      "stale": 6111
+    },
+    {
+      "version": 25782,
+      "min_version": 25780,
+      "max_version": 25781,
+      "seconds": 26.88529429398477,
+      "decisions": 8192,
+      "turns": 632,
+      "stale": 7100
+    },
+    {
+      "version": 25783,
+      "min_version": 25781,
+      "max_version": 25782,
+      "seconds": 29.31089424295351,
+      "decisions": 8197,
+      "turns": 648,
+      "stale": 7978
+    },
+    {
+      "version": 25784,
+      "min_version": 25782,
+      "max_version": 25783,
+      "seconds": 31.88000531680882,
+      "decisions": 8198,
+      "turns": 675,
+      "stale": 8856
+    },
+    {
+      "version": 25785,
+      "min_version": 25783,
+      "max_version": 25784,
+      "seconds": 34.407193081919104,
+      "decisions": 8194,
+      "turns": 685,
+      "stale": 9692
+    },
+    {
+      "version": 25786,
+      "min_version": 25784,
+      "max_version": 25785,
+      "seconds": 36.941938671981916,
+      "decisions": 8205,
+      "turns": 666,
+      "stale": 10625
+    },
+    {
+      "version": 25787,
+      "min_version": 25785,
+      "max_version": 25786,
+      "seconds": 39.400789296021685,
+      "decisions": 8198,
+      "turns": 676,
+      "stale": 11670
+    },
+    {
+      "version": 25788,
+      "min_version": 25786,
+      "max_version": 25787,
+      "seconds": 42.08179006795399,
+      "decisions": 8195,
+      "turns": 619,
+      "stale": 12720
+    },
+    {
+      "version": 25789,
+      "min_version": 25787,
+      "max_version": 25788,
+      "seconds": 44.56287950882688,
+      "decisions": 8219,
+      "turns": 656,
+      "stale": 14051
+    },
+    {
+      "version": 25790,
+      "min_version": 25788,
+      "max_version": 25789,
+      "seconds": 47.05969652882777,
+      "decisions": 8193,
+      "turns": 651,
+      "stale": 15215
+    },
+    {
+      "version": 25791,
+      "min_version": 25789,
+      "max_version": 25790,
+      "seconds": 49.64634354785085,
+      "decisions": 8199,
+      "turns": 641,
+      "stale": 16388
+    },
+    {
+      "version": 25792,
+      "min_version": 25790,
+      "max_version": 25791,
+      "seconds": 52.26360355480574,
+      "decisions": 8196,
+      "turns": 649,
+      "stale": 17369
+    },
+    {
+      "version": 25793,
+      "min_version": 25791,
+      "max_version": 25792,
+      "seconds": 54.84442453994416,
+      "decisions": 8195,
+      "turns": 650,
+      "stale": 18477
+    },
+    {
+      "version": 25794,
+      "min_version": 25792,
+      "max_version": 25793,
+      "seconds": 57.318858979968354,
+      "decisions": 8194,
+      "turns": 653,
+      "stale": 19313
+    },
+    {
+      "version": 25795,
+      "min_version": 25793,
+      "max_version": 25794,
+      "seconds": 60.008740964811295,
+      "decisions": 8207,
+      "turns": 646,
+      "stale": 20620
+    },
+    {
+      "version": 25796,
+      "min_version": 25794,
+      "max_version": 25795,
+      "seconds": 62.540132669964805,
+      "decisions": 8197,
+      "turns": 632,
+      "stale": 21160
+    }
+  ],
+  "library_sha256": "ddf5a8f22f0c39067e7c96a6054f01b5c87b624373b4fc1879715469470f4372",
+  "seed": 2577223,
+  "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2"
+}

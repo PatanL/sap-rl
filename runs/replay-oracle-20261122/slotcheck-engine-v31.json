@@ -1,0 +1,375 @@
+{
+ "summary": {
+  "fights": 7,
+  "simulated": 7,
+  "skipped": {},
+  "samplesPerFight": 3000,
+  "outcomeImpossible": 0,
+  "stateImpossible": 3,
+  "deterministic": 2,
+  "deterministicOutcomeWrong": 0,
+  "deterministicStateWrong": 0,
+  "meanProbabilityOfRealOutcome": 0.8048095238095238
+ },
+ "rows": [
+  {
+   "battleId": "de5b4a04-9a86-44b7-81ae-a6d0f4e8b67b",
+   "matchId": "01a1e5bb-6313-7c31-ab33-f0d529e89697",
+   "turn": 13,
+   "realOutcome": "opponent",
+   "simOutcomes": {
+    "player": 2504,
+    "opponent": 303,
+    "draw": 193
+   },
+   "pReal": 0.101,
+   "distinctStates": 98,
+   "deterministic": false,
+   "outcomePossible": true,
+   "statePossible": true,
+   "stateOrderMatches": true,
+   "realState": [
+    [
+     "pet-shark",
+     22,
+     8
+    ]
+   ],
+   "topSimStates": [
+    [
+     "player",
+     [
+      [
+       "pet-spider",
+       13,
+       7
+      ]
+     ],
+     286
+    ],
+    [
+     "player",
+     [
+      [
+       "pet-spider",
+       13,
+       2
+      ]
+     ],
+     251
+    ],
+    [
+     "draw",
+     [],
+     193
+    ]
+   ]
+  },
+  {
+   "battleId": "923af5d2-b76e-4b3c-890b-172113ec59ed",
+   "matchId": "01a19dea-eb1f-7c22-9a20-f0d6002902e1",
+   "turn": 6,
+   "realOutcome": "opponent",
+   "simOutcomes": {
+    "opponent": 2763,
+    "draw": 237
+   },
+   "pReal": 0.921,
+   "distinctStates": 9,
+   "deterministic": false,
+   "outcomePossible": true,
+   "statePossible": false,
+   "stateOrderMatches": false,
+   "realState": [
+    [
+     "pet-horse",
+     6,
+     2
+    ],
+    [
+     "pet-bee",
+     3,
+     1
+    ]
+   ],
+   "topSimStates": [
+    [
+     "opponent",
+     [
+      [
+       "pet-horse",
+       6,
+       2
+      ]
+     ],
+     1727
+    ],
+    [
+     "opponent",
+     [
+      [
+       "pet-bee",
+       3,
+       1
+      ],
+      [
+       "pet-ram",
+       4,
+       2
+      ],
+      [
+       "pet-horse",
+       6,
+       2
+      ]
+     ],
+     408
+    ],
+    [
+     "opponent",
+     [
+      [
+       "pet-ram",
+       4,
+       2
+      ],
+      [
+       "pet-horse",
+       6,
+       2
+      ]
+     ],
+     406
+    ]
+   ]
+  },
+  {
+   "battleId": "09c1e5e4-69e8-4655-a8c6-a1ab4bb91fd8",
+   "matchId": "01a1a300-f1b7-7a45-875e-54322adf46f7",
+   "turn": 12,
+   "realOutcome": "draw",
+   "simOutcomes": {
+    "draw": 3000
+   },
+   "pReal": 1.0,
+   "distinctStates": 1,
+   "deterministic": true,
+   "outcomePossible": true,
+   "statePossible": true,
+   "stateOrderMatches": true,
+   "realState": [],
+   "topSimStates": [
+    [
+     "draw",
+     [],
+     3000
+    ]
+   ]
+  },
+  {
+   "battleId": "c8208607-4df2-4062-bdc3-5cef13dd7b6c",
+   "matchId": "01a20214-a5d8-7ed8-a75c-c4a251b8dd95",
+   "turn": 9,
+   "realOutcome": "opponent",
+   "simOutcomes": {
+    "opponent": 3000
+   },
+   "pReal": 1.0,
+   "distinctStates": 4,
+   "deterministic": false,
+   "outcomePossible": true,
+   "statePossible": true,
+   "stateOrderMatches": true,
+   "realState": [
+    [
+     "pet-cricket",
+     3,
+     5
+    ]
+   ],
+   "topSimStates": [
+    [
+     "opponent",
+     [
+      [
+       "pet-deer",
+       2,
+       2
+      ],
+      [
+       "pet-cricket",
+       3,
+       5
+      ]
+     ],
+     996
+    ],
+    [
+     "opponent",
+     [
+      [
+       "pet-bus",
+       5,
+       3
+      ],
+      [
+       "pet-cricket",
+       3,
+       5
+      ]
+     ],
+     779
+    ],
+    [
+     "opponent",
+     [
+      [
+       "pet-blowfish",
+       3,
+       2
+      ],
+      [
+       "pet-deer",
+       2,
+       2
+      ],
+      [
+       "pet-cricket",
+       3,
+       5
+      ]
+     ],
+     738
+    ]
+   ]
+  },
+  {
+   "battleId": "5628bb5b-a76e-4a53-be6b-76eca07bc855",
+   "matchId": "01a1c797-a163-7972-822f-ea0e10dbf5ec",
+   "turn": 11,
+   "realOutcome": "player",
+   "simOutcomes": {
+    "player": 2050,
+    "draw": 950
+   },
+   "pReal": 0.6833333333333333,
+   "distinctStates": 2,
+   "deterministic": false,
+   "outcomePossible": true,
+   "statePossible": false,
+   "stateOrderMatches": false,
+   "realState": [
+    [
+     "pet-deer",
+     1,
+     1
+    ]
+   ],
+   "topSimStates": [
+    [
+     "player",
+     [
+      [
+       "pet-bus",
+       10,
+       6
+      ]
+     ],
+     2050
+    ],
+    [
+     "draw",
+     [],
+     950
+    ]
+   ]
+  },
+  {
+   "battleId": "c627238b-0eee-4f8b-b2c0-e611dedb9c36",
+   "matchId": "01a1e462-9ec8-78ac-9152-1706828e1432",
+   "turn": 10,
+   "realOutcome": "opponent",
+   "simOutcomes": {
+    "opponent": 3000
+   },
+   "pReal": 1.0,
+   "distinctStates": 1,
+   "deterministic": true,
+   "outcomePossible": true,
+   "statePossible": true,
+   "stateOrderMatches": true,
+   "realState": [
+    [
+     "pet-cat",
+     8,
+     4
+    ]
+   ],
+   "topSimStates": [
+    [
+     "opponent",
+     [
+      [
+       "pet-cat",
+       8,
+       4
+      ]
+     ],
+     3000
+    ]
+   ]
+  },
+  {
+   "battleId": "82d3b9c9-58c6-499e-b254-c69690d775b9",
+   "matchId": "01a1f8c6-8622-7887-822f-880995e9146c",
+   "turn": 14,
+   "realOutcome": "opponent",
+   "simOutcomes": {
+    "opponent": 2785,
+    "draw": 215
+   },
+   "pReal": 0.9283333333333333,
+   "distinctStates": 54,
+   "deterministic": false,
+   "outcomePossible": true,
+   "statePossible": false,
+   "stateOrderMatches": false,
+   "realState": [
+    [
+     "pet-bison",
+     34,
+     18
+    ]
+   ],
+   "topSimStates": [
+    [
+     "opponent",
+     [
+      [
+       "pet-bison",
+       34,
+       14
+      ]
+     ],
+     400
+    ],
+    [
+     "opponent",
+     [
+      [
+       "pet-bison",
+       34,
+       9
+      ]
+     ],
+     345
+    ],
+    [
+     "draw",
+     [],
+     215
+    ]
+   ]
+  }
+ ]
+}

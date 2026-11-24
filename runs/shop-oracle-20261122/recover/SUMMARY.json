@@ -1,0 +1,295 @@
+{
+  "inference": {
+    "all": {
+      "unique": 516,
+      "broad 6+": 149,
+      "unmapped food, no witness": 7,
+      "no candidate witnessed": 23,
+      "small 2-5": 15
+    },
+    "dev": {
+      "unique": 326,
+      "broad 6+": 87,
+      "unmapped food, no witness": 5,
+      "no candidate witnessed": 14,
+      "small 2-5": 9
+    },
+    "heldout": {
+      "unique": 190,
+      "broad 6+": 62,
+      "small 2-5": 6,
+      "no candidate witnessed": 9,
+      "unmapped food, no witness": 2
+    }
+  },
+  "by_source": {
+    "all": {
+      "all 710": {
+        "turns": 710,
+        "matches": 680
+      },
+      "pet/summon": {
+        "turns": 703,
+        "matches": 680
+      },
+      "unidentified purchased/merged pet": {
+        "turns": 670,
+        "matches": 653
+      },
+      "engine-dependent unique": {
+        "turns": 275,
+        "matches": 275
+      },
+      "multiple assignments": {
+        "turns": 164,
+        "matches": 164
+      },
+      "named stock receipt + producer": {
+        "turns": 222,
+        "matches": 216
+      },
+      "unmapped foods": {
+        "turns": 7,
+        "matches": 0
+      },
+      "unmapped purchased food enum": {
+        "turns": 7,
+        "matches": 0
+      },
+      "unresolved": {
+        "turns": 19,
+        "matches": 0
+      },
+      "unidentified referenced board pet after summon": {
+        "turns": 33,
+        "matches": 27
+      },
+      "sale proceeds": {
+        "turns": 13,
+        "matches": 13
+      },
+      "Pill + documented summon/perk": {
+        "turns": 17,
+        "matches": 12
+      }
+    },
+    "dev": {
+      "all 710": {
+        "turns": 441,
+        "matches": 422
+      },
+      "pet/summon": {
+        "turns": 436,
+        "matches": 422
+      },
+      "unidentified purchased/merged pet": {
+        "turns": 418,
+        "matches": 406
+      },
+      "engine-dependent unique": {
+        "turns": 175,
+        "matches": 175
+      },
+      "multiple assignments": {
+        "turns": 96,
+        "matches": 96
+      },
+      "named stock receipt + producer": {
+        "turns": 142,
+        "matches": 138
+      },
+      "unmapped foods": {
+        "turns": 5,
+        "matches": 0
+      },
+      "unmapped purchased food enum": {
+        "turns": 5,
+        "matches": 0
+      },
+      "unresolved": {
+        "turns": 13,
+        "matches": 0
+      },
+      "sale proceeds": {
+        "turns": 6,
+        "matches": 6
+      },
+      "unidentified referenced board pet after summon": {
+        "turns": 18,
+        "matches": 16
+      },
+      "Pill + documented summon/perk": {
+        "turns": 9,
+        "matches": 7
+      }
+    },
+    "heldout": {
+      "all 710": {
+        "turns": 269,
+        "matches": 258
+      },
+      "pet/summon": {
+        "turns": 267,
+        "matches": 258
+      },
+      "unidentified purchased/merged pet": {
+        "turns": 252,
+        "matches": 247
+      },
+      "engine-dependent unique": {
+        "turns": 100,
+        "matches": 100
+      },
+      "multiple assignments": {
+        "turns": 68,
+        "matches": 68
+      },
+      "named stock receipt + producer": {
+        "turns": 80,
+        "matches": 78
+      },
+      "unidentified referenced board pet after summon": {
+        "turns": 15,
+        "matches": 11
+      },
+      "sale proceeds": {
+        "turns": 7,
+        "matches": 7
+      },
+      "Pill + documented summon/perk": {
+        "turns": 8,
+        "matches": 5
+      },
+      "unresolved": {
+        "turns": 6,
+        "matches": 0
+      },
+      "unmapped foods": {
+        "turns": 2,
+        "matches": 0
+      },
+      "unmapped purchased food enum": {
+        "turns": 2,
+        "matches": 0
+      }
+    }
+  },
+  "strict_original": {
+    "all": {
+      "completed": 7445,
+      "attempted": 6735,
+      "reproduced": 6674,
+      "skips": {
+        "unidentified purchased/merged pet": 670,
+        "unmapped purchased food enum": 7,
+        "unidentified referenced board pet after summon": 33
+      }
+    },
+    "dev": {
+      "completed": 4745,
+      "attempted": 4304,
+      "reproduced": 4259,
+      "skips": {
+        "unidentified purchased/merged pet": 418,
+        "unmapped purchased food enum": 5,
+        "unidentified referenced board pet after summon": 18
+      }
+    },
+    "heldout": {
+      "completed": 2700,
+      "attempted": 2431,
+      "reproduced": 2415,
+      "skips": {
+        "unidentified purchased/merged pet": 252,
+        "unidentified referenced board pet after summon": 15,
+        "unmapped purchased food enum": 2
+      }
+    }
+  },
+  "strict_fresh": {
+    "all": {
+      "completed": 6779,
+      "attempted": 6119,
+      "reproduced": 6045,
+      "skips": {
+        "unidentified purchased/merged pet": 608,
+        "unidentified referenced board pet after summon": 41,
+        "missing start/end action": 1,
+        "unmapped purchased food enum": 9,
+        "unidentified purchased item": 1
+      }
+    },
+    "dev": {
+      "completed": 4233,
+      "attempted": 3815,
+      "reproduced": 3773,
+      "skips": {
+        "unidentified purchased/merged pet": 386,
+        "unidentified referenced board pet after summon": 28,
+        "unmapped purchased food enum": 3,
+        "unidentified purchased item": 1
+      }
+    },
+    "heldout": {
+      "completed": 2546,
+      "attempted": 2304,
+      "reproduced": 2272,
+      "skips": {
+        "unidentified purchased/merged pet": 222,
+        "unidentified referenced board pet after summon": 13,
+        "missing start/end action": 1,
+        "unmapped purchased food enum": 6
+      }
+    }
+  },
+  "original_convergence": [
+    [
+      1,
+      5564
+    ],
+    [
+      64,
+      6625
+    ],
+    [
+      1024,
+      6674
+    ],
+    [
+      8192,
+      6674
+    ],
+    [
+      65536,
+      6674
+    ]
+  ],
+  "fresh_convergence": [
+    [
+      1,
+      4998
+    ],
+    [
+      64,
+      5994
+    ],
+    [
+      1024,
+      6045
+    ],
+    [
+      8192,
+      6045
+    ],
+    [
+      65536,
+      6045
+    ]
+  ],
+  "training_and_fresh_match_overlap": 0,
+  "concrete_seed0_vectors": 1552285,
+  "concrete_calls": 1559636,
+  "matching_assignments": 52947,
+  "excluded_by_offer_order": 5,
+  "failed_concrete_rechecks": 0
+}

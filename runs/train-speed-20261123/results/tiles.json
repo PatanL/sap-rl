@@ -1,0 +1,69 @@
+[
+  {
+    "layout": "block-head-history",
+    "cap": 768,
+    "checks": {
+      "results/g48/batch.pt bf16": {
+        "loss_abs": 0.000953411082564859,
+        "gradient_relative_l2": 0.03995519540533622,
+        "delta_relative_l2": 0.004941641054185539,
+        "weight_max_abs": 1.5348196029663086e-06
+      }
+    }
+  },
+  {
+    "layout": "block-history",
+    "cap": 256,
+    "checks": {
+      "results/g48/batch.pt bf16": {
+        "loss_abs": 0.0009679546158900543,
+        "gradient_relative_l2": 0.043503941670686275,
+        "delta_relative_l2": 0.005255449519949807,
+        "weight_max_abs": 2.2351741790771484e-06
+      }
+    }
+  },
+  {
+    "layout": "block-history",
+    "cap": 384,
+    "checks": {
+      "results/g48/batch.pt bf16": {
+        "loss_abs": 0.0012114991944423004,
+        "gradient_relative_l2": 0.050410666527027685,
+        "delta_relative_l2": 0.006787318954929959,
+        "weight_max_abs": 4.61190938949585e-06
+      }
+    }
+  },
+  {
+    "layout": "block-both",
+    "cap": 512,
+    "checks": {
+      "results/g48/batch.pt bf16": {
+        "loss_abs": 0.0006433775227656646,
+        "gradient_relative_l2": 0.02405022606876571,
+        "delta_relative_l2": 0.0049786475634930275,
+        "weight_max_abs": 5.200505256652832e-06
+      },
+      "results/batch.pt bf16": {
+        "loss_abs": 0.0002109763113162244,
+        "gradient_relative_l2": 0.013836960878523236,
+        "delta_relative_l2": 0.004163548207798127,
+        "weight_max_abs": 1.952052116394043e-06
+      },
+      "results/g48/batch.pt fp32": {
+        "loss_abs": 1.7738438357062236e-08,
+        "gradient_relative_l2": 8.875698945593132e-07,
+        "delta_relative_l2": 6.596156103887456e-06,
+        "weight_max_abs": 1.4901161193847656e-08
+      },
+      "results/batch.pt fp32": {
+        "loss_abs": 2.846023638980455e-09,
+        "gradient_relative_l2": 7.296917875532409e-07,
+        "delta_relative_l2": 7.866625718512488e-06,
+        "weight_max_abs": 1.4901161193847656e-08
+      }
+    },
+    "rate": 3795.4613095447817
+  }
+]

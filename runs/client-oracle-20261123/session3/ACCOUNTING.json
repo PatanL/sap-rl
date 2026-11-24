@@ -1,0 +1,29 @@
+{
+ "lines_from": 3677,
+ "lines": 11112,
+ "counts": {
+  "POST_forwarded arena/queue [arena]": 1,
+  "POST_forwarded arena/ready [arena]": 1,
+  "POST_forwarded arena/watch [arena]": 1,
+  "POST_forwarded build/end [arena]": 1,
+  "POST_forwarded build/name [arena]": 1,
+  "POST_forwarded build/play-minion [arena]": 3,
+  "POST_forwarded build/start [arena]": 2,
+  "POST_forwarded user/login [guest]": 1,
+  "POST_forwarded user/login [replay]": 257,
+  "arena_queue_200 (games started)": 1,
+  "arena_watch_POST_blocked_mode_replay": 257,
+  "arena_watch_POST_forwarded_mode_arena": 1,
+  "battle_get_forwarded_mode_arena": 1,
+  "battle_get_fulfilled_locally": 257,
+  "blocked GET user/participation [replay]": 257,
+  "blocked POST arena/watch [replay]": 257,
+  "blocked non-game host cdp.cloud.unity3d.com": 1032,
+  "blocked non-game host config.uca.cloud.unity3d.com": 258,
+  "blocked non-game host itch.io": 259,
+  "blocked non-game host perf-events.cloud.unity3d.com": 257,
+  "blocked_total": 2320,
+  "build_end_200 (turns ended)": 1,
+  "build_play_minion_200 (pets bought)": 3
+ }
+}

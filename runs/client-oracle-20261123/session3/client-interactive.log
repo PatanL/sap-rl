@@ -1,0 +1,45 @@
+BROWSER READY
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+DONE snap s3-boot
+DONE mode arena
+DONE click 960 350 s3-play 1800
+DONE snap s3-play
+DONE click 960 350 s3-arena 3000
+200 POST /0.48/api/arena/queue
+200 POST /0.48/api/build/start
+DONE click 1750 990 s3-start 6000
+200 POST /0.48/api/build/play-minion
+DONE drag 670 700 960 450 s3-buy1
+200 POST /0.48/api/build/play-minion
+DONE drag 380 700 815 450 s3-buy2
+DONE drag 530 700 670 450 s3-buy3
+200 POST /0.48/api/build/play-minion
+DONE drag 380 700 670 450 s3-buy3b
+DONE click 1720 1010 s3-end1 1800
+200 POST /0.48/api/build/end
+DONE click 1240 563 s3-confirm1 3000
+DONE click 1600 400 s3-name1 800
+DONE click 960 683 s3-name2 1000
+200 POST /0.48/api/build/name
+200 POST /0.48/api/arena/ready
+200 GET /0.48/api/battle/get/<id>
+DONE click 1716 1011 s3-battle1a 8000
+200 POST /0.48/api/arena/watch
+DONE snap s3-battle1b
+200 POST /0.48/api/build/start
+DONE click 960 210 s3-t2a 5000

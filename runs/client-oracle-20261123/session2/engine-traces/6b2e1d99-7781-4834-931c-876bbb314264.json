@@ -1,0 +1,383 @@
+{
+  "battle_id": "6b2e1d99-7781-4834-931c-876bbb314264",
+  "recorded_seed": -1714808783,
+  "engine_seed": 2580158513,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Rooster",
+          "attack": 13,
+          "health": 14,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 13,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 9,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 9,
+          "health": 13,
+          "perk": "status-melon-armor",
+          "slot": 3
+        },
+        {
+          "pet": "Turkey",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Hedgehog",
+          "attack": 6,
+          "health": 4,
+          "perk": "status-extra-life",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 16,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 8,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 10,
+          "health": 10,
+          "perk": "status-splash-attack",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 14,
+          "health": 14,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Rooster",
+          "attack": 13,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 13,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 9,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 9,
+          "health": 13,
+          "perk": "status-melon-armor",
+          "slot": 3
+        },
+        {
+          "pet": "Turkey",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Hedgehog",
+          "attack": 6,
+          "health": 4,
+          "perk": "status-extra-life",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 16,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 8,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 10,
+          "health": 10,
+          "perk": "status-splash-attack",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 14,
+          "health": 14,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Chick",
+          "attack": 9,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Chick",
+          "attack": 9,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 9,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 9,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Turkey",
+          "attack": 3,
+          "health": 1,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Hedgehog",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 11,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 8,
+          "health": 14,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 14,
+          "health": 12,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Zombie Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Zombie Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Zombie Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 9,
+          "health": 1,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 9,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 8,
+          "health": 12,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 14,
+          "health": 10,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Zombie Fly",
+          "attack": 4,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Zombie Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 7,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 8,
+          "health": 10,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 14,
+          "health": 10,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 5,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 8,
+          "health": 8,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 14,
+          "health": 10,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 5,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 8,
+          "health": 8,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 14,
+          "health": 10,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,670 @@
+{
+  "battle_id": "c2646a84-1d86-4265-b79b-d760e649149b",
+  "recorded_seed": 797710096,
+  "engine_seed": 797710096,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Rat",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Camel",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Otter",
+          "attack": 4,
+          "health": 8,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Cricket",
+          "attack": 2,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Flamingo",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Flamingo",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dog",
+          "attack": 9,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Rat",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Camel",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Otter",
+          "attack": 4,
+          "health": 8,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Cricket",
+          "attack": 2,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Flamingo",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Flamingo",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dog",
+          "attack": 9,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Rat",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Camel",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Otter",
+          "attack": 4,
+          "health": 8,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Cricket",
+          "attack": 2,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dog",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Flamingo",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Flamingo",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dog",
+          "attack": 11,
+          "health": 8,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Rat",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Camel",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Otter",
+          "attack": 4,
+          "health": 8,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Cricket",
+          "attack": 2,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Flamingo",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Flamingo",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dog",
+          "attack": 11,
+          "health": 8,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Camel",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Otter",
+          "attack": 4,
+          "health": 8,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Cricket",
+          "attack": 2,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dirty Rat",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Flamingo",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Flamingo",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dog",
+          "attack": 13,
+          "health": 9,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Camel",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 4,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Otter",
+          "attack": 4,
+          "health": 8,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Cricket",
+          "attack": 2,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Flamingo",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Flamingo",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dog",
+          "attack": 13,
+          "health": 9,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Kangaroo",
+          "attack": 6,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Otter",
+          "attack": 4,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Cricket",
+          "attack": 2,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Flamingo",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dog",
+          "attack": 13,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [
+        {
+          "pet": "Kangaroo",
+          "attack": 6,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Otter",
+          "attack": 4,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Cricket",
+          "attack": 2,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Spider",
+          "attack": 4,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dog",
+          "attack": 14,
+          "health": 10,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-07",
+      "player": [
+        {
+          "pet": "Kangaroo",
+          "attack": 6,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Otter",
+          "attack": 4,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Cricket",
+          "attack": 2,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Giraffe",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dog",
+          "attack": 16,
+          "health": 11,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-08",
+      "player": [
+        {
+          "pet": "Otter",
+          "attack": 4,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Cricket",
+          "attack": 2,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dog",
+          "attack": 16,
+          "health": 11,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-09",
+      "player": [
+        {
+          "pet": "Cricket",
+          "attack": 2,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dog",
+          "attack": 16,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-10",
+      "player": [
+        {
+          "pet": "Zombie Cricket",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dog",
+          "attack": 16,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-11",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Dog",
+          "attack": 16,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Dog",
+          "attack": 16,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    }
+  ]
+}

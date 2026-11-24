@@ -1,0 +1,49 @@
+{
+  "backend": "replay",
+  "training": false,
+  "games": 4096,
+  "workers": 12,
+  "wall": 150.06518515013158,
+  "matches": 9271,
+  "waves": 489,
+  "seat": 3293333,
+  "live": 2478242,
+  "seat_s": 21946.01630421613,
+  "games_s": 61.7798191547553,
+  "learned_s": 0.0,
+  "learned": 0,
+  "delivered": 0,
+  "updates": 0,
+  "stale": 0,
+  "stale_share": 0.0,
+  "queued": 0,
+  "gpu": 88.92976588628763,
+  "main_seconds": {
+    "turn_capture": 0.010107691632583737,
+    "actor": 147.3045572892297,
+    "engine": 2.383498159935698,
+    "reset": 0.3645508587360382
+  },
+  "learner_wall": 0.0,
+  "actor_timing": {
+    "policy_stream_s": 143.51850550842292,
+    "service_s": 147.25504001323134
+  },
+  "mean_active_seats": 6734.832310838446,
+  "policy_batch_percentiles": [
+    1611.0,
+    3321.5,
+    5136.3,
+    5511.380000000006
+  ],
+  "peak_gib": 2.6796875,
+  "steady": {
+    "seconds": 71.21061006514356,
+    "seat_s": 21938.388014893306,
+    "games_s": 72.61558286223132,
+    "learned_s": 0.0
+  },
+  "events": [],
+  "seed": 2577223,
+  "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2"
+}

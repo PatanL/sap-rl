@@ -1,0 +1,61 @@
+== a1-fly4dead 
+  100/100:
+      start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Fly 4/20] O[Hedgehog 1/1]
+      after-attack-01: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]
+      final: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]
+== h6-fly-two-deaths-sob 
+  100/100:
+      start: P[Fish 13/12, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]
+      after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]
+      after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]
+      after-attack-03: P[Fish 13/9, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/1, Crocodile 8/4]
+      after-attack-04: P[Fish 13/8, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Crocodile 8/4]
+      after-attack-05: P[Zombie Fly 4/4, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[empty]
+      final: P[Zombie Fly 4/4, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[empty]
+== ddyn-sob-dynamic 
+  100/100:
+      start: P[Skunk 10/5, Dodo 10/6] O[Crab 6/13, Fish 2/26]
+      after-attack-01: P[Dodo 10/6] O[Crab 6/3, Fish 2/26]
+      after-attack-02: P[empty] O[Fish 2/26]
+      final: P[empty] O[Fish 2/26]
+== f9-snake-tiger-shots 
+  72/100:
+      start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]
+      after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/44]
+      after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]
+      after-attack-03: P[Fish 1/47, Snake 8/3, Tiger 6/4] O[Fish 1/22]
+      after-attack-04: P[Fish 1/46, Snake 8/3, Tiger 6/4] O[Fish 1/11]
+      after-attack-05: P[Fish 1/45, Snake 8/3, Tiger 6/4] O[empty]
+      final: P[Fish 1/45, Snake 8/3, Tiger 6/4] O[empty]
+  20/100:
+      start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]
+      after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]
+      after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]
+      after-attack-03: P[Fish 1/47, Snake 8/3, Tiger 6/4] O[Fish 1/22]
+      after-attack-04: P[Fish 1/46, Snake 8/3, Tiger 6/4] O[Fish 1/11]
+      after-attack-05: P[Fish 1/45, Snake 8/3, Tiger 6/4] O[empty]
+      final: P[Fish 1/45, Snake 8/3, Tiger 6/4] O[empty]
+  5/100:
+      start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]
+      after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]
+      after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]
+      after-attack-03: P[Fish 1/47, Snake 8/3, Tiger 6/4] O[Fish 1/22]
+      after-attack-04: P[Fish 1/46, Snake 8/3, Tiger 6/4] O[Fish 1/11]
+      after-attack-05: P[Fish 1/45, Snake 8/3, Tiger 6/4] O[empty]
+      final: P[Fish 1/45, Snake 8/3, Tiger 6/4] O[empty]
+  2/100:
+      start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]
+      after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]
+      after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]
+      after-attack-03: P[Fish 1/47, Snake 8/3, Tiger 6/4] O[Fish 1/17, Pig 2/4]
+      after-attack-04: P[Fish 1/46, Snake 8/3, Tiger 6/4] O[Fish 1/11]
+      after-attack-05: P[Fish 1/45, Snake 8/3, Tiger 6/4] O[empty]
+      final: P[Fish 1/45, Snake 8/3, Tiger 6/4] O[empty]
+  1/100:
+      start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]
+      after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]
+      after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]
+      after-attack-03: P[Fish 1/47, Snake 8/3, Tiger 6/4] O[Fish 1/17, Pig 2/4]
+      after-attack-04: P[Fish 1/46, Snake 8/3, Tiger 6/4] O[Fish 1/6, Pig 2/4]
+      after-attack-05: P[Fish 1/45, Snake 8/3, Tiger 6/4] O[empty]
+      final: P[Fish 1/45, Snake 8/3, Tiger 6/4] O[empty]

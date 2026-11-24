@@ -1,0 +1,180 @@
+{
+ "arm": "parent",
+ "cap": 3072,
+ "parameters": 14346925,
+ "encoder": {
+  "seconds": 1.0072939886013046,
+  "rate": 8134.665840086984,
+  "first": 8.643423301866278,
+  "microbatches": 6
+ },
+ "profile": {
+  "wall": 1.071495597017929,
+  "cpu_self_s": 0.9971224610000015,
+  "kernel_launches": 11788,
+  "top_gpu": [
+   [
+    "aten::mm",
+    0.2176,
+    1644
+   ],
+   [
+    "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64",
+    0.0788,
+    216
+   ],
+   [
+    "triton_red_fused__unsafe_view_add_clone_select_backward_squeeze_sum_tr",
+    0.0777,
+    36
+   ],
+   [
+    "triton_red_fused__unsafe_view_add_clone_select_backward_squeeze_sum_tr",
+    0.0777,
+    36
+   ],
+   [
+    "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64",
+    0.0736,
+    230
+   ],
+   [
+    "triton_poi_fused__unsafe_view_add_clone_select_backward_squeeze_transp",
+    0.0612,
+    36
+   ],
+   [
+    "triton_poi_fused__unsafe_view_add_clone_select_backward_squeeze_transp",
+    0.0612,
+    36
+   ],
+   [
+    "aten::_efficient_attention_backward",
+    0.052,
+    42
+   ],
+   [
+    "fmha_cutlassB_bf16_aligned_64x64_k64_sm80(PyTorchMemEffAttention::Atte",
+    0.0518,
+    36
+   ],
+   [
+    "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64",
+    0.0465,
+    274
+   ],
+   [
+    "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_12",
+    0.0395,
+    44
+   ],
+   [
+    "triton_poi_fused_gelu_gelu_backward_5",
+    0.0394,
+    36
+   ],
+   [
+    "triton_poi_fused_gelu_gelu_backward_5",
+    0.0394,
+    36
+   ],
+   [
+    "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunc",
+    0.039,
+    1081
+   ]
+  ],
+  "top_cpu": [
+   [
+    "cudaStreamSynchronize",
+    0.3563,
+    255
+   ],
+   [
+    "cudaMemcpyAsync",
+    0.3425,
+    357
+   ],
+   [
+    "cudaLaunchKernel",
+    0.0402,
+    8207
+   ],
+   [
+    "cuLaunchKernel",
+    0.0169,
+    3581
+   ],
+   [
+    "aten::mm",
+    0.0152,
+    1644
+   ],
+   [
+    "CompiledFunctionBackward",
+    0.0139,
+    6
+   ],
+   [
+    "CompiledFunction",
+    0.0132,
+    6
+   ],
+   [
+    "aten::cat",
+    0.0095,
+    1015
+   ],
+   [
+    "aten::index_select",
+    0.0086,
+    348
+   ],
+   [
+    "aten::copy_",
+    0.0072,
+    3043
+   ]
+  ]
+ },
+ "encoder+gru": {
+  "seconds": 1.0345007774885744,
+  "rate": 7920.728701521444,
+  "first": 1.0586317891720682,
+  "microbatches": 6
+ },
+ "autotune": {
+  "seconds": 0.9503920749993995,
+  "rate": 8621.704889537486,
+  "first": 70.02368845115416,
+  "microbatches": 6
+ },
+ "whole": {
+  "seconds": 0.9371057830285281,
+  "rate": 8743.94347831119,
+  "first": 631.1196928459685,
+  "microbatches": 6
+ },
+ "acting": {
+  "8": {
+   "ms": 3.9966669864952564,
+   "rows_per_s": 2001.667896532789
+  },
+  "64": {
+   "ms": 4.448542837053537,
+   "rows_per_s": 14386.733441548688
+  },
+  "512": {
+   "ms": 18.805300001986325,
+   "rows_per_s": 27226.36703194948
+  },
+  "2048": {
+   "ms": 69.93471493478864,
+   "rows_per_s": 29284.454822039083
+  },
+  "4096": {
+   "ms": 138.51586601231247,
+   "rows_per_s": 29570.619726955414
+  }
+ }
+}

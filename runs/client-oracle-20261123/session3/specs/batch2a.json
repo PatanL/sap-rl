@@ -1,0 +1,6 @@
+[
+ {"name":"a1-fly4dead","seeds":[1203948571,-402918337,1999999937,-2000000011,55555,-987654321],"left":[["Pig",5,3],["Duck",7,2],["Fish",1,2],["Beaver",3,2],["Fly",4,20]],"right":[["Hedgehog",1,1]]},
+ {"name":"h6-fly-two-deaths-sob","nseeds":8,"left":[["Fish",13,12],["Deer",15,13],["Whale",12,14],["Fly",15,13],["Pig",4,5]],"right":[["Fish",1,40],["Crocodile",8,4]]},
+ {"name":"ddyn-sob-dynamic","nseeds":2,"left":[["Skunk",5,5],["Dodo",10,6]],"right":[["Crab",6,3],["Fish",2,40]]},
+ {"name":"f9-snake-tiger-shots","nseeds":10,"left":[["Fish",1,50],["Snake",8,3],["Tiger",6,4]],"right":[["Fish",1,50],["Pig",2,4]]}
+]

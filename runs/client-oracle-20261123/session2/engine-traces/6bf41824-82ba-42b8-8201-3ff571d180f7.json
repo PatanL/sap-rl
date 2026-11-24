@@ -1,0 +1,376 @@
+{
+  "battle_id": "6bf41824-82ba-42b8-8201-3ff571d180f7",
+  "recorded_seed": 2014977550,
+  "engine_seed": 2014977550,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Swan",
+          "attack": 20,
+          "health": 17,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 15,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 18,
+          "health": 26,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Cat",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Whale",
+          "attack": 5,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 4,
+          "health": 4,
+          "perk": "status-steak-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 10,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 12,
+          "health": 26,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Cow",
+          "attack": 5,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Swan",
+          "attack": 20,
+          "health": 17,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 15,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 18,
+          "health": 26,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Cat",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Whale",
+          "attack": 5,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 4,
+          "health": 4,
+          "perk": "status-steak-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 10,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 12,
+          "health": 26,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Cow",
+          "attack": 5,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Swan",
+          "attack": 20,
+          "health": 17,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 15,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 18,
+          "health": 26,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Cat",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 6,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 10,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 12,
+          "health": 26,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Cow",
+          "attack": 5,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Swan",
+          "attack": 20,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 15,
+          "health": 12,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 18,
+          "health": 26,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 10,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 12,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Cow",
+          "attack": 5,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Snake",
+          "attack": 15,
+          "health": 12,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 18,
+          "health": 26,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 12,
+          "health": 6,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Cow",
+          "attack": 5,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Blowfish",
+          "attack": 18,
+          "health": 26,
+          "perk": "status-bread",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Cow",
+          "attack": 5,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Blowfish",
+          "attack": 18,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 0
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Blowfish",
+          "attack": 18,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 0
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

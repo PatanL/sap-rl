@@ -1,0 +1,15 @@
+{
+  "backend": "rust",
+  "train": true,
+  "games": 256,
+  "workers": 10,
+  "seconds": 600.0,
+  "updates": 100,
+  "save": true,
+  "out": "/out/results/proof-opt",
+  "backlog": 0.5,
+  "seed": 2577223,
+  "cap": 3072,
+  "compact": true,
+  "compile": true
+}

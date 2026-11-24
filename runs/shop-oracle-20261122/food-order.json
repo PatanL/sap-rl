@@ -1,0 +1,266 @@
+{
+  "summary": {
+    "all": {
+      "pairs": 2467,
+      "native_matches": 1511,
+      "id_asc": 1511,
+      "tier_desc_id_asc": 2467,
+      "tier_asc_id_asc": 627,
+      "unequal_tier_pairs": 1840,
+      "higher_tier_first": 1840,
+      "draw_order_reversed": 956,
+      "equal_tier_pairs": 627,
+      "equal_tier_uid_asc": 627
+    },
+    "dev": {
+      "pairs": 1597,
+      "native_matches": 986,
+      "id_asc": 986,
+      "tier_desc_id_asc": 1597,
+      "tier_asc_id_asc": 413,
+      "unequal_tier_pairs": 1184,
+      "higher_tier_first": 1184,
+      "draw_order_reversed": 611,
+      "equal_tier_pairs": 413,
+      "equal_tier_uid_asc": 413
+    },
+    "heldout": {
+      "pairs": 870,
+      "native_matches": 525,
+      "id_asc": 525,
+      "tier_desc_id_asc": 870,
+      "tier_asc_id_asc": 214,
+      "unequal_tier_pairs": 656,
+      "higher_tier_first": 656,
+      "draw_order_reversed": 345,
+      "equal_tier_pairs": 214,
+      "equal_tier_uid_asc": 214
+    }
+  },
+  "examples": [
+    {
+      "key": [
+        "01a19a7d-e2fd-78f6-aacb-0d0ee570adf8",
+        "01a19a7d-e2ff-78e2-bc4c-b28111c36a96",
+        7
+      ],
+      "split": "dev",
+      "ids": [
+        109,
+        108
+      ],
+      "names": [
+        "Sleeping Pill",
+        "Honey"
+      ],
+      "tiers": [
+        2,
+        1
+      ],
+      "frozen": [
+        false,
+        false
+      ],
+      "native": [
+        108,
+        109
+      ]
+    },
+    {
+      "key": [
+        "01a19a7d-e2fd-78f6-aacb-0d0ee570adf8",
+        "01a19a7d-e2ff-78e2-bc4c-b28111c36a96",
+        12
+      ],
+      "split": "dev",
+      "ids": [
+        247,
+        246
+      ],
+      "names": [
+        "Cake",
+        "Honey"
+      ],
+      "tiers": [
+        3,
+        1
+      ],
+      "frozen": [
+        false,
+        false
+      ],
+      "native": [
+        246,
+        247
+      ]
+    },
+    {
+      "key": [
+        "01a1b2f1-efef-70cc-835d-bcdf0f8cae95",
+        "01a1b2f3-4e43-79e5-b750-2fdd4117ff93",
+        5
+      ],
+      "split": "dev",
+      "ids": [
+        68,
+        67
+      ],
+      "names": [
+        "Garlic",
+        "Cupcake"
+      ],
+      "tiers": [
+        3,
+        2
+      ],
+      "frozen": [
+        false,
+        false
+      ],
+      "native": [
+        67,
+        68
+      ]
+    },
+    {
+      "key": [
+        "01a1b2f1-efef-70cc-835d-bcdf0f8cae95",
+        "01a1b2f3-4e43-79e5-b750-2fdd4117ff93",
+        9
+      ],
+      "split": "dev",
+      "ids": [
+        203,
+        202
+      ],
+      "names": [
+        "Sushi",
+        "Meat Bone"
+      ],
+      "tiers": [
+        5,
+        2
+      ],
+      "frozen": [
+        false,
+        false
+      ],
+      "native": [
+        202,
+        203
+      ]
+    },
+    {
+      "key": [
+        "01a1b2f1-efef-70cc-835d-bcdf0f8cae95",
+        "01a1b2f1-eff1-7363-85ac-4046d3b065fd",
+        7
+      ],
+      "split": "dev",
+      "ids": [
+        74,
+        73
+      ],
+      "names": [
+        "Salad Bowl",
+        "Apple"
+      ],
+      "tiers": [
+        3,
+        1
+      ],
+      "frozen": [
+        false,
+        false
+      ],
+      "native": [
+        73,
+        74
+      ]
+    },
+    {
+      "key": [
+        "01a1b2f1-efef-70cc-835d-bcdf0f8cae95",
+        "01a1b2f1-eff1-7363-85ac-4046d3b065fd",
+        8
+      ],
+      "split": "dev",
+      "ids": [
+        104,
+        103
+      ],
+      "names": [
+        "Pear",
+        "Garlic"
+      ],
+      "tiers": [
+        4,
+        3
+      ],
+      "frozen": [
+        false,
+        false
+      ],
+      "native": [
+        103,
+        104
+      ]
+    },
+    {
+      "key": [
+        "01a1a982-bb05-76da-8297-f9cb9351de14",
+        "01a1a983-09a6-79f1-8aa9-b1234faef62c",
+        9
+      ],
+      "split": "dev",
+      "ids": [
+        125,
+        124
+      ],
+      "names": [
+        "Cake",
+        "Meat Bone"
+      ],
+      "tiers": [
+        3,
+        2
+      ],
+      "frozen": [
+        false,
+        false
+      ],
+      "native": [
+        124,
+        125
+      ]
+    },
+    {
+      "key": [
+        "01a1f2df-f9cc-797e-94e2-38420d4ea643",
+        "01a1f2df-f9ce-7c33-8866-318dd60e9bc5",
+        9
+      ],
+      "split": "dev",
+      "ids": [
+        177,
+        176
+      ],
+      "names": [
+        "Pear",
+        "Honey"
+      ],
+      "tiers": [
+        4,
+        1
+      ],
+      "frozen": [
+        false,
+        false
+      ],
+      "native": [
+        176,
+        177
+      ]
+    }
+  ]
+}

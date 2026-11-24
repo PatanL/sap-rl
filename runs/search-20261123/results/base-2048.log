@@ -1,0 +1,13 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+{"matches": 256, "seat0Wins": 15, "score": 0.05859375, "seconds": 13.4, "network_rows": 33883, "root_decisions": 33883}
+{"matches": 512, "seat0Wins": 25, "score": 0.048828125, "seconds": 25.9, "network_rows": 67256, "root_decisions": 67256}
+{"matches": 768, "seat0Wins": 43, "score": 0.055989583333333336, "seconds": 37.1, "network_rows": 100282, "root_decisions": 100282}
+{"matches": 1024, "seat0Wins": 63, "score": 0.0615234375, "seconds": 47.6, "network_rows": 133203, "root_decisions": 133203}
+{"matches": 1280, "seat0Wins": 76, "score": 0.059375, "seconds": 59.2, "network_rows": 166894, "root_decisions": 166894}
+{"matches": 1536, "seat0Wins": 92, "score": 0.059895833333333336, "seconds": 79.4, "network_rows": 200428, "root_decisions": 200428}
+{"matches": 1792, "seat0Wins": 111, "score": 0.06194196428571429, "seconds": 105.0, "network_rows": 233615, "root_decisions": 233615}
+{"matches": 2048, "seat0Wins": 128, "score": 0.0625, "seconds": 131.8, "network_rows": 266764, "root_decisions": 266764}
+per turn: {1: 0.536, 2: 0.608, 3: 0.416, 4: 0.465, 5: 0.388, 6: 0.443, 7: 0.306, 8: 0.308, 9: 0.247, 10: 0.237, 11: 0.205, 12: 0.177, 13: 0.171, 14: 0.189, 15: 0.188}

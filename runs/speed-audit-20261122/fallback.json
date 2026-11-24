@@ -1,0 +1,251 @@
+{
+  "rollable": 60,
+  "quiet": [
+    "pet-beaver",
+    "pet-bison",
+    "pet-cat",
+    "pet-cow",
+    "pet-dragon",
+    "pet-duck",
+    "pet-fish",
+    "pet-giraffe",
+    "pet-monkey",
+    "pet-otter",
+    "pet-parrot",
+    "pet-penguin",
+    "pet-pig",
+    "pet-pigeon",
+    "pet-rabbit",
+    "pet-scorpion",
+    "pet-seal",
+    "pet-snail",
+    "pet-squirrel",
+    "pet-swan",
+    "pet-worm"
+  ],
+  "special": [
+    "pet-ant",
+    "pet-armadillo",
+    "pet-blowfish",
+    "pet-boar",
+    "pet-camel",
+    "pet-crab",
+    "pet-cricket",
+    "pet-crocodile",
+    "pet-deer",
+    "pet-dodo",
+    "pet-dolphin",
+    "pet-flamingo",
+    "pet-gorilla",
+    "pet-hippo",
+    "pet-horse",
+    "pet-kangaroo",
+    "pet-leopard",
+    "pet-mammoth",
+    "pet-mosquito",
+    "pet-peacock",
+    "pet-rhino",
+    "pet-rooster",
+    "pet-sheep",
+    "pet-skunk",
+    "pet-spider",
+    "pet-turkey",
+    "pet-turtle",
+    "pet-wolverine"
+  ],
+  "omitted": {
+    "pet-badger": [
+      [
+        1,
+        "Faint",
+        "Faint: Deal 50% Attack damage to adjacent animals"
+      ],
+      [
+        2,
+        "Faint",
+        "Faint: Deal 100% Attack damage to adjacent animals"
+      ],
+      [
+        3,
+        "Faint",
+        "Faint: Deal 150% Attack damage to adjacent animals"
+      ]
+    ],
+    "pet-dog": [
+      [
+        1,
+        "Summoned",
+        "Friend summoned: Gain +2 Attack and +1 Health until next turn."
+      ],
+      [
+        2,
+        "Summoned",
+        "Friend summoned: Gain +4 Attack or +2 Health."
+      ],
+      [
+        3,
+        "Summoned",
+        "Friend summoned: Gain +6 Attack or +3 Health."
+      ]
+    ],
+    "pet-elephant": [
+      [
+        1,
+        "AfterAttack",
+        "After Attack: Deal 1 damage to friend behind."
+      ],
+      [
+        2,
+        "AfterAttack",
+        "After Attack: Deal 1 damage to friend behind. Triggers 2 times"
+      ],
+      [
+        3,
+        "AfterAttack",
+        "After Attack: Deal 1 damage to friend behind. Triggers 3 times"
+      ]
+    ],
+    "pet-fly": [
+      [
+        1,
+        "Faint",
+        "Friend faints: Summon a 4/4 fly in its place (Max 3 times)"
+      ],
+      [
+        2,
+        "Faint",
+        "Friend faints: Summon a 8/8 fly in its place (Max 3 times)"
+      ],
+      [
+        3,
+        "Faint",
+        "Friend faints: Summon a 12/12 fly in its place (Max 3 times)"
+      ]
+    ],
+    "pet-hedgehog": [
+      [
+        1,
+        "Faint",
+        "Faint: Deal 2 damage to all."
+      ],
+      [
+        2,
+        "Faint",
+        "Faint: Deal 4 damage to all."
+      ],
+      [
+        3,
+        "Faint",
+        "Faint: Deal 6 damage to all."
+      ]
+    ],
+    "pet-ox": [
+      [
+        1,
+        "Faint",
+        "Friend ahead faints: Gain Melon perk and +1 attack. Works 1 time(s) per turn."
+      ],
+      [
+        2,
+        "Faint",
+        "Friend ahead faints: Gain Melon perk and +1 attack. Works 2 time(s) per turn."
+      ],
+      [
+        3,
+        "Faint",
+        "Friend ahead faints: Gain Melon perk and +1 attack. Works 3 time(s) per turn."
+      ]
+    ],
+    "pet-rat": [
+      [
+        1,
+        "Faint",
+        "Faint: Summon 1 1/1 Dirty Rat(s) up front for the opponent."
+      ],
+      [
+        2,
+        "Faint",
+        "Faint: Summon 2 1/1 Dirty Rat(s) up front for the opponent."
+      ],
+      [
+        3,
+        "Faint",
+        "Faint: Summon 3 1/1 Dirty Rat(s) up front for the opponent."
+      ]
+    ],
+    "pet-shark": [
+      [
+        1,
+        "Faint",
+        "Friend faints: Gain +2/+2."
+      ],
+      [
+        2,
+        "Faint",
+        "Friend faints: Gain +4/+4."
+      ],
+      [
+        3,
+        "Faint",
+        "Friend faints: Gain +6/+6."
+      ]
+    ],
+    "pet-snake": [
+      [
+        1,
+        "AfterAttack",
+        "Friend ahead attacks: Deal 5 damage to one random enemy. Works 5 times per battle."
+      ],
+      [
+        2,
+        "AfterAttack",
+        "Friend ahead attacks: Deal 10 damage to one random enemy. Works 5 times per battle."
+      ],
+      [
+        3,
+        "AfterAttack",
+        "Friend ahead attacks: Deal 15 damage to one random enemy. Works 5 times per battle."
+      ]
+    ],
+    "pet-tiger": [
+      [
+        1,
+        "CastsAbility",
+        "The friend ahead repeats their ability in battle as if they were level 1."
+      ],
+      [
+        2,
+        "CastsAbility",
+        "The friend ahead repeats their ability in battle as if they were level 2."
+      ],
+      [
+        3,
+        "CastsAbility",
+        "The friend ahead repeats their ability in battle as if they were level 3."
+      ]
+    ],
+    "pet-whale": [
+      [
+        1,
+        "StartOfBattle",
+        "Start of battle: Swallow friend ahead and release it as a level 1 after fainting."
+      ],
+      [
+        2,
+        "StartOfBattle",
+        "Start of battle: Swallow friend ahead and release it as a level 2 after fainting."
+      ],
+      [
+        3,
+        "StartOfBattle",
+        "Start of battle: Swallow friend ahead and release it as a level 3 after fainting."
+      ]
+    ]
+  },
+  "corpus": "/performance/calls.pkl",
+  "corpusSHA": "78102a37c04243f424e19a61be47d783c885bd0b96405cadfdf079149ca1fb15",
+  "counts": {
+    "native": 4558,
+    "during fight, Spider present": 146
+  }
+}

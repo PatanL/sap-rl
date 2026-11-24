@@ -1,0 +1,52 @@
+count Counter({5: 18735, 6: 14586, 8: 8369, 4: 7189, 11: 7188, 0: 7188, 1: 7188, 2: 7186, 9: 4947, 7: 3096, 12: 596, 3: 8}) seats 600 reqkeys Counter({(5, ''): 18735, (6, 'MinionId,Point'): 11387, (8, 'Aim,SpellId'): 7222, (4, ''): 7189, (11, ''): 7188, (0, ''): 7188, (1, ''): 7188, (2, ''): 7186, (9, 'Minion'): 4947, (6, 'MinionId'): 3199, (7, 'SourceMinionId,TargetMinionId'): 3096, (8, 'SpellId'): 1147, (12, 'Adjective,Noun'): 596, (3, ''): 8}) data fields Counter({'BoardOrders': 10337, 'BoardFreezes': 7750})
+4 {'keys': ['Mode', 'Turn', 'Type', 'Build', 'Battle', 'Request', 'Response', 'CreatedOn', 'BuildChangeCount'], 'req': {'Data': {'BuildId': '144714ca-eaf7-4de2-8c68-eb3e857d7853'}, 'Version': 48}, 'resp': {'Event': {'Event': {'Owner': 1}, 'Owner': 1}, 'Data': {'Seed': 1035943244, 'Hash': -2101070635}}}
+6 {'keys': ['Mode', 'Turn', 'Type', 'Build', 'Battle', 'Request', 'Response', 'CreatedOn', 'BuildChangeCount'], 'req': {'MinionId': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 2}, 'Point': {'x': 3}, 'Data': {'BuildId': '144714ca-eaf7-4de2-8c68-eb3e857d7853', 'BoardHash': -2101070635}, 'Version': 48}, 'resp': {'Event': {'MinionId': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 2}, 'Point': {'x': 3}, 'Owner': 1}, 'Data': {'Seed': 1559348962, 'Hash': -922973541}}}
+5 {'keys': ['Mode', 'Turn', 'Type', 'Build', 'Battle', 'Request', 'Response', 'CreatedOn', 'BuildChangeCount'], 'req': {'Data': {'BuildId': '144714ca-eaf7-4de2-8c68-eb3e857d7853', 'BoardHash': -1014046263, 'BoardFreezes': [{'ItemId': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 3}}, {'ItemId': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 4}, 'Freeze': True}]}, 'Version': 48}, 'resp': {'Event': {'Event': {'Owner': 1}, 'Owner': 1}, 'Data': {'Seed': 41784026, 'Hash': -1874925640}}}
+11 {'keys': ['Mode', 'Turn', 'Type', 'Build', 'Battle', 'Request', 'Response', 'CreatedOn', 'BuildChangeCount'], 'req': {'Data': {'BuildId': '144714ca-eaf7-4de2-8c68-eb3e857d7853', 'BoardHash': -343180710, 'BoardFreezes': [{'ItemId': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 5}, 'Freeze': True}, {'ItemId': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 7}}, {'ItemId': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 4}, 'Freeze': True}]}, 'Version': 48}, 'resp': {'Event': {'Event': {'Owner': 1}, 'Owner': 1}, 'NewBoardState': 3, 'Data': {'Seed': 771007296, 'Hash': 344713015}}}
+12 {'keys': ['Mode', 'Turn', 'Type', 'Build', 'Battle', 'Request', 'Response', 'CreatedOn', 'BuildChangeCount'], 'req': {'Adjective': 'Fictive', 'Noun': 'Astronauts', 'Data': {'BuildId': '144714ca-eaf7-4de2-8c68-eb3e857d7853', 'BoardHash': 344713015}, 'Version': 48}, 'resp': {}}
+0 {'keys': ['Mode', 'Turn', 'Type', 'Build', 'Battle', 'Request', 'Response', 'CreatedOn', 'BuildChangeCount'], 'req': {}, 'resp': {}}
+Id 98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec
+UNC 7
+Sta 5
+LiMa 6
+LPM 4
+Tur 1
+GoSp 10
+Rold 1
+Ti 1
+BoCa 99
+MiSC 3
+SpSC 1
+Adj Fictive
+Nou Astronauts
+PrOu 3
+PrEn [51, 0, 59]
+MiSu 3
+Cosm 51
+Back 44
+Masc 12
+Entr 6
+Awar {'Type': 10, 'PercentPosition': 0.0014, 'Year': 2025, 'Month': 8}
+Rel {'Size': {'x': 2, 'y': 1}, 'Items': [None, None]}
+Hash 344713015
+1 {'keys': ['Mode', 'Turn', 'Type', 'Build', 'Battle', 'Request', 'Response', 'CreatedOn', 'BuildChangeCount'], 'req': {}, 'resp': {}}
+2 {'keys': ['Mode', 'Turn', 'Type', 'Build', 'Battle', 'Request', 'Response', 'CreatedOn', 'BuildChangeCount'], 'req': {}, 'resp': {}}
+Vic 1
+PrES2 [{'Id': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 6}}]
+7 {'keys': ['Mode', 'Turn', 'Type', 'Build', 'Battle', 'Request', 'Response', 'CreatedOn', 'BuildChangeCount'], 'req': {'SourceMinionId': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 6}, 'TargetMinionId': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 5}, 'Data': {'BuildId': '144714ca-eaf7-4de2-8c68-eb3e857d7853', 'BoardHash': 1680472366}, 'Version': 48}, 'resp': {'Event': {'Event': {'SourceMinionId': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 6}, 'TargetMinionId': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 5}, 'Owner': 1}, 'Owner': 1}, 'Data': {'Seed': 1676215891, 'Hash': -1249625764}}}
+9 {'keys': ['Mode', 'Turn', 'Type', 'Build', 'Battle', 'Request', 'Response', 'CreatedOn', 'BuildChangeCount'], 'req': {'Minion': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 8}, 'Data': {'BuildId': '144714ca-eaf7-4de2-8c68-eb3e857d7853', 'BoardHash': -1249625764}, 'Version': 48}, 'resp': {'Event': {'Event': {'MinionId': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 8}, 'SourceId': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 8}, 'Owner': 1}, 'Owner': 1}, 'Data': {'Seed': 330960895, 'Hash': 1752836587}}}
+8 {'keys': ['Mode', 'Turn', 'Type', 'Build', 'Battle', 'Request', 'Response', 'CreatedOn', 'BuildChangeCount'], 'req': {'SpellId': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 18}, 'Aim': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 16}, 'Data': {'BuildId': '144714ca-eaf7-4de2-8c68-eb3e857d7853', 'BoardHash': 652936734}, 'Version': 48}, 'resp': {'Event': {'Event': {'Spell': {'Pow': 0, 'Sto': False, 'Buff': True, 'Enu': 139, 'Id': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 18}}, 'Target': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 16}, 'Owner': 1}, 'Owner': 1}, 'Data': {'Seed': 1569001875, 'Hash': 1358475474}}}
+GoGa 3
+SpPl [139]
+('Mins', 'SpCT') {'Own': 1, 'Enu': 10, 'Loc': 1, 'Poi': {'x': 1}, 'Lvl': 1, 'Hp': {'Perm': 5}, 'At': {'Perm': 4}, 'Abil': [{'Enu': 81, 'Lvl': 1, 'Nat': True}], 'Cosm': 51, 'Rwrd': True, 'SpCT': 1, 'Id': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 16}, 'Pri': 3}
+Los 1
+LoPs 1
+MSBo [{'At': 1, 'Hp': 1}]
+('MiSh', 'Link') {'Own': 1, 'Enu': 103, 'Lvl': 1, 'Hp': {'Perm': 7}, 'At': {'Perm': 11}, 'Abil': [{'Enu': 116, 'Lvl': 1, 'Nat': True}], 'Cosm': 51, 'Link': [{'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 180}, {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 181}], 'Rwrd': True, 'Id': {'BoId': '98e8d0e6-d04a-4d3b-8e0d-97092cb7d6ec', 'Uni': 180}, 'Pri': 3}
+Rec 1
+('Mins', 'SeV') {'Own': 1, 'Enu': 72, 'Loc': 1, 'Lvl': 1, 'Hp': {'Perm': 3}, 'At': {'Perm': 2}, 'Perk': 44, 'Abil': [{'Enu': 71, 'Lvl': 1, 'Nat': True, 'AcCo': 1}], 'Cosm': 96, 'SeV': 1, 'SpCT': 1, 'Id': {'BoId': 'b0a59eaf-1958-400c-a64e-144f9d5105e2', 'Uni': 36}, 'Pri': 3}
+MSFL 1
+Go 3
+3 {'keys': ['Mode', 'Turn', 'Type', 'Build', 'Battle', 'Request', 'Response', 'CreatedOn', 'BuildChangeCount'], 'req': {}, 'resp': {}}
+CoMa {'Dictionary': {'Cat': 24, 'Baboon': 1, 'Badger': 53, 'Anteater': 46, 'Doberman': 33, 'AfricanPenguin': 3}}
+('Mins', 'HrtC') {'Own': 1, 'Enu': 10, 'Loc': 1, 'Poi': {'x': 1}, 'Exp': 2, 'Lvl': 2, 'Hp': {'Perm': 8}, 'At': {'Perm': 11}, 'Perk': 9, 'Abil': [{'Enu': 81, 'Lvl': 2, 'Nat': True, 'AcCo': 1}], 'Rwrd': True, 'HrtC': 1, 'Id': {'BoId': '06e6756b-be32-4e0f-8bca-6501bef1727b', 'Uni': 29}, 'Pri': 3}

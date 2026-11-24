@@ -1,0 +1,38 @@
+   28631  Rold == number of Type 5
+   14991  complete events
+     206  exact turns with a buy of an id not in the modelled shop
+     331  exact-count turns failing the leftover/kind/buy check (dropped)
+   55140  generation events
+    2394  perspectives
+   13315  turn rejected: id counter off (extra ids consumed)
+      23  turn skipped: no snapshot pair / odd type-4 count
+   28654  turns
+   28631  turns replayed
+   14985  turns verified
+   15316  turns with exact id count
+   28631  turns with snapshots
+events by turn (turn, type): complete / partial
+  turn  1  type 4:      0 /      0
+  turn  1  type 5:   2367 /     20
+  turn  2  type 4:     96 /   2188
+  turn  2  type 5:   2282 /   3695
+  turn  3  type 4:     14 /    194
+  turn  3  type 5:    206 /    405
+  turn  4  type 4:     43 /   1614
+  turn  4  type 5:   1629 /   3436
+  turn  5  type 4:      7 /    640
+  turn  5  type 5:    637 /   1398
+  turn  6  type 4:     39 /   1608
+  turn  6  type 5:   1588 /   3702
+  turn  7  type 4:      3 /    775
+  turn  7  type 5:    770 /   1854
+  turn  8  type 4:     20 /   1785
+  turn  8  type 5:   1774 /   4044
+  turn  9  type 4:      8 /    420
+  turn  9  type 5:    419 /   1201
+  turn 10  type 4:      7 /    588
+  turn 10  type 5:    578 /   1714
+  turn 11  type 4:      7 /    703
+  turn 11  type 5:    691 /   1734
+  turn 12+ type 4:     13 /   1835
+  turn 12+ type 5:   1793 /   4596

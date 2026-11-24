@@ -1,0 +1,1987 @@
+{
+  "split": "dev",
+  "replayFile": "aa00e10a-14fb-43c5-86eb-6c28275a0493.json",
+  "why": "Two Rabbits and two Salad Bowls. Independent recipient order for each Rabbit can split the last health points as recorded. A single shared fixed order does not reproduce this split.",
+  "headlineDifference": "Rabbit x0 HP 4 / 3; Rabbit x4 HP 11 / 12",
+  "seed": 4175695249,
+  "result": {
+    "key": [
+      "01a1e117-33a4-73f0-9750-03a5df946f4b",
+      "01a1e117-33a6-7f67-aa33-e8fb5eea3824",
+      7
+    ],
+    "split": "dev",
+    "source": "raw",
+    "pets": [
+      "Dodo",
+      "Ox",
+      "Rabbit",
+      "Snail"
+    ],
+    "foods": [
+      "Salad Bowl"
+    ],
+    "ops": [
+      "buy merge",
+      "end",
+      "food",
+      "roll",
+      "start"
+    ],
+    "actions": 6,
+    "boardSize": 5,
+    "inferred": 1,
+    "shapeIssues": {},
+    "direct": [
+      "Ox"
+    ],
+    "frozenPetNames": [],
+    "reproduced": false,
+    "boardMatch": false,
+    "ever": [
+      "economy",
+      "frozen",
+      "frozen IDs",
+      "gain",
+      "gold",
+      "level/xp",
+      "perk",
+      "remaining IDs",
+      "species/order",
+      "spent",
+      "temporary"
+    ],
+    "diff": [
+      "permanent"
+    ],
+    "tries": 65536,
+    "distinct": 75,
+    "seed": 4175695249,
+    "first": [
+      "permanent"
+    ],
+    "completed": true,
+    "uncDiff": 0,
+    "genIssues": [],
+    "costErrors": [],
+    "orderEvidence": 0,
+    "unresolvedEviction": [],
+    "inventoryMatch": true,
+    "frozenIdsMatch": true,
+    "actual": {
+      "board": [
+        [
+          "Rabbit",
+          1,
+          0,
+          2,
+          4,
+          0,
+          0,
+          null
+        ],
+        [
+          "Dodo",
+          1,
+          0,
+          12,
+          13,
+          0,
+          0,
+          null
+        ],
+        [
+          "Ox",
+          1,
+          1,
+          6,
+          8,
+          0,
+          0,
+          null
+        ],
+        [
+          "Snail",
+          1,
+          0,
+          2,
+          3,
+          0,
+          0,
+          null
+        ],
+        [
+          "Rabbit",
+          1,
+          0,
+          8,
+          11,
+          0,
+          0,
+          null
+        ]
+      ],
+      "frozen": [],
+      "spent": 10,
+      "gold": 0,
+      "gain": 0
+    },
+    "result": {
+      "board": [
+        [
+          "Rabbit",
+          1,
+          0,
+          2,
+          3,
+          0,
+          0,
+          null
+        ],
+        [
+          "Dodo",
+          1,
+          0,
+          12,
+          13,
+          0,
+          0,
+          null
+        ],
+        [
+          "Ox",
+          1,
+          1,
+          6,
+          8,
+          0,
+          0,
+          null
+        ],
+        [
+          "Snail",
+          1,
+          0,
+          2,
+          3,
+          0,
+          0,
+          null
+        ],
+        [
+          "Rabbit",
+          1,
+          0,
+          8,
+          12,
+          0,
+          0,
+          null
+        ]
+      ],
+      "frozen": [],
+      "spent": 10,
+      "gold": 0,
+      "gain": 0
+    },
+    "error": null,
+    "at": null,
+    "op": null,
+    "budgetAtError": null
+  },
+  "fixture": {
+    "key": [
+      "01a1e117-33a4-73f0-9750-03a5df946f4b",
+      "01a1e117-33a6-7f67-aa33-e8fb5eea3824",
+      7
+    ],
+    "before": {
+      "turn": 6,
+      "tier": 3,
+      "board": [
+        {
+          "id": 67,
+          "name": "Rabbit",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 1,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 2,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 44,
+          "name": "Snail",
+          "x": 1,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 3,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 21,
+          "name": "Dodo",
+          "x": 2,
+          "lvl": 1,
+          "xp": 0,
+          "a": 11,
+          "h": 10,
+          "ta": 3,
+          "th": 3,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 39,
+          "name": "Ox",
+          "x": 3,
+          "lvl": 1,
+          "xp": 0,
+          "a": 5,
+          "h": 7,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 22,
+          "name": "Rabbit",
+          "x": 4,
+          "lvl": 1,
+          "xp": 0,
+          "a": 6,
+          "h": 6,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 2,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        }
+      ],
+      "shop": [
+        {
+          "id": 73,
+          "name": "Sheep",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 75,
+          "name": "Elephant",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 3,
+          "h": 7,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 74,
+          "name": "Spider",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 76,
+          "name": "Horse",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 1,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        }
+      ],
+      "food": [
+        {
+          "id": 77,
+          "name": "Cupcake",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      ],
+      "unc": 78,
+      "spent": 11,
+      "gain": 1,
+      "gold": 0,
+      "rolls": 2,
+      "buffs": [],
+      "result": 1,
+      "wins": 1,
+      "losses": 4,
+      "pslots": 4,
+      "fslots": 2
+    },
+    "after": {
+      "turn": 7,
+      "tier": 4,
+      "board": [
+        {
+          "id": 67,
+          "name": "Rabbit",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 4,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 3,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 21,
+          "name": "Dodo",
+          "x": 1,
+          "lvl": 1,
+          "xp": 0,
+          "a": 12,
+          "h": 13,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 39,
+          "name": "Ox",
+          "x": 2,
+          "lvl": 1,
+          "xp": 1,
+          "a": 6,
+          "h": 8,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 44,
+          "name": "Snail",
+          "x": 3,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 3,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 22,
+          "name": "Rabbit",
+          "x": 4,
+          "lvl": 1,
+          "xp": 0,
+          "a": 8,
+          "h": 11,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 3,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        }
+      ],
+      "shop": [
+        {
+          "id": 85,
+          "name": "Hippo",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 4,
+          "h": 6,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 86,
+          "name": "Spider",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 87,
+          "name": "Mosquito",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        }
+      ],
+      "food": [],
+      "unc": 90,
+      "spent": 10,
+      "gain": 0,
+      "gold": 0,
+      "rolls": 1,
+      "buffs": [],
+      "result": 2,
+      "wins": 1,
+      "losses": 5,
+      "pslots": 4,
+      "fslots": 2
+    },
+    "steps": [
+      [
+        "start",
+        null
+      ],
+      [
+        "roll",
+        null
+      ],
+      [
+        "food",
+        null
+      ],
+      [
+        "buy merge",
+        39
+      ],
+      [
+        "food",
+        null
+      ],
+      [
+        "end",
+        null
+      ]
+    ],
+    "actions": [
+      {
+        "t": 4,
+        "seed": 1022548764
+      },
+      {
+        "t": 5,
+        "seed": 1364853577
+      },
+      {
+        "t": 8,
+        "seed": 303549232,
+        "id": 90,
+        "target": null,
+        "spell": {
+          "id": 90,
+          "name": "Salad Bowl",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      },
+      {
+        "t": 6,
+        "seed": 360019848,
+        "id": 88,
+        "x": 3
+      },
+      {
+        "t": 8,
+        "seed": 927607071,
+        "id": 89,
+        "target": null,
+        "spell": {
+          "id": 89,
+          "name": "Salad Bowl",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      },
+      {
+        "t": 11,
+        "seed": 2136540597,
+        "orders": [
+          [
+            67,
+            0
+          ],
+          [
+            21,
+            1
+          ],
+          [
+            39,
+            2
+          ],
+          [
+            44,
+            3
+          ],
+          [
+            22,
+            4
+          ]
+        ]
+      }
+    ],
+    "names": {
+      "90": "Salad Bowl",
+      "88": "Ox",
+      "89": "Salad Bowl"
+    },
+    "inferred": {
+      "88": 39
+    },
+    "run": {
+      "state": {
+        "board": [
+          [
+            "Rabbit",
+            1,
+            0,
+            2,
+            3,
+            0,
+            0,
+            null
+          ],
+          [
+            "Dodo",
+            1,
+            0,
+            12,
+            13,
+            0,
+            0,
+            null
+          ],
+          [
+            "Ox",
+            1,
+            1,
+            6,
+            8,
+            0,
+            0,
+            null
+          ],
+          [
+            "Snail",
+            1,
+            0,
+            2,
+            3,
+            0,
+            0,
+            null
+          ],
+          [
+            "Rabbit",
+            1,
+            0,
+            8,
+            12,
+            0,
+            0,
+            null
+          ]
+        ],
+        "frozen": [],
+        "spent": 10,
+        "gold": 0,
+        "gain": 0
+      },
+      "shopDetail": [
+        {
+          "uid": 85,
+          "kind": "pet",
+          "body": [
+            "Hippo",
+            1,
+            0,
+            4,
+            6,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        },
+        {
+          "uid": 86,
+          "kind": "pet",
+          "body": [
+            "Spider",
+            1,
+            0,
+            2,
+            2,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        },
+        {
+          "uid": 87,
+          "kind": "pet",
+          "body": [
+            "Mosquito",
+            1,
+            0,
+            2,
+            2,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        }
+      ],
+      "unc": 90,
+      "genIssues": [],
+      "costErrors": [],
+      "orderEvidence": 0,
+      "unresolvedEviction": [],
+      "inventory": [
+        85,
+        86,
+        87
+      ],
+      "log": [
+        {
+          "op": "start",
+          "id": null,
+          "x": null,
+          "target": null,
+          "gold0": 0,
+          "gold": 10,
+          "cost": 0,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Rabbit",
+                1,
+                0,
+                1,
+                2,
+                0,
+                0,
+                null
+              ],
+              [
+                "Snail",
+                1,
+                0,
+                2,
+                3,
+                0,
+                0,
+                null
+              ],
+              [
+                "Dodo",
+                1,
+                0,
+                11,
+                10,
+                0,
+                0,
+                null
+              ],
+              [
+                "Ox",
+                1,
+                0,
+                5,
+                7,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                1,
+                0,
+                6,
+                6,
+                0,
+                0,
+                null
+              ]
+            ],
+            "frozen": [],
+            "spent": 0,
+            "gold": 10,
+            "gain": 0
+          },
+          "uses": {
+            "22": 0,
+            "39": 0,
+            "21": 0,
+            "44": 0,
+            "67": 0
+          },
+          "offers": [
+            [
+              79,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              80,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              81,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              82,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              83,
+              "food",
+              "food-none",
+              0,
+              false
+            ],
+            [
+              84,
+              "food",
+              "food-none",
+              0,
+              false
+            ]
+          ],
+          "uids": [
+            67,
+            44,
+            21,
+            39,
+            22
+          ],
+          "unc": 84,
+          "gen": [
+            [
+              79,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              80,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              81,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              82,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              83,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              84,
+              "food",
+              "roll",
+              null
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "roll",
+          "id": null,
+          "x": null,
+          "target": null,
+          "gold0": 10,
+          "gold": 9,
+          "cost": 1,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Rabbit",
+                1,
+                0,
+                1,
+                2,
+                0,
+                0,
+                null
+              ],
+              [
+                "Snail",
+                1,
+                0,
+                2,
+                3,
+                0,
+                0,
+                null
+              ],
+              [
+                "Dodo",
+                1,
+                0,
+                11,
+                10,
+                0,
+                0,
+                null
+              ],
+              [
+                "Ox",
+                1,
+                0,
+                5,
+                7,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                1,
+                0,
+                6,
+                6,
+                0,
+                0,
+                null
+              ]
+            ],
+            "frozen": [],
+            "spent": 1,
+            "gold": 9,
+            "gain": 0
+          },
+          "uses": {
+            "22": 0,
+            "39": 0,
+            "21": 0,
+            "44": 0,
+            "67": 0
+          },
+          "offers": [
+            [
+              85,
+              "pet",
+              "pet-hippo",
+              3,
+              false
+            ],
+            [
+              88,
+              "pet",
+              "pet-ox",
+              3,
+              false
+            ],
+            [
+              86,
+              "pet",
+              "pet-spider",
+              3,
+              false
+            ],
+            [
+              87,
+              "pet",
+              "pet-mosquito",
+              3,
+              false
+            ],
+            [
+              89,
+              "food",
+              "Salad Bowl",
+              3,
+              false
+            ],
+            [
+              90,
+              "food",
+              "Salad Bowl",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            67,
+            44,
+            21,
+            39,
+            22
+          ],
+          "unc": 90,
+          "gen": [
+            [
+              79,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              80,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              81,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              82,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              83,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              84,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              85,
+              "pet",
+              "roll",
+              "Hippo"
+            ],
+            [
+              86,
+              "pet",
+              "roll",
+              "Spider"
+            ],
+            [
+              87,
+              "pet",
+              "roll",
+              "Mosquito"
+            ],
+            [
+              88,
+              "pet",
+              "roll",
+              "Ox"
+            ],
+            [
+              89,
+              "food",
+              "roll",
+              "Salad Bowl"
+            ],
+            [
+              90,
+              "food",
+              "roll",
+              "Salad Bowl"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "food",
+          "id": 90,
+          "x": null,
+          "target": null,
+          "gold0": 9,
+          "gold": 6,
+          "cost": 3,
+          "realCost": 3,
+          "state": {
+            "board": [
+              [
+                "Rabbit",
+                1,
+                0,
+                1,
+                2,
+                0,
+                0,
+                null
+              ],
+              [
+                "Snail",
+                1,
+                0,
+                2,
+                3,
+                0,
+                0,
+                null
+              ],
+              [
+                "Dodo",
+                1,
+                0,
+                12,
+                13,
+                0,
+                0,
+                null
+              ],
+              [
+                "Ox",
+                1,
+                0,
+                5,
+                7,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                1,
+                0,
+                7,
+                9,
+                0,
+                0,
+                null
+              ]
+            ],
+            "frozen": [],
+            "spent": 4,
+            "gold": 6,
+            "gain": 0
+          },
+          "uses": {
+            "22": 2,
+            "39": 0,
+            "21": 0,
+            "44": 0,
+            "67": 2
+          },
+          "offers": [
+            [
+              85,
+              "pet",
+              "pet-hippo",
+              3,
+              false
+            ],
+            [
+              88,
+              "pet",
+              "pet-ox",
+              3,
+              false
+            ],
+            [
+              86,
+              "pet",
+              "pet-spider",
+              3,
+              false
+            ],
+            [
+              87,
+              "pet",
+              "pet-mosquito",
+              3,
+              false
+            ],
+            [
+              89,
+              "food",
+              "Salad Bowl",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            67,
+            44,
+            21,
+            39,
+            22
+          ],
+          "unc": 90,
+          "gen": [
+            [
+              79,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              80,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              81,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              82,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              83,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              84,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              85,
+              "pet",
+              "roll",
+              "Hippo"
+            ],
+            [
+              86,
+              "pet",
+              "roll",
+              "Spider"
+            ],
+            [
+              87,
+              "pet",
+              "roll",
+              "Mosquito"
+            ],
+            [
+              88,
+              "pet",
+              "roll",
+              "Ox"
+            ],
+            [
+              89,
+              "food",
+              "roll",
+              "Salad Bowl"
+            ],
+            [
+              90,
+              "food",
+              "roll",
+              "Salad Bowl"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "buy merge",
+          "id": 88,
+          "x": 3,
+          "target": null,
+          "gold0": 6,
+          "gold": 3,
+          "cost": 3,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Rabbit",
+                1,
+                0,
+                1,
+                2,
+                0,
+                0,
+                null
+              ],
+              [
+                "Snail",
+                1,
+                0,
+                2,
+                3,
+                0,
+                0,
+                null
+              ],
+              [
+                "Dodo",
+                1,
+                0,
+                12,
+                13,
+                0,
+                0,
+                null
+              ],
+              [
+                "Ox",
+                1,
+                1,
+                6,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                1,
+                0,
+                7,
+                9,
+                0,
+                0,
+                null
+              ]
+            ],
+            "frozen": [],
+            "spent": 7,
+            "gold": 3,
+            "gain": 0
+          },
+          "uses": {
+            "22": 2,
+            "39": 0,
+            "21": 0,
+            "44": 0,
+            "67": 2
+          },
+          "offers": [
+            [
+              85,
+              "pet",
+              "pet-hippo",
+              3,
+              false
+            ],
+            [
+              86,
+              "pet",
+              "pet-spider",
+              3,
+              false
+            ],
+            [
+              87,
+              "pet",
+              "pet-mosquito",
+              3,
+              false
+            ],
+            [
+              89,
+              "food",
+              "Salad Bowl",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            67,
+            44,
+            21,
+            39,
+            22
+          ],
+          "unc": 90,
+          "gen": [
+            [
+              79,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              80,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              81,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              82,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              83,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              84,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              85,
+              "pet",
+              "roll",
+              "Hippo"
+            ],
+            [
+              86,
+              "pet",
+              "roll",
+              "Spider"
+            ],
+            [
+              87,
+              "pet",
+              "roll",
+              "Mosquito"
+            ],
+            [
+              88,
+              "pet",
+              "roll",
+              "Ox"
+            ],
+            [
+              89,
+              "food",
+              "roll",
+              "Salad Bowl"
+            ],
+            [
+              90,
+              "food",
+              "roll",
+              "Salad Bowl"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "food",
+          "id": 89,
+          "x": null,
+          "target": null,
+          "gold0": 3,
+          "gold": 0,
+          "cost": 3,
+          "realCost": 3,
+          "state": {
+            "board": [
+              [
+                "Rabbit",
+                1,
+                0,
+                2,
+                3,
+                0,
+                0,
+                null
+              ],
+              [
+                "Snail",
+                1,
+                0,
+                2,
+                3,
+                0,
+                0,
+                null
+              ],
+              [
+                "Dodo",
+                1,
+                0,
+                12,
+                13,
+                0,
+                0,
+                null
+              ],
+              [
+                "Ox",
+                1,
+                1,
+                6,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                1,
+                0,
+                8,
+                12,
+                0,
+                0,
+                null
+              ]
+            ],
+            "frozen": [],
+            "spent": 10,
+            "gold": 0,
+            "gain": 0
+          },
+          "uses": {
+            "22": 3,
+            "39": 0,
+            "21": 0,
+            "44": 0,
+            "67": 3
+          },
+          "offers": [
+            [
+              85,
+              "pet",
+              "pet-hippo",
+              3,
+              false
+            ],
+            [
+              86,
+              "pet",
+              "pet-spider",
+              3,
+              false
+            ],
+            [
+              87,
+              "pet",
+              "pet-mosquito",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            67,
+            44,
+            21,
+            39,
+            22
+          ],
+          "unc": 90,
+          "gen": [
+            [
+              79,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              80,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              81,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              82,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              83,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              84,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              85,
+              "pet",
+              "roll",
+              "Hippo"
+            ],
+            [
+              86,
+              "pet",
+              "roll",
+              "Spider"
+            ],
+            [
+              87,
+              "pet",
+              "roll",
+              "Mosquito"
+            ],
+            [
+              88,
+              "pet",
+              "roll",
+              "Ox"
+            ],
+            [
+              89,
+              "food",
+              "roll",
+              "Salad Bowl"
+            ],
+            [
+              90,
+              "food",
+              "roll",
+              "Salad Bowl"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "end",
+          "id": null,
+          "x": null,
+          "target": null,
+          "gold0": 0,
+          "gold": 0,
+          "cost": 0,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Rabbit",
+                1,
+                0,
+                2,
+                3,
+                0,
+                0,
+                null
+              ],
+              [
+                "Dodo",
+                1,
+                0,
+                12,
+                13,
+                0,
+                0,
+                null
+              ],
+              [
+                "Ox",
+                1,
+                1,
+                6,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Snail",
+                1,
+                0,
+                2,
+                3,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                1,
+                0,
+                8,
+                12,
+                0,
+                0,
+                null
+              ]
+            ],
+            "frozen": [],
+            "spent": 10,
+            "gold": 0,
+            "gain": 0
+          },
+          "uses": {
+            "22": 3,
+            "44": 0,
+            "39": 0,
+            "21": 0,
+            "67": 3
+          },
+          "offers": [
+            [
+              85,
+              "pet",
+              "pet-hippo",
+              3,
+              false
+            ],
+            [
+              86,
+              "pet",
+              "pet-spider",
+              3,
+              false
+            ],
+            [
+              87,
+              "pet",
+              "pet-mosquito",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            67,
+            21,
+            39,
+            44,
+            22
+          ],
+          "unc": 90,
+          "gen": [
+            [
+              79,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              80,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              81,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              82,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              83,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              84,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              85,
+              "pet",
+              "roll",
+              "Hippo"
+            ],
+            [
+              86,
+              "pet",
+              "roll",
+              "Spider"
+            ],
+            [
+              87,
+              "pet",
+              "roll",
+              "Mosquito"
+            ],
+            [
+              88,
+              "pet",
+              "roll",
+              "Ox"
+            ],
+            [
+              89,
+              "food",
+              "roll",
+              "Salad Bowl"
+            ],
+            [
+              90,
+              "food",
+              "roll",
+              "Salad Bowl"
+            ]
+          ],
+          "stock": []
+        }
+      ]
+    }
+  },
+  "foodTargetProbe": {
+    "key": [
+      "01a1e117-33a4-73f0-9750-03a5df946f4b",
+      "01a1e117-33a6-7f67-aa33-e8fb5eea3824",
+      7
+    ],
+    "nativeChoiceCounts": [
+      10,
+      10
+    ],
+    "paths": 100,
+    "distinctFoodStates": 75,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          1,
+          3
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                22,
+                1,
+                22,
+                true,
+                1
+              ],
+              [
+                67,
+                1,
+                22,
+                true,
+                1
+              ],
+              [
+                22,
+                1,
+                21,
+                true,
+                1
+              ],
+              [
+                67,
+                1,
+                21,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                22,
+                1,
+                22,
+                true,
+                1
+              ],
+              [
+                67,
+                1,
+                22,
+                true,
+                1
+              ],
+              [
+                22,
+                1,
+                67,
+                true,
+                0
+              ],
+              [
+                67,
+                1,
+                67,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

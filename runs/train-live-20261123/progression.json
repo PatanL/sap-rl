@@ -1,0 +1,162 @@
+{
+  "baseline_panel": {
+    "10050": {
+      "expected": "runs/corrected-observer-continuation-20260907-v1/run-v1/training/update-010050.pt",
+      "sha256": "862e65d2fa360a6012741e16f6f1e5ce0c6ec51027e9eddd9856f0eac8bd2656",
+      "unavailable": "checkpoint file absent"
+    },
+    "v22": {
+      "candidate_update": 25772,
+      "ci95": [
+        0.828125,
+        0.96875
+      ],
+      "games": 64,
+      "opponent": "runs/turtle-league-v22-curriculum-diverse-v3/update-002000.pt",
+      "opponent_sha256": "8f0cd760bdf3ea8258fec84ad6e93882054ee82755032808308737324aff6e5c",
+      "pairs": 32,
+      "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-eval-20261123/receipts/baseline-v22.json",
+      "score": 0.90625,
+      "seconds": 33.81397097418085,
+      "wdl": [
+        58,
+        0,
+        6
+      ]
+    },
+    "v25": {
+      "candidate_update": 25772,
+      "ci95": [
+        0.71875,
+        0.90625
+      ],
+      "games": 64,
+      "opponent": "runs/turtle-league-v25-recalibration-from-v22-2000/update-000300.pt",
+      "opponent_sha256": "7c60acec58b56080bf240a85444163a1d72dba7bee25ac7f54e3dc8302d60994",
+      "pairs": 32,
+      "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-eval-20261123/receipts/baseline-v25.json",
+      "score": 0.8125,
+      "seconds": 34.73366153310053,
+      "wdl": [
+        52,
+        0,
+        12
+      ]
+    }
+  },
+  "champion": "checkpoints/update-025772.pt",
+  "champion_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+  "checkpoints": [
+    {
+      "against_25772": {
+        "candidate_update": 26022,
+        "ci95": [
+          0.421875,
+          0.5625
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-eval-20261123/receipts/parent-hist-frozen50-26022-champ-0669109e9b6e.json",
+        "score": 0.4921875,
+        "seconds": 60.62584449793212,
+        "wdl": [
+          63,
+          0,
+          65
+        ]
+      },
+      "against_champion": {
+        "candidate_update": 26022,
+        "ci95": [
+          0.421875,
+          0.5625
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-eval-20261123/receipts/parent-hist-frozen50-26022-champ-0669109e9b6e.json",
+        "score": 0.4921875,
+        "seconds": 60.62584449793212,
+        "wdl": [
+          63,
+          0,
+          65
+        ]
+      },
+      "checkpoint": "runs/train-live-20261123/parent-hist-frozen50/update-026022.pt",
+      "confirmation": null,
+      "confirmed_champion": false,
+      "confirmed_regression": false,
+      "finished_utc": "2026-11-23T11:26:35.673896+00:00",
+      "panel": {
+        "10050": {
+          "expected": "runs/corrected-observer-continuation-20260907-v1/run-v1/training/update-010050.pt",
+          "sha256": "862e65d2fa360a6012741e16f6f1e5ce0c6ec51027e9eddd9856f0eac8bd2656",
+          "unavailable": "checkpoint file absent"
+        },
+        "v22": {
+          "candidate_update": 26022,
+          "ci95": [
+            0.703125,
+            0.875
+          ],
+          "delta_ci95": [
+            -0.21875,
+            0.0
+          ],
+          "delta_from_25772": -0.109375,
+          "games": 64,
+          "opponent": "runs/turtle-league-v22-curriculum-diverse-v3/update-002000.pt",
+          "opponent_sha256": "8f0cd760bdf3ea8258fec84ad6e93882054ee82755032808308737324aff6e5c",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-eval-20261123/receipts/parent-hist-frozen50-26022-panel-v22.json",
+          "score": 0.796875,
+          "seconds": 30.486750463023782,
+          "wdl": [
+            51,
+            0,
+            13
+          ]
+        },
+        "v25": {
+          "candidate_update": 26022,
+          "ci95": [
+            0.640625,
+            0.859375
+          ],
+          "delta_ci95": [
+            -0.171875,
+            0.046875
+          ],
+          "delta_from_25772": -0.0625,
+          "games": 64,
+          "opponent": "runs/turtle-league-v25-recalibration-from-v22-2000/update-000300.pt",
+          "opponent_sha256": "7c60acec58b56080bf240a85444163a1d72dba7bee25ac7f54e3dc8302d60994",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-eval-20261123/receipts/parent-hist-frozen50-26022-panel-v25.json",
+          "score": 0.75,
+          "seconds": 30.922221481101587,
+          "wdl": [
+            48,
+            0,
+            16
+          ]
+        }
+      },
+      "sha256": "5e281688bb119ddd4cfba63be935f167eb2e7fbc34be99de51db72cc048b4357",
+      "version": 26022
+    }
+  ],
+  "engine": "80ee15221b5fbfd7b641330cdeaebcc011a2c1dc77da3bce6ffb4979a44bf4b5",
+  "pair_counts": {
+    "confirm": 128,
+    "panel": 32,
+    "screen": 64
+  },
+  "protocol": "paired-greedy-v31-v1",
+  "revision": "turtle-v31-replay-48218b4eb462-20261123",
+  "run": "/home/dzliu/pzliu/sap-rl/runs/train-live-20261123/parent-hist-frozen50"
+}

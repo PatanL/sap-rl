@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "all": {
+      "pairs": 2467,
+      "native_matches": 2467,
+      "id_asc": 1511,
+      "tier_desc_id_asc": 2467,
+      "tier_asc_id_asc": 627,
+      "equal_tier_pairs": 627,
+      "equal_tier_uid_asc": 627,
+      "unequal_tier_pairs": 1840,
+      "higher_tier_first": 1840,
+      "draw_order_reversed": 956
+    },
+    "dev": {
+      "pairs": 1597,
+      "native_matches": 1597,
+      "id_asc": 986,
+      "tier_desc_id_asc": 1597,
+      "tier_asc_id_asc": 413,
+      "equal_tier_pairs": 413,
+      "equal_tier_uid_asc": 413,
+      "unequal_tier_pairs": 1184,
+      "higher_tier_first": 1184,
+      "draw_order_reversed": 611
+    },
+    "heldout": {
+      "pairs": 870,
+      "native_matches": 870,
+      "id_asc": 525,
+      "tier_desc_id_asc": 870,
+      "tier_asc_id_asc": 214,
+      "unequal_tier_pairs": 656,
+      "higher_tier_first": 656,
+      "draw_order_reversed": 345,
+      "equal_tier_pairs": 214,
+      "equal_tier_uid_asc": 214
+    }
+  },
+  "examples": []
+}

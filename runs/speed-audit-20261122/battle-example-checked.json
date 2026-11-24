@@ -1,0 +1,1 @@
+{"seed": 42, "engine": "turtle-v30-food-right-reorder10-v1-20260911", "module": "/ref/sapai/sapai/__init__.py", "outcome": 0, "winner": "left", "left": [{"species": "pet-fish", "attack": 2, "health": 3, "level": 1, "perk": "none"}, {"species": "pet-ant", "attack": 2, "health": 2, "level": 1, "perk": "none"}, null, null, null], "right": [null, null, null, null, null]}

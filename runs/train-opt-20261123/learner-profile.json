@@ -1,0 +1,314 @@
+{
+ "gemm_tflops_bf16": 38.4739772452352,
+ "caps": {
+  "1536": {
+   "seconds": [
+    3.5622187219560146,
+    1.7852619891054928,
+    1.773283310001716,
+    1.7719702089671046
+   ],
+   "median": 1.773283310001716,
+   "rate": 4620.807038437682,
+   "microbatches": 10,
+   "padded": 10980,
+   "decisions": 8194,
+   "peak": 3695181824
+  },
+  "3072": {
+   "seconds": [
+    1.8881336401682347,
+    1.709808899089694,
+    1.6969894589856267,
+    1.7190563229378313
+   ],
+   "median": 1.709808899089694,
+   "rate": 4792.34843400482,
+   "microbatches": 6,
+   "padded": 11080,
+   "decisions": 8194,
+   "peak": 7163871232
+  },
+  "6144": {
+   "seconds": [
+    2.0156874579843134,
+    1.9266996569931507,
+    1.8429066850803792,
+    1.7869825491216034
+   ],
+   "median": 1.8429066850803792,
+   "rate": 4446.237059280414,
+   "microbatches": 4,
+   "padded": 11106,
+   "decisions": 8194,
+   "peak": 11643387904
+  }
+ },
+ "split_seconds": {
+  "pack": 0.04388231923803687,
+  "forward_loss": 0.5607933136634529,
+  "backward": 1.1532405344769359,
+  "optimizer": 0.008444186067208648,
+  "plan": 0.004743177909404039
+ },
+ "split_total": 1.7711035313550383,
+ "profile": {
+  "wall_with_profiler": 2.1564756468869746,
+  "gpu_seconds": 2.809943929999951,
+  "cpu_self_seconds": 1.8467682719999299,
+  "top_gpu": [
+   [
+    "aten::add_",
+    0.2892,
+    16428
+   ],
+   [
+    "aten::mm",
+    0.2492,
+    10047
+   ],
+   [
+    "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctor_add<float>, std::array<char*, 3ul> >(int, at::native::CUDAFunctor_add<float>, std::array<char*, 3ul>)",
+    0.2398,
+    8366
+   ],
+   [
+    "aten::copy_",
+    0.2282,
+    34502
+   ],
+   [
+    "aten::addmm",
+    0.1098,
+    5307
+   ],
+   [
+    "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x64_32x6_tn_align8>(cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x64_32x6_tn_align8::Params)",
+    0.106,
+    2798
+   ],
+   [
+    "aten::fill_",
+    0.1058,
+    6809
+   ],
+   [
+    "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x64_32x6_nt_align8>(cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x64_32x6_nt_align8::Params)",
+    0.0962,
+    2313
+   ],
+   [
+    "void cutlass::Kernel2<cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x64_32x6_nn_align8>(cutlass_80_tensorop_bf16_s16816gemm_relu_bf16_64x64_32x6_nn_align8::Params)",
+    0.0925,
+    2460
+   ],
+   [
+    "void at::native::elementwise_kernel<128, 4, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#12}::operator()() const::{lambda(c10::BFloat16)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#12}::operator()() const::{lambda(c10::BFloat16)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#12}::operator()() const::{lambda(c10::BFloat16)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#12}::operator()() const::{lambda(c10::BFloat16)#1} const&)::{lambda(int)#1})",
+    0.0853,
+    10880
+   ],
+   [
+    "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+    0.0774,
+    2672
+   ],
+   [
+    "aten::native_layer_norm_backward",
+    0.0758,
+    1737
+   ],
+   [
+    "aten::_efficient_attention_backward",
+    0.062,
+    630
+   ],
+   [
+    "fmha_cutlassB_bf16_aligned_64x64_k64_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, cutlass::bfloat16_t, true, false, true, 64, 64, 64, false>::Params)",
+    0.0583,
+    540
+   ],
+   [
+    "aten::add",
+    0.0485,
+    5424
+   ],
+   [
+    "void at::native::vectorized_elementwise_kernel<4, at::native::CUDAFunctor_add<c10::BFloat16>, std::array<char*, 3ul> >(int, at::native::CUDAFunctor_add<c10::BFloat16>, std::array<char*, 3ul>)",
+    0.0478,
+    8423
+   ],
+   [
+    "void at::native::(anonymous namespace)::layer_norm_grad_input_kernel_vectorized<float, float, false>(float const*, float const*, float const*, float const*, float const*, float*, int)",
+    0.0443,
+    1737
+   ],
+   [
+    "void at::native::vectorized_elementwise_kernel<4, at::native::bfloat16_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda(float)#1}, std::array<char*, 2ul> >(int, at::native::bfloat16_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda(float)#1}, std::array<char*, 2ul>)",
+    0.0419,
+    8278
+   ],
+   [
+    "aten::gelu_backward",
+    0.0399,
+    1027
+   ],
+   [
+    "void at::native::vectorized_elementwise_kernel<4, at::native::GeluBackwardCUDAKernelImpl(at::TensorIteratorBase&, at::native::GeluType)::{lambda()#2}::operator()() const::{lambda()#4}::operator()() const::{lambda(c10::BFloat16, c10::BFloat16)#1}, std::array<char*, 3ul> >(int, at::native::GeluBackwardCUDAKernelImpl(at::TensorIteratorBase&, at::native::GeluType)::{lambda()#2}::operator()() const::{lambda()#4}::operator()() const::{lambda(c10::BFloat16, c10::BFloat16)#1}, std::array<char*, 3ul>)",
+    0.0399,
+    1027
+   ],
+   [
+    "aten::embedding_dense_backward",
+    0.0376,
+    640
+   ],
+   [
+    "void at::native::(anonymous namespace)::embedding_backward_feature_kernel<float, float, long>(long const*, float const*, float*, int, long, int)",
+    0.0376,
+    640
+   ],
+   [
+    "aten::sum",
+    0.0351,
+    4811
+   ],
+   [
+    "void at::native::reduce_kernel<128, 4, at::native::ReduceOp<c10::BFloat16, at::native::func_wrapper_t<c10::BFloat16, at::native::sum_functor<c10::BFloat16, float, c10::BFloat16>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, c10::BFloat16, 4, 4> >(at::native::ReduceOp<c10::BFloat16, at::native::func_wrapper_t<c10::BFloat16, at::native::sum_functor<c10::BFloat16, float, c10::BFloat16>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, c10::BFloat16, 4, 4>)",
+    0.0309,
+    3651
+   ],
+   [
+    "void at::native::unrolled_elementwise_kernel<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul>, 4, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1> >(int, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}, std::array<char*, 2ul>, TrivialOffsetCalculator<1, unsigned int>, TrivialOffsetCalculator<1, unsigned int>, at::native::memory::LoadWithCast<1>, at::native::memory::StoreWithCast<1>)",
+    0.0309,
+    4168
+   ]
+  ],
+  "top_cpu": [
+   [
+    "cudaLaunchKernel",
+    0.341,
+    82195
+   ],
+   [
+    "cudaMemcpyAsync",
+    0.1078,
+    3300
+   ],
+   [
+    "aten::empty",
+    0.0919,
+    46939
+   ],
+   [
+    "aten::mm",
+    0.0836,
+    10047
+   ],
+   [
+    "aten::copy_",
+    0.0793,
+    34502
+   ],
+   [
+    "aten::addmm",
+    0.0553,
+    5307
+   ],
+   [
+    "cuLaunchKernel",
+    0.0552,
+    15203
+   ],
+   [
+    "Command Buffer Full",
+    0.0443,
+    559
+   ],
+   [
+    "aten::add_",
+    0.0399,
+    16428
+   ],
+   [
+    "aten::transpose",
+    0.0355,
+    44910
+   ],
+   [
+    "autograd::engine::evaluate_function: ViewBackward0",
+    0.0324,
+    9607
+   ],
+   [
+    "aten::empty_strided",
+    0.0322,
+    15486
+   ],
+   [
+    "autograd::engine::evaluate_function: AddmmBackward0",
+    0.03,
+    2687
+   ],
+   [
+    "aten::as_strided",
+    0.0287,
+    85946
+   ],
+   [
+    "aten::sum",
+    0.0281,
+    4811
+   ],
+   [
+    "aten::view",
+    0.0277,
+    42771
+   ],
+   [
+    "autograd::engine::evaluate_function: NativeLayerNormBackward0",
+    0.0252,
+    1737
+   ],
+   [
+    "aten::t",
+    0.0249,
+    23390
+   ],
+   [
+    "aten::_to_copy",
+    0.023,
+    14807
+   ],
+   [
+    "aten::linear",
+    0.0229,
+    11278
+   ],
+   [
+    "aten::native_layer_norm",
+    0.0213,
+    3357
+   ],
+   [
+    "aten::add",
+    0.0211,
+    5424
+   ],
+   [
+    "aten::reshape",
+    0.0199,
+    18884
+   ],
+   [
+    "aten::clone",
+    0.0194,
+    14734
+   ],
+   [
+    "Activity Buffer Request",
+    0.0185,
+    13
+   ]
+  ]
+ }
+}

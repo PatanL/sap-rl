@@ -1,0 +1,271 @@
+{
+  "backend": "rust",
+  "training": true,
+  "games": 384,
+  "workers": 10,
+  "wall": 64.07793680299073,
+  "matches": 939,
+  "battles": 13612,
+  "waves": 547,
+  "seat": 345432,
+  "live": 258000,
+  "seat_s": 5390.810273152826,
+  "games_s": 14.65402987126411,
+  "learned_s": 3071.3691766494944,
+  "learned": 196807,
+  "delivered": 253252,
+  "updates": 24,
+  "stale": 52161,
+  "stale_share": 0.20950885254329873,
+  "queued": 4284,
+  "backlog": 0.5,
+  "pending_stale": 2094,
+  "gpu": 77.578125,
+  "main_seconds": {
+    "turn_capture": 2.9500314972829074,
+    "actor": 24.134436927037314,
+    "engine": 0.3154137139208615,
+    "reset": 0.23499794024974108,
+    "wait_publish": 36.24473929940723
+  },
+  "learner_wall": 49.54419991909526,
+  "actor_timing": {
+    "policy_stream_s": 22.60262643241882,
+    "service_s": 24.07989925891161
+  },
+  "mean_active_seats": 631.5027422303474,
+  "policy_batch_percentiles": [
+    149.0,
+    324.5,
+    481.0,
+    494.2099999999998
+  ],
+  "peak_gib": 3.9921875,
+  "steady": {
+    "seconds": 33.828301050001755,
+    "seat_s": 5380.021816824346,
+    "games_s": 16.40638072622389,
+    "learned_s": 3151.5918021158445
+  },
+  "events": [
+    {
+      "version": 25773,
+      "min_version": 25772,
+      "max_version": 25772,
+      "seconds": 4.527815571054816,
+      "decisions": 8198,
+      "turns": 1186,
+      "stale": 0
+    },
+    {
+      "version": 25774,
+      "min_version": 25772,
+      "max_version": 25773,
+      "seconds": 6.900492993881926,
+      "decisions": 8207,
+      "turns": 744,
+      "stale": 0
+    },
+    {
+      "version": 25775,
+      "min_version": 25773,
+      "max_version": 25774,
+      "seconds": 9.472983794054016,
+      "decisions": 8196,
+      "turns": 666,
+      "stale": 2994
+    },
+    {
+      "version": 25776,
+      "min_version": 25774,
+      "max_version": 25775,
+      "seconds": 11.90721895499155,
+      "decisions": 8193,
+      "turns": 628,
+      "stale": 4396
+    },
+    {
+      "version": 25777,
+      "min_version": 25775,
+      "max_version": 25776,
+      "seconds": 14.580974959069863,
+      "decisions": 8193,
+      "turns": 656,
+      "stale": 7472
+    },
+    {
+      "version": 25778,
+      "min_version": 25776,
+      "max_version": 25777,
+      "seconds": 17.225969481049106,
+      "decisions": 8215,
+      "turns": 656,
+      "stale": 9131
+    },
+    {
+      "version": 25779,
+      "min_version": 25777,
+      "max_version": 25778,
+      "seconds": 19.705324955051765,
+      "decisions": 8192,
+      "turns": 752,
+      "stale": 11222
+    },
+    {
+      "version": 25780,
+      "min_version": 25778,
+      "max_version": 25779,
+      "seconds": 22.345629738876596,
+      "decisions": 8197,
+      "turns": 763,
+      "stale": 13292
+    },
+    {
+      "version": 25781,
+      "min_version": 25779,
+      "max_version": 25780,
+      "seconds": 24.879492633976042,
+      "decisions": 8201,
+      "turns": 793,
+      "stale": 15288
+    },
+    {
+      "version": 25782,
+      "min_version": 25780,
+      "max_version": 25781,
+      "seconds": 27.47874518786557,
+      "decisions": 8207,
+      "turns": 730,
+      "stale": 17324
+    },
+    {
+      "version": 25783,
+      "min_version": 25781,
+      "max_version": 25782,
+      "seconds": 30.041615216061473,
+      "decisions": 8195,
+      "turns": 707,
+      "stale": 18732
+    },
+    {
+      "version": 25784,
+      "min_version": 25782,
+      "max_version": 25783,
+      "seconds": 32.629262547940016,
+      "decisions": 8198,
+      "turns": 693,
+      "stale": 21421
+    },
+    {
+      "version": 25785,
+      "min_version": 25783,
+      "max_version": 25784,
+      "seconds": 35.10920508392155,
+      "decisions": 8201,
+      "turns": 654,
+      "stale": 23516
+    },
+    {
+      "version": 25786,
+      "min_version": 25784,
+      "max_version": 25785,
+      "seconds": 37.75568790594116,
+      "decisions": 8214,
+      "turns": 639,
+      "stale": 26235
+    },
+    {
+      "version": 25787,
+      "min_version": 25785,
+      "max_version": 25786,
+      "seconds": 40.46479754708707,
+      "decisions": 8192,
+      "turns": 676,
+      "stale": 28683
+    },
+    {
+      "version": 25788,
+      "min_version": 25786,
+      "max_version": 25787,
+      "seconds": 43.089646948035806,
+      "decisions": 8196,
+      "turns": 679,
+      "stale": 31173
+    },
+    {
+      "version": 25789,
+      "min_version": 25787,
+      "max_version": 25788,
+      "seconds": 45.62482274998911,
+      "decisions": 8210,
+      "turns": 690,
+      "stale": 33337
+    },
+    {
+      "version": 25790,
+      "min_version": 25788,
+      "max_version": 25789,
+      "seconds": 48.27950292406604,
+      "decisions": 8193,
+      "turns": 698,
+      "stale": 36403
+    },
+    {
+      "version": 25791,
+      "min_version": 25789,
+      "max_version": 25790,
+      "seconds": 50.96440732991323,
+      "decisions": 8192,
+      "turns": 689,
+      "stale": 39041
+    },
+    {
+      "version": 25792,
+      "min_version": 25790,
+      "max_version": 25791,
+      "seconds": 53.56406167894602,
+      "decisions": 8210,
+      "turns": 637,
+      "stale": 41516
+    },
+    {
+      "version": 25793,
+      "min_version": 25791,
+      "max_version": 25792,
+      "seconds": 56.15751320589334,
+      "decisions": 8205,
+      "turns": 618,
+      "stale": 44473
+    },
+    {
+      "version": 25794,
+      "min_version": 25792,
+      "max_version": 25793,
+      "seconds": 58.884823261993006,
+      "decisions": 8192,
+      "turns": 637,
+      "stale": 47006
+    },
+    {
+      "version": 25795,
+      "min_version": 25793,
+      "max_version": 25794,
+      "seconds": 61.51097901095636,
+      "decisions": 8199,
+      "turns": 647,
+      "stale": 49838
+    },
+    {
+      "version": 25796,
+      "min_version": 25794,
+      "max_version": 25795,
+      "seconds": 64.07793190702796,
+      "decisions": 8211,
+      "turns": 662,
+      "stale": 52161
+    }
+  ],
+  "library_sha256": "ddf5a8f22f0c39067e7c96a6054f01b5c87b624373b4fc1879715469470f4372",
+  "seed": 2577223,
+  "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2"
+}

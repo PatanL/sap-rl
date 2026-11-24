@@ -1,0 +1,1396 @@
+{
+ "generated": "2026-11-23",
+ "client": "official web client v0.48, guest session, battle/get fulfilled locally",
+ "engine": "engine-v31 as pinned in session3/engine-pin (copy of the current sources, not edited)",
+ "rules": [
+  {
+   "id": "R1",
+   "question": "3a",
+   "statement": "When several friends die in the same damage event (one Hedgehog blast), a Fly reacts to those deaths in a random order that changes with the battle seed and does not depend on attack or position. Each zombie fly uses the slot rule at its turn, so the order decides which dead friends are replaced when the Fly's 3 uses or the board run out, and where other summons end up.",
+   "engine_does": "Sorts the simultaneous deaths by attack, highest first (ties in recorded order), and lets the Fly react in that fixed order.",
+   "implied_engine_change": "Give deaths caused by one multi-target effect a random order drawn from the battle RNG (see R3 for how the Fly then walks through pending deaths). A uniform permutation is the simplest model consistent with the data; the exact distribution is not established.",
+   "supporting_captures": [
+    "c3-a1-fly4dead-m1714808783",
+    "c3-a1-fly4dead-m2000000011",
+    "c3-a1-fly4dead-m402918337",
+    "c3-a1-fly4dead-m987654321",
+    "c3-a1-fly4dead-p1203948571",
+    "c3-a1-fly4dead-p1999999937",
+    "c3-a1-fly4dead-p55555",
+    "c3-a1-fly4dead-p870113",
+    "c3-a2-fly4tie-m1714808783",
+    "c3-a2-fly4tie-p870113",
+    "c3-a5-fly-sheep-m1714808783",
+    "c3-a5-fly-sheep-p870113",
+    "c3-a6-fly-deer-m1714808783",
+    "c3-a6-fly-deer-p870113",
+    "s3f-33dca0e0",
+    "s3f-4d928b02"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "a1: 8 seeds gave 8 different spawn orders; the unreplaced slot was the front one 3 times, slot 2 twice, slot 3 three times. a2 (all four attacks equal) gave the same order as a1 for the same two seeds, so attack plays no part. a6: the two seeds end in different boards (Bus second vs Bus third) only because of this order. a5: Fish (1 attack) then Pig (5) served and Sheep (7) left out on both seeds; the engine serves Sheep and Pig.",
+   "real_fights_first_difference_matches_rule": [],
+   "real_fights_consistent_but_not_isolated": [
+    "33dca0e0",
+    "4d928b02"
+   ],
+   "evidence_counts": {
+    "constructed_captures": 14,
+    "real_fights": 0,
+    "real_fights_consistent": 2,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R2",
+   "question": "3a",
+   "statement": "With two pets holding the Fly ability (two Flies, or a Fly and a Parrot that copied Fly), the one with the higher attack reacts to every dead friend first; the other only gets what is left. It is attack, not position or level, that decides.",
+   "engine_does": "Goes death by death and lets every Fly react to each death in slot order, so the front-most Fly holder acts first and the two alternate.",
+   "implied_engine_change": "Process friend-faint observers observer by observer in attack order (highest first); for each, run through all pending deaths before moving to the next observer.",
+   "supporting_captures": [
+    "c3-a3-twofly-m1714808783",
+    "c3-a3-twofly-p870113",
+    "c3-a3r-twofly-rev-m1714808783",
+    "c3-a3r-twofly-rev-p870113",
+    "s3f-0c7467fa",
+    "s3f-4d928b02",
+    "s3f-6bc5336c",
+    "s3f-701fc622",
+    "s3f-8996092a",
+    "s3f-89f424a1",
+    "s3f-c0eeec25",
+    "s3f-d26f1b24",
+    "s3f-d95df6ba",
+    "s3f-e9018f58"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "a3: the level-2 Fly has 8 attack: three 8/8 zombies on both seeds. a3r: attacks swapped (the level-1 Fly has 8 and sits behind): three 4/4 zombies on both seeds. In six real fights the zombie's level is that of the higher-attack Parrot, not of the Fly standing ahead of it.",
+   "real_fights_first_difference_matches_rule": [
+    "0c7467fa",
+    "6bc5336c",
+    "701fc622",
+    "8996092a",
+    "89f424a1",
+    "c0eeec25",
+    "d26f1b24",
+    "e9018f58"
+   ],
+   "real_fights_consistent_but_not_isolated": [
+    "4d928b02",
+    "d95df6ba"
+   ],
+   "evidence_counts": {
+    "constructed_captures": 4,
+    "real_fights": 8,
+    "real_fights_consistent": 2,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R3",
+   "question": "3a/3h",
+   "statement": "When the pending deaths come from different abilities (not one blast), the Fly's order is again not the engine's attack order, and no single rule was found that covers every case. What was seen: (a) two start-of-battle snipes and a Fly with one use left: the zombie replaces the first-killed pet on one seed and the second-killed on the other, and swapping which sniper acts first swaps the result, so the choice is a seeded pick among the deaths; (b) Whale swallows a plain pet and a Crocodile kills another, one use left: either on different seeds; (c) Whale swallows a Deer (whose Bus refills its slot), Crocodile kills the back pet, three uses, one free slot: the back pet is always replaced (8 of 8 seeds, and the real fight this was built from) and the Deer never; (d) in six real fights with one or two free slots the replaced pets were never the engine's choice.",
+   "engine_does": "Serves pending deaths by attack, highest first, with every dead pet already removed.",
+   "implied_engine_change": "At least: stop ordering the Fly's reactions by the dead pets' attack; draw the order from the battle RNG. Case (c) shows the outcome is not always a free 50/50, so a plain shuffle will still miss some fights; the exact rule (possibly dead pets leaving the board one at a time, so that a not-yet-processed corpse still blocks a slot) needs more tests.",
+   "supporting_captures": [
+    "c3-h6-fly-two-deaths-sob-m1714808783",
+    "c3-h6-fly-two-deaths-sob-m2000000011",
+    "c3-h6-fly-two-deaths-sob-m402918337",
+    "c3-h6-fly-two-deaths-sob-m987654321",
+    "c3-h6-fly-two-deaths-sob-p1203948571",
+    "c3-h6-fly-two-deaths-sob-p1999999937",
+    "c3-h6-fly-two-deaths-sob-p55555",
+    "c3-h6-fly-two-deaths-sob-p870113",
+    "c3-h9-fly1-two-snipes-dolphin-first-m1714808783",
+    "c3-h9-fly1-two-snipes-dolphin-first-p870113",
+    "c3-h9r-fly1-two-snipes-croc-first-m1714808783",
+    "c3-h9r-fly1-two-snipes-croc-first-p870113",
+    "c3-h10-fly1-swallow-vs-snipe-m1714808783",
+    "c3-h10-fly1-swallow-vs-snipe-p870113",
+    "c3-h10r-fly1-swallow-vs-snipe-croc-first-m1714808783",
+    "c3-h10r-fly1-swallow-vs-snipe-croc-first-p870113",
+    "c3-a7-fly-one-use-left-m1714808783",
+    "c3-a7-fly-one-use-left-p870113",
+    "c3-c5-whale-fly-m1714808783",
+    "c3-c5-whale-fly-p870113",
+    "c3-c5s-whale-shark-m1714808783",
+    "c3-c5s-whale-shark-p870113",
+    "c3-h7-fly-two-snipes-dolphin-first-m1714808783",
+    "c3-h7-fly-two-snipes-dolphin-first-p870113",
+    "c3-h7r-fly-two-snipes-croc-first-m1714808783",
+    "c3-h7r-fly-two-snipes-croc-first-p870113",
+    "c3-h8-fly-two-snipes-deer-back-m1714808783",
+    "c3-h8-fly-two-snipes-deer-back-p870113",
+    "s3f-4664ea1e",
+    "s3f-7f8443c4",
+    "s3f-80d189e9",
+    "s3f-c0eeec25",
+    "s3f-d26f1b24",
+    "s3f-dda8b4ec"
+   ],
+   "contradicting_captures": [],
+   "confidence": "low",
+   "notes": "The observations are solid (h6: 8 seeds; h9, h9r, h10: 2 seeds each, the two seeds disagree in each); the rule behind them is open. A corpse-blocks-its-slot model explains (c) but not real fight dda8b4ec nor h7 (seed m: the zombie takes the sniped Deer's slot and the Bus is pushed back into the other dead pet's slot, so that slot was already free); a free shuffle explains those but not (c). h7/h7r/h8 (two snipes, one victim a Deer, three uses): the zombie went to the Deer's slot in 3 captures and to the plain pet's in 3. a7 shows the client honours a recorded use count (TrCo): a Fly with two uses spent makes one zombie. c5/c5s show that a swallowed friend counts as fainted for Fly and Shark.",
+   "real_fights_first_difference_matches_rule": [
+    "4664ea1e",
+    "7f8443c4",
+    "80d189e9",
+    "c0eeec25",
+    "d26f1b24",
+    "dda8b4ec"
+   ],
+   "real_fights_consistent_but_not_isolated": [],
+   "evidence_counts": {
+    "constructed_captures": 28,
+    "real_fights": 6,
+    "real_fights_consistent": 0,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R4",
+   "question": "3d",
+   "statement": "Start-of-battle abilities are taken one at a time and the next one is always the pet with the highest attack at that moment. A Dodo's attack gift therefore moves the receiver ahead of pets it now out-attacks (Skunk 5->10 acts before a Crab with 6; a Whale 3->20 swallows before a Dolphin with 10 shoots; a Leopard 13->35 shoots before a Skunk with 14; an Armadillo 5->12 buffs before a Dolphin with 7).",
+   "engine_does": "Fixes the order from the attack values before any start-of-battle ability has run.",
+   "implied_engine_change": "Re-pick the next start-of-battle actor from current attack after every ability (keep the random tie-break).",
+   "supporting_captures": [
+    "c3-ddyn-sob-dynamic-m1714808783",
+    "c3-ddyn-sob-dynamic-p870113",
+    "c3-ddynctl-crab-higher-no-dodo-m1714808783",
+    "c3-ddynctl-crab-higher-no-dodo-p870113",
+    "s3f-4c67157e",
+    "s3f-9001c280",
+    "s3f-92e0b53f",
+    "s3f-95ca0a3c",
+    "s3f-b63cdbf5",
+    "s3f-d0b33785",
+    "s3f-f75f23cc"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "ddyn: real Crab 6/10 (gains 25% of the Fish after Skunk, 26 -> +7), engine Crab 6/13 (gains before Skunk).",
+   "real_fights_first_difference_matches_rule": [
+    "4c67157e",
+    "9001c280",
+    "92e0b53f",
+    "95ca0a3c",
+    "b63cdbf5",
+    "d0b33785"
+   ],
+   "real_fights_consistent_but_not_isolated": [
+    "f75f23cc"
+   ],
+   "evidence_counts": {
+    "constructed_captures": 4,
+    "real_fights": 6,
+    "real_fights_consistent": 1,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R5",
+   "question": "3e",
+   "statement": "A Wolverine whose four-friends-hurt count is reached during an attack does not act until everything else of that attack has resolved, including Rhino's knock-out damage and its chain. A count that passes 8 in one chain gives two activations. In the one real fight with Wolverines on both sides the higher-attack one acted first.",
+   "engine_does": "Runs the queued Wolverine at the end of the hurt/faint phase, before the knock-out phase, so enemies are weakened before Rhino's knock-out damage lands and Rhino chains further.",
+   "implied_engine_change": "Move the pending Wolverine activations to after the knock-out phase (and after any hurt/faint chain the knock-outs cause); count hurts that happen in the knock-out phase before deciding how many activations are due.",
+   "supporting_captures": [
+    "c3-e5b-wolv-vs-rhino-tier2-m1714808783",
+    "c3-e5b-wolv-vs-rhino-tier2-p870113",
+    "c3-e5-wolv-vs-rhino-m1714808783",
+    "c3-e5-wolv-vs-rhino-p870113",
+    "s3f-07933ed8",
+    "s3f-44f50389",
+    "s3f-464525d6",
+    "s3f-48421d51",
+    "s3f-55252099",
+    "s3f-8356ce35",
+    "s3f-cef2483f"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "e5b: real Snail 1/1 and Swan 2/25 after the first exchange (Rhino 5->1, then Wolverine floors at 1); engine has the Snail dead and Swan 2/21. e5 (tier-1 targets take double Rhino damage) ends the same in both, but the movie shows Rhino's two hits before Wolverine's. Rhino deals double damage to tier-1 pets, tokens included (Ram took 8).",
+   "real_fights_first_difference_matches_rule": [
+    "07933ed8",
+    "44f50389",
+    "55252099",
+    "8356ce35",
+    "cef2483f"
+   ],
+   "real_fights_consistent_but_not_isolated": [
+    "464525d6",
+    "48421d51"
+   ],
+   "evidence_counts": {
+    "constructed_captures": 4,
+    "real_fights": 5,
+    "real_fights_consistent": 2,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R6",
+   "question": "3e",
+   "statement": "Otherwise Wolverine works as the engine has it: its own hurt does not count; hurts of dying friends and the front pet's attack hit count; the count carries over between attacks; the activation waits for the end of the hurt/faint chain (both Hedgehog blasts land first); a Wolverine that died in that chain still acts; two Wolverines on one team and Wolverines on both teams each act; health removal stops at 1.",
+   "engine_does": "Same.",
+   "implied_engine_change": "None.",
+   "supporting_captures": [
+    "c3-e0-wolv-self-m1714808783",
+    "c3-e0-wolv-self-p870113",
+    "c3-e1-wolv-timing-m1714808783",
+    "c3-e1-wolv-timing-p870113",
+    "c3-e2-wolv-dead-m1714808783",
+    "c3-e2-wolv-dead-p870113",
+    "c3-e3-wolv-both-m1714808783",
+    "c3-e3-wolv-both-p870113",
+    "c3-e4-wolv-pair-m1714808783",
+    "c3-e4-wolv-pair-p870113"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "The order of two Wolverines of the same chain cannot change any stat (removal floors at 1 and triggers nothing), so it cannot be tested from outcomes. e4's second exchange shows one of two -3 on the label until the next hit (N1).",
+   "real_fights_first_difference_matches_rule": [],
+   "real_fights_consistent_but_not_isolated": [],
+   "evidence_counts": {
+    "constructed_captures": 10,
+    "real_fights": 0,
+    "real_fights_consistent": 0,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R7",
+   "question": "3f",
+   "statement": "The Tiger's repeat runs directly after the original ability, before the next pet's ability for the same trigger, also when the Tiger's own attack is lower than that next pet's (start of battle: Skunk, repeat, then Crab; faint: Hedgehog blast, repeat blast, then Mammoth's buff, so a 4-health enemy is dead before the buff).",
+   "engine_does": "Same.",
+   "implied_engine_change": "None.",
+   "supporting_captures": [
+    "c3-f1a-tiger-sob-low-m1714808783",
+    "c3-f1a-tiger-sob-low-p870113",
+    "c3-f1b-tiger-sob-mid-m1714808783",
+    "c3-f1b-tiger-sob-mid-p870113",
+    "c3-f1c-notiger-control-m1714808783",
+    "c3-f1c-notiger-control-p870113",
+    "c3-f2-tiger-faint-m1714808783",
+    "c3-f2-tiger-faint-p870113",
+    "c3-f2r-tiger-faint-rev-m1714808783",
+    "c3-f2r-tiger-faint-rev-p870113",
+    "c3-f2x-tiger-faint-continues-m1714808783",
+    "c3-f2x-tiger-faint-continues-p870113"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "The Tiger's own health label shows only the first of the two blasts until its next change (N1); f2x proves the second was applied (18 on the label, 12 after a 4-damage hit).",
+   "real_fights_first_difference_matches_rule": [],
+   "real_fights_consistent_but_not_isolated": [],
+   "evidence_counts": {
+    "constructed_captures": 12,
+    "real_fights": 0,
+    "real_fights_consistent": 0,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R8",
+   "question": "3f",
+   "statement": "A Tiger that dies in the same step as the pet ahead of it does not repeat that pet's faint summon: Cricket and Tiger killed by one blast give one Zombie Cricket; a Deer whose Tiger dies in the same exchange (Chili splash, or Crocodile shots at start of battle) gives one Bus. With the Tiger alive there are two.",
+   "engine_does": "Remembers the Tiger when the faint is queued and repeats anyway: two Zombie Crickets, two Buses.",
+   "implied_engine_change": "For summon-type faints resolved after removal, require the remembered Tiger to be still alive (not among the pets that died in the same step).",
+   "supporting_captures": [
+    "c3-f7-tiger-dies-too-m1714808783",
+    "c3-f7-tiger-dies-too-p870113",
+    "c3-f7x-tiger-dies-too-continues-m1714808783",
+    "c3-f7x-tiger-dies-too-continues-m2000000011",
+    "c3-f7x-tiger-dies-too-continues-m402918337",
+    "c3-f7x-tiger-dies-too-continues-m987654321",
+    "c3-f7x-tiger-dies-too-continues-p1203948571",
+    "c3-f7x-tiger-dies-too-continues-p1999999937",
+    "c3-f7x-tiger-dies-too-continues-p55555",
+    "c3-f7x-tiger-dies-too-continues-p870113",
+    "c3-f7c-tiger-survives-control-m1714808783",
+    "c3-f7c-tiger-survives-control-p870113",
+    "c3-f13-tiger-killed-by-original-m1714808783",
+    "c3-f13-tiger-killed-by-original-p870113",
+    "c3-f14-hedgehog-tiger-die-together-m1714808783",
+    "c3-f14-hedgehog-tiger-die-together-p870113",
+    "s3f-975bfbc7",
+    "s3f-fa0b28f6"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "f7x: one Zombie Cricket on 8 of 8 seeds; f7: 2 of 2; control f7c with the Tiger alive: two. The rule is specific to summons, which resolve after the dead are removed: a Hedgehog's blast is still repeated when its Tiger dies in the same step (f14) or is killed by the first blast (f13), and the engine agrees there.",
+   "real_fights_first_difference_matches_rule": [
+    "975bfbc7",
+    "fa0b28f6"
+   ],
+   "real_fights_consistent_but_not_isolated": [],
+   "evidence_counts": {
+    "constructed_captures": 16,
+    "real_fights": 2,
+    "real_fights_consistent": 0,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R9",
+   "question": "3f",
+   "statement": "A Tiger's repeat of an ability with a use limit spends one of that ability's uses. Snake (5 per battle) with a Tiger behind fires 5 shots in total: 2, 2, 1, then nothing. Hippo (3 per battle) gains three times in total, the Tiger's gain at the Tiger's level (Hippo L3 with a level-1 Tiger: +9, +3, +9). Ox (1 per turn at level 1) gains once.",
+   "engine_does": "Counts only the pet's own triggers and lets the Tiger repeat each: Snake plus Tiger fires 10 shots, Hippo gains six times, Ox twice.",
+   "implied_engine_change": "Increment the ability's use counter for the Tiger's repeat as well, and skip the repeat (or the next own trigger) when no use is left.",
+   "supporting_captures": [
+    "c3-f9-snake-tiger-shots-m1714808783",
+    "c3-f9-snake-tiger-shots-m2000000011",
+    "c3-f9-snake-tiger-shots-m271828182",
+    "c3-f9-snake-tiger-shots-m402918337",
+    "c3-f9-snake-tiger-shots-m987654321",
+    "c3-f9-snake-tiger-shots-p1203948571",
+    "c3-f9-snake-tiger-shots-p1999999937",
+    "c3-f9-snake-tiger-shots-p314159265",
+    "c3-f9-snake-tiger-shots-p55555",
+    "c3-f9-snake-tiger-shots-p870113",
+    "c3-f11-hippo-tiger-limit-m1714808783",
+    "c3-f11-hippo-tiger-limit-p870113",
+    "c3-f11c-hippo-alone-control-p870113",
+    "c3-f10-snake-tiger-dead-front-m1714808783",
+    "c3-f10-snake-tiger-dead-front-m402918337",
+    "c3-f10-snake-tiger-dead-front-p1203948571",
+    "c3-f10-snake-tiger-dead-front-p870113",
+    "s3f-2831f868",
+    "s3f-5dccddde",
+    "s3f-6b036ac0",
+    "s3f-7b1311d5",
+    "s3f-9f89c3cb",
+    "s3f-a3b3ce27",
+    "s3f-b363f9e9"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "f9: 10 seeds, 5 shots each. Tested for Snake and Hippo; Ox is from one real fight; not tested for Fly, Gorilla or Elephant. The second shot of a pair reaches the health label only at the next change (N1).",
+   "real_fights_first_difference_matches_rule": [
+    "2831f868",
+    "5dccddde",
+    "6b036ac0",
+    "7b1311d5",
+    "9f89c3cb",
+    "b363f9e9"
+   ],
+   "real_fights_consistent_but_not_isolated": [
+    "a3b3ce27"
+   ],
+   "evidence_counts": {
+    "constructed_captures": 17,
+    "real_fights": 6,
+    "real_fights_consistent": 1,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R10",
+   "question": "3b",
+   "statement": "Empty slots are still open while start-of-battle abilities resolve (they close just before the first attack), but 'nearest friend ahead' skips empty slots and pets already killed: Whale swallows and Dodo buffs the nearest living friend ahead across a gap or a fresh corpse.",
+   "engine_does": "Closes gaps first; picks the same targets.",
+   "implied_engine_change": "None for targeting. Gaps only matter for where summons land (R11).",
+   "supporting_captures": [
+    "c3-b1-whale-gap-m1714808783",
+    "c3-b1-whale-gap-p870113",
+    "c3-b2-dodo-gap-m1714808783",
+    "c3-b2-dodo-gap-p870113",
+    "c3-b4-whale-deadahead-m1714808783",
+    "c3-b4-whale-deadahead-p870113",
+    "c3-b6-dodo-deadahead-m1714808783",
+    "c3-b6-dodo-deadahead-p870113"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "",
+   "real_fights_first_difference_matches_rule": [],
+   "real_fights_consistent_but_not_isolated": [],
+   "evidence_counts": {
+    "constructed_captures": 8,
+    "real_fights": 0,
+    "real_fights_consistent": 0,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R11",
+   "question": "3b/3h",
+   "statement": "Empty slots are still open when a pet dies from start-of-battle damage. Its summon goes into its own slot; a second summon for the same slot (Mushroom copy, second Ram) takes the slot and pushes the first one forward if the slot directly ahead is empty, otherwise back (into a gap behind, or pushing the pets behind). So with a gap ahead the Bus ends in front of the returning Deer, without one behind it.",
+   "engine_does": "Applies the same slot rule, but has already closed the gaps before start-of-battle abilities run, so with a gap ahead it pushes the Bus back: Fish, Deer, Bus, Pig instead of Fish, Bus, Deer, Pig.",
+   "implied_engine_change": "Keep the board's gaps until all start-of-battle abilities and the deaths they cause have resolved; close them just before the first attack.",
+   "supporting_captures": [
+    "c3-h1-deer-gap-behind-m1714808783",
+    "c3-h1-deer-gap-behind-p870113",
+    "c3-h2-deer-no-gap-m1714808783",
+    "c3-h2-deer-no-gap-p870113",
+    "c3-h3-fly-gap-p870113",
+    "c3-h4-sheep-mid-p870113",
+    "c3-h5-sheep-gap-ahead-p870113",
+    "c3-h11-deer-gap-ahead-and-behind-m1714808783",
+    "c3-h11-deer-gap-ahead-and-behind-p870113",
+    "custom-snipe-gaps"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "Only the gap-ahead case with two summons for one slot differs from the engine (session 2's snipe-gaps, repeated here as h11). No currently failing fight was traced to it.",
+   "real_fights_first_difference_matches_rule": [],
+   "real_fights_consistent_but_not_isolated": [],
+   "evidence_counts": {
+    "constructed_captures": 9,
+    "real_fights": 0,
+    "real_fights_consistent": 0,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R12",
+   "question": "(real fights)",
+   "statement": "A pet whose permanent health is used up but which is alive on battle-only health (a Dog on its own +1 health buffs) is alive and still receives buffs: Dog at 9/1 gains +2/+1 for each of two Rams and a Bus (15/4).",
+   "engine_does": "Its 'no buff for a pet at 0 health' check looks at permanent health only: the engine logs the three Dog triggers and leaves the Dog at 9/1.",
+   "implied_engine_change": "Test total health (permanent plus battle-only) in the cannot-buff-the-dead check.",
+   "supporting_captures": [
+    "s3f-262f5055",
+    "s3f-31eb2b55"
+   ],
+   "contradicting_captures": [],
+   "confidence": "medium",
+   "notes": "Seen in two real fights; the engine side was confirmed by reading its phase log and the check in effects.py (not edited). Not rebuilt as a constructed test.",
+   "real_fights_first_difference_matches_rule": [
+    "31eb2b55"
+   ],
+   "real_fights_consistent_but_not_isolated": [
+    "262f5055"
+   ],
+   "evidence_counts": {
+    "constructed_captures": 0,
+    "real_fights": 1,
+    "real_fights_consistent": 1,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R13",
+   "question": "(real fights)",
+   "statement": "If the opponent has no pets, nothing happens: no start-of-battle ability runs (Armadillo gives no health, Whale does not swallow) and the fight ends with the starting board.",
+   "engine_does": "Runs start-of-battle abilities first and reports the changed board.",
+   "implied_engine_change": "End the battle before the start-of-battle phase when the opponent's board is empty (only an empty opponent was seen; an empty own board was not tested).",
+   "supporting_captures": [
+    "c3-em1-empty-opponent-p870113",
+    "s3f-2ad6ecd6",
+    "s3f-744c55c3",
+    "s3f-c712cc5b"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "",
+   "real_fights_first_difference_matches_rule": [
+    "2ad6ecd6",
+    "744c55c3",
+    "c712cc5b"
+   ],
+   "real_fights_consistent_but_not_isolated": [],
+   "evidence_counts": {
+    "constructed_captures": 1,
+    "real_fights": 3,
+    "real_fights_consistent": 0,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R14",
+   "question": "(real fights)",
+   "statement": "Skunk level 2 on a pet with 50 health leaves 16, not 17. Every other Skunk result seen agrees with the engine (level 1: 30 to 20, 20 to 13, 40 to 26, 9 to 6, 23 to 15; level 2: 12 to 4, 20 to 6, 19 to 6; level 3 on 50: 1).",
+   "engine_does": "Removes 33 and leaves 17.",
+   "implied_engine_change": "Any formula that gives 16 for level 2 on 50 and keeps the other values: for example remaining = floor(health x (1 - percent)) in binary floating point (50 x 0.34 is just under 17), or removal = ceil(health x 0.66) in single precision (33.0000013). The data do not tell these apart.",
+   "supporting_captures": [
+    "c3-sk1-skunk2-on-50-m1714808783",
+    "c3-sk1-skunk2-on-50-p870113",
+    "c3-sk2-skunk3-on-50-p870113",
+    "s3f-4691b0e0",
+    "s3f-646d6abf",
+    "s3f-7acfd854",
+    "s3f-910a1631",
+    "s3f-9a5f60c1",
+    "s3f-ede958be"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "sk1: 16 on 2 of 2 seeds. Six real fights show 50 to 16; in two the archive's surviving pet carries the 16 directly.",
+   "real_fights_first_difference_matches_rule": [
+    "4691b0e0",
+    "646d6abf",
+    "7acfd854",
+    "910a1631",
+    "9a5f60c1",
+    "ede958be"
+   ],
+   "real_fights_consistent_but_not_isolated": [],
+   "evidence_counts": {
+    "constructed_captures": 3,
+    "real_fights": 6,
+    "real_fights_consistent": 0,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R16",
+   "question": "3d",
+   "statement": "A Crab that was killed by an earlier start-of-battle ability stays dead: its health gain does not bring it back and it is removed.",
+   "engine_does": "Lets the dead Crab act and adds the gain to its negative health, so the Crab is alive again (and can absorb a second Dolphin shot).",
+   "implied_engine_change": "Do not let Crab's gain apply to a pet at 0 health or less (the same rule the engine already has for ordinary buffs). Do not skip dead pets' start-of-battle abilities in general (R20).",
+   "supporting_captures": [
+    "c3-d7-dead-crab-m1714808783",
+    "c3-d7-dead-crab-p870113",
+    "s3f-1f7102db",
+    "s3f-513bcff6",
+    "s3f-529f794d",
+    "s3f-5ff086f9",
+    "s3f-6b7a8c78",
+    "s3f-75a5646e",
+    "s3f-8747a8b5",
+    "s3f-aae53e70"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "d7: Crab 4/1 shot by a Dolphin with 9 attack is gone on 2 of 2 seeds; engine keeps it at 4/7. Eight real fights show the same.",
+   "real_fights_first_difference_matches_rule": [
+    "1f7102db",
+    "513bcff6",
+    "529f794d",
+    "5ff086f9",
+    "6b7a8c78",
+    "75a5646e",
+    "8747a8b5",
+    "aae53e70"
+   ],
+   "real_fights_consistent_but_not_isolated": [],
+   "evidence_counts": {
+    "constructed_captures": 2,
+    "real_fights": 8,
+    "real_fights_consistent": 0,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R20",
+   "question": "3d",
+   "statement": "A pet killed by a faster enemy start-of-battle ability still uses its own start-of-battle ability when its turn comes, at full effect and with its usual target rule. Tested: Leopard (3 damage, half of its 6 attack, to a random enemy), Dolphin (4 to the lowest-health enemy; killed by a Dolphin and, separately, by a Crocodile), Crocodile (8 to the last enemy), Mosquito (1 to a random enemy), Skunk (a third of the highest-health enemy), Whale (swallows the friend ahead, whose faint ability triggers, and releases it at once), Dodo (gives half its attack). In each the dying pet was the only start-of-battle pet on its side. The movie shows the pet at negative health first and its shot landing afterwards.",
+   "engine_does": "Same.",
+   "implied_engine_change": "None. (Crab is the one exception, R16, and only because its effect lands on itself.)",
+   "supporting_captures": [
+    "c3-x1-dead-leopard-m1714808783",
+    "c3-x1-dead-leopard-p1203948571",
+    "c3-x1-dead-leopard-p870113",
+    "c3-x2-dead-dolphin-m1714808783",
+    "c3-x2-dead-dolphin-p1203948571",
+    "c3-x2-dead-dolphin-p870113",
+    "c3-x3-dead-crocodile-m1714808783",
+    "c3-x3-dead-crocodile-p1203948571",
+    "c3-x3-dead-crocodile-p870113",
+    "c3-x4-dead-mosquito-m1714808783",
+    "c3-x4-dead-mosquito-p1203948571",
+    "c3-x4-dead-mosquito-p870113",
+    "c3-x5-dead-skunk-m1714808783",
+    "c3-x5-dead-skunk-p1203948571",
+    "c3-x5-dead-skunk-p870113",
+    "c3-x6-dead-whale-m1714808783",
+    "c3-x6-dead-whale-p1203948571",
+    "c3-x6-dead-whale-p870113",
+    "c3-x7-dead-dolphin-killed-by-croc-m1714808783",
+    "c3-x7-dead-dolphin-killed-by-croc-p1203948571",
+    "c3-x7-dead-dolphin-killed-by-croc-p870113",
+    "c3-d6-dead-dodo-acts-p870113"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "3 seeds per species, all the same: fires. Dodo is one capture (d6).",
+   "real_fights_first_difference_matches_rule": [],
+   "real_fights_consistent_but_not_isolated": [],
+   "evidence_counts": {
+    "constructed_captures": 22,
+    "real_fights": 0,
+    "real_fights_consistent": 0,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R17",
+   "question": "(real fights)",
+   "statement": "A Rhino that died in the exchange keeps chaining knock-outs, with its Tiger's repeats even if the Tiger died too, for as long as each knock-out kills: four enemies in a row in the one fight seen.",
+   "engine_does": "Its chain stopped after four hits (two links), leaving two enemies alive.",
+   "implied_engine_change": "Let the dead Rhino's chain continue until a knock-out hit fails to kill; no cap.",
+   "supporting_captures": [
+    "s3f-e0bdb7ba",
+    "s3f-ede958be"
+   ],
+   "contradicting_captures": [],
+   "confidence": "low",
+   "notes": "One real fight (ede958be), read from labels only; the same fight also carries R14.",
+   "real_fights_first_difference_matches_rule": [
+    "ede958be"
+   ],
+   "real_fights_consistent_but_not_isolated": [
+    "e0bdb7ba"
+   ],
+   "evidence_counts": {
+    "constructed_captures": 0,
+    "real_fights": 1,
+    "real_fights_consistent": 1,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R15",
+   "question": "3c",
+   "statement": "Whale. Swallowing triggers the swallowed pet's own faint ability at once (Deer leaves a Bus, Cricket a Zombie Cricket) and counts as a friend fainting for Fly and Shark. When the Whale faints the pet comes back in the Whale's slot with its own attack and health, at the Whale's level (a 6/9 Fish returns 6/9, level 2 from a level-2 Whale). A Honey Bee lands in front of the released pet; a Mushroom Whale's 1/1 copy lands in front of it and holds nothing; a Fly's zombie for the Whale takes the slot and pushes the released pet back; Rams of a Sheep that died in the same blast take their own slots behind it.",
+   "engine_does": "Same in every tested case.",
+   "implied_engine_change": "None.",
+   "supporting_captures": [
+    "c3-c1-whale-release-m1714808783",
+    "c3-c1-whale-release-p870113",
+    "c3-c2-whale2-release-m1714808783",
+    "c3-c2-whale2-release-p870113",
+    "c3-c3-whale-honey-p870113",
+    "c3-c4-whale-mushroom-p870113",
+    "c3-c5-whale-fly-m1714808783",
+    "c3-c5-whale-fly-p870113",
+    "c3-c5s-whale-shark-m1714808783",
+    "c3-c5s-whale-shark-p870113",
+    "c3-c6-whale-cricket-p870113",
+    "c3-c7-whale-sheep-blast-p870113"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "Level read from the level badge in c1 (Lvl 1) and c2 (Lvl 2) frames.",
+   "real_fights_first_difference_matches_rule": [],
+   "real_fights_consistent_but_not_isolated": [],
+   "evidence_counts": {
+    "constructed_captures": 12,
+    "real_fights": 0,
+    "real_fights_consistent": 0,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R18",
+   "question": "3d",
+   "statement": "Dodo and Crab read current totals, temporary part included: a Crab next to a Fish with 20 permanent and 20 temporary health gains 25% of 40; a Dodo with 4 permanent and 4 temporary attack gives 50% of 8. They read the value at the moment they act (a second Dodo gives half of its already raised attack; a Crab after a Skunk reads the reduced health). Crab's gain rounds up, Dodo's gift rounds down. Equal attack is broken at random, within a team and across teams.",
+   "engine_does": "Same (random tie-break, same rounding).",
+   "implied_engine_change": "None beyond R4.",
+   "supporting_captures": [
+    "c3-d1-crab-round-p870113",
+    "c3-d1t-crab-temp-p870113",
+    "c3-d3t-dodo-temp-p870113",
+    "c3-d4-dodo-chain-m1714808783",
+    "c3-d4-dodo-chain-p870113",
+    "c3-d4t-dodo-tie-m1714808783",
+    "c3-d4t-dodo-tie-m2000000011",
+    "c3-d4t-dodo-tie-m402918337",
+    "c3-d4t-dodo-tie-m987654321",
+    "c3-d4t-dodo-tie-p1203948571",
+    "c3-d4t-dodo-tie-p1999999937",
+    "c3-d4t-dodo-tie-p55555",
+    "c3-d4t-dodo-tie-p870113",
+    "c3-d2c-crab-skunk-tie-m1714808783",
+    "c3-d2c-crab-skunk-tie-m2000000011",
+    "c3-d2c-crab-skunk-tie-m402918337",
+    "c3-d2c-crab-skunk-tie-m987654321",
+    "c3-d2c-crab-skunk-tie-p1203948571",
+    "c3-d2c-crab-skunk-tie-p1999999937",
+    "c3-d2c-crab-skunk-tie-p55555",
+    "c3-d2c-crab-skunk-tie-p870113"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "d2c (Crab 5 against an enemy Skunk 5): Crab first on 3 of 8 seeds, Skunk first on 5. d4t (two Dodos with 8 attack): back Dodo first on 5 of 8 seeds, front Dodo first on 3.",
+   "real_fights_first_difference_matches_rule": [],
+   "real_fights_consistent_but_not_isolated": [],
+   "evidence_counts": {
+    "constructed_captures": 21,
+    "real_fights": 0,
+    "real_fights_consistent": 0,
+    "contradicting": 0
+   }
+  },
+  {
+   "id": "R19",
+   "question": "3g",
+   "statement": "In battle, a food effect that reaches several pets triggers Rabbit once per pet: a level-2 Turtle's Melon to two friends gives each +1 health from the Rabbit. A Seal that receives Melon from a Turtle gives its +1 attack to three friends. (Shop behaviour was not tested; replay injection only reaches battles.)",
+   "engine_does": "Same.",
+   "implied_engine_change": "None.",
+   "supporting_captures": [
+    "c3-g1-rabbit-turtle2-m1714808783",
+    "c3-g1-rabbit-turtle2-p870113",
+    "c3-g2-seal-turtle-p870113"
+   ],
+   "contradicting_captures": [],
+   "confidence": "high",
+   "notes": "",
+   "real_fights_first_difference_matches_rule": [],
+   "real_fights_consistent_but_not_isolated": [],
+   "evidence_counts": {
+    "constructed_captures": 3,
+    "real_fights": 0,
+    "real_fights_consistent": 0,
+    "contradicting": 0
+   }
+  }
+ ],
+ "failing_fights": [
+  {
+   "battle": "07933ed8-38d5-4afc-bbbd-5c81f2f53d93",
+   "set": "340",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": false,
+   "capture": "s3f-07933ed8",
+   "rule": "R5",
+   "first_difference": "after-attack-02",
+   "note": "Rhino+Tiger knock-out chain (Mammoth 9->5->-3, Skunk 16->12->4) resolves before the Wolverines act; then enemy Wolverine twice (-6,-6) and own dead Wolverine once (Skunk 4->1). Engine applies Wolverine before the knock-outs and kills Skunk, Wolverine and Shark. dev-07933ed8 timeline f115-f155."
+  },
+  {
+   "battle": "0c7467fa-24ae-46ec-b25d-1670da21b8d7",
+   "set": "fresh2",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": true,
+   "capture": "s3f-0c7467fa",
+   "rule": "R2",
+   "first_difference": "after-attack-03",
+   "note": "Front Fly dies with a level-1 Fly (10 attack) and a level-2 Parrot holding Fly (15 attack) behind and one free slot: real zombie is 8/8 (+6/+2 Turkey = 14/10), i.e. the higher-attack Parrot reacted; engine summons the level-1 Fly's 4/4 (10/6). s3f-0c7467fa timeline f60-f68."
+  },
+  {
+   "battle": "1f7102db-f0ab-42ba-92f7-a8547689fd3b",
+   "set": "fresh",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-1f7102db",
+   "rule": "R16",
+   "first_difference": "start",
+   "note": "Dolphin (14 attack) kills the Crab 4/4 before it acts; real Crab removed, engine keeps it at 4/8. s3f-1f7102db timeline f34-f43."
+  },
+  {
+   "battle": "262f5055-81a2-4e77-ba85-56a960760a28",
+   "set": "340",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-262f5055",
+   "rule": "R12-consistent",
+   "first_difference": "after-attack-04",
+   "note": "Dog (base 9/4, garlic no) has taken damage and lives on its battle-only buffs; real Dog is 19/5 before attack 4 and survives the Rhino knock-out hit at 19/1; every engine seed has it at 15/3 (two friend-summoned buffs missing) and kills it. Same signature as 31eb2b55; the engine cause was not checked for this fight. s3f-262f5055 timeline f89-f104."
+  },
+  {
+   "battle": "2831f868-5088-400d-bb2a-1baf152739a4",
+   "set": "fresh2",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": true,
+   "capture": "s3f-2831f868",
+   "rule": "R9",
+   "first_difference": "after-attack-04",
+   "note": "Snake L2 with a level-1 Tiger behind: shots 2 (Dragon -10, Ox -5), 2 (Dragon -10, Ox -5), then 1 (Skunk -10) with no repeat: five in all. Engine adds a sixth (-5 on the Ox), which later lets the Tiger's attack kill the Ox (22/3 instead of 22/8) and flips the winner. s3f-2831f868 timeline f48-f94."
+  },
+  {
+   "battle": "2ad6ecd6-bf67-4921-969c-ef57c7edf596",
+   "set": "fresh",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": false,
+   "capture": "s3f-2ad6ecd6",
+   "rule": "R13",
+   "first_difference": "start",
+   "note": "Opponent board is empty: the client shows the five pets unchanged (Armadillo gives no +8) and ends; archive equals the starting board. Engine runs Armadillo and reports +8 health on every pet. s3f-2ad6ecd6 timeline f15 (28 frames unchanged)."
+  },
+  {
+   "battle": "31eb2b55-b65a-4850-b5fb-94ff18ba88a5",
+   "set": "340",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": true,
+   "capture": "s3f-31eb2b55",
+   "rule": "R12",
+   "first_difference": "after-attack-04",
+   "note": "Dog at 9/1 (alive on its own battle-only health; permanent health used up) should gain +2/+1 for each of two Rams and a Bus -> 15/4 (real). Engine logs the three Dog triggers but leaves 9/1: its no-buff-for-a-pet-at-0-health check tests permanent health only. s3f-31eb2b55 timeline f94-f113."
+  },
+  {
+   "battle": "33dca0e0-a94a-4c0f-9fa7-b4a9866add02",
+   "set": "340",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-33dca0e0",
+   "rule": "R1-consistent",
+   "first_difference": "after-attack-01",
+   "note": "Deer (attack), Scorpion and Shark (Snake+Tiger shots) die in one exchange; two free slots; real zombie flies replace Deer and Scorpion (ZF, ZF, Bus, Fly, Bee), engine picks Deer and Shark by attack (ZF, Bus, Fly, ZF, Bee). Deaths are not from one blast, so this is consistent with R1 rather than a direct instance. dev-33dca0e0 timeline f64-f82."
+  },
+  {
+   "battle": "364ffdfa-4928-4fad-a1d3-afd936a7b744",
+   "set": "fresh4",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-364ffdfa",
+   "rule": "UNEXPLAINED",
+   "first_difference": "-",
+   "note": "Random fight (Blowfish L2 + Tiger, Hedgehog, Wolverine). With label lag allowed an engine seed follows every round; the archived end (Dodo 29/1 and a 20/5 pet) was not reached in 300 seeds. No single first difference isolated."
+  },
+  {
+   "battle": "44f50389-f1dd-4185-b195-15a8ed69c24c",
+   "set": "fresh2",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": true,
+   "capture": "s3f-44f50389",
+   "rule": "R5",
+   "first_difference": "after-attack-05",
+   "note": "Rhino kills Deer; knock-out hit takes Turtle 9->5, then Wolverine and its Tiger repeat floor it at 1 (alive). Engine applies Wolverine first (9->6->1), the knock-out then kills the Turtle and chains on. Strict mismatch at attack 2 is label lag on the Turtle (one of two Mammoth buffs shown; 9-4=5 later proves 13/9). s3f-44f50389 timeline f122-f142."
+  },
+  {
+   "battle": "464525d6-5af6-4c52-a809-1d7b286aafd7",
+   "set": "fresh",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-464525d6",
+   "rule": "R5-consistent",
+   "first_difference": "after-attack-02",
+   "note": "Rhino L2 knocks out the Elephant while both Wolverines L2 reach their count: real ends the exchange with Blowfish, Tiger, Mammoth and Wolverine all at 1 health (removal floors after the knock-out hit); the engine's best seed has only the Wolverine left (removal first, then the knock-out chain). Random fight (Blowfish shots), read from one capture only. s3f-464525d6 timeline f50-f75."
+  },
+  {
+   "battle": "4664ea1e-15c3-49f0-80ae-494638545d33",
+   "set": "340",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": true,
+   "capture": "s3f-4664ea1e",
+   "rule": "R3",
+   "first_difference": "start",
+   "note": "Whale swallows Deer, Crocodile kills the back Turkey: real Cat, Bus, Whale, Fly, Zombie Fly (the one free slot goes to the Turkey's zombie); engine Cat, Zombie Fly, Bus, Whale, Fly. Rebuilt as h6, 8/8 seeds same as real. dev-4664ea1e frames tl/f0057, tl/f0063; re-captured as s3f-4664ea1e."
+  },
+  {
+   "battle": "4691b0e0-6680-4adc-81d5-3241da86b74b",
+   "set": "fresh2",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": false,
+   "capture": "s3f-4691b0e0",
+   "rule": "R14",
+   "first_difference": "start",
+   "note": "Skunk L2 removes 66% of the Rat's 50 health: real 40/16 (34 removed), engine 40/17 (33). One health later decides the fight (real Rat dies to an 18 hit, engine Rat survives at 1). Consistent with the game computing 0.66 x 50 in single precision (33.0000013) and rounding up. s3f-4691b0e0 timeline f39-f98."
+  },
+  {
+   "battle": "48421d51-b9a5-4e60-9086-81b2fceecf45",
+   "set": "fresh2",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": false,
+   "capture": "s3f-48421d51",
+   "rule": "R5b",
+   "first_difference": "after-attack-02",
+   "note": "Rounds agree up to label lag; the end differs by one health: real/archive enemy Rhino 50/1, engine 50/2. Real shows three -6 removals in the last chain (14->8->2->1), engine two. Count: the Parrot holding Wolverine dies in the Hedgehog blast, then two Rhino knock-out hits land on the friendly Wolverine; with those two hurts its count reaches 8 (second activation). The engine does not get the third activation (hurts in the knock-out phase after the observer died are not counted, or are counted after the activations have already run). s3f-48421d51 timeline f101-f127 and terminal frame."
+  },
+  {
+   "battle": "4c67157e-84ad-4492-b112-93edae33dc1a",
+   "set": "340",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-4c67157e",
+   "rule": "R4",
+   "first_difference": "start",
+   "note": "Dodo L2 gives Leopard +22 (35 attack); real Leopard shoots before the enemy Skunk L2 (14): Peacock 19->2, then Skunk removes 66% of Shark 12. Engine lets Skunk act first (Peacock 19->6). dev-4c67157e timeline f36-f47."
+  },
+  {
+   "battle": "4d928b02-75f6-42eb-984a-8575fca47de2",
+   "set": "fresh",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-4d928b02",
+   "rule": "R1/R2-consistent",
+   "first_difference": "after-attack-04",
+   "note": "Two Flies (level 2 with 8 attack, level 1 with 4) behind a Mushroom Hedgehog L2. After attack 4 the real team still has an extra 8/4 pet that no engine seed (300) has; zombie-fly bookkeeping differs (which Fly reacts, in which order). Not traced event by event. s3f-4d928b02 timeline f87-f113."
+  },
+  {
+   "battle": "513bcff6-d97c-4380-9b21-c392c889ae0f",
+   "set": "fresh",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-513bcff6",
+   "rule": "R16",
+   "first_difference": "start",
+   "note": "Dolphin (13 attack) kills the Crab 4/4 before it acts; real Crab removed, engine keeps it alive (4/6). s3f-513bcff6 timeline f35-f44."
+  },
+  {
+   "battle": "529f794d-2b61-4f43-99ff-f12294ceeb49",
+   "set": "fresh3",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-529f794d",
+   "rule": "R16",
+   "first_difference": "start",
+   "note": "Both Leopards hit the enemy Crab L2 (9 health -> 3 -> -2) before it acts (attack tie with the second Leopard); real Crab is dead and removed. In the engine a Crab at or below 0 still gains 50% of the Worm's health and lives (10/19 or 10/14), so no seed reaches the real start. s3f-529f794d timeline f34-f43."
+  },
+  {
+   "battle": "55252099-498b-4110-90f3-7a675767caf2",
+   "set": "fresh2",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": true,
+   "capture": "s3f-55252099",
+   "rule": "R5",
+   "first_difference": "after-attack-02",
+   "note": "Both Rhinos die; dead Rhino's knock-out hit takes Dodo 7->5, then Wolverine and Parrot-Wolverine floor it at 1; Dodo, Mammoth, Scorpion survive. Engine: Wolverines first, knock-out chain then kills all three. s3f-55252099 timeline f87-f98."
+  },
+  {
+   "battle": "5dccddde-34e5-4a3a-9289-2cc3b91f9c58",
+   "set": "340",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-5dccddde",
+   "rule": "R9",
+   "first_difference": "after-attack-04",
+   "note": "Snake with Tiger: shots 2 (attack 2), 2 (attack 3), then only 1 at attack 4 (Cat 8/4 -> -1, Turkey 6/7 untouched): fifth and last use. Engine fires a sixth shot into the Turkey. dev-5dccddde timeline f65-f104."
+  },
+  {
+   "battle": "5ff086f9-d244-40ca-a3f0-63228dae44ec",
+   "set": "fresh3",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-5ff086f9",
+   "rule": "R16",
+   "first_difference": "start",
+   "note": "Parrot holding Dolphin (9 attack) kills the Crab L2 6/3 before it acts; real Crab removed (enemy starts with Elephant, Hippo, Elephant). Engine: the dead Crab still gains 50% of the Elephant's health and lives at 6/4. s3f-5ff086f9 timeline f39-f47."
+  },
+  {
+   "battle": "646d6abf-84ce-4a63-920c-08bdc3352456",
+   "set": "340",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": false,
+   "capture": "s3f-646d6abf",
+   "rule": "R14",
+   "first_difference": "start",
+   "note": "Skunk L2 against Bison 50/50: real 50/16, engine 50/17; the archive's surviving Bison is 50/16. s3f-646d6abf timeline f37 onward."
+  },
+  {
+   "battle": "6b036ac0-c2d6-4268-889c-17f2276d2248",
+   "set": "fresh",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-6b036ac0",
+   "rule": "R9",
+   "first_difference": "after-attack-02",
+   "note": "Ox (works 1 time per turn) with Tiger behind: when the Leopard ahead faints the real Ox goes 22 -> 23 and stays 23; the engine lets the Tiger repeat it (24). The extra attack costs the Melon Swan one more health at the end (archive Swan 14/7, engine 14/6). s3f-6b036ac0 timeline f47-f65."
+  },
+  {
+   "battle": "6b7a8c78-477e-429f-a54f-f9c69381781d",
+   "set": "fresh",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": false,
+   "capture": "s3f-6b7a8c78",
+   "rule": "R16",
+   "first_difference": "start",
+   "note": "Dolphin L2 (15 attack) kills the Crab 4/4 before the Crab (4 attack) acts; real Crab stays dead and is removed. Engine lets the dead Crab gain 25% of the Cricket's health and keeps it alive at 4/8. s3f-6b7a8c78 timeline f40-f53."
+  },
+  {
+   "battle": "6bc5336c-3932-4144-a6b4-1dd780333598",
+   "set": "fresh2",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-6bc5336c",
+   "rule": "R2",
+   "first_difference": "after-attack-02",
+   "note": "Enemy Fly (level 1, 4 attack) and Parrot L2 holding Fly (7 attack): when the Dolphin dies the real zombie is 8/8 (Parrot's), the engine's 4/4 (Fly's, slot order). s3f-6bc5336c timeline f63-f65."
+  },
+  {
+   "battle": "701fc622-5ec1-4d18-bd07-ba16b2bbaad1",
+   "set": "fresh2",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": true,
+   "capture": "s3f-701fc622",
+   "rule": "R2",
+   "first_difference": "after-attack-01",
+   "note": "Front Scorpion dies; Fly (5 attack, level 1) and Parrot holding Fly (12 attack, level 2): real zombie 8/8, engine 4/4. (Start: two labels show one of two +16 Armadillo buffs, label lag; later hits confirm 35.) s3f-701fc622 timeline f48-f57."
+  },
+  {
+   "battle": "744c55c3-fab4-4194-a7a1-b30566b4128b",
+   "set": "fresh",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": false,
+   "capture": "s3f-744c55c3",
+   "rule": "R13",
+   "first_difference": "start",
+   "note": "Opponent board is empty: the client shows Dog, Otter, Whale, Whale, Cow unchanged (no swallow) and ends. Engine lets a Whale swallow. s3f-744c55c3 timeline f15 (27 frames unchanged)."
+  },
+  {
+   "battle": "75a5646e-1e19-4354-9019-ca65707c52f3",
+   "set": "fresh2",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-75a5646e",
+   "rule": "R16",
+   "first_difference": "start",
+   "note": "Dolphin (8 attack) kills the Crab 4/1 before it acts; real Crab removed. Engine: the dead Crab gains 25% of the Camel's health and is back at 4/1. s3f-75a5646e timeline f34-f40."
+  },
+  {
+   "battle": "7acfd854-1e01-43db-82ac-76f66bcaee6d",
+   "set": "340",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-7acfd854",
+   "rule": "R14",
+   "first_difference": "start",
+   "note": "Skunk L2 on Bison 50/50: real 16, engine 17. With the same Leopard target as the real fight (Shark) the engine follows every round and ends Bison 50/17, Turkey 3/11; archive Bison 50/16. s3f-7acfd854 timeline f40-f92."
+  },
+  {
+   "battle": "7b1311d5-0cc0-4fa2-a174-71e809281949",
+   "set": "fresh",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": false,
+   "capture": "s3f-7b1311d5",
+   "rule": "R9",
+   "first_difference": "after-attack-03",
+   "note": "Hippo L2 with a level-1 Tiger behind: real gains +6/+6, +3/+3, +6/+6 and then stops at 26 attack (archive 26/4). Engine keeps gaining to 38/16. s3f-7b1311d5 timeline f78-f106."
+  },
+  {
+   "battle": "7f8443c4-a4d3-4a0f-8869-30678448b047",
+   "set": "fresh",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-7f8443c4",
+   "rule": "R3",
+   "first_difference": "after-attack-05",
+   "note": "Enemy Rhino L2 + Tiger chain kills Dirty Rat (attack), Dirty Rat, Deer and Bus (knock-outs, front to back); the Fly L2 has two zombies to give. Real: Zombie Fly, Bus, Zombie Fly, Fly (front slot and the last-killed Bus slot served). Engine: Bus, Zombie Fly, Zombie Fly, Fly. Fits most-recent-first if the attack victim is registered after the knock-out victims. s3f-7f8443c4 timeline f97-f115."
+  },
+  {
+   "battle": "80d189e9-515a-4945-90aa-ddc3298b059a",
+   "set": "fresh",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-80d189e9",
+   "rule": "R3",
+   "first_difference": "after-attack-05",
+   "note": "Same team and same chain as 7f8443c4 in another game (different seed): real Zombie Fly, Bus, Zombie Fly, Fly; engine Bus, Zombie Fly, Zombie Fly, Fly. s3f-80d189e9 timeline f106-f131."
+  },
+  {
+   "battle": "8356ce35-444a-4c34-822e-e5c19dad1438",
+   "set": "fresh2",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": true,
+   "capture": "s3f-8356ce35",
+   "rule": "R5",
+   "first_difference": "after-attack-02",
+   "note": "Enemy Rhino L2 knock-out hit (8) takes own Rhino 11->3, then the enemy Wolverine floors it at 1 (alive, 15/1). Engine: Wolverine first (11->8), knock-out kills the Rhino and chains into the Wolverine. s3f-8356ce35 timeline f88-f99."
+  },
+  {
+   "battle": "8747a8b5-90fd-468b-9b93-f6ea4a3161ba",
+   "set": "fresh3",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-8747a8b5",
+   "rule": "R16",
+   "first_difference": "start",
+   "note": "Parrot holding Dolphin (8) kills the Crab L2 6/3, Dolphin (5) then kills the Camel 3/3; real start has neither. In the engine the dead Crab acts, comes back to 3 health and takes the second shot, so the Camel lives. s3f-8747a8b5 timeline f37-f43."
+  },
+  {
+   "battle": "8996092a-9280-4699-a75b-d376e16c8a2e",
+   "set": "fresh2",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-8996092a",
+   "rule": "R2",
+   "first_difference": "after-attack-01",
+   "note": "Fly (6 attack, level 1) and Parrot L2 holding Fly (9 attack): when the front Cat dies the real zombie is 8/8, the engine's 4/4. s3f-8996092a timeline f55-f57."
+  },
+  {
+   "battle": "89f424a1-d8f7-4d78-9166-00f999ecdceb",
+   "set": "340",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-89f424a1",
+   "rule": "R2",
+   "first_difference": "after-attack-03",
+   "note": "Fly (level 1, 7 attack) and Parrot L3 holding Fly (16 attack): when the Bus dies the real zombie is 12/12 (the Parrot's level-3 zombie), the engine's 4/4. s3f-89f424a1 timeline f67-f69."
+  },
+  {
+   "battle": "9001c280-1bcd-4034-ba37-14fdfb5a63d0",
+   "set": "340",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": true,
+   "capture": "s3f-9001c280",
+   "rule": "R4",
+   "first_difference": "start",
+   "note": "Dodo 10 gives Skunk +5 (now 10); real Skunk then acts before Crab L2 (6): Peacock 9->6, Crab gains 50% of Otter 8 = 4 -> 6/7. Engine: Crab first, gains 5 -> 6/8. dev-9001c280 tl/f0047, tl/f0050, tl/f0055."
+  },
+  {
+   "battle": "910a1631-046d-43f9-abc5-3d311e520924",
+   "set": "fresh2",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-910a1631",
+   "rule": "R14",
+   "first_difference": "start",
+   "note": "Skunk L2 on the enemy Dolphin 40/50: real 40/16, engine 40/17; the archived surviving Dolphin is 40/16. s3f-910a1631 timeline f38 onward."
+  },
+  {
+   "battle": "91d310a7-a797-4313-bf3d-337b243819ae",
+   "set": "340",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-91d310a7",
+   "rule": "UNEXPLAINED",
+   "first_difference": "-",
+   "note": "Random fight with Snake + Tiger behind a Whale (R9 would apply) and 114 engine round sequences; with label lag allowed a seed follows every round, but the archived end (Swan 17/10 alone) is not reached. Snake shots were not counted one by one; candidate R9."
+  },
+  {
+   "battle": "92e0b53f-5f7b-4765-9454-d36de0b56b1b",
+   "set": "340",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": false,
+   "capture": "s3f-92e0b53f",
+   "rule": "R4",
+   "first_difference": "start",
+   "note": "Dodo L2 gives Skunk +9 (12 attack); real Skunk acts second and removes 33% of the enemy Dodo (6->4); after the Hedgehog blasts the enemy Crab 7/2 is the survivor. Engine runs Skunk last (starting attack 3) and leaves the enemy Dodo 5/2 instead. s3f-92e0b53f timeline f39-f73."
+  },
+  {
+   "battle": "92eb585b-6b9b-46a5-b588-3c1abb44e75b",
+   "set": "340",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-92eb585b",
+   "rule": "UNEXPLAINED",
+   "first_difference": "-",
+   "note": "Random fight (Badger, Snake + Tiger L2, Chili Deer, Parrot-Deer, Fly). Before attack 5 the real Tiger is at 6 health where the engine's closest seed has 20; the cause was not isolated (candidates: R9 Snake limit, R3 zombie order)."
+  },
+  {
+   "battle": "95ca0a3c-65c4-4f48-8692-5c6d6e3e08c4",
+   "set": "fresh",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": true,
+   "capture": "s3f-95ca0a3c",
+   "rule": "R4",
+   "first_difference": "start",
+   "note": "Dodo 14 gives Armadillo +7 (12 attack); real Armadillo (+8 health to all) acts before the enemy Dolphin (7), so the Giraffe (4->12) survives the Dolphin shot at 8. Engine keeps Armadillo at its starting 5, Dolphin shoots first and kills the Giraffe. s3f-95ca0a3c timeline f37-f56."
+  },
+  {
+   "battle": "975bfbc7-4be4-4bfa-869b-a4d1d0bff846",
+   "set": "fresh2",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": true,
+   "capture": "s3f-975bfbc7",
+   "rule": "R8",
+   "first_difference": "start",
+   "note": "Crocodile and Parrot-Crocodile kill Tiger, Turkey and the Parrot holding Deer at the back; real one Bus. Engine summons two Buses (repeat by the Tiger that died in the same phase). s3f-975bfbc7 timeline f36-f44."
+  },
+  {
+   "battle": "9a5f60c1-470f-404c-af76-14db4a0e6399",
+   "set": "fresh2",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-9a5f60c1",
+   "rule": "R14",
+   "first_difference": "start",
+   "note": "Skunk L2 on the enemy Elephant 41/50: real 41/16, engine 41/17. The first attack (16 damage) then kills the real Elephant; the engine's survives at 1. s3f-9a5f60c1 timeline f39-f57."
+  },
+  {
+   "battle": "9f89c3cb-02b8-4cf6-846a-1b88d4c360a4",
+   "set": "fresh",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": true,
+   "capture": "s3f-9f89c3cb",
+   "rule": "R9",
+   "first_difference": "after-attack-03",
+   "note": "Hippo L3 with a level-1 Tiger behind: real gains +9/+9, +3/+3 (Tiger's repeat), +9/+9 and then nothing on the third knock-out: attack 20 -> 41 and stays 41. Engine keeps repeating (32, 44, 50), so its Hippo hits the Melon Shark for 30 instead of 21. s3f-9f89c3cb timeline f91-f141."
+  },
+  {
+   "battle": "a06efcdf-f7f9-4af3-abb7-980b6cb9151f",
+   "set": "340",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-a06efcdf",
+   "rule": "UNEXPLAINED",
+   "first_difference": "after-attack-05",
+   "note": "Random fight with three Spiders. Rounds 1 to 4 are matched by engine seeds; in round 5 a Spider-summoned 2/2 (a Badger by its effect: 1 damage to both neighbours when it faints, which kills the Elephant at 7/1) decides the exchange, and none of 300 seeds has that combination. May be plain rarity (species drawn from the tier-3 pool) rather than a rule. dev-a06efcdf timeline f105-f163."
+  },
+  {
+   "battle": "a3b3ce27-71bf-4388-ba0f-fa8c55d1cabf",
+   "set": "fresh2",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-a3b3ce27",
+   "rule": "R9-consistent",
+   "first_difference": "after-attack-04",
+   "note": "Random fight with Snake L2 + Tiger on one side and a Snake on the other. Late in the fight the real enemy Dog stands at 36/42 where the engine's closest seed has it at 36/5: the engine's Snake pair keeps shooting after the five uses. Shots not counted one by one. s3f-a3b3ce27 timeline f102-f122."
+  },
+  {
+   "battle": "aae53e70-555b-4c03-92c8-41ab41932d96",
+   "set": "fresh2",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-aae53e70",
+   "rule": "R16",
+   "first_difference": "start",
+   "note": "Leopard L2 (41 attack, with a Tiger L2 repeat) hits the Crab 25/20 for 20 before the Crab acts: real Crab 25/0, dead and removed. In every engine seed where the Crab is hit it comes back through its own start-of-battle gain (25/4, 29/8). s3f-aae53e70 timeline f35-f60. (The terminal reader took the Leopard's 41 for 4; the frame shows 41/20 as archived.)"
+  },
+  {
+   "battle": "b363f9e9-bc37-444f-8c02-3c83dfd7ea38",
+   "set": "340",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-b363f9e9",
+   "rule": "R9",
+   "first_difference": "after-attack-05",
+   "note": "Snake L2 with a Tiger behind, firing when the Ox ahead attacks: 2 shots, 2 shots, then a single 10 (Wolverine 18->8) with no repeat, then none; the engine's seeds all have a second shot there (Deer 14->4 or Wolverine below 8). The middle pair was read with one unread label. dev-b363f9e9 timeline f95-f145; re-captured as s3f-b363f9e9."
+  },
+  {
+   "battle": "b63cdbf5-e674-4957-8b05-555c21512dec",
+   "set": "fresh",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-b63cdbf5",
+   "rule": "R4",
+   "first_difference": "start",
+   "note": "Dodo 9 gives Armadillo +4 (8 attack); real Armadillo then acts before the enemy Dolphin (5): the Giraffe gets +8 health and survives the shot. Engine keeps Armadillo at its starting 4, the Dolphin shoots first and kills the Giraffe 3/4. s3f-b63cdbf5 timeline f30-f35."
+  },
+  {
+   "battle": "c0eeec25-a1d7-4738-aa56-18a36dd12c9b",
+   "set": "340",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-c0eeec25",
+   "rule": "R3+R2",
+   "first_difference": "after-attack-01",
+   "note": "Deer L2 dies in the attack and the Blowfish's hurt shot kills the back Monkey; one free slot. Real: the zombie (8/8, from the higher-attack Parrot holding Fly) takes the Deer's front slot and pushes the Bus back: Zombie Fly, Bus, Gorilla, Fly, Parrot. No engine seed has that board. Fits R3 (attack victim served before the ability victim). s3f-c0eeec25 timeline f38-f53."
+  },
+  {
+   "battle": "c712cc5b-07db-4137-a082-0f2647f92913",
+   "set": "fresh",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": false,
+   "capture": "s3f-c712cc5b",
+   "rule": "R13",
+   "first_difference": "start",
+   "note": "Opponent board is empty: the client shows the five pets unchanged (no swallow, no Mushroom Mammoth change) and ends. s3f-c712cc5b timeline f15 (30 frames unchanged)."
+  },
+  {
+   "battle": "c804ffcf-bfca-4efe-9f43-c4b9cceb18ab",
+   "set": "fresh",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-c804ffcf",
+   "rule": "UNEXPLAINED",
+   "first_difference": "-",
+   "note": "Random fight (enemy Snake L2 and Parrot holding Snake, Wolverine L2 with Chili). By attack 5 the real Turkey is already its 1/1 Mushroom copy while the engine's closest seed still has the original 8/9; the earlier point where it died was not isolated."
+  },
+  {
+   "battle": "ce8e3574-cfb9-4cd3-954f-f3cc751d8530",
+   "set": "fresh2",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-ce8e3574",
+   "rule": "UNEXPLAINED",
+   "first_difference": "-",
+   "note": "Random fight with Fly holders on both sides. At attack 3 a friend dies on each side with a free slot and neither side's Fly summons a zombie, although by count each should have uses left (own zombie deaths aside). Possible that failed reactions on a full board spend uses; test k3 addresses this. s3f-ce8e3574 timeline f59-f77."
+  },
+  {
+   "battle": "cef2483f-3b7b-4944-9a0f-78fb2221f584",
+   "set": "fresh2",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": true,
+   "capture": "s3f-cef2483f",
+   "rule": "R5",
+   "first_difference": "after-attack-03",
+   "note": "Enemy Rhino L2 knock-out hit (8) takes own Rhino 11->3 before the enemy Wolverine L2 removal floors it at 1 (real 19/1 alive, Wolverine 14/12). Engine: removal first, knock-out kills the Rhino and chains into the Wolverine (14/4). s3f-cef2483f timeline f97-f123."
+  },
+  {
+   "battle": "d0b33785-acdf-4c86-98cf-d6757769fced",
+   "set": "340",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": false,
+   "capture": "s3f-d0b33785",
+   "rule": "R4",
+   "first_difference": "start",
+   "note": "Dodo L2 gives Whale +17 (20 attack); real Whale swallows the front Deer before Dolphin L2 (10) shoots, so the second Dolphin shot hits Dodo (13->11) not the Deer; engine shoots the Deer first and leaves Dodo at 13. dev-d0b33785 tl/f0052, tl/f0056, tl/f0065."
+  },
+  {
+   "battle": "d26f1b24-8d54-4244-8ace-86b1c87e0e1c",
+   "set": "340",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-d26f1b24",
+   "rule": "R3+R2",
+   "first_difference": "after-attack-01",
+   "note": "Same shape as c0eeec25 in another game: Deer L2 dies in the attack, the Blowfish's shot kills the back Monkey, one free slot. Real: Zombie Fly 8/8 (Parrot's), Bus, Gorilla, Fly, Parrot. s3f-d26f1b24 timeline f36-f47."
+  },
+  {
+   "battle": "d95df6ba-e7ff-4d15-b89c-781abcac1d01",
+   "set": "fresh2",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": false,
+   "capture": "s3f-d95df6ba",
+   "rule": "R2-consistent",
+   "first_difference": "after-attack-09",
+   "note": "Two Fly holders (Fly L2 12 attack, Parrot L2 holding Fly 15 attack). When the Fly itself dies at attack 9 the real game summons no zombie (only the Mushroom Fly 1/1 returns); the engine still summons an 8/8. Consistent with the higher-attack Parrot having spent its three uses first; the engine spends them in slot order. Zombie counts earlier in the fight were not tallied one by one. s3f-d95df6ba timeline f135-f153."
+  },
+  {
+   "battle": "dda8b4ec-684f-4bb3-936e-aa8584f868b2",
+   "set": "fresh",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": false,
+   "capture": "s3f-dda8b4ec",
+   "rule": "R3",
+   "first_difference": "start",
+   "note": "Crocodile (12) kills the back Shark, then Dodo buffs the Whale to 16 and it swallows the front Deer; one free slot. Real zombie fly takes the Deer's front slot and pushes the Bus back (Zombie Fly, Bus, Whale, Dodo, Fly); engine puts it in the Shark's slot at the back (Bus, Whale, Dodo, Fly, Zombie Fly). Together with 4664ea1e/h6 (where the swallow came first and the zombie went to the sniped pet) this points to: the most recent death is served first. s3f-dda8b4ec timeline f35-f58."
+  },
+  {
+   "battle": "e0bdb7ba-4a85-4ccf-9123-e9517db98060",
+   "set": "340",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-e0bdb7ba",
+   "rule": "R17-consistent",
+   "first_difference": "after-attack-02",
+   "note": "Random fight. Enemy Rhino L2 (Tiger behind) dies in the exchange with the Elephant and its Tiger dies to Blowfish shots; the archive's Crab ends 20/7 where every engine end has 20/15: one more 8-damage knock-out link in the real game. Chain not read hit by hit. s3f-e0bdb7ba timeline f64-f75."
+  },
+  {
+   "battle": "e9018f58-a4d1-4fd8-8514-11703da0d82b",
+   "set": "fresh2",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-e9018f58",
+   "rule": "R2",
+   "first_difference": "after-attack-02",
+   "note": "Enemy Fly (level 1, 11 attack) and Parrot L2 holding Fly (13 attack): when the Mushroom Scorpion's copy dies the real zombie is 8/8; engine seeds give the Fly's 4/4. s3f-e9018f58 timeline f65-f81."
+  },
+  {
+   "battle": "ede958be-e4e4-4076-998d-17ab33ccf95f",
+   "set": "340",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": false,
+   "capture": "s3f-ede958be",
+   "rule": "R14+R17",
+   "first_difference": "start",
+   "note": "Two differences. Start: Skunk L2 on Bison 50/50 leaves 16 (engine 17). Attack 2: Rhino and its Tiger both die in the exchange (Chili Bus); the real knock-out chain goes on through Skunk, Turkey, Turtle and Shark (labels: Skunk -1; Turkey 2 then -2; Turtle -2; Shark 1 then -3) and empties the enemy board. The engine's chain stops after four hits and leaves Turtle 5/2 and Shark 13/11. s3f-ede958be timeline f35 and f55-f76."
+  },
+  {
+   "battle": "f75f23cc-4771-4874-9c54-155d15430a68",
+   "set": "fresh",
+   "deterministic_in_engine": false,
+   "engine_wrong_winner": false,
+   "capture": "s3f-f75f23cc",
+   "rule": "R4-consistent",
+   "first_difference": "after-attack-01",
+   "note": "Dodo L2 gives the Leopard +17 (29 attack); in the real fight nothing is released when the Whale later dies and no other pet was damaged at start, i.e. the Leopard (29) shot the front Scorpion before the Whale (16) could swallow it. In the engine the Whale always swallows first (Leopard counted at its starting 12), the shot lands elsewhere and a Scorpion is released at the Whale's death. s3f-f75f23cc timeline f40-f67."
+  },
+  {
+   "battle": "fa0b28f6-01b7-4d2d-b9ae-364769d7d6e5",
+   "set": "fresh2",
+   "deterministic_in_engine": true,
+   "engine_wrong_winner": true,
+   "capture": "s3f-fa0b28f6",
+   "rule": "R8",
+   "first_difference": "after-attack-06",
+   "note": "Deer 8/5 with Tiger 8/1 behind attacks a Chili Bus: Deer dies and the splash kills the Tiger in the same exchange; real one Bus 5/3, engine two (repeat by the dead Tiger). s3f-fa0b28f6 timeline f124-f126."
+  }
+ ],
+ "unexplained": [
+  "364ffdfa-4928-4fad-a1d3-afd936a7b744",
+  "91d310a7-a797-4313-bf3d-337b243819ae",
+  "92eb585b-6b9b-46a5-b588-3c1abb44e75b",
+  "a06efcdf-f7f9-4af3-abb7-980b6cb9151f",
+  "c804ffcf-bfca-4efe-9f43-c4b9cceb18ab",
+  "ce8e3574-cfb9-4cd3-954f-f3cc751d8530"
+ ],
+ "notes": [
+  "N1 label lag: when a pet is hit or buffed twice in quick succession (Tiger repeat, two Wolverines, Snake plus Tiger, two Mammoth buffs), the client's label shows the first change only until that pet's next change. Seen in f2x (Tiger label 18, then 12 after a 4-damage hit, so the true value was 16), e4, f9, f10, f11 and in real fights (44f50389 Turtle). A terminal frame can therefore be one change stale; the archived ResultingBoard is the truth where the two disagree (this also explains session 2's 6b2e1d99, client 8/9 against archive 8/8).",
+  "The anchor game sits at turn 2 (one turn played); the rewatch arrow is already present there.",
+  "Shop-seed playback test (coordinator's late addition) was not run: it needs a locally altered playback response; the tool change was refused by the permission system and the user's limit names battle/get as the only response that may be altered. Needs explicit user approval.",
+  "Rounding seen along the way: Crab's gain and Skunk's removal round up (25% of 26 -> 7, of 13 -> 4; 33% of 30 -> 10, of 20 -> 7, of 40 -> 14)."
+ ]
+}

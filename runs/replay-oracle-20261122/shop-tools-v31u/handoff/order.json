@@ -1,0 +1,51 @@
+{
+  "common_turn_comparisons": {
+    "content": {
+      "(False, False)": 211,
+      "(False, True)": 13,
+      "(True, True)": 6506
+    },
+    "foodOrder": {
+      "(False, False)": 1738,
+      "(True, True)": 4992
+    },
+    "fullyOrdered": {
+      "(False, False)": 1984,
+      "(False, True)": 12,
+      "(True, True)": 4734
+    },
+    "ids": {
+      "(False, False)": 20,
+      "(True, True)": 6710
+    },
+    "petOrder": {
+      "(False, False)": 154,
+      "(True, True)": 6576
+    }
+  },
+  "food_fd": {
+    "description": "Give an animal Honey Bee.",
+    "effect": {
+      "kind": "ApplyStatus",
+      "status": "status-honey-bee",
+      "to": {
+        "kind": "PurchaseTarget"
+      }
+    },
+    "trigger": "Buy",
+    "triggeredBy": {
+      "kind": "Self"
+    }
+  },
+  "new_witnesses": {
+    "ordered": 1511,
+    "pairs": 2467,
+    "reversed_ordinary": 956
+  },
+  "remaining": 6730,
+  "same_seeds": {
+    "ordered": 1511,
+    "pairs": 2467,
+    "reversed_ordinary": 956
+  }
+}

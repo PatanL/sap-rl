@@ -1,0 +1,11 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/backends/__init__.py:46: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at /opt/pytorch/pytorch/aten/src/ATen/Context.cpp:80.)
+  self.setter(val)
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+512 {'seconds': [2.8664186149835587, 2.49746736115776, 2.4280824190936983, 2.326096585020423], 'decisions': 8194, 'microbatches': 33, 'rate': 3374.679514815843, 'peak': 1480589312}
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+1024 {'seconds': [2.31905925902538, 2.2749695780221373, 2.285540645942092, 2.0582978141028434], 'decisions': 8194, 'microbatches': 26, 'rate': 3601.8064061867053, 'peak': 2548039680}
+1536 {'seconds': [1.9756096680648625, 2.172032678965479, 1.896724179154262, 1.7841740930452943], 'decisions': 8194, 'microbatches': 24, 'rate': 4320.0798988357155, 'peak': 3638558720}

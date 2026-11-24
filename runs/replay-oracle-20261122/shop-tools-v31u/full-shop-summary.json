@@ -1,0 +1,42 @@
+{
+  "curve": [
+    [
+      1,
+      3875
+    ],
+    [
+      64,
+      4632
+    ],
+    [
+      1024,
+      4664
+    ]
+  ],
+  "summary": {
+    "all": {
+      "attempted": 6735,
+      "core": 6596,
+      "content": 6405,
+      "petOrder": 6442,
+      "foodOrder": 4901,
+      "full": 4664
+    },
+    "dev": {
+      "attempted": 4304,
+      "core": 4211,
+      "content": 4089,
+      "petOrder": 4108,
+      "foodOrder": 3135,
+      "full": 2982
+    },
+    "heldout": {
+      "attempted": 2431,
+      "core": 2385,
+      "content": 2316,
+      "petOrder": 2334,
+      "foodOrder": 1766,
+      "full": 1682
+    }
+  }
+}

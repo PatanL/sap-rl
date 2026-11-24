@@ -1,0 +1,628 @@
+{
+  "battle_id": "4b49f5cb-74ad-430c-85d3-c782c96c625a",
+  "recorded_seed": -633632741,
+  "engine_seed": 3661334555,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Spider",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Camel",
+          "attack": 5,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dog",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Peacock",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Peacock",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 7,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Turtle",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rat",
+          "attack": 7,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Camel",
+          "attack": 5,
+          "health": 5,
+          "perk": "status-cake",
+          "slot": 3
+        },
+        {
+          "pet": "Snail",
+          "attack": 4,
+          "health": 6,
+          "perk": "status-cake",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Spider",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Camel",
+          "attack": 5,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dog",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Peacock",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Peacock",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 7,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Turtle",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rat",
+          "attack": 7,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Camel",
+          "attack": 5,
+          "health": 5,
+          "perk": "status-cake",
+          "slot": 3
+        },
+        {
+          "pet": "Snail",
+          "attack": 4,
+          "health": 6,
+          "perk": "status-cake",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Dog",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Camel",
+          "attack": 5,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dog",
+          "attack": 10,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Peacock",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Peacock",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 7,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Turtle",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rat",
+          "attack": 7,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Camel",
+          "attack": 5,
+          "health": 5,
+          "perk": "status-cake",
+          "slot": 3
+        },
+        {
+          "pet": "Snail",
+          "attack": 4,
+          "health": 6,
+          "perk": "status-cake",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Camel",
+          "attack": 5,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dog",
+          "attack": 10,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Peacock",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Peacock",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Turtle",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rat",
+          "attack": 7,
+          "health": 9,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Camel",
+          "attack": 7,
+          "health": 7,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 4,
+          "health": 6,
+          "perk": "status-cake",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Camel",
+          "attack": 5,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dog",
+          "attack": 12,
+          "health": 9,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Peacock",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Peacock",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Rat",
+          "attack": 7,
+          "health": 9,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Camel",
+          "attack": 7,
+          "health": 7,
+          "perk": "status-cake",
+          "slot": 1
+        },
+        {
+          "pet": "Snail",
+          "attack": 4,
+          "health": 6,
+          "perk": "status-cake",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Dog",
+          "attack": 14,
+          "health": 13,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Peacock",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Peacock",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Rat",
+          "attack": 7,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Camel",
+          "attack": 7,
+          "health": 7,
+          "perk": "status-cake",
+          "slot": 1
+        },
+        {
+          "pet": "Snail",
+          "attack": 4,
+          "health": 6,
+          "perk": "status-cake",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Dirty Rat",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dirty Rat",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dog",
+          "attack": 18,
+          "health": 8,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Peacock",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Peacock",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Camel",
+          "attack": 7,
+          "health": 7,
+          "perk": "status-cake",
+          "slot": 0
+        },
+        {
+          "pet": "Snail",
+          "attack": 4,
+          "health": 6,
+          "perk": "status-cake",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [
+        {
+          "pet": "Dirty Rat",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dog",
+          "attack": 18,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Peacock",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Peacock",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Camel",
+          "attack": 7,
+          "health": 6,
+          "perk": "status-cake",
+          "slot": 0
+        },
+        {
+          "pet": "Snail",
+          "attack": 5,
+          "health": 8,
+          "perk": "status-cake",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-07",
+      "player": [
+        {
+          "pet": "Dog",
+          "attack": 18,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Peacock",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Peacock",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Camel",
+          "attack": 7,
+          "health": 5,
+          "perk": "status-cake",
+          "slot": 0
+        },
+        {
+          "pet": "Snail",
+          "attack": 6,
+          "health": 10,
+          "perk": "status-cake",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-08",
+      "player": [
+        {
+          "pet": "Dog",
+          "attack": 18,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Peacock",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Peacock",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Snail",
+          "attack": 7,
+          "health": 12,
+          "perk": "status-cake",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-09",
+      "player": [
+        {
+          "pet": "Peacock",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Peacock",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Peacock",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Peacock",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

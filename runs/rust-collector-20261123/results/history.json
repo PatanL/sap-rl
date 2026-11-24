@@ -1,0 +1,98 @@
+{
+  "decisions_per_live_turn": 12.592643046540184,
+  "long_run": {
+    "learned": 16398782,
+    "matches": 75709,
+    "updates": 2000
+  },
+  "old_proof_battles_per_second": 104.38643412655671,
+  "old_proof_battles_per_seat_decision": 0.03996493697723926,
+  "cost": {
+    "screenM2toM1": 0.9922431125277252,
+    "confirmationM2toM1": 0.9881546622018466,
+    "geometricMeanRatio": 0.9901967772528565,
+    "numericalCostCriteriaPass": true,
+    "requiresMemoryLatencyQueueReview": true,
+    "longRLAutomaticallyLaunched": false,
+    "adopted": false
+  },
+  "strength": {
+    "direct": {
+      "mean": 0.495,
+      "paired95": [
+        0.4550983646636812,
+        0.5349016353363187
+      ],
+      "pairs": 200,
+      "games": 400
+    },
+    "control-parent": {
+      "mean": 0.4625,
+      "paired95": [
+        0.41697835845176245,
+        0.5080216415482376
+      ],
+      "pairs": 200,
+      "games": 400
+    },
+    "equity-parent": {
+      "mean": 0.4725,
+      "paired95": [
+        0.4336975244275218,
+        0.5113024755724781
+      ],
+      "pairs": 200,
+      "games": 400
+    }
+  },
+  "previous_board_indices": [
+    {
+      "checkpoint": "checkpoints/update-025772.pt",
+      "seed": 20261124,
+      "index": 0.31056249999999996,
+      "scores": {
+        "3": 0.41040625,
+        "5": 0.4019375,
+        "7": 0.324984375,
+        "10": 0.24178125,
+        "12": 0.173703125
+      }
+    },
+    {
+      "checkpoint": "runs/train-live-20261123/g-hist-frozen50/update-027022.pt",
+      "seed": 20261124,
+      "index": 0.31218124999999997,
+      "scores": {
+        "3": 0.410609375,
+        "5": 0.40028125,
+        "7": 0.324640625,
+        "10": 0.242671875,
+        "12": 0.182703125
+      }
+    },
+    {
+      "checkpoint": "runs/train-live-20261123/g-hist-frozen50/update-027772.pt",
+      "seed": 20261124,
+      "index": 0.309515625,
+      "scores": {
+        "3": 0.412125,
+        "5": 0.39396875,
+        "7": 0.318796875,
+        "10": 0.228203125,
+        "12": 0.194484375
+      }
+    },
+    {
+      "checkpoint": "checkpoints/update-025772.pt",
+      "seed": 20261125,
+      "index": 0.3070375,
+      "scores": {
+        "3": 0.415390625,
+        "5": 0.381734375,
+        "7": 0.316609375,
+        "10": 0.237703125,
+        "12": 0.18375
+      }
+    }
+  ]
+}

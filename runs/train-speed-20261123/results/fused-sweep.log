@@ -1,0 +1,12 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/backends/__init__.py:46: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at /opt/pytorch/pytorch/aten/src/ATen/Context.cpp:80.)
+  self.setter(val)
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+128 {'seconds': [4.1431956209708005, 3.192652774974704, 3.390111571876332, 3.093433908885345], 'decisions': 8194, 'microbatches': 87, 'rate': 2566.5177448132995, 'peak': 652214272}
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+256 {'seconds': [3.436678346944973, 3.8872993688564748, 3.610536488937214, 3.017496286192909], 'decisions': 8194, 'microbatches': 80, 'rate': 2269.468824122578, 'peak': 933232640}
+512 {'seconds': [3.267866041045636, 3.0153577390592545, 2.957244527991861, 3.232444370863959], 'decisions': 8194, 'microbatches': 77, 'rate': 2717.422179749857, 'peak': 1642070016}
+1024 {'seconds': [2.989921404980123, 3.2498786030337214, 3.8870985039975494, 3.150592247955501], 'decisions': 8194, 'microbatches': 75, 'rate': 2521.3249480614454, 'peak': 2671771648}

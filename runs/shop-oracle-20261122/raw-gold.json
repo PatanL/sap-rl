@@ -1,0 +1,60 @@
+{
+  "stats": {
+    "dev": {
+      "turns": 4745,
+      "action cost equals GoSp": 4745,
+      "budget equals remaining gold": 4745,
+      "roll action count equals Rold": 4745,
+      "spent over ten": 2512,
+      "left gold": 12,
+      "income independently computable": 4411,
+      "independent income matches": 4411,
+      "UID inferred turns": 1209,
+      "UIDs inferred": 1370
+    },
+    "all": {
+      "turns": 7445,
+      "action cost equals GoSp": 7445,
+      "budget equals remaining gold": 7445,
+      "roll action count equals Rold": 7445,
+      "spent over ten": 3999,
+      "left gold": 19,
+      "income independently computable": 6912,
+      "independent income matches": 6912,
+      "UID inferred turns": 1923,
+      "UIDs inferred": 2183
+    },
+    "heldout": {
+      "turns": 2700,
+      "action cost equals GoSp": 2700,
+      "budget equals remaining gold": 2700,
+      "roll action count equals Rold": 2700,
+      "spent over ten": 1487,
+      "left gold": 7,
+      "income independently computable": 2501,
+      "independent income matches": 2501,
+      "UID inferred turns": 714,
+      "UIDs inferred": 813
+    }
+  },
+  "extra": {
+    "incomplete action-only turn 13": 1,
+    "incomplete action-only turn 8": 1
+  },
+  "actions": {
+    "start": 7445,
+    "buy merge": 3474,
+    "buy": 11008,
+    "roll": 20425,
+    "end": 7445,
+    "board merge": 3474,
+    "sell": 5605,
+    "food": 9440,
+    "shop merge": 2
+  },
+  "matches": {
+    "dev": 214,
+    "heldout": 126
+  },
+  "residuals": []
+}

@@ -1,0 +1,2522 @@
+[
+  {
+    "deer": 0,
+    "sheep": 1,
+    "hedgehog": 2,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "ram",
+      "ram",
+      "bus",
+      "fish"
+    ],
+    "native": [
+      "deer",
+      "ram",
+      "ram",
+      "bus",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 1,
+    "hedgehog": 2,
+    "higher": "sheep",
+    "rule": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 1,
+    "hedgehog": 3,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "ram",
+      "ram",
+      "bus",
+      "fish"
+    ],
+    "native": [
+      "deer",
+      "ram",
+      "ram",
+      "bus",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 1,
+    "hedgehog": 3,
+    "higher": "sheep",
+    "rule": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 1,
+    "hedgehog": 4,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "ram",
+      "ram",
+      "bus",
+      "fish"
+    ],
+    "native": [
+      "deer",
+      "ram",
+      "ram",
+      "bus",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 1,
+    "hedgehog": 4,
+    "higher": "sheep",
+    "rule": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 2,
+    "hedgehog": 1,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 2,
+    "hedgehog": 1,
+    "higher": "sheep",
+    "rule": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 2,
+    "hedgehog": 3,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 2,
+    "hedgehog": 3,
+    "higher": "sheep",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 2,
+    "hedgehog": 4,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 2,
+    "hedgehog": 4,
+    "higher": "sheep",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 3,
+    "hedgehog": 1,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 3,
+    "hedgehog": 1,
+    "higher": "sheep",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 3,
+    "hedgehog": 2,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 3,
+    "hedgehog": 2,
+    "higher": "sheep",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 3,
+    "hedgehog": 4,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 3,
+    "hedgehog": 4,
+    "higher": "sheep",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 4,
+    "hedgehog": 1,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 4,
+    "hedgehog": 1,
+    "higher": "sheep",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 4,
+    "hedgehog": 2,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 4,
+    "hedgehog": 2,
+    "higher": "sheep",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 4,
+    "hedgehog": 3,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 0,
+    "sheep": 4,
+    "hedgehog": 3,
+    "higher": "sheep",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 0,
+    "hedgehog": 2,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 0,
+    "hedgehog": 2,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "deer",
+      "bus",
+      "ram",
+      "fish"
+    ],
+    "native": [
+      "ram",
+      "deer",
+      "bus",
+      "ram",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 0,
+    "hedgehog": 3,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 0,
+    "hedgehog": 3,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "deer",
+      "bus",
+      "ram",
+      "fish"
+    ],
+    "native": [
+      "ram",
+      "deer",
+      "bus",
+      "ram",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 0,
+    "hedgehog": 4,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 0,
+    "hedgehog": 4,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "deer",
+      "bus",
+      "ram",
+      "fish"
+    ],
+    "native": [
+      "ram",
+      "deer",
+      "bus",
+      "ram",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 2,
+    "hedgehog": 0,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "ram",
+      "ram",
+      "bus",
+      "fish"
+    ],
+    "native": [
+      "deer",
+      "ram",
+      "ram",
+      "bus",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 2,
+    "hedgehog": 0,
+    "higher": "sheep",
+    "rule": [
+      "bus",
+      "deer",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "native": [
+      "bus",
+      "deer",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 2,
+    "hedgehog": 3,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "ram",
+      "ram",
+      "bus"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "ram",
+      "ram",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 2,
+    "hedgehog": 3,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 2,
+    "hedgehog": 4,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "ram",
+      "ram",
+      "bus"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "ram",
+      "ram",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 2,
+    "hedgehog": 4,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 3,
+    "hedgehog": 0,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "ram",
+      "ram",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 3,
+    "hedgehog": 0,
+    "higher": "sheep",
+    "rule": [
+      "bus",
+      "deer",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "bus",
+      "deer",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 3,
+    "hedgehog": 2,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 3,
+    "hedgehog": 2,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 3,
+    "hedgehog": 4,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 3,
+    "hedgehog": 4,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 4,
+    "hedgehog": 0,
+    "higher": "deer",
+    "rule": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "deer",
+      "bus",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 4,
+    "hedgehog": 0,
+    "higher": "sheep",
+    "rule": [
+      "bus",
+      "deer",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "bus",
+      "deer",
+      "fish",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 4,
+    "hedgehog": 2,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 4,
+    "hedgehog": 2,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 4,
+    "hedgehog": 3,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 1,
+    "sheep": 4,
+    "hedgehog": 3,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 0,
+    "hedgehog": 1,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 0,
+    "hedgehog": 1,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 0,
+    "hedgehog": 3,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 0,
+    "hedgehog": 3,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 0,
+    "hedgehog": 4,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 0,
+    "hedgehog": 4,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 1,
+    "hedgehog": 0,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "deer",
+      "bus",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 1,
+    "hedgehog": 0,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "bus",
+      "deer",
+      "ram",
+      "fish"
+    ],
+    "native": [
+      "ram",
+      "bus",
+      "deer",
+      "ram",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 1,
+    "hedgehog": 3,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 1,
+    "hedgehog": 3,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "deer",
+      "bus",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "deer",
+      "bus",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 1,
+    "hedgehog": 4,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 1,
+    "hedgehog": 4,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "deer",
+      "bus",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "deer",
+      "bus",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 3,
+    "hedgehog": 0,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "ram",
+      "ram",
+      "bus"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "ram",
+      "ram",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 3,
+    "hedgehog": 0,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "bus",
+      "deer",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "bus",
+      "deer",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 3,
+    "hedgehog": 1,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "ram",
+      "ram",
+      "bus"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "ram",
+      "ram",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 3,
+    "hedgehog": 1,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "bus",
+      "deer",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "bus",
+      "deer",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 3,
+    "hedgehog": 4,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "ram",
+      "ram",
+      "bus"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "ram",
+      "ram",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 3,
+    "hedgehog": 4,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "bus",
+      "deer",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "bus",
+      "deer",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 4,
+    "hedgehog": 0,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 4,
+    "hedgehog": 0,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "bus",
+      "deer",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "bus",
+      "deer",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 4,
+    "hedgehog": 1,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 4,
+    "hedgehog": 1,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "bus",
+      "deer",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "bus",
+      "deer",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 4,
+    "hedgehog": 3,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 2,
+    "sheep": 4,
+    "hedgehog": 3,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "bus",
+      "deer",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "bus",
+      "deer",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 0,
+    "hedgehog": 1,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 0,
+    "hedgehog": 1,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 0,
+    "hedgehog": 2,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 0,
+    "hedgehog": 2,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 0,
+    "hedgehog": 4,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 0,
+    "hedgehog": 4,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 1,
+    "hedgehog": 0,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 1,
+    "hedgehog": 0,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "ram",
+      "bus",
+      "deer",
+      "fish"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "bus",
+      "deer",
+      "fish"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 1,
+    "hedgehog": 2,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 1,
+    "hedgehog": 2,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 1,
+    "hedgehog": 4,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 1,
+    "hedgehog": 4,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 2,
+    "hedgehog": 0,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 2,
+    "hedgehog": 0,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "bus",
+      "deer",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "bus",
+      "deer",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 2,
+    "hedgehog": 1,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 2,
+    "hedgehog": 1,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "bus",
+      "deer",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "bus",
+      "deer",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 2,
+    "hedgehog": 4,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "deer",
+      "bus"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 2,
+    "hedgehog": 4,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "bus",
+      "deer",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "bus",
+      "deer",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 4,
+    "hedgehog": 0,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 4,
+    "hedgehog": 0,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "bus",
+      "deer",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "bus",
+      "deer",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 4,
+    "hedgehog": 1,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 4,
+    "hedgehog": 1,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "bus",
+      "deer",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "bus",
+      "deer",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 4,
+    "hedgehog": 2,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "deer",
+      "bus",
+      "ram",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 3,
+    "sheep": 4,
+    "hedgehog": 2,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "bus",
+      "deer",
+      "ram"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "bus",
+      "deer",
+      "ram"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 0,
+    "hedgehog": 1,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 0,
+    "hedgehog": 1,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 0,
+    "hedgehog": 2,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 0,
+    "hedgehog": 2,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 0,
+    "hedgehog": 3,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 0,
+    "hedgehog": 3,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 1,
+    "hedgehog": 0,
+    "higher": "deer",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 1,
+    "hedgehog": 0,
+    "higher": "sheep",
+    "rule": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "ram",
+      "ram",
+      "fish",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 1,
+    "hedgehog": 2,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 1,
+    "hedgehog": 2,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 1,
+    "hedgehog": 3,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 1,
+    "hedgehog": 3,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 2,
+    "hedgehog": 0,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 2,
+    "hedgehog": 0,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 2,
+    "hedgehog": 1,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 2,
+    "hedgehog": 1,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 2,
+    "hedgehog": 3,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 2,
+    "hedgehog": 3,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 3,
+    "hedgehog": 0,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "bus",
+      "ram",
+      "ram",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "bus",
+      "ram",
+      "ram",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 3,
+    "hedgehog": 0,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 3,
+    "hedgehog": 1,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "bus",
+      "ram",
+      "ram",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "bus",
+      "ram",
+      "ram",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 3,
+    "hedgehog": 1,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 3,
+    "hedgehog": 2,
+    "higher": "deer",
+    "rule": [
+      "fish",
+      "bus",
+      "ram",
+      "ram",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "bus",
+      "ram",
+      "ram",
+      "deer"
+    ],
+    "match": true
+  },
+  {
+    "deer": 4,
+    "sheep": 3,
+    "hedgehog": 2,
+    "higher": "sheep",
+    "rule": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "native": [
+      "fish",
+      "ram",
+      "ram",
+      "bus",
+      "deer"
+    ],
+    "match": true
+  }
+]

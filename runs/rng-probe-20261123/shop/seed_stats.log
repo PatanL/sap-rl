@@ -1,0 +1,61 @@
+seed-bearing actions 254530
+min 1410 max 2147449700 negative 0  (2^31-1 = 2147483647 )
+top-8-bit bins: chi2 263.0 on 255 dof (z +0.35)
+bit balance: worst bit 14 mean 0.5015 (z +1.48); 31 bits tried
+seed mod 2: chi2 0.0 on 1 dof (z -0.68)
+seed mod 3: chi2 1.8 on 2 dof (z -0.09)
+seed mod 5: chi2 3.6 on 4 dof (z -0.13)
+seed mod 7: chi2 4.3 on 6 dof (z -0.50)
+seed mod 10: chi2 5.3 on 9 dof (z -0.87)
+seed mod 16: chi2 4.5 on 15 dof (z -1.92)
+seed mod 60: chi2 51.2 on 59 dof (z -0.72)
+seed mod 64: chi2 48.2 on 63 dof (z -1.32)
+seed mod 1000: chi2 937.6 on 999 dof (z -1.37)
+mean / 2^31 = 0.5004555109132057 (uniform: 0.5, sd 0.00057)
+  type 4: n 28646 mean/2^31 0.5002
+  type 5: n 73204 mean/2^31 0.5023
+  type 6: n 57956 mean/2^31 0.4991
+  type 7: n 12176 mean/2^31 0.4989
+  type 8: n 34100 mean/2^31 0.5004
+  type 9: n 19817 mean/2^31 0.5014
+  type 11: n 28631 mean/2^31 0.4988
+duplicate seed values: 16 (pairs 16); birthday expectation for uniform 31-bit: 15.1
+   seed 269984126 [('0d91f1da', '86b767', 't7', 'type9', -491494559), ('8693679e', 'f7441b', 't4', 'type11', 101429107)]
+   seed 1951278961 [('2f9eaa78', 'efb90b', 't3', 'type9', -1109474252), ('54805f0a', '5cb727', 't12', 'type9', 1472109804)]
+   seed 1345276098 [('5829eeb6', 'e88c87', 't10', 'type6', -931146028), ('58a5144f', '553924', 't6', 'type7', 610251495)]
+   seed 895243960 [('78a02720', 'b3a87b', 't4', 'type8', -128955310), ('99fc9f1a', '8120d4', 't10', 'type8', -1758560594)]
+   seed 1114889292 [('7b238f63', '03b8d6', 't13', 'type9', 108316134), ('bfb73b94', 'bf5b72', 't2', 'type4', 299947633)]
+   seed 1678495140 [('b0a2367b', '690ca0', 't8', 'type11', 1316869185), ('e6bbf202', '94e18d', 't11', 'type8', 275154365)]
+   seed 658254985 [('bd520823', '4f17ff', 't7', 'type11', -1312946561), ('d5e0abdd', 'a3a837', 't5', 'type6', 1149498389)]
+   seed 2008038600 [('bf311f33', '3d3cad', 't9', 'type5', -2093643953), ('6ef6bb48', '6dce2b', 't2', 'type5', -404744782)]
+   seed 1519054998 [('ce50a772', 'd46534', 't1', 'type11', 2041757418), ('4435b7a4', 'e28bce', 't8', 'type4', 1574014665)]
+   seed 28229383 [('d6a760b7', '7d01b7', 't13', 'type9', 129619526), ('eccb8abb', '9ab0f5', 't10', 'type5', -809804662)]
+   seed 228121897 [('dd38fff3', 'd9dd7c', 't6', 'type6', -486764601), ('bda1f5be', '9a83ae', 't7', 'type5', 419107123)]
+   seed 190141542 [('480101ab', 'cebaf3', 't16', 'type5', -722524875), ('4b39fe25', '02e835', 't9', 'type11', -825966569)]
+   seed 1566264808 [('72e409f7', 'da4195', 't6', 'type5', -1515229687), ('cbc58828', '0433cc', 't13', 'type8', -1211275305)]
+   seed 1828936320 [('73866617', 'a8a5ff', 't5', 'type4', 1352351927), ('e15bbbee', 'bdcde7', 't1', 'type5', -1999027512)]
+   seed 1434629712 [('8f57d94c', 'df7473', 't2', 'type11', -251079970), ('6c844740', '2381fc', 't1', 'type5', 751317059)]
+   seed 782362608 [('ed5fb6b8', '239254', 't13', 'type5', -593217435), ('25d88eac', '6b051b', 't3', 'type6', -495260445)]
+duplicate Hash values: 10; birthday expectation for uniform 32-bit: 7.5; zero hashes 0
+{'request BoardHash == previous response Hash': 252143, 'request BoardHash != previous response Hash': 1}
+end-of-turn snapshot Bor.Hash == Type 11 response Hash: {True: 28630}
+{'battle seed == type 11 seed': 0, 'battle seed == type 4 seed': 0, 'battle seed negative': 14110, 'n': 28630}
+type 4/11 seed identical for the two players of a match-turn: {False: 28609}
+consecutive pairs (same player) 252144
+serial correlation +0.00306 (null sd 0.00199)
+difference mod 2^31, top-8-bit bins: chi2 273.5 / 255 (z +0.82)
+difference mod 2^31-1, 256 bins: chi2 273.5 / 255 (z +0.82)
+mean popcount of xor 15.4953 (independent: 15.5, sd 0.0055)
+xor, top-8-bit bins: chi2 247.4 / 255 (z -0.34)
+joint (top 4 bits of seed, top 4 bits of next): chi2 257.7 / 255 (z +0.12)
+joint (low 4 bits of seed, low 4 bits of next): chi2 201.5 / 255 (z -2.37)
+most common differences: [(968391204, 2), (1535910559, 2), (230566182, 2)]
+most common xors: [(1067092018, 2), (1409585869, 2), (367996566, 2)]
+joint (top 4 bits of seed, top 4 bits of own hash): chi2 207.5 / 255 (z -2.10)
+joint (low 4 bits of seed, low 4 bits of own hash): chi2 259.7 / 255 (z +0.21)
+seed == |hash| or hash & 0x7fffffff: 0
+LCG relation hits (seed -> next seed, up to 4 steps, 8 output truncations) over 252144 pairs:
+   {'ANSI C / glibc TYPE_0 (1103515245,12345,2^31)': 0, 'ANSI C (1103515245,12345,2^32)': 0, 'MSVC (214013,2531011,2^32)': 0, 'Numerical Recipes (1664525,1013904223,2^32)': 0, 'Borland (22695477,1,2^32)': 0, 'MINSTD (16807,0,2^31-1)': 0, 'MINSTD2 (48271,0,2^31-1)': 0, 'Park-Miller 69621': 0, 'RANDU (65539,0,2^31)': 0, 'Unity init (1812433253,1,2^32)': 0, 'MT init-like (1812433253,0,2^32)': 0, 'Knuth (6364136223846793005,1442695040888963407,2^64)': 0, 'java (0x5DEECE66D,0xB,2^48)': 0, 'glibc rand_r-like (1103515245,12345,2^32)>>16': 0, 'cc65 (16843009,826366247,2^32)': 0, 'Delphi (134775813,1,2^32)': 0, 'VB (1140671485,12820163,2^24)': 0, 'drand48 as java': 0}
+{'mod 2^31-1: triples consistent with one affine map': 0, 'mod 2^31-1: triples tested': 20000} (a fixed affine map mod the prime 2^31-1 would make every triple consistent)
+joint (low 4 bits of ms timestamp, low 4 bits of seed): chi2 239.8 / 255 (z -0.67) [timestamp bins themselves need not be uniform]
+correlation(seed, timestamp) -0.0038 over 60000 actions

@@ -1,0 +1,9 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+{"matches": 512, "seat0Wins": 52, "score": 0.1015625, "seconds": 4.2, "network_rows": 64381, "root_decisions": 64381}
+{"matches": 1024, "seat0Wins": 94, "score": 0.091796875, "seconds": 7.6, "network_rows": 127978, "root_decisions": 127978}
+{"matches": 1536, "seat0Wins": 147, "score": 0.095703125, "seconds": 10.9, "network_rows": 190220, "root_decisions": 190220}
+{"matches": 2048, "seat0Wins": 186, "score": 0.0908203125, "seconds": 14.4, "network_rows": 252576, "root_decisions": 252576}
+per turn: {1: 0.556, 2: 0.62, 3: 0.431, 4: 0.475, 5: 0.397, 6: 0.436, 7: 0.328, 8: 0.297, 9: 0.261, 10: 0.246, 11: 0.231, 12: 0.191, 13: 0.182, 14: 0.193, 15: 0.134}

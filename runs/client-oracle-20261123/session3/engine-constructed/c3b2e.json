@@ -1,0 +1,30 @@
+{
+ "f11-hippo-tiger-limit": [
+  {
+   "count": 20,
+   "steps": [
+    "start: P[Hippo 10/50, Tiger 6/4] O[Fish 1/1, Fish 1/2, Pig 1/3, Duck 1/4, Beaver 1/5]",
+    "after-attack-01: P[Hippo 16/50, Tiger 6/4] O[Fish 1/2, Pig 1/3, Duck 1/4, Beaver 1/5]",
+    "after-attack-02: P[Hippo 22/50, Tiger 6/4] O[Pig 1/3, Duck 1/4, Beaver 1/5]",
+    "after-attack-03: P[Hippo 28/50, Tiger 6/4] O[Duck 1/4, Beaver 1/5]",
+    "after-attack-04: P[Hippo 28/49, Tiger 6/4] O[Beaver 1/5]",
+    "after-attack-05: P[Hippo 28/48, Tiger 6/4] O[empty]",
+    "final: P[Hippo 28/48, Tiger 6/4] O[empty]"
+   ]
+  }
+ ],
+ "f11c-hippo-alone-control": [
+  {
+   "count": 20,
+   "steps": [
+    "start: P[Hippo 10/50, Fish 6/4] O[Fish 1/1, Fish 1/2, Pig 1/3, Duck 1/4, Beaver 1/5]",
+    "after-attack-01: P[Hippo 13/50, Fish 6/4] O[Fish 1/2, Pig 1/3, Duck 1/4, Beaver 1/5]",
+    "after-attack-02: P[Hippo 16/50, Fish 6/4] O[Pig 1/3, Duck 1/4, Beaver 1/5]",
+    "after-attack-03: P[Hippo 19/50, Fish 6/4] O[Duck 1/4, Beaver 1/5]",
+    "after-attack-04: P[Hippo 19/49, Fish 6/4] O[Beaver 1/5]",
+    "after-attack-05: P[Hippo 19/48, Fish 6/4] O[empty]",
+    "final: P[Hippo 19/48, Fish 6/4] O[empty]"
+   ]
+  }
+ ]
+}

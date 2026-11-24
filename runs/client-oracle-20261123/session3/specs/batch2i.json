@@ -1,0 +1,4 @@
+[
+ {"name":"k3-fly-failed-attempt-uses","nseeds":2,"left":[["Deer",6,1],["Fish",1,40],["Fish",1,41],["Fish",1,42],["Fly",2,40,{"trco":2}]],"right":[["Fish",1,50]]},
+ {"name":"k4-fly-zombie-death","nseeds":1,"left":[["Pig",6,1],["Fish",1,40],["Fly",2,40]],"right":[["Fish",2,50]]}
+]

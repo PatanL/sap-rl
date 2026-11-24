@@ -1,0 +1,432 @@
+{
+  "battle_id": "9a066210-3b25-4abc-aa74-6ddd4815c981",
+  "recorded_seed": -878498360,
+  "engine_seed": 3416468936,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Ant",
+          "attack": 18,
+          "health": 24,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Bison",
+          "attack": 12,
+          "health": 19,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Parrot",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 6,
+          "health": 11,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 4,
+          "health": 15,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Otter",
+          "attack": 6,
+          "health": 12,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Crab",
+          "attack": 7,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Otter",
+          "attack": 1,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Ant",
+          "attack": 18,
+          "health": 24,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Bison",
+          "attack": 12,
+          "health": 19,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Parrot",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 6,
+          "health": 11,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 4,
+          "health": 10,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Otter",
+          "attack": 6,
+          "health": 12,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Crab",
+          "attack": 7,
+          "health": 1,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Ant",
+          "attack": 18,
+          "health": 18,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Bison",
+          "attack": 12,
+          "health": 19,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Parrot",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 6,
+          "health": 11,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 4,
+          "health": 9,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Otter",
+          "attack": 6,
+          "health": 12,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Crab",
+          "attack": 7,
+          "health": 1,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Ant",
+          "attack": 18,
+          "health": 12,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Bison",
+          "attack": 12,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Parrot",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 4,
+          "health": 8,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Otter",
+          "attack": 6,
+          "health": 12,
+          "perk": "status-cake",
+          "slot": 1
+        },
+        {
+          "pet": "Crab",
+          "attack": 7,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Ant",
+          "attack": 18,
+          "health": 8,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Bison",
+          "attack": 12,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Parrot",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Otter",
+          "attack": 6,
+          "health": 12,
+          "perk": "status-cake",
+          "slot": 0
+        },
+        {
+          "pet": "Crab",
+          "attack": 7,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Ant",
+          "attack": 18,
+          "health": 2,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Bison",
+          "attack": 12,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Parrot",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Crab",
+          "attack": 7,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Bison",
+          "attack": 12,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 11,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Parrot",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Bison",
+          "attack": 12,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 11,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Parrot",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

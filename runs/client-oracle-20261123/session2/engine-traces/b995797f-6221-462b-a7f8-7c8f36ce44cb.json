@@ -1,0 +1,215 @@
+{
+  "battle_id": "b995797f-6221-462b-a7f8-7c8f36ce44cb",
+  "recorded_seed": 357202943,
+  "engine_seed": 357202943,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Hedgehog",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Hedgehog",
+          "attack": 6,
+          "health": 4,
+          "perk": "status-bone-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Parrot",
+          "attack": 5,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Cow",
+          "attack": 4,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 13,
+          "health": 18,
+          "perk": "status-garlic-armor",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Turkey",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 10,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 10,
+          "health": 20,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 11,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 10,
+          "health": 10,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Hedgehog",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Hedgehog",
+          "attack": 6,
+          "health": 4,
+          "perk": "status-bone-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Parrot",
+          "attack": 5,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Cow",
+          "attack": 4,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 13,
+          "health": 18,
+          "perk": "status-garlic-armor",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Turkey",
+          "attack": 14,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 10,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 10,
+          "health": 20,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 11,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 10,
+          "health": 10,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Dodo",
+          "attack": 10,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 10,
+          "health": 2,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 10,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Dodo",
+          "attack": 10,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 10,
+          "health": 2,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 10,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    }
+  ]
+}

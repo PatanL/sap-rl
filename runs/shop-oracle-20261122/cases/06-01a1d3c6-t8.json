@@ -1,0 +1,1656 @@
+{
+  "split": "dev",
+  "replayFile": "c6533bd9-7283-4ed2-ad0b-d9b028f67dc4.json",
+  "why": "Canned Food precedes the Squirrel buy-merge and the Camel\u2019s Cupcake. The native shop Squirrel picked up an extra HP that survived the merge; the real Camel received that HP. This matches Rabbit spending a use on shop stock.",
+  "headlineDifference": "Squirrel x0 HP 7 / 8; Camel x3 HP 14 / 13",
+  "seed": 2853543899,
+  "result": {
+    "key": [
+      "01a1d3c6-58f6-78e4-8b6a-40e2561846f2",
+      "01a1d3c6-58f9-7aea-92b6-7c2af287f0e2",
+      8
+    ],
+    "split": "dev",
+    "source": "raw",
+    "pets": [
+      "Camel",
+      "Giraffe",
+      "Rabbit",
+      "Squirrel",
+      "Turtle"
+    ],
+    "foods": [
+      "Canned Food",
+      "Cupcake"
+    ],
+    "ops": [
+      "buy merge",
+      "end",
+      "food",
+      "start"
+    ],
+    "actions": 6,
+    "boardSize": 5,
+    "inferred": 1,
+    "shapeIssues": {},
+    "direct": [
+      "Camel",
+      "Squirrel",
+      "Turtle"
+    ],
+    "frozenPetNames": [
+      "Turtle"
+    ],
+    "reproduced": false,
+    "boardMatch": false,
+    "ever": [
+      "economy",
+      "frozen",
+      "frozen IDs",
+      "gain",
+      "gold",
+      "level/xp",
+      "perk",
+      "remaining IDs",
+      "species/order",
+      "spent",
+      "temporary"
+    ],
+    "diff": [
+      "permanent"
+    ],
+    "tries": 8192,
+    "distinct": 1,
+    "seed": 2853543899,
+    "first": [
+      "permanent"
+    ],
+    "completed": true,
+    "uncDiff": 0,
+    "genIssues": [],
+    "costErrors": [],
+    "orderEvidence": 0,
+    "unresolvedEviction": [],
+    "inventoryMatch": true,
+    "frozenIdsMatch": true,
+    "actual": {
+      "board": [
+        [
+          "Squirrel",
+          1,
+          1,
+          5,
+          7,
+          0,
+          0,
+          null
+        ],
+        [
+          "Rabbit",
+          1,
+          0,
+          2,
+          4,
+          0,
+          0,
+          null
+        ],
+        [
+          "Giraffe",
+          1,
+          1,
+          7,
+          5,
+          0,
+          0,
+          null
+        ],
+        [
+          "Camel",
+          1,
+          0,
+          11,
+          14,
+          3,
+          3,
+          null
+        ],
+        [
+          "Turtle",
+          1,
+          1,
+          5,
+          9,
+          0,
+          0,
+          null
+        ]
+      ],
+      "frozen": [],
+      "spent": 10,
+      "gold": 0,
+      "gain": 0
+    },
+    "result": {
+      "board": [
+        [
+          "Squirrel",
+          1,
+          1,
+          5,
+          8,
+          0,
+          0,
+          null
+        ],
+        [
+          "Rabbit",
+          1,
+          0,
+          2,
+          4,
+          0,
+          0,
+          null
+        ],
+        [
+          "Giraffe",
+          1,
+          1,
+          7,
+          5,
+          0,
+          0,
+          null
+        ],
+        [
+          "Camel",
+          1,
+          0,
+          11,
+          13,
+          3,
+          3,
+          null
+        ],
+        [
+          "Turtle",
+          1,
+          1,
+          5,
+          9,
+          0,
+          0,
+          null
+        ]
+      ],
+      "frozen": [],
+      "spent": 10,
+      "gold": 0,
+      "gain": 0
+    },
+    "error": null,
+    "at": null,
+    "op": null,
+    "budgetAtError": null
+  },
+  "fixture": {
+    "key": [
+      "01a1d3c6-58f6-78e4-8b6a-40e2561846f2",
+      "01a1d3c6-58f9-7aea-92b6-7c2af287f0e2",
+      8
+    ],
+    "before": {
+      "turn": 7,
+      "tier": 4,
+      "board": [
+        {
+          "id": 96,
+          "name": "Squirrel",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 3,
+          "h": 5,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 78,
+          "name": "Rabbit",
+          "x": 1,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 4,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 1,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 33,
+          "name": "Giraffe",
+          "x": 2,
+          "lvl": 1,
+          "xp": 1,
+          "a": 7,
+          "h": 5,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 71,
+          "name": "Camel",
+          "x": 3,
+          "lvl": 1,
+          "xp": 0,
+          "a": 10,
+          "h": 12,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 63,
+          "name": "Turtle",
+          "x": 4,
+          "lvl": 1,
+          "xp": 0,
+          "a": 4,
+          "h": 8,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        }
+      ],
+      "shop": [
+        {
+          "id": 107,
+          "name": "Turtle",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 5,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": true,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 112,
+          "name": "Elephant",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 3,
+          "h": 7,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 113,
+          "name": "Badger",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 6,
+          "h": 3,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 114,
+          "name": "Pigeon",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 3,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        }
+      ],
+      "food": [
+        {
+          "id": 116,
+          "name": "Cupcake",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      ],
+      "unc": 116,
+      "spent": 12,
+      "gain": 2,
+      "gold": 0,
+      "rolls": 3,
+      "buffs": [],
+      "result": 2,
+      "wins": 3,
+      "losses": 4,
+      "pslots": 4,
+      "fslots": 2
+    },
+    "after": {
+      "turn": 8,
+      "tier": 4,
+      "board": [
+        {
+          "id": 96,
+          "name": "Squirrel",
+          "x": 0,
+          "lvl": 1,
+          "xp": 1,
+          "a": 5,
+          "h": 7,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 78,
+          "name": "Rabbit",
+          "x": 1,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 4,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 1,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 33,
+          "name": "Giraffe",
+          "x": 2,
+          "lvl": 1,
+          "xp": 1,
+          "a": 7,
+          "h": 5,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 71,
+          "name": "Camel",
+          "x": 3,
+          "lvl": 1,
+          "xp": 0,
+          "a": 11,
+          "h": 14,
+          "ta": 3,
+          "th": 3,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 63,
+          "name": "Turtle",
+          "x": 4,
+          "lvl": 1,
+          "xp": 1,
+          "a": 5,
+          "h": 9,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        }
+      ],
+      "shop": [
+        {
+          "id": 118,
+          "name": "Whale",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 4,
+          "h": 8,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 117,
+          "name": "Snail",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 3,
+          "h": 4,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        }
+      ],
+      "food": [],
+      "unc": 121,
+      "spent": 10,
+      "gain": 0,
+      "gold": 0,
+      "rolls": 0,
+      "buffs": [
+        {
+          "At": 1,
+          "Hp": 1
+        }
+      ],
+      "result": 3,
+      "wins": 3,
+      "losses": 4,
+      "pslots": 4,
+      "fslots": 2
+    },
+    "steps": [
+      [
+        "start",
+        null
+      ],
+      [
+        "food",
+        null
+      ],
+      [
+        "buy merge",
+        96
+      ],
+      [
+        "buy merge",
+        63
+      ],
+      [
+        "food",
+        null
+      ],
+      [
+        "end",
+        null
+      ]
+    ],
+    "actions": [
+      {
+        "t": 4,
+        "seed": 1332123573
+      },
+      {
+        "t": 8,
+        "seed": 1768547137,
+        "id": 121,
+        "target": null,
+        "spell": {
+          "id": 121,
+          "name": "Canned Food",
+          "f": false,
+          "cost": 2,
+          "power": 0,
+          "stock": false
+        }
+      },
+      {
+        "t": 6,
+        "seed": 1840530560,
+        "id": 119,
+        "x": 0
+      },
+      {
+        "t": 6,
+        "seed": 1302959282,
+        "id": 107,
+        "x": 4
+      },
+      {
+        "t": 8,
+        "seed": 1242968412,
+        "id": 120,
+        "target": 71,
+        "spell": {
+          "id": 120,
+          "name": "Cupcake",
+          "f": false,
+          "cost": 2,
+          "power": 0,
+          "stock": false
+        }
+      },
+      {
+        "t": 11,
+        "seed": 1521971944
+      }
+    ],
+    "names": {
+      "121": "Canned Food",
+      "119": "Squirrel",
+      "107": "Turtle",
+      "120": "Cupcake",
+      "71": "Camel"
+    },
+    "inferred": {
+      "119": 96
+    },
+    "run": {
+      "state": {
+        "board": [
+          [
+            "Squirrel",
+            1,
+            1,
+            5,
+            8,
+            0,
+            0,
+            null
+          ],
+          [
+            "Rabbit",
+            1,
+            0,
+            2,
+            4,
+            0,
+            0,
+            null
+          ],
+          [
+            "Giraffe",
+            1,
+            1,
+            7,
+            5,
+            0,
+            0,
+            null
+          ],
+          [
+            "Camel",
+            1,
+            0,
+            11,
+            13,
+            3,
+            3,
+            null
+          ],
+          [
+            "Turtle",
+            1,
+            1,
+            5,
+            9,
+            0,
+            0,
+            null
+          ]
+        ],
+        "frozen": [],
+        "spent": 10,
+        "gold": 0,
+        "gain": 0
+      },
+      "shopDetail": [
+        {
+          "uid": 118,
+          "kind": "pet",
+          "body": [
+            "Whale",
+            1,
+            0,
+            4,
+            9,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        },
+        {
+          "uid": 117,
+          "kind": "pet",
+          "body": [
+            "Snail",
+            1,
+            0,
+            3,
+            4,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        }
+      ],
+      "unc": 121,
+      "genIssues": [],
+      "costErrors": [],
+      "orderEvidence": 0,
+      "unresolvedEviction": [],
+      "inventory": [
+        117,
+        118
+      ],
+      "log": [
+        {
+          "op": "start",
+          "id": null,
+          "x": null,
+          "target": null,
+          "gold0": 0,
+          "gold": 10,
+          "cost": 0,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Squirrel",
+                1,
+                0,
+                3,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                1,
+                0,
+                2,
+                4,
+                0,
+                0,
+                null
+              ],
+              [
+                "Giraffe",
+                1,
+                1,
+                7,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                1,
+                0,
+                11,
+                13,
+                0,
+                0,
+                null
+              ],
+              [
+                "Turtle",
+                1,
+                0,
+                4,
+                8,
+                0,
+                0,
+                null
+              ]
+            ],
+            "frozen": [
+              [
+                107,
+                "pet",
+                "Turtle",
+                1,
+                0,
+                2,
+                5,
+                0,
+                0,
+                null,
+                3
+              ]
+            ],
+            "spent": 0,
+            "gold": 10,
+            "gain": 0
+          },
+          "uses": {
+            "63": 0,
+            "71": 0,
+            "33": 0,
+            "78": 0,
+            "96": 0
+          },
+          "offers": [
+            [
+              107,
+              "pet",
+              "pet-turtle",
+              3,
+              true
+            ],
+            [
+              118,
+              "pet",
+              "pet-whale",
+              3,
+              false
+            ],
+            [
+              119,
+              "pet",
+              "pet-squirrel",
+              3,
+              false
+            ],
+            [
+              117,
+              "pet",
+              "pet-snail",
+              3,
+              false
+            ],
+            [
+              120,
+              "food",
+              "Cupcake",
+              2,
+              false
+            ],
+            [
+              121,
+              "food",
+              "Canned Food",
+              2,
+              false
+            ]
+          ],
+          "uids": [
+            96,
+            78,
+            33,
+            71,
+            63
+          ],
+          "unc": 121,
+          "gen": [
+            [
+              117,
+              "pet",
+              "roll",
+              "Snail"
+            ],
+            [
+              118,
+              "pet",
+              "roll",
+              "Whale"
+            ],
+            [
+              119,
+              "pet",
+              "roll",
+              "Squirrel"
+            ],
+            [
+              120,
+              "food",
+              "roll",
+              "Cupcake"
+            ],
+            [
+              121,
+              "food",
+              "roll",
+              "Canned Food"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "food",
+          "id": 121,
+          "x": null,
+          "target": null,
+          "gold0": 10,
+          "gold": 8,
+          "cost": 2,
+          "realCost": 2,
+          "state": {
+            "board": [
+              [
+                "Squirrel",
+                1,
+                0,
+                3,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                1,
+                0,
+                2,
+                4,
+                0,
+                0,
+                null
+              ],
+              [
+                "Giraffe",
+                1,
+                1,
+                7,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                1,
+                0,
+                11,
+                13,
+                0,
+                0,
+                null
+              ],
+              [
+                "Turtle",
+                1,
+                0,
+                4,
+                8,
+                0,
+                0,
+                null
+              ]
+            ],
+            "frozen": [
+              [
+                107,
+                "pet",
+                "Turtle",
+                1,
+                0,
+                3,
+                7,
+                0,
+                0,
+                null,
+                3
+              ]
+            ],
+            "spent": 2,
+            "gold": 8,
+            "gain": 0
+          },
+          "uses": {
+            "63": 0,
+            "71": 0,
+            "33": 0,
+            "78": 3,
+            "96": 0
+          },
+          "offers": [
+            [
+              107,
+              "pet",
+              "pet-turtle",
+              3,
+              true
+            ],
+            [
+              118,
+              "pet",
+              "pet-whale",
+              3,
+              false
+            ],
+            [
+              119,
+              "pet",
+              "pet-squirrel",
+              3,
+              false
+            ],
+            [
+              117,
+              "pet",
+              "pet-snail",
+              3,
+              false
+            ],
+            [
+              120,
+              "food",
+              "Cupcake",
+              2,
+              false
+            ]
+          ],
+          "uids": [
+            96,
+            78,
+            33,
+            71,
+            63
+          ],
+          "unc": 121,
+          "gen": [
+            [
+              117,
+              "pet",
+              "roll",
+              "Snail"
+            ],
+            [
+              118,
+              "pet",
+              "roll",
+              "Whale"
+            ],
+            [
+              119,
+              "pet",
+              "roll",
+              "Squirrel"
+            ],
+            [
+              120,
+              "food",
+              "roll",
+              "Cupcake"
+            ],
+            [
+              121,
+              "food",
+              "roll",
+              "Canned Food"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "buy merge",
+          "id": 119,
+          "x": 0,
+          "target": null,
+          "gold0": 8,
+          "gold": 5,
+          "cost": 3,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Squirrel",
+                1,
+                1,
+                5,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                1,
+                0,
+                2,
+                4,
+                0,
+                0,
+                null
+              ],
+              [
+                "Giraffe",
+                1,
+                1,
+                7,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                1,
+                0,
+                11,
+                13,
+                0,
+                0,
+                null
+              ],
+              [
+                "Turtle",
+                1,
+                0,
+                4,
+                8,
+                0,
+                0,
+                null
+              ]
+            ],
+            "frozen": [
+              [
+                107,
+                "pet",
+                "Turtle",
+                1,
+                0,
+                3,
+                7,
+                0,
+                0,
+                null,
+                3
+              ]
+            ],
+            "spent": 5,
+            "gold": 5,
+            "gain": 0
+          },
+          "uses": {
+            "63": 0,
+            "71": 0,
+            "33": 0,
+            "78": 3,
+            "96": 0
+          },
+          "offers": [
+            [
+              107,
+              "pet",
+              "pet-turtle",
+              3,
+              true
+            ],
+            [
+              118,
+              "pet",
+              "pet-whale",
+              3,
+              false
+            ],
+            [
+              117,
+              "pet",
+              "pet-snail",
+              3,
+              false
+            ],
+            [
+              120,
+              "food",
+              "Cupcake",
+              2,
+              false
+            ]
+          ],
+          "uids": [
+            96,
+            78,
+            33,
+            71,
+            63
+          ],
+          "unc": 121,
+          "gen": [
+            [
+              117,
+              "pet",
+              "roll",
+              "Snail"
+            ],
+            [
+              118,
+              "pet",
+              "roll",
+              "Whale"
+            ],
+            [
+              119,
+              "pet",
+              "roll",
+              "Squirrel"
+            ],
+            [
+              120,
+              "food",
+              "roll",
+              "Cupcake"
+            ],
+            [
+              121,
+              "food",
+              "roll",
+              "Canned Food"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "buy merge",
+          "id": 107,
+          "x": 4,
+          "target": null,
+          "gold0": 5,
+          "gold": 2,
+          "cost": 3,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Squirrel",
+                1,
+                1,
+                5,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                1,
+                0,
+                2,
+                4,
+                0,
+                0,
+                null
+              ],
+              [
+                "Giraffe",
+                1,
+                1,
+                7,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                1,
+                0,
+                11,
+                13,
+                0,
+                0,
+                null
+              ],
+              [
+                "Turtle",
+                1,
+                1,
+                5,
+                9,
+                0,
+                0,
+                null
+              ]
+            ],
+            "frozen": [],
+            "spent": 8,
+            "gold": 2,
+            "gain": 0
+          },
+          "uses": {
+            "63": 0,
+            "71": 0,
+            "33": 0,
+            "78": 3,
+            "96": 0
+          },
+          "offers": [
+            [
+              118,
+              "pet",
+              "pet-whale",
+              3,
+              false
+            ],
+            [
+              117,
+              "pet",
+              "pet-snail",
+              3,
+              false
+            ],
+            [
+              120,
+              "food",
+              "Cupcake",
+              2,
+              false
+            ]
+          ],
+          "uids": [
+            96,
+            78,
+            33,
+            71,
+            63
+          ],
+          "unc": 121,
+          "gen": [
+            [
+              117,
+              "pet",
+              "roll",
+              "Snail"
+            ],
+            [
+              118,
+              "pet",
+              "roll",
+              "Whale"
+            ],
+            [
+              119,
+              "pet",
+              "roll",
+              "Squirrel"
+            ],
+            [
+              120,
+              "food",
+              "roll",
+              "Cupcake"
+            ],
+            [
+              121,
+              "food",
+              "roll",
+              "Canned Food"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "food",
+          "id": 120,
+          "x": null,
+          "target": 71,
+          "gold0": 2,
+          "gold": 0,
+          "cost": 2,
+          "realCost": 2,
+          "state": {
+            "board": [
+              [
+                "Squirrel",
+                1,
+                1,
+                5,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                1,
+                0,
+                2,
+                4,
+                0,
+                0,
+                null
+              ],
+              [
+                "Giraffe",
+                1,
+                1,
+                7,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                1,
+                0,
+                11,
+                13,
+                3,
+                3,
+                null
+              ],
+              [
+                "Turtle",
+                1,
+                1,
+                5,
+                9,
+                0,
+                0,
+                null
+              ]
+            ],
+            "frozen": [],
+            "spent": 10,
+            "gold": 0,
+            "gain": 0
+          },
+          "uses": {
+            "63": 0,
+            "71": 0,
+            "33": 0,
+            "78": 3,
+            "96": 0
+          },
+          "offers": [
+            [
+              118,
+              "pet",
+              "pet-whale",
+              3,
+              false
+            ],
+            [
+              117,
+              "pet",
+              "pet-snail",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            96,
+            78,
+            33,
+            71,
+            63
+          ],
+          "unc": 121,
+          "gen": [
+            [
+              117,
+              "pet",
+              "roll",
+              "Snail"
+            ],
+            [
+              118,
+              "pet",
+              "roll",
+              "Whale"
+            ],
+            [
+              119,
+              "pet",
+              "roll",
+              "Squirrel"
+            ],
+            [
+              120,
+              "food",
+              "roll",
+              "Cupcake"
+            ],
+            [
+              121,
+              "food",
+              "roll",
+              "Canned Food"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "end",
+          "id": null,
+          "x": null,
+          "target": null,
+          "gold0": 0,
+          "gold": 0,
+          "cost": 0,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Squirrel",
+                1,
+                1,
+                5,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                1,
+                0,
+                2,
+                4,
+                0,
+                0,
+                null
+              ],
+              [
+                "Giraffe",
+                1,
+                1,
+                7,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                1,
+                0,
+                11,
+                13,
+                3,
+                3,
+                null
+              ],
+              [
+                "Turtle",
+                1,
+                1,
+                5,
+                9,
+                0,
+                0,
+                null
+              ]
+            ],
+            "frozen": [],
+            "spent": 10,
+            "gold": 0,
+            "gain": 0
+          },
+          "uses": {
+            "63": 0,
+            "71": 0,
+            "33": 0,
+            "78": 3,
+            "96": 0
+          },
+          "offers": [
+            [
+              118,
+              "pet",
+              "pet-whale",
+              3,
+              false
+            ],
+            [
+              117,
+              "pet",
+              "pet-snail",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            96,
+            78,
+            33,
+            71,
+            63
+          ],
+          "unc": 121,
+          "gen": [
+            [
+              117,
+              "pet",
+              "roll",
+              "Snail"
+            ],
+            [
+              118,
+              "pet",
+              "roll",
+              "Whale"
+            ],
+            [
+              119,
+              "pet",
+              "roll",
+              "Squirrel"
+            ],
+            [
+              120,
+              "food",
+              "roll",
+              "Cupcake"
+            ],
+            [
+              121,
+              "food",
+              "roll",
+              "Canned Food"
+            ]
+          ],
+          "stock": []
+        }
+      ]
+    }
+  },
+  "foodTargetProbe": {
+    "key": [
+      "01a1d3c6-58f6-78e4-8b6a-40e2561846f2",
+      "01a1d3c6-58f9-7aea-92b6-7c2af287f0e2",
+      8
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  }
+}

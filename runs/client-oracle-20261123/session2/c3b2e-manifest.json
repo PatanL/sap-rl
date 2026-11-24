@@ -1,0 +1,140 @@
+[
+ {
+  "file": "c3-f11-hippo-tiger-limit-p870113.json",
+  "id": "bf4de903-c304-5032-8295-1e997672e67b",
+  "seed": 870113,
+  "sha256": "99e253d245eb298e7dabf829264dad62eba2e2716a2fc8ebcdaf470b7fb95bc3",
+  "test": "f11-hippo-tiger-limit",
+  "left": [
+   [
+    "Hippo",
+    10,
+    50
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Pig",
+    1,
+    3
+   ],
+   [
+    "Duck",
+    1,
+    4
+   ],
+   [
+    "Beaver",
+    1,
+    5
+   ]
+  ]
+ },
+ {
+  "file": "c3-f11-hippo-tiger-limit-m1714808783.json",
+  "id": "5a3159a2-0ab7-5f87-98eb-7e6ca93c05c9",
+  "seed": -1714808783,
+  "sha256": "d9ba4f7f295eda672ab24548d49f28736b8019dfe2e82f138e15e77c7c29d4ce",
+  "test": "f11-hippo-tiger-limit",
+  "left": [
+   [
+    "Hippo",
+    10,
+    50
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Pig",
+    1,
+    3
+   ],
+   [
+    "Duck",
+    1,
+    4
+   ],
+   [
+    "Beaver",
+    1,
+    5
+   ]
+  ]
+ },
+ {
+  "file": "c3-f11c-hippo-alone-control-p870113.json",
+  "id": "84ce278f-e9e3-59cc-bd34-f05e3a1afb58",
+  "seed": 870113,
+  "sha256": "a2551637725936384b40e4f11fefb01123995b9f0e684d5678b65d133b1aae28",
+  "test": "f11c-hippo-alone-control",
+  "left": [
+   [
+    "Hippo",
+    10,
+    50
+   ],
+   [
+    "Fish",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Pig",
+    1,
+    3
+   ],
+   [
+    "Duck",
+    1,
+    4
+   ],
+   [
+    "Beaver",
+    1,
+    5
+   ]
+  ]
+ }
+]

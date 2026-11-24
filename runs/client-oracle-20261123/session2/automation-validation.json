@@ -1,0 +1,451 @@
+{
+  "counts": {
+    "manual_survivors": 30,
+    "slot_count_match": 20,
+    "aligned": 30,
+    "species_named": 27,
+    "species_correct": 27,
+    "stats_read": 29,
+    "stats_correct": 29
+  },
+  "rows": [
+    {
+      "fight": "validation-01",
+      "predicted": [
+        [
+          "Rabbit",
+          3,
+          5
+        ],
+        [
+          null,
+          3,
+          5
+        ]
+      ],
+      "manual": [
+        [
+          "Rabbit",
+          3,
+          5
+        ],
+        [
+          "Snail",
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "fight": "validation-02",
+      "predicted": [
+        [
+          "Skunk",
+          4,
+          3
+        ]
+      ],
+      "manual": [
+        [
+          "Skunk",
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "fight": "validation-03",
+      "predicted": [
+        [
+          "Turkey",
+          3,
+          4
+        ],
+        [
+          null,
+          8,
+          4
+        ],
+        [
+          "Crab",
+          16,
+          11
+        ]
+      ],
+      "manual": [
+        [
+          "Turkey",
+          3,
+          4
+        ],
+        [
+          "Bus",
+          8,
+          4
+        ],
+        [
+          "Crab",
+          16,
+          11
+        ]
+      ]
+    },
+    {
+      "fight": "validation-04",
+      "predicted": [
+        [
+          "Pigeon",
+          9,
+          1
+        ],
+        [
+          "Beaver",
+          4,
+          3
+        ],
+        [
+          "Beaver",
+          4,
+          3
+        ]
+      ],
+      "manual": [
+        [
+          "Pigeon",
+          9,
+          1
+        ],
+        [
+          "Beaver",
+          4,
+          3
+        ],
+        [
+          "Beaver",
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "fight": "validation-05",
+      "predicted": [
+        [
+          "Parrot",
+          9,
+          2
+        ]
+      ],
+      "manual": [
+        [
+          "Parrot",
+          9,
+          2
+        ]
+      ]
+    },
+    {
+      "fight": "validation-06",
+      "predicted": [
+        [
+          "Horse",
+          6,
+          8
+        ]
+      ],
+      "manual": [
+        [
+          "Horse",
+          6,
+          8
+        ]
+      ]
+    },
+    {
+      "fight": "validation-07",
+      "predicted": [
+        [
+          "Shark",
+          27,
+          36
+        ],
+        [
+          null,
+          10,
+          11
+        ],
+        [
+          "Swan",
+          28,
+          6
+        ]
+      ],
+      "manual": [
+        [
+          "Shark",
+          27,
+          36
+        ],
+        [
+          "Rooster",
+          10,
+          11
+        ],
+        [
+          "Swan",
+          28,
+          6
+        ]
+      ]
+    },
+    {
+      "fight": "validation-08",
+      "predicted": [
+        [
+          "Snail",
+          2,
+          1
+        ]
+      ],
+      "manual": [
+        [
+          "Snail",
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "fight": "validation-09",
+      "predicted": [
+        [
+          "Fish",
+          5,
+          1
+        ]
+      ],
+      "manual": [
+        [
+          "Fish",
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "fight": "validation-10",
+      "predicted": [
+        [
+          "Snail",
+          4,
+          4
+        ]
+      ],
+      "manual": [
+        [
+          "Snail",
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "fight": "validation-11",
+      "predicted": [
+        [
+          "Wolverine",
+          5,
+          2
+        ]
+      ],
+      "manual": [
+        [
+          "Wolverine",
+          5,
+          2
+        ]
+      ]
+    },
+    {
+      "fight": "validation-12",
+      "predicted": [
+        [
+          "Wolverine",
+          7,
+          13
+        ]
+      ],
+      "manual": [
+        [
+          "Wolverine",
+          7,
+          13
+        ]
+      ]
+    },
+    {
+      "fight": "validation-13",
+      "predicted": [
+        [
+          "Ox",
+          1,
+          6
+        ],
+        [
+          "Kangaroo",
+          3,
+          3
+        ],
+        [
+          "Ox",
+          3,
+          7
+        ]
+      ],
+      "manual": [
+        [
+          "Ox",
+          1,
+          6
+        ],
+        [
+          "Kangaroo",
+          3,
+          3
+        ],
+        [
+          "Ox",
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "fight": "validation-14",
+      "predicted": [],
+      "manual": []
+    },
+    {
+      "fight": "validation-15",
+      "predicted": [
+        [
+          "Ox",
+          47,
+          null
+        ]
+      ],
+      "manual": [
+        [
+          "Ox",
+          47,
+          9
+        ]
+      ]
+    },
+    {
+      "fight": "validation-16",
+      "predicted": [
+        [
+          "Wolverine",
+          7,
+          2
+        ],
+        [
+          "Blowfish",
+          11,
+          7
+        ]
+      ],
+      "manual": [
+        [
+          "Wolverine",
+          7,
+          2
+        ],
+        [
+          "Blowfish",
+          11,
+          7
+        ]
+      ]
+    },
+    {
+      "fight": "validation-17",
+      "predicted": [
+        [
+          "Crab",
+          4,
+          3
+        ]
+      ],
+      "manual": [
+        [
+          "Crab",
+          4,
+          3
+        ]
+      ]
+    },
+    {
+      "fight": "validation-18",
+      "predicted": [
+        [
+          "Shark",
+          26,
+          26
+        ]
+      ],
+      "manual": [
+        [
+          "Shark",
+          26,
+          26
+        ]
+      ]
+    },
+    {
+      "fight": "validation-19",
+      "predicted": [
+        [
+          "Dog",
+          11,
+          1
+        ]
+      ],
+      "manual": [
+        [
+          "Dog",
+          11,
+          1
+        ]
+      ]
+    },
+    {
+      "fight": "validation-20",
+      "predicted": [
+        [
+          "Leopard",
+          29,
+          8
+        ],
+        [
+          "Dragon",
+          9,
+          13
+        ]
+      ],
+      "manual": [
+        [
+          "Leopard",
+          29,
+          8
+        ],
+        [
+          "Dragon",
+          9,
+          13
+        ]
+      ]
+    }
+  ]
+}

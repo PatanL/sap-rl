@@ -1,0 +1,22 @@
+{
+ "h11-deer-gap-ahead-and-behind": [
+  {
+   "count": 24,
+   "steps": [
+    "start: P[Fish 5/19, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/30, Dolphin 2/25]",
+    "after-attack-01: P[Fish 5/18, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/25, Dolphin 2/25]",
+    "after-attack-02: P[Fish 5/17, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/20, Dolphin 2/25]",
+    "after-attack-03: P[Fish 5/16, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/15, Dolphin 2/25]",
+    "after-attack-04: P[Fish 5/15, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/10, Dolphin 2/25]",
+    "after-attack-05: P[Fish 5/14, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/5, Dolphin 2/25]",
+    "after-attack-06: P[Fish 5/13, Deer 1/1, Bus 5/3, Pig 4/18] O[Dolphin 2/25]",
+    "after-attack-07: P[Fish 5/11, Deer 1/1, Bus 5/3, Pig 4/18] O[Dolphin 2/20]",
+    "after-attack-08: P[Fish 5/9, Deer 1/1, Bus 5/3, Pig 4/18] O[Dolphin 2/15]",
+    "after-attack-09: P[Fish 5/7, Deer 1/1, Bus 5/3, Pig 4/18] O[Dolphin 2/10]",
+    "after-attack-10: P[Fish 5/5, Deer 1/1, Bus 5/3, Pig 4/18] O[Dolphin 2/5]",
+    "after-attack-11: P[Fish 5/3, Deer 1/1, Bus 5/3, Pig 4/18] O[empty]",
+    "final: P[Fish 5/3, Deer 1/1, Bus 5/3, Pig 4/18] O[empty]"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,458 @@
+{
+  "battle_id": "592d8a5d-4ea0-4844-bbd8-3e5dff04742c",
+  "recorded_seed": 941428972,
+  "engine_seed": 941428972,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Duck",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Cricket",
+          "attack": 1,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Duck",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Pigeon",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Pigeon",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Ant",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Ant",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Duck",
+          "attack": 2,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Cricket",
+          "attack": 1,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Duck",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Pigeon",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Pigeon",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Ant",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Ant",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Cricket",
+          "attack": 1,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Duck",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Pigeon",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Pigeon",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Ant",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Cricket",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Duck",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Pigeon",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Pigeon",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 2,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Ant",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Zombie Cricket",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Duck",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Pigeon",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Pigeon",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Duck",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Pigeon",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Pigeon",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Pigeon",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Pigeon",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Mosquito",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [
+        {
+          "pet": "Pigeon",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Mosquito",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-07",
+      "player": [],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": []
+    }
+  ]
+}

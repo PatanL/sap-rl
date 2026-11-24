@@ -1,0 +1,27 @@
+{
+  "log": "../population-league-25772-v1/train-from-000000-u8b7b290.log",
+  "logSHA": "c239547a856abb00b5062c148dc0ca2a4c91e215d3152f85d0217433f888de1b",
+  "updates": 1024,
+  "transitions": 4405349,
+  "elapsed_from_fps": 13971.928322232794,
+  "elapsed_range": [
+    13969.713017282384,
+    13974.144329896908
+  ],
+  "collection": 10716.809,
+  "learn": 3174.195,
+  "other": 80.92432223279457,
+  "groups": 1727223.0,
+  "cycles": 626709.0,
+  "service": 12472.28231,
+  "policy_groups_time": 12357.60592,
+  "coalesce": 1281.73805,
+  "estimated_items_from_rounded_mean": 5779336.7,
+  "mean_batch": 3.3460281040722593,
+  "mean_items_per_cycle": 9.221722841063396,
+  "update_floor_bound": 4.401723373086025,
+  "group_service_floor_bound": 1.130633911834016,
+  "server_plus_coalesce_bound": 1.015843219402708,
+  "learner_pct": 22.718374492009602,
+  "collection_pct": 76.70243328508138
+}

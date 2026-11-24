@@ -1,0 +1,509 @@
+{
+  "battle_id": "a06efcdf-f7f9-4af3-abb7-980b6cb9151f",
+  "recorded_seed": -981481974,
+  "engine_seed": 3313485322,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Ant",
+          "attack": 5,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Spider",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 7,
+          "health": 13,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Ant",
+          "attack": 8,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Spider",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 7,
+          "health": 13,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Ant",
+          "attack": 8,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Badger",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 7,
+          "health": 13,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 7,
+          "health": 11,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Rabbit",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 4,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 7,
+          "health": 9,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Kangaroo",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 4,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 7,
+          "health": 7,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Badger",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 7,
+          "health": 4,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 7,
+          "health": 1,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 7,
+          "health": 1,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 2,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    }
+  ]
+}

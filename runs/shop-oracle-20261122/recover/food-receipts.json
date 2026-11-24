@@ -1,0 +1,1132 @@
+[
+  {
+    "key": [
+      "01a1f2df-f9cc-797e-94e2-38420d4ea643",
+      "01a1f2df-f9ce-7c33-8866-318dd60e9bc5",
+      10
+    ],
+    "split": "dev",
+    "events": [
+      {
+        "quoted_id": 49,
+        "uid": 194,
+        "target": 179,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 49,
+        "uid": 193,
+        "target": 179,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 23,
+        "uid": 214,
+        "target": 188,
+        "price": 3,
+        "price_key_present": true,
+        "power": 0,
+        "stock": false,
+        "buff": null,
+        "fields": [
+          "Enu",
+          "Id",
+          "Pow",
+          "Pri",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 130,
+        "uid": 217,
+        "target": 179,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 130,
+        "uid": 216,
+        "target": 179,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 102,
+        "uid": 221,
+        "target": 179,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 102,
+        "uid": 220,
+        "target": 179,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      }
+    ],
+    "chocolate_target": 188,
+    "known_target": null,
+    "before_cow": null,
+    "after_cow": null,
+    "before_recipient": null,
+    "after_recipient": {
+      "id": 179,
+      "name": "Leopard",
+      "x": 4,
+      "lvl": 1,
+      "xp": 0,
+      "a": 18,
+      "h": 16,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": true,
+      "links": []
+    },
+    "other_pets": [
+      "Crocodile",
+      "Crocodile",
+      "Snake",
+      "Ox",
+      "Leopard"
+    ]
+  },
+  {
+    "key": [
+      "01a19d3e-89aa-7b7f-8631-6673888834fa",
+      "01a19d3f-851c-7fe9-98b3-70587ac451b7",
+      9
+    ],
+    "split": "dev",
+    "events": [
+      {
+        "quoted_id": 23,
+        "uid": 139,
+        "target": 95,
+        "price": 3,
+        "price_key_present": true,
+        "power": 0,
+        "stock": false,
+        "buff": null,
+        "fields": [
+          "Enu",
+          "Id",
+          "Pow",
+          "Pri",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 130,
+        "uid": 141,
+        "target": 23,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 130,
+        "uid": 140,
+        "target": 23,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 102,
+        "uid": 145,
+        "target": 143,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 102,
+        "uid": 144,
+        "target": 143,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      }
+    ],
+    "chocolate_target": 95,
+    "known_target": "Cow",
+    "before_cow": {
+      "id": 95,
+      "name": "Cow",
+      "x": 4,
+      "lvl": 1,
+      "xp": 0,
+      "a": 4,
+      "h": 6,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": true,
+      "links": []
+    },
+    "after_cow": {
+      "id": 95,
+      "name": "Cow",
+      "x": 4,
+      "lvl": 2,
+      "xp": 2,
+      "a": 6,
+      "h": 10,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": true,
+      "links": []
+    },
+    "before_recipient": {
+      "id": 23,
+      "name": "Peacock",
+      "x": 3,
+      "lvl": 1,
+      "xp": 1,
+      "a": 12,
+      "h": 33,
+      "ta": 0,
+      "th": 0,
+      "perk": "Garlic",
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": false,
+      "links": []
+    },
+    "after_recipient": {
+      "id": 23,
+      "name": "Peacock",
+      "x": 3,
+      "lvl": 1,
+      "xp": 1,
+      "a": 14,
+      "h": 37,
+      "ta": 0,
+      "th": 0,
+      "perk": "Garlic",
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": false,
+      "links": []
+    },
+    "other_pets": [
+      "Wolverine",
+      "Rabbit",
+      "Skunk",
+      "Peacock",
+      "Cow"
+    ]
+  },
+  {
+    "key": [
+      "01a1c19e-33c8-78bd-aad6-a3ce993db75d",
+      "01a1c19e-33cc-73c1-9ca5-bba0a7cbbfcd",
+      11
+    ],
+    "split": "dev",
+    "events": [
+      {
+        "quoted_id": 23,
+        "uid": 211,
+        "target": 193,
+        "price": 3,
+        "price_key_present": true,
+        "power": 0,
+        "stock": false,
+        "buff": null,
+        "fields": [
+          "Enu",
+          "Id",
+          "Pow",
+          "Pri",
+          "Sto",
+          "WFro"
+        ]
+      },
+      {
+        "quoted_id": 131,
+        "uid": 225,
+        "target": 21,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 131,
+        "uid": 224,
+        "target": 21,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      }
+    ],
+    "chocolate_target": 193,
+    "known_target": "Cow",
+    "before_cow": {
+      "id": 193,
+      "name": "Cow",
+      "x": 2,
+      "lvl": 1,
+      "xp": 1,
+      "a": 5,
+      "h": 7,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": false,
+      "links": []
+    },
+    "after_cow": {
+      "id": 193,
+      "name": "Cow",
+      "x": 1,
+      "lvl": 2,
+      "xp": 2,
+      "a": 6,
+      "h": 8,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": false,
+      "links": []
+    },
+    "before_recipient": {
+      "id": 21,
+      "name": "Dodo",
+      "x": 3,
+      "lvl": 2,
+      "xp": 2,
+      "a": 20,
+      "h": 23,
+      "ta": 0,
+      "th": 7,
+      "perk": "Bread",
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": true,
+      "links": []
+    },
+    "after_recipient": {
+      "id": 21,
+      "name": "Dodo",
+      "x": 3,
+      "lvl": 2,
+      "xp": 2,
+      "a": 28,
+      "h": 23,
+      "ta": 0,
+      "th": 7,
+      "perk": "Bread",
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": true,
+      "links": []
+    },
+    "other_pets": [
+      "Cat",
+      "Cow",
+      "Dog",
+      "Dodo",
+      "Leopard"
+    ]
+  },
+  {
+    "key": [
+      "01a1adad-ec7c-778a-a3f8-b2cf293de3f0",
+      "01a1adad-ec7f-726d-80db-04f5d5af03f7",
+      11
+    ],
+    "split": "dev",
+    "events": [
+      {
+        "quoted_id": 49,
+        "uid": 148,
+        "target": 101,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 49,
+        "uid": 147,
+        "target": 101,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 23,
+        "uid": 154,
+        "target": 120,
+        "price": 3,
+        "price_key_present": true,
+        "power": 0,
+        "stock": false,
+        "buff": null,
+        "fields": [
+          "Enu",
+          "Id",
+          "Pow",
+          "Pri",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 131,
+        "uid": 156,
+        "target": 101,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 131,
+        "uid": 157,
+        "target": 101,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      }
+    ],
+    "chocolate_target": 120,
+    "known_target": "Cow",
+    "before_cow": {
+      "id": 120,
+      "name": "Cow",
+      "x": 4,
+      "lvl": 1,
+      "xp": 0,
+      "a": 4,
+      "h": 6,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": false,
+      "links": []
+    },
+    "after_cow": null,
+    "before_recipient": {
+      "id": 101,
+      "name": "Leopard",
+      "x": 2,
+      "lvl": 1,
+      "xp": 0,
+      "a": 17,
+      "h": 21,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": true,
+      "links": []
+    },
+    "after_recipient": {
+      "id": 101,
+      "name": "Leopard",
+      "x": 2,
+      "lvl": 1,
+      "xp": 0,
+      "a": 23,
+      "h": 29,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": true,
+      "links": []
+    },
+    "other_pets": [
+      "Rabbit",
+      "Tiger",
+      "Leopard",
+      "Badger",
+      "Mammoth"
+    ]
+  },
+  {
+    "key": [
+      "01a19f49-0036-78e2-a374-85b07e3fc6d2",
+      "01a19f4a-c421-795c-b1ba-99b4749b7bbf",
+      10
+    ],
+    "split": "heldout",
+    "events": [
+      {
+        "quoted_id": 23,
+        "uid": 217,
+        "target": 175,
+        "price": 3,
+        "price_key_present": true,
+        "power": 0,
+        "stock": false,
+        "buff": null,
+        "fields": [
+          "Enu",
+          "Id",
+          "Pow",
+          "Pri",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 131,
+        "uid": 219,
+        "target": 21,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 131,
+        "uid": 218,
+        "target": 21,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      }
+    ],
+    "chocolate_target": 175,
+    "known_target": "Cow",
+    "before_cow": {
+      "id": 175,
+      "name": "Cow",
+      "x": 0,
+      "lvl": 1,
+      "xp": 1,
+      "a": 5,
+      "h": 7,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": false,
+      "links": []
+    },
+    "after_cow": {
+      "id": 175,
+      "name": "Cow",
+      "x": 0,
+      "lvl": 2,
+      "xp": 2,
+      "a": 6,
+      "h": 8,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": false,
+      "links": []
+    },
+    "before_recipient": {
+      "id": 21,
+      "name": "Badger",
+      "x": 2,
+      "lvl": 1,
+      "xp": 0,
+      "a": 19,
+      "h": 18,
+      "ta": 0,
+      "th": 7,
+      "perk": "Bread",
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": true,
+      "links": []
+    },
+    "after_recipient": {
+      "id": 21,
+      "name": "Badger",
+      "x": 4,
+      "lvl": 1,
+      "xp": 0,
+      "a": 25,
+      "h": 20,
+      "ta": 0,
+      "th": 7,
+      "perk": "Bread",
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": true,
+      "links": []
+    },
+    "other_pets": [
+      "Cow",
+      "Camel",
+      "Monkey",
+      "Tiger",
+      "Badger"
+    ]
+  },
+  {
+    "key": [
+      "01a190d8-b44f-79f9-b6e2-94895fc3a339",
+      "01a190d8-b452-7aee-9757-21dcf003d4af",
+      11
+    ],
+    "split": "heldout",
+    "events": [
+      {
+        "quoted_id": 51,
+        "uid": 211,
+        "target": 162,
+        "price": 3,
+        "price_key_present": true,
+        "power": 0,
+        "stock": false,
+        "buff": null,
+        "fields": [
+          "Enu",
+          "Id",
+          "Pow",
+          "Pri",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 23,
+        "uid": 212,
+        "target": 186,
+        "price": 3,
+        "price_key_present": true,
+        "power": 0,
+        "stock": false,
+        "buff": null,
+        "fields": [
+          "Enu",
+          "Id",
+          "Pow",
+          "Pri",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 130,
+        "uid": 214,
+        "target": 27,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 130,
+        "uid": 213,
+        "target": 27,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 102,
+        "uid": 218,
+        "target": 162,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 102,
+        "uid": 217,
+        "target": 162,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      }
+    ],
+    "chocolate_target": 186,
+    "known_target": "Cow",
+    "before_cow": {
+      "id": 186,
+      "name": "Cow",
+      "x": 4,
+      "lvl": 1,
+      "xp": 0,
+      "a": 4,
+      "h": 6,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": false,
+      "links": []
+    },
+    "after_cow": {
+      "id": 186,
+      "name": "Cow",
+      "x": 0,
+      "lvl": 2,
+      "xp": 2,
+      "a": 6,
+      "h": 8,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": false,
+      "links": []
+    },
+    "before_recipient": {
+      "id": 27,
+      "name": "Elephant",
+      "x": 1,
+      "lvl": 2,
+      "xp": 2,
+      "a": 11,
+      "h": 15,
+      "ta": 0,
+      "th": 0,
+      "perk": "Melon",
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": true,
+      "links": []
+    },
+    "after_recipient": {
+      "id": 27,
+      "name": "Elephant",
+      "x": 4,
+      "lvl": 2,
+      "xp": 2,
+      "a": 13,
+      "h": 15,
+      "ta": 0,
+      "th": 0,
+      "perk": "Melon",
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": true,
+      "links": []
+    },
+    "other_pets": [
+      "Cow",
+      "Parrot",
+      "Deer",
+      "Camel",
+      "Elephant"
+    ]
+  },
+  {
+    "key": [
+      "01a1e9e8-1020-7c9a-a2f3-4368697d07e6",
+      "01a1e9e8-1022-78dd-9016-89bedcdab344",
+      9
+    ],
+    "split": "dev",
+    "events": [
+      {
+        "quoted_id": 23,
+        "uid": 173,
+        "target": 149,
+        "price": 3,
+        "price_key_present": true,
+        "power": 0,
+        "stock": false,
+        "buff": null,
+        "fields": [
+          "Enu",
+          "Id",
+          "Pow",
+          "Pri",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 130,
+        "uid": 175,
+        "target": 104,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 130,
+        "uid": 174,
+        "target": 104,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 102,
+        "uid": 179,
+        "target": 104,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      },
+      {
+        "quoted_id": 102,
+        "uid": 178,
+        "target": 104,
+        "price": 0,
+        "price_key_present": false,
+        "power": 0,
+        "stock": false,
+        "buff": true,
+        "fields": [
+          "Buff",
+          "Enu",
+          "Id",
+          "Pow",
+          "Sto"
+        ]
+      }
+    ],
+    "chocolate_target": 149,
+    "known_target": "Cow",
+    "before_cow": {
+      "id": 149,
+      "name": "Cow",
+      "x": 1,
+      "lvl": 1,
+      "xp": 0,
+      "a": 5,
+      "h": 7,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": true,
+      "links": []
+    },
+    "after_cow": null,
+    "before_recipient": {
+      "id": 104,
+      "name": "Hippo",
+      "x": 4,
+      "lvl": 1,
+      "xp": 0,
+      "a": 6,
+      "h": 10,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": false,
+      "links": []
+    },
+    "after_recipient": {
+      "id": 104,
+      "name": "Hippo",
+      "x": 4,
+      "lvl": 1,
+      "xp": 0,
+      "a": 17,
+      "h": 27,
+      "ta": 0,
+      "th": 0,
+      "perk": null,
+      "uses": 0,
+      "sellBonus": 0,
+      "f": false,
+      "cost": 3,
+      "reward": false,
+      "links": []
+    },
+    "other_pets": [
+      "Cat",
+      "Giraffe",
+      "Pig",
+      "Hippo"
+    ]
+  }
+]

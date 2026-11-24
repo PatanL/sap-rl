@@ -1,0 +1,131 @@
+{
+  "battle_id": "5fafe4d0-cf70-43f5-b344-e1016b4be6e3",
+  "recorded_seed": -1059102304,
+  "engine_seed": 3235864992,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Hedgehog",
+          "attack": 9,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Whale",
+          "attack": 3,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Hedgehog",
+          "attack": 6,
+          "health": 4,
+          "perk": "status-bone-attack",
+          "slot": 2
+        },
+        {
+          "pet": "Parrot",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 31,
+          "health": 48,
+          "perk": "status-garlic-armor",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Mammoth",
+          "attack": 6,
+          "health": 14,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 11,
+          "health": 10,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 19,
+          "health": 31,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 15,
+          "health": 11,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 12,
+          "health": 12,
+          "perk": "status-extra-life",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Hedgehog",
+          "attack": 9,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Wolverine",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Hedgehog",
+          "attack": 9,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Hedgehog",
+          "attack": 9,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

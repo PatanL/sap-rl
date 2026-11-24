@@ -1,0 +1,128 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/backends/__init__.py:46: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at /opt/pytorch/pytorch/aten/src/ATen/Context.cpp:80.)
+  self.setter(val)
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+V1123 19:48:19.411000 1 torch/_dynamo/guards.py:3864] [0/1] [__recompiles] Recompiling function inner in /usr/local/lib/python3.12/dist-packages/torch/_dynamo/external_utils.py:66
+V1123 19:48:19.411000 1 torch/_dynamo/guards.py:3864] [0/1] [__recompiles]     triggered by the following guard failure(s):
+V1123 19:48:19.411000 1 torch/_dynamo/guards.py:3864] [0/1] [__recompiles]     - 0/0: GLOBAL_STATE changed: grad_mode 
+W1123 19:48:22.442000 1 torch/_inductor/utils.py:1545] [0/1] Not enough SMs to use max_autotune_gemm mode
+Traceback (most recent call last):
+  File "/out/collect_v2.py", line 156, in <module>
+    run(p.parse_args())
+  File "/out/collect_v2.py", line 57, in run
+    with torch.autocast('cuda',dtype=torch.bfloat16):model.encode_entities(piece).float().sum().backward()
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/out/fast_encoder.py", line 47, in encode_entities
+    return fast(self.transformer)(token_input, src_key_padding_mask=padding_mask)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/eval_frame.py", line 413, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/eval_frame.py", line 817, in compile_wrapper
+    raise e.remove_dynamo_frames() from None  # see TORCHDYNAMO_VERBOSE=1
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/compile_fx.py", line 979, in _compile_fx_inner
+    raise InductorError(e, currentframe()).with_traceback(
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/compile_fx.py", line 963, in _compile_fx_inner
+    mb_compiled_graph = fx_codegen_and_compile(
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/compile_fx.py", line 1646, in fx_codegen_and_compile
+    return scheme.codegen_and_compile(gm, example_inputs, inputs_to_check, graph_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/compile_fx.py", line 1506, in codegen_and_compile
+    compiled_module = graph.compile_to_module()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/graph.py", line 2318, in compile_to_module
+    return self._compile_to_module()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/graph.py", line 2324, in _compile_to_module
+    self.codegen_with_cpp_wrapper() if self.cpp_wrapper else self.codegen()
+                                                             ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/graph.py", line 2263, in codegen
+    self.scheduler.codegen()
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/scheduler.py", line 4759, in codegen
+    else self._codegen(self.nodes)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/scheduler.py", line 4915, in _codegen
+    self.get_backend(device).codegen_node(node)
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/codegen/cuda_combined_scheduling.py", line 107, in codegen_node
+    return self._triton_scheduling.codegen_node(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/codegen/simd.py", line 1393, in codegen_node
+    coalesce_analysis = analyze_memory_coalescing(node)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/tiling_utils.py", line 650, in analyze_memory_coalescing
+    norm_read_writes = extract_normalized_read_writes(fused_node)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/tiling_utils.py", line 482, in extract_normalized_read_writes
+    if any(
+       ^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/tiling_utils.py", line 483, in <genexpr>
+    (isinstance(var, sympy.Expr) and not var.is_constant())
+                                         ^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/expr.py", line 724, in is_constant
+    b = expr._random(None, -1, 0, 1, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/expr.py", line 562, in _random
+    nmag = abs(self.evalf(2, subs=reps))
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/evalf.py", line 1654, in evalf
+    result = evalf(self, prec + 4, options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/evalf.py", line 1489, in evalf
+    r = rf(x, prec, options)
+        ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/evalf.py", line 602, in evalf_add
+    terms = [evalf(arg, prec + 10, options) for arg in v.args]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/evalf.py", line 1489, in evalf
+    r = rf(x, prec, options)
+        ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/evalf.py", line 650, in evalf_mul
+    result = evalf(arg, prec, options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/evalf.py", line 1493, in evalf
+    x = x.subs(evalf_subs(prec, options['subs']))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/basic.py", line 1171, in subs
+    rv = rv._subs(old, new, **kwargs)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/basic.py", line 1285, in _subs
+    rv = fallback(self, old, new)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/basic.py", line 1262, in fallback
+    rv = self.func(*args)
+         ^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/function.py", line 450, in __new__
+    return cls._new_(*args, **options)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/function.py", line 472, in _new_
+    result = super().__new__(cls, *args, **options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/cache.py", line 72, in wrapper
+    retval = cfunc(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sympy/core/function.py", line 309, in __new__
+    evaluated = cls.eval(*args)
+                ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/utils/_sympy/functions.py", line 494, in eval
+    assert p >= 0, p
+           ^^^^^^
+torch._inductor.exc.InductorError: AssertionError: -85472155126099/1250000000000000
+
+Set TORCHDYNAMO_VERBOSE=1 for the internal stack trace (please do this especially if you're reporting a bug to PyTorch). For even more developer context, set TORCH_LOGS="+dynamo"
+

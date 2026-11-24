@@ -1,0 +1,66 @@
+{
+  "version": 25786,
+  "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2",
+  "updates": 14,
+  "elapsed": 44.82334200805053,
+  "learned": 114809,
+  "delivered": 123134,
+  "seat": 172246,
+  "live": 125097,
+  "frozen": 47149,
+  "pending": 1963,
+  "queued": 4346,
+  "stale": 3979,
+  "matches": 511,
+  "queue_highwater": 8353,
+  "backpressure_hits": 14,
+  "assignment": {
+    "mirror": 329,
+    "parent:seat1": 198,
+    "parent:seat0": 176
+  },
+  "gpu_util_mean": 63.325842696629216,
+  "gpu_samples": 89,
+  "peak_bytes": 4171235328,
+  "learned_s": 2561.3663519194897,
+  "collected_s": 2747.0954748952995,
+  "seat_s": 3842.7745965274885,
+  "stale_share": 0.033496649493214806,
+  "fully_overlapped_inference_waves": 497,
+  "seats_fully_served_during_updates": 78393,
+  "main_seconds": {
+    "other": 0.6592289684340358,
+    "inference_service": 22.93743280461058,
+    "ipc_wait": 0.4398942480329424,
+    "drain": 1.7530699940398335,
+    "encoding": 1.5114930404815823,
+    "environment": 1.1442960144486278,
+    "shop_api": 0.7225428130477667,
+    "battle": 0.01454999134875834,
+    "await_learner": 15.601785871433094,
+    "publish": 0.03904826217330992
+  },
+  "overlap_with_learner_seconds": {
+    "other": 0.18110463628545403,
+    "inference_service": 13.117956627858803,
+    "ipc_wait": 0.23570181825198233,
+    "drain": 0.9241828129161149,
+    "encoding": 0.41100646811537445,
+    "environment": 0.5085674673318863,
+    "shop_api": 0.262562595307827,
+    "await_learner": 15.600495045771822,
+    "battle": 0.0036836648359894753
+  },
+  "learner_seconds": 31.245261136675254,
+  "worker_seconds": {
+    "other": 7.0176684386096895,
+    "actor_wait": 433.89735418581404,
+    "environment": 21.75754411658272,
+    "shop_api": 21.105499825207517,
+    "encoding": 45.59408478741534,
+    "battle": 0.6198076044674963
+  },
+  "counts": {
+    "battles": 7200
+  }
+}

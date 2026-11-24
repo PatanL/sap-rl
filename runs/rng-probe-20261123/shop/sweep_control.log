@@ -1,0 +1,59 @@
+roll0 rows 2472 dev 1904
+CONTROL RUN: synthetic labels
+  target pet slot 1: dev 1409 held-out 433
+  target pet slot 2: dev 1404 held-out 435
+  target pet slot 3: dev 1406 held-out 428
+  target food slot: dev 1396 held-out 442
+hypotheses scored: 552240; z mean +0.066 sd 5.359
+best z in the whole family on SHUFFLED labels (chance level for the maximum): ['6.43', '6.82']
+top hypotheses on dev (z dev, purity dev if <=12 cells, z held-out, purity held-out):
+  z_dev  950.30  pur 0.983  z_held +283.88  pur_held 0.981  dotnet System.Random | own seed (response of the generating action) | draw 4 floor(u*10) | pet slot 3
+  z_dev  950.30  pur 0.983  z_held +283.88  pur_held 0.981  dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 4 element 0 | pet slot 3
+  z_dev  950.30  pur 0.983  z_held +283.88  pur_held 0.981  dotnet System.Random | own seed (response of the generating action) | FY backward scaled skip 4 element 9 | pet slot 3
+  z_dev  950.18  pur 0.982  z_held +290.88  pur_held 0.986  dotnet System.Random | own seed (response of the generating action) | draw 2 floor(u*10) | pet slot 1
+  z_dev  950.18  pur 0.982  z_held +290.88  pur_held 0.986  dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 2 element 0 | pet slot 1
+  z_dev  950.18  pur 0.982  z_held +290.88  pur_held 0.986  dotnet System.Random | own seed (response of the generating action) | FY backward scaled skip 2 element 9 | pet slot 1
+  z_dev  947.37  pur 0.982  z_held +292.43  pur_held 0.986  dotnet System.Random | own seed (response of the generating action) | draw 3 floor(u*10) | pet slot 2
+  z_dev  947.37  pur 0.982  z_held +292.43  pur_held 0.986  dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 3 element 0 | pet slot 2
+  z_dev  947.37  pur 0.982  z_held +292.43  pur_held 0.986  dotnet System.Random | own seed (response of the generating action) | FY backward scaled skip 3 element 9 | pet slot 2
+  z_dev  649.41  pur None  z_held +190.66  pur_held None  dotnet System.Random | own seed (response of the generating action) | draw 4 floor(u*20) | pet slot 3
+  z_dev  649.30  pur None  z_held +195.44  pur_held None  dotnet System.Random | own seed (response of the generating action) | draw 2 floor(u*20) | pet slot 1
+  z_dev  647.41  pur None  z_held +196.50  pur_held None  dotnet System.Random | own seed (response of the generating action) | draw 3 floor(u*20) | pet slot 2
+  z_dev  505.00  pur 0.649  z_held +155.24  pur_held 0.691  dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 1 element 1 | pet slot 1
+  z_dev  504.51  pur 0.657  z_held +149.10  pur_held 0.664  dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 3 element 1 | pet slot 3
+  z_dev  500.17  pur 0.655  z_held +164.39  pur_held 0.683  dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 2 element 1 | pet slot 2
+per generator: tests, best z dev (its held-out z), best z on shuffled labels
+  dotnet System.Random                        15000  950.3 (283.88)  shuffled [3.98, 4.36]
+  old Mono System.Random (inextp 31)          15000  5.56 (1.83)  shuffled [4.7, 6.05]
+  unity xorshift128 InitState                 16920  326.92 (102.06)  shuffled [4.61, 4.33]
+  mt19937 init_genrand                        16920  5.12 (-0.97)  shuffled [4.75, 4.39]
+  pcg32 (seed, seq 54)                        16920  4.23 (-0.31)  shuffled [4.36, 4.52]
+  pcg32 (seed, default stream)                16920  5.76 (-0.25)  shuffled [4.98, 4.75]
+  pcg32 (seed, seq seed)                      16920  4.77 (-0.72)  shuffled [4.96, 4.37]
+  splitmix64 high 32                          16920  4.2 (-0.43)  shuffled [4.11, 5.17]
+  splitmix64 low 32                           16920  4.85 (-0.61)  shuffled [4.98, 5.56]
+  xorshift32 (13,17,5)                        16920  4.45 (-0.45)  shuffled [5.11, 6.82]
+  xorshift64 (13,7,17) low 32                 16920  4.81 (-1.16)  shuffled [4.45, 4.24]
+  xorshift64 (13,7,17) high 32                16920  4.97 (0.66)  shuffled [5.56, 6.44]
+  xorshift64*                                 16920  4.55 (-0.13)  shuffled [6.43, 4.17]
+  xoshiro256** (splitmix seeded) high 32      16920  4.62 (-1.24)  shuffled [5.6, 4.87]
+  xoshiro256** (splitmix seeded) low 32       16920  5.37 (-0.77)  shuffled [5.2, 4.03]
+  xoroshiro128+ (splitmix seeded) high 32     16920  4.86 (0.04)  shuffled [4.62, 4.41]
+  java.util.Random next(31)                   15000  4.77 (1.01)  shuffled [4.46, 4.93]
+  glibc random()                              15000  4.17 (1.45)  shuffled [4.14, 5.64]
+  MSVC rand()                                 15000  4.67 (-0.28)  shuffled [4.45, 4.13]
+  LCG ANSI C mod 2^31                         15000  4.4 (-0.33)  shuffled [4.21, 4.92]
+  LCG POSIX rand() example                    15000  4.09 (-0.06)  shuffled [4.96, 5.57]
+  LCG Numerical Recipes full state            16920  6.28 (-0.92)  shuffled [4.49, 4.69]
+  LCG Numerical Recipes high 16               15000  4.47 (1.41)  shuffled [4.49, 4.71]
+  LCG Borland high 15                         15000  4.57 (-0.44)  shuffled [4.66, 4.87]
+  LCG Knuth MMIX high 32                      16920  4.45 (-0.22)  shuffled [4.58, 4.68]
+  MINSTD 16807                                15000  6.66 (-0.84)  shuffled [4.65, 4.83]
+  MINSTD 48271                                15000  4.8 (-0.27)  shuffled [4.89, 4.86]
+  murmur fmix32(seed+i)                       16920  4.93 (1.25)  shuffled [4.54, 4.5]
+  murmur fmix32(seed^i*phi)                   16920  4.91 (-0.34)  shuffled [4.65, 6.06]
+  identity seed+i                             16920  3.58 (-2.22)  shuffled [3.91, 3.56]
+  Knuth multiplicative hash (seed+i)          16920  4.16 (1.2)  shuffled [4.15, 3.66]
+  LCG 9301/49297 mod 233280                   15000  4.31 (0.04)  shuffled [4.01, 4.23]
+  mulberry32                                  16920  3.85 (0.11)  shuffled [5.83, 4.72]
+  xorshift128+ (splitmix seeded) high 32      16920  4.97 (-1.86)  shuffled [4.49, 4.53]

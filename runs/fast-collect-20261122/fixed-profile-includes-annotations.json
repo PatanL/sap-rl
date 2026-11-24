@@ -1,0 +1,285 @@
+{
+  "available": true,
+  "rows": [
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 10.615725,
+      "deviceActiveMs": 8.475765,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 8.475764999999999,
+      "deviceActiveMs": 8.475765,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 7.001949000000001,
+      "deviceActiveMs": 6.846212999999998,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 6.846212999999998,
+      "deviceActiveMs": 6.846212999999998,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 6.837866999999998,
+      "deviceActiveMs": 6.713635999999998,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 6.713635999999998,
+      "deviceActiveMs": 6.713635999999998,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 6.772587,
+      "deviceActiveMs": 6.661762000000002,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 6.661762000000002,
+      "deviceActiveMs": 6.661762000000002,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 6.835307000000001,
+      "deviceActiveMs": 6.715970999999998,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 6.715970999999998,
+      "deviceActiveMs": 6.715970999999998,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 8.413225,
+      "deviceActiveMs": 7.057670999999999,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 7.057671,
+      "deviceActiveMs": 7.057670999999999,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 6.971789,
+      "deviceActiveMs": 6.850661,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 6.850661,
+      "deviceActiveMs": 6.850661,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 6.939260999999998,
+      "deviceActiveMs": 6.829094000000001,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 6.829094000000001,
+      "deviceActiveMs": 6.829094000000001,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 7.613682000000001,
+      "deviceActiveMs": 7.510828000000001,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 7.510828000000001,
+      "deviceActiveMs": 7.510828000000001,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 7.294512000000003,
+      "deviceActiveMs": 7.199881000000001,
+      "deviceEvents": 536
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 7.199881000000001,
+      "deviceActiveMs": 7.199881000000001,
+      "deviceEvents": 536
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 6.299143,
+      "deviceActiveMs": 6.061853000000001,
+      "deviceEvents": 476
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 6.061853,
+      "deviceActiveMs": 6.061853000000001,
+      "deviceEvents": 476
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 7.06139,
+      "deviceActiveMs": 6.929734000000001,
+      "deviceEvents": 476
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 6.929734000000001,
+      "deviceActiveMs": 6.929734000000001,
+      "deviceEvents": 476
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 6.195221999999998,
+      "deviceActiveMs": 6.0511979999999985,
+      "deviceEvents": 476
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 6.0511979999999985,
+      "deviceActiveMs": 6.0511979999999985,
+      "deviceEvents": 476
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 6.383144000000001,
+      "deviceActiveMs": 6.229279000000003,
+      "deviceEvents": 476
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 6.229279000000003,
+      "deviceActiveMs": 6.229279000000003,
+      "deviceEvents": 476
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 6.263303,
+      "deviceActiveMs": 6.107421999999999,
+      "deviceEvents": 476
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 6.107421999999999,
+      "deviceActiveMs": 6.107421999999999,
+      "deviceEvents": 476
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 7.08371,
+      "deviceActiveMs": 6.335706999999999,
+      "deviceEvents": 494
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 6.335707,
+      "deviceActiveMs": 6.335706999999999,
+      "deviceEvents": 494
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 6.216662,
+      "deviceActiveMs": 6.100409000000001,
+      "deviceEvents": 494
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 6.100409000000001,
+      "deviceActiveMs": 6.100409000000001,
+      "deviceEvents": 494
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 6.187638000000001,
+      "deviceActiveMs": 6.080409000000001,
+      "deviceEvents": 494
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 6.080409000000001,
+      "deviceActiveMs": 6.080409000000001,
+      "deviceEvents": 494
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 6.162966,
+      "deviceActiveMs": 6.048856,
+      "deviceEvents": 494
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 6.048856,
+      "deviceActiveMs": 6.048856,
+      "deviceEvents": 494
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 6.1998940000000005,
+      "deviceActiveMs": 6.083545000000002,
+      "deviceEvents": 494
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 6.083545000000002,
+      "deviceActiveMs": 6.083545000000002,
+      "deviceEvents": 494
+    }
+  ]
+}

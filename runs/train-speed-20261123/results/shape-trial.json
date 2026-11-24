@@ -1,0 +1,50 @@
+[
+  {
+    "layout": "block-boot",
+    "cap": 768,
+    "checks": {
+      "results/g48/batch.pt": {
+        "loss_abs": 0.0026611039835819916,
+        "gradient_relative_l2": 0.10977071774651126,
+        "delta_relative_l2": 0.023286793070114137,
+        "weight_max_abs": 6.407499313354492e-06
+      }
+    }
+  },
+  {
+    "layout": "block-head",
+    "cap": 768,
+    "checks": {
+      "results/g48/batch.pt": {
+        "loss_abs": 0.002952540894211264,
+        "gradient_relative_l2": 0.12672676295802204,
+        "delta_relative_l2": 0.023167689400997813,
+        "weight_max_abs": 4.693865776062012e-06
+      }
+    }
+  },
+  {
+    "layout": "block-history",
+    "cap": 768,
+    "checks": {
+      "results/g48/batch.pt": {
+        "loss_abs": 0.0013081183236232086,
+        "gradient_relative_l2": 0.047939047463423264,
+        "delta_relative_l2": 0.007698776153895537,
+        "weight_max_abs": 3.337860107421875e-06
+      }
+    }
+  },
+  {
+    "layout": "block-entity",
+    "cap": 768,
+    "checks": {
+      "results/g48/batch.pt": {
+        "loss_abs": 0.00316479303425643,
+        "gradient_relative_l2": 0.12934463655791523,
+        "delta_relative_l2": 0.02505586526178685,
+        "weight_max_abs": 3.941357135772705e-06
+      }
+    }
+  }
+]

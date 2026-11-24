@@ -1,0 +1,108 @@
+{
+  "key": [
+    "01a1a46a-73d2-738f-8311-24d777755fee",
+    "01a1a46c-607a-74ac-a213-4c1c9196d7c4",
+    7
+  ],
+  "saleUid": 118,
+  "possibleTier3": [
+    "Badger",
+    "Camel",
+    "Dodo",
+    "Dog",
+    "Dolphin",
+    "Elephant",
+    "Giraffe",
+    "Ox",
+    "Rabbit",
+    "Sheep"
+  ],
+  "nativeSellOutcomes": [
+    [
+      [
+        "Badger",
+        2,
+        1
+      ],
+      23
+    ],
+    [
+      [
+        "Camel",
+        2,
+        1
+      ],
+      35
+    ],
+    [
+      [
+        "Dodo",
+        2,
+        1
+      ],
+      24
+    ],
+    [
+      [
+        "Dog",
+        2,
+        1
+      ],
+      14
+    ],
+    [
+      [
+        "Dolphin",
+        2,
+        1
+      ],
+      31
+    ],
+    [
+      [
+        "Elephant",
+        2,
+        1
+      ],
+      28
+    ],
+    [
+      [
+        "Giraffe",
+        2,
+        1
+      ],
+      30
+    ],
+    [
+      [
+        "Ox",
+        2,
+        1
+      ],
+      28
+    ],
+    [
+      [
+        "Rabbit",
+        2,
+        1
+      ],
+      17
+    ],
+    [
+      [
+        "Sheep",
+        2,
+        1
+      ],
+      26
+    ]
+  ],
+  "errors": {
+    "Exception: Attempted to buy Pet of cost 3 with only 2 gold": 256
+  },
+  "actualIncome": 3,
+  "otherSale": "level-one Dolphin, 1 gold",
+  "inputPolicy": "unresolved summon species; excluded from primary native replay denominator"
+}

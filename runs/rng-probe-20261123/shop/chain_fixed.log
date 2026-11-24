@@ -1,0 +1,40 @@
+consecutive seed pairs (same player): 252144
+System.Random (wrapped port), first 64 outputs; chance expectation 0.0075 hits per test
+   dotnet next: 0 hits of 252144
+   dotnet reverse: 0 hits of 252144
+   dotnet two-back: 0 hits of 252144
+   mono_old next: 0 hits of 252144
+   mono_old reverse: 0 hits of 252144
+other generators, first 16 outputs (raw, low 31 bits, >>1, mod 2^31-1), 21012 pairs:
+   unity xorshift128 InitState: 0
+   mt19937 init_genrand: 0
+   pcg32 (seed, seq 54): 0
+   pcg32 (seed, default stream): 0
+   pcg32 (seed, seq seed): 0
+   splitmix64 high 32: 0
+   splitmix64 low 32: 0
+   xorshift32 (13,17,5): 0
+   xorshift64 (13,7,17) low 32: 0
+   xorshift64 (13,7,17) high 32: 0
+   xorshift64*: 0
+   xoshiro256** (splitmix seeded) high 32: 0
+   xoshiro256** (splitmix seeded) low 32: 0
+   xoroshiro128+ (splitmix seeded) high 32: 0
+   java.util.Random next(31): 0
+   glibc random(): 0
+   MSVC rand(): 0
+   LCG ANSI C mod 2^31: 0
+   LCG POSIX rand() example: 0
+   LCG Numerical Recipes full state: 0
+   LCG Numerical Recipes high 16: 0
+   LCG Borland high 15: 0
+   LCG Knuth MMIX high 32: 0
+   MINSTD 16807: 0
+   MINSTD 48271: 0
+   murmur fmix32(seed+i): 0
+   murmur fmix32(seed^i*phi): 0
+   identity seed+i: 0
+   Knuth multiplicative hash (seed+i): 0
+   LCG 9301/49297 mod 233280: 0
+   mulberry32: 0
+   xorshift128+ (splitmix seeded) high 32: 0

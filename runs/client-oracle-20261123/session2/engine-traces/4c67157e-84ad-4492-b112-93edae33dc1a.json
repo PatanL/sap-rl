@@ -1,0 +1,390 @@
+{
+  "battle_id": "4c67157e-84ad-4492-b112-93edae33dc1a",
+  "recorded_seed": 1676946656,
+  "engine_seed": 1676946656,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Peacock",
+          "attack": 9,
+          "health": 19,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 6,
+          "health": 9,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Turtle",
+          "attack": 5,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Cow",
+          "attack": 4,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Shark",
+          "attack": 12,
+          "health": 12,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Rhino",
+          "attack": 14,
+          "health": 20,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 14,
+          "health": 12,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Leopard",
+          "attack": 13,
+          "health": 9,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dodo",
+          "attack": 22,
+          "health": 14,
+          "perk": "status-melon-armor",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Peacock",
+          "attack": 9,
+          "health": 6,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Turtle",
+          "attack": 5,
+          "health": 9,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Cow",
+          "attack": 4,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Shark",
+          "attack": 16,
+          "health": 16,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Rhino",
+          "attack": 14,
+          "health": 6,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 14,
+          "health": 12,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Leopard",
+          "attack": 35,
+          "health": 9,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dodo",
+          "attack": 22,
+          "health": 14,
+          "perk": "status-melon-armor",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Turtle",
+          "attack": 5,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Cow",
+          "attack": 4,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Shark",
+          "attack": 20,
+          "health": 20,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 14,
+          "health": 12,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Leopard",
+          "attack": 35,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dodo",
+          "attack": 22,
+          "health": 14,
+          "perk": "status-melon-armor",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Cow",
+          "attack": 4,
+          "health": 6,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Shark",
+          "attack": 24,
+          "health": 24,
+          "perk": "status-melon-armor",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 14,
+          "health": 12,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Leopard",
+          "attack": 35,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dodo",
+          "attack": 22,
+          "health": 14,
+          "perk": "status-melon-armor",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Cow",
+          "attack": 4,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Shark",
+          "attack": 24,
+          "health": 24,
+          "perk": "status-melon-armor",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Skunk",
+          "attack": 14,
+          "health": 12,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Leopard",
+          "attack": 35,
+          "health": 9,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dodo",
+          "attack": 22,
+          "health": 14,
+          "perk": "status-melon-armor",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Shark",
+          "attack": 28,
+          "health": 28,
+          "perk": "status-melon-armor",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Skunk",
+          "attack": 14,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Leopard",
+          "attack": 35,
+          "health": 9,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dodo",
+          "attack": 22,
+          "health": 14,
+          "perk": "status-melon-armor",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Shark",
+          "attack": 28,
+          "health": 28,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Leopard",
+          "attack": 35,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 22,
+          "health": 14,
+          "perk": "status-melon-armor",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Dodo",
+          "attack": 22,
+          "health": 14,
+          "perk": "status-melon-armor",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Dodo",
+          "attack": 22,
+          "health": 14,
+          "perk": "status-melon-armor",
+          "slot": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,684 @@
+{
+  "battle_id": "83e018d0-302e-431b-bc4a-b82189ecb463",
+  "recorded_seed": 748002901,
+  "engine_seed": 748002901,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Rat",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 9,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Cricket",
+          "attack": 1,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dog",
+          "attack": 8,
+          "health": 8,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Rat",
+          "attack": 7,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 9,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Cricket",
+          "attack": 1,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dog",
+          "attack": 8,
+          "health": 8,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Rat",
+          "attack": 7,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 9,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Zombie Cricket",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dog",
+          "attack": 10,
+          "health": 9,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Rat",
+          "attack": 7,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 9,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dog",
+          "attack": 10,
+          "health": 9,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Rat",
+          "attack": 7,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 9,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Rabbit",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dog",
+          "attack": 12,
+          "health": 10,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Dodo",
+          "attack": 9,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dirty Rat",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dog",
+          "attack": 14,
+          "health": 11,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Dodo",
+          "attack": 9,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Spider",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dog",
+          "attack": 14,
+          "health": 11,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [
+        {
+          "pet": "Dodo",
+          "attack": 9,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Sheep",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dog",
+          "attack": 16,
+          "health": 12,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-07",
+      "player": [
+        {
+          "pet": "Dodo",
+          "attack": 9,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ram",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Ram",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dog",
+          "attack": 20,
+          "health": 14,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-08",
+      "player": [
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ram",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dog",
+          "attack": 20,
+          "health": 14,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-09",
+      "player": [
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dog",
+          "attack": 20,
+          "health": 14,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-10",
+      "player": [
+        {
+          "pet": "Mosquito",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Camel",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dog",
+          "attack": 22,
+          "health": 15,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-11",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Dog",
+          "attack": 23,
+          "health": 17,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Dog",
+          "attack": 23,
+          "health": 17,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    }
+  ]
+}

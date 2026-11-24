@@ -1,0 +1,586 @@
+{
+  "battle_id": "5ee1a36a-0b52-4e76-8d3f-f2c2182e38a5",
+  "recorded_seed": -1595388657,
+  "engine_seed": 2699578639,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Dragon",
+          "attack": 9,
+          "health": 14,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Squirrel",
+          "attack": 29,
+          "health": 29,
+          "perk": "status-splash-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Peacock",
+          "attack": 40,
+          "health": 45,
+          "perk": "status-garlic-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Worm",
+          "attack": 29,
+          "health": 40,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Whale",
+          "attack": 3,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Horse",
+          "attack": 13,
+          "health": 15,
+          "perk": "status-extra-life",
+          "slot": 0
+        },
+        {
+          "pet": "Hedgehog",
+          "attack": 6,
+          "health": 4,
+          "perk": "status-extra-life",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 5,
+          "health": 3,
+          "perk": "status-extra-life",
+          "slot": 2
+        },
+        {
+          "pet": "Deer",
+          "attack": 6,
+          "health": 6,
+          "perk": "status-extra-life",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 7,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Dragon",
+          "attack": 9,
+          "health": 14,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Squirrel",
+          "attack": 29,
+          "health": 29,
+          "perk": "status-splash-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Peacock",
+          "attack": 40,
+          "health": 45,
+          "perk": "status-garlic-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Whale",
+          "attack": 3,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Horse",
+          "attack": 13,
+          "health": 15,
+          "perk": "status-extra-life",
+          "slot": 0
+        },
+        {
+          "pet": "Hedgehog",
+          "attack": 6,
+          "health": 4,
+          "perk": "status-extra-life",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 5,
+          "health": 3,
+          "perk": "status-extra-life",
+          "slot": 2
+        },
+        {
+          "pet": "Deer",
+          "attack": 6,
+          "health": 6,
+          "perk": "status-extra-life",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 7,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Dragon",
+          "attack": 9,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Squirrel",
+          "attack": 29,
+          "health": 29,
+          "perk": "status-splash-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Peacock",
+          "attack": 40,
+          "health": 45,
+          "perk": "status-garlic-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Whale",
+          "attack": 3,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Horse",
+          "attack": 13,
+          "health": 6,
+          "perk": "status-extra-life",
+          "slot": 0
+        },
+        {
+          "pet": "Hedgehog",
+          "attack": 6,
+          "health": 4,
+          "perk": "status-extra-life",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 5,
+          "health": 3,
+          "perk": "status-extra-life",
+          "slot": 2
+        },
+        {
+          "pet": "Deer",
+          "attack": 6,
+          "health": 6,
+          "perk": "status-extra-life",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 7,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Squirrel",
+          "attack": 29,
+          "health": 29,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Peacock",
+          "attack": 40,
+          "health": 45,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Whale",
+          "attack": 3,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Horse",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Hedgehog",
+          "attack": 6,
+          "health": 4,
+          "perk": "status-extra-life",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 5,
+          "health": 3,
+          "perk": "status-extra-life",
+          "slot": 2
+        },
+        {
+          "pet": "Deer",
+          "attack": 6,
+          "health": 6,
+          "perk": "status-extra-life",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 7,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Squirrel",
+          "attack": 29,
+          "health": 20,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Peacock",
+          "attack": 46,
+          "health": 37,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Worm",
+          "attack": 29,
+          "health": 40,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Hedgehog",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 5,
+          "health": 1,
+          "perk": "status-extra-life",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 6,
+          "health": 4,
+          "perk": "status-extra-life",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 7,
+          "health": 14,
+          "perk": "status-bread",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Squirrel",
+          "attack": 29,
+          "health": 11,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Peacock",
+          "attack": 50,
+          "health": 29,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Worm",
+          "attack": 29,
+          "health": 32,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bus",
+          "attack": 5,
+          "health": 3,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 6,
+          "health": 2,
+          "perk": "status-extra-life",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 7,
+          "health": 12,
+          "perk": "status-bread",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Squirrel",
+          "attack": 29,
+          "health": 6,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Peacock",
+          "attack": 50,
+          "health": 26,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Worm",
+          "attack": 29,
+          "health": 32,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bus",
+          "attack": 5,
+          "health": 3,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 6,
+          "health": 2,
+          "perk": "status-extra-life",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 7,
+          "health": 12,
+          "perk": "status-bread",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [
+        {
+          "pet": "Squirrel",
+          "attack": 29,
+          "health": 1,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Peacock",
+          "attack": 50,
+          "health": 17,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Worm",
+          "attack": 29,
+          "health": 26,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 6,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 7,
+          "health": 12,
+          "perk": "status-bread",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-07",
+      "player": [
+        {
+          "pet": "Peacock",
+          "attack": 50,
+          "health": 14,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Worm",
+          "attack": 29,
+          "health": 26,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 6,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 7,
+          "health": 12,
+          "perk": "status-bread",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-08",
+      "player": [
+        {
+          "pet": "Peacock",
+          "attack": 50,
+          "health": 1,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Worm",
+          "attack": 29,
+          "health": 15,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Wolverine",
+          "attack": 7,
+          "health": 12,
+          "perk": "status-bread",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-09",
+      "player": [
+        {
+          "pet": "Worm",
+          "attack": 29,
+          "health": 15,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Worm",
+          "attack": 29,
+          "health": 15,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+diff --git a/tools/calculator_batch.js b/tools/calculator_batch.js
+index c60514e..92580d7 100755
+--- a/tools/calculator_batch.js
++++ b/tools/calculator_batch.js
+@@ -2,7 +2,8 @@
+ "use strict";
+ 
+ // Small JSON-in/JSON-out adapter around the pinned SAP-Calculator bundle.
+-// Keeping one Node process alive makes large differential batches practical.
++// Each distinct board needs a fresh calculator process. Reusing the bundle
++// across requests can make the result depend on earlier boards in the batch.
+ 
+ const fs = require("fs");
+ const path = require("path");
+@@ -11,13 +12,13 @@ const calculatorRoot = process.argv[2];
+ if (!calculatorRoot) {
+   throw new Error("Usage: calculator_batch.js <SAP-Calculator checkout>");
+ }
+-const simulation = require(path.join(calculatorRoot, "simulation/dist/index.js"));
+ const requests = JSON.parse(fs.readFileSync(0, "utf8"));
+ if (!Array.isArray(requests)) {
+   throw new Error("Expected a JSON array of simulation configs");
+ }
+ 
+-const results = requests.map((config) => {
++function simulate(config) {
++  const simulation = require(path.join(calculatorRoot, "simulation/dist/index.js"));
+   const result = simulation.runHeadlessSimulation(config, {
+     includeBattles: false,
+     enableLogs: false,
+@@ -27,5 +28,13 @@ const results = requests.map((config) => {
+     opponentWins: result.opponentWins,
+     draws: result.draws,
+   };
++}
++const { execFileSync } = require("child_process");
++const results = requests.map(config => {
++  if (requests.length === 1) return simulate(config);
++  const output = execFileSync(process.execPath, [__filename, calculatorRoot], {
++    input: JSON.stringify([config]), encoding: "utf8",
++  });
++  return JSON.parse(output)[0];
+ });
+ process.stdout.write(JSON.stringify(results));
+diff --git a/tools/check_sap_calculator_sync.py b/tools/check_sap_calculator_sync.py
+index e228860..981ef4b 100644
+--- a/tools/check_sap_calculator_sync.py
++++ b/tools/check_sap_calculator_sync.py
+@@ -9,6 +9,7 @@ import subprocess
+ from pathlib import Path
+ 
+ from sapai.data import data
++from sapai.shop import get_shop_rules
+ from sapai.turtle_pack import SOURCE_OF_TRUTH
+ 
+ 
+@@ -50,11 +51,12 @@ def main() -> int:
+         and isinstance(item.get("Tier"), int)
+         and item["Tier"] <= 6
+     }
++    # Turn 11 unlocks every shop tier. Summoned pets also have numeric tiers
++    # for battle effects, so compare the pool the shop can actually roll.
++    _, _, _, _, rollable_pets, rollable_foods, _, _ = get_shop_rules(11, pack="StandardPack")
+     actual_pets = {
+-        pet_id: (pet["baseAttack"], pet["baseHealth"], pet["tier"])
+-        for pet_id, pet in data["pets"].items()
+-        if "StandardPack" in pet.get("packs", [])
+-        and isinstance(pet.get("tier"), int)
++        pet_id: tuple(data["pets"][pet_id][key] for key in ("baseAttack", "baseHealth", "tier"))
++        for pet_id in rollable_pets
+     }
+ 
+     expected_foods = {
+@@ -66,10 +68,7 @@ def main() -> int:
+         and item["Tier"] <= 6
+     }
+     actual_foods = {
+-        food_id: food["tier"]
+-        for food_id, food in data["foods"].items()
+-        if "StandardPack" in food.get("packs", [])
+-        and isinstance(food.get("tier"), int)
++        food_id: data["foods"][food_id]["tier"] for food_id in rollable_foods
+     }
+ 
+     failures = []
+diff --git a/tools/differential_calculator.py b/tools/differential_calculator.py
+index 23d75d1..84c9833 100755
+--- a/tools/differential_calculator.py
++++ b/tools/differential_calculator.py
+@@ -18,6 +18,7 @@ import subprocess
+ import numpy as np
+ 
+ from sapai import Battle, Pet, Team
++from sapai.effects import TransferAbility
+ from sapai.turtle_pack import SOURCE_OF_TRUTH, TURTLE_PET_STATS
+ 
+ 
+@@ -135,11 +136,22 @@ def _run_calculator(calculator: Path, configs: list[dict]) -> list[dict]:
+     return json.loads(completed.stdout)
+ 
+ 
++def _submitted_team(specs: list[dict]) -> Team:
++    team = Team([_make_pet(spec) for spec in specs])
++    # Calculator derives an unspecified Parrot copy from the friend ahead.
++    # A real sapai shop sets this memory at END. Our generated boards already
++    # specify submitted stats, so reconstruct just the copied ability.
++    for index, slot in enumerate(team):
++        if not slot.empty and slot.pet.name == "pet-parrot":
++            TransferAbility(slot.pet, [0, index], [team])
++    return team
++
++
+ def _run_sapai(scenario: dict, samples: int, seed: int) -> dict:
+     counts = {"playerWins": 0, "opponentWins": 0, "draws": 0}
++    player = _submitted_team(scenario["player"])
++    opponent = _submitted_team(scenario["opponent"])
+     for sample in range(samples):
+-        player = Team([_make_pet(spec) for spec in scenario["player"]])
+-        opponent = Team([_make_pet(spec) for spec in scenario["opponent"]])
+         outcome = Battle(
+             player,
+             opponent,
+diff --git a/tests/test_calculator_fixtures.py b/tests/test_calculator_fixtures.py
+new file mode 100644
+index 0000000..1531b7c
+--- /dev/null
++++ b/tests/test_calculator_fixtures.py
+@@ -0,0 +1,37 @@
++"""Regression cases for submitted boards and calculator process isolation."""
++from pathlib import Path
++import shutil
++import sys
++import unittest
++
++sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
++from differential_calculator import _calculator_config, _run_calculator, _submitted_team
++
++
++def pet(name, attack, health, experience=0, status="none"):
++    return dict(id="pet-" + name, attack=attack, health=health, experience=experience, status=status)
++
++
++class CalculatorFixtures(unittest.TestCase):
++    def test_parrot_has_native_copy_at_its_own_level_on_submitted_board(self):
++        team = _submitted_team([pet("crocodile", 14, 4), pet("parrot", 6, 7, 2)])
++        copied = team[1].pet.ability
++        self.assertEqual(copied["_copiedFrom"], "pet-crocodile")
++        self.assertEqual(copied["effect"], team[0].pet.fd["level2Ability"]["effect"])
++        self.assertEqual((team[1].pet.attack, team[1].pet.health), (6, 7))
++
++    def test_same_battle_twice_matches_fresh_process(self):
++        calculator = Path(__file__).resolve().parents[2] / "SAP-Calculator"
++        if not shutil.which("node") or not (calculator / "simulation/dist/index.js").is_file():
++            self.skipTest("Requires Node and the pinned SAP-Calculator checkout")
++        board = dict(
++            player=[pet("cat", 9, 14), pet("hippo", 17, 10, 2),
++                    pet("crab", 6, 16, status="status-garlic-armor"),
++                    pet("camel", 12, 10, status="status-honey-bee")],
++            opponent=[pet("peacock", 4, 15, status="status-honey-bee"),
++                      pet("dragon", 14, 11), pet("ant", 6, 13, status="status-extra-life"),
++                      pet("cricket", 7, 13, 2, "status-honey-bee")])
++        config = _calculator_config(board, 8, 99)
++        solo, = _run_calculator(calculator, [config])
++        self.assertEqual(solo["opponentWins"], 8)
++        self.assertEqual(_run_calculator(calculator, [config, config]), [solo, solo])

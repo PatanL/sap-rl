@@ -1,0 +1,12 @@
+10:41:50 b5e6-26022-25772 exit 0 score 0.5114 games 4096 seconds 90.1 decisions/s 11277
+10:57:40 b5e6-26272-25772 exit 0 score 0.5156 games 4096 seconds 101.7 decisions/s 9519
+11:15:26 b5e6-26522-25772 exit 0 score 0.5132 games 4096 seconds 101.7 decisions/s 10817
+11:32:11 b5e6-26772-25772 exit 0 score 0.4902 games 4096 seconds 99.3 decisions/s 12176
+11:49:57 b5e6-27022-25772 exit 0 score 0.4973 games 4096 seconds 101.3 decisions/s 12108
+12:06:22 b5e6-27272-25772 exit 0 score 0.5232 games 4096 seconds 80.5 decisions/s 12986
+12:23:47 b5e6-27522-25772 exit 0 score 0.5454 games 4096 seconds 78.7 decisions/s 12700
+12:41:03 b5e6-27772-25772 exit 0 score 0.5253 games 4096 seconds 71.0 decisions/s 15287
+12:42:28 b5e6-27772-v22 exit 0 score 0.7756 games 4096 seconds 79.4 decisions/s 15751
+12:43:43 b5e6-27772-v25 exit 0 score 0.7910 games 4096 seconds 70.7 decisions/s 17744
+12:44:52 b5e6-27772-a27772 exit 0 score 0.5010 games 4096 seconds 64.6 decisions/s 17026
+12:44:52 curve complete

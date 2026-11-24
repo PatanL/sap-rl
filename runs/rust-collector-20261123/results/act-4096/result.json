@@ -1,0 +1,53 @@
+{
+  "backend": "rust",
+  "training": false,
+  "games": 4096,
+  "workers": 10,
+  "wall": 115.1323305349797,
+  "matches": 6849,
+  "battles": 103926,
+  "waves": 373,
+  "seat": 2518638,
+  "live": 1896540,
+  "seat_s": 21876.027248790757,
+  "games_s": 59.488068800267406,
+  "learned_s": 0.0,
+  "learned": 0,
+  "delivered": 0,
+  "updates": 0,
+  "stale": 0,
+  "stale_share": 0.0,
+  "queued": 0,
+  "backlog": 0.5,
+  "pending_stale": 0,
+  "gpu": 89.11304347826086,
+  "main_seconds": {
+    "turn_capture": 0.008935990277677774,
+    "actor": 113.5656445948407,
+    "engine": 1.2304733959026635,
+    "reset": 0.3251091851852834
+  },
+  "learner_wall": 0.0,
+  "actor_timing": {
+    "policy_stream_s": 110.5549071121215,
+    "service_s": 113.52906198240817
+  },
+  "mean_active_seats": 6752.380697050939,
+  "policy_batch_percentiles": [
+    1610.5,
+    3356.0,
+    5125.5,
+    5837.7499999999945
+  ],
+  "peak_gib": 2.6796875,
+  "steady": {
+    "seconds": 35.3766700590495,
+    "seat_s": 21983.272563708637,
+    "games_s": 77.62177400068047,
+    "learned_s": 0.0
+  },
+  "events": [],
+  "library_sha256": "ddf5a8f22f0c39067e7c96a6054f01b5c87b624373b4fc1879715469470f4372",
+  "seed": 2577223,
+  "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2"
+}

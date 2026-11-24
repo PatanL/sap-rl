@@ -1,0 +1,3 @@
+{"step": 50, "seconds": 62.9, "decisions": 169899, "decisions_per_s": 2702, "matches": 461, "kl": 0.9638, "value": 0.71327, "freeze": 0.09758, "agree": 0.529, "teacher_moves": 0.02}
+{"step": 100, "seconds": 125.0, "decisions": 338009, "decisions_per_s": 2703, "matches": 1029, "kl": 0.7515, "value": 0.50884, "freeze": 0.07656, "agree": 0.539, "teacher_moves": 0.0}
+{"step": 150, "seconds": 186.1, "decisions": 506878, "decisions_per_s": 2723, "matches": 1628, "kl": 0.4908, "value": 0.43342, "freeze": 0.04119, "agree": 0.6388, "teacher_moves": 0.0}

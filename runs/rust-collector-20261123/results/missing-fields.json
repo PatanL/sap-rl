@@ -1,0 +1,39 @@
+{
+  "counts": {
+    "battles": 11874,
+    "battles_with_spent_triggers": 1,
+    "battles_with_copy": 2
+  },
+  "individual_visible_pet_tuples_with_multiple_metadata_values": 1,
+  "examples": {
+    "copy": {
+      "match": "bot-25772-greedy-1824196392",
+      "turn": 5,
+      "side": 1,
+      "pet": {
+        "id": "pet-parrot",
+        "attack": 4,
+        "health": 2,
+        "level": 1,
+        "experience": 0,
+        "status": "none",
+        "triggersConsumed": 0,
+        "parrotCopies": "pet-fish"
+      }
+    },
+    "trigger": {
+      "match": "bot-25772-greedy-1826833419",
+      "turn": 11,
+      "side": 0,
+      "pet": {
+        "id": "pet-dragon",
+        "attack": 3,
+        "health": 8,
+        "level": 1,
+        "experience": 0,
+        "status": "none",
+        "triggersConsumed": 1
+      }
+    }
+  }
+}

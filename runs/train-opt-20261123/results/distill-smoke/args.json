@@ -1,0 +1,14 @@
+{
+ "teacher": "/out/results/selfplay-a/seg-1/update-027772.pt",
+ "out": "/out/results/distill-smoke",
+ "games": "256",
+ "steps": "150",
+ "window": "8",
+ "lr": "0.0003",
+ "teacher_moves": "50",
+ "save_every": "150",
+ "threads": "5",
+ "seed": "20261123",
+ "seconds": "1000000000.0",
+ "resume": "None"
+}

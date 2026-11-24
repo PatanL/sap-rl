@@ -1,0 +1,84 @@
+{
+  "layout": "sorted",
+  "compact": true,
+  "cap": 512,
+  "rate": 4363.9897367873,
+  "comparisons": {
+    "bf16": {
+      "passed": true,
+      "difference": {
+        "loss_abs": 0.00036264032994720585,
+        "gradient_relative_l2": 0.03399585333960477,
+        "delta_relative_l2": 0.009391032306741863,
+        "weight_max_abs": 4.902482032775879e-06
+      },
+      "gradient": {
+        "relative_l2": 0.03399585333960477,
+        "max_abs": 0.0006401538848876953,
+        "cosine": 0.9994222738802492
+      },
+      "parameter_delta": {
+        "relative_l2": 0.009391032306741863,
+        "max_abs": 4.902482032775879e-06,
+        "cosine": 0.9999562305931772
+      },
+      "reference": {
+        "decisions": 8194,
+        "microbatches": 90,
+        "turns": 707,
+        "loss": 0.27951112956677887,
+        "grad_norm": 0.6391363143920898,
+        "primitive_actions": 9409
+      },
+      "fast": {
+        "decisions": 8194,
+        "turns": 707,
+        "microbatches": 20,
+        "padded_rows": 8679,
+        "loss": 0.27914848923683167,
+        "grad_norm": 0.6392619609832764,
+        "effective_cap": 512,
+        "oom_retries": 0,
+        "primitive_actions": 9409
+      }
+    },
+    "fp32": {
+      "passed": true,
+      "difference": {
+        "loss_abs": 1.220553131897617e-07,
+        "gradient_relative_l2": 4.133596529424063e-06,
+        "delta_relative_l2": 1.4885768093454795e-05,
+        "weight_max_abs": 2.9802322387695312e-08
+      },
+      "gradient": {
+        "relative_l2": 4.133596529424063e-06,
+        "max_abs": 4.237517714500427e-08,
+        "cosine": 0.9999999999914649
+      },
+      "parameter_delta": {
+        "relative_l2": 1.4885768093454795e-05,
+        "max_abs": 2.9802322387695312e-08,
+        "cosine": 0.9999999998892073
+      },
+      "reference": {
+        "decisions": 8194,
+        "microbatches": 90,
+        "turns": 707,
+        "loss": 0.2808049945681306,
+        "grad_norm": 0.6518030166625977,
+        "primitive_actions": 9409
+      },
+      "fast": {
+        "decisions": 8194,
+        "turns": 707,
+        "microbatches": 20,
+        "padded_rows": 8679,
+        "loss": 0.2808048725128174,
+        "grad_norm": 0.6518029570579529,
+        "effective_cap": 512,
+        "oom_retries": 0,
+        "primitive_actions": 9409
+      }
+    }
+  }
+}

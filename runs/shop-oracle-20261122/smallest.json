@@ -1,0 +1,203 @@
+[
+  {
+    "key": [
+      "01a1c61f-fbf5-72db-9f8e-250f8cbfd65d",
+      "01a1c621-5eb8-70e1-9f8d-e73efb2ad84c",
+      6
+    ],
+    "case": "01-01a1c61f-t6",
+    "split": "dev",
+    "actions": [
+      "buy Rabbit",
+      "Salad Bowl",
+      "roll",
+      "Salad Bowl"
+    ],
+    "beforePets": 4,
+    "diff": "Horse x1 HP 5 / 4; Rabbit x4 HP 5 / 6",
+    "mechanism": "Two Salad Bowls and one Rabbit. Permuting notifications within an already-selected Salad pair reproduces the real health split.",
+    "tested": 65536,
+    "distinct": 75
+  },
+  {
+    "key": [
+      "01a1d3c6-58f6-78e4-8b6a-40e2561846f2",
+      "01a1d3c6-58f9-7aea-92b6-7c2af287f0e2",
+      6
+    ],
+    "case": "02-01a1d3c6-t6",
+    "split": "dev",
+    "actions": [
+      "buy Rabbit",
+      "Salad Bowl",
+      "Salad Bowl",
+      "roll"
+    ],
+    "beforePets": 4,
+    "diff": "Camel x2 HP 8 / 7; Turtle x3 HP 8 / 9",
+    "mechanism": "Two Salad Bowls reach a Rabbit\u2019s three-use cap. The same recipients can generate the recorded health if the capped notification goes to the other pet.",
+    "tested": 65536,
+    "distinct": 75
+  },
+  {
+    "key": [
+      "01a1b9fd-85ca-7e93-aa07-f5de7eaf5d35",
+      "01a1b9fd-85cc-7577-86fd-d03398bf0cf8",
+      10
+    ],
+    "case": "03-01a1b9fd-t10",
+    "split": "dev",
+    "actions": [
+      "Canned Food",
+      "Canned Food",
+      "roll",
+      "Bread"
+    ],
+    "beforePets": 5,
+    "diff": "Tiger x2 HP 6 / 4",
+    "mechanism": "The two Canned Foods consumed the native Rabbit\u2019s uses on shop pets. The real Tiger received the level-two Rabbit\u2019s +2 HP when it ate Bread.",
+    "tested": 8192,
+    "distinct": 1
+  },
+  {
+    "key": [
+      "01a1ccee-726f-76e2-8884-df4806fb6ca0",
+      "01a1ccee-7272-7fbd-b6a5-6c308fefccc6",
+      7
+    ],
+    "case": "04-01a1ccee-t7",
+    "split": "heldout",
+    "actions": [
+      "Canned Food",
+      "roll",
+      "Bread",
+      "Salad Bowl"
+    ],
+    "beforePets": 5,
+    "diff": "Penguin x1 HP 7 / 6; Snail x2 HP 9 / 8; Flamingo x3 HP 9 / 8",
+    "mechanism": "Ignoring Canned Food\u2019s shop pets for Rabbit\u2019s budget accounts for the three later +1 HP adjustments on the actual board.",
+    "tested": 65536,
+    "distinct": 10
+  },
+  {
+    "key": [
+      "01a1ce58-bcfb-783e-8577-d12054514edf",
+      "01a1ce5b-830c-7ae6-a4e1-5b7e3e7374e8",
+      12
+    ],
+    "case": "05-01a1ce58-t12",
+    "split": "dev",
+    "actions": [
+      "Steak",
+      "roll",
+      "Steak",
+      "Pear"
+    ],
+    "beforePets": 5,
+    "diff": "Frozen Scorpion #250 perk none / Peanut",
+    "mechanism": "The real frozen Scorpion was bare. The native constructor attached Peanut while the pet was still in the shop.",
+    "tested": 65536,
+    "distinct": 3
+  },
+  {
+    "key": [
+      "01a1d3c6-58f6-78e4-8b6a-40e2561846f2",
+      "01a1d3c6-58f9-7aea-92b6-7c2af287f0e2",
+      8
+    ],
+    "case": "06-01a1d3c6-t8",
+    "split": "dev",
+    "actions": [
+      "Canned Food",
+      "buy merge Squirrel",
+      "buy merge Turtle",
+      "Cupcake"
+    ],
+    "beforePets": 5,
+    "diff": "Squirrel x0 HP 7 / 8; Camel x3 HP 14 / 13",
+    "mechanism": "Canned Food precedes the Squirrel buy-merge and the Camel\u2019s Cupcake. The native shop Squirrel picked up an extra HP that survived the merge; the real Camel received that HP. This matches Rabbit spending a use on shop stock.",
+    "tested": 8192,
+    "distinct": 1
+  },
+  {
+    "key": [
+      "01a1d859-90f7-7b79-b145-9cc6246324bd",
+      "01a1d85a-047d-75ff-8aaa-2a5c62eceb6d",
+      12
+    ],
+    "case": "07-01a1d859-t12",
+    "split": "heldout",
+    "actions": [
+      "buy merge Tiger",
+      "Mushroom",
+      "roll",
+      "Pear"
+    ],
+    "beforePets": 5,
+    "diff": "Frozen Scorpion #203 perk none / Peanut",
+    "mechanism": "The recorded frozen Scorpion had no perk while its native counterpart already had Peanut.",
+    "tested": 8192,
+    "distinct": 1
+  },
+  {
+    "key": [
+      "01a1db4e-1782-7c59-b236-7684f9c010f2",
+      "01a1db4f-c567-7338-841f-ec429eb754ed",
+      12
+    ],
+    "case": "08-01a1db4e-t12",
+    "split": "dev",
+    "actions": [
+      "Steak",
+      "roll",
+      "Sushi",
+      "Pear"
+    ],
+    "beforePets": 5,
+    "diff": "Rhino x3 HP 16 / 18; Rabbit x4 HP 28 / 26",
+    "mechanism": "Steak consumes one Rabbit use before Sushi. Changing which two Sushi recipients receive the remaining health bonuses accounts for the difference, with the Cat and Sushi stat buffs unchanged.",
+    "tested": 65536,
+    "distinct": 10
+  },
+  {
+    "key": [
+      "01a1e117-33a4-73f0-9750-03a5df946f4b",
+      "01a1e117-33a6-7f67-aa33-e8fb5eea3824",
+      7
+    ],
+    "case": "09-01a1e117-t7",
+    "split": "dev",
+    "actions": [
+      "roll",
+      "Salad Bowl",
+      "buy merge Ox",
+      "Salad Bowl"
+    ],
+    "beforePets": 5,
+    "diff": "Rabbit x0 HP 4 / 3; Rabbit x4 HP 11 / 12",
+    "mechanism": "Two Rabbits and two Salad Bowls. Independent recipient order for each Rabbit can split the last health points as recorded. A single shared fixed order does not reproduce this split.",
+    "tested": 65536,
+    "distinct": 75
+  },
+  {
+    "key": [
+      "01a194ec-c4a5-779e-966a-3065cd1c5853",
+      "01a194ec-c4a8-790d-b9ff-c50a30fb407f",
+      10
+    ],
+    "case": "10-01a194ec-t10",
+    "split": "dev",
+    "actions": [
+      "Better Apple",
+      "roll",
+      "Sushi",
+      "roll",
+      "buy Whale"
+    ],
+    "beforePets": 4,
+    "diff": "Cat x1 HP 7 / 9; Shark x2 HP 10 / 8",
+    "mechanism": "Better Apple consumes a Rabbit use before Sushi. Changing the order of the Sushi notifications accounts for the Cat/Shark health difference.",
+    "tested": 65536,
+    "distinct": 4
+  }
+]

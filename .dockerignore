@@ -1,0 +1,11 @@
+**/.git
+**/__pycache__
+**/.pytest_cache
+**/*.pyc
+SAP-Calculator
+checkpoints
+replay-data
+runs
+sap-replay-bot
+scripts
+sapai-gym/sapai_gym_env

@@ -1,0 +1,205 @@
+[
+ {
+  "name": "e5-wolv-vs-rhino",
+  "nseeds": 2,
+  "left": [
+   [
+    "Rhino",
+    6,
+    20
+   ],
+   [
+    "Pig",
+    2,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Duck",
+    4,
+    22
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    7
+   ],
+   [
+    "Fish",
+    2,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "f7x-tiger-dies-too-continues",
+  "nseeds": 2,
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "f7c-tiger-survives-control",
+  "nseeds": 2,
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    9
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "f2x-tiger-faint-continues",
+  "nseeds": 2,
+  "left": [
+   [
+    "Hedgehog",
+    9,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Mammoth",
+    3,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    4
+   ],
+   [
+    "Fish",
+    2,
+    40
+   ]
+  ]
+ },
+ {
+  "name": "c5-whale-fly",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "name": "c5s-whale-shark",
+  "nseeds": 2,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ],
+   [
+    "Shark",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ }
+]

@@ -1,0 +1,209 @@
+{
+ "f10-snake-tiger-dead-front": [
+  {
+   "count": 31,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/11, Fish 2/21]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 2/16]",
+    "after-attack-04: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 30,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/6, Fish 2/26]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 2/16]",
+    "after-attack-04: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 24,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/20, Fish 2/31]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/6, Fish 2/26]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 2/16]",
+    "after-attack-04: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 15,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/11, Fish 2/21]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 1/2, Fish 2/11]",
+    "after-attack-04: P[Fish 9/46, Snake 8/3, Tiger 6/4] O[Fish 2/1]",
+    "after-attack-05: P[Fish 9/44, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/44, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 14,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/20, Fish 2/31]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/1, Fish 2/31]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 2/21]",
+    "after-attack-04: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[Fish 2/2]",
+    "after-attack-05: P[Fish 9/43, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/43, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 13,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/30, Fish 2/21]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/16, Fish 2/16]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 1/2, Fish 2/11]",
+    "after-attack-04: P[Fish 9/46, Snake 8/3, Tiger 6/4] O[Fish 2/1]",
+    "after-attack-05: P[Fish 9/44, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/44, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 11,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/20, Fish 2/31]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/11, Fish 2/21]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 2/16]",
+    "after-attack-04: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 11,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/16, Fish 2/16]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 1/2, Fish 2/11]",
+    "after-attack-04: P[Fish 9/46, Snake 8/3, Tiger 6/4] O[Fish 2/1]",
+    "after-attack-05: P[Fish 9/44, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/44, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 9,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/30, Fish 2/21]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/16, Fish 2/16]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 2/16]",
+    "after-attack-04: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 8,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/30, Fish 2/21]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/11, Fish 2/21]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 2/16]",
+    "after-attack-04: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 8,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/30, Fish 2/21]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/21, Fish 2/11]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 1/2, Fish 2/11]",
+    "after-attack-04: P[Fish 9/46, Snake 8/3, Tiger 6/4] O[Fish 2/1]",
+    "after-attack-05: P[Fish 9/44, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/44, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 5,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/30, Fish 2/21]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/16, Fish 2/16]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 1/7, Fish 2/6]",
+    "after-attack-04: P[Fish 9/46, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/46, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 5,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/16, Fish 2/16]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 1/7, Fish 2/6]",
+    "after-attack-04: P[Fish 9/46, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/46, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 4,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/16, Fish 2/16]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 2/16]",
+    "after-attack-04: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/45, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 4,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/30, Fish 2/21]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/11, Fish 2/21]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 1/2, Fish 2/11]",
+    "after-attack-04: P[Fish 9/46, Snake 8/3, Tiger 6/4] O[Fish 2/1]",
+    "after-attack-05: P[Fish 9/44, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/44, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 3,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/30, Fish 2/21]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/21, Fish 2/11]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 1/12, Fish 2/1]",
+    "after-attack-04: P[Fish 9/46, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/46, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 3,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/30, Fish 2/21]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/21, Fish 2/11]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 1/7, Fish 2/6]",
+    "after-attack-04: P[Fish 9/46, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/46, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  },
+  {
+   "count": 2,
+   "steps": [
+    "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+    "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/20, Fish 2/31]",
+    "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/11, Fish 2/21]",
+    "after-attack-03: P[Fish 9/47, Snake 8/3, Tiger 6/4] O[Fish 1/2, Fish 2/11]",
+    "after-attack-04: P[Fish 9/46, Snake 8/3, Tiger 6/4] O[Fish 2/1]",
+    "after-attack-05: P[Fish 9/44, Snake 8/3, Tiger 6/4] O[empty]",
+    "final: P[Fish 9/44, Snake 8/3, Tiger 6/4] O[empty]"
+   ]
+  }
+ ]
+}

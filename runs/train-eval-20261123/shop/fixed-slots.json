@@ -1,0 +1,33 @@
+{
+  "counts": {
+    "deer": {
+      "tested": 80,
+      "exact": 80
+    },
+    "deer / Mushroom": {
+      "tested": 80,
+      "exact": 80
+    },
+    "sheep": {
+      "tested": 80,
+      "exact": 80
+    },
+    "sheep / Mushroom": {
+      "tested": 80,
+      "exact": 80
+    },
+    "spider": {
+      "tested": 80,
+      "exact": 80
+    },
+    "spider / Mushroom": {
+      "tested": 80,
+      "exact": 80
+    },
+    "fish / Mushroom": {
+      "tested": 80,
+      "exact": 80
+    }
+  },
+  "misses": []
+}

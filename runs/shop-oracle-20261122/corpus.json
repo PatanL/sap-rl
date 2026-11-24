@@ -1,0 +1,32 @@
+{
+  "counts": {
+    "snapshots raw": 7188,
+    "eligible raw": 6592,
+    "action-only turns without terminal snapshot": 2,
+    "snapshots archive": 933,
+    "eligible archive": 853
+  },
+  "actionTypes": {
+    "4": 8123,
+    "6": 16494,
+    "5": 21117,
+    "11": 8121,
+    "12": 676,
+    "0": 8121,
+    "1": 8121,
+    "2": 8119,
+    "7": 3483,
+    "9": 5609,
+    "8": 9443,
+    "3": 9
+  },
+  "grammar": {
+    "freeze batches": 8846,
+    "order batches": 11732
+  },
+  "prePostDifferences": {},
+  "matches": 340,
+  "seats": 680,
+  "rawFiles": 300,
+  "archiveFiles": 40
+}

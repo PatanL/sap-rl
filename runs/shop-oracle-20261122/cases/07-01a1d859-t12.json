@@ -1,0 +1,2240 @@
+{
+  "split": "heldout",
+  "replayFile": "f6651d59-56ba-42c9-be74-4ea17750ff79.json",
+  "why": "The recorded frozen Scorpion had no perk while its native counterpart already had Peanut.",
+  "headlineDifference": "Frozen Scorpion #203 perk none / Peanut",
+  "seed": 2518234765,
+  "result": {
+    "key": [
+      "01a1d859-90f7-7b79-b145-9cc6246324bd",
+      "01a1d85a-047d-75ff-8aaa-2a5c62eceb6d",
+      12
+    ],
+    "split": "heldout",
+    "source": "raw",
+    "pets": [
+      "Deer",
+      "Mammoth",
+      "Snake",
+      "Tiger",
+      "Whale"
+    ],
+    "foods": [
+      "Mushroom",
+      "Pear"
+    ],
+    "ops": [
+      "buy merge",
+      "end",
+      "food",
+      "roll",
+      "start"
+    ],
+    "actions": 6,
+    "boardSize": 5,
+    "inferred": 0,
+    "shapeIssues": {},
+    "direct": [
+      "Mammoth",
+      "Tiger"
+    ],
+    "frozenPetNames": [
+      "Scorpion",
+      "Tiger"
+    ],
+    "reproduced": false,
+    "boardMatch": true,
+    "ever": [
+      "board",
+      "economy",
+      "frozen IDs",
+      "gain",
+      "gold",
+      "level/xp",
+      "perk",
+      "permanent",
+      "remaining IDs",
+      "species/order",
+      "spent",
+      "temporary"
+    ],
+    "diff": [
+      "frozen"
+    ],
+    "tries": 8192,
+    "distinct": 1,
+    "seed": 2518234765,
+    "first": [
+      "frozen"
+    ],
+    "completed": true,
+    "uncDiff": 0,
+    "genIssues": [],
+    "costErrors": [],
+    "orderEvidence": 1,
+    "unresolvedEviction": [],
+    "inventoryMatch": true,
+    "frozenIdsMatch": true,
+    "actual": {
+      "board": [
+        [
+          "Snake",
+          1,
+          0,
+          8,
+          3,
+          0,
+          0,
+          "Garlic"
+        ],
+        [
+          "Whale",
+          2,
+          2,
+          16,
+          22,
+          0,
+          7,
+          "Bread"
+        ],
+        [
+          "Deer",
+          1,
+          0,
+          2,
+          2,
+          0,
+          0,
+          null
+        ],
+        [
+          "Tiger",
+          2,
+          2,
+          10,
+          8,
+          0,
+          0,
+          null
+        ],
+        [
+          "Mammoth",
+          1,
+          0,
+          4,
+          12,
+          0,
+          0,
+          "Mushroom"
+        ]
+      ],
+      "frozen": [
+        [
+          203,
+          "pet",
+          "Scorpion",
+          1,
+          0,
+          1,
+          3,
+          0,
+          0,
+          null,
+          3
+        ]
+      ],
+      "spent": 10,
+      "gold": 0,
+      "gain": 0
+    },
+    "result": {
+      "board": [
+        [
+          "Snake",
+          1,
+          0,
+          8,
+          3,
+          0,
+          0,
+          "Garlic"
+        ],
+        [
+          "Whale",
+          2,
+          2,
+          16,
+          22,
+          0,
+          7,
+          "Bread"
+        ],
+        [
+          "Deer",
+          1,
+          0,
+          2,
+          2,
+          0,
+          0,
+          null
+        ],
+        [
+          "Tiger",
+          2,
+          2,
+          10,
+          8,
+          0,
+          0,
+          null
+        ],
+        [
+          "Mammoth",
+          1,
+          0,
+          4,
+          12,
+          0,
+          0,
+          "Mushroom"
+        ]
+      ],
+      "frozen": [
+        [
+          203,
+          "pet",
+          "Scorpion",
+          1,
+          0,
+          1,
+          3,
+          0,
+          0,
+          "Peanut",
+          3
+        ]
+      ],
+      "spent": 10,
+      "gold": 0,
+      "gain": 0
+    },
+    "error": null,
+    "at": null,
+    "op": null,
+    "budgetAtError": null
+  },
+  "fixture": {
+    "key": [
+      "01a1d859-90f7-7b79-b145-9cc6246324bd",
+      "01a1d85a-047d-75ff-8aaa-2a5c62eceb6d",
+      12
+    ],
+    "before": {
+      "turn": 11,
+      "tier": 6,
+      "board": [
+        {
+          "id": 188,
+          "name": "Tiger",
+          "x": 0,
+          "lvl": 1,
+          "xp": 1,
+          "a": 7,
+          "h": 5,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 135,
+          "name": "Snake",
+          "x": 1,
+          "lvl": 1,
+          "xp": 0,
+          "a": 8,
+          "h": 3,
+          "ta": 0,
+          "th": 0,
+          "perk": "Garlic",
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 68,
+          "name": "Whale",
+          "x": 2,
+          "lvl": 2,
+          "xp": 2,
+          "a": 16,
+          "h": 22,
+          "ta": 0,
+          "th": 7,
+          "perk": "Bread",
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 165,
+          "name": "Deer",
+          "x": 3,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 195,
+          "name": "Mammoth",
+          "x": 4,
+          "lvl": 1,
+          "xp": 0,
+          "a": 4,
+          "h": 12,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        }
+      ],
+      "shop": [
+        {
+          "id": 189,
+          "name": "Tiger",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 6,
+          "h": 4,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": true,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 197,
+          "name": "Monkey",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 1,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 199,
+          "name": "Whale",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 3,
+          "h": 7,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 196,
+          "name": "Dodo",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 4,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 198,
+          "name": "Fish",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 3,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        }
+      ],
+      "food": [
+        {
+          "id": 201,
+          "name": "Cupcake",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      ],
+      "unc": 201,
+      "spent": 13,
+      "gain": 3,
+      "gold": 0,
+      "rolls": 1,
+      "buffs": [],
+      "result": 2,
+      "wins": 5,
+      "losses": 4,
+      "pslots": 5,
+      "fslots": 2
+    },
+    "after": {
+      "turn": 12,
+      "tier": 6,
+      "board": [
+        {
+          "id": 135,
+          "name": "Snake",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 8,
+          "h": 3,
+          "ta": 0,
+          "th": 0,
+          "perk": "Garlic",
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 68,
+          "name": "Whale",
+          "x": 1,
+          "lvl": 2,
+          "xp": 2,
+          "a": 16,
+          "h": 22,
+          "ta": 0,
+          "th": 7,
+          "perk": "Bread",
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 165,
+          "name": "Deer",
+          "x": 2,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 188,
+          "name": "Tiger",
+          "x": 3,
+          "lvl": 2,
+          "xp": 2,
+          "a": 10,
+          "h": 8,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 195,
+          "name": "Mammoth",
+          "x": 4,
+          "lvl": 1,
+          "xp": 0,
+          "a": 4,
+          "h": 12,
+          "ta": 0,
+          "th": 0,
+          "perk": "Mushroom",
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        }
+      ],
+      "shop": [
+        {
+          "id": 203,
+          "name": "Scorpion",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 1,
+          "h": 3,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": true,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 210,
+          "name": "Swan",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 1,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 213,
+          "name": "Snail",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 3,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 211,
+          "name": "Beaver",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 3,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 212,
+          "name": "Pigeon",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 3,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        }
+      ],
+      "food": [
+        {
+          "id": 214,
+          "name": "Apple",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      ],
+      "unc": 215,
+      "spent": 10,
+      "gain": 0,
+      "gold": 0,
+      "rolls": 1,
+      "buffs": [],
+      "result": 1,
+      "wins": 6,
+      "losses": 4,
+      "pslots": 5,
+      "fslots": 2
+    },
+    "steps": [
+      [
+        "start",
+        null
+      ],
+      [
+        "buy merge",
+        188
+      ],
+      [
+        "food",
+        null
+      ],
+      [
+        "roll",
+        null
+      ],
+      [
+        "food",
+        null
+      ],
+      [
+        "end",
+        null
+      ]
+    ],
+    "actions": [
+      {
+        "t": 4,
+        "seed": 1296980078
+      },
+      {
+        "t": 6,
+        "seed": 1142565165,
+        "id": 189,
+        "x": 0
+      },
+      {
+        "t": 8,
+        "seed": 478717426,
+        "orders": [
+          [
+            135,
+            0
+          ],
+          [
+            68,
+            1
+          ],
+          [
+            165,
+            2
+          ],
+          [
+            188,
+            3
+          ],
+          [
+            195,
+            4
+          ]
+        ],
+        "id": 207,
+        "target": 195,
+        "spell": {
+          "id": 207,
+          "name": "Mushroom",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      },
+      {
+        "t": 5,
+        "seed": 1059533507,
+        "freeze": [
+          [
+            208,
+            false
+          ],
+          [
+            209,
+            false
+          ],
+          [
+            202,
+            false
+          ],
+          [
+            203,
+            true
+          ],
+          [
+            204,
+            false
+          ],
+          [
+            205,
+            false
+          ],
+          [
+            206,
+            false
+          ]
+        ]
+      },
+      {
+        "t": 8,
+        "seed": 238823072,
+        "id": 215,
+        "target": 188,
+        "spell": {
+          "id": 215,
+          "name": "Pear",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      },
+      {
+        "t": 11,
+        "seed": 135630809
+      }
+    ],
+    "names": {
+      "189": "Tiger",
+      "207": "Mushroom",
+      "195": "Mammoth",
+      "215": "Pear",
+      "188": "Tiger"
+    },
+    "inferred": {},
+    "run": {
+      "state": {
+        "board": [
+          [
+            "Snake",
+            1,
+            0,
+            8,
+            3,
+            0,
+            0,
+            "Garlic"
+          ],
+          [
+            "Whale",
+            2,
+            2,
+            16,
+            22,
+            0,
+            7,
+            "Bread"
+          ],
+          [
+            "Deer",
+            1,
+            0,
+            2,
+            2,
+            0,
+            0,
+            null
+          ],
+          [
+            "Tiger",
+            2,
+            2,
+            10,
+            8,
+            0,
+            0,
+            null
+          ],
+          [
+            "Mammoth",
+            1,
+            0,
+            4,
+            12,
+            0,
+            0,
+            "Mushroom"
+          ]
+        ],
+        "frozen": [
+          [
+            203,
+            "pet",
+            "Scorpion",
+            1,
+            0,
+            1,
+            3,
+            0,
+            0,
+            "Peanut",
+            3
+          ]
+        ],
+        "spent": 10,
+        "gold": 0,
+        "gain": 0
+      },
+      "shopDetail": [
+        {
+          "uid": 203,
+          "kind": "pet",
+          "body": [
+            "Scorpion",
+            1,
+            0,
+            1,
+            3,
+            0,
+            0,
+            "Peanut"
+          ],
+          "cost": 3,
+          "frozen": true,
+          "reward": false
+        },
+        {
+          "uid": 210,
+          "kind": "pet",
+          "body": [
+            "Swan",
+            1,
+            0,
+            1,
+            2,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        },
+        {
+          "uid": 213,
+          "kind": "pet",
+          "body": [
+            "Snail",
+            1,
+            0,
+            2,
+            3,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        },
+        {
+          "uid": 211,
+          "kind": "pet",
+          "body": [
+            "Beaver",
+            1,
+            0,
+            3,
+            2,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        },
+        {
+          "uid": 212,
+          "kind": "pet",
+          "body": [
+            "Pigeon",
+            1,
+            0,
+            3,
+            2,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        },
+        {
+          "uid": 214,
+          "kind": "food",
+          "body": [
+            "Apple"
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        }
+      ],
+      "unc": 215,
+      "genIssues": [],
+      "costErrors": [],
+      "orderEvidence": 1,
+      "unresolvedEviction": [],
+      "inventory": [
+        203,
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "log": [
+        {
+          "op": "start",
+          "id": null,
+          "x": null,
+          "target": null,
+          "gold0": 0,
+          "gold": 10,
+          "cost": 0,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Tiger",
+                1,
+                1,
+                7,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Snake",
+                1,
+                0,
+                8,
+                3,
+                0,
+                0,
+                "Garlic"
+              ],
+              [
+                "Whale",
+                2,
+                2,
+                16,
+                22,
+                0,
+                0,
+                "Bread"
+              ],
+              [
+                "Deer",
+                1,
+                0,
+                2,
+                2,
+                0,
+                0,
+                null
+              ],
+              [
+                "Mammoth",
+                1,
+                0,
+                4,
+                12,
+                0,
+                0,
+                null
+              ]
+            ],
+            "frozen": [
+              [
+                189,
+                "pet",
+                "Tiger",
+                1,
+                0,
+                6,
+                4,
+                0,
+                0,
+                null,
+                3
+              ]
+            ],
+            "spent": 0,
+            "gold": 10,
+            "gain": 0
+          },
+          "uses": {
+            "195": 0,
+            "165": 0,
+            "68": 0,
+            "135": 0,
+            "188": 0
+          },
+          "offers": [
+            [
+              189,
+              "pet",
+              "pet-tiger",
+              3,
+              true
+            ],
+            [
+              203,
+              "pet",
+              "pet-scorpion",
+              3,
+              false
+            ],
+            [
+              202,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              204,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              205,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              206,
+              "food",
+              "food-none",
+              0,
+              false
+            ],
+            [
+              207,
+              "food",
+              "Mushroom",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            188,
+            135,
+            68,
+            165,
+            195
+          ],
+          "unc": 207,
+          "gen": [
+            [
+              202,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              203,
+              "pet",
+              "roll",
+              "Scorpion"
+            ],
+            [
+              204,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              205,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              206,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              207,
+              "food",
+              "roll",
+              "Mushroom"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "buy merge",
+          "id": 189,
+          "x": 0,
+          "target": null,
+          "gold0": 10,
+          "gold": 7,
+          "cost": 3,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Tiger",
+                2,
+                2,
+                8,
+                6,
+                0,
+                0,
+                null
+              ],
+              [
+                "Snake",
+                1,
+                0,
+                8,
+                3,
+                0,
+                0,
+                "Garlic"
+              ],
+              [
+                "Whale",
+                2,
+                2,
+                16,
+                22,
+                0,
+                0,
+                "Bread"
+              ],
+              [
+                "Deer",
+                1,
+                0,
+                2,
+                2,
+                0,
+                0,
+                null
+              ],
+              [
+                "Mammoth",
+                1,
+                0,
+                4,
+                12,
+                0,
+                0,
+                null
+              ]
+            ],
+            "frozen": [],
+            "spent": 3,
+            "gold": 7,
+            "gain": 0
+          },
+          "uses": {
+            "195": 0,
+            "165": 0,
+            "68": 0,
+            "135": 0,
+            "188": 0
+          },
+          "offers": [
+            [
+              208,
+              "levelup",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              209,
+              "levelup",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              203,
+              "pet",
+              "pet-scorpion",
+              3,
+              false
+            ],
+            [
+              202,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              204,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              205,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              206,
+              "food",
+              "food-none",
+              0,
+              false
+            ],
+            [
+              207,
+              "food",
+              "Mushroom",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            188,
+            135,
+            68,
+            165,
+            195
+          ],
+          "unc": 209,
+          "gen": [
+            [
+              202,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              203,
+              "pet",
+              "roll",
+              "Scorpion"
+            ],
+            [
+              204,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              205,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              206,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              207,
+              "food",
+              "roll",
+              "Mushroom"
+            ],
+            [
+              208,
+              "pet",
+              "reward",
+              null
+            ],
+            [
+              209,
+              "pet",
+              "reward",
+              null
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "food",
+          "id": 207,
+          "x": null,
+          "target": 195,
+          "gold0": 7,
+          "gold": 4,
+          "cost": 3,
+          "realCost": 3,
+          "state": {
+            "board": [
+              [
+                "Snake",
+                1,
+                0,
+                8,
+                3,
+                0,
+                0,
+                "Garlic"
+              ],
+              [
+                "Whale",
+                2,
+                2,
+                16,
+                22,
+                0,
+                0,
+                "Bread"
+              ],
+              [
+                "Deer",
+                1,
+                0,
+                2,
+                2,
+                0,
+                0,
+                null
+              ],
+              [
+                "Tiger",
+                2,
+                2,
+                8,
+                6,
+                0,
+                0,
+                null
+              ],
+              [
+                "Mammoth",
+                1,
+                0,
+                4,
+                12,
+                0,
+                0,
+                "Mushroom"
+              ]
+            ],
+            "frozen": [],
+            "spent": 6,
+            "gold": 4,
+            "gain": 0
+          },
+          "uses": {
+            "195": 0,
+            "188": 0,
+            "165": 0,
+            "68": 0,
+            "135": 0
+          },
+          "offers": [
+            [
+              208,
+              "levelup",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              209,
+              "levelup",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              203,
+              "pet",
+              "pet-scorpion",
+              3,
+              false
+            ],
+            [
+              202,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              204,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              205,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              206,
+              "food",
+              "food-none",
+              0,
+              false
+            ]
+          ],
+          "uids": [
+            135,
+            68,
+            165,
+            188,
+            195
+          ],
+          "unc": 209,
+          "gen": [
+            [
+              202,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              203,
+              "pet",
+              "roll",
+              "Scorpion"
+            ],
+            [
+              204,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              205,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              206,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              207,
+              "food",
+              "roll",
+              "Mushroom"
+            ],
+            [
+              208,
+              "pet",
+              "reward",
+              null
+            ],
+            [
+              209,
+              "pet",
+              "reward",
+              null
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "roll",
+          "id": null,
+          "x": null,
+          "target": null,
+          "gold0": 4,
+          "gold": 3,
+          "cost": 1,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Snake",
+                1,
+                0,
+                8,
+                3,
+                0,
+                0,
+                "Garlic"
+              ],
+              [
+                "Whale",
+                2,
+                2,
+                16,
+                22,
+                0,
+                0,
+                "Bread"
+              ],
+              [
+                "Deer",
+                1,
+                0,
+                2,
+                2,
+                0,
+                0,
+                null
+              ],
+              [
+                "Tiger",
+                2,
+                2,
+                8,
+                6,
+                0,
+                0,
+                null
+              ],
+              [
+                "Mammoth",
+                1,
+                0,
+                4,
+                12,
+                0,
+                0,
+                "Mushroom"
+              ]
+            ],
+            "frozen": [
+              [
+                203,
+                "pet",
+                "Scorpion",
+                1,
+                0,
+                1,
+                3,
+                0,
+                0,
+                "Peanut",
+                3
+              ]
+            ],
+            "spent": 7,
+            "gold": 3,
+            "gain": 0
+          },
+          "uses": {
+            "195": 0,
+            "188": 0,
+            "165": 0,
+            "68": 0,
+            "135": 0
+          },
+          "offers": [
+            [
+              203,
+              "pet",
+              "pet-scorpion",
+              3,
+              true
+            ],
+            [
+              210,
+              "pet",
+              "pet-swan",
+              3,
+              false
+            ],
+            [
+              213,
+              "pet",
+              "pet-snail",
+              3,
+              false
+            ],
+            [
+              211,
+              "pet",
+              "pet-beaver",
+              3,
+              false
+            ],
+            [
+              212,
+              "pet",
+              "pet-pigeon",
+              3,
+              false
+            ],
+            [
+              214,
+              "food",
+              "Apple",
+              3,
+              false
+            ],
+            [
+              215,
+              "food",
+              "Pear",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            135,
+            68,
+            165,
+            188,
+            195
+          ],
+          "unc": 215,
+          "gen": [
+            [
+              202,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              203,
+              "pet",
+              "roll",
+              "Scorpion"
+            ],
+            [
+              204,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              205,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              206,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              207,
+              "food",
+              "roll",
+              "Mushroom"
+            ],
+            [
+              208,
+              "pet",
+              "reward",
+              null
+            ],
+            [
+              209,
+              "pet",
+              "reward",
+              null
+            ],
+            [
+              210,
+              "pet",
+              "roll",
+              "Swan"
+            ],
+            [
+              211,
+              "pet",
+              "roll",
+              "Beaver"
+            ],
+            [
+              212,
+              "pet",
+              "roll",
+              "Pigeon"
+            ],
+            [
+              213,
+              "pet",
+              "roll",
+              "Snail"
+            ],
+            [
+              214,
+              "food",
+              "roll",
+              "Apple"
+            ],
+            [
+              215,
+              "food",
+              "roll",
+              "Pear"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "food",
+          "id": 215,
+          "x": null,
+          "target": 188,
+          "gold0": 3,
+          "gold": 0,
+          "cost": 3,
+          "realCost": 3,
+          "state": {
+            "board": [
+              [
+                "Snake",
+                1,
+                0,
+                8,
+                3,
+                0,
+                0,
+                "Garlic"
+              ],
+              [
+                "Whale",
+                2,
+                2,
+                16,
+                22,
+                0,
+                0,
+                "Bread"
+              ],
+              [
+                "Deer",
+                1,
+                0,
+                2,
+                2,
+                0,
+                0,
+                null
+              ],
+              [
+                "Tiger",
+                2,
+                2,
+                10,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Mammoth",
+                1,
+                0,
+                4,
+                12,
+                0,
+                0,
+                "Mushroom"
+              ]
+            ],
+            "frozen": [
+              [
+                203,
+                "pet",
+                "Scorpion",
+                1,
+                0,
+                1,
+                3,
+                0,
+                0,
+                "Peanut",
+                3
+              ]
+            ],
+            "spent": 10,
+            "gold": 0,
+            "gain": 0
+          },
+          "uses": {
+            "195": 0,
+            "188": 0,
+            "165": 0,
+            "68": 0,
+            "135": 0
+          },
+          "offers": [
+            [
+              203,
+              "pet",
+              "pet-scorpion",
+              3,
+              true
+            ],
+            [
+              210,
+              "pet",
+              "pet-swan",
+              3,
+              false
+            ],
+            [
+              213,
+              "pet",
+              "pet-snail",
+              3,
+              false
+            ],
+            [
+              211,
+              "pet",
+              "pet-beaver",
+              3,
+              false
+            ],
+            [
+              212,
+              "pet",
+              "pet-pigeon",
+              3,
+              false
+            ],
+            [
+              214,
+              "food",
+              "Apple",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            135,
+            68,
+            165,
+            188,
+            195
+          ],
+          "unc": 215,
+          "gen": [
+            [
+              202,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              203,
+              "pet",
+              "roll",
+              "Scorpion"
+            ],
+            [
+              204,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              205,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              206,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              207,
+              "food",
+              "roll",
+              "Mushroom"
+            ],
+            [
+              208,
+              "pet",
+              "reward",
+              null
+            ],
+            [
+              209,
+              "pet",
+              "reward",
+              null
+            ],
+            [
+              210,
+              "pet",
+              "roll",
+              "Swan"
+            ],
+            [
+              211,
+              "pet",
+              "roll",
+              "Beaver"
+            ],
+            [
+              212,
+              "pet",
+              "roll",
+              "Pigeon"
+            ],
+            [
+              213,
+              "pet",
+              "roll",
+              "Snail"
+            ],
+            [
+              214,
+              "food",
+              "roll",
+              "Apple"
+            ],
+            [
+              215,
+              "food",
+              "roll",
+              "Pear"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "end",
+          "id": null,
+          "x": null,
+          "target": null,
+          "gold0": 0,
+          "gold": 0,
+          "cost": 0,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Snake",
+                1,
+                0,
+                8,
+                3,
+                0,
+                0,
+                "Garlic"
+              ],
+              [
+                "Whale",
+                2,
+                2,
+                16,
+                22,
+                0,
+                7,
+                "Bread"
+              ],
+              [
+                "Deer",
+                1,
+                0,
+                2,
+                2,
+                0,
+                0,
+                null
+              ],
+              [
+                "Tiger",
+                2,
+                2,
+                10,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Mammoth",
+                1,
+                0,
+                4,
+                12,
+                0,
+                0,
+                "Mushroom"
+              ]
+            ],
+            "frozen": [
+              [
+                203,
+                "pet",
+                "Scorpion",
+                1,
+                0,
+                1,
+                3,
+                0,
+                0,
+                "Peanut",
+                3
+              ]
+            ],
+            "spent": 10,
+            "gold": 0,
+            "gain": 0
+          },
+          "uses": {
+            "195": 0,
+            "188": 0,
+            "165": 0,
+            "68": 0,
+            "135": 0
+          },
+          "offers": [
+            [
+              203,
+              "pet",
+              "pet-scorpion",
+              3,
+              true
+            ],
+            [
+              210,
+              "pet",
+              "pet-swan",
+              3,
+              false
+            ],
+            [
+              213,
+              "pet",
+              "pet-snail",
+              3,
+              false
+            ],
+            [
+              211,
+              "pet",
+              "pet-beaver",
+              3,
+              false
+            ],
+            [
+              212,
+              "pet",
+              "pet-pigeon",
+              3,
+              false
+            ],
+            [
+              214,
+              "food",
+              "Apple",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            135,
+            68,
+            165,
+            188,
+            195
+          ],
+          "unc": 215,
+          "gen": [
+            [
+              202,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              203,
+              "pet",
+              "roll",
+              "Scorpion"
+            ],
+            [
+              204,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              205,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              206,
+              "food",
+              "roll",
+              null
+            ],
+            [
+              207,
+              "food",
+              "roll",
+              "Mushroom"
+            ],
+            [
+              208,
+              "pet",
+              "reward",
+              null
+            ],
+            [
+              209,
+              "pet",
+              "reward",
+              null
+            ],
+            [
+              210,
+              "pet",
+              "roll",
+              "Swan"
+            ],
+            [
+              211,
+              "pet",
+              "roll",
+              "Beaver"
+            ],
+            [
+              212,
+              "pet",
+              "roll",
+              "Pigeon"
+            ],
+            [
+              213,
+              "pet",
+              "roll",
+              "Snail"
+            ],
+            [
+              214,
+              "food",
+              "roll",
+              "Apple"
+            ],
+            [
+              215,
+              "food",
+              "roll",
+              "Pear"
+            ]
+          ],
+          "stock": []
+        }
+      ]
+    }
+  },
+  "foodTargetProbe": {
+    "key": [
+      "01a1d859-90f7-7b79-b145-9cc6246324bd",
+      "01a1d85a-047d-75ff-8aaa-2a5c62eceb6d",
+      12
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  }
+}

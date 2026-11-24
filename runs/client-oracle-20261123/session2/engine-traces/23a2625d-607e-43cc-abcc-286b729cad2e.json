@@ -1,0 +1,369 @@
+{
+  "battle_id": "23a2625d-607e-43cc-abcc-286b729cad2e",
+  "recorded_seed": -1295104032,
+  "engine_seed": 2999863264,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Camel",
+          "attack": 11,
+          "health": 26,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Crab",
+          "attack": 4,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 2,
+          "health": 5,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 26,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 7,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Camel",
+          "attack": 11,
+          "health": 26,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Crab",
+          "attack": 4,
+          "health": 6,
+          "perk": "status-cake",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 2,
+          "health": 5,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 7,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Camel",
+          "attack": 11,
+          "health": 13,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Crab",
+          "attack": 5,
+          "health": 5,
+          "perk": "status-cake",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 2,
+          "health": 2,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 6,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 5,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Crab",
+          "attack": 6,
+          "health": 4,
+          "perk": "status-cake",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 3,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Crab",
+          "attack": 6,
+          "health": 1,
+          "perk": "status-cake",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dolphin",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dolphin",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    }
+  ]
+}

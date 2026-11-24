@@ -1,0 +1,4 @@
+{"matches": 6, "ticks": 529, "seat_steps": 4148, "battles": 88, "partial_reset": true, "terminal_hold": true}
+{"turns": 62, "seat_steps": 1307, "frozen_excluded": true}
+{"games": 64, "decisions": 18788, "terminals": 64}
+Verified chosen cohort12x16, 100 real updates, 819777 learned rows, two 1,000-match board receipts, and 320 disjoint paired match seeds. Checkpoint cb96a74c02e16922f6d0df7e58fd5e521fe7512659ce2d2eb0faac741e8aab06.

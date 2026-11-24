@@ -1,0 +1,162 @@
+[
+  {
+    "test": "front-deer",
+    "stage": "after-attack-01",
+    "real": [
+      [
+        0,
+        "Deer",
+        1,
+        1
+      ],
+      [
+        1,
+        "Bus",
+        5,
+        3
+      ]
+    ],
+    "native": [
+      [
+        0,
+        "pet-deer",
+        1,
+        1,
+        "none"
+      ],
+      [
+        1,
+        "pet-bus",
+        5,
+        3,
+        "status-splash-attack"
+      ]
+    ],
+    "match": true,
+    "frame": "captures/custom-front-deer/frame-0013.jpg"
+  },
+  {
+    "test": "blast-middle",
+    "stage": "after-attack-01",
+    "real": [
+      [
+        0,
+        "Bus",
+        5,
+        3
+      ],
+      [
+        1,
+        "Deer",
+        1,
+        1
+      ],
+      [
+        2,
+        "Rabbit",
+        2,
+        15
+      ],
+      [
+        3,
+        "Duck",
+        1,
+        16
+      ]
+    ],
+    "native": [
+      [
+        0,
+        "pet-bus",
+        5,
+        3,
+        "status-splash-attack"
+      ],
+      [
+        1,
+        "pet-deer",
+        1,
+        1,
+        "none"
+      ],
+      [
+        2,
+        "pet-rabbit",
+        2,
+        15,
+        "none"
+      ],
+      [
+        3,
+        "pet-duck",
+        1,
+        16,
+        "none"
+      ]
+    ],
+    "match": true,
+    "frame": "captures/custom-blast-middle/frame-0016.jpg"
+  },
+  {
+    "test": "snipe-gaps",
+    "stage": "start",
+    "real": [
+      [
+        0,
+        "Beaver",
+        5,
+        19
+      ],
+      [
+        1,
+        "Bus",
+        5,
+        3
+      ],
+      [
+        2,
+        "Deer",
+        1,
+        1
+      ],
+      [
+        3,
+        "Pig",
+        4,
+        18
+      ]
+    ],
+    "native": [
+      [
+        0,
+        "pet-beaver",
+        5,
+        19,
+        "none"
+      ],
+      [
+        1,
+        "pet-deer",
+        1,
+        1,
+        "none"
+      ],
+      [
+        2,
+        "pet-bus",
+        5,
+        3,
+        "status-splash-attack"
+      ],
+      [
+        3,
+        "pet-pig",
+        4,
+        18,
+        "none"
+      ]
+    ],
+    "match": false,
+    "frame": "captures/custom-snipe-gaps/frame-0014.jpg"
+  }
+]

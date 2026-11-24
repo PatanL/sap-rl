@@ -1,0 +1,255 @@
+{
+  "battle_id": "7b5167ee-c4ec-4726-b74d-67cd4aac8f7a",
+  "recorded_seed": 460124963,
+  "engine_seed": 460124963,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Deer",
+          "attack": 10,
+          "health": 15,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Whale",
+          "attack": 7,
+          "health": 12,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Leopard",
+          "attack": 18,
+          "health": 18,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Cow",
+          "attack": 4,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Cat",
+          "attack": 5,
+          "health": 6,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Hedgehog",
+          "attack": 11,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 14,
+          "health": 24,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 10,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Cat",
+          "attack": 9,
+          "health": 10,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 5,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 6,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Whale",
+          "attack": 7,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Leopard",
+          "attack": 18,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Cat",
+          "attack": 5,
+          "health": 1,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 14,
+          "health": 20,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 5,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Whale",
+          "attack": 7,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Leopard",
+          "attack": 18,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 14,
+          "health": 10,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 5,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Deer",
+          "attack": 10,
+          "health": 15,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 14,
+          "health": 3,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 5,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 6,
+          "perk": "status-splash-attack",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 5,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": []
+    }
+  ]
+}

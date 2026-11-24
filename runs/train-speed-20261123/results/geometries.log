@@ -1,0 +1,16 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/backends/__init__.py:46: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at /opt/pytorch/pytorch/aten/src/ATen/Context.cpp:80.)
+  self.setter(val)
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+legacy False True {'loss_abs': 1.2162240841662175e-06, 'gradient_relative_l2': 0.0041926953849865615, 'delta_relative_l2': 0.0020507047856786523, 'weight_max_abs': 3.2410025596618652e-06}
+aligned False True {'loss_abs': 0.00022796363507721074, 'gradient_relative_l2': 0.03300842432206923, 'delta_relative_l2': 0.008071643631831986, 'weight_max_abs': 3.077089786529541e-06}
+short False True {'loss_abs': 2.799005185577519e-05, 'gradient_relative_l2': 0.01029118465060116, 'delta_relative_l2': 0.0027158432396462676, 'weight_max_abs': 3.0472874641418457e-06}
+medium False False {'loss_abs': 0.001040762373556825, 'gradient_relative_l2': 0.04514813646791865, 'delta_relative_l2': 0.006673267785917206, 'weight_max_abs': 3.56137752532959e-06}
+long False False {'loss_abs': 0.0008036252943179334, 'gradient_relative_l2': 0.042801219075757534, 'delta_relative_l2': 0.009216330380589907, 'weight_max_abs': 8.694827556610107e-06}
+sorted True True {'loss_abs': 0.00036264032994720585, 'gradient_relative_l2': 0.03399033874727943, 'delta_relative_l2': 0.00930223608798795, 'weight_max_abs': 4.075467586517334e-06}
+short True True {'loss_abs': 0.0002027508703372205, 'gradient_relative_l2': 0.019044889122127637, 'delta_relative_l2': 0.005844882255121049, 'weight_max_abs': 5.0514936447143555e-06}
+aligned True True {'loss_abs': 7.334918652984745e-05, 'gradient_relative_l2': 0.03156794920112283, 'delta_relative_l2': 0.007881775274593963, 'weight_max_abs': 3.829598426818848e-06}

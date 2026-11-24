@@ -1,0 +1,183 @@
+[
+  {
+    "stage": "init",
+    "player": [
+      [
+        0,
+        "pet-deer",
+        2,
+        1,
+        "status-extra-life"
+      ]
+    ],
+    "opponent": [
+      [
+        0,
+        "pet-fish",
+        2,
+        28,
+        "none"
+      ]
+    ]
+  },
+  {
+    "stage": "start",
+    "player": [
+      [
+        0,
+        "pet-deer",
+        2,
+        1,
+        "status-extra-life"
+      ]
+    ],
+    "opponent": [
+      [
+        0,
+        "pet-fish",
+        2,
+        28,
+        "none"
+      ]
+    ]
+  },
+  {
+    "stage": "after-attack-01",
+    "player": [
+      [
+        0,
+        "pet-deer",
+        1,
+        1,
+        "none"
+      ],
+      [
+        1,
+        "pet-bus",
+        5,
+        3,
+        "status-splash-attack"
+      ]
+    ],
+    "opponent": [
+      [
+        0,
+        "pet-fish",
+        2,
+        26,
+        "none"
+      ]
+    ]
+  },
+  {
+    "stage": "after-attack-02",
+    "player": [
+      [
+        0,
+        "pet-bus",
+        5,
+        3,
+        "status-splash-attack"
+      ],
+      [
+        1,
+        "pet-bus",
+        5,
+        3,
+        "status-splash-attack"
+      ]
+    ],
+    "opponent": [
+      [
+        0,
+        "pet-fish",
+        2,
+        25,
+        "none"
+      ]
+    ]
+  },
+  {
+    "stage": "after-attack-03",
+    "player": [
+      [
+        0,
+        "pet-bus",
+        5,
+        1,
+        "status-splash-attack"
+      ],
+      [
+        1,
+        "pet-bus",
+        5,
+        3,
+        "status-splash-attack"
+      ]
+    ],
+    "opponent": [
+      [
+        0,
+        "pet-fish",
+        2,
+        20,
+        "none"
+      ]
+    ]
+  },
+  {
+    "stage": "after-attack-04",
+    "player": [
+      [
+        0,
+        "pet-bus",
+        5,
+        3,
+        "status-splash-attack"
+      ]
+    ],
+    "opponent": [
+      [
+        0,
+        "pet-fish",
+        2,
+        15,
+        "none"
+      ]
+    ]
+  },
+  {
+    "stage": "after-attack-05",
+    "player": [
+      [
+        0,
+        "pet-bus",
+        5,
+        1,
+        "status-splash-attack"
+      ]
+    ],
+    "opponent": [
+      [
+        0,
+        "pet-fish",
+        2,
+        10,
+        "none"
+      ]
+    ]
+  },
+  {
+    "stage": "after-attack-06",
+    "player": [],
+    "opponent": [
+      [
+        0,
+        "pet-fish",
+        2,
+        5,
+        "none"
+      ]
+    ]
+  }
+]

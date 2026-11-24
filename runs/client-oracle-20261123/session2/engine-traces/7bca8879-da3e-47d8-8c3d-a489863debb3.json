@@ -1,0 +1,376 @@
+{
+  "battle_id": "7bca8879-da3e-47d8-8c3d-a489863debb3",
+  "recorded_seed": -1101209579,
+  "engine_seed": 3193757717,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Hedgehog",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Leopard",
+          "attack": 20,
+          "health": 14,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Parrot",
+          "attack": 32,
+          "health": 41,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 18,
+          "health": 16,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Skunk",
+          "attack": 15,
+          "health": 17,
+          "perk": "status-melon-armor",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Mammoth",
+          "attack": 13,
+          "health": 21,
+          "perk": "status-extra-life",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 15,
+          "health": 23,
+          "perk": "status-melon-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 6,
+          "health": 11,
+          "perk": "status-extra-life",
+          "slot": 2
+        },
+        {
+          "pet": "Shark",
+          "attack": 4,
+          "health": 4,
+          "perk": "status-extra-life",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 9,
+          "health": 11,
+          "perk": "status-extra-life",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Hedgehog",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Leopard",
+          "attack": 20,
+          "health": 14,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Parrot",
+          "attack": 32,
+          "health": 41,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 18,
+          "health": 16,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Skunk",
+          "attack": 15,
+          "health": 17,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Mammoth",
+          "attack": 13,
+          "health": 5,
+          "perk": "status-extra-life",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 15,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Shark",
+          "attack": 12,
+          "health": 12,
+          "perk": "status-extra-life",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Leopard",
+          "attack": 20,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Parrot",
+          "attack": 32,
+          "health": 27,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 18,
+          "health": 8,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 15,
+          "health": 9,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Mammoth",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 21,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Shark",
+          "attack": 30,
+          "health": 28,
+          "perk": "status-extra-life",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Leopard",
+          "attack": 20,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Parrot",
+          "attack": 32,
+          "health": 27,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 18,
+          "health": 8,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 15,
+          "health": 9,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 27,
+          "health": 14,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Shark",
+          "attack": 40,
+          "health": 38,
+          "perk": "status-extra-life",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Parrot",
+          "attack": 32,
+          "health": 27,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 18,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 15,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Shark",
+          "attack": 44,
+          "health": 40,
+          "perk": "status-extra-life",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Tiger",
+          "attack": 18,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 15,
+          "health": 9,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Shark",
+          "attack": 44,
+          "health": 8,
+          "perk": "status-extra-life",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Skunk",
+          "attack": 15,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Shark",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [
+        {
+          "pet": "Skunk",
+          "attack": 15,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Skunk",
+          "attack": 15,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+generation events in verified turns: 55140  distinct seeds among them: 55140
+seed values shared by two generation events in the dataset: 0
+all actions: duplicate seed values 16 expected by chance for uniform 31-bit values 15.1
+of these, pairs where both actions generate a shop (Type 4 or 5): 2
+    2008038600 [('bf311f33', 'turn 9', 'type 5'), ('6ef6bb48', 'turn 2', 'type 5')]
+       in dataset: no (turn not verified)
+       in dataset: [(2, [51, 559], [40])]
+    1828936320 [('73866617', 'turn 5', 'type 4'), ('e15bbbee', 'turn 1', 'type 5')]
+       in dataset: no (turn not verified)
+       in dataset: [(1, [559, 59, 51], [])]
+same seed AND same turn: 0 -> the determinism check has no usable case in this corpus
+matches in which the two players share any generation seed: 0 of 1184

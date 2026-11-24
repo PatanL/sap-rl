@@ -1,0 +1,43 @@
+[
+ {
+  "file": "c3-a1-fly4dead-p870113.json",
+  "id": "e3765108-44e1-5eb6-a59f-ad7b683756ff",
+  "seed": 870113,
+  "sha256": "9f9abcf99769e8b344d3dfa8f70dd4521d7b20f3b8ea519ea22ebd9b93041078",
+  "test": "a1-fly4dead",
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ]
+ }
+]

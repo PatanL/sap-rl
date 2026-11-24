@@ -1,0 +1,180 @@
+{
+ "arm": "fresh",
+ "cap": 3072,
+ "parameters": 1349741,
+ "encoder": {
+  "seconds": 0.5074653751216829,
+  "rate": 16146.914453099775,
+  "first": 8.284133684122935,
+  "microbatches": 6
+ },
+ "profile": {
+  "wall": 1.2239456640090793,
+  "cpu_self_s": 1.1421569789999975,
+  "kernel_launches": 10875,
+  "top_gpu": [
+   [
+    "triton_red_fused__unsafe_view_add_clone_select_backward_squeeze_sum_tr",
+    0.1823,
+    24
+   ],
+   [
+    "triton_red_fused__unsafe_view_add_clone_select_backward_squeeze_sum_tr",
+    0.1823,
+    24
+   ],
+   [
+    "triton_red_fused__to_copy_native_layer_norm_backward_transpose_15",
+    0.0897,
+    18
+   ],
+   [
+    "triton_red_fused__to_copy_native_layer_norm_backward_transpose_15",
+    0.0897,
+    18
+   ],
+   [
+    "aten::mm",
+    0.0772,
+    1476
+   ],
+   [
+    "triton_red_fused_sum_2",
+    0.053,
+    72
+   ],
+   [
+    "triton_red_fused_sum_2",
+    0.053,
+    72
+   ],
+   [
+    "triton_red_fused__to_copy_add_native_layer_norm_native_layer_norm_back",
+    0.041,
+    6
+   ],
+   [
+    "triton_red_fused__to_copy_add_native_layer_norm_native_layer_norm_back",
+    0.041,
+    6
+   ],
+   [
+    "aten::_efficient_attention_backward",
+    0.0344,
+    24
+   ],
+   [
+    "fmha_cutlassB_bf16_aligned_64x64_k32_sm80(PyTorchMemEffAttention::Atte",
+    0.0344,
+    24
+   ],
+   [
+    "triton_red_fused__to_copy_native_layer_norm_backward_7",
+    0.0285,
+    18
+   ],
+   [
+    "triton_red_fused__to_copy_native_layer_norm_backward_7",
+    0.0285,
+    18
+   ],
+   [
+    "aten::copy_",
+    0.028,
+    3073
+   ]
+  ],
+  "top_cpu": [
+   [
+    "cudaStreamSynchronize",
+    0.5909,
+    255
+   ],
+   [
+    "cudaMemcpyAsync",
+    0.2813,
+    351
+   ],
+   [
+    "cudaLaunchKernel",
+    0.0325,
+    8205
+   ],
+   [
+    "aten::mm",
+    0.0133,
+    1476
+   ],
+   [
+    "aten::cat",
+    0.0132,
+    1015
+   ],
+   [
+    "cuLaunchKernel",
+    0.0097,
+    2670
+   ],
+   [
+    "aten::index_select",
+    0.0087,
+    348
+   ],
+   [
+    "aten::as_strided",
+    0.0078,
+    20473
+   ],
+   [
+    "CompiledFunction",
+    0.0078,
+    6
+   ],
+   [
+    "aten::select",
+    0.0076,
+    3742
+   ]
+  ]
+ },
+ "encoder+gru": {
+  "seconds": 1.2695812304737046,
+  "rate": 6454.096676384122,
+  "first": 1.30110620893538,
+  "microbatches": 6
+ },
+ "autotune": {
+  "seconds": 0.3243481684476137,
+  "rate": 25262.976014996162,
+  "first": 112.4135633870028,
+  "microbatches": 6
+ },
+ "whole": {
+  "seconds": 0.2936536605702713,
+  "rate": 27903.61946821084,
+  "first": 633.224615897052,
+  "microbatches": 6
+ },
+ "acting": {
+  "8": {
+   "ms": 3.504446125589311,
+   "rows_per_s": 2282.8143773089714
+  },
+  "64": {
+   "ms": 3.523078397847712,
+   "rows_per_s": 18165.931260314366
+  },
+  "512": {
+   "ms": 4.744418081827462,
+   "rows_per_s": 107916.29050591323
+  },
+  "2048": {
+   "ms": 17.92251644656062,
+   "rows_per_s": 114269.66777274275
+  },
+  "4096": {
+   "ms": 35.13533901423216,
+   "rows_per_s": 116577.78507106041
+  }
+ }
+}

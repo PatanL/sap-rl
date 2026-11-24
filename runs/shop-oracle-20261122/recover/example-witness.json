@@ -1,0 +1,72 @@
+{
+  "key": [
+    "01a1f157-25b4-7b0b-b1a6-9c4cda144b3a",
+    "01a1f157-c467-7ed3-b864-fd4835763a88",
+    13
+  ],
+  "identities": {
+    "229": "Duck",
+    "241": "Beaver"
+  },
+  "seedIndex": 7,
+  "seed": 1883109566,
+  "conditional_choices": [],
+  "state": {
+    "board": [
+      [
+        "Wolverine",
+        1,
+        0,
+        6,
+        9,
+        0,
+        0,
+        null
+      ],
+      [
+        "Parrot",
+        2,
+        2,
+        17,
+        14,
+        0,
+        0,
+        null
+      ],
+      [
+        "Leopard",
+        2,
+        2,
+        38,
+        32,
+        0,
+        0,
+        "Melon"
+      ],
+      [
+        "Monkey",
+        2,
+        2,
+        11,
+        11,
+        0,
+        0,
+        null
+      ],
+      [
+        "Dragon",
+        2,
+        2,
+        11,
+        15,
+        0,
+        0,
+        null
+      ]
+    ],
+    "frozen": [],
+    "spent": 14,
+    "gold": 0,
+    "gain": 4
+  }
+}

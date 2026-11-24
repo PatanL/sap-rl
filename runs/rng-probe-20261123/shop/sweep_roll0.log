@@ -1,0 +1,58 @@
+roll0 rows 2472 dev 1904
+  target pet slot 1: dev 1409 held-out 433
+  target pet slot 2: dev 1404 held-out 435
+  target pet slot 3: dev 1406 held-out 428
+  target food slot: dev 1396 held-out 442
+hypotheses scored: 552240; z mean +0.010 sd 0.980
+best z in the whole family on SHUFFLED labels (chance level for the maximum): ['7.48', '6.24']
+top hypotheses on dev (z dev, purity dev if <=12 cells, z held-out, purity held-out):
+  z_dev    6.09  pur 0.58  z_held  -1.60  pur_held 0.532  MSVC rand() | own hash | draw 30 mod 10 | food slot
+  z_dev    6.05  pur 0.573  z_held  +0.63  pur_held 0.566  MINSTD 16807 | own seed (response of the generating action) | draw 13 mod 10 | food slot
+  z_dev    6.02  pur 0.576  z_held  +0.92  pur_held 0.577  LCG POSIX rand() example | own seed xor previous seed | draw 16 floor(u*10) | food slot
+  z_dev    6.02  pur 0.576  z_held  +0.92  pur_held 0.577  LCG ANSI C mod 2^31 | own seed xor previous seed | draw 16 floor(u*10) | food slot
+  z_dev    5.93  pur 0.567  z_held  +2.72  pur_held 0.588  splitmix64 high 32 | own hash | draw 25 floor(u*10) | food slot
+  z_dev    5.61  pur 0.574  z_held  +0.54  pur_held 0.563  xorshift128+ (splitmix seeded) high 32 | own hash | draw 13 mod 10 | food slot
+  z_dev    5.48  pur 0.566  z_held  -0.13  pur_held 0.561  mt19937 init_genrand | own hash | draw 13 mod 10 | food slot
+  z_dev    5.45  pur None  z_held  -0.49  pur_held None  xoshiro256** (splitmix seeded) low 32 | own seed (response of the generating action) | draw 33 floor(u*20) | food slot
+  z_dev    5.44  pur None  z_held  +1.50  pur_held None  MINSTD 48271 | own seed (response of the generating action) | draw 16 mod 20 | food slot
+  z_dev    5.43  pur 0.567  z_held  +0.45  pur_held 0.552  xorshift64 (13,7,17) high 32 | previous action seed | draw 34 floor(u*10) | food slot
+  z_dev    5.38  pur 0.572  z_held  +0.18  pur_held 0.563  xorshift64 (13,7,17) high 32 | own hash | draw 13 floor(u*10) | food slot
+  z_dev    5.20  pur None  z_held  -1.06  pur_held None  xoroshiro128+ (splitmix seeded) high 32 | previous hash (request BoardHash) | draw 18 floor(u*60) | pet slot 1
+  z_dev    5.20  pur None  z_held  -1.06  pur_held None  xoroshiro128+ (splitmix seeded) high 32 | previous hash (request BoardHash) | draw 18 bits 8..31 scaled to 60 (float mantissa) | pet slot 1
+  z_dev    5.13  pur 0.162  z_held  -0.26  pur_held 0.182  xorshift64* | own seed + turn | FY forward scaled skip 4 element 8 | pet slot 1
+  z_dev    5.12  pur 0.573  z_held  -0.52  pur_held 0.554  murmur fmix32(seed^i*phi) | previous hash (request BoardHash) | draw 25 mod 10 | food slot
+per generator: tests, best z dev (its held-out z), best z on shuffled labels
+  dotnet System.Random                        15000  3.9 (-1.25)  shuffled [4.28, 4.76]
+  old Mono System.Random (inextp 31)          15000  5.04 (-0.09)  shuffled [4.22, 4.8]
+  unity xorshift128 InitState                 16920  4.76 (2.17)  shuffled [4.43, 4.5]
+  mt19937 init_genrand                        16920  5.48 (-0.13)  shuffled [4.8, 5.46]
+  pcg32 (seed, seq 54)                        16920  4.61 (-0.6)  shuffled [5.34, 4.57]
+  pcg32 (seed, default stream)                16920  4.66 (0.02)  shuffled [4.32, 4.05]
+  pcg32 (seed, seq seed)                      16920  4.67 (0.02)  shuffled [4.45, 5.55]
+  splitmix64 high 32                          16920  5.93 (2.72)  shuffled [4.79, 4.57]
+  splitmix64 low 32                           16920  4.31 (1.2)  shuffled [4.32, 4.97]
+  xorshift32 (13,17,5)                        16920  4.68 (0.19)  shuffled [4.48, 4.8]
+  xorshift64 (13,7,17) low 32                 16920  4.45 (0.63)  shuffled [4.28, 5.26]
+  xorshift64 (13,7,17) high 32                16920  5.43 (0.45)  shuffled [4.89, 4.9]
+  xorshift64*                                 16920  5.13 (-0.26)  shuffled [4.42, 4.21]
+  xoshiro256** (splitmix seeded) high 32      16920  4.54 (1.56)  shuffled [4.52, 5.07]
+  xoshiro256** (splitmix seeded) low 32       16920  5.45 (-0.49)  shuffled [5.85, 6.24]
+  xoroshiro128+ (splitmix seeded) high 32     16920  5.2 (-1.06)  shuffled [5.95, 4.47]
+  java.util.Random next(31)                   15000  4.76 (2.87)  shuffled [5.49, 4.19]
+  glibc random()                              15000  4.2 (-0.53)  shuffled [4.34, 4.75]
+  MSVC rand()                                 15000  6.09 (-1.6)  shuffled [4.63, 5.49]
+  LCG ANSI C mod 2^31                         15000  6.02 (0.92)  shuffled [5.44, 4.77]
+  LCG POSIX rand() example                    15000  6.02 (0.92)  shuffled [5.44, 4.77]
+  LCG Numerical Recipes full state            16920  4.8 (-0.34)  shuffled [7.48, 4.63]
+  LCG Numerical Recipes high 16               15000  4.23 (0.07)  shuffled [7.48, 4.95]
+  LCG Borland high 15                         15000  4.87 (-0.47)  shuffled [4.27, 4.62]
+  LCG Knuth MMIX high 32                      16920  4.3 (-0.58)  shuffled [5.18, 4.4]
+  MINSTD 16807                                15000  6.05 (0.63)  shuffled [4.37, 4.47]
+  MINSTD 48271                                15000  5.44 (1.5)  shuffled [4.21, 4.46]
+  murmur fmix32(seed+i)                       16920  4.7 (0.57)  shuffled [4.17, 5.47]
+  murmur fmix32(seed^i*phi)                   16920  5.12 (-0.52)  shuffled [4.13, 5.51]
+  identity seed+i                             16920  3.81 (-0.15)  shuffled [3.16, 4.56]
+  Knuth multiplicative hash (seed+i)          16920  4.36 (0.66)  shuffled [4.4, 3.38]
+  LCG 9301/49297 mod 233280                   15000  5.01 (-1.34)  shuffled [4.14, 4.02]
+  mulberry32                                  16920  4.45 (0.74)  shuffled [4.94, 4.7]
+  xorshift128+ (splitmix seeded) high 32      16920  5.61 (0.54)  shuffled [5.27, 4.85]

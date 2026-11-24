@@ -1,0 +1,9 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+rows available 3344
+plain {8: 3.79, 32: 4.09, 128: 7.17, 512: 22.46, 2048: 91.09} ms per call
+compiled encoder {8: 3.02, 32: 3.16, 128: 6.0, 512: 18.57, 2048: 71.27} ms per call
+W1124 00:14:13.932000 1 torch/_inductor/utils.py:1545] [4/0_2] Not enough SMs to use max_autotune_gemm mode
+whole act failed AssertionError('UnspecializedBuiltinNNModuleVariable(TransformerEncoder) is already tracked for mutation. This could be because you are not using VariableBuilder to construct the variable tracker. Source of new object: UnspecializedBuiltinNNModuleSource(base=AttrSource(base=GetItemSource(base=DictGetItemSource(base=GlobalSource(global_name=\'_COMPILED\'), index=248438516163808), index=1, index_is_slice=False), member=\'_orig_mod\')). Source of previously tracked object: UnspecializedBuiltinNNModuleSource(base=LocalSource(local_name=\'transformer\', is_input=True, dynamism=None, is_derefed_cell

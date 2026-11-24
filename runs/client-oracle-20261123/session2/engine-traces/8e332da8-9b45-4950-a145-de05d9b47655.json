@@ -1,0 +1,509 @@
+{
+  "battle_id": "8e332da8-9b45-4950-a145-de05d9b47655",
+  "recorded_seed": 886897696,
+  "engine_seed": 886897696,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Cricket",
+          "attack": 10,
+          "health": 12,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 10,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 4,
+          "perk": "status-cake",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bison",
+          "attack": 11,
+          "health": 11,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Ant",
+          "attack": 9,
+          "health": 7,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Camel",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Camel",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 7,
+          "health": 10,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Cricket",
+          "attack": 10,
+          "health": 12,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 10,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 4,
+          "perk": "status-cake",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bison",
+          "attack": 11,
+          "health": 11,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Ant",
+          "attack": 9,
+          "health": 6,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 10,
+          "health": 16,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Cricket",
+          "attack": 10,
+          "health": 3,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 10,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 4,
+          "perk": "status-cake",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bison",
+          "attack": 11,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Ant",
+          "attack": 9,
+          "health": 6,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 10,
+          "health": 16,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Zombie Cricket",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 10,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 4,
+          "perk": "status-cake",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 9,
+          "health": 6,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 10,
+          "health": 16,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Zombie Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 10,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 4,
+          "perk": "status-cake",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 9,
+          "health": 4,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 10,
+          "health": 16,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Mosquito",
+          "attack": 10,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 4,
+          "perk": "status-cake",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 9,
+          "health": 2,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 10,
+          "health": 16,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Mosquito",
+          "attack": 10,
+          "health": 8,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 4,
+          "perk": "status-cake",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 13,
+          "health": 19,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [
+        {
+          "pet": "Zombie Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Fly",
+          "attack": 4,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 4,
+          "perk": "status-cake",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 13,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-07",
+      "player": [
+        {
+          "pet": "Dolphin",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 4,
+          "perk": "status-cake",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 13,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-08",
+      "player": [
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 1,
+          "perk": "status-cake",
+          "slot": 0
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 1,
+          "perk": "status-cake",
+          "slot": 0
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

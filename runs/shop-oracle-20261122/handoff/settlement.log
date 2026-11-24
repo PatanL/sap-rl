@@ -1,0 +1,4 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+mkdir -p failed for path /home/ubuntu/.config/matplotlib: [Errno 30] Read-only file system: '/home/ubuntu/.config'
+Matplotlib created a temporary cache directory at /audit/tmp/matplotlib-fax3dm_k because there was an issue with the default path (/home/ubuntu/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.

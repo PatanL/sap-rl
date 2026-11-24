@@ -1,0 +1,205 @@
+{
+  "actor": {
+    "totals": {
+      "wall": 107.98944951989688,
+      "shop": 7.450229657348245,
+      "battle": 3.749872954795137,
+      "obs": 1.9151788994204253,
+      "forward": 90.45489050890319,
+      "ipc": 3.128067246405408,
+      "other": 1.2912102530244738,
+      "decisions": 10206,
+      "matches": 37,
+      "battles": 406,
+      "groups": 3837,
+      "staging": 0.396423255559057
+    },
+    "parts": {
+      "shop": {
+        "ms": 0.7299852691895204,
+        "pct": 6.899034757997866
+      },
+      "battle": {
+        "ms": 0.36741847489664287,
+        "pct": 3.472443809526253
+      },
+      "obs": {
+        "ms": 0.18765225351954,
+        "pct": 1.773487047054126
+      },
+      "forward": {
+        "ms": 8.862913042220574,
+        "pct": 83.76271099727852
+      },
+      "ipc": {
+        "ms": 0.3064929694694697,
+        "pct": 2.896641533327815
+      },
+      "other": {
+        "ms": 0.1265148200102365,
+        "pct": 1.1956818548154284
+      }
+    },
+    "ms": 10.580976829305985,
+    "enginePct": 10.371478567524118,
+    "mechanicsCeiling": 1.1157162742591682,
+    "withEncodingCeiling": 1.13823869855082,
+    "enginePctBlockRange": [
+      9.912900937806812,
+      11.277745266451188
+    ],
+    "forwardOtherGroupsWhileWaiting": {
+      "ms": 0.0,
+      "pct": 0.0
+    },
+    "remainingIPC": {
+      "ms": 0.3064929694694697,
+      "pct": 2.896641533327815
+    }
+  },
+  "four-actor": {
+    "totals": {
+      "wall": 138.9874885759782,
+      "shop": 4.024538810597733,
+      "battle": 1.9100458296015859,
+      "obs": 0.9970695015508682,
+      "forward": 71.72255327459425,
+      "ipc": 59.665728407911956,
+      "other": 0.6675527517218143,
+      "decisions": 5051,
+      "matches": 19,
+      "battles": 210,
+      "groups": 2344,
+      "staging": 0.20073692221194506
+    },
+    "parts": {
+      "shop": {
+        "ms": 0.7967805999995511,
+        "pct": 2.8956122970721196
+      },
+      "battle": {
+        "ms": 0.3781520153636084,
+        "pct": 1.3742573876046762
+      },
+      "obs": {
+        "ms": 0.1974004160662974,
+        "pct": 0.7173807597838673
+      },
+      "forward": {
+        "ms": 14.19967398031959,
+        "pct": 51.60360404338608
+      },
+      "ipc": {
+        "ms": 11.812656584421294,
+        "pct": 42.928848502284715
+      },
+      "other": {
+        "ms": 0.1321624929166134,
+        "pct": 0.4802970098685489
+      }
+    },
+    "ms": 27.516826089086955,
+    "enginePct": 4.269869684676796,
+    "mechanicsCeiling": 1.0446031951550925,
+    "withEncodingCeiling": 1.0524903285905371,
+    "enginePctBlockRange": [
+      4.0050185587081115,
+      4.4726305719038955
+    ],
+    "forwardOtherGroupsWhileWaiting": {
+      "ms": 10.904974807645676,
+      "pct": 39.6302057960476
+    },
+    "remainingIPC": {
+      "ms": 0.9076817767756177,
+      "pct": 3.2986427062371124
+    }
+  },
+  "engine-only": {
+    "primitive": {
+      "totals": {
+        "seconds": 21.323354747146368,
+        "matches": 64,
+        "decisions": 47851,
+        "battles": 996,
+        "expanded": 47851
+      },
+      "matchesPerS": 3.0014038953492954,
+      "decisionsPerS": 2244.0652780681116,
+      "expandedPerS": 2244.0652780681116,
+      "battlesPerS": 46.70934812137341
+    },
+    "joint": {
+      "totals": {
+        "seconds": 16.609592722030357,
+        "matches": 64,
+        "decisions": 29460,
+        "battles": 769,
+        "expanded": 32588
+      },
+      "matchesPerS": 3.8531950223627542,
+      "decisionsPerS": 1773.6738337313552,
+      "expandedPerS": 1961.998740449335,
+      "battlesPerS": 46.29854644057747
+    }
+  },
+  "engine-core-only": {
+    "primitive": {
+      "totals": {
+        "seconds": 19.707876161905006,
+        "matches": 64,
+        "decisions": 47851,
+        "battles": 996,
+        "expanded": 47851
+      },
+      "matchesPerS": 3.247432624105429,
+      "decisionsPerS": 2428.014039001076,
+      "expandedPerS": 2428.014039001076,
+      "battlesPerS": 50.538170212640736
+    },
+    "joint": {
+      "totals": {
+        "seconds": 14.98933164589107,
+        "matches": 64,
+        "decisions": 29460,
+        "battles": 769,
+        "expanded": 32588
+      },
+      "matchesPerS": 4.26970338050689,
+      "decisionsPerS": 1965.3978373395776,
+      "expandedPerS": 2174.079590061852,
+      "battlesPerS": 51.30315468140309
+    }
+  },
+  "production": {
+    "log": "../population-league-25772-v1/train-from-000000-u8b7b290.log",
+    "logSHA": "c239547a856abb00b5062c148dc0ca2a4c91e215d3152f85d0217433f888de1b",
+    "updates": 1024,
+    "transitions": 4405349,
+    "elapsed_from_fps": 13971.928322232794,
+    "elapsed_range": [
+      13969.713017282384,
+      13974.144329896908
+    ],
+    "collection": 10716.809,
+    "learn": 3174.195,
+    "other": 80.92432223279457,
+    "groups": 1727223.0,
+    "cycles": 626709.0,
+    "service": 12472.28231,
+    "policy_groups_time": 12357.60592,
+    "coalesce": 1281.73805,
+    "estimated_items_from_rounded_mean": 5779336.7,
+    "mean_batch": 3.3460281040722593,
+    "mean_items_per_cycle": 9.221722841063396,
+    "update_floor_bound": 4.401723373086025,
+    "group_service_floor_bound": 1.130633911834016,
+    "server_plus_coalesce_bound": 1.015843219402708,
+    "learner_pct": 22.718374492009602,
+    "collection_pct": 76.70243328508138
+  },
+  "fallback": {
+    "native": 4558,
+    "during fight, Spider present": 146
+  }
+}

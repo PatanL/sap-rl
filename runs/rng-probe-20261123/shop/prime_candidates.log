@@ -1,0 +1,25 @@
+tier-1 rolls with 3 pets generated: 7845
+hypotheses: 288  purity range: 0.120 to 0.137  z range: -2.20 to 2.72
+  z +2.72 purity 0.133 n 4841  Unity xorshift128(prev_seed) draw 7 floor(u*10) -> pet slot 2
+  z +2.33 purity 0.131 n 4834  old Mono Random(prev_seed) draw 7 mod 10 -> pet slot 1
+  z +2.20 purity 0.133 n 4869  System.Random(prev_seed) draw 7 mod 10 -> pet slot 3
+  z +2.13 purity 0.129 n 4834  Unity xorshift128(seed) draw 1 mod 10 -> pet slot 1
+  z +2.12 purity 0.132 n 4841  Unity xorshift128(seed) draw 5 floor(u*10) -> pet slot 2
+for reference, zero-skip candidates:
+  z +1.51 purity 0.129 n 4834  System.Random(seed) draw 0 floor(u*10) -> pet slot 1
+  z +1.20 purity 0.130 n 4834  System.Random(prev_seed) draw 0 floor(u*10) -> pet slot 1
+  z +0.52 purity 0.127 n 4834  Unity xorshift128(seed) draw 0 floor(u*10) -> pet slot 1
+  z +0.34 purity 0.129 n 4834  Unity xorshift128(prev_seed) draw 0 mod 10 -> pet slot 1
+  z +0.03 purity 0.126 n 4834  old Mono Random(prev_seed) draw 0 mod 10 -> pet slot 1
+  z -0.21 purity 0.127 n 4834  old Mono Random(seed) draw 0 floor(u*10) -> pet slot 1
+  z -0.25 purity 0.126 n 4834  old Mono Random(seed) draw 0 mod 10 -> pet slot 1
+  z -0.29 purity 0.127 n 4834  System.Random(prev_seed) draw 0 mod 10 -> pet slot 1
+  z -0.32 purity 0.125 n 4834  Unity xorshift128(prev_seed) draw 0 floor(u*10) -> pet slot 1
+  z -0.38 purity 0.126 n 4834  System.Random(seed) draw 0 mod 10 -> pet slot 1
+  z -0.69 purity 0.128 n 4834  Unity xorshift128(seed) draw 0 mod 10 -> pet slot 1
+  z -0.91 purity 0.125 n 4834  old Mono Random(prev_seed) draw 0 floor(u*10) -> pet slot 1
+
+System.Random(seed) restricted to seed <= 161803398: 629 rolls, 48 hypotheses, purity 0.159 to 0.216 (best: draw 1 floor(u*10) -> pet slot 2, n 371); no-rule purity at this size: median 0.185, 99th percentile 0.206; truth ~1.0
+System.Random(prev_seed) restricted to prev_seed <= 161803398: 620 rolls, 48 hypotheses, purity 0.171 to 0.208 (best: draw 4 mod 10 -> pet slot 3, n 375); no-rule purity at this size: median 0.184, 99th percentile 0.207; truth ~1.0
+port without int32 overflow vs port with it, on 15690 logged seeds: differs somewhere in the first 64 outputs for 9308 (59.3%), in the first output for 0 (0.0%); seeds above 161803398: 92.0%
+planted rule that holds on 10% of 4834 rolls (rest random): z = 36.5, 30.5, 22.8, 29.6, 40.1  (family maximum under chance: 5 to 7.5)

@@ -1,0 +1,14 @@
+{
+ "teacher": "/out/results/selfplay-a/seg-1/update-027772.pt",
+ "out": "/out/results/distill-a",
+ "games": "1024",
+ "steps": "40000",
+ "window": "8",
+ "lr": "0.0003",
+ "teacher_moves": "300",
+ "save_every": "1000",
+ "threads": "5",
+ "seed": "20261123",
+ "seconds": "30000.0",
+ "resume": "None"
+}

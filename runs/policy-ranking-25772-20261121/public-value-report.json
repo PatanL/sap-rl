@@ -1,0 +1,35 @@
+{
+  "trainOrigins": 64,
+  "testOrigins": 64,
+  "trainEndDecisions": 1602,
+  "testEndDecisions": 1475,
+  "ridge": {
+    "eligible": 64,
+    "pickedAlternative": 23,
+    "alternativeWins": 10,
+    "alternativeLosses": 10,
+    "meanScoreDelta": -0.015625,
+    "pairedOrigin95": [
+      -0.078125,
+      0.046875
+    ]
+  },
+  "frozenCritic": {
+    "eligible": 64,
+    "pickedAlternative": 26,
+    "alternativeWins": 10,
+    "alternativeLosses": 10,
+    "meanScoreDelta": -0.046875,
+    "pairedOrigin95": [
+      -0.125,
+      0.03125
+    ]
+  },
+  "ridgeMinusFrozen": {
+    "meanScoreDelta": 0.03125,
+    "pairedOrigin95": [
+      -0.03125,
+      0.09375
+    ]
+  }
+}

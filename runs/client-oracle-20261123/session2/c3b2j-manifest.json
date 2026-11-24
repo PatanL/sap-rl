@@ -1,0 +1,84 @@
+[
+ {
+  "file": "c3-h11-deer-gap-ahead-and-behind-p870113.json",
+  "id": "8df277aa-6b20-5793-b3ae-a445197c1544",
+  "seed": 870113,
+  "sha256": "5d6c66a78bb4e87569711de93f80c3bb8448b16cbc5ec959d81c0894e1b79a64",
+  "test": "h11-deer-gap-ahead-and-behind",
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   null,
+   [
+    "Deer",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ],
+   null,
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ]
+ },
+ {
+  "file": "c3-h11-deer-gap-ahead-and-behind-m1714808783.json",
+  "id": "096fb61f-43d0-5506-8c22-51bd5d104db3",
+  "seed": -1714808783,
+  "sha256": "63280f198ff89dc0ba944d806c607efa2f9929be5973261f17fe9e7780ad0ae5",
+  "test": "h11-deer-gap-ahead-and-behind",
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   null,
+   [
+    "Deer",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ],
+   null,
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ]
+ }
+]

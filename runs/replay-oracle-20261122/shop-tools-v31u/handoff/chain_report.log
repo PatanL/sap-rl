@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/dzliu/pzliu/sap-rl/runs/replay-oracle-20261122/shop-tools-v31u/handoff/chain_report.py", line 22, in <module>
+    if __name__=='__main__':summarize()
+                            ^^^^^^^^^^^
+  File "/home/dzliu/pzliu/sap-rl/runs/replay-oracle-20261122/shop-tools-v31u/handoff/chain_report.py", line 5, in summarize
+    archive={r['battleId']:r for r in json.load(open('../replay-oracle-20261122/v31i-result-340.json'))['rows']}
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../replay-oracle-20261122/v31i-result-340.json'

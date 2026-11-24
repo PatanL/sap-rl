@@ -1,0 +1,467 @@
+{
+  "battle_id": "5dccddde-34e5-4a3a-9289-2cc3b91f9c58",
+  "recorded_seed": 738235690,
+  "engine_seed": 738235690,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Squirrel",
+          "attack": 7,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Turkey",
+          "attack": 14,
+          "health": 11,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Turkey",
+          "attack": 9,
+          "health": 8,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Cat",
+          "attack": 8,
+          "health": 9,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Turkey",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Sheep",
+          "attack": 5,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Whale",
+          "attack": 5,
+          "health": 9,
+          "perk": "status-cake",
+          "slot": 1
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Shark",
+          "attack": 7,
+          "health": 14,
+          "perk": "status-bread",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Squirrel",
+          "attack": 7,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Turkey",
+          "attack": 14,
+          "health": 11,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Turkey",
+          "attack": 9,
+          "health": 8,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Cat",
+          "attack": 8,
+          "health": 9,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Turkey",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ram",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Whale",
+          "attack": 5,
+          "health": 9,
+          "perk": "status-cake",
+          "slot": 1
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Shark",
+          "attack": 11,
+          "health": 18,
+          "perk": "status-bread",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Squirrel",
+          "attack": 7,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Turkey",
+          "attack": 14,
+          "health": 11,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Turkey",
+          "attack": 9,
+          "health": 8,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Cat",
+          "attack": 8,
+          "health": 9,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Turkey",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Whale",
+          "attack": 5,
+          "health": 9,
+          "perk": "status-cake",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Shark",
+          "attack": 15,
+          "health": 22,
+          "perk": "status-bread",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Turkey",
+          "attack": 14,
+          "health": 11,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Turkey",
+          "attack": 9,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Cat",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Turkey",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Whale",
+          "attack": 5,
+          "health": 2,
+          "perk": "status-cake",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Shark",
+          "attack": 15,
+          "health": 22,
+          "perk": "status-bread",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Turkey",
+          "attack": 9,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Turkey",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Sheep",
+          "attack": 5,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Shark",
+          "attack": 19,
+          "health": 26,
+          "perk": "status-bread",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Turkey",
+          "attack": 6,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ram",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Ram",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Shark",
+          "attack": 23,
+          "health": 30,
+          "perk": "status-bread",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Ram",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Shark",
+          "attack": 27,
+          "health": 34,
+          "perk": "status-bread",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Ram",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Shark",
+          "attack": 27,
+          "health": 34,
+          "perk": "status-bread",
+          "slot": 3
+        }
+      ]
+    }
+  ]
+}

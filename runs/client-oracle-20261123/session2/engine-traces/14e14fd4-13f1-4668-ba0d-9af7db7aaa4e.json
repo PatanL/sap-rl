@@ -1,0 +1,397 @@
+{
+  "battle_id": "14e14fd4-13f1-4668-ba0d-9af7db7aaa4e",
+  "recorded_seed": -426101710,
+  "engine_seed": 3868865586,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Mammoth",
+          "attack": 4,
+          "health": 12,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 21,
+          "health": 21,
+          "perk": "status-melon-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 1,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 10,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Cat",
+          "attack": 10,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 19,
+          "health": 20,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 14,
+          "health": 22,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 8,
+          "health": 9,
+          "perk": "status-cake",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Mammoth",
+          "attack": 4,
+          "health": 12,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 21,
+          "health": 21,
+          "perk": "status-melon-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 1,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 10,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Cat",
+          "attack": 10,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 19,
+          "health": 19,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 14,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 8,
+          "health": 9,
+          "perk": "status-cake",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Mammoth",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 21,
+          "health": 21,
+          "perk": "status-melon-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 1,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 10,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Cat",
+          "attack": 10,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 19,
+          "health": 19,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 14,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 8,
+          "health": 9,
+          "perk": "status-cake",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Mosquito",
+          "attack": 23,
+          "health": 23,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 3,
+          "health": 5,
+          "perk": "status-cake",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 12,
+          "health": 23,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 5,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 19,
+          "health": 19,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 14,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Snail",
+          "attack": 8,
+          "health": 9,
+          "perk": "status-cake",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Mosquito",
+          "attack": 23,
+          "health": 20,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 3,
+          "health": 5,
+          "perk": "status-cake",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 12,
+          "health": 20,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 14,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Snail",
+          "attack": 8,
+          "health": 6,
+          "perk": "status-cake",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Mosquito",
+          "attack": 23,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 3,
+          "health": 5,
+          "perk": "status-cake",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 12,
+          "health": 20,
+          "perk": "status-bread",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Snail",
+          "attack": 8,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Giraffe",
+          "attack": 3,
+          "health": 5,
+          "perk": "status-cake",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 12,
+          "health": 20,
+          "perk": "status-bread",
+          "slot": 1
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Giraffe",
+          "attack": 3,
+          "health": 5,
+          "perk": "status-cake",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 12,
+          "health": 20,
+          "perk": "status-bread",
+          "slot": 1
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "checkpoint": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+  "cpuContract": false,
+  "rows": [
+    {
+      "block": 0,
+      "scorer": "original",
+      "wallSeconds": 110.1841871170327,
+      "armSeconds": {
+        "ordinary": {
+          "collect": 7.631091295974329,
+          "learn": 0.515067761996761
+        },
+        "assisted": {
+          "collect": 97.36424339259975,
+          "learn": 0.2913146880455315
+        }
+      },
+      "secondsPerThousandLearnedDecisions": 107.60174523147725,
+      "evidence": {
+        "worlds": [
+          3625582836889488796,
+          844824211372212131,
+          4505963711347999276,
+          3816368291440581911
+        ],
+        "traces": {
+          "bothSeatActionsAndReorders": "a47c3d865594d8c2e4304d1d263a59f5f969a43b189c0bd606d309ff7c9003ce",
+          "collectedTurns": "8d8d996b4a9023fbe69ff6b9499eb9f01b6cebcaf09eb0758a5d27a9df3e46e3",
+          "optimizerBatches": "d0ec61a91f4730de6e0a53d418cb7c47878b9aa5e6dde69fc93bd614d7606023"
+        },
+        "models": {
+          "ordinary": "7f0105f7cb75dbee5e0d32025f3ca0d567b11e9a55289963443f3fcf3eaaf500",
+          "assisted": "d565774e4b8accd496142ca762edfbfbbe79033643b5f7856524aaa7c038ddf0"
+        },
+        "metrics": {
+          "ordinary": {
+            "trained": 512,
+            "loss": 0.05337858581333421,
+            "logProbError": 0.0,
+            "collected": 616,
+            "purchases": 107,
+            "plannerMoves": 0,
+            "collectedAssistedTurnsWithPurchase": 0,
+            "assistedTurnsWithPurchase": 0
+          },
+          "assisted": {
+            "trained": 512,
+            "loss": 0.17445995699381456,
+            "logProbError": 0.0,
+            "collected": 575,
+            "purchases": 106,
+            "plannerMoves": 56,
+            "collectedAssistedTurnsWithPurchase": 31,
+            "assistedTurnsWithPurchase": 29
+          }
+        }
+      }
+    },
+    {
+      "block": 0,
+      "scorer": "prepared",
+      "wallSeconds": 101.17715627094731,
+      "armSeconds": {
+        "ordinary": {
+          "collect": 6.626057029003277,
+          "learn": 0.2898016020189971
+        },
+        "assisted": {
+          "collect": 89.82967903814279,
+          "learn": 0.3536022880580276
+        }
+      },
+      "secondsPerThousandLearnedDecisions": 98.80581667084698,
+      "evidence": {
+        "worlds": [
+          3625582836889488796,
+          844824211372212131,
+          4505963711347999276,
+          3816368291440581911
+        ],
+        "traces": {
+          "bothSeatActionsAndReorders": "a47c3d865594d8c2e4304d1d263a59f5f969a43b189c0bd606d309ff7c9003ce",
+          "collectedTurns": "8d8d996b4a9023fbe69ff6b9499eb9f01b6cebcaf09eb0758a5d27a9df3e46e3",
+          "optimizerBatches": "d0ec61a91f4730de6e0a53d418cb7c47878b9aa5e6dde69fc93bd614d7606023"
+        },
+        "models": {
+          "ordinary": "7f0105f7cb75dbee5e0d32025f3ca0d567b11e9a55289963443f3fcf3eaaf500",
+          "assisted": "d565774e4b8accd496142ca762edfbfbbe79033643b5f7856524aaa7c038ddf0"
+        },
+        "metrics": {
+          "ordinary": {
+            "trained": 512,
+            "loss": 0.05337858581333421,
+            "logProbError": 0.0,
+            "collected": 616,
+            "purchases": 107,
+            "plannerMoves": 0,
+            "collectedAssistedTurnsWithPurchase": 0,
+            "assistedTurnsWithPurchase": 0
+          },
+          "assisted": {
+            "trained": 512,
+            "loss": 0.17445995699381456,
+            "logProbError": 0.0,
+            "collected": 575,
+            "purchases": 106,
+            "plannerMoves": 56,
+            "collectedAssistedTurnsWithPurchase": 31,
+            "assistedTurnsWithPurchase": 29
+          }
+        }
+      }
+    },
+    {
+      "block": 0,
+      "scorer": "compact",
+      "wallSeconds": 80.1559334739577,
+      "armSeconds": {
+        "ordinary": {
+          "collect": 6.421210264787078,
+          "learn": 0.2779122181236744
+        },
+        "assisted": {
+          "collect": 69.18593230401166,
+          "learn": 0.28375603002496064
+        }
+      },
+      "secondsPerThousandLearnedDecisions": 78.27727878316182,
+      "evidence": {
+        "worlds": [
+          3625582836889488796,
+          844824211372212131,
+          4505963711347999276,
+          3816368291440581911
+        ],
+        "traces": {
+          "bothSeatActionsAndReorders": "a47c3d865594d8c2e4304d1d263a59f5f969a43b189c0bd606d309ff7c9003ce",
+          "collectedTurns": "8d8d996b4a9023fbe69ff6b9499eb9f01b6cebcaf09eb0758a5d27a9df3e46e3",
+          "optimizerBatches": "d0ec61a91f4730de6e0a53d418cb7c47878b9aa5e6dde69fc93bd614d7606023"
+        },
+        "models": {
+          "ordinary": "7f0105f7cb75dbee5e0d32025f3ca0d567b11e9a55289963443f3fcf3eaaf500",
+          "assisted": "d565774e4b8accd496142ca762edfbfbbe79033643b5f7856524aaa7c038ddf0"
+        },
+        "metrics": {
+          "ordinary": {
+            "trained": 512,
+            "loss": 0.05337858581333421,
+            "logProbError": 0.0,
+            "collected": 616,
+            "purchases": 107,
+            "plannerMoves": 0,
+            "collectedAssistedTurnsWithPurchase": 0,
+            "assistedTurnsWithPurchase": 0
+          },
+          "assisted": {
+            "trained": 512,
+            "loss": 0.17445995699381456,
+            "logProbError": 0.0,
+            "collected": 575,
+            "purchases": 106,
+            "plannerMoves": 56,
+            "collectedAssistedTurnsWithPurchase": 31,
+            "assistedTurnsWithPurchase": 29
+          }
+        }
+      }
+    },
+    {
+      "block": 1,
+      "scorer": "compact",
+      "wallSeconds": 79.61656156391837,
+      "armSeconds": {
+        "ordinary": {
+          "collect": 6.018407179042697,
+          "learn": 0.3161690488923341
+        },
+        "assisted": {
+          "collect": 68.72167903394438,
+          "learn": 0.338765966007486
+        }
+      },
+      "secondsPerThousandLearnedDecisions": 77.75054840226403,
+      "evidence": {
+        "worlds": [
+          2920753177235662686,
+          4593350762468339594,
+          3638757279322209695,
+          3948716585861954075
+        ],
+        "traces": {
+          "bothSeatActionsAndReorders": "e2151380596b9999538ecd776a95fc14c90c86607a26fe2c88d3f1387799070f",
+          "collectedTurns": "b45a4a5c94f6f615f1707f83601a9f92cae3b42d13b59a43357a372bfd356f23",
+          "optimizerBatches": "8ff0267bf35c886f92a90e2dfe1d6a351493305e088ea63d2c47f111885a4a85"
+        },
+        "models": {
+          "ordinary": "4d3ab249b63259b71e8fe976448d9eb4c70a4c9bc95eed6ead2db71cc5aa7d94",
+          "assisted": "0121c9a33ddd792aba11a48e01730d81506ca5f68292940c657889a9bec2d308"
+        },
+        "metrics": {
+          "ordinary": {
+            "trained": 512,
+            "loss": -0.23338319899630733,
+            "logProbError": 0.0,
+            "collected": 543,
+            "purchases": 119,
+            "plannerMoves": 0,
+            "collectedAssistedTurnsWithPurchase": 0,
+            "assistedTurnsWithPurchase": 0
+          },
+          "assisted": {
+            "trained": 512,
+            "loss": 0.008935746795032173,
+            "logProbError": 0.0,
+            "collected": 565,
+            "purchases": 108,
+            "plannerMoves": 43,
+            "collectedAssistedTurnsWithPurchase": 27,
+            "assistedTurnsWithPurchase": 22
+          }
+        }
+      }
+    },
+    {
+      "block": 1,
+      "scorer": "prepared",
+      "wallSeconds": 99.80609314911999,
+      "armSeconds": {
+        "ordinary": {
+          "collect": 5.906273575965315,
+          "learn": 0.3148592780344188
+        },
+        "assisted": {
+          "collect": 89.31574811693281,
+          "learn": 0.27800116315484047
+        }
+      },
+      "secondsPerThousandLearnedDecisions": 97.46688784093749,
+      "evidence": {
+        "worlds": [
+          2920753177235662686,
+          4593350762468339594,
+          3638757279322209695,
+          3948716585861954075
+        ],
+        "traces": {
+          "bothSeatActionsAndReorders": "e2151380596b9999538ecd776a95fc14c90c86607a26fe2c88d3f1387799070f",
+          "collectedTurns": "b45a4a5c94f6f615f1707f83601a9f92cae3b42d13b59a43357a372bfd356f23",
+          "optimizerBatches": "8ff0267bf35c886f92a90e2dfe1d6a351493305e088ea63d2c47f111885a4a85"
+        },
+        "models": {
+          "ordinary": "4d3ab249b63259b71e8fe976448d9eb4c70a4c9bc95eed6ead2db71cc5aa7d94",
+          "assisted": "0121c9a33ddd792aba11a48e01730d81506ca5f68292940c657889a9bec2d308"
+        },
+        "metrics": {
+          "ordinary": {
+            "trained": 512,
+            "loss": -0.23338319899630733,
+            "logProbError": 0.0,
+            "collected": 543,
+            "purchases": 119,
+            "plannerMoves": 0,
+            "collectedAssistedTurnsWithPurchase": 0,
+            "assistedTurnsWithPurchase": 0
+          },
+          "assisted": {
+            "trained": 512,
+            "loss": 0.008935746795032173,
+            "logProbError": 0.0,
+            "collected": 565,
+            "purchases": 108,
+            "plannerMoves": 43,
+            "collectedAssistedTurnsWithPurchase": 27,
+            "assistedTurnsWithPurchase": 22
+          }
+        }
+      }
+    },
+    {
+      "block": 1,
+      "scorer": "original",
+      "wallSeconds": 108.01334739197046,
+      "armSeconds": {
+        "ordinary": {
+          "collect": 5.855018935864791,
+          "learn": 0.27519582700915635
+        },
+        "assisted": {
+          "collect": 97.55994780501351,
+          "learn": 0.2776975769083947
+        }
+      },
+      "secondsPerThousandLearnedDecisions": 105.48178456247115,
+      "evidence": {
+        "worlds": [
+          2920753177235662686,
+          4593350762468339594,
+          3638757279322209695,
+          3948716585861954075
+        ],
+        "traces": {
+          "bothSeatActionsAndReorders": "e2151380596b9999538ecd776a95fc14c90c86607a26fe2c88d3f1387799070f",
+          "collectedTurns": "b45a4a5c94f6f615f1707f83601a9f92cae3b42d13b59a43357a372bfd356f23",
+          "optimizerBatches": "8ff0267bf35c886f92a90e2dfe1d6a351493305e088ea63d2c47f111885a4a85"
+        },
+        "models": {
+          "ordinary": "4d3ab249b63259b71e8fe976448d9eb4c70a4c9bc95eed6ead2db71cc5aa7d94",
+          "assisted": "0121c9a33ddd792aba11a48e01730d81506ca5f68292940c657889a9bec2d308"
+        },
+        "metrics": {
+          "ordinary": {
+            "trained": 512,
+            "loss": -0.23338319899630733,
+            "logProbError": 0.0,
+            "collected": 543,
+            "purchases": 119,
+            "plannerMoves": 0,
+            "collectedAssistedTurnsWithPurchase": 0,
+            "assistedTurnsWithPurchase": 0
+          },
+          "assisted": {
+            "trained": 512,
+            "loss": 0.008935746795032173,
+            "logProbError": 0.0,
+            "collected": 565,
+            "purchases": 108,
+            "plannerMoves": 43,
+            "collectedAssistedTurnsWithPurchase": 27,
+            "assistedTurnsWithPurchase": 22
+          }
+        }
+      }
+    }
+  ],
+  "totals": {
+    "original": 218.19753450900316,
+    "prepared": 200.9832494200673,
+    "compact": 159.77249503787607
+  },
+  "speedup": {
+    "original": 1.0,
+    "prepared": 1.0856503471737435,
+    "compact": 1.3656764542437465
+  }
+}

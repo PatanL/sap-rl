@@ -1,0 +1,91 @@
+{
+  "candidate": {
+    "joint_freeze": true,
+    "sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+    "source_revision": "turtle-v30-food-right-reorder10-v1-20260911",
+    "update": 25772
+  },
+  "ci95": [
+    0.5,
+    0.5
+  ],
+  "engine": "80ee15221b5fbfd7b641330cdeaebcc011a2c1dc77da3bce6ffb4979a44bf4b5",
+  "games": 8,
+  "mode": "sanity",
+  "opponent": {
+    "joint_freeze": true,
+    "sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+    "source_revision": "turtle-v30-food-right-reorder10-v1-20260911",
+    "update": 25772
+  },
+  "pairs": 4,
+  "peak_reserved_bytes": 146800640,
+  "protocol": "paired-greedy-v31-v1",
+  "records": [
+    {
+      "last_battle": 13,
+      "pair": 0,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 289190982347458279
+    },
+    {
+      "last_battle": 13,
+      "pair": 0,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 289190982347458279
+    },
+    {
+      "last_battle": 12,
+      "pair": 1,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 320577615843390679
+    },
+    {
+      "last_battle": 12,
+      "pair": 1,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 320577615843390679
+    },
+    {
+      "last_battle": 10,
+      "pair": 2,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 327593570891407475
+    },
+    {
+      "last_battle": 10,
+      "pair": 2,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 327593570891407475
+    },
+    {
+      "last_battle": 12,
+      "pair": 3,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 338090434480895757
+    },
+    {
+      "last_battle": 12,
+      "pair": 3,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 338090434480895757
+    }
+  ],
+  "revision": "turtle-v31-replay-48218b4eb462-20261123",
+  "score": 0.5,
+  "seconds": 7.463750599883497,
+  "utc": "2026-11-23T10:14:46.476825+00:00",
+  "wdl": [
+    4,
+    0,
+    4
+  ]
+}

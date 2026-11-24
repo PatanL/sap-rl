@@ -1,0 +1,38 @@
+{
+  "arm": "parent",
+  "mode": "train",
+  "simulator_revision": "turtle-v31-replay-b08ee281b158-20261123",
+  "engine_sha256": "3e9b0d3946ed253d3eb57141ba1ed3c52ff4f93c8a1fcff1ac5f07e9460ce6d1",
+  "updates": 4,
+  "final_version": 25776,
+  "trained_rows": 16417,
+  "unused_delivered": 486,
+  "discarded_stale": 2501,
+  "delivered": 19404,
+  "seat_decisions": 22999,
+  "complete_matches_collected": 0,
+  "parameters": 14346925,
+  "new_version_rows_observed_after_last_step": 0,
+  "before_weights": null,
+  "after_weights": null,
+  "elapsed_s": 44.96910201688297,
+  "peak_gpu_reserved": 717225984,
+  "events": [
+    {
+      "version": 25776,
+      "behavior_min": 25774,
+      "behavior_max": 25775,
+      "adam_steps_min_before": 25775.0,
+      "adam_steps_max_before": 25775.0,
+      "adam_steps_max_after": 25776.0,
+      "stale": 2501,
+      "elapsed_s": 44.5202870729845,
+      "decisions": 4106,
+      "microbatches": 45,
+      "turns": 346,
+      "loss": 0.2976429912443574,
+      "grad_norm": 1.5823866128921509,
+      "primitive_actions": 4663
+    }
+  ]
+}

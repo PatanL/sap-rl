@@ -1,0 +1,9 @@
+[
+ {"name":"f7x-tiger-dies-too-continues","seeds":[1203948571,-402918337,1999999937,-2000000011,55555,-987654321],"left":[["Cricket",1,2],["Tiger",4,2],["Fish",2,20]],"right":[["Hedgehog",1,1],["Fish",1,30]]},
+ {"name":"ddynctl-crab-higher-no-dodo","nseeds":2,"left":[["Skunk",5,5],["Fish",10,6]],"right":[["Crab",9,3],["Fish",2,40]]},
+ {"name":"a7-fly-one-use-left","nseeds":2,"left":[["Pig",5,3],["Duck",7,2],["Fish",1,2],["Beaver",3,2],["Fly",4,20,{"trco":2}]],"right":[["Hedgehog",1,1]]},
+ {"name":"h9-fly1-two-snipes-dolphin-first","nseeds":2,"left":[["Fish",13,12],["Pig",5,1],["Fish",12,14],["Fly",15,13,{"trco":2}],["Duck",4,5]],"right":[["Fish",1,40],["Dolphin",9,5],["Crocodile",8,4]]},
+ {"name":"h9r-fly1-two-snipes-croc-first","nseeds":2,"left":[["Fish",13,12],["Pig",5,1],["Fish",12,14],["Fly",15,13,{"trco":2}],["Duck",4,5]],"right":[["Fish",1,40],["Dolphin",7,5],["Crocodile",8,4]]},
+ {"name":"h10-fly1-swallow-vs-snipe","nseeds":2,"left":[["Fish",13,12],["Pig",15,13],["Whale",12,14],["Fly",15,13,{"trco":2}],["Duck",4,5]],"right":[["Fish",1,40],["Crocodile",8,4]]},
+ {"name":"h10r-fly1-swallow-vs-snipe-croc-first","nseeds":2,"left":[["Fish",13,12],["Pig",15,13],["Whale",6,14],["Fly",15,13,{"trco":2}],["Duck",4,5]],"right":[["Fish",1,40],["Crocodile",8,4]]}
+]

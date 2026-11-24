@@ -1,0 +1,224 @@
+[
+  {
+    "layout": "sorted",
+    "compact": true,
+    "cap": 1536,
+    "rate": 5175.892936624523,
+    "comparisons": {
+      "bf16": {
+        "passed": false,
+        "difference": {
+          "loss_abs": 0.0009670612302920545,
+          "gradient_relative_l2": 0.04334692392222188,
+          "delta_relative_l2": 0.009764804231847009,
+          "weight_max_abs": 6.213784217834473e-06
+        },
+        "gradient": {
+          "relative_l2": 0.04334692392222188,
+          "max_abs": 0.0009214878082275391,
+          "cosine": 0.9990602805059314
+        },
+        "parameter_delta": {
+          "relative_l2": 0.009764804231847009,
+          "max_abs": 6.213784217834473e-06,
+          "cosine": 0.9999526108739369
+        },
+        "reference": {
+          "decisions": 8194,
+          "microbatches": 90,
+          "turns": 707,
+          "loss": 0.27951112956677887,
+          "grad_norm": 0.6391363143920898,
+          "primitive_actions": 9409
+        },
+        "fast": {
+          "decisions": 8194,
+          "turns": 707,
+          "microbatches": 8,
+          "padded_rows": 9260,
+          "loss": 0.2785440683364868,
+          "grad_norm": 0.6389399170875549,
+          "effective_cap": 1536,
+          "oom_retries": 0,
+          "primitive_actions": 9409
+        }
+      }
+    }
+  },
+  {
+    "layout": "sorted",
+    "compact": true,
+    "cap": 768,
+    "rate": 4957.82669239038,
+    "comparisons": {
+      "bf16": {
+        "passed": false,
+        "difference": {
+          "loss_abs": 0.0016553458658358777,
+          "gradient_relative_l2": 0.06160299725772244,
+          "delta_relative_l2": 0.010854580147854998,
+          "weight_max_abs": 5.207955837249756e-06
+        },
+        "gradient": {
+          "relative_l2": 0.06160299725772244,
+          "max_abs": 0.0009958744049072266,
+          "cosine": 0.9981008050649242
+        },
+        "parameter_delta": {
+          "relative_l2": 0.010854580147854998,
+          "max_abs": 5.207955837249756e-06,
+          "cosine": 0.9999420142524764
+        },
+        "reference": {
+          "decisions": 8194,
+          "microbatches": 90,
+          "turns": 707,
+          "loss": 0.27951112956677887,
+          "grad_norm": 0.6391363143920898,
+          "primitive_actions": 9409
+        },
+        "fast": {
+          "decisions": 8194,
+          "turns": 707,
+          "microbatches": 14,
+          "padded_rows": 8859,
+          "loss": 0.277855783700943,
+          "grad_norm": 0.6381669640541077,
+          "effective_cap": 768,
+          "oom_retries": 0,
+          "primitive_actions": 9409
+        }
+      }
+    }
+  },
+  {
+    "layout": "sorted",
+    "compact": true,
+    "cap": 1024,
+    "rate": 4926.173015584757,
+    "comparisons": {
+      "bf16": {
+        "passed": false,
+        "difference": {
+          "loss_abs": 0.0017314609972140516,
+          "gradient_relative_l2": 0.05516222433245431,
+          "delta_relative_l2": 0.009975785242904068,
+          "weight_max_abs": 5.558133125305176e-06
+        },
+        "gradient": {
+          "relative_l2": 0.05516222433245431,
+          "max_abs": 0.0008935332298278809,
+          "cosine": 0.9984780733243321
+        },
+        "parameter_delta": {
+          "relative_l2": 0.009975785242904068,
+          "max_abs": 5.558133125305176e-06,
+          "cosine": 0.9999507221117929
+        },
+        "reference": {
+          "decisions": 8194,
+          "microbatches": 90,
+          "turns": 707,
+          "loss": 0.27951112956677887,
+          "grad_norm": 0.6391363143920898,
+          "primitive_actions": 9409
+        },
+        "fast": {
+          "decisions": 8194,
+          "turns": 707,
+          "microbatches": 11,
+          "padded_rows": 8828,
+          "loss": 0.2777796685695648,
+          "grad_norm": 0.6389017701148987,
+          "effective_cap": 1024,
+          "oom_retries": 0,
+          "primitive_actions": 9409
+        }
+      }
+    }
+  },
+  {
+    "layout": "sorted",
+    "compact": true,
+    "cap": 512,
+    "rate": 4363.9897367873,
+    "comparisons": {
+      "bf16": {
+        "passed": true,
+        "difference": {
+          "loss_abs": 0.00036264032994720585,
+          "gradient_relative_l2": 0.03399585333960477,
+          "delta_relative_l2": 0.009391032306741863,
+          "weight_max_abs": 4.902482032775879e-06
+        },
+        "gradient": {
+          "relative_l2": 0.03399585333960477,
+          "max_abs": 0.0006401538848876953,
+          "cosine": 0.9994222738802492
+        },
+        "parameter_delta": {
+          "relative_l2": 0.009391032306741863,
+          "max_abs": 4.902482032775879e-06,
+          "cosine": 0.9999562305931772
+        },
+        "reference": {
+          "decisions": 8194,
+          "microbatches": 90,
+          "turns": 707,
+          "loss": 0.27951112956677887,
+          "grad_norm": 0.6391363143920898,
+          "primitive_actions": 9409
+        },
+        "fast": {
+          "decisions": 8194,
+          "turns": 707,
+          "microbatches": 20,
+          "padded_rows": 8679,
+          "loss": 0.27914848923683167,
+          "grad_norm": 0.6392619609832764,
+          "effective_cap": 512,
+          "oom_retries": 0,
+          "primitive_actions": 9409
+        }
+      },
+      "fp32": {
+        "passed": true,
+        "difference": {
+          "loss_abs": 1.220553131897617e-07,
+          "gradient_relative_l2": 4.133596529424063e-06,
+          "delta_relative_l2": 1.4885768093454795e-05,
+          "weight_max_abs": 2.9802322387695312e-08
+        },
+        "gradient": {
+          "relative_l2": 4.133596529424063e-06,
+          "max_abs": 4.237517714500427e-08,
+          "cosine": 0.9999999999914649
+        },
+        "parameter_delta": {
+          "relative_l2": 1.4885768093454795e-05,
+          "max_abs": 2.9802322387695312e-08,
+          "cosine": 0.9999999998892073
+        },
+        "reference": {
+          "decisions": 8194,
+          "microbatches": 90,
+          "turns": 707,
+          "loss": 0.2808049945681306,
+          "grad_norm": 0.6518030166625977,
+          "primitive_actions": 9409
+        },
+        "fast": {
+          "decisions": 8194,
+          "turns": 707,
+          "microbatches": 20,
+          "padded_rows": 8679,
+          "loss": 0.2808048725128174,
+          "grad_norm": 0.6518029570579529,
+          "effective_cap": 512,
+          "oom_retries": 0,
+          "primitive_actions": 9409
+        }
+      }
+    }
+  }
+]

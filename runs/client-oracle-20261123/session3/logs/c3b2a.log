@@ -1,0 +1,556 @@
+BROWSER READY
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-a1-fly4dead-p1203948571 18 13.8
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-a1-fly4dead-m402918337 18 13.6
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-a1-fly4dead-p1999999937 16 13.2
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-a1-fly4dead-m2000000011 17 13.9
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-a1-fly4dead-p55555 17 13.1
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-a1-fly4dead-m987654321 18 14.3
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-h6-fly-two-deaths-sob-p870113 21 17.3
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-h6-fly-two-deaths-sob-m1714808783 22 17.6
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-h6-fly-two-deaths-sob-p1203948571 22 18.2
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-h6-fly-two-deaths-sob-m402918337 22 18.4
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-h6-fly-two-deaths-sob-p1999999937 23 19.0
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-h6-fly-two-deaths-sob-m2000000011 20 16.9
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-h6-fly-two-deaths-sob-p55555 22 18.9
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-h6-fly-two-deaths-sob-m987654321 22 18.6
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-ddyn-sob-dynamic-p870113 17 14.9
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-ddyn-sob-dynamic-m1714808783 18 15.5
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-f9-snake-tiger-shots-p870113 45 37.4
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-f9-snake-tiger-shots-m1714808783 44 36.9
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-f9-snake-tiger-shots-p1203948571 40 36.0
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-f9-snake-tiger-shots-m402918337 41 35.8
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-f9-snake-tiger-shots-p1999999937 42 37.0
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-f9-snake-tiger-shots-m2000000011 42 37.3
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-f9-snake-tiger-shots-p55555 41 48.8
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-f9-snake-tiger-shots-m987654321 42 35.2
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-f9-snake-tiger-shots-p314159265 42 36.5
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-f9-snake-tiger-shots-m271828182 40 33.6
+EXIT 0
+session2/captures/c3-f9-snake-tiger-shots-m402918337 45 readings
+session2/captures/c3-f9-snake-tiger-shots-p1999999937 44 readings
+session2/captures/c3-f9-snake-tiger-shots-m2000000011 43 readings
+session2/captures/c3-f9-snake-tiger-shots-p55555 48 readings
+session2/captures/c3-f9-snake-tiger-shots-m987654321 50 readings
+session2/captures/c3-f9-snake-tiger-shots-p314159265 45 readings
+session2/captures/c3-f9-snake-tiger-shots-m271828182 48 readings
+BATCH DONE

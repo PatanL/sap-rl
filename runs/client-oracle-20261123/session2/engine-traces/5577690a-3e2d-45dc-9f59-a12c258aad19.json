@@ -1,0 +1,418 @@
+{
+  "battle_id": "5577690a-3e2d-45dc-9f59-a12c258aad19",
+  "recorded_seed": 1437756089,
+  "engine_seed": 1437756089,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Blowfish",
+          "attack": 4,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Swan",
+          "attack": 8,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 9,
+          "health": 6,
+          "perk": "status-garlic-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Badger",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Pig",
+          "attack": 6,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Spider",
+          "attack": 4,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Whale",
+          "attack": 7,
+          "health": 11,
+          "perk": "status-garlic-armor",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Blowfish",
+          "attack": 4,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Swan",
+          "attack": 8,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 9,
+          "health": 6,
+          "perk": "status-garlic-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Badger",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Pig",
+          "attack": 6,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dodo",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Whale",
+          "attack": 7,
+          "health": 11,
+          "perk": "status-garlic-armor",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Swan",
+          "attack": 8,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 9,
+          "health": 6,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Snail",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Badger",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Pig",
+          "attack": 6,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dodo",
+          "attack": 4,
+          "health": 1,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Whale",
+          "attack": 7,
+          "health": 11,
+          "perk": "status-garlic-armor",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Kangaroo",
+          "attack": 11,
+          "health": 6,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Snail",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Rabbit",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Pig",
+          "attack": 6,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dodo",
+          "attack": 4,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Whale",
+          "attack": 7,
+          "health": 11,
+          "perk": "status-garlic-armor",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Kangaroo",
+          "attack": 11,
+          "health": 4,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Snail",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Pig",
+          "attack": 6,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 4,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Whale",
+          "attack": 7,
+          "health": 11,
+          "perk": "status-garlic-armor",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Snail",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dodo",
+          "attack": 4,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Whale",
+          "attack": 7,
+          "health": 11,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Penguin",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Whale",
+          "attack": 7,
+          "health": 11,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Whale",
+          "attack": 7,
+          "health": 9,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Whale",
+          "attack": 7,
+          "health": 9,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        }
+      ]
+    }
+  ]
+}

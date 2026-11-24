@@ -1,0 +1,16 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/backends/__init__.py:46: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at /opt/pytorch/pytorch/aten/src/ATen/Context.cpp:80.)
+  self.setter(val)
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+ref {'seconds': [5.186917901970446, 4.313934582984075, 4.460669321008027, 5.214267948875204], 'decisions': 8193, 'microbatches': 90, 'rate': 1836.7198755160218, 'peak': 662700032}
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+128 {'seconds': [4.172783270012587, 3.2937228900846094, 3.5449284920468926, 4.293216946069151], 'decisions': 8193, 'microbatches': 90, 'rate': 2311.189074301819, 'peak': 654311424}
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+256 {'seconds': [2.368932686978951, 2.402417394798249, 2.4271913392003626, 2.454282807884738], 'decisions': 8193, 'microbatches': 45, 'rate': 3375.50644140778, 'peak': 933232640}
+512 {'seconds': [2.1030010040849447, 2.0363459901418537, 1.973592306021601, 2.074138639960438], 'decisions': 8193, 'microbatches': 23, 'rate': 4023.3830791344394, 'peak': 1509949440}
+768 {'seconds': [2.0062383031472564, 1.8944507029373199, 1.9277990588452667, 2.0357215038966388], 'decisions': 8193, 'microbatches': 16, 'rate': 4249.924265917803, 'peak': 2055208960}
+1024 {'seconds': [1.9894795650616288, 1.9767760781105608, 1.801261026179418, 1.8273384850472212], 'decisions': 8193, 'microbatches': 13, 'rate': 4483.569993759684, 'peak': 2608857088}

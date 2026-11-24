@@ -1,0 +1,502 @@
+{
+  "battle_id": "9805c981-4189-40ab-a6f6-e59daa7ae963",
+  "recorded_seed": 1698656935,
+  "engine_seed": 1698656935,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Rat",
+          "attack": 19,
+          "health": 21,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 16,
+          "health": 24,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 12,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Scorpion",
+          "attack": 1,
+          "health": 3,
+          "perk": "status-poison-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 20,
+          "perk": "status-melon-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 4,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Peacock",
+          "attack": 11,
+          "health": 17,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Rat",
+          "attack": 19,
+          "health": 21,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 16,
+          "health": 24,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 12,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 4,
+          "health": 3,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 6,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 4,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Peacock",
+          "attack": 11,
+          "health": 17,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Rat",
+          "attack": 19,
+          "health": 15,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 16,
+          "health": 24,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 9,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Peacock",
+          "attack": 11,
+          "health": 17,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Skunk",
+          "attack": 16,
+          "health": 18,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dirty Rat",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dirty Rat",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 4,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 1,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Peacock",
+          "attack": 11,
+          "health": 11,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Skunk",
+          "attack": 16,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dirty Rat",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 4,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Peacock",
+          "attack": 11,
+          "health": 11,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Skunk",
+          "attack": 16,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 4,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Peacock",
+          "attack": 11,
+          "health": 11,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Skunk",
+          "attack": 16,
+          "health": 12,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Peacock",
+          "attack": 11,
+          "health": 11,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [
+        {
+          "pet": "Skunk",
+          "attack": 16,
+          "health": 6,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Peacock",
+          "attack": 11,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-07",
+      "player": [
+        {
+          "pet": "Giraffe",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Giraffe",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

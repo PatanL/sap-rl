@@ -1,0 +1,186 @@
+{
+ "x1-dead-leopard": [
+  {
+   "count": 10,
+   "steps": [
+    "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/47]",
+    "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/47]",
+    "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/47]",
+    "after-attack-03: P[Fish 3/37] O[Fish 1/21, Dolphin 20/47]",
+    "after-attack-04: P[Fish 3/36] O[Fish 1/18, Dolphin 20/47]",
+    "after-attack-05: P[Fish 3/35] O[Fish 1/15, Dolphin 20/47]",
+    "after-attack-06: P[Fish 3/34] O[Fish 1/12, Dolphin 20/47]",
+    "after-attack-07: P[Fish 3/33] O[Fish 1/9, Dolphin 20/47]",
+    "after-attack-08: P[Fish 3/32] O[Fish 1/6, Dolphin 20/47]",
+    "after-attack-09: P[Fish 3/31] O[Fish 1/3, Dolphin 20/47]",
+    "after-attack-10: P[Fish 3/30] O[Dolphin 20/47]",
+    "after-attack-11: P[Fish 3/10] O[Dolphin 20/44]",
+    "after-attack-12: P[empty] O[Dolphin 20/41]",
+    "final: P[empty] O[Dolphin 20/41]"
+   ]
+  },
+  {
+   "count": 6,
+   "steps": [
+    "start: P[Fish 3/40] O[Fish 1/27, Dolphin 20/50]",
+    "after-attack-01: P[Fish 3/39] O[Fish 1/24, Dolphin 20/50]",
+    "after-attack-02: P[Fish 3/38] O[Fish 1/21, Dolphin 20/50]",
+    "after-attack-03: P[Fish 3/37] O[Fish 1/18, Dolphin 20/50]",
+    "after-attack-04: P[Fish 3/36] O[Fish 1/15, Dolphin 20/50]",
+    "after-attack-05: P[Fish 3/35] O[Fish 1/12, Dolphin 20/50]",
+    "after-attack-06: P[Fish 3/34] O[Fish 1/9, Dolphin 20/50]",
+    "after-attack-07: P[Fish 3/33] O[Fish 1/6, Dolphin 20/50]",
+    "after-attack-08: P[Fish 3/32] O[Fish 1/3, Dolphin 20/50]",
+    "after-attack-09: P[Fish 3/31] O[Dolphin 20/50]",
+    "after-attack-10: P[Fish 3/11] O[Dolphin 20/47]",
+    "after-attack-11: P[empty] O[Dolphin 20/44]",
+    "final: P[empty] O[Dolphin 20/44]"
+   ]
+  }
+ ],
+ "x2-dead-dolphin": [
+  {
+   "count": 16,
+   "steps": [
+    "start: P[Fish 3/40] O[Fish 1/26, Dolphin 20/50]",
+    "after-attack-01: P[Fish 3/39] O[Fish 1/23, Dolphin 20/50]",
+    "after-attack-02: P[Fish 3/38] O[Fish 1/20, Dolphin 20/50]",
+    "after-attack-03: P[Fish 3/37] O[Fish 1/17, Dolphin 20/50]",
+    "after-attack-04: P[Fish 3/36] O[Fish 1/14, Dolphin 20/50]",
+    "after-attack-05: P[Fish 3/35] O[Fish 1/11, Dolphin 20/50]",
+    "after-attack-06: P[Fish 3/34] O[Fish 1/8, Dolphin 20/50]",
+    "after-attack-07: P[Fish 3/33] O[Fish 1/5, Dolphin 20/50]",
+    "after-attack-08: P[Fish 3/32] O[Fish 1/2, Dolphin 20/50]",
+    "after-attack-09: P[Fish 3/31] O[Dolphin 20/50]",
+    "after-attack-10: P[Fish 3/11] O[Dolphin 20/47]",
+    "after-attack-11: P[empty] O[Dolphin 20/44]",
+    "final: P[empty] O[Dolphin 20/44]"
+   ]
+  }
+ ],
+ "x3-dead-crocodile": [
+  {
+   "count": 16,
+   "steps": [
+    "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/42]",
+    "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/42]",
+    "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/42]",
+    "after-attack-03: P[Fish 3/37] O[Fish 1/21, Dolphin 20/42]",
+    "after-attack-04: P[Fish 3/36] O[Fish 1/18, Dolphin 20/42]",
+    "after-attack-05: P[Fish 3/35] O[Fish 1/15, Dolphin 20/42]",
+    "after-attack-06: P[Fish 3/34] O[Fish 1/12, Dolphin 20/42]",
+    "after-attack-07: P[Fish 3/33] O[Fish 1/9, Dolphin 20/42]",
+    "after-attack-08: P[Fish 3/32] O[Fish 1/6, Dolphin 20/42]",
+    "after-attack-09: P[Fish 3/31] O[Fish 1/3, Dolphin 20/42]",
+    "after-attack-10: P[Fish 3/30] O[Dolphin 20/42]",
+    "after-attack-11: P[Fish 3/10] O[Dolphin 20/39]",
+    "after-attack-12: P[empty] O[Dolphin 20/36]",
+    "final: P[empty] O[Dolphin 20/36]"
+   ]
+  }
+ ],
+ "x4-dead-mosquito": [
+  {
+   "count": 10,
+   "steps": [
+    "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/49]",
+    "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/49]",
+    "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/49]",
+    "after-attack-03: P[Fish 3/37] O[Fish 1/21, Dolphin 20/49]",
+    "after-attack-04: P[Fish 3/36] O[Fish 1/18, Dolphin 20/49]",
+    "after-attack-05: P[Fish 3/35] O[Fish 1/15, Dolphin 20/49]",
+    "after-attack-06: P[Fish 3/34] O[Fish 1/12, Dolphin 20/49]",
+    "after-attack-07: P[Fish 3/33] O[Fish 1/9, Dolphin 20/49]",
+    "after-attack-08: P[Fish 3/32] O[Fish 1/6, Dolphin 20/49]",
+    "after-attack-09: P[Fish 3/31] O[Fish 1/3, Dolphin 20/49]",
+    "after-attack-10: P[Fish 3/30] O[Dolphin 20/49]",
+    "after-attack-11: P[Fish 3/10] O[Dolphin 20/46]",
+    "after-attack-12: P[empty] O[Dolphin 20/43]",
+    "final: P[empty] O[Dolphin 20/43]"
+   ]
+  },
+  {
+   "count": 6,
+   "steps": [
+    "start: P[Fish 3/40] O[Fish 1/29, Dolphin 20/50]",
+    "after-attack-01: P[Fish 3/39] O[Fish 1/26, Dolphin 20/50]",
+    "after-attack-02: P[Fish 3/38] O[Fish 1/23, Dolphin 20/50]",
+    "after-attack-03: P[Fish 3/37] O[Fish 1/20, Dolphin 20/50]",
+    "after-attack-04: P[Fish 3/36] O[Fish 1/17, Dolphin 20/50]",
+    "after-attack-05: P[Fish 3/35] O[Fish 1/14, Dolphin 20/50]",
+    "after-attack-06: P[Fish 3/34] O[Fish 1/11, Dolphin 20/50]",
+    "after-attack-07: P[Fish 3/33] O[Fish 1/8, Dolphin 20/50]",
+    "after-attack-08: P[Fish 3/32] O[Fish 1/5, Dolphin 20/50]",
+    "after-attack-09: P[Fish 3/31] O[Fish 1/2, Dolphin 20/50]",
+    "after-attack-10: P[Fish 3/30] O[Dolphin 20/50]",
+    "after-attack-11: P[Fish 3/10] O[Dolphin 20/47]",
+    "after-attack-12: P[empty] O[Dolphin 20/44]",
+    "final: P[empty] O[Dolphin 20/44]"
+   ]
+  }
+ ],
+ "x5-dead-skunk": [
+  {
+   "count": 16,
+   "steps": [
+    "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/33]",
+    "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/33]",
+    "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/33]",
+    "after-attack-03: P[Fish 3/37] O[Fish 1/21, Dolphin 20/33]",
+    "after-attack-04: P[Fish 3/36] O[Fish 1/18, Dolphin 20/33]",
+    "after-attack-05: P[Fish 3/35] O[Fish 1/15, Dolphin 20/33]",
+    "after-attack-06: P[Fish 3/34] O[Fish 1/12, Dolphin 20/33]",
+    "after-attack-07: P[Fish 3/33] O[Fish 1/9, Dolphin 20/33]",
+    "after-attack-08: P[Fish 3/32] O[Fish 1/6, Dolphin 20/33]",
+    "after-attack-09: P[Fish 3/31] O[Fish 1/3, Dolphin 20/33]",
+    "after-attack-10: P[Fish 3/30] O[Dolphin 20/33]",
+    "after-attack-11: P[Fish 3/10] O[Dolphin 20/30]",
+    "after-attack-12: P[empty] O[Dolphin 20/27]",
+    "final: P[empty] O[Dolphin 20/27]"
+   ]
+  }
+ ],
+ "x6-dead-whale": [
+  {
+   "count": 16,
+   "steps": [
+    "start: P[Zombie Cricket 1/1, Cricket 3/40] O[Fish 1/30, Dolphin 20/50]",
+    "after-attack-01: P[Cricket 3/40] O[Fish 1/29, Dolphin 20/50]",
+    "after-attack-02: P[Cricket 3/39] O[Fish 1/26, Dolphin 20/50]",
+    "after-attack-03: P[Cricket 3/38] O[Fish 1/23, Dolphin 20/50]",
+    "after-attack-04: P[Cricket 3/37] O[Fish 1/20, Dolphin 20/50]",
+    "after-attack-05: P[Cricket 3/36] O[Fish 1/17, Dolphin 20/50]",
+    "after-attack-06: P[Cricket 3/35] O[Fish 1/14, Dolphin 20/50]",
+    "after-attack-07: P[Cricket 3/34] O[Fish 1/11, Dolphin 20/50]",
+    "after-attack-08: P[Cricket 3/33] O[Fish 1/8, Dolphin 20/50]",
+    "after-attack-09: P[Cricket 3/32] O[Fish 1/5, Dolphin 20/50]",
+    "after-attack-10: P[Cricket 3/31] O[Fish 1/2, Dolphin 20/50]",
+    "after-attack-11: P[Cricket 3/30] O[Dolphin 20/50]",
+    "after-attack-12: P[Cricket 3/10] O[Dolphin 20/47]",
+    "after-attack-13: P[Zombie Cricket 1/1] O[Dolphin 20/44]",
+    "after-attack-14: P[empty] O[Dolphin 20/43]",
+    "final: P[empty] O[Dolphin 20/43]"
+   ]
+  }
+ ],
+ "x7-dead-dolphin-killed-by-croc": [
+  {
+   "count": 16,
+   "steps": [
+    "start: P[Fish 3/40] O[Fish 1/26, Crocodile 20/50]",
+    "after-attack-01: P[Fish 3/39] O[Fish 1/23, Crocodile 20/50]",
+    "after-attack-02: P[Fish 3/38] O[Fish 1/20, Crocodile 20/50]",
+    "after-attack-03: P[Fish 3/37] O[Fish 1/17, Crocodile 20/50]",
+    "after-attack-04: P[Fish 3/36] O[Fish 1/14, Crocodile 20/50]",
+    "after-attack-05: P[Fish 3/35] O[Fish 1/11, Crocodile 20/50]",
+    "after-attack-06: P[Fish 3/34] O[Fish 1/8, Crocodile 20/50]",
+    "after-attack-07: P[Fish 3/33] O[Fish 1/5, Crocodile 20/50]",
+    "after-attack-08: P[Fish 3/32] O[Fish 1/2, Crocodile 20/50]",
+    "after-attack-09: P[Fish 3/31] O[Crocodile 20/50]",
+    "after-attack-10: P[Fish 3/11] O[Crocodile 20/47]",
+    "after-attack-11: P[empty] O[Crocodile 20/44]",
+    "final: P[empty] O[Crocodile 20/44]"
+   ]
+  }
+ ]
+}

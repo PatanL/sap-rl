@@ -1,0 +1,70 @@
+{
+ "k3-fly-failed-attempt-uses": [
+  {
+   "count": 24,
+   "steps": [
+    "start: P[Deer 6/1, Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/50]",
+    "after-attack-01: P[Bus 5/3, Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/44]",
+    "after-attack-02: P[Bus 5/2, Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/39]",
+    "after-attack-03: P[Bus 5/1, Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/34]",
+    "after-attack-04: P[Zombie Fly 4/4, Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/29]",
+    "after-attack-05: P[Zombie Fly 4/3, Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/25]",
+    "after-attack-06: P[Zombie Fly 4/2, Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/21]",
+    "after-attack-07: P[Zombie Fly 4/1, Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/17]",
+    "after-attack-08: P[Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/13]",
+    "after-attack-09: P[Fish 1/39, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/12]",
+    "after-attack-10: P[Fish 1/38, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/11]",
+    "after-attack-11: P[Fish 1/37, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/10]",
+    "after-attack-12: P[Fish 1/36, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/9]",
+    "after-attack-13: P[Fish 1/35, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/8]",
+    "after-attack-14: P[Fish 1/34, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/7]",
+    "after-attack-15: P[Fish 1/33, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/6]",
+    "after-attack-16: P[Fish 1/32, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/5]",
+    "after-attack-17: P[Fish 1/31, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/4]",
+    "after-attack-18: P[Fish 1/30, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/3]",
+    "after-attack-19: P[Fish 1/29, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/2]",
+    "after-attack-20: P[Fish 1/28, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/1]",
+    "after-attack-21: P[Fish 1/27, Fish 1/41, Fish 1/42, Fly 2/40] O[empty]",
+    "final: P[Fish 1/27, Fish 1/41, Fish 1/42, Fly 2/40] O[empty]"
+   ]
+  }
+ ],
+ "k4-fly-zombie-death": [
+  {
+   "count": 24,
+   "steps": [
+    "start: P[Pig 6/1, Fish 1/40, Fly 2/40] O[Fish 2/50]",
+    "after-attack-01: P[Zombie Fly 4/4, Fish 1/40, Fly 2/40] O[Fish 2/44]",
+    "after-attack-02: P[Zombie Fly 4/2, Fish 1/40, Fly 2/40] O[Fish 2/40]",
+    "after-attack-03: P[Fish 1/40, Fly 2/40] O[Fish 2/36]",
+    "after-attack-04: P[Fish 1/38, Fly 2/40] O[Fish 2/35]",
+    "after-attack-05: P[Fish 1/36, Fly 2/40] O[Fish 2/34]",
+    "after-attack-06: P[Fish 1/34, Fly 2/40] O[Fish 2/33]",
+    "after-attack-07: P[Fish 1/32, Fly 2/40] O[Fish 2/32]",
+    "after-attack-08: P[Fish 1/30, Fly 2/40] O[Fish 2/31]",
+    "after-attack-09: P[Fish 1/28, Fly 2/40] O[Fish 2/30]",
+    "after-attack-10: P[Fish 1/26, Fly 2/40] O[Fish 2/29]",
+    "after-attack-11: P[Fish 1/24, Fly 2/40] O[Fish 2/28]",
+    "after-attack-12: P[Fish 1/22, Fly 2/40] O[Fish 2/27]",
+    "after-attack-13: P[Fish 1/20, Fly 2/40] O[Fish 2/26]",
+    "after-attack-14: P[Fish 1/18, Fly 2/40] O[Fish 2/25]",
+    "after-attack-15: P[Fish 1/16, Fly 2/40] O[Fish 2/24]",
+    "after-attack-16: P[Fish 1/14, Fly 2/40] O[Fish 2/23]",
+    "after-attack-17: P[Fish 1/12, Fly 2/40] O[Fish 2/22]",
+    "after-attack-18: P[Fish 1/10, Fly 2/40] O[Fish 2/21]",
+    "after-attack-19: P[Fish 1/8, Fly 2/40] O[Fish 2/20]",
+    "after-attack-20: P[Fish 1/6, Fly 2/40] O[Fish 2/19]",
+    "after-attack-21: P[Fish 1/4, Fly 2/40] O[Fish 2/18]",
+    "after-attack-22: P[Fish 1/2, Fly 2/40] O[Fish 2/17]",
+    "after-attack-23: P[Zombie Fly 4/4, Fly 2/40] O[Fish 2/16]",
+    "after-attack-24: P[Zombie Fly 4/2, Fly 2/40] O[Fish 2/12]",
+    "after-attack-25: P[Fly 2/40] O[Fish 2/8]",
+    "after-attack-26: P[Fly 2/38] O[Fish 2/6]",
+    "after-attack-27: P[Fly 2/36] O[Fish 2/4]",
+    "after-attack-28: P[Fly 2/34] O[Fish 2/2]",
+    "after-attack-29: P[Fly 2/32] O[empty]",
+    "final: P[Fly 2/32] O[empty]"
+   ]
+  }
+ ]
+}

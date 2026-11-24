@@ -1,0 +1,1791 @@
+{
+ "checkpoint": {
+  "sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+  "update": 25772,
+  "source_revision": "turtle-v30-food-right-reorder10-v1-20260911",
+  "joint_freeze": true
+ },
+ "matches": 128,
+ "seat0Wins": 15,
+ "draws": 0,
+ "score": 0.1171875,
+ "se": 0.02842954419533132,
+ "meanLastTurn": 11.3828125,
+ "perTurn": {
+  "1": {
+   "battles": 128,
+   "score": 0.55078125
+  },
+  "2": {
+   "battles": 128,
+   "score": 0.68359375
+  },
+  "3": {
+   "battles": 128,
+   "score": 0.4140625
+  },
+  "4": {
+   "battles": 128,
+   "score": 0.453125
+  },
+  "5": {
+   "battles": 128,
+   "score": 0.515625
+  },
+  "6": {
+   "battles": 128,
+   "score": 0.484375
+  },
+  "7": {
+   "battles": 128,
+   "score": 0.34375
+  },
+  "8": {
+   "battles": 127,
+   "score": 0.3188976377952756
+  },
+  "9": {
+   "battles": 124,
+   "score": 0.2540322580645161
+  },
+  "10": {
+   "battles": 109,
+   "score": 0.23853211009174313
+  },
+  "11": {
+   "battles": 87,
+   "score": 0.28735632183908044
+  },
+  "12": {
+   "battles": 58,
+   "score": 0.1810344827586207
+  },
+  "13": {
+   "battles": 36,
+   "score": 0.18055555555555555
+  },
+  "14": {
+   "battles": 13,
+   "score": 0.38461538461538464
+  },
+  "15": {
+   "battles": 6,
+   "score": 0.16666666666666666
+  },
+  "16": {
+   "battles": 1,
+   "score": 0.0
+  }
+ },
+ "args": {
+  "checkpoint": "/sap/checkpoints/update-025772.pt",
+  "out": "/out/results/audit-m4r3.json",
+  "matches": "128",
+  "roots": "128",
+  "cands": "4",
+  "rollouts": "3",
+  "boards": "16",
+  "samples": "2",
+  "threads": "5",
+  "seed": "20261123",
+  "sampled": "False",
+  "versus": "None",
+  "audit": "True"
+ },
+ "seconds": 949.7163107730448,
+ "counts": {
+  "network_rows": 2086979,
+  "searched_decisions": 12534,
+  "unanimous_decisions": 3382,
+  "copies": 300816,
+  "eval_fights": 9626112,
+  "audit_decisions": 12534,
+  "audit_changed": 7631,
+  "audit_same_pick": 4721,
+  "audit_claimed_sum": 575.776041666667,
+  "audit_true_sum": 30.114583333333336,
+  "audit_n_0.02": 6486,
+  "audit_true_0.02": 29.33854166666665,
+  "audit_worse_0.02": 2944,
+  "audit_n_0.05": 4227,
+  "audit_true_0.05": 34.41145833333334,
+  "audit_worse_0.05": 1894,
+  "audit_n_0.1": 1954,
+  "audit_true_0.1": 31.73958333333333,
+  "audit_worse_0.1": 846,
+  "audit_n_0.15": 948,
+  "audit_true_0.15": 24.046875000000004,
+  "audit_worse_0.15": 389,
+  "changed_decisions": 7631,
+  "gain_sum": 575.7760340356666,
+  "root_decisions": 15916
+ },
+ "root_decisions_per_s": 16.758688694147818,
+ "network_rows_per_s": 2197.476210871068,
+ "results": [
+  {
+   "seed": 1823729171,
+   "winner": 1,
+   "lastTurn": 9,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    2,
+    7
+   ]
+  },
+  {
+   "seed": 1823459925,
+   "winner": 1,
+   "lastTurn": 9,
+   "lives": [
+    0,
+    6
+   ],
+   "wins": [
+    1,
+    7
+   ]
+  },
+  {
+   "seed": 1823721252,
+   "winner": 1,
+   "lastTurn": 8,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    2,
+    6
+   ]
+  },
+  {
+   "seed": 1823950903,
+   "winner": 1,
+   "lastTurn": 7,
+   "lives": [
+    0,
+    6
+   ],
+   "wins": [
+    0,
+    7
+   ]
+  },
+  {
+   "seed": 1823048137,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    2,
+    7
+   ]
+  },
+  {
+   "seed": 1823752928,
+   "winner": 1,
+   "lastTurn": 9,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    2,
+    6
+   ]
+  },
+  {
+   "seed": 1823095651,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    2,
+    6
+   ]
+  },
+  {
+   "seed": 1823143165,
+   "winner": 1,
+   "lastTurn": 8,
+   "lives": [
+    0,
+    6
+   ],
+   "wins": [
+    0,
+    6
+   ]
+  },
+  {
+   "seed": 1823602467,
+   "winner": 1,
+   "lastTurn": 9,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    2,
+    6
+   ]
+  },
+  {
+   "seed": 1823824199,
+   "winner": 1,
+   "lastTurn": 9,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    2,
+    6
+   ]
+  },
+  {
+   "seed": 1823919227,
+   "winner": 1,
+   "lastTurn": 9,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    2,
+    7
+   ]
+  },
+  {
+   "seed": 1823127327,
+   "winner": 1,
+   "lastTurn": 9,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823483682,
+   "winner": 1,
+   "lastTurn": 9,
+   "lives": [
+    0,
+    6
+   ],
+   "wins": [
+    1,
+    6
+   ]
+  },
+  {
+   "seed": 1823063975,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    4,
+    7
+   ]
+  },
+  {
+   "seed": 1823206517,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    7
+   ]
+  },
+  {
+   "seed": 1823396573,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    2,
+    6
+   ]
+  },
+  {
+   "seed": 1823745009,
+   "winner": 1,
+   "lastTurn": 9,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823293626,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    4,
+    6
+   ]
+  },
+  {
+   "seed": 1824030093,
+   "winner": 0,
+   "lastTurn": 8,
+   "lives": [
+    6,
+    0
+   ],
+   "wins": [
+    7,
+    0
+   ]
+  },
+  {
+   "seed": 1823238193,
+   "winner": 1,
+   "lastTurn": 9,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    2,
+    6
+   ]
+  },
+  {
+   "seed": 1823261950,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    7
+   ]
+  },
+  {
+   "seed": 1823594548,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    2,
+    6
+   ]
+  },
+  {
+   "seed": 1823689576,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    2,
+    7
+   ]
+  },
+  {
+   "seed": 1823547034,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    2,
+    7
+   ]
+  },
+  {
+   "seed": 1823634143,
+   "winner": 1,
+   "lastTurn": 9,
+   "lives": [
+    0,
+    6
+   ],
+   "wins": [
+    0,
+    7
+   ]
+  },
+  {
+   "seed": 1823681657,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823056056,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    2,
+    7
+   ]
+  },
+  {
+   "seed": 1823151084,
+   "winner": 1,
+   "lastTurn": 9,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    1,
+    7
+   ]
+  },
+  {
+   "seed": 1823657900,
+   "winner": 0,
+   "lastTurn": 11,
+   "lives": [
+    3,
+    0
+   ],
+   "wins": [
+    7,
+    4
+   ]
+  },
+  {
+   "seed": 1823198598,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    7
+   ]
+  },
+  {
+   "seed": 1823531196,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823768766,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    4,
+    6
+   ]
+  },
+  {
+   "seed": 1823491601,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    2,
+    7
+   ]
+  },
+  {
+   "seed": 1823942984,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    1,
+    7
+   ]
+  },
+  {
+   "seed": 1823309464,
+   "winner": 0,
+   "lastTurn": 10,
+   "lives": [
+    4,
+    0
+   ],
+   "wins": [
+    7,
+    3
+   ]
+  },
+  {
+   "seed": 1823935065,
+   "winner": 0,
+   "lastTurn": 9,
+   "lives": [
+    4,
+    0
+   ],
+   "wins": [
+    7,
+    2
+   ]
+  },
+  {
+   "seed": 1823475763,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    4,
+    6
+   ]
+  },
+  {
+   "seed": 1824053850,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    6
+   ]
+  },
+  {
+   "seed": 1823341140,
+   "winner": 1,
+   "lastTurn": 9,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    1,
+    7
+   ]
+  },
+  {
+   "seed": 1823626224,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823230274,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    6
+   ]
+  },
+  {
+   "seed": 1823507439,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    6
+   ]
+  },
+  {
+   "seed": 1824045931,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    2,
+    6
+   ]
+  },
+  {
+   "seed": 1823760847,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    6
+   ]
+  },
+  {
+   "seed": 1823840037,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    4,
+    6
+   ]
+  },
+  {
+   "seed": 1823903389,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823982579,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    3,
+    7
+   ]
+  },
+  {
+   "seed": 1823135246,
+   "winner": 0,
+   "lastTurn": 10,
+   "lives": [
+    3,
+    0
+   ],
+   "wins": [
+    7,
+    3
+   ]
+  },
+  {
+   "seed": 1823776685,
+   "winner": 0,
+   "lastTurn": 11,
+   "lives": [
+    3,
+    0
+   ],
+   "wins": [
+    7,
+    3
+   ]
+  },
+  {
+   "seed": 1824022174,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    3,
+    7
+   ]
+  },
+  {
+   "seed": 1823871713,
+   "winner": 0,
+   "lastTurn": 11,
+   "lives": [
+    3,
+    0
+   ],
+   "wins": [
+    7,
+    3
+   ]
+  },
+  {
+   "seed": 1823254031,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    2,
+    7
+   ]
+  },
+  {
+   "seed": 1823388654,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    4,
+    6
+   ]
+  },
+  {
+   "seed": 1823570791,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    4,
+    6
+   ]
+  },
+  {
+   "seed": 1823649981,
+   "winner": 1,
+   "lastTurn": 9,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    1,
+    7
+   ]
+  },
+  {
+   "seed": 1823966741,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    2,
+    7
+   ]
+  },
+  {
+   "seed": 1823364897,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    7
+   ]
+  },
+  {
+   "seed": 1823444087,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    4,
+    7
+   ]
+  },
+  {
+   "seed": 1823610386,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1824038012,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    7
+   ]
+  },
+  {
+   "seed": 1824006336,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    6,
+    6
+   ]
+  },
+  {
+   "seed": 1823079813,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    4,
+    6
+   ]
+  },
+  {
+   "seed": 1823349059,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823990498,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    6,
+    7
+   ]
+  },
+  {
+   "seed": 1823246112,
+   "winner": 1,
+   "lastTurn": 10,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823578710,
+   "winner": 0,
+   "lastTurn": 13,
+   "lives": [
+    1,
+    0
+   ],
+   "wins": [
+    7,
+    5
+   ]
+  },
+  {
+   "seed": 1823800442,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    3,
+    7
+   ]
+  },
+  {
+   "seed": 1823895470,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823562872,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823808361,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    3,
+    7
+   ]
+  },
+  {
+   "seed": 1823174841,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    4,
+    7
+   ]
+  },
+  {
+   "seed": 1823301545,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823119408,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    4,
+    7
+   ]
+  },
+  {
+   "seed": 1823554953,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    4,
+    6
+   ]
+  },
+  {
+   "seed": 1824014255,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    3,
+    7
+   ]
+  },
+  {
+   "seed": 1823404492,
+   "winner": 0,
+   "lastTurn": 10,
+   "lives": [
+    3,
+    0
+   ],
+   "wins": [
+    7,
+    3
+   ]
+  },
+  {
+   "seed": 1823467844,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    4,
+    7
+   ]
+  },
+  {
+   "seed": 1823998417,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    2,
+    7
+   ]
+  },
+  {
+   "seed": 1823380735,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    4,
+    6
+   ]
+  },
+  {
+   "seed": 1823539115,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823159003,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    6,
+    6
+   ]
+  },
+  {
+   "seed": 1823222355,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    4,
+    7
+   ]
+  },
+  {
+   "seed": 1823071894,
+   "winner": 0,
+   "lastTurn": 11,
+   "lives": [
+    2,
+    0
+   ],
+   "wins": [
+    7,
+    4
+   ]
+  },
+  {
+   "seed": 1823911308,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    5,
+    7
+   ]
+  },
+  {
+   "seed": 1823325302,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    6
+   ]
+  },
+  {
+   "seed": 1823642062,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    7
+   ]
+  },
+  {
+   "seed": 1823958822,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    6,
+    6
+   ]
+  },
+  {
+   "seed": 1823190679,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823269869,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    5
+   ],
+   "wins": [
+    1,
+    7
+   ]
+  },
+  {
+   "seed": 1823372816,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    7
+   ]
+  },
+  {
+   "seed": 1823428249,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    4,
+    7
+   ]
+  },
+  {
+   "seed": 1823103570,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823792523,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    4,
+    6
+   ]
+  },
+  {
+   "seed": 1823436168,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    5,
+    6
+   ]
+  },
+  {
+   "seed": 1823887551,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    4,
+    6
+   ]
+  },
+  {
+   "seed": 1823412411,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823317383,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    6
+   ]
+  },
+  {
+   "seed": 1823356978,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    4,
+    6
+   ]
+  },
+  {
+   "seed": 1823182760,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    6,
+    6
+   ]
+  },
+  {
+   "seed": 1823855875,
+   "winner": 0,
+   "lastTurn": 10,
+   "lives": [
+    3,
+    0
+   ],
+   "wins": [
+    7,
+    3
+   ]
+  },
+  {
+   "seed": 1823499520,
+   "winner": 0,
+   "lastTurn": 13,
+   "lives": [
+    1,
+    0
+   ],
+   "wins": [
+    6,
+    6
+   ]
+  },
+  {
+   "seed": 1823879632,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    6
+   ]
+  },
+  {
+   "seed": 1823214436,
+   "winner": 1,
+   "lastTurn": 14,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    4,
+    7
+   ]
+  },
+  {
+   "seed": 1823087732,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    6
+   ]
+  },
+  {
+   "seed": 1823673738,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    4,
+    7
+   ]
+  },
+  {
+   "seed": 1823697495,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    6,
+    7
+   ]
+  },
+  {
+   "seed": 1823863794,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    4,
+    6
+   ]
+  },
+  {
+   "seed": 1823523277,
+   "winner": 1,
+   "lastTurn": 14,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    6
+   ]
+  },
+  {
+   "seed": 1823847956,
+   "winner": 0,
+   "lastTurn": 13,
+   "lives": [
+    2,
+    0
+   ],
+   "wins": [
+    7,
+    4
+   ]
+  },
+  {
+   "seed": 1823111489,
+   "winner": 1,
+   "lastTurn": 11,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    3,
+    6
+   ]
+  },
+  {
+   "seed": 1823420330,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    6,
+    6
+   ]
+  },
+  {
+   "seed": 1823515358,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    6,
+    7
+   ]
+  },
+  {
+   "seed": 1823832118,
+   "winner": 1,
+   "lastTurn": 16,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    6,
+    7
+   ]
+  },
+  {
+   "seed": 1823452006,
+   "winner": 1,
+   "lastTurn": 14,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    6,
+    6
+   ]
+  },
+  {
+   "seed": 1823927146,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    7
+   ]
+  },
+  {
+   "seed": 1823713333,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    6
+   ]
+  },
+  {
+   "seed": 1823333221,
+   "winner": 1,
+   "lastTurn": 13,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    7
+   ]
+  },
+  {
+   "seed": 1823974660,
+   "winner": 1,
+   "lastTurn": 14,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    6
+   ]
+  },
+  {
+   "seed": 1823166922,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    7
+   ]
+  },
+  {
+   "seed": 1823737090,
+   "winner": 0,
+   "lastTurn": 15,
+   "lives": [
+    1,
+    0
+   ],
+   "wins": [
+    7,
+    5
+   ]
+  },
+  {
+   "seed": 1823705414,
+   "winner": 1,
+   "lastTurn": 14,
+   "lives": [
+    0,
+    3
+   ],
+   "wins": [
+    4,
+    7
+   ]
+  },
+  {
+   "seed": 1823586629,
+   "winner": 1,
+   "lastTurn": 15,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    5,
+    7
+   ]
+  },
+  {
+   "seed": 1823784604,
+   "winner": 1,
+   "lastTurn": 15,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    6,
+    6
+   ]
+  },
+  {
+   "seed": 1823816280,
+   "winner": 1,
+   "lastTurn": 15,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    5,
+    7
+   ]
+  },
+  {
+   "seed": 1823618305,
+   "winner": 1,
+   "lastTurn": 12,
+   "lives": [
+    0,
+    4
+   ],
+   "wins": [
+    3,
+    7
+   ]
+  },
+  {
+   "seed": 1823277788,
+   "winner": 0,
+   "lastTurn": 14,
+   "lives": [
+    1,
+    0
+   ],
+   "wins": [
+    7,
+    6
+   ]
+  },
+  {
+   "seed": 1823285707,
+   "winner": 1,
+   "lastTurn": 14,
+   "lives": [
+    0,
+    2
+   ],
+   "wins": [
+    5,
+    6
+   ]
+  },
+  {
+   "seed": 1823665819,
+   "winner": 1,
+   "lastTurn": 15,
+   "lives": [
+    0,
+    1
+   ],
+   "wins": [
+    5,
+    7
+   ]
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{
+  "startup_excluded": 1,
+  "probe_intersecting_updates": 5,
+  "probe_intersecting_seconds": 15.353291512001306,
+  "retained_updates": 94,
+  "clean_learned_s": 2715.706805304131
+}

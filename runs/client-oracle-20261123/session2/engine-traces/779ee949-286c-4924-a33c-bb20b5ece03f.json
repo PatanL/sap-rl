@@ -1,0 +1,404 @@
+{
+  "battle_id": "779ee949-286c-4924-a33c-bb20b5ece03f",
+  "recorded_seed": -941686041,
+  "engine_seed": 3353281255,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Rabbit",
+          "attack": 25,
+          "health": 39,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Worm",
+          "attack": 11,
+          "health": 10,
+          "perk": "status-cake",
+          "slot": 1
+        },
+        {
+          "pet": "Shark",
+          "attack": 6,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Cat",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Whale",
+          "attack": 3,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 16,
+          "health": 22,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 5,
+          "health": 15,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Rabbit",
+          "attack": 25,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Worm",
+          "attack": 11,
+          "health": 10,
+          "perk": "status-cake",
+          "slot": 1
+        },
+        {
+          "pet": "Shark",
+          "attack": 10,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Whale",
+          "attack": 3,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 16,
+          "health": 22,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 5,
+          "health": 15,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Worm",
+          "attack": 11,
+          "health": 1,
+          "perk": "status-cake",
+          "slot": 0
+        },
+        {
+          "pet": "Shark",
+          "attack": 14,
+          "health": 25,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Whale",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 5,
+          "health": 13,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Shark",
+          "attack": 18,
+          "health": 23,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Whale",
+          "attack": 3,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 5,
+          "health": 2,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Shark",
+          "attack": 22,
+          "health": 19,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Shark",
+          "attack": 22,
+          "health": 13,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Shark",
+          "attack": 22,
+          "health": 10,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [
+        {
+          "pet": "Shark",
+          "attack": 22,
+          "health": 7,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Shark",
+          "attack": 22,
+          "health": 7,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

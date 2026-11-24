@@ -1,0 +1,24 @@
+{
+  "reference": "priority",
+  "workers": 8,
+  "games": 48,
+  "target": 8192,
+  "backend": "rust",
+  "fast_actor": false,
+  "qualifier": 512,
+  "geometry": "short",
+  "args": [
+    "--concurrent",
+    "--cap",
+    512,
+    "--workers",
+    8,
+    "--games",
+    48,
+    "--target",
+    8192,
+    "--battle-backend",
+    "rust",
+    "--priority-inference"
+  ]
+}

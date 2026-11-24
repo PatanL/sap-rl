@@ -1,0 +1,282 @@
+{
+ "a1-fly4dead": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Fly 4/20] O[Hedgehog 1/1]",
+    "after-attack-01: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+    "final: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+   ]
+  }
+ ],
+ "a2-fly4tie": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Pig 5/3, Duck 5/2, Fish 5/2, Beaver 5/2, Fly 4/20] O[Hedgehog 1/1]",
+    "after-attack-01: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+    "final: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+   ]
+  }
+ ],
+ "a3-twofly": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Pig 5/3, Duck 7/2, Fish 3/2, Fly 8/20, Fly 4/21] O[Hedgehog 1/1]",
+    "after-attack-01: P[Zombie Fly 8/8, Zombie Fly 8/8, Zombie Fly 4/4, Fly 8/18, Fly 4/19] O[empty]",
+    "final: P[Zombie Fly 8/8, Zombie Fly 8/8, Zombie Fly 4/4, Fly 8/18, Fly 4/19] O[empty]"
+   ]
+  }
+ ],
+ "a3r-twofly-rev": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Pig 5/3, Duck 7/2, Fish 3/2, Fly 4/20, Fly 8/21] O[Hedgehog 1/1]",
+    "after-attack-01: P[Zombie Fly 8/8, Zombie Fly 8/8, Zombie Fly 4/4, Fly 4/18, Fly 8/19] O[empty]",
+    "final: P[Zombie Fly 8/8, Zombie Fly 8/8, Zombie Fly 4/4, Fly 4/18, Fly 8/19] O[empty]"
+   ]
+  }
+ ],
+ "a4-shark4dead": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Shark 4/20] O[Hedgehog 1/1]",
+    "after-attack-01: P[Shark 12/26] O[empty]",
+    "final: P[Shark 12/26] O[empty]"
+   ]
+  }
+ ],
+ "a5-fly-sheep": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Pig 5/3, Sheep 7/2, Fish 1/2, Fly 4/20] O[Hedgehog 1/1]",
+    "after-attack-01: P[Zombie Fly 4/4, Ram 2/2, Zombie Fly 4/4, Ram 2/2, Fly 4/18] O[empty]",
+    "final: P[Zombie Fly 4/4, Ram 2/2, Zombie Fly 4/4, Ram 2/2, Fly 4/18] O[empty]"
+   ]
+  }
+ ],
+ "a6-fly-deer": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Pig 5/3, Deer 7/2, Fish 1/2, Fly 4/20] O[Hedgehog 1/1]",
+    "after-attack-01: P[Zombie Fly 4/4, Bus 5/3, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+    "final: P[Zombie Fly 4/4, Bus 5/3, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+   ]
+  }
+ ],
+ "b1-whale-gap": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Whale 2/8] O[Fish 1/30]",
+    "after-attack-01: P[Whale 2/7] O[Fish 1/28]",
+    "after-attack-02: P[Whale 2/6] O[Fish 1/26]",
+    "after-attack-03: P[Whale 2/5] O[Fish 1/24]",
+    "after-attack-04: P[Whale 2/4] O[Fish 1/22]",
+    "after-attack-05: P[Whale 2/3] O[Fish 1/20]",
+    "after-attack-06: P[Whale 2/2] O[Fish 1/18]",
+    "after-attack-07: P[Whale 2/1] O[Fish 1/16]",
+    "after-attack-08: P[Fish 3/10] O[Fish 1/14]",
+    "after-attack-09: P[Fish 3/9] O[Fish 1/11]",
+    "after-attack-10: P[Fish 3/8] O[Fish 1/8]",
+    "after-attack-11: P[Fish 3/7] O[Fish 1/5]",
+    "after-attack-12: P[Fish 3/6] O[Fish 1/2]",
+    "after-attack-13: P[Fish 3/5] O[empty]",
+    "final: P[Fish 3/5] O[empty]"
+   ]
+  }
+ ],
+ "b2-dodo-gap": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Fish 5/10, Dodo 6/8] O[Fish 1/30]",
+    "after-attack-01: P[Fish 5/9, Dodo 6/8] O[Fish 1/25]",
+    "after-attack-02: P[Fish 5/8, Dodo 6/8] O[Fish 1/20]",
+    "after-attack-03: P[Fish 5/7, Dodo 6/8] O[Fish 1/15]",
+    "after-attack-04: P[Fish 5/6, Dodo 6/8] O[Fish 1/10]",
+    "after-attack-05: P[Fish 5/5, Dodo 6/8] O[Fish 1/5]",
+    "after-attack-06: P[Fish 5/4, Dodo 6/8] O[empty]",
+    "final: P[Fish 5/4, Dodo 6/8] O[empty]"
+   ]
+  }
+ ],
+ "b4-whale-deadahead": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Whale 2/8] O[Fish 1/30, Dolphin 9/5]",
+    "after-attack-01: P[Whale 2/7] O[Fish 1/28, Dolphin 9/5]",
+    "after-attack-02: P[Whale 2/6] O[Fish 1/26, Dolphin 9/5]",
+    "after-attack-03: P[Whale 2/5] O[Fish 1/24, Dolphin 9/5]",
+    "after-attack-04: P[Whale 2/4] O[Fish 1/22, Dolphin 9/5]",
+    "after-attack-05: P[Whale 2/3] O[Fish 1/20, Dolphin 9/5]",
+    "after-attack-06: P[Whale 2/2] O[Fish 1/18, Dolphin 9/5]",
+    "after-attack-07: P[Whale 2/1] O[Fish 1/16, Dolphin 9/5]",
+    "after-attack-08: P[Fish 5/20] O[Fish 1/14, Dolphin 9/5]",
+    "after-attack-09: P[Fish 5/19] O[Fish 1/9, Dolphin 9/5]",
+    "after-attack-10: P[Fish 5/18] O[Fish 1/4, Dolphin 9/5]",
+    "after-attack-11: P[Fish 5/17] O[Dolphin 9/5]",
+    "after-attack-12: P[Fish 5/8] O[empty]",
+    "final: P[Fish 5/8] O[empty]"
+   ]
+  }
+ ],
+ "b6-dodo-deadahead": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Fish 4/20, Dodo 4/8] O[Fish 1/30, Dolphin 9/5]",
+    "after-attack-01: P[Fish 4/19, Dodo 4/8] O[Fish 1/26, Dolphin 9/5]",
+    "after-attack-02: P[Fish 4/18, Dodo 4/8] O[Fish 1/22, Dolphin 9/5]",
+    "after-attack-03: P[Fish 4/17, Dodo 4/8] O[Fish 1/18, Dolphin 9/5]",
+    "after-attack-04: P[Fish 4/16, Dodo 4/8] O[Fish 1/14, Dolphin 9/5]",
+    "after-attack-05: P[Fish 4/15, Dodo 4/8] O[Fish 1/10, Dolphin 9/5]",
+    "after-attack-06: P[Fish 4/14, Dodo 4/8] O[Fish 1/6, Dolphin 9/5]",
+    "after-attack-07: P[Fish 4/13, Dodo 4/8] O[Fish 1/2, Dolphin 9/5]",
+    "after-attack-08: P[Fish 4/12, Dodo 4/8] O[Dolphin 9/5]",
+    "after-attack-09: P[Fish 4/3, Dodo 4/8] O[Dolphin 9/1]",
+    "after-attack-10: P[Dodo 4/8] O[empty]",
+    "final: P[Dodo 4/8] O[empty]"
+   ]
+  }
+ ],
+ "e0-wolv-self": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Dolphin 5/18, Pig 2/18, Beaver 3/19, Wolverine 6/20] O[Fish 1/28]",
+    "after-attack-01: P[Dolphin 5/17, Pig 2/18, Beaver 3/19, Wolverine 6/20] O[Fish 1/20]",
+    "after-attack-02: P[Dolphin 5/16, Pig 2/18, Beaver 3/19, Wolverine 6/20] O[Fish 1/15]",
+    "after-attack-03: P[Dolphin 5/15, Pig 2/18, Beaver 3/19, Wolverine 6/20] O[Fish 1/10]",
+    "after-attack-04: P[Dolphin 5/14, Pig 2/18, Beaver 3/19, Wolverine 6/20] O[Fish 1/5]",
+    "after-attack-05: P[Dolphin 5/13, Pig 2/18, Beaver 3/19, Wolverine 6/20] O[empty]",
+    "final: P[Dolphin 5/13, Pig 2/18, Beaver 3/19, Wolverine 6/20] O[empty]"
+   ]
+  }
+ ],
+ "e1-wolv-timing": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Pig 5/20, Beaver 3/21, Duck 4/22, Fish 2/24, Wolverine 6/23] O[Hedgehog 1/1, Hedgehog 1/2, Fish 1/7]",
+    "after-attack-01: P[Pig 5/15, Beaver 3/17, Duck 4/18, Fish 2/20, Wolverine 6/19] O[Fish 1/1]",
+    "after-attack-02: P[Pig 5/14, Beaver 3/17, Duck 4/18, Fish 2/20, Wolverine 6/19] O[empty]",
+    "final: P[Pig 5/14, Beaver 3/17, Duck 4/18, Fish 2/20, Wolverine 6/19] O[empty]"
+   ]
+  }
+ ],
+ "e2-wolv-dead": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Pig 5/20, Beaver 3/21, Duck 4/22, Fish 2/24, Wolverine 6/4] O[Hedgehog 1/1, Hedgehog 1/2, Fish 1/7]",
+    "after-attack-01: P[Pig 5/15, Beaver 3/17, Duck 4/18, Fish 2/20] O[Fish 1/1]",
+    "after-attack-02: P[Pig 5/14, Beaver 3/17, Duck 4/18, Fish 2/20] O[empty]",
+    "final: P[Pig 5/14, Beaver 3/17, Duck 4/18, Fish 2/20] O[empty]"
+   ]
+  }
+ ],
+ "e3-wolv-both": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Hedgehog 1/1, Pig 2/7, Beaver 3/7, Duck 4/7, Wolverine 6/23] O[Hedgehog 1/1, Pig 2/7, Beaver 3/7, Duck 4/7, Wolverine 5/24]",
+    "after-attack-01: P[Pig 2/1, Beaver 3/1, Duck 4/1, Wolverine 6/16] O[Pig 2/1, Beaver 3/1, Duck 4/1, Wolverine 5/17]",
+    "after-attack-02: P[Beaver 3/1, Duck 4/1, Wolverine 6/13] O[Beaver 3/1, Duck 4/1, Wolverine 5/14]",
+    "after-attack-03: P[Duck 4/1, Wolverine 6/13] O[Duck 4/1, Wolverine 5/14]",
+    "after-attack-04: P[Wolverine 6/13] O[Wolverine 5/14]",
+    "after-attack-05: P[Wolverine 6/8] O[Wolverine 5/8]",
+    "after-attack-06: P[Wolverine 6/3] O[Wolverine 5/2]",
+    "after-attack-07: P[empty] O[empty]",
+    "final: P[empty] O[empty]"
+   ]
+  }
+ ],
+ "e4-wolv-pair": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Hedgehog 1/1, Pig 2/20, Beaver 3/21, Wolverine 6/23, Wolverine 5/24] O[Hedgehog 1/1, Fish 1/20]",
+    "after-attack-01: P[Pig 2/16, Beaver 3/17, Wolverine 6/19, Wolverine 5/20] O[Fish 1/10]",
+    "after-attack-02: P[Pig 2/15, Beaver 3/17, Wolverine 6/19, Wolverine 5/20] O[Fish 1/2]",
+    "after-attack-03: P[Pig 2/14, Beaver 3/17, Wolverine 6/19, Wolverine 5/20] O[empty]",
+    "final: P[Pig 2/14, Beaver 3/17, Wolverine 6/19, Wolverine 5/20] O[empty]"
+   ]
+  }
+ ],
+ "f1a-tiger-sob-low": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Skunk 9/5, Tiger 4/6] O[Fish 3/13, Crab 5/5]",
+    "after-attack-01: P[Skunk 9/2, Tiger 4/6] O[Fish 3/4, Crab 5/5]",
+    "after-attack-02: P[Tiger 4/6] O[Crab 5/5]",
+    "after-attack-03: P[Tiger 4/1] O[Crab 5/1]",
+    "after-attack-04: P[empty] O[empty]",
+    "final: P[empty] O[empty]"
+   ]
+  }
+ ],
+ "f1b-tiger-sob-mid": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Skunk 9/5, Tiger 7/6] O[Fish 3/13, Crab 5/5]",
+    "after-attack-01: P[Skunk 9/2, Tiger 7/6] O[Fish 3/4, Crab 5/5]",
+    "after-attack-02: P[Tiger 7/6] O[Crab 5/5]",
+    "after-attack-03: P[Tiger 7/1] O[empty]",
+    "final: P[Tiger 7/1] O[empty]"
+   ]
+  }
+ ],
+ "f1c-notiger-control": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Skunk 9/5, Fish 4/6] O[Fish 3/20, Crab 5/6]",
+    "after-attack-01: P[Skunk 9/2, Fish 4/6] O[Fish 3/11, Crab 5/6]",
+    "after-attack-02: P[Fish 4/6] O[Fish 3/2, Crab 5/6]",
+    "after-attack-03: P[Fish 4/3] O[Crab 5/6]",
+    "after-attack-04: P[empty] O[Crab 5/2]",
+    "final: P[empty] O[Crab 5/2]"
+   ]
+  }
+ ],
+ "f2-tiger-faint": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Hedgehog 9/1, Tiger 4/20] O[Mammoth 3/1, Fish 1/4]",
+    "after-attack-01: P[Tiger 4/16] O[empty]",
+    "final: P[Tiger 4/16] O[empty]"
+   ]
+  }
+ ],
+ "f2r-tiger-faint-rev": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Hedgehog 2/1, Tiger 4/20] O[Mammoth 9/1, Fish 1/4]",
+    "after-attack-01: P[Tiger 4/16] O[Fish 3/2]",
+    "after-attack-02: P[Tiger 4/13] O[empty]",
+    "final: P[Tiger 4/13] O[empty]"
+   ]
+  }
+ ],
+ "f7-tiger-dies-too": [
+  {
+   "count": 100,
+   "steps": [
+    "start: P[Cricket 1/2, Tiger 4/2, Fish 2/20] O[Hedgehog 1/1]",
+    "after-attack-01: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[empty]",
+    "final: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[empty]"
+   ]
+  }
+ ]
+}

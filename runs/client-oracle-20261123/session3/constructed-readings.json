@@ -1,0 +1,10943 @@
+[
+ {
+  "capture": "c3-a1-fly4dead-m1714808783",
+  "test": "a1-fly4dead",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0032.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 4/4 | s3 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0052.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a1-fly4dead-m2000000011",
+  "test": "a1-fly4dead",
+  "seed": -2000000011,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0037.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 4/4 | s2 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0062.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a1-fly4dead-m402918337",
+  "test": "a1-fly4dead",
+  "seed": -402918337,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0039.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/4 | s2 4/4 | s3 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0065.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a1-fly4dead-m987654321",
+  "test": "a1-fly4dead",
+  "seed": -987654321,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0039.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/4 | s2 4/4 | s3 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0063.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a1-fly4dead-p1203948571",
+  "test": "a1-fly4dead",
+  "seed": 1203948571,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0045.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 4/4 | s2 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0068.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a1-fly4dead-p1999999937",
+  "test": "a1-fly4dead",
+  "seed": 1999999937,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0041.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 4/4 | s3 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0066.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a1-fly4dead-p55555",
+  "test": "a1-fly4dead",
+  "seed": 55555,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0040.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 4/4 | s2 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0064.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a1-fly4dead-p870113",
+  "test": "a1-fly4dead",
+  "seed": 870113,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0033.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/4 | s2 4/4 | s3 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0057.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a2-fly4tie-m1714808783",
+  "test": "a2-fly4tie",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    5,
+    2
+   ],
+   [
+    "Fish",
+    5,
+    2
+   ],
+   [
+    "Beaver",
+    5,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 5/2 | s2 5/2 | s3 5/2 | s4 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0029.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 4/4 | s3 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0047.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 5/2, Fish 5/2, Beaver 5/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a2-fly4tie-p870113",
+  "test": "a2-fly4tie",
+  "seed": 870113,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    5,
+    2
+   ],
+   [
+    "Fish",
+    5,
+    2
+   ],
+   [
+    "Beaver",
+    5,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 5/2 | s2 5/2 | s3 5/2 | s4 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0030.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/4 | s2 4/4 | s3 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0051.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 5/2, Fish 5/2, Beaver 5/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a3-twofly-m1714808783",
+  "test": "a3-twofly",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    8,
+    20,
+    {
+     "lvl": 2
+    }
+   ],
+   [
+    "Fly",
+    4,
+    21
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 3/2 | s3 8/20 | s4 4/21",
+   "O": "s0 1/1",
+   "frame": "tl/f0031.jpg"
+  },
+  "terminal": {
+   "P": "s0 8/8 | s1 8/8 | s2 8/8 | s3 8/18 | s4 4/19",
+   "O": "empty",
+   "frame": "tl/f0049.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 3/2, Fly 8/20, Fly 4/21] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 8/8, Zombie Fly 8/8, Zombie Fly 4/4, Fly 8/18, Fly 4/19] O[empty]",
+     "final: P[Zombie Fly 8/8, Zombie Fly 8/8, Zombie Fly 4/4, Fly 8/18, Fly 4/19] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a3-twofly-p870113",
+  "test": "a3-twofly",
+  "seed": 870113,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    8,
+    20,
+    {
+     "lvl": 2
+    }
+   ],
+   [
+    "Fly",
+    4,
+    21
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 3/2 | s3 8/20 | s4 4/21",
+   "O": "s0 1/1",
+   "frame": "tl/f0031.jpg"
+  },
+  "terminal": {
+   "P": "s0 8/8 | s1 8/8 | s2 8/8 | s3 8/18 | s4 4/19",
+   "O": "empty",
+   "frame": "tl/f0052.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 3/2, Fly 8/20, Fly 4/21] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 8/8, Zombie Fly 8/8, Zombie Fly 4/4, Fly 8/18, Fly 4/19] O[empty]",
+     "final: P[Zombie Fly 8/8, Zombie Fly 8/8, Zombie Fly 4/4, Fly 8/18, Fly 4/19] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a3r-twofly-rev-m1714808783",
+  "test": "a3r-twofly-rev",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20,
+    {
+     "lvl": 2
+    }
+   ],
+   [
+    "Fly",
+    8,
+    21
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 3/2 | s3 4/20 | s4 8/21",
+   "O": "s0 1/1",
+   "frame": "tl/f0029.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 4/4 | s2 4/4 | s3 4/18 | s4 8/19",
+   "O": "empty",
+   "frame": "tl/f0047.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 3/2, Fly 4/20, Fly 8/21] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 8/8, Zombie Fly 8/8, Zombie Fly 4/4, Fly 4/18, Fly 8/19] O[empty]",
+     "final: P[Zombie Fly 8/8, Zombie Fly 8/8, Zombie Fly 4/4, Fly 4/18, Fly 8/19] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a3r-twofly-rev-p870113",
+  "test": "a3r-twofly-rev",
+  "seed": 870113,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20,
+    {
+     "lvl": 2
+    }
+   ],
+   [
+    "Fly",
+    8,
+    21
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 3/2 | s3 4/20 | s4 8/21",
+   "O": "s0 1/1",
+   "frame": "tl/f0030.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 4/4 | s2 4/4 | s3 4/18 | s4 8/19",
+   "O": "empty",
+   "frame": "tl/f0048.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 3/2, Fly 4/20, Fly 8/21] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 8/8, Zombie Fly 8/8, Zombie Fly 4/4, Fly 4/18, Fly 8/19] O[empty]",
+     "final: P[Zombie Fly 8/8, Zombie Fly 8/8, Zombie Fly 4/4, Fly 4/18, Fly 8/19] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a4-shark4dead-m1714808783",
+  "test": "a4-shark4dead",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Shark",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0033.jpg"
+  },
+  "terminal": {
+   "P": "s4 12/26",
+   "O": "empty",
+   "frame": "tl/f0053.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Shark 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Shark 12/26] O[empty]",
+     "final: P[Shark 12/26] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a4-shark4dead-p870113",
+  "test": "a4-shark4dead",
+  "seed": 870113,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Shark",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0030.jpg"
+  },
+  "terminal": {
+   "P": "s4 12/26",
+   "O": "empty",
+   "frame": "tl/f0050.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Shark 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Shark 12/26] O[empty]",
+     "final: P[Shark 12/26] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a5-fly-sheep-m1714808783",
+  "test": "a5-fly-sheep",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Sheep",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0039.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 2/2 | s2 2/2 | s3 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0069.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Sheep 7/2, Fish 1/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Ram 2/2, Zombie Fly 4/4, Ram 2/2, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Ram 2/2, Zombie Fly 4/4, Ram 2/2, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a5-fly-sheep-p870113",
+  "test": "a5-fly-sheep",
+  "seed": 870113,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Sheep",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0030.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 2/2 | s2 2/2 | s3 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0054.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Sheep 7/2, Fish 1/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Ram 2/2, Zombie Fly 4/4, Ram 2/2, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Ram 2/2, Zombie Fly 4/4, Ram 2/2, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a6-fly-deer-m1714808783",
+  "test": "a6-fly-deer",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Deer",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0034.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 4/4 | s2 5/3 | s3 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0061.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Deer 7/2, Fish 1/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Bus 5/3, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Bus 5/3, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a6-fly-deer-p870113",
+  "test": "a6-fly-deer",
+  "seed": 870113,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Deer",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0033.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 5/3 | s2 4/4 | s3 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0060.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/3, Deer 7/2, Fish 1/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Bus 5/3, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Bus 5/3, Zombie Fly 4/4, Zombie Fly 4/4, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a7-fly-one-use-left-m1714808783",
+  "test": "a7-fly-one-use-left",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20,
+    {
+     "trco": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0034.jpg"
+  },
+  "terminal": {
+   "P": "s3 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0051.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-a7-fly-one-use-left-p870113",
+  "test": "a7-fly-one-use-left",
+  "seed": 870113,
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20,
+    {
+     "trco": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0036.jpg"
+  },
+  "terminal": {
+   "P": "s3 4/4 | s4 4/18",
+   "O": "empty",
+   "frame": "tl/f0059.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Fly 4/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Fly 4/4, Fly 4/18] O[empty]",
+     "final: P[Zombie Fly 4/4, Fly 4/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-b1-whale-gap-m1714808783",
+  "test": "b1-whale-gap",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    3,
+    10
+   ],
+   null,
+   [
+    "Whale",
+    2,
+    8
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 2/8",
+   "O": "s0 1/30",
+   "frame": "tl/f0045.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/5",
+   "O": "empty",
+   "frame": "tl/f0102.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Whale 2/8] O[Fish 1/30]",
+     "after-attack-01: P[Whale 2/7] O[Fish 1/28]",
+     "after-attack-02: P[Whale 2/6] O[Fish 1/26]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-b1-whale-gap-p870113",
+  "test": "b1-whale-gap",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    3,
+    10
+   ],
+   null,
+   [
+    "Whale",
+    2,
+    8
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 2/8",
+   "O": "s0 1/30",
+   "frame": "tl/f0038.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/5",
+   "O": "empty",
+   "frame": "tl/f0088.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Whale 2/8] O[Fish 1/30]",
+     "after-attack-01: P[Whale 2/7] O[Fish 1/28]",
+     "after-attack-02: P[Whale 2/6] O[Fish 1/26]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-b2-dodo-gap-m1714808783",
+  "test": "b2-dodo-gap",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    2,
+    10
+   ],
+   null,
+   [
+    "Dodo",
+    6,
+    8
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 5/10 | s1 6/8",
+   "O": "s0 1/30",
+   "frame": "tl/f0048.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/4 | s1 6/8",
+   "O": "empty",
+   "frame": "tl/f0076.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Fish 5/10, Dodo 6/8] O[Fish 1/30]",
+     "after-attack-01: P[Fish 5/9, Dodo 6/8] O[Fish 1/25]",
+     "after-attack-02: P[Fish 5/8, Dodo 6/8] O[Fish 1/20]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-b2-dodo-gap-p870113",
+  "test": "b2-dodo-gap",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    2,
+    10
+   ],
+   null,
+   [
+    "Dodo",
+    6,
+    8
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 5/10 | s1 6/8",
+   "O": "s0 1/30",
+   "frame": "tl/f0047.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/4 | s1 6/8",
+   "O": "empty",
+   "frame": "tl/f0072.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Fish 5/10, Dodo 6/8] O[Fish 1/30]",
+     "after-attack-01: P[Fish 5/9, Dodo 6/8] O[Fish 1/25]",
+     "after-attack-02: P[Fish 5/8, Dodo 6/8] O[Fish 1/20]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-b4-whale-deadahead-m1714808783",
+  "test": "b4-whale-deadahead",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    5,
+    20
+   ],
+   [
+    "Pig",
+    3,
+    1
+   ],
+   [
+    "Whale",
+    2,
+    8
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 2/8",
+   "O": "s0 1/30 | s1 9/5",
+   "frame": "tl/f0051.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/8",
+   "O": "empty",
+   "frame": "tl/f0105.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Whale 2/8] O[Fish 1/30, Dolphin 9/5]",
+     "after-attack-01: P[Whale 2/7] O[Fish 1/28, Dolphin 9/5]",
+     "after-attack-02: P[Whale 2/6] O[Fish 1/26, Dolphin 9/5]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-b4-whale-deadahead-p870113",
+  "test": "b4-whale-deadahead",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    5,
+    20
+   ],
+   [
+    "Pig",
+    3,
+    1
+   ],
+   [
+    "Whale",
+    2,
+    8
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 2/8",
+   "O": "s0 1/30 | s1 9/5",
+   "frame": null
+  },
+  "terminal": {
+   "P": "s0 5/8",
+   "O": "empty",
+   "frame": "tl/f0102.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Whale 2/8] O[Fish 1/30, Dolphin 9/5]",
+     "after-attack-01: P[Whale 2/7] O[Fish 1/28, Dolphin 9/5]",
+     "after-attack-02: P[Whale 2/6] O[Fish 1/26, Dolphin 9/5]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-b6-dodo-deadahead-m1714808783",
+  "test": "b6-dodo-deadahead",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Pig",
+    3,
+    1
+   ],
+   [
+    "Dodo",
+    4,
+    8
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 4/20 | s1 3/-3 | s2 4/8",
+   "O": "s0 1/30 | s1 9/5",
+   "frame": "tl/f0042.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/8",
+   "O": "empty",
+   "frame": "tl/f0083.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Fish 4/20, Dodo 4/8] O[Fish 1/30, Dolphin 9/5]",
+     "after-attack-01: P[Fish 4/19, Dodo 4/8] O[Fish 1/26, Dolphin 9/5]",
+     "after-attack-02: P[Fish 4/18, Dodo 4/8] O[Fish 1/22, Dolphin 9/5]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-b6-dodo-deadahead-p870113",
+  "test": "b6-dodo-deadahead",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Pig",
+    3,
+    1
+   ],
+   [
+    "Dodo",
+    4,
+    8
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 4/20 | s1 4/8",
+   "O": "s0 1/30 | s1 9/5",
+   "frame": "tl/f0048.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/8",
+   "O": "empty",
+   "frame": "tl/f0089.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Fish 4/20, Dodo 4/8] O[Fish 1/30, Dolphin 9/5]",
+     "after-attack-01: P[Fish 4/19, Dodo 4/8] O[Fish 1/26, Dolphin 9/5]",
+     "after-attack-02: P[Fish 4/18, Dodo 4/8] O[Fish 1/22, Dolphin 9/5]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-c1-whale-release-m1714808783",
+  "test": "c1-whale-release",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 3/1",
+   "O": "s0 5/30",
+   "frame": "tl/f0040.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 5/15",
+   "frame": "tl/f0059.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Whale 3/1] O[Fish 5/30]",
+     "after-attack-01: P[Fish 6/9] O[Fish 5/27]",
+     "after-attack-02: P[Fish 6/4] O[Fish 5/21]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-c1-whale-release-p870113",
+  "test": "c1-whale-release",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 3/1",
+   "O": "s0 5/30",
+   "frame": "tl/f0047.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 5/15",
+   "frame": "tl/f0063.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Whale 3/1] O[Fish 5/30]",
+     "after-attack-01: P[Fish 6/9] O[Fish 5/27]",
+     "after-attack-02: P[Fish 6/4] O[Fish 5/21]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-c2-whale2-release-m1714808783",
+  "test": "c2-whale2-release",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1,
+    {
+     "lvl": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 3/1",
+   "O": "s0 5/30",
+   "frame": "tl/f0045.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 5/15",
+   "frame": "tl/f0064.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Whale 3/1] O[Fish 5/30]",
+     "after-attack-01: P[Fish 6/9] O[Fish 5/27]",
+     "after-attack-02: P[Fish 6/4] O[Fish 5/21]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-c2-whale2-release-p870113",
+  "test": "c2-whale2-release",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1,
+    {
+     "lvl": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 3/1",
+   "O": "s0 5/30",
+   "frame": "tl/f0042.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 5/15",
+   "frame": "tl/f0061.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Whale 3/1] O[Fish 5/30]",
+     "after-attack-01: P[Fish 6/9] O[Fish 5/27]",
+     "after-attack-02: P[Fish 6/4] O[Fish 5/21]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-c3-whale-honey-p870113",
+  "test": "c3-whale-honey",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1,
+    {
+     "perk": "Honey"
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 3/1",
+   "O": "s0 5/30",
+   "frame": "tl/f0043.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 5/14",
+   "frame": "tl/f0070.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Whale 3/1] O[Fish 5/30]",
+     "after-attack-01: P[Bee 1/1, Fish 6/9] O[Fish 5/27]",
+     "after-attack-02: P[Fish 6/9] O[Fish 5/26]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-c4-whale-mushroom-p870113",
+  "test": "c4-whale-mushroom",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 3/1",
+   "O": "s0 5/30",
+   "frame": "tl/f0044.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 5/14",
+   "frame": "tl/f0074.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Whale 3/1] O[Fish 5/30]",
+     "after-attack-01: P[Whale 1/1, Fish 6/9] O[Fish 5/27]",
+     "after-attack-02: P[Fish 6/9] O[Fish 5/26]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-c5-whale-fly-m1714808783",
+  "test": "c5-whale-fly",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 4/4 | s1 3/1 | s2 4/20",
+   "O": "s0 5/30",
+   "frame": "tl/f0046.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/15",
+   "O": "empty",
+   "frame": "tl/f0089.jpg"
+  },
+  "engine": []
+ },
+ {
+  "capture": "c3-c5-whale-fly-p870113",
+  "test": "c5-whale-fly",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 4/4 | s1 3/1 | s2 4/20",
+   "O": "s0 5/30",
+   "frame": "tl/f0037.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/15",
+   "O": "empty",
+   "frame": "tl/f0083.jpg"
+  },
+  "engine": []
+ },
+ {
+  "capture": "c3-c5s-whale-shark-m1714808783",
+  "test": "c5s-whale-shark",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ],
+   [
+    "Shark",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 3/1 | s1 6/22",
+   "O": "s0 5/30",
+   "frame": "tl/f0046.jpg"
+  },
+  "terminal": {
+   "P": "s0 10/16",
+   "O": "empty",
+   "frame": "tl/f0077.jpg"
+  },
+  "engine": []
+ },
+ {
+  "capture": "c3-c5s-whale-shark-p870113",
+  "test": "c5s-whale-shark",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ],
+   [
+    "Shark",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 3/1 | s1 6/22",
+   "O": "s0 5/30",
+   "frame": "tl/f0046.jpg"
+  },
+  "terminal": {
+   "P": "s0 10/16",
+   "O": "empty",
+   "frame": "tl/f0082.jpg"
+  },
+  "engine": []
+ },
+ {
+  "capture": "c3-c6-whale-cricket-p870113",
+  "test": "c6-whale-cricket",
+  "seed": 870113,
+  "left": [
+   [
+    "Cricket",
+    3,
+    4
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 1/1 | s1 3/1",
+   "O": "s0 5/30",
+   "frame": "tl/f0044.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 5/22",
+   "frame": "tl/f0074.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Zombie Cricket 1/1, Whale 3/1] O[Fish 5/30]",
+     "after-attack-01: P[Whale 3/1] O[Fish 5/29]",
+     "after-attack-02: P[Cricket 3/4] O[Fish 5/26]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-c7-whale-sheep-blast-p870113",
+  "test": "c7-whale-sheep-blast",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    5,
+    2
+   ],
+   [
+    "Sheep",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 5/2 | s1 4/2 | s2 2/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0044.jpg"
+  },
+  "terminal": {
+   "P": "s0 6/9 | s1 2/2 | s2 2/2 | s3 2/18",
+   "O": "empty",
+   "frame": "tl/f0063.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Whale 5/2, Sheep 4/2, Fish 2/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Fish 6/9, Ram 2/2, Ram 2/2, Fish 2/18] O[empty]",
+     "final: P[Fish 6/9, Ram 2/2, Ram 2/2, Fish 2/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d1-crab-round-p870113",
+  "test": "d1-crab-round",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    3,
+    30
+   ],
+   [
+    "Crab",
+    4,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 3/30 | s1 4/9",
+   "O": "s0 1/40",
+   "frame": "tl/f0037.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/16 | s1 4/9",
+   "O": "empty",
+   "frame": "tl/f0089.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/30, Crab 4/9] O[Fish 1/40]",
+     "after-attack-01: P[Fish 3/29, Crab 4/9] O[Fish 1/37]",
+     "after-attack-02: P[Fish 3/28, Crab 4/9] O[Fish 1/34]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d1t-crab-temp-p870113",
+  "test": "d1t-crab-temp",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    3,
+    20,
+    {
+     "thp": 20
+    }
+   ],
+   [
+    "Crab",
+    4,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40 | s1 4/11",
+   "O": "s0 1/40",
+   "frame": "tl/f0039.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/26 | s1 4/11",
+   "O": "empty",
+   "frame": "tl/f0089.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40, Crab 4/11] O[Fish 1/40]",
+     "after-attack-01: P[Fish 3/39, Crab 4/11] O[Fish 1/37]",
+     "after-attack-02: P[Fish 3/38, Crab 4/11] O[Fish 1/34]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d2c-crab-skunk-tie-m1714808783",
+  "test": "d2c-crab-skunk-tie",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 3/26 | s1 5/11",
+   "O": "s0 5/5",
+   "frame": "tl/f0040.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/16 | s1 5/11",
+   "O": "empty",
+   "frame": "tl/f0054.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/11] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/11] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/11] O[empty]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/8] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/8] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/8] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d2c-crab-skunk-tie-m2000000011",
+  "test": "d2c-crab-skunk-tie",
+  "seed": -2000000011,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 3/26 | s1 5/8",
+   "O": "s0 5/5",
+   "frame": "tl/f0040.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/16 | s1 5/8",
+   "O": "empty",
+   "frame": "tl/f0051.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/11] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/11] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/11] O[empty]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/8] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/8] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/8] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d2c-crab-skunk-tie-m402918337",
+  "test": "d2c-crab-skunk-tie",
+  "seed": -402918337,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 3/26 | s1 5/8",
+   "O": "s0 5/5",
+   "frame": "tl/f0041.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/16 | s1 5/8",
+   "O": "empty",
+   "frame": "tl/f0055.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/11] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/11] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/11] O[empty]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/8] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/8] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/8] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d2c-crab-skunk-tie-m987654321",
+  "test": "d2c-crab-skunk-tie",
+  "seed": -987654321,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 3/26 | s1 5/11",
+   "O": "s0 5/5",
+   "frame": "tl/f0046.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/16 | s1 5/11",
+   "O": "empty",
+   "frame": "tl/f0059.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/11] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/11] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/11] O[empty]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/8] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/8] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/8] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d2c-crab-skunk-tie-p1203948571",
+  "test": "d2c-crab-skunk-tie",
+  "seed": 1203948571,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 3/26 | s1 5/11",
+   "O": "s0 5/5",
+   "frame": "tl/f0043.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/16 | s1 5/11",
+   "O": "empty",
+   "frame": "tl/f0054.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/11] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/11] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/11] O[empty]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/8] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/8] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/8] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d2c-crab-skunk-tie-p1999999937",
+  "test": "d2c-crab-skunk-tie",
+  "seed": 1999999937,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 3/26 | s1 5/8",
+   "O": "s0 5/5",
+   "frame": "tl/f0041.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/16 | s1 5/8",
+   "O": "empty",
+   "frame": "tl/f0054.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/11] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/11] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/11] O[empty]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/8] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/8] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/8] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d2c-crab-skunk-tie-p55555",
+  "test": "d2c-crab-skunk-tie",
+  "seed": 55555,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 3/26 | s1 5/8",
+   "O": "s0 5/5",
+   "frame": "tl/f0041.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/16 | s1 5/8",
+   "O": "empty",
+   "frame": "tl/f0052.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/11] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/11] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/11] O[empty]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/8] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/8] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/8] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d2c-crab-skunk-tie-p870113",
+  "test": "d2c-crab-skunk-tie",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 3/26 | s1 5/8",
+   "O": "s0 5/5",
+   "frame": "tl/f0043.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/16 | s1 5/8",
+   "O": "empty",
+   "frame": "tl/f0058.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/11] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/11] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/11] O[empty]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 3/26, Crab 5/8] O[Skunk 5/5]",
+     "after-attack-01: P[Fish 3/21, Crab 5/8] O[Skunk 5/2]",
+     "after-attack-02: P[Fish 3/16, Crab 5/8] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d3t-dodo-temp-p870113",
+  "test": "d3t-dodo-temp",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    4,
+    5,
+    {
+     "tatk": 4
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 6/20 | s1 8/5",
+   "O": "s0 1/40",
+   "frame": "tl/f0040.jpg"
+  },
+  "terminal": {
+   "P": "s0 6/13 | s1 8/5",
+   "O": "empty",
+   "frame": "tl/f0069.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 6/20, Dodo 8/5] O[Fish 1/40]",
+     "after-attack-01: P[Fish 6/19, Dodo 8/5] O[Fish 1/34]",
+     "after-attack-02: P[Fish 6/18, Dodo 8/5] O[Fish 1/28]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d4-dodo-chain-m1714808783",
+  "test": "d4-dodo-chain",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    6,
+    5
+   ],
+   [
+    "Dodo",
+    10,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 7/20 | s1 11/5 | s2 10/6",
+   "O": "s0 1/40",
+   "frame": "tl/f0042.jpg"
+  },
+  "terminal": {
+   "P": "s0 7/14 | s1 11/5 | s2 10/6",
+   "O": "empty",
+   "frame": "tl/f0067.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 7/20, Dodo 11/5, Dodo 10/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 7/19, Dodo 11/5, Dodo 10/6] O[Fish 1/33]",
+     "after-attack-02: P[Fish 7/18, Dodo 11/5, Dodo 10/6] O[Fish 1/26]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d4-dodo-chain-p870113",
+  "test": "d4-dodo-chain",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    6,
+    5
+   ],
+   [
+    "Dodo",
+    10,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 7/20 | s1 11/5 | s2 10/6",
+   "O": "s0 1/40",
+   "frame": "tl/f0040.jpg"
+  },
+  "terminal": {
+   "P": "s0 7/14 | s1 11/5 | s2 10/6",
+   "O": "empty",
+   "frame": "tl/f0064.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 7/20, Dodo 11/5, Dodo 10/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 7/19, Dodo 11/5, Dodo 10/6] O[Fish 1/33]",
+     "after-attack-02: P[Fish 7/18, Dodo 11/5, Dodo 10/6] O[Fish 1/26]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d4t-dodo-tie-m1714808783",
+  "test": "d4t-dodo-tie",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 8/20 | s1 12/5 | s2 8/6",
+   "O": "s0 1/40",
+   "frame": "tl/f0037.jpg"
+  },
+  "terminal": {
+   "P": "s0 8/15 | s1 12/5 | s2 8/6",
+   "O": "empty",
+   "frame": "tl/f0059.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 6/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 6/19, Dodo 12/5, Dodo 8/6] O[Fish 1/34]",
+     "after-attack-02: P[Fish 6/18, Dodo 12/5, Dodo 8/6] O[Fish 1/28]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 8/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 8/19, Dodo 12/5, Dodo 8/6] O[Fish 1/32]",
+     "after-attack-02: P[Fish 8/18, Dodo 12/5, Dodo 8/6] O[Fish 1/24]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d4t-dodo-tie-m2000000011",
+  "test": "d4t-dodo-tie",
+  "seed": -2000000011,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 8/20 | s1 12/5 | s2 8/6",
+   "O": "s0 1/40",
+   "frame": "tl/f0042.jpg"
+  },
+  "terminal": {
+   "P": "s0 8/15 | s1 12/5 | s2 8/6",
+   "O": "empty",
+   "frame": "tl/f0065.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 6/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 6/19, Dodo 12/5, Dodo 8/6] O[Fish 1/34]",
+     "after-attack-02: P[Fish 6/18, Dodo 12/5, Dodo 8/6] O[Fish 1/28]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 8/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 8/19, Dodo 12/5, Dodo 8/6] O[Fish 1/32]",
+     "after-attack-02: P[Fish 8/18, Dodo 12/5, Dodo 8/6] O[Fish 1/24]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d4t-dodo-tie-m402918337",
+  "test": "d4t-dodo-tie",
+  "seed": -402918337,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 6/20 | s1 12/5 | s2 8/6",
+   "O": "s0 1/40",
+   "frame": "tl/f0037.jpg"
+  },
+  "terminal": {
+   "P": "s0 6/13 | s1 12/5 | s2 8/6",
+   "O": "empty",
+   "frame": "tl/f0065.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 6/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 6/19, Dodo 12/5, Dodo 8/6] O[Fish 1/34]",
+     "after-attack-02: P[Fish 6/18, Dodo 12/5, Dodo 8/6] O[Fish 1/28]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 8/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 8/19, Dodo 12/5, Dodo 8/6] O[Fish 1/32]",
+     "after-attack-02: P[Fish 8/18, Dodo 12/5, Dodo 8/6] O[Fish 1/24]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d4t-dodo-tie-m987654321",
+  "test": "d4t-dodo-tie",
+  "seed": -987654321,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 8/20 | s1 12/5 | s2 8/6",
+   "O": "s0 1/40",
+   "frame": "tl/f0038.jpg"
+  },
+  "terminal": {
+   "P": "s0 8/15 | s1 12/5 | s2 8/6",
+   "O": "empty",
+   "frame": "tl/f0058.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 6/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 6/19, Dodo 12/5, Dodo 8/6] O[Fish 1/34]",
+     "after-attack-02: P[Fish 6/18, Dodo 12/5, Dodo 8/6] O[Fish 1/28]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 8/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 8/19, Dodo 12/5, Dodo 8/6] O[Fish 1/32]",
+     "after-attack-02: P[Fish 8/18, Dodo 12/5, Dodo 8/6] O[Fish 1/24]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d4t-dodo-tie-p1203948571",
+  "test": "d4t-dodo-tie",
+  "seed": 1203948571,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 8/20 | s1 12/5 | s2 8/6",
+   "O": "s0 1/40",
+   "frame": "tl/f0039.jpg"
+  },
+  "terminal": {
+   "P": "s0 8/15 | s1 12/5 | s2 8/6",
+   "O": "empty",
+   "frame": "tl/f0063.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 6/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 6/19, Dodo 12/5, Dodo 8/6] O[Fish 1/34]",
+     "after-attack-02: P[Fish 6/18, Dodo 12/5, Dodo 8/6] O[Fish 1/28]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 8/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 8/19, Dodo 12/5, Dodo 8/6] O[Fish 1/32]",
+     "after-attack-02: P[Fish 8/18, Dodo 12/5, Dodo 8/6] O[Fish 1/24]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d4t-dodo-tie-p1999999937",
+  "test": "d4t-dodo-tie",
+  "seed": 1999999937,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 8/20 | s1 12/5 | s2 8/6",
+   "O": "s0 1/40",
+   "frame": "tl/f0040.jpg"
+  },
+  "terminal": {
+   "P": "s0 8/15 | s1 12/5 | s2 8/6",
+   "O": "empty",
+   "frame": "tl/f0060.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 6/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 6/19, Dodo 12/5, Dodo 8/6] O[Fish 1/34]",
+     "after-attack-02: P[Fish 6/18, Dodo 12/5, Dodo 8/6] O[Fish 1/28]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 8/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 8/19, Dodo 12/5, Dodo 8/6] O[Fish 1/32]",
+     "after-attack-02: P[Fish 8/18, Dodo 12/5, Dodo 8/6] O[Fish 1/24]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d4t-dodo-tie-p55555",
+  "test": "d4t-dodo-tie",
+  "seed": 55555,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 6/20 | s1 12/5 | s2 8/6",
+   "O": "s0 1/40",
+   "frame": "tl/f0040.jpg"
+  },
+  "terminal": {
+   "P": "s0 6/13 | s1 12/5 | s2 8/6",
+   "O": "empty",
+   "frame": "tl/f0069.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 6/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 6/19, Dodo 12/5, Dodo 8/6] O[Fish 1/34]",
+     "after-attack-02: P[Fish 6/18, Dodo 12/5, Dodo 8/6] O[Fish 1/28]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 8/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 8/19, Dodo 12/5, Dodo 8/6] O[Fish 1/32]",
+     "after-attack-02: P[Fish 8/18, Dodo 12/5, Dodo 8/6] O[Fish 1/24]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d4t-dodo-tie-p870113",
+  "test": "d4t-dodo-tie",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 6/20 | s1 12/5 | s2 8/6",
+   "O": "s0 1/40",
+   "frame": "tl/f0040.jpg"
+  },
+  "terminal": {
+   "P": "s0 6/13 | s1 12/5 | s2 8/6",
+   "O": "empty",
+   "frame": "tl/f0068.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 6/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 6/19, Dodo 12/5, Dodo 8/6] O[Fish 1/34]",
+     "after-attack-02: P[Fish 6/18, Dodo 12/5, Dodo 8/6] O[Fish 1/28]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 8/20, Dodo 12/5, Dodo 8/6] O[Fish 1/40]",
+     "after-attack-01: P[Fish 8/19, Dodo 12/5, Dodo 8/6] O[Fish 1/32]",
+     "after-attack-02: P[Fish 8/18, Dodo 12/5, Dodo 8/6] O[Fish 1/24]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d6-dead-dodo-acts-p870113",
+  "test": "d6-dead-dodo-acts",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    4,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 4/20",
+   "O": "s0 1/40 | s1 9/5",
+   "frame": "tl/f0048.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "empty",
+   "frame": "tl/f0092.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 4/20] O[Fish 1/40, Dolphin 9/5]",
+     "after-attack-01: P[Fish 4/19] O[Fish 1/36, Dolphin 9/5]",
+     "after-attack-02: P[Fish 4/18] O[Fish 1/32, Dolphin 9/5]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d7-dead-crab-m1714808783",
+  "test": "d7-dead-crab",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    4,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/30 | s1 9/5",
+   "frame": "tl/f0043.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/12",
+   "O": "empty",
+   "frame": "tl/f0087.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40, Crab 4/7] O[Fish 1/30, Dolphin 9/5]",
+     "after-attack-01: P[Fish 3/39, Crab 4/7] O[Fish 1/27, Dolphin 9/5]",
+     "after-attack-02: P[Fish 3/38, Crab 4/7] O[Fish 1/24, Dolphin 9/5]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-d7-dead-crab-p870113",
+  "test": "d7-dead-crab",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    4,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/30 | s1 9/5",
+   "frame": null
+  },
+  "terminal": {
+   "P": "s0 3/12",
+   "O": "empty",
+   "frame": "tl/f0099.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40, Crab 4/7] O[Fish 1/30, Dolphin 9/5]",
+     "after-attack-01: P[Fish 3/39, Crab 4/7] O[Fish 1/27, Dolphin 9/5]",
+     "after-attack-02: P[Fish 3/38, Crab 4/7] O[Fish 1/24, Dolphin 9/5]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-ddyn-sob-dynamic-m1714808783",
+  "test": "ddyn-sob-dynamic",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Skunk",
+    5,
+    5
+   ],
+   [
+    "Dodo",
+    10,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Crab",
+    6,
+    3
+   ],
+   [
+    "Fish",
+    2,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 10/5 | s1 10/6",
+   "O": "s0 6/10 | s1 2/26",
+   "frame": "tl/f0042.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "empty",
+   "frame": "tl/f0061.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Skunk 10/5, Dodo 10/6] O[Crab 6/13, Fish 2/26]",
+     "after-attack-01: P[Dodo 10/6] O[Crab 6/3, Fish 2/26]",
+     "after-attack-02: P[empty] O[Fish 2/26]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-ddyn-sob-dynamic-p870113",
+  "test": "ddyn-sob-dynamic",
+  "seed": 870113,
+  "left": [
+   [
+    "Skunk",
+    5,
+    5
+   ],
+   [
+    "Dodo",
+    10,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Crab",
+    6,
+    3
+   ],
+   [
+    "Fish",
+    2,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 10/5 | s1 10/6",
+   "O": "s0 6/10 | s1 2/26",
+   "frame": "tl/f0048.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "empty",
+   "frame": "tl/f0067.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Skunk 10/5, Dodo 10/6] O[Crab 6/13, Fish 2/26]",
+     "after-attack-01: P[Dodo 10/6] O[Crab 6/3, Fish 2/26]",
+     "after-attack-02: P[empty] O[Fish 2/26]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-ddynctl-crab-higher-no-dodo-m1714808783",
+  "test": "ddynctl-crab-higher-no-dodo",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Skunk",
+    5,
+    5
+   ],
+   [
+    "Fish",
+    10,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Crab",
+    9,
+    3
+   ],
+   [
+    "Fish",
+    2,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 5/5 | s1 10/6",
+   "O": "s0 9/13 | s1 2/26",
+   "frame": "tl/f0041.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s1 2/26",
+   "frame": "tl/f0053.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Skunk 5/5, Fish 10/6] O[Crab 9/13, Fish 2/26]",
+     "after-attack-01: P[Fish 10/6] O[Crab 9/8, Fish 2/26]",
+     "after-attack-02: P[empty] O[Fish 2/26]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-ddynctl-crab-higher-no-dodo-p870113",
+  "test": "ddynctl-crab-higher-no-dodo",
+  "seed": 870113,
+  "left": [
+   [
+    "Skunk",
+    5,
+    5
+   ],
+   [
+    "Fish",
+    10,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Crab",
+    9,
+    3
+   ],
+   [
+    "Fish",
+    2,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 5/5 | s1 10/6",
+   "O": "s0 9/13 | s1 2/26",
+   "frame": "tl/f0043.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s1 2/26",
+   "frame": "tl/f0057.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Skunk 5/5, Fish 10/6] O[Crab 9/13, Fish 2/26]",
+     "after-attack-01: P[Fish 10/6] O[Crab 9/8, Fish 2/26]",
+     "after-attack-02: P[empty] O[Fish 2/26]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-e0-wolv-self-m1714808783",
+  "test": "e0-wolv-self",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Dolphin",
+    5,
+    20
+   ],
+   [
+    "Pig",
+    2,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Wolverine",
+    6,
+    22
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 5/18 | s1 2/18 | s2 3/19 | s3 6/20",
+   "O": "s0 1/-3 | s1 1/28",
+   "frame": null
+  },
+  "terminal": {
+   "P": "s0 5/13 | s1 2/18 | s2 3/19 | s3 6/20",
+   "O": "empty",
+   "frame": "tl/f0088.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Dolphin 5/18, Pig 2/18, Beaver 3/19, Wolverine 6/20] O[Fish 1/28]",
+     "after-attack-01: P[Dolphin 5/17, Pig 2/18, Beaver 3/19, Wolverine 6/20] O[Fish 1/20]",
+     "after-attack-02: P[Dolphin 5/16, Pig 2/18, Beaver 3/19, Wolverine 6/20] O[Fish 1/15]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-e0-wolv-self-p870113",
+  "test": "e0-wolv-self",
+  "seed": 870113,
+  "left": [
+   [
+    "Dolphin",
+    5,
+    20
+   ],
+   [
+    "Pig",
+    2,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Wolverine",
+    6,
+    22
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 5/18 | s1 2/18 | s2 3/? | s3 6/20",
+   "O": "s0 1/-3 | s1 1/28",
+   "frame": null
+  },
+  "terminal": {
+   "P": "s0 5/13 | s1 2/18 | s2 3/19 | s3 6/20",
+   "O": "empty",
+   "frame": "tl/f0086.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Dolphin 5/18, Pig 2/18, Beaver 3/19, Wolverine 6/20] O[Fish 1/28]",
+     "after-attack-01: P[Dolphin 5/17, Pig 2/18, Beaver 3/19, Wolverine 6/20] O[Fish 1/20]",
+     "after-attack-02: P[Dolphin 5/16, Pig 2/18, Beaver 3/19, Wolverine 6/20] O[Fish 1/15]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-e1-wolv-timing-m1714808783",
+  "test": "e1-wolv-timing",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Pig",
+    5,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Duck",
+    4,
+    22
+   ],
+   [
+    "Fish",
+    2,
+    24
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Hedgehog",
+    1,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    7
+   ]
+  ],
+  "start": {
+   "P": "s0 5/20 | s1 3/21 | s2 4/22 | s3 2/24 | s4 6/23",
+   "O": "s0 1/1 | s1 1/2 | s2 1/7",
+   "frame": "tl/f0031.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/14 | s1 3/17 | s2 4/18 | s3 2/20 | s4 6/19",
+   "O": "empty",
+   "frame": "tl/f0067.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/20, Beaver 3/21, Duck 4/22, Fish 2/24, Wolverine 6/23] O[Hedgehog 1/1, Hedgehog 1/2, Fish 1/7]",
+     "after-attack-01: P[Pig 5/15, Beaver 3/17, Duck 4/18, Fish 2/20, Wolverine 6/19] O[Fish 1/1]",
+     "after-attack-02: P[Pig 5/14, Beaver 3/17, Duck 4/18, Fish 2/20, Wolverine 6/19] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-e1-wolv-timing-p870113",
+  "test": "e1-wolv-timing",
+  "seed": 870113,
+  "left": [
+   [
+    "Pig",
+    5,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Duck",
+    4,
+    22
+   ],
+   [
+    "Fish",
+    2,
+    24
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Hedgehog",
+    1,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    7
+   ]
+  ],
+  "start": {
+   "P": "s0 5/20 | s1 3/21 | s2 4/22 | s3 2/24 | s4 6/23",
+   "O": "s0 1/1 | s1 1/2 | s2 1/7",
+   "frame": "tl/f0040.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/14 | s1 3/17 | s2 4/18 | s3 2/20 | s4 6/19",
+   "O": "empty",
+   "frame": "tl/f0075.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/20, Beaver 3/21, Duck 4/22, Fish 2/24, Wolverine 6/23] O[Hedgehog 1/1, Hedgehog 1/2, Fish 1/7]",
+     "after-attack-01: P[Pig 5/15, Beaver 3/17, Duck 4/18, Fish 2/20, Wolverine 6/19] O[Fish 1/1]",
+     "after-attack-02: P[Pig 5/14, Beaver 3/17, Duck 4/18, Fish 2/20, Wolverine 6/19] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-e2-wolv-dead-m1714808783",
+  "test": "e2-wolv-dead",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Pig",
+    5,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Duck",
+    4,
+    22
+   ],
+   [
+    "Fish",
+    2,
+    24
+   ],
+   [
+    "Wolverine",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Hedgehog",
+    1,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    7
+   ]
+  ],
+  "start": {
+   "P": "s0 5/20 | s1 3/21 | s2 4/22 | s3 2/24 | s4 6/4",
+   "O": "s0 1/1 | s1 1/2 | s2 1/7",
+   "frame": "tl/f0030.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/14 | s1 3/17 | s2 4/18 | s3 2/20",
+   "O": "empty",
+   "frame": "tl/f0069.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/20, Beaver 3/21, Duck 4/22, Fish 2/24, Wolverine 6/4] O[Hedgehog 1/1, Hedgehog 1/2, Fish 1/7]",
+     "after-attack-01: P[Pig 5/15, Beaver 3/17, Duck 4/18, Fish 2/20] O[Fish 1/1]",
+     "after-attack-02: P[Pig 5/14, Beaver 3/17, Duck 4/18, Fish 2/20] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-e2-wolv-dead-p870113",
+  "test": "e2-wolv-dead",
+  "seed": 870113,
+  "left": [
+   [
+    "Pig",
+    5,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Duck",
+    4,
+    22
+   ],
+   [
+    "Fish",
+    2,
+    24
+   ],
+   [
+    "Wolverine",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Hedgehog",
+    1,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    7
+   ]
+  ],
+  "start": {
+   "P": "s0 5/20 | s1 3/21 | s2 4/22 | s3 2/24 | s4 6/4",
+   "O": "s0 1/1 | s1 1/2 | s2 1/7",
+   "frame": "tl/f0032.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/14 | s1 3/17 | s2 4/18 | s3 2/20",
+   "O": "empty",
+   "frame": "tl/f0067.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Pig 5/20, Beaver 3/21, Duck 4/22, Fish 2/24, Wolverine 6/4] O[Hedgehog 1/1, Hedgehog 1/2, Fish 1/7]",
+     "after-attack-01: P[Pig 5/15, Beaver 3/17, Duck 4/18, Fish 2/20] O[Fish 1/1]",
+     "after-attack-02: P[Pig 5/14, Beaver 3/17, Duck 4/18, Fish 2/20] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-e3-wolv-both-m1714808783",
+  "test": "e3-wolv-both",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Pig",
+    2,
+    7
+   ],
+   [
+    "Beaver",
+    3,
+    7
+   ],
+   [
+    "Duck",
+    4,
+    7
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Pig",
+    2,
+    7
+   ],
+   [
+    "Beaver",
+    3,
+    7
+   ],
+   [
+    "Duck",
+    4,
+    7
+   ],
+   [
+    "Wolverine",
+    5,
+    24
+   ]
+  ],
+  "start": {
+   "P": "s0 1/1 | s1 2/7 | s2 3/7 | s3 4/7 | s4 6/23",
+   "O": "s0 1/1 | s1 2/7 | s2 3/7 | s3 4/7 | s4 5/24",
+   "frame": "tl/f0031.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "empty",
+   "frame": "tl/f0125.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Hedgehog 1/1, Pig 2/7, Beaver 3/7, Duck 4/7, Wolverine 6/23] O[Hedgehog 1/1, Pig 2/7, Beaver 3/7, Duck 4/7, Wolverine 5/24]",
+     "after-attack-01: P[Pig 2/1, Beaver 3/1, Duck 4/1, Wolverine 6/16] O[Pig 2/1, Beaver 3/1, Duck 4/1, Wolverine 5/17]",
+     "after-attack-02: P[Beaver 3/1, Duck 4/1, Wolverine 6/13] O[Beaver 3/1, Duck 4/1, Wolverine 5/14]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-e3-wolv-both-p870113",
+  "test": "e3-wolv-both",
+  "seed": 870113,
+  "left": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Pig",
+    2,
+    7
+   ],
+   [
+    "Beaver",
+    3,
+    7
+   ],
+   [
+    "Duck",
+    4,
+    7
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Pig",
+    2,
+    7
+   ],
+   [
+    "Beaver",
+    3,
+    7
+   ],
+   [
+    "Duck",
+    4,
+    7
+   ],
+   [
+    "Wolverine",
+    5,
+    24
+   ]
+  ],
+  "start": {
+   "P": "s0 1/1 | s1 2/7 | s2 3/7 | s3 4/7 | s4 6/23",
+   "O": "s0 1/1 | s1 2/7 | s2 3/7 | s3 4/7 | s4 5/24",
+   "frame": "tl/f0030.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "empty",
+   "frame": "tl/f0118.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Hedgehog 1/1, Pig 2/7, Beaver 3/7, Duck 4/7, Wolverine 6/23] O[Hedgehog 1/1, Pig 2/7, Beaver 3/7, Duck 4/7, Wolverine 5/24]",
+     "after-attack-01: P[Pig 2/1, Beaver 3/1, Duck 4/1, Wolverine 6/16] O[Pig 2/1, Beaver 3/1, Duck 4/1, Wolverine 5/17]",
+     "after-attack-02: P[Beaver 3/1, Duck 4/1, Wolverine 6/13] O[Beaver 3/1, Duck 4/1, Wolverine 5/14]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-e4-wolv-pair-m1714808783",
+  "test": "e4-wolv-pair",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Pig",
+    2,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ],
+   [
+    "Wolverine",
+    5,
+    24
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    20
+   ]
+  ],
+  "start": {
+   "P": "s0 1/1 | s1 2/20 | s2 3/21 | s3 6/23 | s4 5/24",
+   "O": "s0 1/1 | s1 1/20",
+   "frame": "tl/f0031.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/14 | s1 3/17 | s2 6/19 | s3 5/20",
+   "O": "empty",
+   "frame": "tl/f0069.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Hedgehog 1/1, Pig 2/20, Beaver 3/21, Wolverine 6/23, Wolverine 5/24] O[Hedgehog 1/1, Fish 1/20]",
+     "after-attack-01: P[Pig 2/16, Beaver 3/17, Wolverine 6/19, Wolverine 5/20] O[Fish 1/10]",
+     "after-attack-02: P[Pig 2/15, Beaver 3/17, Wolverine 6/19, Wolverine 5/20] O[Fish 1/2]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-e4-wolv-pair-p870113",
+  "test": "e4-wolv-pair",
+  "seed": 870113,
+  "left": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Pig",
+    2,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ],
+   [
+    "Wolverine",
+    5,
+    24
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    20
+   ]
+  ],
+  "start": {
+   "P": "s0 1/1 | s1 2/20 | s2 3/21 | s3 6/23 | s4 5/24",
+   "O": "s0 1/1 | s1 1/20",
+   "frame": "tl/f0036.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/14 | s1 3/17 | s2 6/19 | s3 5/20",
+   "O": "empty",
+   "frame": "tl/f0077.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Hedgehog 1/1, Pig 2/20, Beaver 3/21, Wolverine 6/23, Wolverine 5/24] O[Hedgehog 1/1, Fish 1/20]",
+     "after-attack-01: P[Pig 2/16, Beaver 3/17, Wolverine 6/19, Wolverine 5/20] O[Fish 1/10]",
+     "after-attack-02: P[Pig 2/15, Beaver 3/17, Wolverine 6/19, Wolverine 5/20] O[Fish 1/2]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-e5-wolv-vs-rhino-m1714808783",
+  "test": "e5-wolv-vs-rhino",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Rhino",
+    6,
+    20
+   ],
+   [
+    "Pig",
+    2,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Duck",
+    4,
+    22
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    7
+   ],
+   [
+    "Fish",
+    2,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 6/20 | s1 2/20 | s2 3/21 | s3 4/22 | s4 6/23",
+   "O": "s0 1/1 | s1 1/7 | s2 2/30",
+   "frame": "tl/f0036.jpg"
+  },
+  "terminal": {
+   "P": "s0 6/11 | s1 2/18 | s2 3/19 | s3 4/20 | s4 6/21",
+   "O": "empty",
+   "frame": "tl/f0077.jpg"
+  },
+  "engine": []
+ },
+ {
+  "capture": "c3-e5-wolv-vs-rhino-p870113",
+  "test": "e5-wolv-vs-rhino",
+  "seed": 870113,
+  "left": [
+   [
+    "Rhino",
+    6,
+    20
+   ],
+   [
+    "Pig",
+    2,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Duck",
+    4,
+    22
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    7
+   ],
+   [
+    "Fish",
+    2,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 6/20 | s1 2/20 | s2 3/21 | s3 4/22 | s4 6/23",
+   "O": "s0 1/1 | s1 1/7 | s2 2/30",
+   "frame": "tl/f0048.jpg"
+  },
+  "terminal": {
+   "P": "s0 6/11 | s1 2/18 | s2 3/19 | s3 4/20 | s4 6/21",
+   "O": "empty",
+   "frame": null
+  },
+  "engine": []
+ },
+ {
+  "capture": "c3-e5b-wolv-vs-rhino-tier2-m1714808783",
+  "test": "e5b-wolv-vs-rhino-tier2",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Rhino",
+    6,
+    20
+   ],
+   [
+    "Pig",
+    2,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Duck",
+    4,
+    22
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Snail",
+    1,
+    7
+   ],
+   [
+    "Swan",
+    2,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 6/20 | s1 2/20 | s2 3/21 | s3 4/22 | s4 6/23",
+   "O": "s0 1/1 | s1 1/7 | s2 2/30",
+   "frame": "tl/f0034.jpg"
+  },
+  "terminal": {
+   "P": "s0 6/10 | s1 2/18 | s2 3/19 | s3 4/20 | s4 6/21",
+   "O": "empty",
+   "frame": null
+  },
+  "engine": [
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Rhino 6/20, Pig 2/20, Beaver 3/21, Duck 4/22, Wolverine 6/23] O[Hedgehog 1/1, Snail 1/7, Swan 2/30]",
+     "after-attack-01: P[Rhino 6/17, Pig 2/18, Beaver 3/19, Duck 4/20, Wolverine 6/21] O[Swan 2/21]",
+     "after-attack-02: P[Rhino 6/15, Pig 2/18, Beaver 3/19, Duck 4/20, Wolverine 6/21] O[Swan 2/15]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-e5b-wolv-vs-rhino-tier2-p870113",
+  "test": "e5b-wolv-vs-rhino-tier2",
+  "seed": 870113,
+  "left": [
+   [
+    "Rhino",
+    6,
+    20
+   ],
+   [
+    "Pig",
+    2,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Duck",
+    4,
+    22
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Snail",
+    1,
+    7
+   ],
+   [
+    "Swan",
+    2,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 6/20 | s1 2/20 | s2 3/21 | s3 4/22 | s4 6/23",
+   "O": "s0 1/1 | s1 1/7 | s2 2/30",
+   "frame": "tl/f0051.jpg"
+  },
+  "terminal": {
+   "P": "s0 6/10 | s1 2/18 | s2 3/19 | s3 4/20 | s4 6/21",
+   "O": "empty",
+   "frame": "tl/f0103.jpg"
+  },
+  "engine": [
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Rhino 6/20, Pig 2/20, Beaver 3/21, Duck 4/22, Wolverine 6/23] O[Hedgehog 1/1, Snail 1/7, Swan 2/30]",
+     "after-attack-01: P[Rhino 6/17, Pig 2/18, Beaver 3/19, Duck 4/20, Wolverine 6/21] O[Swan 2/21]",
+     "after-attack-02: P[Rhino 6/15, Pig 2/18, Beaver 3/19, Duck 4/20, Wolverine 6/21] O[Swan 2/15]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-em1-empty-opponent-p870113",
+  "test": "em1-empty-opponent",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    3,
+    10
+   ],
+   [
+    "Whale",
+    2,
+    8
+   ],
+   [
+    "Dodo",
+    6,
+    5
+   ]
+  ],
+  "right": [],
+  "start": null,
+  "terminal": {
+   "P": "s0 3/10 | s1 2/8 | s2 6/5",
+   "O": "empty",
+   "frame": "tl/f0043.jpg"
+  },
+  "engine": [
+   {
+    "count": 24,
+    "steps": [
+     "start: P[Whale 5/8, Dodo 6/5] O[empty]",
+     "final: P[Whale 5/8, Dodo 6/5] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f10-snake-tiger-dead-front-m1714808783",
+  "test": "f10-snake-tiger-dead-front",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    9,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Pig",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Fish",
+    2,
+    31
+   ]
+  ],
+  "start": {
+   "P": "s0 9/50 | s1 8/3 | s2 6/4",
+   "O": "s0 1/1 | s1 1/30 | s2 2/31",
+   "frame": "tl/f0034.jpg"
+  },
+  "terminal": {
+   "P": "s0 9/41 | s1 8/3 | s2 6/4",
+   "O": "empty",
+   "frame": "tl/f0076.jpg"
+  },
+  "engine": [
+   {
+    "count": 31,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/11, Fish 2/21]"
+    ]
+   },
+   {
+    "count": 30,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/6, Fish 2/26]"
+    ]
+   },
+   {
+    "count": 24,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/20, Fish 2/31]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/6, Fish 2/26]"
+    ]
+   },
+   {
+    "count": 15,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/11, Fish 2/21]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f10-snake-tiger-dead-front-m402918337",
+  "test": "f10-snake-tiger-dead-front",
+  "seed": -402918337,
+  "left": [
+   [
+    "Fish",
+    9,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Pig",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Fish",
+    2,
+    31
+   ]
+  ],
+  "start": {
+   "P": "s0 9/50 | s1 8/3 | s2 6/4",
+   "O": "s0 1/1 | s1 1/30 | s2 2/31",
+   "frame": "tl/f0034.jpg"
+  },
+  "terminal": {
+   "P": "s0 ?/41 | s1 8/3 | s2 6/4",
+   "O": "empty",
+   "frame": "tl/f0075.jpg"
+  },
+  "engine": [
+   {
+    "count": 31,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/11, Fish 2/21]"
+    ]
+   },
+   {
+    "count": 30,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/6, Fish 2/26]"
+    ]
+   },
+   {
+    "count": 24,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/20, Fish 2/31]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/6, Fish 2/26]"
+    ]
+   },
+   {
+    "count": 15,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/11, Fish 2/21]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f10-snake-tiger-dead-front-p1203948571",
+  "test": "f10-snake-tiger-dead-front",
+  "seed": 1203948571,
+  "left": [
+   [
+    "Fish",
+    9,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Pig",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Fish",
+    2,
+    31
+   ]
+  ],
+  "start": {
+   "P": "s0 9/50 | s1 8/3 | s2 6/4",
+   "O": "s0 1/1 | s1 1/30 | s2 2/31",
+   "frame": "tl/f0039.jpg"
+  },
+  "terminal": {
+   "P": "s0 9/42 | s1 8/3 | s2 6/4",
+   "O": "empty",
+   "frame": "tl/f0082.jpg"
+  },
+  "engine": [
+   {
+    "count": 31,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/11, Fish 2/21]"
+    ]
+   },
+   {
+    "count": 30,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/6, Fish 2/26]"
+    ]
+   },
+   {
+    "count": 24,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/20, Fish 2/31]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/6, Fish 2/26]"
+    ]
+   },
+   {
+    "count": 15,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/11, Fish 2/21]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f10-snake-tiger-dead-front-p870113",
+  "test": "f10-snake-tiger-dead-front",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    9,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Pig",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Fish",
+    2,
+    31
+   ]
+  ],
+  "start": {
+   "P": "s0 9/50 | s1 8/3 | s2 6/4",
+   "O": "s0 1/1 | s1 1/30 | s2 2/31",
+   "frame": "tl/f0035.jpg"
+  },
+  "terminal": {
+   "P": "s0 9/41 | s1 8/3 | s2 6/4",
+   "O": "empty",
+   "frame": "tl/f0075.jpg"
+  },
+  "engine": [
+   {
+    "count": 31,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/11, Fish 2/21]"
+    ]
+   },
+   {
+    "count": 30,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/6, Fish 2/26]"
+    ]
+   },
+   {
+    "count": 24,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/20, Fish 2/31]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/6, Fish 2/26]"
+    ]
+   },
+   {
+    "count": 15,
+    "steps": [
+     "start: P[Fish 9/50, Snake 8/3, Tiger 6/4] O[Pig 1/1, Fish 1/30, Fish 2/31]",
+     "after-attack-01: P[Fish 9/49, Snake 8/3, Tiger 6/4] O[Fish 1/25, Fish 2/26]",
+     "after-attack-02: P[Fish 9/48, Snake 8/3, Tiger 6/4] O[Fish 1/11, Fish 2/21]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f11-hippo-tiger-limit-m1714808783",
+  "test": "f11-hippo-tiger-limit",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Hippo",
+    10,
+    50
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Pig",
+    1,
+    3
+   ],
+   [
+    "Duck",
+    1,
+    4
+   ],
+   [
+    "Beaver",
+    1,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 10/50 | s1 6/4",
+   "O": "s0 1/1 | s1 1/2 | s2 1/3 | s3 1/4 | s4 1/5",
+   "frame": "tl/f0038.jpg"
+  },
+  "terminal": {
+   "P": "s0 ?/47 | s1 6/4",
+   "O": "empty",
+   "frame": "tl/f0079.jpg"
+  },
+  "engine": [
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Hippo 10/50, Tiger 6/4] O[Fish 1/1, Fish 1/2, Pig 1/3, Duck 1/4, Beaver 1/5]",
+     "after-attack-01: P[Hippo 16/50, Tiger 6/4] O[Fish 1/2, Pig 1/3, Duck 1/4, Beaver 1/5]",
+     "after-attack-02: P[Hippo 22/50, Tiger 6/4] O[Pig 1/3, Duck 1/4, Beaver 1/5]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f11-hippo-tiger-limit-p870113",
+  "test": "f11-hippo-tiger-limit",
+  "seed": 870113,
+  "left": [
+   [
+    "Hippo",
+    10,
+    50
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Pig",
+    1,
+    3
+   ],
+   [
+    "Duck",
+    1,
+    4
+   ],
+   [
+    "Beaver",
+    1,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 10/50 | s1 6/4",
+   "O": "s0 1/1 | s1 1/2 | s2 1/3 | s3 1/4 | s4 1/5",
+   "frame": "tl/f0036.jpg"
+  },
+  "terminal": {
+   "P": "s0 19/47 | s1 6/4",
+   "O": "empty",
+   "frame": "tl/f0082.jpg"
+  },
+  "engine": [
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Hippo 10/50, Tiger 6/4] O[Fish 1/1, Fish 1/2, Pig 1/3, Duck 1/4, Beaver 1/5]",
+     "after-attack-01: P[Hippo 16/50, Tiger 6/4] O[Fish 1/2, Pig 1/3, Duck 1/4, Beaver 1/5]",
+     "after-attack-02: P[Hippo 22/50, Tiger 6/4] O[Pig 1/3, Duck 1/4, Beaver 1/5]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f11c-hippo-alone-control-p870113",
+  "test": "f11c-hippo-alone-control",
+  "seed": 870113,
+  "left": [
+   [
+    "Hippo",
+    10,
+    50
+   ],
+   [
+    "Fish",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Pig",
+    1,
+    3
+   ],
+   [
+    "Duck",
+    1,
+    4
+   ],
+   [
+    "Beaver",
+    1,
+    5
+   ]
+  ],
+  "start": {
+   "P": "s0 10/50 | s1 6/4",
+   "O": "s0 1/1 | s1 1/2 | s2 1/3 | s3 1/4 | s4 1/5",
+   "frame": "tl/f0042.jpg"
+  },
+  "terminal": {
+   "P": "s0 19/48 | s1 6/4",
+   "O": "empty",
+   "frame": "tl/f0089.jpg"
+  },
+  "engine": [
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Hippo 10/50, Fish 6/4] O[Fish 1/1, Fish 1/2, Pig 1/3, Duck 1/4, Beaver 1/5]",
+     "after-attack-01: P[Hippo 13/50, Fish 6/4] O[Fish 1/2, Pig 1/3, Duck 1/4, Beaver 1/5]",
+     "after-attack-02: P[Hippo 16/50, Fish 6/4] O[Pig 1/3, Duck 1/4, Beaver 1/5]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f13-tiger-killed-by-original-m1714808783",
+  "test": "f13-tiger-killed-by-original",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Hedgehog",
+    9,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    3,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 9/1 | s1 4/2 | s2 2/20",
+   "O": "s0 3/1 | s1 1/30",
+   "frame": "tl/f0036.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/3",
+   "O": "empty",
+   "frame": "tl/f0098.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Hedgehog 9/1, Tiger 4/2, Fish 2/20] O[Fish 3/1, Fish 1/30]",
+     "after-attack-01: P[Fish 2/16] O[Fish 1/26]",
+     "after-attack-02: P[Fish 2/15] O[Fish 1/24]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f13-tiger-killed-by-original-p870113",
+  "test": "f13-tiger-killed-by-original",
+  "seed": 870113,
+  "left": [
+   [
+    "Hedgehog",
+    9,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    3,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 9/1 | s1 4/2 | s2 2/20",
+   "O": "s0 3/1 | s1 1/30",
+   "frame": "tl/f0037.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/3",
+   "O": "empty",
+   "frame": "tl/f0096.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Hedgehog 9/1, Tiger 4/2, Fish 2/20] O[Fish 3/1, Fish 1/30]",
+     "after-attack-01: P[Fish 2/16] O[Fish 1/26]",
+     "after-attack-02: P[Fish 2/15] O[Fish 1/24]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f14-hedgehog-tiger-die-together-m1714808783",
+  "test": "f14-hedgehog-tiger-die-together",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    3,
+    20
+   ],
+   [
+    "Hedgehog",
+    2,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    21
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 3/20 | s1 2/2 | s2 4/2 | s3 2/21",
+   "O": "s0 1/1 | s1 1/30",
+   "frame": "tl/f0037.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/5 | s1 2/15",
+   "O": "empty",
+   "frame": "tl/f0086.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/20, Hedgehog 2/2, Tiger 4/2, Fish 2/21] O[Hedgehog 1/1, Fish 1/30]",
+     "after-attack-01: P[Fish 3/13, Fish 2/15] O[Fish 1/24]",
+     "after-attack-02: P[Fish 3/12, Fish 2/15] O[Fish 1/21]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f14-hedgehog-tiger-die-together-p870113",
+  "test": "f14-hedgehog-tiger-die-together",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    3,
+    20
+   ],
+   [
+    "Hedgehog",
+    2,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    21
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 3/20 | s1 2/2 | s2 4/2 | s3 2/21",
+   "O": "s0 1/1 | s1 1/30",
+   "frame": "tl/f0035.jpg"
+  },
+  "terminal": {
+   "P": "s0 3/5 | s1 2/15",
+   "O": "empty",
+   "frame": "tl/f0086.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/20, Hedgehog 2/2, Tiger 4/2, Fish 2/21] O[Hedgehog 1/1, Fish 1/30]",
+     "after-attack-01: P[Fish 3/13, Fish 2/15] O[Fish 1/24]",
+     "after-attack-02: P[Fish 3/12, Fish 2/15] O[Fish 1/21]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f1a-tiger-sob-low-m1714808783",
+  "test": "f1a-tiger-sob-low",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Skunk",
+    9,
+    5
+   ],
+   [
+    "Tiger",
+    4,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    3,
+    30
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 9/5 | s1 4/6",
+   "O": "s0 3/13 | s1 5/5",
+   "frame": "tl/f0048.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "empty",
+   "frame": "tl/f0068.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Skunk 9/5, Tiger 4/6] O[Fish 3/13, Crab 5/5]",
+     "after-attack-01: P[Skunk 9/2, Tiger 4/6] O[Fish 3/4, Crab 5/5]",
+     "after-attack-02: P[Tiger 4/6] O[Crab 5/5]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f1a-tiger-sob-low-p870113",
+  "test": "f1a-tiger-sob-low",
+  "seed": 870113,
+  "left": [
+   [
+    "Skunk",
+    9,
+    5
+   ],
+   [
+    "Tiger",
+    4,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    3,
+    30
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 9/5 | s1 4/6",
+   "O": "s0 3/13 | s1 5/5",
+   "frame": "tl/f0040.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "empty",
+   "frame": "tl/f0062.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Skunk 9/5, Tiger 4/6] O[Fish 3/13, Crab 5/5]",
+     "after-attack-01: P[Skunk 9/2, Tiger 4/6] O[Fish 3/4, Crab 5/5]",
+     "after-attack-02: P[Tiger 4/6] O[Crab 5/5]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f1b-tiger-sob-mid-m1714808783",
+  "test": "f1b-tiger-sob-mid",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Skunk",
+    9,
+    5
+   ],
+   [
+    "Tiger",
+    7,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    3,
+    30
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 9/5 | s1 7/6",
+   "O": "s0 3/20 | s1 5/5",
+   "frame": "tl/f0048.jpg"
+  },
+  "terminal": {
+   "P": "s0 7/1",
+   "O": "empty",
+   "frame": "tl/f0065.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Skunk 9/5, Tiger 7/6] O[Fish 3/13, Crab 5/5]",
+     "after-attack-01: P[Skunk 9/2, Tiger 7/6] O[Fish 3/4, Crab 5/5]",
+     "after-attack-02: P[Tiger 7/6] O[Crab 5/5]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f1b-tiger-sob-mid-p870113",
+  "test": "f1b-tiger-sob-mid",
+  "seed": 870113,
+  "left": [
+   [
+    "Skunk",
+    9,
+    5
+   ],
+   [
+    "Tiger",
+    7,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    3,
+    30
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 9/5 | s1 7/6",
+   "O": "s0 3/13 | s1 5/5",
+   "frame": "tl/f0045.jpg"
+  },
+  "terminal": {
+   "P": "s0 7/1",
+   "O": "empty",
+   "frame": "tl/f0065.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Skunk 9/5, Tiger 7/6] O[Fish 3/13, Crab 5/5]",
+     "after-attack-01: P[Skunk 9/2, Tiger 7/6] O[Fish 3/4, Crab 5/5]",
+     "after-attack-02: P[Tiger 7/6] O[Crab 5/5]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f1c-notiger-control-m1714808783",
+  "test": "f1c-notiger-control",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Skunk",
+    9,
+    5
+   ],
+   [
+    "Fish",
+    4,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    3,
+    30
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 9/5 | s1 4/6",
+   "O": "s0 3/20 | s1 5/6",
+   "frame": null
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 5/2",
+   "frame": "tl/f0072.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Skunk 9/5, Fish 4/6] O[Fish 3/20, Crab 5/6]",
+     "after-attack-01: P[Skunk 9/2, Fish 4/6] O[Fish 3/11, Crab 5/6]",
+     "after-attack-02: P[Fish 4/6] O[Fish 3/2, Crab 5/6]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f1c-notiger-control-p870113",
+  "test": "f1c-notiger-control",
+  "seed": 870113,
+  "left": [
+   [
+    "Skunk",
+    9,
+    5
+   ],
+   [
+    "Fish",
+    4,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    3,
+    30
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 9/5 | s1 4/6",
+   "O": "s0 3/20 | s1 5/6",
+   "frame": "tl/f0046.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 5/2",
+   "frame": "tl/f0069.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Skunk 9/5, Fish 4/6] O[Fish 3/20, Crab 5/6]",
+     "after-attack-01: P[Skunk 9/2, Fish 4/6] O[Fish 3/11, Crab 5/6]",
+     "after-attack-02: P[Fish 4/6] O[Fish 3/2, Crab 5/6]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f2-tiger-faint-m1714808783",
+  "test": "f2-tiger-faint",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Hedgehog",
+    9,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Mammoth",
+    3,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 9/1 | s1 4/20",
+   "O": "s0 3/1 | s1 1/4",
+   "frame": "tl/f0041.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/18",
+   "O": "empty",
+   "frame": "tl/f0055.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Hedgehog 9/1, Tiger 4/20] O[Mammoth 3/1, Fish 1/4]",
+     "after-attack-01: P[Tiger 4/16] O[empty]",
+     "final: P[Tiger 4/16] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f2-tiger-faint-p870113",
+  "test": "f2-tiger-faint",
+  "seed": 870113,
+  "left": [
+   [
+    "Hedgehog",
+    9,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Mammoth",
+    3,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 9/1 | s1 4/20",
+   "O": "s0 3/1 | s1 1/4",
+   "frame": "tl/f0040.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/18",
+   "O": "empty",
+   "frame": "tl/f0062.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Hedgehog 9/1, Tiger 4/20] O[Mammoth 3/1, Fish 1/4]",
+     "after-attack-01: P[Tiger 4/16] O[empty]",
+     "final: P[Tiger 4/16] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f2r-tiger-faint-rev-m1714808783",
+  "test": "f2r-tiger-faint-rev",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Hedgehog",
+    2,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Mammoth",
+    9,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 2/1 | s1 4/20",
+   "O": "s0 9/1 | s1 1/4",
+   "frame": "tl/f0040.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/13",
+   "O": "empty",
+   "frame": "tl/f0068.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Hedgehog 2/1, Tiger 4/20] O[Mammoth 9/1, Fish 1/4]",
+     "after-attack-01: P[Tiger 4/16] O[Fish 3/2]",
+     "after-attack-02: P[Tiger 4/13] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f2r-tiger-faint-rev-p870113",
+  "test": "f2r-tiger-faint-rev",
+  "seed": 870113,
+  "left": [
+   [
+    "Hedgehog",
+    2,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Mammoth",
+    9,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 2/1 | s1 4/20",
+   "O": "s0 9/1 | s1 1/4",
+   "frame": "tl/f0041.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/13",
+   "O": "empty",
+   "frame": "tl/f0066.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Hedgehog 2/1, Tiger 4/20] O[Mammoth 9/1, Fish 1/4]",
+     "after-attack-01: P[Tiger 4/16] O[Fish 3/2]",
+     "after-attack-02: P[Tiger 4/13] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f2x-tiger-faint-continues-m1714808783",
+  "test": "f2x-tiger-faint-continues",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Hedgehog",
+    9,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Mammoth",
+    3,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    4
+   ],
+   [
+    "Fish",
+    2,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 9/1 | s1 4/20",
+   "O": "s0 3/1 | s1 1/4 | s2 2/40",
+   "frame": "tl/f0036.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 4/22",
+   "frame": "tl/f0069.jpg"
+  },
+  "engine": []
+ },
+ {
+  "capture": "c3-f2x-tiger-faint-continues-p870113",
+  "test": "f2x-tiger-faint-continues",
+  "seed": 870113,
+  "left": [
+   [
+    "Hedgehog",
+    9,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Mammoth",
+    3,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    4
+   ],
+   [
+    "Fish",
+    2,
+    40
+   ]
+  ],
+  "start": {
+   "P": "s0 9/1 | s1 4/20",
+   "O": "s0 3/1 | s1 1/4 | s2 2/40",
+   "frame": "tl/f0032.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 4/22",
+   "frame": "tl/f0064.jpg"
+  },
+  "engine": []
+ },
+ {
+  "capture": "c3-f7-tiger-dies-too-m1714808783",
+  "test": "f7-tiger-dies-too",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 1/2 | s1 4/2 | s2 2/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0038.jpg"
+  },
+  "terminal": {
+   "P": "s0 1/1 | s2 2/18",
+   "O": "empty",
+   "frame": "tl/f0057.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Cricket 1/2, Tiger 4/2, Fish 2/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[empty]",
+     "final: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f7-tiger-dies-too-p870113",
+  "test": "f7-tiger-dies-too",
+  "seed": 870113,
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ],
+  "start": {
+   "P": "s0 1/2 | s1 4/2 | s2 2/20",
+   "O": "s0 1/1",
+   "frame": "tl/f0039.jpg"
+  },
+  "terminal": {
+   "P": "s0 1/1 | s2 2/18",
+   "O": "empty",
+   "frame": "tl/f0062.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Cricket 1/2, Tiger 4/2, Fish 2/20] O[Hedgehog 1/1]",
+     "after-attack-01: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[empty]",
+     "final: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f7c-tiger-survives-control-m1714808783",
+  "test": "f7c-tiger-survives-control",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    9
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 1/2 | s1 4/9 | s2 2/20",
+   "O": "s0 1/1 | s1 1/30",
+   "frame": "tl/f0036.jpg"
+  },
+  "terminal": {
+   "P": "s1 2/18",
+   "O": "empty",
+   "frame": "tl/f0090.jpg"
+  },
+  "engine": []
+ },
+ {
+  "capture": "c3-f7c-tiger-survives-control-p870113",
+  "test": "f7c-tiger-survives-control",
+  "seed": 870113,
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    9
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 1/2 | s1 4/? | s2 2/20",
+   "O": "s0 1/1 | s1 1/30",
+   "frame": null
+  },
+  "terminal": {
+   "P": "s1 2/18",
+   "O": "empty",
+   "frame": "tl/f0091.jpg"
+  },
+  "engine": []
+ },
+ {
+  "capture": "c3-f7x-tiger-dies-too-continues-m1714808783",
+  "test": "f7x-tiger-dies-too-continues",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 1/2 | s1 4/2 | s2 2/20",
+   "O": "s0 1/1 | s1 1/30",
+   "frame": "tl/f0035.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/4",
+   "O": "empty",
+   "frame": "tl/f0108.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Cricket 1/2, Tiger 4/2, Fish 2/20] O[Hedgehog 1/1, Fish 1/30]",
+     "after-attack-01: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[Fish 1/28]",
+     "after-attack-02: P[Zombie Cricket 1/1, Fish 2/18] O[Fish 1/27]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f7x-tiger-dies-too-continues-m2000000011",
+  "test": "f7x-tiger-dies-too-continues",
+  "seed": -2000000011,
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 1/2 | s1 4/2 | s2 2/20",
+   "O": "s0 1/1 | s1 1/30",
+   "frame": "tl/f0037.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/4",
+   "O": "empty",
+   "frame": "tl/f0107.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Cricket 1/2, Tiger 4/2, Fish 2/20] O[Hedgehog 1/1, Fish 1/30]",
+     "after-attack-01: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[Fish 1/28]",
+     "after-attack-02: P[Zombie Cricket 1/1, Fish 2/18] O[Fish 1/27]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f7x-tiger-dies-too-continues-m402918337",
+  "test": "f7x-tiger-dies-too-continues",
+  "seed": -402918337,
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 1/2 | s1 4/2 | s2 2/20",
+   "O": "s0 1/1 | s1 1/30",
+   "frame": "tl/f0037.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/4",
+   "O": "empty",
+   "frame": "tl/f0110.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Cricket 1/2, Tiger 4/2, Fish 2/20] O[Hedgehog 1/1, Fish 1/30]",
+     "after-attack-01: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[Fish 1/28]",
+     "after-attack-02: P[Zombie Cricket 1/1, Fish 2/18] O[Fish 1/27]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f7x-tiger-dies-too-continues-m987654321",
+  "test": "f7x-tiger-dies-too-continues",
+  "seed": -987654321,
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 1/2 | s1 4/2 | s2 2/20",
+   "O": "s0 1/1 | s1 1/30",
+   "frame": "tl/f0037.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/4",
+   "O": "empty",
+   "frame": "tl/f0107.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Cricket 1/2, Tiger 4/2, Fish 2/20] O[Hedgehog 1/1, Fish 1/30]",
+     "after-attack-01: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[Fish 1/28]",
+     "after-attack-02: P[Zombie Cricket 1/1, Fish 2/18] O[Fish 1/27]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f7x-tiger-dies-too-continues-p1203948571",
+  "test": "f7x-tiger-dies-too-continues",
+  "seed": 1203948571,
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 1/2 | s1 4/2 | s2 2/20",
+   "O": "s0 1/1 | s1 1/30",
+   "frame": "tl/f0035.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/4",
+   "O": "empty",
+   "frame": "tl/f0104.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Cricket 1/2, Tiger 4/2, Fish 2/20] O[Hedgehog 1/1, Fish 1/30]",
+     "after-attack-01: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[Fish 1/28]",
+     "after-attack-02: P[Zombie Cricket 1/1, Fish 2/18] O[Fish 1/27]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f7x-tiger-dies-too-continues-p1999999937",
+  "test": "f7x-tiger-dies-too-continues",
+  "seed": 1999999937,
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 1/2 | s1 4/2 | s2 2/20",
+   "O": "s0 1/1 | s1 1/30",
+   "frame": "tl/f0035.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/4",
+   "O": "empty",
+   "frame": "tl/f0107.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Cricket 1/2, Tiger 4/2, Fish 2/20] O[Hedgehog 1/1, Fish 1/30]",
+     "after-attack-01: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[Fish 1/28]",
+     "after-attack-02: P[Zombie Cricket 1/1, Fish 2/18] O[Fish 1/27]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f7x-tiger-dies-too-continues-p55555",
+  "test": "f7x-tiger-dies-too-continues",
+  "seed": 55555,
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 1/2 | s1 4/2 | s2 2/20",
+   "O": "s0 1/1 | s1 1/30",
+   "frame": "tl/f0036.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/4",
+   "O": "empty",
+   "frame": "tl/f0109.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Cricket 1/2, Tiger 4/2, Fish 2/20] O[Hedgehog 1/1, Fish 1/30]",
+     "after-attack-01: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[Fish 1/28]",
+     "after-attack-02: P[Zombie Cricket 1/1, Fish 2/18] O[Fish 1/27]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f7x-tiger-dies-too-continues-p870113",
+  "test": "f7x-tiger-dies-too-continues",
+  "seed": 870113,
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 1/2 | s1 4/2 | s2 2/20",
+   "O": "s0 1/1 | s1 1/30",
+   "frame": "tl/f0038.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/4",
+   "O": "empty",
+   "frame": "tl/f0111.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Cricket 1/2, Tiger 4/2, Fish 2/20] O[Hedgehog 1/1, Fish 1/30]",
+     "after-attack-01: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[Fish 1/28]",
+     "after-attack-02: P[Zombie Cricket 1/1, Fish 2/18] O[Fish 1/27]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f9-snake-tiger-shots-m1714808783",
+  "test": "f9-snake-tiger-shots",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Pig",
+    2,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 1/50 | s1 8/3 | s2 6/4",
+   "O": "s0 1/50 | s1 2/4",
+   "frame": "tl/f0036.jpg"
+  },
+  "terminal": {
+   "P": "s0 1/20 | s1 8/3 | s2 6/4",
+   "O": "empty",
+   "frame": "tl/f0148.jpg"
+  },
+  "engine": [
+   {
+    "count": 72,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/44]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 5,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   },
+   {
+    "count": 2,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f9-snake-tiger-shots-m2000000011",
+  "test": "f9-snake-tiger-shots",
+  "seed": -2000000011,
+  "left": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Pig",
+    2,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 1/50 | s1 8/3 | s2 6/4",
+   "O": "s0 1/50 | s1 2/4",
+   "frame": "tl/f0038.jpg"
+  },
+  "terminal": {
+   "P": "s0 1/20 | s1 8/3 | s2 6/4",
+   "O": "empty",
+   "frame": "tl/f0148.jpg"
+  },
+  "engine": [
+   {
+    "count": 72,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/44]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 5,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   },
+   {
+    "count": 2,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f9-snake-tiger-shots-m271828182",
+  "test": "f9-snake-tiger-shots",
+  "seed": -271828182,
+  "left": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Pig",
+    2,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 1/50 | s1 8/3 | s2 6/4",
+   "O": "s0 1/50 | s1 2/4",
+   "frame": "tl/f0039.jpg"
+  },
+  "terminal": {
+   "P": "s0 1/20 | s1 8/3 | s2 6/4",
+   "O": "empty",
+   "frame": "tl/f0154.jpg"
+  },
+  "engine": [
+   {
+    "count": 72,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/44]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 5,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   },
+   {
+    "count": 2,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f9-snake-tiger-shots-m402918337",
+  "test": "f9-snake-tiger-shots",
+  "seed": -402918337,
+  "left": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Pig",
+    2,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 1/50 | s1 8/3 | s2 6/4",
+   "O": "s0 1/50 | s1 2/4",
+   "frame": "tl/f0034.jpg"
+  },
+  "terminal": {
+   "P": "s0 1/20 | s1 8/3 | s2 6/4",
+   "O": "empty",
+   "frame": "tl/f0146.jpg"
+  },
+  "engine": [
+   {
+    "count": 72,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/44]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 5,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   },
+   {
+    "count": 2,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f9-snake-tiger-shots-m987654321",
+  "test": "f9-snake-tiger-shots",
+  "seed": -987654321,
+  "left": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Pig",
+    2,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 1/50 | s1 8/3 | s2 6/4",
+   "O": "s0 1/50 | s1 2/4",
+   "frame": "tl/f0039.jpg"
+  },
+  "terminal": {
+   "P": "s0 1/20 | s1 8/3 | s2 6/4",
+   "O": "empty",
+   "frame": "tl/f0154.jpg"
+  },
+  "engine": [
+   {
+    "count": 72,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/44]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 5,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   },
+   {
+    "count": 2,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f9-snake-tiger-shots-p1203948571",
+  "test": "f9-snake-tiger-shots",
+  "seed": 1203948571,
+  "left": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Pig",
+    2,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 1/50 | s1 8/3 | s2 6/4",
+   "O": "s0 1/50 | s1 2/4",
+   "frame": "tl/f0035.jpg"
+  },
+  "terminal": {
+   "P": "s0 1/20 | s1 8/3 | s2 6/4",
+   "O": "empty",
+   "frame": "tl/f0146.jpg"
+  },
+  "engine": [
+   {
+    "count": 72,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/44]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 5,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   },
+   {
+    "count": 2,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f9-snake-tiger-shots-p1999999937",
+  "test": "f9-snake-tiger-shots",
+  "seed": 1999999937,
+  "left": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Pig",
+    2,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 1/50 | s1 8/3 | s2 6/4",
+   "O": "s0 1/50 | s1 2/4",
+   "frame": "tl/f0037.jpg"
+  },
+  "terminal": {
+   "P": "s0 1/20 | s1 8/3 | s2 6/4",
+   "O": "empty",
+   "frame": "tl/f0148.jpg"
+  },
+  "engine": [
+   {
+    "count": 72,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/44]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 5,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   },
+   {
+    "count": 2,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f9-snake-tiger-shots-p314159265",
+  "test": "f9-snake-tiger-shots",
+  "seed": 314159265,
+  "left": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Pig",
+    2,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 1/50 | s1 8/3 | s2 6/4",
+   "O": "s0 1/50 | s1 2/4",
+   "frame": "tl/f0036.jpg"
+  },
+  "terminal": {
+   "P": "s0 1/20 | s1 8/3 | s2 6/4",
+   "O": "empty",
+   "frame": "tl/f0151.jpg"
+  },
+  "engine": [
+   {
+    "count": 72,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/44]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 5,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   },
+   {
+    "count": 2,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f9-snake-tiger-shots-p55555",
+  "test": "f9-snake-tiger-shots",
+  "seed": 55555,
+  "left": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Pig",
+    2,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 1/50 | s1 8/3 | s2 6/4",
+   "O": "s0 1/50 | s1 2/4",
+   "frame": "tl/f0034.jpg"
+  },
+  "terminal": {
+   "P": "s0 1/20 | s1 8/3 | s2 6/4",
+   "O": "empty",
+   "frame": "tl/f0144.jpg"
+  },
+  "engine": [
+   {
+    "count": 72,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/44]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 5,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   },
+   {
+    "count": 2,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-f9-snake-tiger-shots-p870113",
+  "test": "f9-snake-tiger-shots",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    50
+   ],
+   [
+    "Pig",
+    2,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 1/50 | s1 8/3 | s2 6/4",
+   "O": "s0 1/50 | s1 2/4",
+   "frame": "tl/f0033.jpg"
+  },
+  "terminal": {
+   "P": "s0 1/20 | s1 8/3 | s2 6/4",
+   "O": "empty",
+   "frame": "tl/f0153.jpg"
+  },
+  "engine": [
+   {
+    "count": 72,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/44]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 20,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/33]"
+    ]
+   },
+   {
+    "count": 5,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   },
+   {
+    "count": 2,
+    "steps": [
+     "start: P[Fish 1/50, Snake 8/3, Tiger 6/4] O[Fish 1/50, Pig 2/4]",
+     "after-attack-01: P[Fish 1/49, Snake 8/3, Tiger 6/4] O[Fish 1/39, Pig 2/4]",
+     "after-attack-02: P[Fish 1/48, Snake 8/3, Tiger 6/4] O[Fish 1/28, Pig 2/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-g1-rabbit-turtle2-m1714808783",
+  "test": "g1-rabbit-turtle2",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Turtle",
+    2,
+    1,
+    {
+     "lvl": 2
+    }
+   ],
+   [
+    "Fish",
+    3,
+    10
+   ],
+   [
+    "Fish",
+    4,
+    12
+   ],
+   [
+    "Rabbit",
+    1,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 2/1 | s1 3/10 | s2 4/12 | s3 1/20",
+   "O": "s0 5/30",
+   "frame": "tl/f0035.jpg"
+  },
+  "terminal": {
+   "P": "s1 1/20",
+   "O": "empty",
+   "frame": "tl/f0082.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Turtle 2/1, Fish 3/10, Fish 4/12, Rabbit 1/20] O[Fish 5/30]",
+     "after-attack-01: P[Fish 3/11, Fish 4/13, Rabbit 1/20] O[Fish 5/28]",
+     "after-attack-02: P[Fish 3/11, Fish 4/13, Rabbit 1/20] O[Fish 5/25]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-g1-rabbit-turtle2-p870113",
+  "test": "g1-rabbit-turtle2",
+  "seed": 870113,
+  "left": [
+   [
+    "Turtle",
+    2,
+    1,
+    {
+     "lvl": 2
+    }
+   ],
+   [
+    "Fish",
+    3,
+    10
+   ],
+   [
+    "Fish",
+    4,
+    12
+   ],
+   [
+    "Rabbit",
+    1,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 2/1 | s1 3/10 | s2 4/12 | s3 1/20",
+   "O": "s0 5/30",
+   "frame": "tl/f0036.jpg"
+  },
+  "terminal": {
+   "P": "s1 1/20",
+   "O": "empty",
+   "frame": "tl/f0082.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Turtle 2/1, Fish 3/10, Fish 4/12, Rabbit 1/20] O[Fish 5/30]",
+     "after-attack-01: P[Fish 3/11, Fish 4/13, Rabbit 1/20] O[Fish 5/28]",
+     "after-attack-02: P[Fish 3/11, Fish 4/13, Rabbit 1/20] O[Fish 5/25]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-g2-seal-turtle-p870113",
+  "test": "g2-seal-turtle",
+  "seed": 870113,
+  "left": [
+   [
+    "Turtle",
+    2,
+    1
+   ],
+   [
+    "Seal",
+    3,
+    8
+   ],
+   [
+    "Fish",
+    1,
+    10
+   ],
+   [
+    "Fish",
+    2,
+    11
+   ],
+   [
+    "Fish",
+    3,
+    12
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ],
+  "start": {
+   "P": "s0 2/1 | s1 3/8 | s2 1/10 | s3 2/11 | s4 3/12",
+   "O": "s0 5/30",
+   "frame": "tl/f0035.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/2",
+   "O": "empty",
+   "frame": "tl/f0092.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Turtle 2/1, Seal 3/8, Fish 1/10, Fish 2/11, Fish 3/12] O[Fish 5/30]",
+     "after-attack-01: P[Seal 3/8, Fish 2/10, Fish 3/11, Fish 4/12] O[Fish 5/28]",
+     "after-attack-02: P[Seal 3/8, Fish 2/10, Fish 3/11, Fish 4/12] O[Fish 5/25]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h1-deer-gap-behind-m1714808783",
+  "test": "h1-deer-gap-behind",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Deer",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ],
+   null,
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ],
+  "start": {
+   "P": "s0 5/19 | s1 1/1 | s2 5/3 | s3 4/18",
+   "O": "s0 1/30 | s1 2/25",
+   "frame": "tl/f0048.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/3 | s1 1/1 | s2 5/3 | s3 4/18",
+   "O": "empty",
+   "frame": "tl/f0092.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 5/19, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/30, Dolphin 2/25]",
+     "after-attack-01: P[Fish 5/18, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/25, Dolphin 2/25]",
+     "after-attack-02: P[Fish 5/17, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/20, Dolphin 2/25]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h1-deer-gap-behind-p870113",
+  "test": "h1-deer-gap-behind",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Deer",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ],
+   null,
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ],
+  "start": {
+   "P": "s0 5/19 | s1 1/1 | s2 5/3 | s3 4/18",
+   "O": "s0 1/30 | s1 2/25",
+   "frame": "tl/f0049.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/3 | s1 1/1 | s2 5/3 | s3 4/18",
+   "O": "empty",
+   "frame": "tl/f0092.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 5/19, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/30, Dolphin 2/25]",
+     "after-attack-01: P[Fish 5/18, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/25, Dolphin 2/25]",
+     "after-attack-02: P[Fish 5/17, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/20, Dolphin 2/25]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h10-fly1-swallow-vs-snipe-m1714808783",
+  "test": "h10-fly1-swallow-vs-snipe",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 12/14 | s2 15/13 | s3 4/4",
+   "O": "s0 1/40 | s1 8/4",
+   "frame": "tl/f0054.jpg"
+  },
+  "terminal": {
+   "P": "s1 12/14 | s2 15/13 | s3 4/4",
+   "O": "empty",
+   "frame": "tl/f0079.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Whale 12/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Whale 12/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Whale 12/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h10-fly1-swallow-vs-snipe-p870113",
+  "test": "h10-fly1-swallow-vs-snipe",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 4/4 | s2 12/14 | s3 15/13",
+   "O": "s0 1/40 | s1 8/4",
+   "frame": "tl/f0047.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/4 | s2 12/14 | s3 15/13",
+   "O": "empty",
+   "frame": "tl/f0072.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Whale 12/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Whale 12/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Whale 12/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h10r-fly1-swallow-vs-snipe-croc-first-m1714808783",
+  "test": "h10r-fly1-swallow-vs-snipe-croc-first",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    6,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 4/4 | s2 6/14 | s3 15/13",
+   "O": "s0 1/40 | s1 8/4",
+   "frame": "tl/f0054.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/4 | s2 6/14 | s3 15/13",
+   "O": "empty",
+   "frame": "tl/f0080.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Whale 6/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Whale 6/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Whale 6/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h10r-fly1-swallow-vs-snipe-croc-first-p870113",
+  "test": "h10r-fly1-swallow-vs-snipe-croc-first",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    6,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 4/4 | s2 6/14 | s3 15/13",
+   "O": "s0 1/40 | s1 8/4",
+   "frame": "tl/f0050.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/4 | s2 6/14 | s3 15/13",
+   "O": "empty",
+   "frame": "tl/f0072.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Whale 6/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Whale 6/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Whale 6/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h11-deer-gap-ahead-and-behind-m1714808783",
+  "test": "h11-deer-gap-ahead-and-behind",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   null,
+   [
+    "Deer",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ],
+   null,
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ],
+  "start": {
+   "P": "s0 5/19 | s1 5/3 | s2 1/1 | s3 4/18",
+   "O": "s0 1/30 | s1 2/25",
+   "frame": "tl/f0052.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/3 | s1 5/3 | s2 1/1 | s3 4/18",
+   "O": "empty",
+   "frame": "tl/f0093.jpg"
+  },
+  "engine": [
+   {
+    "count": 24,
+    "steps": [
+     "start: P[Fish 5/19, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/30, Dolphin 2/25]",
+     "after-attack-01: P[Fish 5/18, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/25, Dolphin 2/25]",
+     "after-attack-02: P[Fish 5/17, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/20, Dolphin 2/25]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h11-deer-gap-ahead-and-behind-p870113",
+  "test": "h11-deer-gap-ahead-and-behind",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   null,
+   [
+    "Deer",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ],
+   null,
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ],
+  "start": {
+   "P": "s0 5/19 | s1 5/3 | s2 1/1 | s3 4/18",
+   "O": "s0 1/30 | s1 2/25",
+   "frame": "tl/f0062.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/3 | s1 5/3 | s2 1/1 | s3 4/18",
+   "O": "empty",
+   "frame": "tl/f0103.jpg"
+  },
+  "engine": [
+   {
+    "count": 24,
+    "steps": [
+     "start: P[Fish 5/19, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/30, Dolphin 2/25]",
+     "after-attack-01: P[Fish 5/18, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/25, Dolphin 2/25]",
+     "after-attack-02: P[Fish 5/17, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/20, Dolphin 2/25]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h2-deer-no-gap-m1714808783",
+  "test": "h2-deer-no-gap",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Deer",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ],
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ],
+  "start": {
+   "P": "s0 5/19 | s1 1/1 | s2 5/3 | s3 4/18",
+   "O": "s0 1/30 | s1 2/25",
+   "frame": "tl/f0053.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/3 | s1 1/1 | s2 5/3 | s3 4/18",
+   "O": "empty",
+   "frame": "tl/f0099.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 5/19, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/30, Dolphin 2/25]",
+     "after-attack-01: P[Fish 5/18, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/25, Dolphin 2/25]",
+     "after-attack-02: P[Fish 5/17, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/20, Dolphin 2/25]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h2-deer-no-gap-p870113",
+  "test": "h2-deer-no-gap",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Deer",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ],
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ],
+  "start": {
+   "P": "s0 5/19 | s1 1/1 | s2 5/3 | s3 4/18",
+   "O": "s0 1/30 | s1 2/25",
+   "frame": "tl/f0049.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/3 | s1 1/1 | s2 5/3 | s3 4/18",
+   "O": "empty",
+   "frame": "tl/f0092.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 5/19, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/30, Dolphin 2/25]",
+     "after-attack-01: P[Fish 5/18, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/25, Dolphin 2/25]",
+     "after-attack-02: P[Fish 5/17, Deer 1/1, Bus 5/3, Pig 4/18] O[Fish 1/20, Dolphin 2/25]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h3-fly-gap-p870113",
+  "test": "h3-fly-gap",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Pig",
+    3,
+    1
+   ],
+   null,
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ],
+  "start": {
+   "P": "s0 5/19 | s1 4/4 | s2 4/20",
+   "O": "s0 1/30 | s1 2/25",
+   "frame": "tl/f0047.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/3 | s1 4/4 | s2 4/20",
+   "O": "empty",
+   "frame": "tl/f0089.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 5/19, Zombie Fly 4/4, Fly 4/20] O[Fish 1/30, Dolphin 2/25]",
+     "after-attack-01: P[Fish 5/18, Zombie Fly 4/4, Fly 4/20] O[Fish 1/25, Dolphin 2/25]",
+     "after-attack-02: P[Fish 5/17, Zombie Fly 4/4, Fly 4/20] O[Fish 1/20, Dolphin 2/25]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h4-sheep-mid-p870113",
+  "test": "h4-sheep-mid",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Sheep",
+    3,
+    1
+   ],
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ],
+  "start": {
+   "P": "s0 5/19 | s1 2/2 | s2 2/2 | s3 4/18",
+   "O": "s0 1/30 | s1 2/25",
+   "frame": "tl/f0045.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/3 | s1 2/2 | s2 2/2 | s3 4/18",
+   "O": "empty",
+   "frame": "tl/f0086.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 5/19, Ram 2/2, Ram 2/2, Pig 4/18] O[Fish 1/30, Dolphin 2/25]",
+     "after-attack-01: P[Fish 5/18, Ram 2/2, Ram 2/2, Pig 4/18] O[Fish 1/25, Dolphin 2/25]",
+     "after-attack-02: P[Fish 5/17, Ram 2/2, Ram 2/2, Pig 4/18] O[Fish 1/20, Dolphin 2/25]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h5-sheep-gap-ahead-p870113",
+  "test": "h5-sheep-gap-ahead",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   null,
+   [
+    "Sheep",
+    3,
+    1
+   ],
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ],
+  "start": {
+   "P": "s0 5/19 | s1 2/2 | s2 2/2 | s3 4/18",
+   "O": "s0 1/30 | s1 2/25",
+   "frame": "tl/f0048.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/3 | s1 2/2 | s2 2/2 | s3 4/18",
+   "O": "empty",
+   "frame": "tl/f0095.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 5/19, Ram 2/2, Ram 2/2, Pig 4/18] O[Fish 1/30, Dolphin 2/25]",
+     "after-attack-01: P[Fish 5/18, Ram 2/2, Ram 2/2, Pig 4/18] O[Fish 1/25, Dolphin 2/25]",
+     "after-attack-02: P[Fish 5/17, Ram 2/2, Ram 2/2, Pig 4/18] O[Fish 1/20, Dolphin 2/25]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h6-fly-two-deaths-sob-m1714808783",
+  "test": "h6-fly-two-deaths-sob",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Pig",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "s0 1/40 | s1 8/4",
+   "frame": "tl/f0052.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "empty",
+   "frame": "tl/f0081.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h6-fly-two-deaths-sob-m2000000011",
+  "test": "h6-fly-two-deaths-sob",
+  "seed": -2000000011,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Pig",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "s0 1/40 | s1 8/4",
+   "frame": "tl/f0054.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "empty",
+   "frame": "tl/f0080.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h6-fly-two-deaths-sob-m402918337",
+  "test": "h6-fly-two-deaths-sob",
+  "seed": -402918337,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Pig",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "s0 1/40 | s1 8/4",
+   "frame": "tl/f0054.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "empty",
+   "frame": "tl/f0083.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h6-fly-two-deaths-sob-m987654321",
+  "test": "h6-fly-two-deaths-sob",
+  "seed": -987654321,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Pig",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "s0 1/40 | s1 8/4",
+   "frame": "tl/f0055.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "empty",
+   "frame": "tl/f0081.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h6-fly-two-deaths-sob-p1203948571",
+  "test": "h6-fly-two-deaths-sob",
+  "seed": 1203948571,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Pig",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "s0 1/40 | s1 8/4",
+   "frame": "tl/f0053.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "empty",
+   "frame": "tl/f0080.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h6-fly-two-deaths-sob-p1999999937",
+  "test": "h6-fly-two-deaths-sob",
+  "seed": 1999999937,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Pig",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "s0 1/40 | s1 8/4",
+   "frame": "tl/f0058.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "empty",
+   "frame": "tl/f0088.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h6-fly-two-deaths-sob-p55555",
+  "test": "h6-fly-two-deaths-sob",
+  "seed": 55555,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Pig",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "s0 1/40 | s1 8/4",
+   "frame": "tl/f0054.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "empty",
+   "frame": "tl/f0081.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h6-fly-two-deaths-sob-p870113",
+  "test": "h6-fly-two-deaths-sob",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Pig",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "s0 1/40 | s1 8/4",
+   "frame": "tl/f0052.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "empty",
+   "frame": "tl/f0078.jpg"
+  },
+  "engine": [
+   {
+    "count": 100,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Bus 5/3, Whale 12/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h7-fly-two-snipes-dolphin-first-m1714808783",
+  "test": "h7-fly-two-snipes-dolphin-first",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 4/4 | s2 5/3 | s3 12/14 | s4 15/13",
+   "O": "s0 1/40 | s1 9/5 | s2 8/4",
+   "frame": "tl/f0048.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/4 | s2 5/3 | s3 12/14 | s4 15/13",
+   "O": "empty",
+   "frame": "tl/f0081.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Bus 5/3, Fish 12/14, Fly 15/13] O[Fish 1/40, Dolphin 9/5, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Bus 5/3, Fish 12/14, Fly 15/13] O[Fish 1/27, Dolphin 9/5, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Bus 5/3, Fish 12/14, Fly 15/13] O[Fish 1/14, Dolphin 9/5, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h7-fly-two-snipes-dolphin-first-p870113",
+  "test": "h7-fly-two-snipes-dolphin-first",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "s0 1/40 | s1 9/5 | s2 8/4",
+   "frame": "tl/f0051.jpg"
+  },
+  "terminal": {
+   "P": "s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+   "O": "empty",
+   "frame": "tl/f0081.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Bus 5/3, Fish 12/14, Fly 15/13] O[Fish 1/40, Dolphin 9/5, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Bus 5/3, Fish 12/14, Fly 15/13] O[Fish 1/27, Dolphin 9/5, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Bus 5/3, Fish 12/14, Fly 15/13] O[Fish 1/14, Dolphin 9/5, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h7r-fly-two-snipes-croc-first-m1714808783",
+  "test": "h7r-fly-two-snipes-croc-first",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    7,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 4/4 | s2 5/3 | s3 12/14 | s4 15/13",
+   "O": "s0 1/40 | s1 7/5 | s2 8/4",
+   "frame": "tl/f0050.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 4/4 | s2 5/3 | s3 12/14 | s4 15/13",
+   "O": "empty",
+   "frame": "tl/f0085.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Bus 5/3, Fish 12/14, Fly 15/13] O[Fish 1/40, Dolphin 7/5, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Bus 5/3, Fish 12/14, Fly 15/13] O[Fish 1/27, Dolphin 7/5, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Bus 5/3, Fish 12/14, Fly 15/13] O[Fish 1/14, Dolphin 7/5, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h7r-fly-two-snipes-croc-first-p870113",
+  "test": "h7r-fly-two-snipes-croc-first",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    7,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 4/4 | s2 5/3 | s3 12/14 | s4 15/13",
+   "O": "s0 1/40 | s1 7/5 | s2 8/4",
+   "frame": "tl/f0046.jpg"
+  },
+  "terminal": {
+   "P": "s0 4/4 | s1 4/4 | s2 5/3 | s3 12/14 | s4 15/13",
+   "O": "empty",
+   "frame": "tl/f0076.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Bus 5/3, Fish 12/14, Fly 15/13] O[Fish 1/40, Dolphin 7/5, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Bus 5/3, Fish 12/14, Fly 15/13] O[Fish 1/27, Dolphin 7/5, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Bus 5/3, Fish 12/14, Fly 15/13] O[Fish 1/14, Dolphin 7/5, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h8-fly-two-snipes-deer-back-m1714808783",
+  "test": "h8-fly-two-snipes-deer-back",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Duck",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Deer",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 4/4 | s2 12/14 | s3 15/13 | s4 5/3",
+   "O": "s0 1/40 | s1 9/5 | s2 8/4",
+   "frame": "tl/f0052.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/4 | s2 12/14 | s3 15/13 | s4 5/3",
+   "O": "empty",
+   "frame": "tl/f0084.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Fish 12/14, Fly 15/13, Bus 5/3] O[Fish 1/40, Dolphin 9/5, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Fish 12/14, Fly 15/13, Bus 5/3] O[Fish 1/27, Dolphin 9/5, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Fish 12/14, Fly 15/13, Bus 5/3] O[Fish 1/14, Dolphin 9/5, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h8-fly-two-snipes-deer-back-p870113",
+  "test": "h8-fly-two-snipes-deer-back",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Duck",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Deer",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 4/4 | s2 12/14 | s3 15/13 | s4 5/3",
+   "O": "s0 1/40 | s1 9/5 | s2 8/4",
+   "frame": "tl/f0050.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/4 | s2 12/14 | s3 15/13 | s4 5/3",
+   "O": "empty",
+   "frame": "tl/f0081.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Fish 12/14, Fly 15/13, Bus 5/3] O[Fish 1/40, Dolphin 9/5, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Fish 12/14, Fly 15/13, Bus 5/3] O[Fish 1/27, Dolphin 9/5, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Fish 12/14, Fly 15/13, Bus 5/3] O[Fish 1/14, Dolphin 9/5, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h9-fly1-two-snipes-dolphin-first-m1714808783",
+  "test": "h9-fly1-two-snipes-dolphin-first",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 4/4 | s2 12/14 | s3 15/13",
+   "O": "s0 1/40 | s1 9/5 | s2 8/4",
+   "frame": null
+  },
+  "terminal": {
+   "P": "s1 12/14 | s2 15/13",
+   "O": "empty",
+   "frame": "tl/f0076.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/40, Dolphin 9/5, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/27, Dolphin 9/5, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/14, Dolphin 9/5, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h9-fly1-two-snipes-dolphin-first-p870113",
+  "test": "h9-fly1-two-snipes-dolphin-first",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 12/14 | s2 15/13 | s3 4/4",
+   "O": "s0 1/40 | s1 9/5 | s2 8/4",
+   "frame": "tl/f0048.jpg"
+  },
+  "terminal": {
+   "P": "s0 12/6 | s1 15/13 | s2 4/4",
+   "O": "empty",
+   "frame": "tl/f0083.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/40, Dolphin 9/5, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/27, Dolphin 9/5, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/14, Dolphin 9/5, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h9r-fly1-two-snipes-croc-first-m1714808783",
+  "test": "h9r-fly1-two-snipes-croc-first",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    7,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 12/14 | s2 15/13 | s3 4/4",
+   "O": "s0 1/40 | s1 7/5 | s2 8/4",
+   "frame": "tl/f0043.jpg"
+  },
+  "terminal": {
+   "P": "s1 12/14 | s2 15/13 | s3 4/4",
+   "O": "empty",
+   "frame": "tl/f0073.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/40, Dolphin 7/5, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/27, Dolphin 7/5, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/14, Dolphin 7/5, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-h9r-fly1-two-snipes-croc-first-p870113",
+  "test": "h9r-fly1-two-snipes-croc-first",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    7,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ],
+  "start": {
+   "P": "s0 13/12 | s1 4/4 | s2 12/14 | s3 15/13",
+   "O": "s0 1/40 | s1 7/5 | s2 8/4",
+   "frame": "tl/f0044.jpg"
+  },
+  "terminal": {
+   "P": "s1 4/4 | s2 12/14 | s3 15/13",
+   "O": "empty",
+   "frame": "tl/f0071.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 13/12, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/40, Dolphin 7/5, Crocodile 8/4]",
+     "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/27, Dolphin 7/5, Crocodile 8/4]",
+     "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/14, Dolphin 7/5, Crocodile 8/4]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-k3-fly-failed-attempt-uses-m1714808783",
+  "test": "k3-fly-failed-attempt-uses",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Deer",
+    6,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Fish",
+    1,
+    41
+   ],
+   [
+    "Fish",
+    1,
+    42
+   ],
+   [
+    "Fly",
+    2,
+    40,
+    {
+     "trco": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 6/1 | s1 1/40 | s2 1/41 | s3 1/42 | s4 2/40",
+   "O": "s0 1/50",
+   "frame": "tl/f0035.jpg"
+  },
+  "terminal": {
+   "P": "s0 1/27 | s1 1/41 | s2 1/42 | s3 2/40",
+   "O": "empty",
+   "frame": "tl/f0116.jpg"
+  },
+  "engine": [
+   {
+    "count": 24,
+    "steps": [
+     "start: P[Deer 6/1, Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/50]",
+     "after-attack-01: P[Bus 5/3, Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/44]",
+     "after-attack-02: P[Bus 5/2, Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/39]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-k3-fly-failed-attempt-uses-p870113",
+  "test": "k3-fly-failed-attempt-uses",
+  "seed": 870113,
+  "left": [
+   [
+    "Deer",
+    6,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Fish",
+    1,
+    41
+   ],
+   [
+    "Fish",
+    1,
+    42
+   ],
+   [
+    "Fly",
+    2,
+    40,
+    {
+     "trco": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 6/1 | s1 1/40 | s2 1/41 | s3 1/42 | s4 2/40",
+   "O": "s0 1/50",
+   "frame": "tl/f0039.jpg"
+  },
+  "terminal": {
+   "P": "s0 1/27 | s1 1/41 | s2 1/42 | s3 2/40",
+   "O": "empty",
+   "frame": "tl/f0124.jpg"
+  },
+  "engine": [
+   {
+    "count": 24,
+    "steps": [
+     "start: P[Deer 6/1, Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/50]",
+     "after-attack-01: P[Bus 5/3, Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/44]",
+     "after-attack-02: P[Bus 5/2, Fish 1/40, Fish 1/41, Fish 1/42, Fly 2/40] O[Fish 1/39]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-k4-fly-zombie-death-p870113",
+  "test": "k4-fly-zombie-death",
+  "seed": 870113,
+  "left": [
+   [
+    "Pig",
+    6,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Fly",
+    2,
+    40
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    2,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 6/1 | s1 1/40 | s2 2/40",
+   "O": "s0 2/50",
+   "frame": "tl/f0038.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/32",
+   "O": "empty",
+   "frame": "tl/f0144.jpg"
+  },
+  "engine": [
+   {
+    "count": 24,
+    "steps": [
+     "start: P[Pig 6/1, Fish 1/40, Fly 2/40] O[Fish 2/50]",
+     "after-attack-01: P[Zombie Fly 4/4, Fish 1/40, Fly 2/40] O[Fish 2/44]",
+     "after-attack-02: P[Zombie Fly 4/2, Fish 1/40, Fly 2/40] O[Fish 2/40]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-sk1-skunk2-on-50-m1714808783",
+  "test": "sk1-skunk2-on-50",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Skunk",
+    5,
+    5,
+    {
+     "lvl": 2
+    }
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    2,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 5/5 | s1 2/20",
+   "O": "s0 2/16",
+   "frame": "tl/f0041.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/18",
+   "O": "empty",
+   "frame": "tl/f0062.jpg"
+  },
+  "engine": [
+   {
+    "count": 24,
+    "steps": [
+     "start: P[Skunk 5/5, Fish 2/20] O[Fish 2/17]",
+     "after-attack-01: P[Skunk 5/3, Fish 2/20] O[Fish 2/12]",
+     "after-attack-02: P[Skunk 5/1, Fish 2/20] O[Fish 2/7]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-sk1-skunk2-on-50-p870113",
+  "test": "sk1-skunk2-on-50",
+  "seed": 870113,
+  "left": [
+   [
+    "Skunk",
+    5,
+    5,
+    {
+     "lvl": 2
+    }
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    2,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 5/5 | s1 2/20",
+   "O": "s0 2/16",
+   "frame": "tl/f0051.jpg"
+  },
+  "terminal": {
+   "P": "s0 2/18",
+   "O": "empty",
+   "frame": "tl/f0073.jpg"
+  },
+  "engine": [
+   {
+    "count": 24,
+    "steps": [
+     "start: P[Skunk 5/5, Fish 2/20] O[Fish 2/17]",
+     "after-attack-01: P[Skunk 5/3, Fish 2/20] O[Fish 2/12]",
+     "after-attack-02: P[Skunk 5/1, Fish 2/20] O[Fish 2/7]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-sk2-skunk3-on-50-p870113",
+  "test": "sk2-skunk3-on-50",
+  "seed": 870113,
+  "left": [
+   [
+    "Skunk",
+    5,
+    5,
+    {
+     "lvl": 3
+    }
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    2,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 5/5 | s1 2/20",
+   "O": "s0 2/1",
+   "frame": "tl/f0037.jpg"
+  },
+  "terminal": {
+   "P": "s0 5/3 | s1 2/20",
+   "O": "empty",
+   "frame": "tl/f0044.jpg"
+  },
+  "engine": [
+   {
+    "count": 24,
+    "steps": [
+     "start: P[Skunk 5/5, Fish 2/20] O[Fish 2/1]",
+     "after-attack-01: P[Skunk 5/3, Fish 2/20] O[empty]",
+     "final: P[Skunk 5/3, Fish 2/20] O[empty]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x1-dead-leopard-m1714808783",
+  "test": "x1-dead-leopard",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Leopard",
+    6,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/27 | s1 20/50",
+   "frame": "tl/f0044.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/44",
+   "frame": "tl/f0085.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/47]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/47]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/47]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/27, Dolphin 20/50]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/24, Dolphin 20/50]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/21, Dolphin 20/50]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x1-dead-leopard-p1203948571",
+  "test": "x1-dead-leopard",
+  "seed": 1203948571,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Leopard",
+    6,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/30 | s1 20/47",
+   "frame": "tl/f0051.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/41",
+   "frame": "tl/f0093.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/47]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/47]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/47]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/27, Dolphin 20/50]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/24, Dolphin 20/50]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/21, Dolphin 20/50]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x1-dead-leopard-p870113",
+  "test": "x1-dead-leopard",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Leopard",
+    6,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/30 | s1 20/47",
+   "frame": "tl/f0053.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/41",
+   "frame": "tl/f0097.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/47]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/47]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/47]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/27, Dolphin 20/50]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/24, Dolphin 20/50]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/21, Dolphin 20/50]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x2-dead-dolphin-m1714808783",
+  "test": "x2-dead-dolphin",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Dolphin",
+    5,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/26 | s1 20/50",
+   "frame": "tl/f0044.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/44",
+   "frame": "tl/f0085.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/26, Dolphin 20/50]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/23, Dolphin 20/50]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/20, Dolphin 20/50]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x2-dead-dolphin-p1203948571",
+  "test": "x2-dead-dolphin",
+  "seed": 1203948571,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Dolphin",
+    5,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/26 | s1 20/50",
+   "frame": "tl/f0044.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/44",
+   "frame": "tl/f0084.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/26, Dolphin 20/50]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/23, Dolphin 20/50]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/20, Dolphin 20/50]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x2-dead-dolphin-p870113",
+  "test": "x2-dead-dolphin",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Dolphin",
+    5,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/26 | s1 20/50",
+   "frame": "tl/f0044.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/44",
+   "frame": "tl/f0087.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/26, Dolphin 20/50]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/23, Dolphin 20/50]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/20, Dolphin 20/50]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x3-dead-crocodile-m1714808783",
+  "test": "x3-dead-crocodile",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crocodile",
+    5,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/30 | s1 20/42",
+   "frame": "tl/f0044.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/36",
+   "frame": "tl/f0089.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/42]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/42]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/42]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x3-dead-crocodile-p1203948571",
+  "test": "x3-dead-crocodile",
+  "seed": 1203948571,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crocodile",
+    5,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/30 | s1 20/42",
+   "frame": "tl/f0042.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/36",
+   "frame": "tl/f0089.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/42]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/42]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/42]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x3-dead-crocodile-p870113",
+  "test": "x3-dead-crocodile",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crocodile",
+    5,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/30 | s1 20/42",
+   "frame": "tl/f0043.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/36",
+   "frame": "tl/f0090.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/42]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/42]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/42]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x4-dead-mosquito-m1714808783",
+  "test": "x4-dead-mosquito",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Mosquito",
+    2,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/29 | s1 20/50",
+   "frame": null
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/44",
+   "frame": "tl/f0092.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/49]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/49]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/49]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/29, Dolphin 20/50]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/26, Dolphin 20/50]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/23, Dolphin 20/50]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x4-dead-mosquito-p1203948571",
+  "test": "x4-dead-mosquito",
+  "seed": 1203948571,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Mosquito",
+    2,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/30 | s1 20/49",
+   "frame": null
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/43",
+   "frame": "tl/f0084.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/49]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/49]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/49]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/29, Dolphin 20/50]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/26, Dolphin 20/50]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/23, Dolphin 20/50]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x4-dead-mosquito-p870113",
+  "test": "x4-dead-mosquito",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Mosquito",
+    2,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/30 | s1 20/49",
+   "frame": "tl/f0044.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/43",
+   "frame": "tl/f0090.jpg"
+  },
+  "engine": [
+   {
+    "count": 10,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/49]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/49]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/49]"
+    ]
+   },
+   {
+    "count": 6,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/29, Dolphin 20/50]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/26, Dolphin 20/50]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/23, Dolphin 20/50]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x5-dead-skunk-m1714808783",
+  "test": "x5-dead-skunk",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Skunk",
+    3,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/30 | s1 20/33",
+   "frame": "tl/f0043.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/27",
+   "frame": "tl/f0086.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/33]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/33]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/33]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x5-dead-skunk-p1203948571",
+  "test": "x5-dead-skunk",
+  "seed": 1203948571,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Skunk",
+    3,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/30 | s1 20/33",
+   "frame": "tl/f0042.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/27",
+   "frame": "tl/f0087.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/33]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/33]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/33]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x5-dead-skunk-p870113",
+  "test": "x5-dead-skunk",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Skunk",
+    3,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/30 | s1 20/33",
+   "frame": "tl/f0044.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/27",
+   "frame": "tl/f0089.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/30, Dolphin 20/33]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/27, Dolphin 20/33]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/24, Dolphin 20/33]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x6-dead-whale-m1714808783",
+  "test": "x6-dead-whale",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Cricket",
+    3,
+    40
+   ],
+   [
+    "Whale",
+    3,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 1/1 | s1 3/40",
+   "O": "s0 1/30 | s1 20/50",
+   "frame": "tl/f0052.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/43",
+   "frame": "tl/f0111.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Zombie Cricket 1/1, Cricket 3/40] O[Fish 1/30, Dolphin 20/50]",
+     "after-attack-01: P[Cricket 3/40] O[Fish 1/29, Dolphin 20/50]",
+     "after-attack-02: P[Cricket 3/39] O[Fish 1/26, Dolphin 20/50]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x6-dead-whale-p1203948571",
+  "test": "x6-dead-whale",
+  "seed": 1203948571,
+  "left": [
+   [
+    "Cricket",
+    3,
+    40
+   ],
+   [
+    "Whale",
+    3,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 1/1 | s1 3/40",
+   "O": "s0 1/30 | s1 20/50",
+   "frame": "tl/f0052.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/43",
+   "frame": "tl/f0105.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Zombie Cricket 1/1, Cricket 3/40] O[Fish 1/30, Dolphin 20/50]",
+     "after-attack-01: P[Cricket 3/40] O[Fish 1/29, Dolphin 20/50]",
+     "after-attack-02: P[Cricket 3/39] O[Fish 1/26, Dolphin 20/50]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x6-dead-whale-p870113",
+  "test": "x6-dead-whale",
+  "seed": 870113,
+  "left": [
+   [
+    "Cricket",
+    3,
+    40
+   ],
+   [
+    "Whale",
+    3,
+    2
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 1/1 | s1 3/40",
+   "O": "s0 1/30 | s1 20/50",
+   "frame": "tl/f0053.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/43",
+   "frame": "tl/f0110.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Zombie Cricket 1/1, Cricket 3/40] O[Fish 1/30, Dolphin 20/50]",
+     "after-attack-01: P[Cricket 3/40] O[Fish 1/29, Dolphin 20/50]",
+     "after-attack-02: P[Cricket 3/39] O[Fish 1/26, Dolphin 20/50]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x7-dead-dolphin-killed-by-croc-m1714808783",
+  "test": "x7-dead-dolphin-killed-by-croc",
+  "seed": -1714808783,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Dolphin",
+    5,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Crocodile",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/26 | s1 20/50",
+   "frame": "tl/f0044.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/44",
+   "frame": "tl/f0088.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/26, Crocodile 20/50]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/23, Crocodile 20/50]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/20, Crocodile 20/50]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x7-dead-dolphin-killed-by-croc-p1203948571",
+  "test": "x7-dead-dolphin-killed-by-croc",
+  "seed": 1203948571,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Dolphin",
+    5,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Crocodile",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/26 | s1 20/50",
+   "frame": "tl/f0040.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/44",
+   "frame": "tl/f0079.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/26, Crocodile 20/50]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/23, Crocodile 20/50]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/20, Crocodile 20/50]"
+    ]
+   }
+  ]
+ },
+ {
+  "capture": "c3-x7-dead-dolphin-killed-by-croc-p870113",
+  "test": "x7-dead-dolphin-killed-by-croc",
+  "seed": 870113,
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Dolphin",
+    5,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Crocodile",
+    20,
+    50
+   ]
+  ],
+  "start": {
+   "P": "s0 3/40",
+   "O": "s0 1/26 | s1 20/50",
+   "frame": "tl/f0042.jpg"
+  },
+  "terminal": {
+   "P": "empty",
+   "O": "s0 20/44",
+   "frame": "tl/f0082.jpg"
+  },
+  "engine": [
+   {
+    "count": 16,
+    "steps": [
+     "start: P[Fish 3/40] O[Fish 1/26, Crocodile 20/50]",
+     "after-attack-01: P[Fish 3/39] O[Fish 1/23, Crocodile 20/50]",
+     "after-attack-02: P[Fish 3/38] O[Fish 1/20, Crocodile 20/50]"
+    ]
+   }
+  ]
+ }
+]

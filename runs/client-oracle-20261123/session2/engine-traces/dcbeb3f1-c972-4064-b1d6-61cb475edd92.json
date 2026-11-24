@@ -1,0 +1,320 @@
+{
+  "battle_id": "dcbeb3f1-c972-4064-b1d6-61cb475edd92",
+  "recorded_seed": -1369770559,
+  "engine_seed": 2925196737,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Mammoth",
+          "attack": 17,
+          "health": 24,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 24,
+          "health": 35,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 35,
+          "health": 34,
+          "perk": "status-melon-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Dragon",
+          "attack": 6,
+          "health": 10,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 40,
+          "health": 41,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 28,
+          "health": 36,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Cat",
+          "attack": 19,
+          "health": 18,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 5,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 5,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Mammoth",
+          "attack": 17,
+          "health": 24,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 24,
+          "health": 35,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 35,
+          "health": 34,
+          "perk": "status-melon-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Dragon",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 40,
+          "health": 41,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 28,
+          "health": 35,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Cat",
+          "attack": 19,
+          "health": 17,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 5,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 5,
+          "health": 6,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Blowfish",
+          "attack": 26,
+          "health": 31,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Mosquito",
+          "attack": 37,
+          "health": 30,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dragon",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 40,
+          "health": 41,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 28,
+          "health": 33,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Cat",
+          "attack": 19,
+          "health": 17,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 5,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 5,
+          "health": 6,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Mosquito",
+          "attack": 37,
+          "health": 18,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 40,
+          "health": 15,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 28,
+          "health": 31,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Cat",
+          "attack": 19,
+          "health": 17,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 5,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 28,
+          "health": 29,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 19,
+          "health": 17,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 5,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 28,
+          "health": 29,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 19,
+          "health": 17,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 5,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "mode": "dry",
+  "arm": "parent",
+  "policy_parameters": 14346925,
+  "parent_checkpoint_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+  "transferred_weights_and_optimizer": true,
+  "initialized_from": "/weights/parent.pt",
+  "simulator_revision": "turtle-v31-replay-1737f28de96f-20261123",
+  "observation_revision": "entity-public-reorder-budget-v3-20260911",
+  "engine_sha256": "46be7d4104eaed258dae6c452fb3d698dec2bfa2f542bab2a9c8bb68ec509052",
+  "training_semantics": {
+    "paired_random_tape": true,
+    "reward_estimator": {
+      "samples": 1,
+      "seed": null,
+      "schema": "sampled-or-mc-life-swing-v1-20260909"
+    },
+    "entropy_mode": "legacy_path",
+    "action_schema": "primitive-plus-end-freeze-v1-20260905",
+    "end_freeze_learning_rate": 5e-05,
+    "discount_mode": "per_turn",
+    "discount": 0.99,
+    "battle_aux_cost": 0.05,
+    "opponent_aux_cost": 0.1,
+    "opponent_module_learning_rate": 0.0001,
+    "opponent_adapter_learning_rate": 1e-05
+  },
+  "battle_backend": "sapai.battle.Battle",
+  "policy_rates": {
+    "base": 0,
+    "opponent_history": 0,
+    "opponent_adapter": 0,
+    "end_freeze": 0
+  },
+  "start_version": 25772,
+  "cohorts": 2,
+  "workers": 4,
+  "games_per_worker": 64,
+  "seed": 2577223,
+  "updates": 1,
+  "decision_target": 4096,
+  "microbatch_padded_rows": 64,
+  "max_lag": 1,
+  "opponents": "live both seats"
+}

@@ -1,0 +1,220 @@
+{
+  "battle_id": "476821cb-b4bb-476d-b567-34eddcf50d67",
+  "recorded_seed": 640495420,
+  "engine_seed": 640495420,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Elephant",
+          "attack": 6,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 8,
+          "health": 18,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 1,
+          "health": 2,
+          "perk": "status-cake",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 16,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Deer",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Elephant",
+          "attack": 3,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Elephant",
+          "attack": 6,
+          "health": 16,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 8,
+          "health": 18,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Giraffe",
+          "attack": 1,
+          "health": 2,
+          "perk": "status-cake",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 16,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Deer",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Elephant",
+          "attack": 3,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Elephant",
+          "attack": 6,
+          "health": 3,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 8,
+          "health": 9,
+          "perk": "status-bread",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 16,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Bus",
+          "attack": 5,
+          "health": 3,
+          "perk": "status-splash-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Elephant",
+          "attack": 3,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Blowfish",
+          "attack": 8,
+          "health": 7,
+          "perk": "status-bread",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 10,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": []
+    }
+  ]
+}

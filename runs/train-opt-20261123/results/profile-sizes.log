@@ -1,0 +1,45 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/backends/__init__.py:46: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at /opt/pytorch/pytorch/aten/src/ATen/Context.cpp:80.)
+  self.setter(val)
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+1.35M {"config": [128, 4, 4, 192, 48], "parameters": 1349741, "update default": {"seconds": 0.5019075351301581, "rate": 16325.716245473533, "first": 6.783820310840383}, "update max-autotune-no-cudagraphs": {"seconds": 0.31383843580260873, "rate": 26108.975400175917, "first": 15.78178663016297}, "acting rows/s": {"64": 21515, "512": 111918, "2048": 114628, "4096": 113034}, "ideal learned/s (mirror only, shared GPU)": 20080}
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torch/_inductor/compile_fx.py:305: UserWarning: TensorFloat32 tensor cores for float32 matrix multiplication available but not enabled. Consider setting `torch.set_float32_matmul_precision('high')` for better performance.
+  warnings.warn(
+W1124 02:30:24.699000 1 torch/_inductor/utils.py:1545] [0/5] Not enough SMs to use max_autotune_gemm mode
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+Autotune Choices Stats:
+{"num_choices": 2, "num_triton_choices": 0, "best_kernel": "bias_addmm", "best_time": 0.35740798711776733}
+AUTOTUNE addmm(34335x704, 34335x176, 176x704)
+strides: [0, 1], [176, 1], [1, 176]
+dtypes: torch.bfloat16, torch.bfloat16, torch.bfloat16
+  bias_addmm 0.3574 ms 100.0% 
+  addmm 0.7893 ms 45.3% 
+SingleProcess AUTOTUNE benchmarking takes 0.1095 seconds and 0.0003 seconds precompiling for 2 choices
+Autotune Choices Stats:
+{"num_choices": 2, "num_triton_choices": 0, "best_kernel": "bias_addmm", "best_time": 0.15539200603961945}
+AUTOTUNE addmm(34335x176, 34335x176, 176x176)
+strides: [0, 1], [176, 1], [1, 176]
+dtypes: torch.bfloat16, torch.bfloat16, torch.bfloat16
+  bias_addmm 0.1554 ms 100.0% 
+  addmm 0.2109 ms 73.7% 
+SingleProcess AUTOTUNE benchmarking takes 0.0976 seconds and 0.0002 seconds precompiling for 2 choices
+W1124 02:31:44.952000 1 torch/_dynamo/convert_frame.py:1097] [0/8] torch._dynamo hit config.recompile_limit (8)
+W1124 02:31:44.952000 1 torch/_dynamo/convert_frame.py:1097] [0/8]    function: 'inner' (/usr/local/lib/python3.12/dist-packages/torch/_dynamo/external_utils.py:66)
+W1124 02:31:44.952000 1 torch/_dynamo/convert_frame.py:1097] [0/8]    last reason: 0/7: GLOBAL_STATE changed: grad_mode 
+W1124 02:31:44.952000 1 torch/_dynamo/convert_frame.py:1097] [0/8] To log all recompilation reasons, use TORCH_LOGS="recompiles".
+W1124 02:31:44.952000 1 torch/_dynamo/convert_frame.py:1097] [0/8] To diagnose recompilation issues, see https://pytorch.org/docs/main/torch.compiler_troubleshooting.html
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+2.6M {"config": [176, 4, 8, 256, 64], "parameters": 2444685, "update default": {"seconds": 0.454669538885355, "rate": 18021.880287137774, "first": 41.034761036979035}, "update max-autotune-no-cudagraphs": {"seconds": 0.4417432020418346, "rate": 18549.238476394257, "first": 68.93036135309376}, "acting rows/s": {"64": 19573, "512": 50290, "2048": 45734, "4096": 46353}, "ideal learned/s (mirror only, shared GPU)": 12202}
+4.47M {"config": [224, 5, 8, 320, 80], "parameters": 4467213, "update default": {"seconds": 0.8181876090820879, "rate": 10014.818006340529, "first": 1.0165917410049587}, "update max-autotune-no-cudagraphs": {"seconds": 0.8337344168685377, "rate": 9828.069747649653, "first": 1.008864713134244}, "acting rows/s": {"64": 16312, "512": 34662, "2048": 31526, "4096": 32927}, "ideal learned/s (mirror only, shared GPU)": 7081}
+8.7M {"config": [304, 6, 8, 448, 96], "parameters": 9217901, "update default": {"seconds": 1.3001086011063308, "rate": 6302.550412348088, "first": 1.528218433028087}, "update max-autotune-no-cudagraphs": {"seconds": 1.2937350729480386, "rate": 6333.599645967936, "first": 1.5310031459666789}, "acting rows/s": {"64": 12312, "512": 21589, "2048": 19425, "4096": 19683}, "ideal learned/s (mirror only, shared GPU)": 4466}
+14.35M {"config": [384, 6, 8, 512, 128], "parameters": 14346925, "update default": {"seconds": 1.2404049600008875, "rate": 6605.907154703846, "first": 1.5539428659249097}, "update max-autotune-no-cudagraphs": {"seconds": 1.2499356190674007, "rate": 6555.537641301629, "first": 1.4794893031939864}, "acting rows/s": {"64": 13342, "512": 23728, "2048": 23064, "4096": 23184}, "ideal learned/s (mirror only, shared GPU)": 4793}

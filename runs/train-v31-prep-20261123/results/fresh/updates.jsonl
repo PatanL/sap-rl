@@ -1,0 +1,1 @@
+{"version": 1, "behavior_min": 0, "behavior_max": 0, "adam_steps_min_before": 0, "adam_steps_max_before": 0, "adam_steps_max_after": 1.0, "stale": 0, "elapsed_s": 8.82049814495258, "decisions": 4097, "microbatches": 47, "turns": 303, "loss": 0.6452135110966369, "grad_norm": 0.5490358471870422, "primitive_actions": 4165}

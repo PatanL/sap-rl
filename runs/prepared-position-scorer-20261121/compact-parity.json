@@ -1,0 +1,14 @@
+{
+  "worlds": 768,
+  "pairs": 96,
+  "distinctSubmittedPetSpecies": 35,
+  "originalPickleBytes": 3753849,
+  "compactPickleBytes": 128552,
+  "librarySHA256": "8f13394cb9081a528c42afc12659a4a742c073039831a304b792edc7b64da27c",
+  "passed": [
+    "outcome",
+    "both terminal team states",
+    "final battle RNG",
+    "source and cached input stability"
+  ]
+}

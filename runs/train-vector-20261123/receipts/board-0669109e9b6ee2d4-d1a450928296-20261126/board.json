@@ -1,0 +1,32 @@
+{
+  "matches": 1000,
+  "sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+  "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2",
+  "revision": "turtle-v31-replay-852b274e7eb2-20261123",
+  "seed": 20261126,
+  "split": "yardstick",
+  "scores": {
+    "3": 0.4103125,
+    "5": 0.398296875,
+    "7": 0.324015625,
+    "10": 0.246375,
+    "12": 0.1805
+  },
+  "index": 0.31189999999999996,
+  "record_command_wall_s": 551.9935212139972,
+  "ghost_wall_s": 37.999256897950545,
+  "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/board-0669109e9b6ee2d4-d1a450928296-20261126/ghost.json",
+  "fixtures": [
+    "fixtures-340.json",
+    "fixtures-fresh-all.json",
+    "fixtures-fresh2-all.json",
+    "fixtures-fresh3-all.json",
+    "fixtures-players.json"
+  ],
+  "recording_seconds": 365.5,
+  "active_record_command_s": 368.108928513946,
+  "record_active_s": 368.108928513946,
+  "ghost_active_s": 18.778625774895772,
+  "measured_service_s": 386.8875542888418,
+  "includes_recorder_loading": true
+}

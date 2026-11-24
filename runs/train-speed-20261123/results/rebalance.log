@@ -1,0 +1,57 @@
+actor96 18 1147 1143 38.9
+async96 18 1304 1299 43.3
+g48 16 1456 1505 18.0
+original 18 833 856 30.3
+sync96 18 1225 1204 31.1
+actor96 18 1147 1143 38.9
+async96 18 1304 1299 43.3
+g48 16 1456 1505 18.0
+original 18 833 856 30.3
+sync96 18 1225 1204 31.1
+verified96 16 951 939 45.8
+actor96 18 1147 1143 38.9
+async96 18 1304 1299 43.3
+g48 16 1456 1505 18.0
+original 18 833 856 30.3
+sync96 18 1225 1204 31.1
+verified48 16 1039 1054 30.5
+verified96 16 951 939 45.8
+actor96 18 1147 1143 38.9
+async96 18 1304 1299 43.3
+g24 16 1002 1026 17.8
+g48 16 1456 1505 18.0
+original 18 833 856 30.3
+sync96 18 1225 1204 31.1
+verified48 16 1039 1054 30.5
+verified96 16 951 939 45.8
+actor96 18 1147 1143 38.9
+async96 18 1304 1299 43.3
+g24 16 1002 1026 17.8
+g48 16 1456 1505 18.0
+original 18 833 856 30.3
+sync96 18 1225 1204 31.1
+verified48 16 1039 1054 30.5
+verified96 16 951 939 45.8
+w6g48 16 963 991 25.6
+actor96 18 1147 1143 38.9
+async96 18 1304 1299 43.3
+g24 16 1002 1026 17.8
+g48 16 1456 1505 18.0
+original 18 833 856 30.3
+sync96 18 1225 1204 31.1
+target4096 22 849 848 47.0
+verified48 16 1039 1054 30.5
+verified96 16 951 939 45.8
+w6g48 16 963 991 25.6
+/home/dzliu/pzliu/sap-rl/runs/train-speed-20261123/trial.sh: line 7: syntax error near unexpected token `fi'
+Traceback (most recent call last):
+  File "/home/dzliu/pzliu/sap-rl/runs/train-speed-20261123/rebalance.py", line 47, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/dzliu/pzliu/sap-rl/runs/train-speed-20261123/rebalance.py", line 29, in main
+    trial(f'target{target}',*params,'--workers',w,'--games',g,'--target',target,'--updates',updates)
+  File "/home/dzliu/pzliu/sap-rl/runs/train-speed-20261123/rebalance.py", line 6, in trial
+    subprocess.run([str(P/'trial.sh'),name,*map(str,args)],check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/dzliu/pzliu/sap-rl/runs/train-speed-20261123/trial.sh', 'target16384', '--concurrent', '--cap', '512', '--workers', '8', '--games', '48', '--target', '16384', '--updates', '12']' returned non-zero exit status 2.

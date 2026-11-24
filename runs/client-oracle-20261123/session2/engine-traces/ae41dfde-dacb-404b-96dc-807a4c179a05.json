@@ -1,0 +1,285 @@
+{
+  "battle_id": "ae41dfde-dacb-404b-96dc-807a4c179a05",
+  "recorded_seed": 1355348683,
+  "engine_seed": 1355348683,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Elephant",
+          "attack": 22,
+          "health": 29,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 15,
+          "health": 25,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 14,
+          "health": 19,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Swan",
+          "attack": 12,
+          "health": 16,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Cat",
+          "attack": 10,
+          "health": 11,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Cat",
+          "attack": 10,
+          "health": 11,
+          "perk": "status-steak-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Leopard",
+          "attack": 24,
+          "health": 18,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Camel",
+          "attack": 11,
+          "health": 18,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 17,
+          "health": 19,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Skunk",
+          "attack": 9,
+          "health": 11,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Elephant",
+          "attack": 22,
+          "health": 19,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 15,
+          "health": 13,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 14,
+          "health": 19,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Cat",
+          "attack": 10,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Cat",
+          "attack": 10,
+          "health": 11,
+          "perk": "status-steak-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Leopard",
+          "attack": 24,
+          "health": 18,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Camel",
+          "attack": 11,
+          "health": 18,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 17,
+          "health": 13,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Skunk",
+          "attack": 9,
+          "health": 5,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Elephant",
+          "attack": 22,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 15,
+          "health": 11,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 14,
+          "health": 19,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Cat",
+          "attack": 10,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Leopard",
+          "attack": 24,
+          "health": 18,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 23,
+          "health": 19,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 9,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Blowfish",
+          "attack": 15,
+          "health": 9,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 14,
+          "health": 19,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Cat",
+          "attack": 10,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dolphin",
+          "attack": 23,
+          "health": 1,
+          "perk": "status-bread",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Tiger",
+          "attack": 14,
+          "health": 19,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 10,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Tiger",
+          "attack": 14,
+          "health": 19,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 10,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

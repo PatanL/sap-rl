@@ -1,0 +1,83 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/backends/__init__.py:46: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at /opt/pytorch/pytorch/aten/src/ATen/Context.cpp:80.)
+  self.setter(val)
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+encoder {"seconds": 0.5074653751216829, "rate": 16146.914453099775, "first": 8.284133684122935, "microbatches": 6}
+profile {"wall": 1.2239456640090793, "cpu_self_s": 1.1421569789999975, "kernel_launches": 10875, "top_gpu": [["triton_red_fused__unsafe_view_add_clone_select_backward_squeeze_sum_tr", 0.1823, 24], ["triton_red_fused__unsafe_view_add_clone_select_backward_squeeze_sum_tr", 0.1823, 24], ["triton_red_fused__to_copy_native_layer_norm_backward_transpose_15", 0.0897, 18], ["triton_red_fused__to_copy_native_layer_norm_backward_transpose_15", 0.0897, 18], ["aten::mm", 0.0772, 1476], ["triton_red_fused_sum_2", 0.053, 72], ["triton_red_fused_sum_2", 0.053, 72], ["triton_red_fused__to_copy_add_native_layer_norm_native_layer_norm_back", 0.041, 6], ["triton_red_fused__to_copy_add_native_layer_norm_native_layer_norm_back", 0.041, 6], ["aten::_efficient_attention_backward", 0.0344, 24], ["fmha_cutlassB_bf16_aligned_64x64_k32_sm80(PyTorchMemEffAttention::Atte", 0.0344, 24], ["triton_red_fused__to_copy_native_layer_norm_backward_7", 0.0285, 18], ["triton_red_fused__to_copy_native_layer_norm_backward_7", 0.0285, 18], ["aten::copy_", 0.028, 3073]], "top_cpu": [["cudaStreamSynchronize", 0.5909, 255], ["cudaMemcpyAsync", 0.2813, 351], ["cudaLaunchKernel", 0.0325, 8205], ["aten::mm", 0.0133, 1476], ["aten::cat", 0.0132, 1015], ["cuLaunchKernel", 0.0097, 2670], ["aten::index_select", 0.0087, 348], ["aten::as_strided", 0.0078, 20473], ["CompiledFunction", 0.0078, 6], ["aten::select", 0.0076, 3742]]}
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+/out/compact_sequence.py:20: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at /opt/pytorch/pytorch/aten/src/ATen/native/cudnn/RNN.cpp:1479.)
+  states,last=torch._VF.gru(first.float(),h.float()[None],(cell.weight_ih,cell.weight_hh,cell.bias_ih,cell.bias_hh),True,1,0.,policy.training,False,False)
+encoder+gru {"seconds": 1.2695812304737046, "rate": 6454.096676384122, "first": 1.30110620893538, "microbatches": 6}
+W1124 00:50:53.315000 1 torch/_inductor/utils.py:1545] [0/2] Not enough SMs to use max_autotune_gemm mode
+Autotune Choices Stats:
+{"num_choices": 2, "num_triton_choices": 0, "best_kernel": "bias_addmm", "best_time": 0.2147199958562851}
+AUTOTUNE addmm(34335x512, 34335x128, 128x512)
+strides: [0, 1], [128, 1], [1, 128]
+dtypes: torch.bfloat16, torch.bfloat16, torch.bfloat16
+  bias_addmm 0.2147 ms 100.0% 
+  addmm 0.5058 ms 42.4% 
+SingleProcess AUTOTUNE benchmarking takes 0.2258 seconds and 0.0009 seconds precompiling for 2 choices
+Autotune Choices Stats:
+{"num_choices": 2, "num_triton_choices": 0, "best_kernel": "bias_addmm", "best_time": 0.09529600292444229}
+AUTOTUNE addmm(34335x128, 34335x128, 128x128)
+strides: [0, 1], [128, 1], [1, 128]
+dtypes: torch.bfloat16, torch.bfloat16, torch.bfloat16
+  bias_addmm 0.0953 ms 100.0% 
+  addmm 0.1249 ms 76.3% 
+SingleProcess AUTOTUNE benchmarking takes 0.1503 seconds and 0.0003 seconds precompiling for 2 choices
+autotune {"seconds": 0.3243481684476137, "rate": 25262.976014996162, "first": 112.4135633870028, "microbatches": 6}
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torch/_inductor/compile_fx.py:305: UserWarning: TensorFloat32 tensor cores for float32 matrix multiplication available but not enabled. Consider setting `torch.set_float32_matmul_precision('high')` for better performance.
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torch/_inductor/lowering.py:7180: UserWarning: 
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torch/_inductor/lowering.py:7180: UserWarning: 
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torch/_inductor/lowering.py:7180: UserWarning: 
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torch/_inductor/lowering.py:7180: UserWarning: 
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torch/_inductor/lowering.py:7180: UserWarning: 
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torch/_inductor/lowering.py:7180: UserWarning: 
+Online softmax is disabled on the fly since Inductor decides to
+split the reduction. Cut an issue to PyTorch if this is an
+important use case and you want to speed it up with online
+softmax.
+
+  warnings.warn(
+whole {"seconds": 0.2936536605702713, "rate": 27903.61946821084, "first": 633.224615897052, "microbatches": 6}
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+acting {"8": {"ms": 3.504446125589311, "rows_per_s": 2282.8143773089714}, "64": {"ms": 3.523078397847712, "rows_per_s": 18165.931260314366}, "512": {"ms": 4.744418081827462, "rows_per_s": 107916.29050591323}, "2048": {"ms": 17.92251644656062, "rows_per_s": 114269.66777274275}, "4096": {"ms": 35.13533901423216, "rows_per_s": 116577.78507106041}}

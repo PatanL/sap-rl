@@ -1,0 +1,320 @@
+{
+  "battle_id": "59cba9e8-867f-4103-8b98-b94434f9c32f",
+  "recorded_seed": -643715323,
+  "engine_seed": 3651251973,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Boar",
+          "attack": 11,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Parrot",
+          "attack": 26,
+          "health": 30,
+          "perk": "status-melon-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Snake",
+          "attack": 21,
+          "health": 14,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 11,
+          "health": 9,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Fly",
+          "attack": 15,
+          "health": 11,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Mammoth",
+          "attack": 26,
+          "health": 32,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Whale",
+          "attack": 19,
+          "health": 21,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Snake",
+          "attack": 25,
+          "health": 18,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Leopard",
+          "attack": 26,
+          "health": 22,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Tiger",
+          "attack": 15,
+          "health": 13,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Boar",
+          "attack": 11,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Parrot",
+          "attack": 26,
+          "health": 30,
+          "perk": "status-melon-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Snake",
+          "attack": 21,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 11,
+          "health": 9,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Whale",
+          "attack": 23,
+          "health": 25,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 29,
+          "health": 22,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Leopard",
+          "attack": 30,
+          "health": 26,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 19,
+          "health": 17,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Parrot",
+          "attack": 26,
+          "health": 30,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 11,
+          "health": 9,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Whale",
+          "attack": 23,
+          "health": 10,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 29,
+          "health": 22,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Leopard",
+          "attack": 30,
+          "health": 26,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 19,
+          "health": 17,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Parrot",
+          "attack": 42,
+          "health": 35,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 11,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Mammoth",
+          "attack": 26,
+          "health": 32,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 29,
+          "health": 22,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Leopard",
+          "attack": 30,
+          "health": 26,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 19,
+          "health": 17,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Parrot",
+          "attack": 50,
+          "health": 17,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Snake",
+          "attack": 33,
+          "health": 26,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Leopard",
+          "attack": 34,
+          "health": 30,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 23,
+          "health": 21,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Leopard",
+          "attack": 34,
+          "health": 30,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 23,
+          "health": 21,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Leopard",
+          "attack": 34,
+          "health": 30,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 23,
+          "health": 21,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    }
+  ]
+}

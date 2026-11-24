@@ -1,0 +1,17 @@
+error dc78c644-5042-4212-94d6-b8f4e289963d <HTTPError 502: 'Bad Gateway'>
+fetched 25 (page 1, total listed 226)
+fetched 50 (page 2, total listed 226)
+fetched 75 (page 2, total listed 226)
+fetched 100 (page 3, total listed 226)
+fetched 125 (page 3, total listed 226)
+error c5a5bdef-bf1d-4602-af5c-290d72195270 <HTTPError 502: 'Bad Gateway'>
+error 5db7fa69-9501-4cf1-8cae-4c2e7928596f <HTTPError 502: 'Bad Gateway'>
+error 2cc3cca0-c9a8-498f-a4e0-624832ea8a91 <HTTPError 502: 'Bad Gateway'>
+error 4ae34658-b63a-4349-a267-ae74fb14c82e <HTTPError 502: 'Bad Gateway'>
+error 5aeeca49-9f69-40fe-84ad-dd40b95f518d <HTTPError 502: 'Bad Gateway'>
+error 79fdedeb-e68b-4c8a-8a5f-d6337913b473 <HTTPError 502: 'Bad Gateway'>
+error 047a7dce-7c31-4456-9a91-a954db430e6c <HTTPError 502: 'Bad Gateway'>
+error 6deba2ec-6513-46ce-b14f-069eef20a4e9 <HTTPError 502: 'Bad Gateway'>
+error f38bc5a7-35bc-497b-8842-32fea794096f <HTTPError 502: 'Bad Gateway'>
+error 5d2e0aa3-7a6a-483d-a2fc-e9c15845cb4f <HTTPError 502: 'Bad Gateway'>
+too many errors; stopping

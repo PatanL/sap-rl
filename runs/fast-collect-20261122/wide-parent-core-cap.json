@@ -1,0 +1,16 @@
+{
+  "seconds": 30.639260243158787,
+  "workers": 8,
+  "gamesPerActor": 48,
+  "observationEncoding": false,
+  "seat": 186710,
+  "eligible": 140573,
+  "matches": 663,
+  "battles": 7786,
+  "seat_s": 6093.8155333462755,
+  "eligible_s": 4588.002415345112,
+  "matches_s": 21.638903639915274,
+  "battles_s": 254.11840684823576,
+  "verifiedTicks": 549,
+  "warm": 252
+}

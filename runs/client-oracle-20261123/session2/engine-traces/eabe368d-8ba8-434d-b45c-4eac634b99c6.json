@@ -1,0 +1,313 @@
+{
+  "battle_id": "eabe368d-8ba8-434d-b45c-4eac634b99c6",
+  "recorded_seed": 113998780,
+  "engine_seed": 113998780,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Blowfish",
+          "attack": 19,
+          "health": 25,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 11,
+          "health": 14,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 10,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Squirrel",
+          "attack": 9,
+          "health": 12,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Cow",
+          "attack": 4,
+          "health": 6,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Crocodile",
+          "attack": 31,
+          "health": 26,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 19,
+          "health": 22,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Turtle",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Squirrel",
+          "attack": 20,
+          "health": 16,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dragon",
+          "attack": 5,
+          "health": 10,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Blowfish",
+          "attack": 19,
+          "health": 25,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 11,
+          "health": 14,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 10,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Squirrel",
+          "attack": 9,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Crocodile",
+          "attack": 31,
+          "health": 26,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 19,
+          "health": 22,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Turtle",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Squirrel",
+          "attack": 20,
+          "health": 16,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dragon",
+          "attack": 5,
+          "health": 10,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Blowfish",
+          "attack": 19,
+          "health": 14,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 11,
+          "health": 9,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 10,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Snake",
+          "attack": 19,
+          "health": 22,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Turtle",
+          "attack": 2,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Squirrel",
+          "attack": 20,
+          "health": 16,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dragon",
+          "attack": 5,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Snake",
+          "attack": 11,
+          "health": 9,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 10,
+          "health": 9,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Squirrel",
+          "attack": 20,
+          "health": 16,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Dragon",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Tiger",
+          "attack": 10,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Squirrel",
+          "attack": 20,
+          "health": 16,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dragon",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Squirrel",
+          "attack": 20,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dragon",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Squirrel",
+          "attack": 20,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dragon",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    }
+  ]
+}

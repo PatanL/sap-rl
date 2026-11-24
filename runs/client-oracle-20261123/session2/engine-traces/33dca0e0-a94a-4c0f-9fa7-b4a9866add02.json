@@ -1,0 +1,446 @@
+{
+  "battle_id": "33dca0e0-a94a-4c0f-9fa7-b4a9866add02",
+  "recorded_seed": -1300926849,
+  "engine_seed": 2994040447,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Turtle",
+          "attack": 3,
+          "health": 15,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Whale",
+          "attack": 14,
+          "health": 29,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Snake",
+          "attack": 14,
+          "health": 11,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 9,
+          "health": 5,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Deer",
+          "attack": 11,
+          "health": 11,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Scorpion",
+          "attack": 1,
+          "health": 3,
+          "perk": "status-poison-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Fly",
+          "attack": 9,
+          "health": 9,
+          "perk": "status-extra-life",
+          "slot": 2
+        },
+        {
+          "pet": "Shark",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Parrot",
+          "attack": 8,
+          "health": 6,
+          "perk": "status-honey-bee",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Whale",
+          "attack": 14,
+          "health": 29,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 14,
+          "health": 11,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 9,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Deer",
+          "attack": 11,
+          "health": 11,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Scorpion",
+          "attack": 1,
+          "health": 3,
+          "perk": "status-poison-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Fly",
+          "attack": 9,
+          "health": 9,
+          "perk": "status-extra-life",
+          "slot": 2
+        },
+        {
+          "pet": "Shark",
+          "attack": 5,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Bee",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Whale",
+          "attack": 14,
+          "health": 29,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 14,
+          "health": 11,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 9,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Zombie Fly",
+          "attack": 8,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 6,
+          "perk": "status-splash-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Scorpion",
+          "attack": 1,
+          "health": 3,
+          "perk": "status-poison-attack",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 9,
+          "health": 4,
+          "perk": "status-extra-life",
+          "slot": 3
+        },
+        {
+          "pet": "Shark",
+          "attack": 9,
+          "health": 9,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Whale",
+          "attack": 14,
+          "health": 21,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 14,
+          "health": 11,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 9,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 6,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Fly",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Shark",
+          "attack": 15,
+          "health": 15,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Whale",
+          "attack": 14,
+          "health": 11,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 14,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 9,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Zombie Fly",
+          "attack": 8,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Fly",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Shark",
+          "attack": 17,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Whale",
+          "attack": 14,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 14,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 9,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Shark",
+          "attack": 21,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Turtle",
+          "attack": 3,
+          "health": 15,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 14,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 9,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Turtle",
+          "attack": 3,
+          "health": 15,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 14,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Crocodile",
+          "attack": 9,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

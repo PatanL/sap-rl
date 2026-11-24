@@ -1,0 +1,18 @@
+[
+  {
+    "file": "repeat-6b2e1d99.json",
+    "id": "6b2e1d99-7781-4834-931c-876bbb314264",
+    "match": "01a0684a-00cb-71dc-8e86-0cbfb158a854",
+    "seed": -1714808783,
+    "sha256": "e8bd02db10af97a9b3d74b698b914e15b3eda32fe924b7918d30489e5079d98a",
+    "priority": true,
+    "pets": 10,
+    "deterministic": false
+  },
+  {
+    "id": "e1f2c726-cfe4-407c-a170-8e99989238d4",
+    "match": "01a0684a-00cb-71dc-8e86-0cbfb158a854",
+    "file": "mirror-6b2e1d99.json",
+    "sha256": "0f1ecae217f93c8f436e85c43c29987fec009855337aa3ca3f3e79d126e0d4af"
+  }
+]

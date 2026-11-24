@@ -1,0 +1,21 @@
+{
+  "backend": "rust",
+  "train": true,
+  "games": 512,
+  "workers": 10,
+  "seconds": 200.0,
+  "updates": 50,
+  "save": false,
+  "out": "/out/results/gl-512-lag2-b0.5",
+  "backlog": 0.5,
+  "seed": 2577223,
+  "cap": 3072,
+  "compact": true,
+  "compile": true,
+  "resume": "/out/results/snapshot-cross4/update-026272.pt",
+  "checkpoint_every": 250,
+  "ghost_share": 0.4,
+  "frozen_share": 0.2,
+  "stall": 240.0,
+  "max_lag": 2
+}

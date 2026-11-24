@@ -1,0 +1,39 @@
+[package]
+name = "sap_engine"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "sap_engine"
+path = "src/lib.rs"
+crate-type = ["rlib", "cdylib"]
+
+[[bin]]
+name = "golden"
+path = "src/bin/golden.rs"
+
+[[bin]]
+name = "oracle"
+path = "src/bin/oracle.rs"
+
+[[bin]]
+name = "envcheck"
+path = "src/bin/envcheck.rs"
+
+[[bin]]
+name = "envbench"
+path = "src/bin/envbench.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+# Reading the gzip reference traces in the checker (available offline).
+flate2 = { version = "1", default-features = false, features = ["rust_backend"] }
+# Only for the sampling profiler of `envbench --sample` (SIGPROF + frame pointers).
+libc = "0.2"
+
+[profile.release]
+opt-level = 3
+debug = 1
+lto = "fat"
+codegen-units = 1

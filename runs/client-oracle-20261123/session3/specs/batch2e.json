@@ -1,0 +1,4 @@
+[
+ {"name":"f11-hippo-tiger-limit","nseeds":2,"left":[["Hippo",10,50],["Tiger",6,4]],"right":[["Fish",1,1],["Fish",1,2],["Pig",1,3],["Duck",1,4],["Beaver",1,5]]},
+ {"name":"f11c-hippo-alone-control","nseeds":1,"left":[["Hippo",10,50],["Fish",6,4]],"right":[["Fish",1,1],["Fish",1,2],["Pig",1,3],["Duck",1,4],["Beaver",1,5]]}
+]

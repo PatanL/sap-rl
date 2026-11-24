@@ -1,0 +1,19 @@
+{
+ "plain": {
+  "8": 3.7916410947218537,
+  "32": 4.093499388545752,
+  "128": 7.1692949859425426,
+  "512": 22.46174809988588,
+  "2048": 91.08516306150705
+ },
+ "compiled encoder": {
+  "8": 3.0199940083548427,
+  "32": 3.1616430496796966,
+  "128": 6.002237205393612,
+  "512": 18.568850122392178,
+  "2048": 71.27444597426802
+ },
+ "compiled whole act": {
+  "failed": "AssertionError('UnspecializedBuiltinNNModuleVariable(TransformerEncoder) is already tracked for mutation. This could be because you are not using VariableBuilder to construct the variable tracker. Source of new object: UnspecializedBuiltinNNModuleSource(base=AttrSource(base=GetItemSource(base=DictGetItemSource(base=GlobalSource(global_name=\\'_COMPILED\\'), index=248438516163808), index=1, index_is_slice=False), member=\\'_orig_mod\\')). Source of previously tracked object: UnspecializedBuiltinNNModuleSource(base=LocalSource(local_name=\\'transformer\\', is_input=True, dynamism=None, is_derefed_cell"
+ }
+}

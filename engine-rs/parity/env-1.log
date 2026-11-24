@@ -1,0 +1,15 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+{
+ "battles": 3678,
+ "equal": 3678,
+ "different": 0,
+ "unsupported": {},
+ "python_s": 26.424781553912908,
+ "rust_s": 0.3308632702101022,
+ "examples": [],
+ "matches": 250,
+ "decisions": 175305,
+ "python_ms_per_battle": 7.184551809111721,
+ "rust_ms_per_battle_including_packing": 0.08995738722406259
+}

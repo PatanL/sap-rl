@@ -1,0 +1,15 @@
+{
+  "backend": "rust",
+  "train": true,
+  "games": 256,
+  "workers": 10,
+  "seconds": 600.0,
+  "updates": 30,
+  "save": false,
+  "out": "/out/results/e2e-base",
+  "backlog": 0.5,
+  "seed": 2577223,
+  "cap": 1536,
+  "compact": false,
+  "compile": false
+}

@@ -1,0 +1,299 @@
+{
+  "battle_id": "07933ed8-38d5-4afc-bbbd-5c81f2f53d93",
+  "recorded_seed": -1249329185,
+  "engine_seed": 3045638111,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Rhino",
+          "attack": 8,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 35,
+          "health": 31,
+          "perk": "status-melon-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 35,
+          "health": 44,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 7,
+          "health": 10,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Elephant",
+          "attack": 39,
+          "health": 40,
+          "perk": "status-melon-armor",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Hedgehog",
+          "attack": 4,
+          "health": 2,
+          "perk": "status-extra-life",
+          "slot": 0
+        },
+        {
+          "pet": "Mammoth",
+          "attack": 9,
+          "health": 25,
+          "perk": "status-steak-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 10,
+          "health": 16,
+          "perk": "status-steak-attack",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 10,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Shark",
+          "attack": 9,
+          "health": 14,
+          "perk": "status-honey-bee",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Rhino",
+          "attack": 8,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 35,
+          "health": 31,
+          "perk": "status-melon-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 35,
+          "health": 1,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 7,
+          "health": 10,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Elephant",
+          "attack": 39,
+          "health": 40,
+          "perk": "status-melon-armor",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Hedgehog",
+          "attack": 4,
+          "health": 2,
+          "perk": "status-extra-life",
+          "slot": 0
+        },
+        {
+          "pet": "Mammoth",
+          "attack": 9,
+          "health": 25,
+          "perk": "status-steak-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 10,
+          "health": 16,
+          "perk": "status-steak-attack",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 10,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Shark",
+          "attack": 9,
+          "health": 14,
+          "perk": "status-honey-bee",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Rhino",
+          "attack": 8,
+          "health": 5,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 35,
+          "health": 25,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 7,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Elephant",
+          "attack": 39,
+          "health": 34,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Hedgehog",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Mammoth",
+          "attack": 9,
+          "health": 11,
+          "perk": "status-steak-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 10,
+          "health": 14,
+          "perk": "status-steak-attack",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 10,
+          "health": 19,
+          "perk": "status-bread",
+          "slot": 3
+        },
+        {
+          "pet": "Shark",
+          "attack": 13,
+          "health": 10,
+          "perk": "status-honey-bee",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Tiger",
+          "attack": 35,
+          "health": 11,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 39,
+          "health": 20,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bee",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Tiger",
+          "attack": 35,
+          "health": 10,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 39,
+          "health": 20,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Tiger",
+          "attack": 35,
+          "health": 10,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Elephant",
+          "attack": 39,
+          "health": 20,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

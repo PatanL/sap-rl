@@ -1,0 +1,7 @@
+FROM sap-rl-v13-runtime:20260828
+
+COPY sapai /workspace/sapai
+COPY sapai-gym /workspace/sapai-gym
+
+ENV PYTHONPATH=/workspace/sapai:/workspace/sapai-gym
+WORKDIR /workspace/sapai-gym

@@ -1,0 +1,14 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/backends/__init__.py:46: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at /opt/pytorch/pytorch/aten/src/ATen/Context.cpp:80.)
+  self.setter(val)
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+V1123 19:49:57.764000 1 torch/_dynamo/guards.py:3864] [0/1] [__recompiles] Recompiling function inner in /usr/local/lib/python3.12/dist-packages/torch/_dynamo/external_utils.py:66
+V1123 19:49:57.764000 1 torch/_dynamo/guards.py:3864] [0/1] [__recompiles]     triggered by the following guard failure(s):
+V1123 19:49:57.764000 1 torch/_dynamo/guards.py:3864] [0/1] [__recompiles]     - 0/0: GLOBAL_STATE changed: grad_mode 
+compiled encoder warmed up
+V1123 19:50:00.392000 1 torch/_dynamo/guards.py:3864] [0/2] [__recompiles] Recompiling function inner in /usr/local/lib/python3.12/dist-packages/torch/_dynamo/external_utils.py:66
+V1123 19:50:00.392000 1 torch/_dynamo/guards.py:3864] [0/2] [__recompiles]     triggered by the following guard failure(s):
+V1123 19:50:00.392000 1 torch/_dynamo/guards.py:3864] [0/2] [__recompiles]     - 0/0: tensor 'fn._modules['layers']._modules['0']._modules['norm1']._parameters['bias']' requires_grad mismatch. expected requires_grad=0. Guard failed on a parameter, consider using torch._dynamo.config.force_parameter_static_shapes = False to allow dynamism on parameters.
+V1123 19:50:00.392000 1 torch/_dynamo/guards.py:3864] [0/2] [__recompiles]     - 0/1: GLOBAL_STATE changed: grad_mode 

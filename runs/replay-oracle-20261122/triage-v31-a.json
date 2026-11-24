@@ -1,0 +1,6213 @@
+{
+ "summary": {
+  "failing": 161,
+  "kinds": {
+   "engine bug (calculator matches real)": 101,
+   "both miss the real board": 52,
+   "both miss the real winner": 7,
+   "engine winner wrong; calculator winner right, board not": 1
+  },
+  "bySplit": {
+   "heldout": 56,
+   "dev": 105
+  },
+  "allFightsBySplit": {
+   "dev": 2579,
+   "heldout": 1465
+  }
+ },
+ "rows": [
+  {
+   "battleId": "45a77143-a515-454e-a17a-becedd947d66",
+   "split": "heldout",
+   "turn": 5,
+   "kind": "engine bug (calculator matches real)",
+   "real": "draw",
+   "realStats": [],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 0,
+    "draws": 200
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Badger",
+    "Crab",
+    "Cricket",
+    "Deer",
+    "Kangaroo",
+    "Ox",
+    "Pigeon",
+    "Swan"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "f57d6f81-5c5a-4fc3-8c17-3fa015d63046",
+   "split": "heldout",
+   "turn": 7,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     11,
+     11
+    ],
+    [
+     12,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Dolphin",
+    "Giraffe",
+    "Kangaroo",
+    "Parrot",
+    "Peacock",
+    "Rabbit"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "266ae41e-aa3c-4897-b074-800473e19cc3",
+   "split": "heldout",
+   "turn": 9,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     10,
+     14
+    ],
+    [
+     18,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Deer",
+    "Dog",
+    "Elephant",
+    "Monkey",
+    "Rhino",
+    "Rooster",
+    "Sheep",
+    "Spider"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "c659944f-3a16-4825-91b6-484b08647d33",
+   "split": "dev",
+   "turn": 9,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     4
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Deer",
+    "Elephant",
+    "Fly",
+    "Ox",
+    "Peacock",
+    "Pig",
+    "Skunk",
+    "Turkey"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "6b2e1d99-7781-4834-931c-876bbb314264",
+   "split": "dev",
+   "turn": 12,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     8,
+     8
+    ],
+    [
+     10,
+     1
+    ],
+    [
+     13,
+     5
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 199,
+    "draw": 1
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 194,
+    "draws": 6
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Elephant",
+    "Fly",
+    "Hedgehog",
+    "Rooster",
+    "Skunk",
+    "Snake",
+    "Tiger",
+    "Turkey",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "31eb2b55-b65a-4850-b5fb-94ff18ba88a5",
+   "split": "heldout",
+   "turn": 8,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     15,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "draw": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Beaver",
+    "Deer",
+    "Dog",
+    "Dolphin",
+    "Kangaroo",
+    "Peacock",
+    "Rhino",
+    "Sheep",
+    "Snail",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "895eb43c-406e-45ce-9ddf-7e6eab8b54aa",
+   "split": "heldout",
+   "turn": 13,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     13,
+     7
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 98,
+    "player": 53,
+    "draw": 49
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 158,
+    "opponentWins": 42,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Boar",
+    "Cat",
+    "Gorilla",
+    "Mammoth",
+    "Rhino",
+    "Skunk",
+    "Snake",
+    "Tiger",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "e0bdb7ba-4a85-4ccf-9123-e9517db98060",
+   "split": "heldout",
+   "turn": 11,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     1,
+     1
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     20,
+     7
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Badger",
+    "Blowfish",
+    "Boar",
+    "Crab",
+    "Elephant",
+    "Penguin",
+    "Rhino",
+    "Skunk",
+    "Tiger"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "4664ea1e-15c3-49f0-80ae-494638545d33",
+   "split": "dev",
+   "turn": 10,
+   "kind": "engine bug (calculator matches real)",
+   "real": "draw",
+   "realStats": [],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 89,
+    "draws": 111
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Cat",
+    "Crocodile",
+    "Deer",
+    "Fly",
+    "Gorilla",
+    "Monkey",
+    "Shark",
+    "Sheep",
+    "Turkey",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "72193ae9-788d-4ac6-95a7-8aaffa272dc1",
+   "split": "dev",
+   "turn": 11,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     30,
+     13
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Boar",
+    "Cat",
+    "Deer",
+    "Fly",
+    "Gorilla",
+    "Monkey",
+    "Shark",
+    "Sheep",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "11906e93-827a-4d76-a9fa-3541380658f9",
+   "split": "dev",
+   "turn": 13,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     12,
+     2
+    ],
+    [
+     31,
+     25
+    ]
+   ],
+   "sapaiOutcomes": {
+    "draw": 18,
+    "opponent": 117,
+    "player": 65
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 68,
+    "opponentWins": 108,
+    "draws": 24
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Bison",
+    "Blowfish",
+    "Cat",
+    "Elephant",
+    "Fish",
+    "Mammoth",
+    "Scorpion",
+    "Snake",
+    "Tiger",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "56d6187b-93f9-44f1-bc4e-bdbe50fdd66c",
+   "split": "heldout",
+   "turn": 5,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     8,
+     3
+    ],
+    [
+     12,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Dolphin",
+    "Elephant",
+    "Giraffe",
+    "Parrot",
+    "Peacock",
+    "Rabbit",
+    "Snail",
+    "Worm"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "2ef194f4-6e25-42e9-9ad6-852259420ec3",
+   "split": "heldout",
+   "turn": 6,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     9,
+     4
+    ],
+    [
+     15,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Dolphin",
+    "Elephant",
+    "Giraffe",
+    "Parrot",
+    "Peacock",
+    "Rabbit",
+    "Snail",
+    "Worm"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "7f1d40a3-4807-4bc2-ae8f-2a398fc1b6ec",
+   "split": "heldout",
+   "turn": 7,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     3,
+     3
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     6,
+     6
+    ],
+    [
+     16,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Cricket",
+    "Giraffe",
+    "Monkey",
+    "Ox",
+    "Penguin",
+    "Swan",
+    "Turkey"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "888e1b1c-292b-47f2-9f10-8dcb9518552b",
+   "split": "dev",
+   "turn": 9,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     5,
+     3
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     8,
+     13
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 150,
+    "draw": 50
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 142,
+    "draws": 58
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Bison",
+    "Cat",
+    "Elephant",
+    "Monkey",
+    "Ox",
+    "Parrot",
+    "Rabbit",
+    "Skunk",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "b36c50b1-48f6-4980-8dd7-81dea726fe6e",
+   "split": "dev",
+   "turn": 8,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     8,
+     13
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Cricket",
+    "Deer",
+    "Dodo",
+    "Peacock",
+    "Penguin",
+    "Rat",
+    "Skunk",
+    "Squirrel",
+    "Turkey",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "48a9acc7-c6d7-49dd-ae4d-084db01c3a99",
+   "split": "dev",
+   "turn": 8,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     5
+    ],
+    [
+     10,
+     10
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Cricket",
+    "Crocodile",
+    "Dolphin",
+    "Horse",
+    "Ox",
+    "Parrot",
+    "Shark",
+    "Sheep"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "74124f94-fd08-4d3c-89cf-e2ae594cf77d",
+   "split": "heldout",
+   "turn": 11,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     5,
+     6
+    ],
+    [
+     32,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 144,
+    "opponent": 51,
+    "draw": 5
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 145,
+    "opponentWins": 55,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Cricket",
+    "Dragon",
+    "Hippo",
+    "Leopard",
+    "Mammoth",
+    "Monkey",
+    "Peacock",
+    "Skunk"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "9a066210-3b25-4abc-aa74-6ddd4815c981",
+   "split": "dev",
+   "turn": 8,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     4,
+     2
+    ],
+    [
+     6,
+     5
+    ],
+    [
+     8,
+     4
+    ],
+    [
+     12,
+     13
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Bison",
+    "Blowfish",
+    "Crab",
+    "Crocodile",
+    "Elephant",
+    "Otter",
+    "Parrot",
+    "Skunk"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "d3e0e111-ca13-4aa0-b111-41bc56e11c83",
+   "split": "dev",
+   "turn": 8,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     3,
+     5
+    ],
+    [
+     12,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 100,
+    "opponent": 100
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 96,
+    "opponentWins": 104,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Ox",
+    "Rabbit",
+    "Rat",
+    "Skunk",
+    "Snail",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "d1377990-b62e-4e3d-91ca-53ca9a6c27ae",
+   "split": "dev",
+   "turn": 9,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     3
+    ],
+    [
+     9,
+     15
+    ],
+    [
+     38,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Cow",
+    "Elephant",
+    "Giraffe",
+    "Monkey",
+    "Peacock",
+    "Rabbit",
+    "Skunk",
+    "Swan",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "592d8a5d-4ea0-4844-bbd8-3e5dff04742c",
+   "split": "dev",
+   "turn": 2,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     2,
+     2
+    ],
+    [
+     5,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 134,
+    "draw": 66
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 128,
+    "draws": 72
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Cricket",
+    "Duck",
+    "Mosquito",
+    "Pigeon"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "ef69c642-339e-4ae1-897a-11d2c29ab27a",
+   "split": "dev",
+   "turn": 6,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     2,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 161,
+    "draw": 36,
+    "player": 3
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 5,
+    "opponentWins": 155,
+    "draws": 40
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Camel",
+    "Dodo",
+    "Hedgehog",
+    "Kangaroo",
+    "Ox",
+    "Peacock"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "92eb585b-6b9b-46a5-b588-3c1abb44e75b",
+   "split": "heldout",
+   "turn": 12,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     5,
+     1
+    ],
+    [
+     11,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 167,
+    "opponent": 22,
+    "draw": 11
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 96,
+    "opponentWins": 93,
+    "draws": 11
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Badger",
+    "Deer",
+    "Dragon",
+    "Fly",
+    "Parrot",
+    "Peacock",
+    "Snake",
+    "Tiger",
+    "Turkey"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "00962571-7209-4559-b875-71a7a7e37268",
+   "split": "heldout",
+   "turn": 11,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     18,
+     2
+    ],
+    [
+     23,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 155,
+    "draw": 43,
+    "opponent": 2
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 143,
+    "opponentWins": 3,
+    "draws": 54
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Boar",
+    "Hedgehog",
+    "Leopard",
+    "Parrot",
+    "Skunk",
+    "Tiger",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "dcf0bf33-acfa-417a-bf2d-688088c6229b",
+   "split": "heldout",
+   "turn": 13,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     1,
+     1
+    ],
+    [
+     14,
+     3
+    ],
+    [
+     31,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 188,
+    "draw": 11,
+    "opponent": 1
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 172,
+    "opponentWins": 3,
+    "draws": 25
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Boar",
+    "Hedgehog",
+    "Leopard",
+    "Parrot",
+    "Skunk",
+    "Tiger",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "94cf1992-65ed-4713-ac2f-a792530de007",
+   "split": "heldout",
+   "turn": 14,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     1,
+     1
+    ],
+    [
+     18,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 180,
+    "opponent": 4,
+    "draw": 16
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 185,
+    "opponentWins": 3,
+    "draws": 12
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Boar",
+    "Cow",
+    "Hedgehog",
+    "Leopard",
+    "Parrot",
+    "Skunk",
+    "Tiger",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "f936a9f2-48fc-48eb-95b2-e0be76d09efe",
+   "split": "heldout",
+   "turn": 15,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     1,
+     1
+    ],
+    [
+     50,
+     16
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 167,
+    "opponent": 15,
+    "draw": 18
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 165,
+    "opponentWins": 13,
+    "draws": 22
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Boar",
+    "Hedgehog",
+    "Leopard",
+    "Parrot",
+    "Skunk",
+    "Tiger",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "68647eec-195a-46f8-ae84-2876b685af38",
+   "split": "heldout",
+   "turn": 17,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     1,
+     1
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     37,
+     7
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 146,
+    "draw": 44,
+    "opponent": 10
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 126,
+    "opponentWins": 17,
+    "draws": 57
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Boar",
+    "Hedgehog",
+    "Leopard",
+    "Parrot",
+    "Skunk",
+    "Tiger",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "3d14956d-ee91-45f4-855a-443424bc56c0",
+   "split": "heldout",
+   "turn": 7,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     14,
+     9
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Badger",
+    "Crocodile",
+    "Deer",
+    "Dog",
+    "Flamingo",
+    "Ox",
+    "Rat",
+    "Shark",
+    "Sheep",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "1f9fbe67-d430-404c-abcf-34cc42be1af0",
+   "split": "heldout",
+   "turn": 10,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     9,
+     6
+    ],
+    [
+     20,
+     10
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 196,
+    "draw": 3,
+    "opponent": 1
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 197,
+    "opponentWins": 0,
+    "draws": 3
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Deer",
+    "Dragon",
+    "Leopard",
+    "Parrot",
+    "Skunk",
+    "Turkey"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "f70192fe-299a-4733-aa2e-ee8be02d8597",
+   "split": "heldout",
+   "turn": 16,
+   "kind": "engine bug (calculator matches real)",
+   "real": "draw",
+   "realStats": [],
+   "sapaiOutcomes": {
+    "player": 87,
+    "opponent": 113
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 90,
+    "opponentWins": 97,
+    "draws": 13
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Cat",
+    "Elephant",
+    "Rabbit",
+    "Skunk",
+    "Turtle",
+    "Whale",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "c0eeec25-a1d7-4738-aa56-18a36dd12c9b",
+   "split": "heldout",
+   "turn": 10,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     4,
+     4
+    ],
+    [
+     7,
+     1
+    ],
+    [
+     8,
+     8
+    ],
+    [
+     14,
+     10
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 190,
+    "opponent": 4,
+    "draw": 6
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Deer",
+    "Fly",
+    "Gorilla",
+    "Monkey",
+    "Parrot",
+    "Peacock",
+    "Rabbit"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "d26f1b24-8d54-4244-8ace-86b1c87e0e1c",
+   "split": "heldout",
+   "turn": 11,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     7,
+     7
+    ],
+    [
+     15,
+     17
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Deer",
+    "Fly",
+    "Gorilla",
+    "Monkey",
+    "Parrot",
+    "Rabbit",
+    "Turkey"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "89f424a1-d8f7-4d78-9166-00f999ecdceb",
+   "split": "heldout",
+   "turn": 13,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     16,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 182,
+    "draw": 17,
+    "opponent": 1
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 72,
+    "opponentWins": 76,
+    "draws": 52
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Cat",
+    "Deer",
+    "Fly",
+    "Gorilla",
+    "Mammoth",
+    "Parrot",
+    "Tiger",
+    "Wolverine"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "c5303825-9e14-4dc4-96d3-90e31e6d39a2",
+   "split": "heldout",
+   "turn": 14,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     9,
+     5
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 129,
+    "draw": 60,
+    "player": 11
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 101,
+    "opponentWins": 67,
+    "draws": 32
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Cat",
+    "Deer",
+    "Fly",
+    "Mammoth",
+    "Parrot",
+    "Tiger",
+    "Whale",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "3d6f70f3-eb02-4f23-9fb6-4d10697b61fc",
+   "split": "dev",
+   "turn": 6,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     2,
+     3
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     5,
+     4
+    ],
+    [
+     6,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Camel",
+    "Deer",
+    "Dolphin",
+    "Fish",
+    "Peacock",
+    "Penguin",
+    "Pigeon",
+    "Rabbit",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "e3266643-6db9-4313-9734-df6c59c09fd4",
+   "split": "dev",
+   "turn": 10,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     8,
+     5
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Dog",
+    "Fly",
+    "Horse",
+    "Kangaroo",
+    "Monkey",
+    "Ox",
+    "Rhino",
+    "Spider",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "a06efcdf-f7f9-4af3-abb7-980b6cb9151f",
+   "split": "dev",
+   "turn": 5,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     5
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Blowfish",
+    "Dodo",
+    "Elephant",
+    "Kangaroo",
+    "Rabbit",
+    "Spider"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "9789aef4-cd9a-4333-867f-aac833b54fe3",
+   "split": "dev",
+   "turn": 9,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     6,
+     2
+    ],
+    [
+     9,
+     9
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 122,
+    "opponent": 23,
+    "draw": 55
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 137,
+    "opponentWins": 14,
+    "draws": 49
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Badger",
+    "Cow",
+    "Deer",
+    "Peacock",
+    "Penguin",
+    "Rabbit",
+    "Snake",
+    "Spider",
+    "Turkey",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "de5b4a04-9a86-44b7-81ae-a6d0f4e8b67b",
+   "split": "dev",
+   "turn": 13,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     22,
+     8
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 172,
+    "opponent": 18,
+    "draw": 10
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 137,
+    "opponentWins": 39,
+    "draws": 24
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Badger",
+    "Deer",
+    "Peacock",
+    "Rabbit",
+    "Shark",
+    "Snake",
+    "Spider",
+    "Tiger"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "923af5d2-b76e-4b3c-890b-172113ec59ed",
+   "split": "dev",
+   "turn": 6,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     3,
+     1
+    ],
+    [
+     6,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 195,
+    "draws": 5
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Giraffe",
+    "Hedgehog",
+    "Horse",
+    "Ox",
+    "Sheep",
+    "Spider"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "55449884-daf4-4a04-8b3c-4a6541d6f2f4",
+   "split": "dev",
+   "turn": 4,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     1,
+     2
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Flamingo",
+    "Kangaroo",
+    "Ox",
+    "Pigeon",
+    "Rat",
+    "Snail",
+    "Swan"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "85fe3dba-52c5-4c86-8d9d-00e46d04e6ce",
+   "split": "dev",
+   "turn": 7,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     7
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 112,
+    "draw": 88
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 97,
+    "draws": 103
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Deer",
+    "Dolphin",
+    "Ox",
+    "Parrot",
+    "Rabbit",
+    "Snail",
+    "Swan",
+    "Turkey"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "3fc704e8-c373-4592-817f-91aca1dfb255",
+   "split": "heldout",
+   "turn": 8,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     7,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 197,
+    "player": 3
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 4,
+    "opponentWins": 196,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Dodo",
+    "Elephant",
+    "Hippo",
+    "Kangaroo",
+    "Rabbit"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "092c5bad-96ca-43dd-85eb-f837b4ad1ca4",
+   "split": "heldout",
+   "turn": 6,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     1,
+     2
+    ],
+    [
+     7,
+     9
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Badger",
+    "Giraffe",
+    "Ox",
+    "Rabbit",
+    "Rat",
+    "Skunk",
+    "Snail"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "f61462d2-79ba-4a33-8810-4099ab234b8e",
+   "split": "heldout",
+   "turn": 4,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     7,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Ant",
+    "Flamingo",
+    "Kangaroo",
+    "Ox",
+    "Pig",
+    "Snail",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "e45c0242-5be9-4df4-8c1a-4ab287ebf95f",
+   "split": "dev",
+   "turn": 15,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     1,
+     1
+    ],
+    [
+     5,
+     3
+    ],
+    [
+     27,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 198,
+    "draw": 2
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 199,
+    "opponentWins": 0,
+    "draws": 1
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Badger",
+    "Blowfish",
+    "Camel",
+    "Deer",
+    "Dragon",
+    "Hedgehog",
+    "Skunk",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "fcef2905-2f7c-4ef8-a176-0f6d8c4d1b45",
+   "split": "dev",
+   "turn": 7,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     4,
+     3
+    ],
+    [
+     4,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 54,
+    "draw": 3,
+    "opponent": 143
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Camel",
+    "Crab",
+    "Dolphin",
+    "Elephant",
+    "Rabbit"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "23a2625d-607e-43cc-abcc-286b729cad2e",
+   "split": "dev",
+   "turn": 8,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     2
+    ],
+    [
+     8,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "draw": 9,
+    "player": 180,
+    "opponent": 11
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 44,
+    "opponentWins": 147,
+    "draws": 9
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Camel",
+    "Crab",
+    "Dolphin",
+    "Elephant",
+    "Rabbit",
+    "Skunk"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "9888db43-a20d-45f6-8ef2-696249d2e486",
+   "split": "dev",
+   "turn": 9,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     5
+    ],
+    [
+     15,
+     23
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Camel",
+    "Cat",
+    "Dolphin",
+    "Elephant",
+    "Leopard",
+    "Rabbit",
+    "Skunk",
+    "Tiger"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "40c3412d-e204-4e95-89bb-da8d215d2cbe",
+   "split": "dev",
+   "turn": 6,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     5,
+     7
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Dog",
+    "Elephant",
+    "Fish",
+    "Giraffe",
+    "Rat",
+    "Snail",
+    "Spider"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "ae41dfde-dacb-404b-96dc-807a4c179a05",
+   "split": "dev",
+   "turn": 13,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     23,
+     19
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 54,
+    "player": 120,
+    "draw": 26
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 126,
+    "opponentWins": 53,
+    "draws": 21
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Camel",
+    "Cat",
+    "Dolphin",
+    "Elephant",
+    "Leopard",
+    "Skunk",
+    "Swan",
+    "Tiger"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "544f869c-fc6d-4346-bf89-e769cabacc50",
+   "split": "dev",
+   "turn": 16,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     21,
+     7
+    ],
+    [
+     31,
+     4
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 46,
+    "draw": 42,
+    "opponent": 112
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 54,
+    "opponentWins": 108,
+    "draws": 38
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Camel",
+    "Cat",
+    "Dolphin",
+    "Elephant",
+    "Leopard",
+    "Skunk",
+    "Swan",
+    "Tiger"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "37066e5b-4633-4989-9a2f-c0625f143fbc",
+   "split": "dev",
+   "turn": 7,
+   "kind": "both miss the real winner",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Blowfish",
+    "Camel",
+    "Deer",
+    "Elephant",
+    "Ox",
+    "Rabbit",
+    "Skunk",
+    "Squirrel"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "7bca8879-da3e-47d8-8c3d-a489863debb3",
+   "split": "dev",
+   "turn": 17,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     7,
+     5
+    ],
+    [
+     23,
+     21
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 111,
+    "opponent": 78,
+    "draw": 11
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 101,
+    "opponentWins": 88,
+    "draws": 11
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Elephant",
+    "Hedgehog",
+    "Leopard",
+    "Mammoth",
+    "Parrot",
+    "Shark",
+    "Skunk",
+    "Tiger",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "8ccfb907-5b90-4d3c-a9bf-fc27692fe98b",
+   "split": "heldout",
+   "turn": 4,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     2,
+     5
+    ],
+    [
+     2,
+     5
+    ],
+    [
+     15,
+     10
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Dodo",
+    "Dog",
+    "Mosquito",
+    "Peacock",
+    "Pig",
+    "Spider"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "f93def88-5fdc-460a-ab0b-fc116e805a42",
+   "split": "dev",
+   "turn": 11,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     6,
+     8
+    ],
+    [
+     19,
+     11
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Badger",
+    "Boar",
+    "Camel",
+    "Cow",
+    "Crocodile",
+    "Dragon",
+    "Rabbit",
+    "Shark",
+    "Skunk",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "b363f9e9-bc37-444f-8c02-3c83dfd7ea38",
+   "split": "dev",
+   "turn": 11,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     8,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 180,
+    "opponentWins": 7,
+    "draws": 13
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Armadillo",
+    "Cat",
+    "Cow",
+    "Deer",
+    "Dolphin",
+    "Fly",
+    "Ox",
+    "Snake",
+    "Tiger",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "b995797f-6221-462b-a7f8-7c8f36ce44cb",
+   "split": "dev",
+   "turn": 10,
+   "kind": "engine bug (calculator matches real)",
+   "real": "draw",
+   "realStats": [],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 176,
+    "draws": 24
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Cow",
+    "Dodo",
+    "Hedgehog",
+    "Parrot",
+    "Tiger",
+    "Turkey",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "b836f265-47a3-488c-99d6-ba224526313b",
+   "split": "dev",
+   "turn": 12,
+   "kind": "both miss the real winner",
+   "real": "draw",
+   "realStats": [],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Blowfish",
+    "Cow",
+    "Fly",
+    "Hedgehog",
+    "Parrot",
+    "Tiger",
+    "Turkey",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "6f416aeb-1191-4967-9e53-d9775b860427",
+   "split": "dev",
+   "turn": 13,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     9,
+     6
+    ],
+    [
+     28,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Blowfish",
+    "Cat",
+    "Hedgehog",
+    "Parrot",
+    "Tiger",
+    "Whale",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "5fafe4d0-cf70-43f5-b344-e1016b4be6e3",
+   "split": "dev",
+   "turn": 14,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     9,
+     6
+    ],
+    [
+     31,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Blowfish",
+    "Cat",
+    "Hedgehog",
+    "Mammoth",
+    "Parrot",
+    "Tiger",
+    "Whale",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "1010bea3-af27-40db-b28c-7efca021704e",
+   "split": "dev",
+   "turn": 11,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     11,
+     4
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 187,
+    "draw": 13
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 103,
+    "opponentWins": 50,
+    "draws": 47
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Bison",
+    "Camel",
+    "Cow",
+    "Mammoth",
+    "Otter",
+    "Rhino",
+    "Snake",
+    "Tiger",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "6602c5c0-b353-4691-8696-b1eee75fecc6",
+   "split": "dev",
+   "turn": 6,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     5
+    ],
+    [
+     8,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 77,
+    "player": 123
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 136,
+    "opponentWins": 64,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Camel",
+    "Fish",
+    "Kangaroo",
+    "Ox",
+    "Rabbit"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "016b77c1-7c50-4891-b103-5b9ac67e2e2a",
+   "split": "dev",
+   "turn": 7,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     4,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Blowfish",
+    "Camel",
+    "Cow",
+    "Elephant",
+    "Fish",
+    "Kangaroo",
+    "Ox",
+    "Rabbit"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "fa795e91-6737-4061-9ce5-d58a76b480d2",
+   "split": "dev",
+   "turn": 3,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     12,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Camel",
+    "Cricket",
+    "Dog",
+    "Flamingo",
+    "Kangaroo",
+    "Otter",
+    "Rat",
+    "Spider"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "c2646a84-1d86-4265-b79b-d760e649149b",
+   "split": "dev",
+   "turn": 4,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     14,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Camel",
+    "Cricket",
+    "Dog",
+    "Flamingo",
+    "Kangaroo",
+    "Otter",
+    "Rat",
+    "Spider"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "23c7e6cf-f722-4f3f-b77e-5c3444e886fb",
+   "split": "dev",
+   "turn": 6,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     14,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "draw": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Camel",
+    "Cricket",
+    "Dog",
+    "Elephant",
+    "Flamingo",
+    "Kangaroo",
+    "Otter",
+    "Ox",
+    "Sheep",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "874846c8-2f9c-43b8-a4cf-71b3788b85c8",
+   "split": "dev",
+   "turn": 11,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     5,
+     6
+    ],
+    [
+     21,
+     9
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 186,
+    "draw": 14
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Camel",
+    "Deer",
+    "Elephant",
+    "Mammoth",
+    "Monkey",
+    "Sheep",
+    "Turkey",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "a0f24449-7d2b-4ab0-8702-2adaab36c27d",
+   "split": "heldout",
+   "turn": 12,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     23,
+     10
+    ],
+    [
+     33,
+     35
+    ],
+    [
+     41,
+     23
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Camel",
+    "Cow",
+    "Dragon",
+    "Elephant",
+    "Leopard",
+    "Monkey",
+    "Snake"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "09c1e5e4-69e8-4655-a8c6-a1ab4bb91fd8",
+   "split": "dev",
+   "turn": 12,
+   "kind": "engine bug (calculator matches real)",
+   "real": "draw",
+   "realStats": [],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 0,
+    "draws": 200
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Deer",
+    "Dragon",
+    "Fish",
+    "Hedgehog",
+    "Horse",
+    "Peacock",
+    "Squirrel",
+    "Wolverine",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "4e0f88c9-00a8-4674-93d1-e182eb5270ab",
+   "split": "dev",
+   "turn": 13,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     29,
+     13
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Deer",
+    "Dragon",
+    "Hedgehog",
+    "Horse",
+    "Peacock",
+    "Squirrel",
+    "Whale",
+    "Wolverine",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "5ee1a36a-0b52-4e76-8d3f-f2c2182e38a5",
+   "split": "dev",
+   "turn": 14,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     29,
+     23
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Deer",
+    "Dragon",
+    "Hedgehog",
+    "Horse",
+    "Peacock",
+    "Squirrel",
+    "Whale",
+    "Wolverine",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "591b0d08-8d3f-4235-8e53-13685c6afeff",
+   "split": "dev",
+   "turn": 15,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     31,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Deer",
+    "Dragon",
+    "Hedgehog",
+    "Horse",
+    "Peacock",
+    "Squirrel",
+    "Whale",
+    "Wolverine",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "f7c94832-ad35-4574-b566-b0f2327e7a64",
+   "split": "dev",
+   "turn": 5,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     5,
+     4
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 119,
+    "draw": 40,
+    "player": 41
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 11,
+    "opponentWins": 144,
+    "draws": 45
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Blowfish",
+    "Dolphin",
+    "Elephant",
+    "Hippo",
+    "Mosquito",
+    "Ox",
+    "Sheep",
+    "Snail"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "6143f359-6202-4e11-b589-947acdae181b",
+   "split": "dev",
+   "turn": 9,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     14,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "draw": 8,
+    "player": 192
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 25,
+    "opponentWins": 123,
+    "draws": 52
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Crocodile",
+    "Deer",
+    "Dolphin",
+    "Elephant",
+    "Hippo",
+    "Mammoth",
+    "Mosquito",
+    "Ox"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "4fc722e0-0b4c-4e02-929a-b4dcd22dde26",
+   "split": "dev",
+   "turn": 11,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     1,
+     2
+    ],
+    [
+     6,
+     4
+    ],
+    [
+     6,
+     4
+    ],
+    [
+     10,
+     5
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 37,
+    "opponent": 154,
+    "draw": 9
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 30,
+    "opponentWins": 164,
+    "draws": 6
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Blowfish",
+    "Dragon",
+    "Elephant",
+    "Hippo",
+    "Mammoth",
+    "Monkey",
+    "Ox",
+    "Tiger"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "54401d36-6e68-49f4-9a98-09f10d93da17",
+   "split": "dev",
+   "turn": 12,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     1,
+     2
+    ],
+    [
+     8,
+     6
+    ],
+    [
+     10,
+     5
+    ],
+    [
+     10,
+     13
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 199,
+    "player": 1
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 2,
+    "opponentWins": 198,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Boar",
+    "Dragon",
+    "Elephant",
+    "Hippo",
+    "Mammoth",
+    "Monkey",
+    "Ox",
+    "Tiger",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "9f4cbd43-fbcd-443f-baa6-4d6b1ec17703",
+   "split": "heldout",
+   "turn": 4,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     2,
+     2
+    ],
+    [
+     2,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Dodo",
+    "Flamingo",
+    "Ox",
+    "Peacock",
+    "Pig",
+    "Snail",
+    "Spider"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "c8208607-4df2-4062-bdc3-5cef13dd7b6c",
+   "split": "heldout",
+   "turn": 9,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     3,
+     5
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Cricket",
+    "Crocodile",
+    "Deer",
+    "Dog",
+    "Elephant",
+    "Tiger",
+    "Turkey",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "d9fc6fdd-de2e-407d-8446-e8516f4bf3e9",
+   "split": "heldout",
+   "turn": 4,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     1,
+     2
+    ],
+    [
+     6,
+     4
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Beaver",
+    "Crab",
+    "Fish",
+    "Flamingo",
+    "Ox",
+    "Peacock",
+    "Rabbit",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "9145c9b5-d1e3-4f6d-810b-0ba37abf4574",
+   "split": "heldout",
+   "turn": 6,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     12,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Crab",
+    "Deer",
+    "Flamingo",
+    "Giraffe",
+    "Ox",
+    "Peacock",
+    "Rabbit"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "be961d14-8564-4c79-b287-82549eeb4457",
+   "split": "heldout",
+   "turn": 8,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     4,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 101,
+    "draws": 99
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Crab",
+    "Deer",
+    "Dolphin",
+    "Ox",
+    "Parrot",
+    "Peacock",
+    "Rabbit",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "f4f7407a-ad7a-4624-b8b3-768ba2387790",
+   "split": "heldout",
+   "turn": 9,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     9,
+     4
+    ],
+    [
+     18,
+     7
+    ]
+   ],
+   "sapaiOutcomes": {
+    "draw": 79,
+    "player": 121
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Crab",
+    "Deer",
+    "Gorilla",
+    "Leopard",
+    "Mammoth",
+    "Ox",
+    "Peacock",
+    "Rabbit",
+    "Whale"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "45156518-3454-4376-9470-e5f54412e78c",
+   "split": "heldout",
+   "turn": 12,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     11,
+     11
+    ],
+    [
+     20,
+     28
+    ]
+   ],
+   "sapaiOutcomes": {
+    "draw": 24,
+    "player": 176
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 196,
+    "opponentWins": 0,
+    "draws": 4
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Crab",
+    "Deer",
+    "Gorilla",
+    "Leopard",
+    "Mammoth",
+    "Ox",
+    "Rabbit",
+    "Skunk",
+    "Tiger",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "92e0b53f-5f7b-4765-9454-d36de0b56b1b",
+   "split": "heldout",
+   "turn": 6,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     8,
+     3
+    ],
+    [
+     9,
+     3
+    ],
+    [
+     12,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Crab",
+    "Dodo",
+    "Dog",
+    "Dolphin",
+    "Fish",
+    "Hedgehog",
+    "Parrot",
+    "Penguin",
+    "Skunk"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "a78fe240-3e2b-47ef-829e-59d9cd9df065",
+   "split": "heldout",
+   "turn": 7,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     4,
+     8
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 108,
+    "opponent": 92
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 98,
+    "opponentWins": 102,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Deer",
+    "Ox",
+    "Parrot",
+    "Rabbit",
+    "Snail",
+    "Spider",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "1aee10e5-52a1-4a91-b3c1-af4c02471a1a",
+   "split": "heldout",
+   "turn": 8,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     1,
+     3
+    ],
+    [
+     4,
+     7
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Deer",
+    "Kangaroo",
+    "Peacock",
+    "Rabbit",
+    "Rhino",
+    "Skunk",
+    "Whale",
+    "Worm"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "beabac25-ac39-4e8f-824b-719e8a64d9c7",
+   "split": "heldout",
+   "turn": 7,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     2,
+     3
+    ],
+    [
+     4,
+     7
+    ],
+    [
+     12,
+     18
+    ],
+    [
+     13,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Camel",
+    "Flamingo",
+    "Kangaroo",
+    "Monkey",
+    "Pigeon",
+    "Rabbit",
+    "Snail",
+    "Turtle",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "779ee949-286c-4924-a33c-bb20b5ece03f",
+   "split": "dev",
+   "turn": 10,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     6,
+     1
+    ],
+    [
+     22,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 195,
+    "opponent": 5
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 196,
+    "opponentWins": 4,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Cat",
+    "Elephant",
+    "Rabbit",
+    "Shark",
+    "Skunk",
+    "Tiger",
+    "Whale",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "0c6b0dc2-266b-497b-9572-12ba6ed3cd83",
+   "split": "heldout",
+   "turn": 9,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     8
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Camel",
+    "Deer",
+    "Dragon",
+    "Elephant",
+    "Ox",
+    "Parrot",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "476821cb-b4bb-476d-b567-34eddcf50d67",
+   "split": "dev",
+   "turn": 8,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     2,
+     1
+    ],
+    [
+     13,
+     5
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 137,
+    "draw": 61,
+    "player": 2
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 4,
+    "opponentWins": 144,
+    "draws": 52
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Deer",
+    "Elephant",
+    "Giraffe"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "5577690a-3e2d-45dc-9f59-a12c258aad19",
+   "split": "dev",
+   "turn": 6,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     2,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Badger",
+    "Blowfish",
+    "Kangaroo",
+    "Penguin",
+    "Pig",
+    "Snail",
+    "Spider",
+    "Swan",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "ae33a41f-91eb-4f83-b675-a72113a94050",
+   "split": "dev",
+   "turn": 3,
+   "kind": "both miss the real winner",
+   "real": "opponent",
+   "realStats": [
+    [
+     1,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Ant",
+    "Fish",
+    "Kangaroo",
+    "Ox",
+    "Pig",
+    "Rabbit",
+    "Worm"
+   ],
+   "size": 7
+  },
+  {
+   "battleId": "aef5ee42-6976-4161-a70c-e0ff15825413",
+   "split": "dev",
+   "turn": 7,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     8,
+     7
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Deer",
+    "Dodo",
+    "Kangaroo",
+    "Ox",
+    "Parrot",
+    "Rabbit",
+    "Snail",
+    "Turkey",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "8840e78a-021d-4819-a83a-7c51d2184b9b",
+   "split": "dev",
+   "turn": 8,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     8,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Deer",
+    "Dodo",
+    "Kangaroo",
+    "Ox",
+    "Parrot",
+    "Rabbit",
+    "Snail",
+    "Turkey",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "e99f45c8-ba9a-402b-9a5a-a7ef6366a7f5",
+   "split": "dev",
+   "turn": 7,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     3,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "draw": 170,
+    "opponent": 30
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 149,
+    "draws": 51
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Beaver",
+    "Blowfish",
+    "Crab",
+    "Elephant",
+    "Giraffe",
+    "Ox",
+    "Parrot",
+    "Peacock",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "49ff1455-a146-499c-a65c-432538e44b8a",
+   "split": "dev",
+   "turn": 9,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     5
+    ],
+    [
+     15,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 198,
+    "opponentWins": 2,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Crab",
+    "Dragon",
+    "Elephant",
+    "Giraffe",
+    "Ox",
+    "Parrot",
+    "Peacock",
+    "Worm"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "14e14fd4-13f1-4668-ba0d-9af7db7aaa4e",
+   "split": "dev",
+   "turn": 10,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     5
+    ],
+    [
+     5,
+     5
+    ],
+    [
+     12,
+     11
+    ]
+   ],
+   "sapaiOutcomes": {
+    "draw": 7,
+    "player": 193
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 192,
+    "opponentWins": 1,
+    "draws": 7
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Cat",
+    "Elephant",
+    "Giraffe",
+    "Mammoth",
+    "Mosquito",
+    "Snail"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "dcbeb3f1-c972-4064-b1d6-61cb475edd92",
+   "split": "dev",
+   "turn": 13,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     19,
+     5
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 198,
+    "draw": 2
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 199,
+    "draws": 1
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Cat",
+    "Dragon",
+    "Elephant",
+    "Mammoth",
+    "Mosquito",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "275ff84a-14ca-4d13-a4c3-5938bee95bf0",
+   "split": "heldout",
+   "turn": 16,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     11,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 188,
+    "draw": 12
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 190,
+    "draws": 10
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Camel",
+    "Elephant",
+    "Hedgehog",
+    "Skunk",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "86b8c736-ae04-4295-b339-0438cb76f480",
+   "split": "dev",
+   "turn": 7,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     2,
+     3
+    ],
+    [
+     8,
+     7
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Crab",
+    "Dodo",
+    "Giraffe",
+    "Hedgehog",
+    "Kangaroo",
+    "Rat",
+    "Seal",
+    "Shark",
+    "Skunk",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "ff5cd3c3-d415-43c0-8a3c-b325fa44a06d",
+   "split": "dev",
+   "turn": 8,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     8,
+     1
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Crab",
+    "Deer",
+    "Dodo",
+    "Hedgehog",
+    "Kangaroo",
+    "Rat",
+    "Seal",
+    "Shark",
+    "Skunk",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "6df751c1-fcfa-4101-87a1-c99126116a0a",
+   "split": "dev",
+   "turn": 6,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     6,
+     1
+    ],
+    [
+     9,
+     11
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 122,
+    "opponent": 78
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 122,
+    "opponentWins": 78,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Camel",
+    "Deer",
+    "Dog",
+    "Flamingo",
+    "Giraffe",
+    "Rabbit",
+    "Spider"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "83e018d0-302e-431b-bc4a-b82189ecb463",
+   "split": "dev",
+   "turn": 4,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     16,
+     7
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Cricket",
+    "Dodo",
+    "Dog",
+    "Mosquito",
+    "Rabbit",
+    "Rat",
+    "Spider"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "9244c3b6-8213-4c14-b051-7296d676ca7c",
+   "split": "dev",
+   "turn": 6,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 137,
+    "opponentWins": 63,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Deer",
+    "Dodo",
+    "Dog",
+    "Ox",
+    "Rabbit",
+    "Snail",
+    "Spider"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "5918d229-8e41-4f6e-bd50-06029cda0f78",
+   "split": "dev",
+   "turn": 10,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     13,
+     13
+    ],
+    [
+     16,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Cat",
+    "Dodo",
+    "Dog",
+    "Giraffe",
+    "Monkey",
+    "Ox",
+    "Rabbit",
+    "Rhino",
+    "Turkey"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "6e696552-3792-40ab-a27e-be5cf09099e4",
+   "split": "dev",
+   "turn": 11,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     16,
+     7
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Dodo",
+    "Giraffe",
+    "Leopard",
+    "Monkey",
+    "Ox",
+    "Rabbit",
+    "Rhino"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "8f011995-44b0-4627-8501-9fe1ad91c741",
+   "split": "dev",
+   "turn": 3,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     2,
+     5
+    ],
+    [
+     3,
+     7
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Beaver",
+    "Flamingo",
+    "Ox",
+    "Pig",
+    "Rabbit"
+   ],
+   "size": 8
+  },
+  {
+   "battleId": "e83a8d58-633b-4d88-8ebd-a726dfad1ddf",
+   "split": "dev",
+   "turn": 6,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     5,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Ox",
+    "Parrot",
+    "Rabbit",
+    "Sheep",
+    "Snail"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "c627238b-0eee-4f8b-b2c0-e611dedb9c36",
+   "split": "heldout",
+   "turn": 10,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     8,
+     4
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Cat",
+    "Cow",
+    "Crab",
+    "Deer",
+    "Parrot",
+    "Peacock",
+    "Rat",
+    "Scorpion",
+    "Shark",
+    "Tiger"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "9001c280-1bcd-4034-ba37-14fdfb5a63d0",
+   "split": "dev",
+   "turn": 5,
+   "kind": "both miss the real winner",
+   "real": "opponent",
+   "realStats": [
+    [
+     5,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Crab",
+    "Dodo",
+    "Fish",
+    "Giraffe",
+    "Otter",
+    "Peacock",
+    "Pig",
+    "Skunk",
+    "Snail",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "4c67157e-84ad-4492-b112-93edae33dc1a",
+   "split": "dev",
+   "turn": 11,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     22,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Cow",
+    "Dodo",
+    "Leopard",
+    "Peacock",
+    "Rhino",
+    "Shark",
+    "Skunk",
+    "Tiger",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "e3de45b1-023c-44e9-9955-90427add1804",
+   "split": "heldout",
+   "turn": 14,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     5,
+     5
+    ],
+    [
+     27,
+     16
+    ],
+    [
+     27,
+     19
+    ],
+    [
+     47,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Dragon",
+    "Elephant",
+    "Gorilla",
+    "Monkey",
+    "Scorpion",
+    "Skunk",
+    "Tiger",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "4b49f5cb-74ad-430c-85d3-c782c96c625a",
+   "split": "dev",
+   "turn": 6,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     7,
+     7
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 158,
+    "opponent": 42
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 157,
+    "opponentWins": 43,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Camel",
+    "Dog",
+    "Peacock",
+    "Rat",
+    "Snail",
+    "Spider",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "2d7866f9-9f3f-4fbe-837e-8c9a46807504",
+   "split": "heldout",
+   "turn": 14,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     5,
+     3
+    ],
+    [
+     14,
+     1
+    ],
+    [
+     18,
+     5
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 155,
+    "player": 40,
+    "draw": 5
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 38,
+    "opponentWins": 157,
+    "draws": 5
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Dog",
+    "Dragon",
+    "Elephant",
+    "Leopard",
+    "Parrot",
+    "Penguin",
+    "Shark",
+    "Tiger",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "d0b33785-acdf-4c86-98cf-d6757769fced",
+   "split": "dev",
+   "turn": 8,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     17,
+     7
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Deer",
+    "Dodo",
+    "Dolphin",
+    "Kangaroo",
+    "Monkey",
+    "Rhino",
+    "Swan",
+    "Whale"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "7898606a-35fa-47f9-bae7-efa5faa8032b",
+   "split": "dev",
+   "turn": 9,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     17,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "draw": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Cow",
+    "Deer",
+    "Dodo",
+    "Dolphin",
+    "Kangaroo",
+    "Monkey",
+    "Rhino",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "2da8270e-6219-4086-8d95-161979d36214",
+   "split": "dev",
+   "turn": 11,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     6,
+     4
+    ],
+    [
+     11,
+     11
+    ],
+    [
+     17,
+     5
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Cow",
+    "Deer",
+    "Dodo",
+    "Dolphin",
+    "Gorilla",
+    "Kangaroo",
+    "Monkey",
+    "Rhino",
+    "Tiger"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "39482cc7-2d25-4fd6-8995-8c7ee5e1a794",
+   "split": "dev",
+   "turn": 13,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     10,
+     5
+    ],
+    [
+     14,
+     12
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Cow",
+    "Deer",
+    "Dodo",
+    "Fly",
+    "Gorilla",
+    "Mammoth",
+    "Monkey",
+    "Rhino",
+    "Tiger",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "22a45afc-4ca1-4183-b478-887b6a02f2e2",
+   "split": "dev",
+   "turn": 6,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     1,
+     1
+    ],
+    [
+     6,
+     4
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Cricket",
+    "Dolphin",
+    "Elephant",
+    "Giraffe",
+    "Otter",
+    "Ox",
+    "Snail"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "59cba9e8-867f-4103-8b98-b94434f9c32f",
+   "split": "dev",
+   "turn": 15,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     21,
+     14
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 48,
+    "draw": 25,
+    "opponent": 127
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 47,
+    "opponentWins": 134,
+    "draws": 19
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Boar",
+    "Fly",
+    "Leopard",
+    "Mammoth",
+    "Parrot",
+    "Snake",
+    "Tiger",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "8e332da8-9b45-4950-a145-de05d9b47655",
+   "split": "dev",
+   "turn": 9,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     4,
+     4
+    ],
+    [
+     10,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 197,
+    "draw": 3
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 199,
+    "opponentWins": 0,
+    "draws": 1
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Bison",
+    "Blowfish",
+    "Camel",
+    "Cricket",
+    "Dolphin",
+    "Fly",
+    "Mosquito",
+    "Penguin"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "73b807df-fc31-48b6-9842-fd46ec07ae2a",
+   "split": "dev",
+   "turn": 5,
+   "kind": "both miss the real winner",
+   "real": "player",
+   "realStats": [
+    [
+     6,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Camel",
+    "Cricket",
+    "Deer",
+    "Dog",
+    "Flamingo",
+    "Horse",
+    "Ox"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "f4e7f127-ec5f-4101-bc73-9711347ea4c6",
+   "split": "dev",
+   "turn": 11,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     28,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 199,
+    "draw": 1
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 199,
+    "draws": 1
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Cat",
+    "Deer",
+    "Dog",
+    "Horse",
+    "Ox",
+    "Shark",
+    "Snake",
+    "Tiger"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "ede958be-e4e4-4076-998d-17ab33ccf95f",
+   "split": "heldout",
+   "turn": 11,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     2,
+     2
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     50,
+     16
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Bison",
+    "Deer",
+    "Rhino",
+    "Shark",
+    "Skunk",
+    "Tiger",
+    "Turkey",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "646d6abf-84ce-4a63-920c-08bdc3352456",
+   "split": "heldout",
+   "turn": 12,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     11
+    ],
+    [
+     50,
+     16
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Bison",
+    "Deer",
+    "Monkey",
+    "Rhino",
+    "Shark",
+    "Skunk",
+    "Tiger",
+    "Turkey",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "7acfd854-1e01-43db-82ac-76f66bcaee6d",
+   "split": "heldout",
+   "turn": 13,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     11
+    ],
+    [
+     50,
+     16
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Bison",
+    "Deer",
+    "Leopard",
+    "Rhino",
+    "Shark",
+    "Skunk",
+    "Tiger",
+    "Turkey",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "c4e62c12-ba0e-418d-91d4-8823e42642e3",
+   "split": "heldout",
+   "turn": 6,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     2,
+     3
+    ],
+    [
+     13,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 183,
+    "player": 17
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 165,
+    "opponentWins": 35,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Camel",
+    "Cricket",
+    "Dodo",
+    "Elephant",
+    "Horse",
+    "Pigeon",
+    "Snail",
+    "Spider",
+    "Turtle",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "bcadd163-1524-4210-8383-914b0d342fa2",
+   "split": "heldout",
+   "turn": 7,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     3,
+     2
+    ],
+    [
+     5,
+     3
+    ],
+    [
+     8,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 95,
+    "player": 73,
+    "draw": 32
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 64,
+    "opponentWins": 103,
+    "draws": 33
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Camel",
+    "Deer",
+    "Dodo",
+    "Elephant",
+    "Pigeon",
+    "Skunk",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "cd0e5e6f-968c-408b-9de2-3d345c66f9c3",
+   "split": "dev",
+   "turn": 9,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     12,
+     16
+    ],
+    [
+     21,
+     22
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Deer",
+    "Dodo",
+    "Fly",
+    "Kangaroo",
+    "Mammoth",
+    "Parrot",
+    "Rabbit",
+    "Skunk",
+    "Turtle",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "33dca0e0-a94a-4c0f-9fa7-b4a9866add02",
+   "split": "dev",
+   "turn": 12,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     13
+    ],
+    [
+     8,
+     6
+    ],
+    [
+     9,
+     5
+    ],
+    [
+     14,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 199,
+    "opponentWins": 0,
+    "draws": 1
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Crocodile",
+    "Deer",
+    "Fly",
+    "Parrot",
+    "Scorpion",
+    "Shark",
+    "Snake",
+    "Tiger",
+    "Turtle",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "55b1fc95-a281-4e8d-9dda-942d3356e560",
+   "split": "dev",
+   "turn": 9,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     5,
+     3
+    ],
+    [
+     5,
+     5
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Bison",
+    "Deer",
+    "Monkey",
+    "Seal",
+    "Skunk",
+    "Whale"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "ef822c31-5e4f-46a1-9499-3b755abbcfbb",
+   "split": "dev",
+   "turn": 12,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     8,
+     1
+    ],
+    [
+     11,
+     4
+    ],
+    [
+     11,
+     5
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Bison",
+    "Cat",
+    "Scorpion",
+    "Seal",
+    "Skunk",
+    "Snake",
+    "Tiger",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "07933ed8-38d5-4afc-bbbd-5c81f2f53d93",
+   "split": "dev",
+   "turn": 17,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     39,
+     13
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 151,
+    "player": 49
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 156,
+    "opponentWins": 44,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Elephant",
+    "Hedgehog",
+    "Mammoth",
+    "Rhino",
+    "Shark",
+    "Skunk",
+    "Tiger",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "c89d91ec-1a3c-4fe9-8419-1d83cf071096",
+   "split": "heldout",
+   "turn": 8,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     11,
+     9
+    ]
+   ],
+   "sapaiOutcomes": {
+    "draw": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Crab",
+    "Cricket",
+    "Deer",
+    "Giraffe",
+    "Parrot",
+    "Rabbit",
+    "Rooster",
+    "Sheep",
+    "Skunk"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "f5d9dc06-a8ae-4041-be28-4db59ea530a7",
+   "split": "dev",
+   "turn": 6,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     13,
+     5
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 111,
+    "player": 26,
+    "draw": 63
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 27,
+    "opponentWins": 117,
+    "draws": 56
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Blowfish",
+    "Deer",
+    "Dog",
+    "Rabbit",
+    "Snail",
+    "Spider",
+    "Swan"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "6bf41824-82ba-42b8-8201-3ff571d180f7",
+   "split": "dev",
+   "turn": 11,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     6,
+     7
+    ],
+    [
+     18,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 199,
+    "opponentWins": 0,
+    "draws": 1
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Cat",
+    "Cow",
+    "Deer",
+    "Snake",
+    "Swan",
+    "Tiger",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "029a9f78-4e83-4f4f-9b5f-e5a83cc8a6c8",
+   "split": "dev",
+   "turn": 5,
+   "kind": "engine winner wrong; calculator winner right, board not",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     7
+    ],
+    [
+     5,
+     2
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 60,
+    "opponentWins": 140,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Ant",
+    "Camel",
+    "Cricket",
+    "Elephant",
+    "Ox",
+    "Rabbit",
+    "Snail",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "8d134fca-6b01-4f91-901a-6df71a3fe03e",
+   "split": "dev",
+   "turn": 5,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     4,
+     3
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     11,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Camel",
+    "Dog",
+    "Elephant",
+    "Giraffe",
+    "Horse",
+    "Otter",
+    "Spider"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "231cc572-039b-45fb-bdf1-7563dac174d8",
+   "split": "dev",
+   "turn": 8,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     5,
+     8
+    ],
+    [
+     7,
+     5
+    ],
+    [
+     11,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Crocodile",
+    "Deer",
+    "Rhino",
+    "Snail",
+    "Squirrel",
+    "Swan"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "eabe368d-8ba8-434d-b45c-4eac634b99c6",
+   "split": "dev",
+   "turn": 12,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     20,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 193,
+    "draw": 7
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 1,
+    "opponentWins": 192,
+    "draws": 7
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Cow",
+    "Crocodile",
+    "Dragon",
+    "Snake",
+    "Squirrel",
+    "Tiger",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "5fed3cf2-724d-4a70-ac33-c49ea59d3173",
+   "split": "heldout",
+   "turn": 5,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     7,
+     1
+    ],
+    [
+     7,
+     4
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Badger",
+    "Deer",
+    "Dolphin",
+    "Kangaroo",
+    "Peacock",
+    "Turtle"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "30b6dee8-7738-4b4d-97c2-e848232bb222",
+   "split": "dev",
+   "turn": 3,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     2,
+     1
+    ],
+    [
+     4,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Beaver",
+    "Horse",
+    "Otter",
+    "Pig",
+    "Rat",
+    "Sheep",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "916edd0d-3b7c-49ea-8e5a-00586b20d2dd",
+   "split": "dev",
+   "turn": 4,
+   "kind": "both miss the real winner",
+   "real": "draw",
+   "realStats": [],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Dodo",
+    "Horse",
+    "Pig",
+    "Rabbit",
+    "Rat",
+    "Sheep",
+    "Snail",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "9805c981-4189-40ab-a6f6-e59daa7ae963",
+   "split": "dev",
+   "turn": 10,
+   "kind": "both miss the real board",
+   "real": "player",
+   "realStats": [
+    [
+     8,
+     3
+    ],
+    [
+     16,
+     11
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Dolphin",
+    "Elephant",
+    "Giraffe",
+    "Peacock",
+    "Rat",
+    "Scorpion",
+    "Skunk",
+    "Tiger",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "5dccddde-34e5-4a3a-9289-2cc3b91f9c58",
+   "split": "dev",
+   "turn": 10,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     6,
+     4
+    ],
+    [
+     35,
+     42
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Cat",
+    "Shark",
+    "Sheep",
+    "Snake",
+    "Squirrel",
+    "Tiger",
+    "Turkey",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "661bedfe-a444-480e-8fd4-f026e8bb57ab",
+   "split": "dev",
+   "turn": 15,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     30,
+     4
+    ],
+    [
+     37,
+     17
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 33,
+    "draw": 99,
+    "opponent": 68
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 37,
+    "opponentWins": 74,
+    "draws": 89
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Camel",
+    "Dog",
+    "Flamingo",
+    "Hedgehog",
+    "Mammoth",
+    "Skunk",
+    "Wolverine"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "46faaa69-c1f7-49c0-96bc-ceecb5de24ab",
+   "split": "heldout",
+   "turn": 8,
+   "kind": "both miss the real board",
+   "real": "opponent",
+   "realStats": [
+    [
+     12,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Crocodile",
+    "Dog",
+    "Giraffe",
+    "Hedgehog",
+    "Ox",
+    "Parrot",
+    "Rabbit",
+    "Squirrel",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "cc273364-10da-4bac-b634-28cd6fdc3ba3",
+   "split": "heldout",
+   "turn": 8,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     3,
+     3
+    ],
+    [
+     8,
+     2
+    ],
+    [
+     16,
+     14
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Camel",
+    "Cricket",
+    "Giraffe",
+    "Hedgehog",
+    "Ox",
+    "Rabbit",
+    "Snail"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "2437daed-0fa1-4520-a2eb-ecafe554435e",
+   "split": "heldout",
+   "turn": 9,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     4,
+     3
+    ],
+    [
+     18,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 109,
+    "draw": 39,
+    "player": 52
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 145,
+    "opponentWins": 43,
+    "draws": 12
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Camel",
+    "Cricket",
+    "Giraffe",
+    "Hedgehog",
+    "Ox",
+    "Rabbit",
+    "Seal",
+    "Tiger"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "b7ff12fb-8579-42f9-a9c8-adf5491c6edc",
+   "split": "heldout",
+   "turn": 11,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     7,
+     15
+    ],
+    [
+     12,
+     3
+    ],
+    [
+     25,
+     12
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Camel",
+    "Giraffe",
+    "Gorilla",
+    "Hedgehog",
+    "Leopard",
+    "Ox",
+    "Rabbit",
+    "Seal",
+    "Tiger"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "b1345b2f-3c25-4d22-8369-d3b008e29d0e",
+   "split": "dev",
+   "turn": 5,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     8,
+     6
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 197,
+    "draw": 3
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 192,
+    "opponentWins": 0,
+    "draws": 8
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Dolphin",
+    "Giraffe",
+    "Ox",
+    "Pig",
+    "Rabbit",
+    "Spider",
+    "Swan"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "1ca80edc-8470-481d-bea8-eb2b9ef7183c",
+   "split": "dev",
+   "turn": 10,
+   "kind": "engine bug (calculator matches real)",
+   "real": "draw",
+   "realStats": [],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 0,
+    "draws": 200
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Bison",
+    "Boar",
+    "Cow",
+    "Deer",
+    "Parrot",
+    "Pigeon",
+    "Shark",
+    "Tiger",
+    "Worm"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "82d3b9c9-58c6-499e-b254-c69690d775b9",
+   "split": "dev",
+   "turn": 14,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     34,
+     18
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 192,
+    "draw": 8
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 182,
+    "draws": 18
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Bison",
+    "Boar",
+    "Deer",
+    "Leopard",
+    "Parrot",
+    "Scorpion",
+    "Skunk",
+    "Snake"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "91d310a7-a797-4313-bf3d-337b243819ae",
+   "split": "heldout",
+   "turn": 11,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     17,
+     10
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 196,
+    "draw": 4
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Boar",
+    "Deer",
+    "Dragon",
+    "Mammoth",
+    "Skunk",
+    "Snake",
+    "Swan",
+    "Tiger",
+    "Whale"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "1c178700-e481-46c7-bb8f-6489049cdae8",
+   "split": "dev",
+   "turn": 5,
+   "kind": "both miss the real winner",
+   "real": "opponent",
+   "realStats": [
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "player": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Crab",
+    "Giraffe",
+    "Hedgehog",
+    "Kangaroo",
+    "Ox",
+    "Rabbit",
+    "Snail",
+    "Turtle"
+   ],
+   "size": 10
+  },
+  {
+   "battleId": "9f7cf785-af04-4c00-9787-c60eba99f904",
+   "split": "dev",
+   "turn": 6,
+   "kind": "engine bug (calculator matches real)",
+   "real": "opponent",
+   "realStats": [
+    [
+     1,
+     1
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     10,
+     3
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 0,
+    "opponentWins": 200,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Crab",
+    "Giraffe",
+    "Hedgehog",
+    "Kangaroo",
+    "Ox",
+    "Rabbit"
+   ],
+   "size": 8
+  },
+  {
+   "battleId": "7ac87d62-b0e2-4f83-9a00-3e49ef1db5c6",
+   "split": "dev",
+   "turn": 7,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "opponent": 200
+   },
+   "sapaiDeterministic": true,
+   "calcOutcomes": {
+    "playerWins": 200,
+    "opponentWins": 0,
+    "draws": 0
+   },
+   "calcDeterministic": true,
+   "pets": [
+    "Crab",
+    "Giraffe",
+    "Hedgehog",
+    "Kangaroo",
+    "Ox",
+    "Rabbit",
+    "Turkey"
+   ],
+   "size": 9
+  },
+  {
+   "battleId": "7b5167ee-c4ec-4726-b74d-67cd4aac8f7a",
+   "split": "dev",
+   "turn": 11,
+   "kind": "engine bug (calculator matches real)",
+   "real": "player",
+   "realStats": [
+    [
+     10,
+     1
+    ],
+    [
+     18,
+     1
+    ]
+   ],
+   "sapaiOutcomes": {
+    "draw": 103,
+    "player": 79,
+    "opponent": 18
+   },
+   "sapaiDeterministic": false,
+   "calcOutcomes": {
+    "playerWins": 71,
+    "opponentWins": 18,
+    "draws": 111
+   },
+   "calcDeterministic": false,
+   "pets": [
+    "Blowfish",
+    "Cat",
+    "Cow",
+    "Deer",
+    "Hedgehog",
+    "Leopard",
+    "Skunk",
+    "Whale",
+    "Wolverine"
+   ],
+   "size": 10
+  }
+ ]
+}

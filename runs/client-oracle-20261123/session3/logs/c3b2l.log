@@ -1,0 +1,447 @@
+BROWSER READY
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x1-dead-leopard-p870113 25 22.3
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x1-dead-leopard-m1714808783 22 19.3
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x1-dead-leopard-p1203948571 26 22.2
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x2-dead-dolphin-p870113 23 20.1
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x2-dead-dolphin-m1714808783 23 19.4
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x2-dead-dolphin-p1203948571 24 20.2
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x3-dead-crocodile-p870113 24 20.9
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x3-dead-crocodile-m1714808783 25 22.2
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x3-dead-crocodile-p1203948571 25 21.1
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x4-dead-mosquito-p870113 24 21.0
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x4-dead-mosquito-m1714808783 25 20.5
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x4-dead-mosquito-p1203948571 23 20.0
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x5-dead-skunk-p870113 23 19.9
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x5-dead-skunk-m1714808783 25 21.5
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x5-dead-skunk-p1203948571 25 22.2
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x6-dead-whale-p870113 31 26.0
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x6-dead-whale-m1714808783 32 27.5
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x6-dead-whale-p1203948571 29 26.6
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x7-dead-dolphin-killed-by-croc-p870113 24 21.1
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x7-dead-dolphin-killed-by-croc-m1714808783 26 24.0
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-x7-dead-dolphin-killed-by-croc-p1203948571 24 30.4
+EXIT 0
+session2/captures/c3-x7-dead-dolphin-killed-by-croc-p870113 23 readings
+session2/captures/c3-x7-dead-dolphin-killed-by-croc-m1714808783 26 readings
+session2/captures/c3-x7-dead-dolphin-killed-by-croc-p1203948571 26 readings
+BATCH DONE

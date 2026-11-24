@@ -1,0 +1,444 @@
+[
+ {
+  "file": "c3-e5-wolv-vs-rhino-p870113.json",
+  "id": "0dc1dcfe-728e-5eee-bfba-2b7b397c50b9",
+  "seed": 870113,
+  "sha256": "07b9a2b439933732dc04c6e373b10054f77ee3bd77dd1e4455f048f91e26b141",
+  "test": "e5-wolv-vs-rhino",
+  "left": [
+   [
+    "Rhino",
+    6,
+    20
+   ],
+   [
+    "Pig",
+    2,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Duck",
+    4,
+    22
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    7
+   ],
+   [
+    "Fish",
+    2,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-e5-wolv-vs-rhino-m1714808783.json",
+  "id": "58221cf7-d746-59c2-a46d-c4918a71b20f",
+  "seed": -1714808783,
+  "sha256": "ef8329f6853ffa457af325bb851924c8e5fc389716da3731a05576ad00e143f5",
+  "test": "e5-wolv-vs-rhino",
+  "left": [
+   [
+    "Rhino",
+    6,
+    20
+   ],
+   [
+    "Pig",
+    2,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Duck",
+    4,
+    22
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    7
+   ],
+   [
+    "Fish",
+    2,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7x-tiger-dies-too-continues-p870113.json",
+  "id": "d29a9a31-5954-50fb-9e4a-7f37314f6b7c",
+  "seed": 870113,
+  "sha256": "832ce53fb1ce73e8b9348c30625965baab705a9a48457af0bc2e4e11861efc3a",
+  "test": "f7x-tiger-dies-too-continues",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7x-tiger-dies-too-continues-m1714808783.json",
+  "id": "9e1743db-367f-5d01-bd2c-ff50748cdaa8",
+  "seed": -1714808783,
+  "sha256": "3ef8ee7c8f40b0e52fd1142e3310caaffa0204352fe9d555051d5145d2d37fbe",
+  "test": "f7x-tiger-dies-too-continues",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7c-tiger-survives-control-p870113.json",
+  "id": "72899433-cfef-52e5-9e4c-a3394b059138",
+  "seed": 870113,
+  "sha256": "53119e2578e52c98869a83fb58b9e2e7dbf3391e48e60d4c6d214d75a370c950",
+  "test": "f7c-tiger-survives-control",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    9
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7c-tiger-survives-control-m1714808783.json",
+  "id": "4665ea13-8d2e-5330-8c14-6d31d5c8541d",
+  "seed": -1714808783,
+  "sha256": "b5d618140ef43c1cd31272c8a06e33f728b888132cdea609704035e6af643b65",
+  "test": "f7c-tiger-survives-control",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    9
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f2x-tiger-faint-continues-p870113.json",
+  "id": "d5d15d7e-e7e7-5679-a622-47a0698d648c",
+  "seed": 870113,
+  "sha256": "0ab908b8917e0df1a85df49b1a9a660be0a8303af371f843fb509b9f420e0a4a",
+  "test": "f2x-tiger-faint-continues",
+  "left": [
+   [
+    "Hedgehog",
+    9,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Mammoth",
+    3,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    4
+   ],
+   [
+    "Fish",
+    2,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-f2x-tiger-faint-continues-m1714808783.json",
+  "id": "eae9c0bf-1e33-58a5-9b3b-b7d0c45291eb",
+  "seed": -1714808783,
+  "sha256": "a8b0b11c2167698a1851fd3ee2d6ccfbd8dd81f0a697d020517ace7a20c856d2",
+  "test": "f2x-tiger-faint-continues",
+  "left": [
+   [
+    "Hedgehog",
+    9,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Mammoth",
+    3,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    4
+   ],
+   [
+    "Fish",
+    2,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-c5-whale-fly-p870113.json",
+  "id": "300bda58-c62b-55f0-818e-503c3b6f3948",
+  "seed": 870113,
+  "sha256": "9050de35476d7bf2c435b95116de708dd7f1224777d5195bdd32bbcdff22f09a",
+  "test": "c5-whale-fly",
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-c5-whale-fly-m1714808783.json",
+  "id": "32b90358-4d9a-5ff0-80d0-f241825190a6",
+  "seed": -1714808783,
+  "sha256": "21ab7f4557aff4920483f0529b693197e5a3b0ebd63669b902cd87c8ed31d1e5",
+  "test": "c5-whale-fly",
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ],
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-c5s-whale-shark-p870113.json",
+  "id": "d27ed609-93df-559d-b708-7ae0a0e5862e",
+  "seed": 870113,
+  "sha256": "4d68fb0f6538349e3c351fe24c272b933115f1436b2ec0011392a359417d383f",
+  "test": "c5s-whale-shark",
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ],
+   [
+    "Shark",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-c5s-whale-shark-m1714808783.json",
+  "id": "3bf10361-a574-5173-828b-612e66f705d8",
+  "seed": -1714808783,
+  "sha256": "ddebefed70e3f7fc8dc990b68ab18319a46db3a8efb2baca6d6a39a187fe1d24",
+  "test": "c5s-whale-shark",
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ],
+   [
+    "Shark",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ }
+]

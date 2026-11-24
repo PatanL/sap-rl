@@ -1,0 +1,146 @@
+[
+  {
+    "model": "small",
+    "batch": 1,
+    "phase": "encode",
+    "ms": 0.8720456244191155
+  },
+  {
+    "model": "small",
+    "batch": 1,
+    "phase": "decode",
+    "ms": 1.7906226130435243
+  },
+  {
+    "model": "small",
+    "batch": 16,
+    "phase": "encode",
+    "ms": 0.9557493758620694
+  },
+  {
+    "model": "small",
+    "batch": 16,
+    "phase": "decode",
+    "ms": 1.872039370937273
+  },
+  {
+    "model": "small",
+    "batch": 256,
+    "phase": "encode",
+    "ms": 1.318039488978684
+  },
+  {
+    "model": "small",
+    "batch": 256,
+    "phase": "decode",
+    "ms": 1.8153548735426739
+  },
+  {
+    "model": "mid",
+    "batch": 1,
+    "phase": "encode",
+    "ms": 1.098235574318096
+  },
+  {
+    "model": "mid",
+    "batch": 1,
+    "phase": "decode",
+    "ms": 2.447969382046722
+  },
+  {
+    "model": "mid",
+    "batch": 16,
+    "phase": "encode",
+    "ms": 1.1864383850479499
+  },
+  {
+    "model": "mid",
+    "batch": 16,
+    "phase": "decode",
+    "ms": 1.792785624274984
+  },
+  {
+    "model": "mid",
+    "batch": 256,
+    "phase": "encode",
+    "ms": 1.8411161290714517
+  },
+  {
+    "model": "mid",
+    "batch": 256,
+    "phase": "decode",
+    "ms": 2.0132796198595315
+  },
+  {
+    "model": "medium",
+    "batch": 1,
+    "phase": "encode",
+    "ms": 1.5124772471608594
+  },
+  {
+    "model": "medium",
+    "batch": 1,
+    "phase": "decode",
+    "ms": 1.704498878098093
+  },
+  {
+    "model": "medium",
+    "batch": 16,
+    "phase": "encode",
+    "ms": 1.5421424322994426
+  },
+  {
+    "model": "medium",
+    "batch": 16,
+    "phase": "decode",
+    "ms": 1.5718636859674007
+  },
+  {
+    "model": "medium",
+    "batch": 256,
+    "phase": "encode",
+    "ms": 5.415112318587489
+  },
+  {
+    "model": "medium",
+    "batch": 256,
+    "phase": "decode",
+    "ms": 1.877431379398331
+  },
+  {
+    "model": "parent",
+    "batch": 1,
+    "phase": "encode",
+    "ms": 1.3117765047354624
+  },
+  {
+    "model": "parent",
+    "batch": 1,
+    "phase": "decode",
+    "ms": 1.6170311282621697
+  },
+  {
+    "model": "parent",
+    "batch": 16,
+    "phase": "encode",
+    "ms": 1.3570578739745542
+  },
+  {
+    "model": "parent",
+    "batch": 16,
+    "phase": "decode",
+    "ms": 1.7067529261112213
+  },
+  {
+    "model": "parent",
+    "batch": 256,
+    "phase": "encode",
+    "ms": 7.83611144288443
+  },
+  {
+    "model": "parent",
+    "batch": 256,
+    "phase": "decode",
+    "ms": 2.0844621903961524
+  }
+]

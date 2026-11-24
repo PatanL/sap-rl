@@ -1,0 +1,292 @@
+{
+ "turns": [
+  4,
+  7
+ ],
+ "pairs": 40000,
+ "botScore": 0.3947265625,
+ "byHumanPet": [
+  {
+   "tag": "shark",
+   "share": 0.021825,
+   "botScoreWith": 0.20983676975945018,
+   "botScoreWithout": 0.3988518158816163
+  },
+  {
+   "tag": "perk:bread",
+   "share": 0.066425,
+   "botScoreWith": 0.2196321038765525,
+   "botScoreWithout": 0.4071847468066304
+  },
+  {
+   "tag": "deer",
+   "share": 0.11525,
+   "botScoreWith": 0.264574295010846,
+   "botScoreWithout": 0.41168055948007914
+  },
+  {
+   "tag": "blowfish",
+   "share": 0.08315,
+   "botScoreWith": 0.28153187011425135,
+   "botScoreWithout": 0.40499229699514644
+  },
+  {
+   "tag": "whale",
+   "share": 0.061475,
+   "botScoreWith": 0.2863460756405043,
+   "botScoreWithout": 0.40182567060014385
+  },
+  {
+   "tag": "perk:garlic-armor",
+   "share": 0.1276,
+   "botScoreWith": 0.2961280368338558,
+   "botScoreWithout": 0.40914789660706097
+  },
+  {
+   "tag": "turtle",
+   "share": 0.060325,
+   "botScoreWith": 0.29747720679651884,
+   "botScoreWithout": 0.40096975017958336
+  },
+  {
+   "tag": "camel",
+   "share": 0.20565,
+   "botScoreWith": 0.32364606126914663,
+   "botScoreWithout": 0.4131286586517278
+  },
+  {
+   "tag": "perk:melon-armor",
+   "share": 0.0978,
+   "botScoreWith": 0.3298025306748466,
+   "botScoreWithout": 0.40176443693194414
+  },
+  {
+   "tag": "rat",
+   "share": 0.05535,
+   "botScoreWith": 0.3360151309846432,
+   "botScoreWithout": 0.39816664902344784
+  },
+  {
+   "tag": "monkey",
+   "share": 0.02955,
+   "botScoreWith": 0.337827834179357,
+   "botScoreWithout": 0.39645911690452884
+  },
+  {
+   "tag": "skunk",
+   "share": 0.083725,
+   "botScoreWith": 0.3400641982681397,
+   "botScoreWithout": 0.3997213582166926
+  },
+  {
+   "tag": "turkey",
+   "share": 0.0232,
+   "botScoreWith": 0.34543372844827586,
+   "botScoreWithout": 0.3958973177723178
+  },
+  {
+   "tag": "flamingo",
+   "share": 0.155575,
+   "botScoreWith": 0.34670777759922866,
+   "botScoreWithout": 0.4035734375462593
+  },
+  {
+   "tag": "hippo",
+   "share": 0.026525,
+   "botScoreWith": 0.35173185673892554,
+   "botScoreWithout": 0.395898071342356
+  },
+  {
+   "tag": "crab",
+   "share": 0.09485,
+   "botScoreWith": 0.3577358987875593,
+   "botScoreWithout": 0.398602786830912
+  },
+  {
+   "tag": "perk:bone-attack",
+   "share": 0.062725,
+   "botScoreWith": 0.3579115185332802,
+   "botScoreWithout": 0.39719032567816276
+  },
+  {
+   "tag": "sheep",
+   "share": 0.06775,
+   "botScoreWith": 0.35885608856088563,
+   "botScoreWithout": 0.3973334003754358
+  },
+  {
+   "tag": "spider",
+   "share": 0.147425,
+   "botScoreWith": 0.366033576394777,
+   "botScoreWithout": 0.39968807729525263
+  },
+  {
+   "tag": "dog",
+   "share": 0.094125,
+   "botScoreWith": 0.37033532536520586,
+   "botScoreWithout": 0.3972609355595419
+  },
+  {
+   "tag": "elephant",
+   "share": 0.176725,
+   "botScoreWith": 0.3720469656245579,
+   "botScoreWithout": 0.39959498648689684
+  },
+  {
+   "tag": "parrot",
+   "share": 0.0608,
+   "botScoreWith": 0.3720703125,
+   "botScoreWithout": 0.3961932362649063
+  },
+  {
+   "tag": "ox",
+   "share": 0.148075,
+   "botScoreWith": 0.3747678541279757,
+   "botScoreWithout": 0.3981956304839041
+  },
+  {
+   "tag": "rabbit",
+   "share": 0.23885,
+   "botScoreWith": 0.37958577559137535,
+   "botScoreWithout": 0.3994777639098732
+  },
+  {
+   "tag": "ant",
+   "share": 0.134425,
+   "botScoreWith": 0.37964943276920216,
+   "botScoreWithout": 0.39706806169309417
+  },
+  {
+   "tag": "hedgehog",
+   "share": 0.065975,
+   "botScoreWith": 0.38025767336112165,
+   "botScoreWithout": 0.39574857471695085
+  },
+  {
+   "tag": "kangaroo",
+   "share": 0.11605,
+   "botScoreWith": 0.3840074321413184,
+   "botScoreWithout": 0.39613383109904404
+  },
+  {
+   "tag": "peacock",
+   "share": 0.162425,
+   "botScoreWith": 0.38508157611205174,
+   "botScoreWithout": 0.3965969465421007
+  },
+  {
+   "tag": "otter",
+   "share": 0.1017,
+   "botScoreWith": 0.3858929449360865,
+   "botScoreWithout": 0.39572665033953025
+  },
+  {
+   "tag": "dolphin",
+   "share": 0.12275,
+   "botScoreWith": 0.39240071283095723,
+   "botScoreWithout": 0.39505200911940724
+  },
+  {
+   "tag": "cricket",
+   "share": 0.135375,
+   "botScoreWith": 0.3960757156048015,
+   "botScoreWithout": 0.3945153245626717
+  },
+  {
+   "tag": "perk:honey-bee",
+   "share": 0.03515,
+   "botScoreWith": 0.4053609530583215,
+   "botScoreWithout": 0.3943391459812406
+  },
+  {
+   "tag": "squirrel",
+   "share": 0.0344,
+   "botScoreWith": 0.4055686773255814,
+   "botScoreWithout": 0.3943403065451533
+  },
+  {
+   "tag": "snail",
+   "share": 0.2566,
+   "botScoreWith": 0.4057263250194856,
+   "botScoreWithout": 0.390929765267689
+  },
+  {
+   "tag": "horse",
+   "share": 0.086775,
+   "botScoreWith": 0.4140017286084702,
+   "botScoreWithout": 0.3928950286074078
+  },
+  {
+   "tag": "perk:cake",
+   "share": 0.271475,
+   "botScoreWith": 0.4255456303527028,
+   "botScoreWithout": 0.38324225318280086
+  },
+  {
+   "tag": "worm",
+   "share": 0.14025,
+   "botScoreWith": 0.4310940285204991,
+   "botScoreWithout": 0.3887939808083745
+  },
+  {
+   "tag": "badger",
+   "share": 0.08955,
+   "botScoreWith": 0.4488065326633166,
+   "botScoreWithout": 0.3894073672359822
+  },
+  {
+   "tag": "fish",
+   "share": 0.095875,
+   "botScoreWith": 0.4510756192959583,
+   "botScoreWithout": 0.3887512097331674
+  },
+  {
+   "tag": "giraffe",
+   "share": 0.221475,
+   "botScoreWith": 0.4560334123490236,
+   "botScoreWithout": 0.3772859734754825
+  },
+  {
+   "tag": "dodo",
+   "share": 0.0861,
+   "botScoreWith": 0.46011178861788615,
+   "botScoreWithout": 0.3885665143888828
+  },
+  {
+   "tag": "pig",
+   "share": 0.06975,
+   "botScoreWith": 0.46025985663082436,
+   "botScoreWithout": 0.38981288632088146
+  },
+  {
+   "tag": "penguin",
+   "share": 0.05915,
+   "botScoreWith": 0.46571217244294166,
+   "botScoreWithout": 0.3902637907211564
+  },
+  {
+   "tag": "mosquito",
+   "share": 0.028175,
+   "botScoreWith": 0.46622670807453415,
+   "botScoreWithout": 0.39265364134489233
+  },
+  {
+   "tag": "pigeon",
+   "share": 0.05545,
+   "botScoreWith": 0.4837973399458972,
+   "botScoreWithout": 0.38949764438092216
+  },
+  {
+   "tag": "swan",
+   "share": 0.12865,
+   "botScoreWith": 0.5057568985619899,
+   "botScoreWithout": 0.37833354851666956
+  },
+  {
+   "tag": "beaver",
+   "share": 0.0659,
+   "botScoreWith": 0.508037746585736,
+   "botScoreWithout": 0.3867325500481747
+  }
+ ]
+}

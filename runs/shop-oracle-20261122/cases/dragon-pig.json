@@ -1,0 +1,2261 @@
+{
+  "key": [
+    "01a195bf-22cf-78f0-9a27-52538721a2cb",
+    "01a195bf-22d1-7e75-8e30-14317986b4f9",
+    11
+  ],
+  "before": {
+    "turn": 10,
+    "tier": 5,
+    "board": [
+      {
+        "id": 79,
+        "name": "Monkey",
+        "x": 0,
+        "lvl": 1,
+        "xp": 0,
+        "a": 2,
+        "h": 3,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": true,
+        "links": []
+      },
+      {
+        "id": 162,
+        "name": "Cow",
+        "x": 1,
+        "lvl": 1,
+        "xp": 0,
+        "a": 4,
+        "h": 6,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": false,
+        "links": []
+      },
+      {
+        "id": 142,
+        "name": "Tiger",
+        "x": 2,
+        "lvl": 1,
+        "xp": 0,
+        "a": 7,
+        "h": 6,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": true,
+        "links": []
+      },
+      {
+        "id": 74,
+        "name": "Blowfish",
+        "x": 3,
+        "lvl": 2,
+        "xp": 2,
+        "a": 12,
+        "h": 16,
+        "ta": 0,
+        "th": 7,
+        "perk": "Bread",
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": false,
+        "links": []
+      },
+      {
+        "id": 25,
+        "name": "Elephant",
+        "x": 4,
+        "lvl": 2,
+        "xp": 2,
+        "a": 18,
+        "h": 19,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": true,
+        "links": []
+      }
+    ],
+    "shop": [
+      {
+        "id": 160,
+        "name": "Crocodile",
+        "x": 0,
+        "lvl": 1,
+        "xp": 0,
+        "a": 8,
+        "h": 4,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": false,
+        "links": []
+      },
+      {
+        "id": 161,
+        "name": "Rooster",
+        "x": 0,
+        "lvl": 1,
+        "xp": 0,
+        "a": 6,
+        "h": 5,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": false,
+        "links": []
+      },
+      {
+        "id": 158,
+        "name": "Pig",
+        "x": 0,
+        "lvl": 1,
+        "xp": 0,
+        "a": 4,
+        "h": 1,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": false,
+        "links": []
+      },
+      {
+        "id": 159,
+        "name": "Cricket",
+        "x": 0,
+        "lvl": 1,
+        "xp": 0,
+        "a": 1,
+        "h": 3,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": false,
+        "links": []
+      }
+    ],
+    "food": [],
+    "unc": 166,
+    "spent": 12,
+    "gain": 2,
+    "gold": 0,
+    "rolls": 3,
+    "buffs": [],
+    "result": 1,
+    "wins": 3,
+    "losses": 5,
+    "pslots": 5,
+    "fslots": 2
+  },
+  "after": {
+    "turn": 11,
+    "tier": 6,
+    "board": [
+      {
+        "id": 167,
+        "name": "Dragon",
+        "x": 0,
+        "lvl": 1,
+        "xp": 0,
+        "a": 3,
+        "h": 8,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 1,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": false,
+        "links": []
+      },
+      {
+        "id": 142,
+        "name": "Tiger",
+        "x": 1,
+        "lvl": 2,
+        "xp": 2,
+        "a": 10,
+        "h": 9,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": true,
+        "links": []
+      },
+      {
+        "id": 74,
+        "name": "Blowfish",
+        "x": 2,
+        "lvl": 2,
+        "xp": 2,
+        "a": 13,
+        "h": 17,
+        "ta": 0,
+        "th": 7,
+        "perk": "Bread",
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": false,
+        "links": []
+      },
+      {
+        "id": 25,
+        "name": "Elephant",
+        "x": 3,
+        "lvl": 2,
+        "xp": 2,
+        "a": 19,
+        "h": 20,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": true,
+        "links": []
+      },
+      {
+        "id": 171,
+        "name": "Pig",
+        "x": 4,
+        "lvl": 1,
+        "xp": 0,
+        "a": 5,
+        "h": 2,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": false,
+        "links": []
+      }
+    ],
+    "shop": [
+      {
+        "id": 174,
+        "name": "Fly",
+        "x": 0,
+        "lvl": 1,
+        "xp": 0,
+        "a": 4,
+        "h": 4,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": true,
+        "links": [
+          174,
+          175
+        ]
+      },
+      {
+        "id": 175,
+        "name": "Dragon",
+        "x": 0,
+        "lvl": 1,
+        "xp": 0,
+        "a": 3,
+        "h": 8,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": true,
+        "cost": 3,
+        "reward": true,
+        "links": [
+          174,
+          175
+        ]
+      },
+      {
+        "id": 169,
+        "name": "Peacock",
+        "x": 0,
+        "lvl": 1,
+        "xp": 0,
+        "a": 2,
+        "h": 5,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": false,
+        "links": []
+      },
+      {
+        "id": 170,
+        "name": "Peacock",
+        "x": 0,
+        "lvl": 1,
+        "xp": 0,
+        "a": 2,
+        "h": 5,
+        "ta": 0,
+        "th": 0,
+        "perk": null,
+        "uses": 0,
+        "sellBonus": 0,
+        "f": false,
+        "cost": 3,
+        "reward": false,
+        "links": []
+      }
+    ],
+    "food": [
+      {
+        "id": 172,
+        "name": "Sleeping Pill",
+        "f": false,
+        "cost": 1,
+        "power": 0,
+        "stock": false
+      }
+    ],
+    "unc": 175,
+    "spent": 12,
+    "gain": 2,
+    "gold": 0,
+    "rolls": 0,
+    "buffs": [],
+    "result": 1,
+    "wins": 4,
+    "losses": 5,
+    "pslots": 5,
+    "fslots": 2
+  },
+  "steps": [
+    [
+      "start",
+      null
+    ],
+    [
+      "food",
+      null
+    ],
+    [
+      "buy merge",
+      142
+    ],
+    [
+      "sell",
+      null
+    ],
+    [
+      "buy",
+      null
+    ],
+    [
+      "sell",
+      null
+    ],
+    [
+      "buy",
+      null
+    ],
+    [
+      "end",
+      null
+    ]
+  ],
+  "actions": [
+    {
+      "t": 4,
+      "seed": 1908323946
+    },
+    {
+      "t": 8,
+      "seed": 440592750,
+      "id": 173,
+      "target": 142,
+      "spell": {
+        "id": 173,
+        "name": "Chocolate",
+        "f": false,
+        "cost": 3,
+        "power": 0,
+        "stock": false
+      }
+    },
+    {
+      "t": 6,
+      "seed": 465189067,
+      "id": 168,
+      "x": 2
+    },
+    {
+      "t": 9,
+      "seed": 1342276570,
+      "freeze": [
+        [
+          174,
+          false
+        ],
+        [
+          175,
+          true
+        ],
+        [
+          167,
+          true
+        ],
+        [
+          169,
+          false
+        ],
+        [
+          170,
+          false
+        ],
+        [
+          171,
+          true
+        ],
+        [
+          172,
+          false
+        ]
+      ],
+      "id": 162
+    },
+    {
+      "t": 6,
+      "seed": 1878891973,
+      "id": 167,
+      "x": 1
+    },
+    {
+      "t": 9,
+      "seed": 1665490806,
+      "id": 79
+    },
+    {
+      "t": 6,
+      "seed": 720461738,
+      "id": 171,
+      "x": 0
+    },
+    {
+      "t": 11,
+      "seed": 1437662873,
+      "orders": [
+        [
+          167,
+          0
+        ],
+        [
+          142,
+          1
+        ],
+        [
+          74,
+          2
+        ],
+        [
+          25,
+          3
+        ],
+        [
+          171,
+          4
+        ]
+      ]
+    }
+  ],
+  "names": {
+    "173": "Chocolate",
+    "142": "Tiger",
+    "168": "Tiger",
+    "162": "Cow",
+    "167": "Dragon",
+    "79": "Monkey",
+    "171": "Pig"
+  },
+  "inferred": {
+    "168": 142
+  },
+  "run": {
+    "state": {
+      "board": [
+        [
+          "Dragon",
+          1,
+          0,
+          4,
+          9,
+          0,
+          0,
+          null
+        ],
+        [
+          "Tiger",
+          2,
+          2,
+          10,
+          9,
+          0,
+          0,
+          null
+        ],
+        [
+          "Blowfish",
+          2,
+          2,
+          13,
+          17,
+          0,
+          7,
+          "Bread"
+        ],
+        [
+          "Elephant",
+          2,
+          2,
+          19,
+          20,
+          0,
+          0,
+          null
+        ],
+        [
+          "Pig",
+          1,
+          0,
+          4,
+          1,
+          0,
+          0,
+          null
+        ]
+      ],
+      "frozen": [
+        [
+          175,
+          "pet",
+          "Dragon",
+          1,
+          0,
+          3,
+          8,
+          0,
+          0,
+          null,
+          3
+        ]
+      ],
+      "spent": 12,
+      "gold": 0,
+      "gain": 2
+    },
+    "shopDetail": [
+      {
+        "uid": 174,
+        "kind": "pet",
+        "body": [
+          "Fly",
+          1,
+          0,
+          4,
+          4,
+          0,
+          0,
+          null
+        ],
+        "cost": 3,
+        "frozen": false,
+        "reward": true
+      },
+      {
+        "uid": 175,
+        "kind": "pet",
+        "body": [
+          "Dragon",
+          1,
+          0,
+          3,
+          8,
+          0,
+          0,
+          null
+        ],
+        "cost": 3,
+        "frozen": true,
+        "reward": true
+      },
+      {
+        "uid": 169,
+        "kind": "pet",
+        "body": [
+          "Peacock",
+          1,
+          0,
+          2,
+          5,
+          0,
+          0,
+          null
+        ],
+        "cost": 3,
+        "frozen": false,
+        "reward": false
+      },
+      {
+        "uid": 170,
+        "kind": "pet",
+        "body": [
+          "Peacock",
+          1,
+          0,
+          2,
+          5,
+          0,
+          0,
+          null
+        ],
+        "cost": 3,
+        "frozen": false,
+        "reward": false
+      },
+      {
+        "uid": 172,
+        "kind": "food",
+        "body": [
+          "Sleeping Pill"
+        ],
+        "cost": 1,
+        "frozen": false,
+        "reward": false
+      }
+    ],
+    "unc": 175,
+    "genIssues": [],
+    "costErrors": [],
+    "orderEvidence": 0,
+    "unresolvedEviction": [],
+    "inventory": [
+      169,
+      170,
+      172,
+      174,
+      175
+    ],
+    "log": [
+      {
+        "op": "start",
+        "id": null,
+        "x": null,
+        "target": null,
+        "gold0": 0,
+        "gold": 10,
+        "cost": 0,
+        "realCost": null,
+        "state": {
+          "board": [
+            [
+              "Monkey",
+              1,
+              0,
+              2,
+              3,
+              0,
+              0,
+              null
+            ],
+            [
+              "Cow",
+              1,
+              0,
+              4,
+              6,
+              0,
+              0,
+              null
+            ],
+            [
+              "Tiger",
+              1,
+              0,
+              7,
+              6,
+              0,
+              0,
+              null
+            ],
+            [
+              "Blowfish",
+              2,
+              2,
+              12,
+              16,
+              0,
+              0,
+              "Bread"
+            ],
+            [
+              "Elephant",
+              2,
+              2,
+              18,
+              19,
+              0,
+              0,
+              null
+            ]
+          ],
+          "frozen": [],
+          "spent": 0,
+          "gold": 10,
+          "gain": 0
+        },
+        "uses": {
+          "25": 0,
+          "74": 0,
+          "142": 0,
+          "162": 0,
+          "79": 0
+        },
+        "offers": [
+          [
+            167,
+            "pet",
+            "pet-dragon",
+            3,
+            false
+          ],
+          [
+            168,
+            "pet",
+            "pet-tiger",
+            3,
+            false
+          ],
+          [
+            169,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            170,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            171,
+            "pet",
+            "pet-pig",
+            3,
+            false
+          ],
+          [
+            172,
+            "food",
+            "Sleeping Pill",
+            1,
+            false
+          ],
+          [
+            173,
+            "food",
+            "Chocolate",
+            3,
+            false
+          ]
+        ],
+        "uids": [
+          79,
+          162,
+          142,
+          74,
+          25
+        ],
+        "unc": 173,
+        "gen": [
+          [
+            167,
+            "pet",
+            "roll",
+            "Dragon"
+          ],
+          [
+            168,
+            "pet",
+            "roll",
+            "Tiger"
+          ],
+          [
+            169,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            170,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            171,
+            "pet",
+            "roll",
+            "Pig"
+          ],
+          [
+            172,
+            "food",
+            "roll",
+            "Sleeping Pill"
+          ],
+          [
+            173,
+            "food",
+            "roll",
+            "Chocolate"
+          ]
+        ],
+        "stock": []
+      },
+      {
+        "op": "food",
+        "id": 173,
+        "x": null,
+        "target": 142,
+        "gold0": 10,
+        "gold": 7,
+        "cost": 3,
+        "realCost": 3,
+        "state": {
+          "board": [
+            [
+              "Monkey",
+              1,
+              0,
+              2,
+              3,
+              0,
+              0,
+              null
+            ],
+            [
+              "Cow",
+              1,
+              0,
+              4,
+              6,
+              0,
+              0,
+              null
+            ],
+            [
+              "Tiger",
+              1,
+              1,
+              8,
+              7,
+              0,
+              0,
+              null
+            ],
+            [
+              "Blowfish",
+              2,
+              2,
+              12,
+              16,
+              0,
+              0,
+              "Bread"
+            ],
+            [
+              "Elephant",
+              2,
+              2,
+              18,
+              19,
+              0,
+              0,
+              null
+            ]
+          ],
+          "frozen": [],
+          "spent": 3,
+          "gold": 7,
+          "gain": 0
+        },
+        "uses": {
+          "25": 0,
+          "74": 0,
+          "142": 0,
+          "162": 0,
+          "79": 0
+        },
+        "offers": [
+          [
+            167,
+            "pet",
+            "pet-dragon",
+            3,
+            false
+          ],
+          [
+            168,
+            "pet",
+            "pet-tiger",
+            3,
+            false
+          ],
+          [
+            169,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            170,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            171,
+            "pet",
+            "pet-pig",
+            3,
+            false
+          ],
+          [
+            172,
+            "food",
+            "Sleeping Pill",
+            1,
+            false
+          ]
+        ],
+        "uids": [
+          79,
+          162,
+          142,
+          74,
+          25
+        ],
+        "unc": 173,
+        "gen": [
+          [
+            167,
+            "pet",
+            "roll",
+            "Dragon"
+          ],
+          [
+            168,
+            "pet",
+            "roll",
+            "Tiger"
+          ],
+          [
+            169,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            170,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            171,
+            "pet",
+            "roll",
+            "Pig"
+          ],
+          [
+            172,
+            "food",
+            "roll",
+            "Sleeping Pill"
+          ],
+          [
+            173,
+            "food",
+            "roll",
+            "Chocolate"
+          ]
+        ],
+        "stock": []
+      },
+      {
+        "op": "buy merge",
+        "id": 168,
+        "x": 2,
+        "target": null,
+        "gold0": 7,
+        "gold": 4,
+        "cost": 3,
+        "realCost": null,
+        "state": {
+          "board": [
+            [
+              "Monkey",
+              1,
+              0,
+              2,
+              3,
+              0,
+              0,
+              null
+            ],
+            [
+              "Cow",
+              1,
+              0,
+              4,
+              6,
+              0,
+              0,
+              null
+            ],
+            [
+              "Tiger",
+              2,
+              2,
+              9,
+              8,
+              0,
+              0,
+              null
+            ],
+            [
+              "Blowfish",
+              2,
+              2,
+              12,
+              16,
+              0,
+              0,
+              "Bread"
+            ],
+            [
+              "Elephant",
+              2,
+              2,
+              18,
+              19,
+              0,
+              0,
+              null
+            ]
+          ],
+          "frozen": [],
+          "spent": 6,
+          "gold": 4,
+          "gain": 0
+        },
+        "uses": {
+          "25": 0,
+          "74": 0,
+          "142": 0,
+          "162": 0,
+          "79": 0
+        },
+        "offers": [
+          [
+            174,
+            "levelup",
+            "pet-fly",
+            3,
+            false
+          ],
+          [
+            175,
+            "levelup",
+            "pet-dragon",
+            3,
+            false
+          ],
+          [
+            167,
+            "pet",
+            "pet-dragon",
+            3,
+            false
+          ],
+          [
+            169,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            170,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            171,
+            "pet",
+            "pet-pig",
+            3,
+            false
+          ],
+          [
+            172,
+            "food",
+            "Sleeping Pill",
+            1,
+            false
+          ]
+        ],
+        "uids": [
+          79,
+          162,
+          142,
+          74,
+          25
+        ],
+        "unc": 175,
+        "gen": [
+          [
+            167,
+            "pet",
+            "roll",
+            "Dragon"
+          ],
+          [
+            168,
+            "pet",
+            "roll",
+            "Tiger"
+          ],
+          [
+            169,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            170,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            171,
+            "pet",
+            "roll",
+            "Pig"
+          ],
+          [
+            172,
+            "food",
+            "roll",
+            "Sleeping Pill"
+          ],
+          [
+            173,
+            "food",
+            "roll",
+            "Chocolate"
+          ],
+          [
+            174,
+            "pet",
+            "reward",
+            "Fly"
+          ],
+          [
+            175,
+            "pet",
+            "reward",
+            "Dragon"
+          ]
+        ],
+        "stock": []
+      },
+      {
+        "op": "sell",
+        "id": 162,
+        "x": null,
+        "target": null,
+        "gold0": 4,
+        "gold": 5,
+        "cost": 0,
+        "realCost": null,
+        "state": {
+          "board": [
+            [
+              "Monkey",
+              1,
+              0,
+              2,
+              3,
+              0,
+              0,
+              null
+            ],
+            null,
+            [
+              "Tiger",
+              2,
+              2,
+              9,
+              8,
+              0,
+              0,
+              null
+            ],
+            [
+              "Blowfish",
+              2,
+              2,
+              12,
+              16,
+              0,
+              0,
+              "Bread"
+            ],
+            [
+              "Elephant",
+              2,
+              2,
+              18,
+              19,
+              0,
+              0,
+              null
+            ]
+          ],
+          "frozen": [
+            [
+              167,
+              "pet",
+              "Dragon",
+              1,
+              0,
+              3,
+              8,
+              0,
+              0,
+              null,
+              3
+            ],
+            [
+              171,
+              "pet",
+              "Pig",
+              1,
+              0,
+              4,
+              1,
+              0,
+              0,
+              null,
+              3
+            ],
+            [
+              175,
+              "pet",
+              "Dragon",
+              1,
+              0,
+              3,
+              8,
+              0,
+              0,
+              null,
+              3
+            ]
+          ],
+          "spent": 6,
+          "gold": 5,
+          "gain": 1
+        },
+        "uses": {
+          "25": 0,
+          "74": 0,
+          "142": 0,
+          "79": 0
+        },
+        "offers": [
+          [
+            174,
+            "levelup",
+            "pet-fly",
+            3,
+            false
+          ],
+          [
+            175,
+            "levelup",
+            "pet-dragon",
+            3,
+            true
+          ],
+          [
+            167,
+            "pet",
+            "pet-dragon",
+            3,
+            true
+          ],
+          [
+            169,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            170,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            171,
+            "pet",
+            "pet-pig",
+            3,
+            true
+          ],
+          [
+            172,
+            "food",
+            "Sleeping Pill",
+            1,
+            false
+          ]
+        ],
+        "uids": [
+          79,
+          null,
+          142,
+          74,
+          25
+        ],
+        "unc": 175,
+        "gen": [
+          [
+            167,
+            "pet",
+            "roll",
+            "Dragon"
+          ],
+          [
+            168,
+            "pet",
+            "roll",
+            "Tiger"
+          ],
+          [
+            169,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            170,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            171,
+            "pet",
+            "roll",
+            "Pig"
+          ],
+          [
+            172,
+            "food",
+            "roll",
+            "Sleeping Pill"
+          ],
+          [
+            173,
+            "food",
+            "roll",
+            "Chocolate"
+          ],
+          [
+            174,
+            "pet",
+            "reward",
+            "Fly"
+          ],
+          [
+            175,
+            "pet",
+            "reward",
+            "Dragon"
+          ]
+        ],
+        "stock": []
+      },
+      {
+        "op": "buy",
+        "id": 167,
+        "x": 1,
+        "target": null,
+        "gold0": 5,
+        "gold": 2,
+        "cost": 3,
+        "realCost": null,
+        "state": {
+          "board": [
+            [
+              "Monkey",
+              1,
+              0,
+              2,
+              3,
+              0,
+              0,
+              null
+            ],
+            [
+              "Dragon",
+              1,
+              0,
+              3,
+              8,
+              0,
+              0,
+              null
+            ],
+            [
+              "Tiger",
+              2,
+              2,
+              9,
+              8,
+              0,
+              0,
+              null
+            ],
+            [
+              "Blowfish",
+              2,
+              2,
+              12,
+              16,
+              0,
+              0,
+              "Bread"
+            ],
+            [
+              "Elephant",
+              2,
+              2,
+              18,
+              19,
+              0,
+              0,
+              null
+            ]
+          ],
+          "frozen": [
+            [
+              171,
+              "pet",
+              "Pig",
+              1,
+              0,
+              4,
+              1,
+              0,
+              0,
+              null,
+              3
+            ],
+            [
+              175,
+              "pet",
+              "Dragon",
+              1,
+              0,
+              3,
+              8,
+              0,
+              0,
+              null,
+              3
+            ]
+          ],
+          "spent": 9,
+          "gold": 2,
+          "gain": 1
+        },
+        "uses": {
+          "25": 0,
+          "74": 0,
+          "142": 0,
+          "167": 0,
+          "79": 0
+        },
+        "offers": [
+          [
+            174,
+            "levelup",
+            "pet-fly",
+            3,
+            false
+          ],
+          [
+            175,
+            "levelup",
+            "pet-dragon",
+            3,
+            true
+          ],
+          [
+            169,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            170,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            171,
+            "pet",
+            "pet-pig",
+            3,
+            true
+          ],
+          [
+            172,
+            "food",
+            "Sleeping Pill",
+            1,
+            false
+          ]
+        ],
+        "uids": [
+          79,
+          167,
+          142,
+          74,
+          25
+        ],
+        "unc": 175,
+        "gen": [
+          [
+            167,
+            "pet",
+            "roll",
+            "Dragon"
+          ],
+          [
+            168,
+            "pet",
+            "roll",
+            "Tiger"
+          ],
+          [
+            169,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            170,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            171,
+            "pet",
+            "roll",
+            "Pig"
+          ],
+          [
+            172,
+            "food",
+            "roll",
+            "Sleeping Pill"
+          ],
+          [
+            173,
+            "food",
+            "roll",
+            "Chocolate"
+          ],
+          [
+            174,
+            "pet",
+            "reward",
+            "Fly"
+          ],
+          [
+            175,
+            "pet",
+            "reward",
+            "Dragon"
+          ]
+        ],
+        "stock": []
+      },
+      {
+        "op": "sell",
+        "id": 79,
+        "x": null,
+        "target": null,
+        "gold0": 2,
+        "gold": 3,
+        "cost": 0,
+        "realCost": null,
+        "state": {
+          "board": [
+            null,
+            [
+              "Dragon",
+              1,
+              0,
+              3,
+              8,
+              0,
+              0,
+              null
+            ],
+            [
+              "Tiger",
+              2,
+              2,
+              9,
+              8,
+              0,
+              0,
+              null
+            ],
+            [
+              "Blowfish",
+              2,
+              2,
+              12,
+              16,
+              0,
+              0,
+              "Bread"
+            ],
+            [
+              "Elephant",
+              2,
+              2,
+              18,
+              19,
+              0,
+              0,
+              null
+            ]
+          ],
+          "frozen": [
+            [
+              171,
+              "pet",
+              "Pig",
+              1,
+              0,
+              4,
+              1,
+              0,
+              0,
+              null,
+              3
+            ],
+            [
+              175,
+              "pet",
+              "Dragon",
+              1,
+              0,
+              3,
+              8,
+              0,
+              0,
+              null,
+              3
+            ]
+          ],
+          "spent": 9,
+          "gold": 3,
+          "gain": 2
+        },
+        "uses": {
+          "25": 0,
+          "74": 0,
+          "142": 0,
+          "167": 0
+        },
+        "offers": [
+          [
+            174,
+            "levelup",
+            "pet-fly",
+            3,
+            false
+          ],
+          [
+            175,
+            "levelup",
+            "pet-dragon",
+            3,
+            true
+          ],
+          [
+            169,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            170,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            171,
+            "pet",
+            "pet-pig",
+            3,
+            true
+          ],
+          [
+            172,
+            "food",
+            "Sleeping Pill",
+            1,
+            false
+          ]
+        ],
+        "uids": [
+          null,
+          167,
+          142,
+          74,
+          25
+        ],
+        "unc": 175,
+        "gen": [
+          [
+            167,
+            "pet",
+            "roll",
+            "Dragon"
+          ],
+          [
+            168,
+            "pet",
+            "roll",
+            "Tiger"
+          ],
+          [
+            169,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            170,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            171,
+            "pet",
+            "roll",
+            "Pig"
+          ],
+          [
+            172,
+            "food",
+            "roll",
+            "Sleeping Pill"
+          ],
+          [
+            173,
+            "food",
+            "roll",
+            "Chocolate"
+          ],
+          [
+            174,
+            "pet",
+            "reward",
+            "Fly"
+          ],
+          [
+            175,
+            "pet",
+            "reward",
+            "Dragon"
+          ]
+        ],
+        "stock": []
+      },
+      {
+        "op": "buy",
+        "id": 171,
+        "x": 0,
+        "target": null,
+        "gold0": 3,
+        "gold": 0,
+        "cost": 3,
+        "realCost": null,
+        "state": {
+          "board": [
+            [
+              "Pig",
+              1,
+              0,
+              4,
+              1,
+              0,
+              0,
+              null
+            ],
+            [
+              "Dragon",
+              1,
+              0,
+              4,
+              9,
+              0,
+              0,
+              null
+            ],
+            [
+              "Tiger",
+              2,
+              2,
+              10,
+              9,
+              0,
+              0,
+              null
+            ],
+            [
+              "Blowfish",
+              2,
+              2,
+              13,
+              17,
+              0,
+              0,
+              "Bread"
+            ],
+            [
+              "Elephant",
+              2,
+              2,
+              19,
+              20,
+              0,
+              0,
+              null
+            ]
+          ],
+          "frozen": [
+            [
+              175,
+              "pet",
+              "Dragon",
+              1,
+              0,
+              3,
+              8,
+              0,
+              0,
+              null,
+              3
+            ]
+          ],
+          "spent": 12,
+          "gold": 0,
+          "gain": 2
+        },
+        "uses": {
+          "25": 0,
+          "74": 0,
+          "142": 0,
+          "167": 1,
+          "171": 0
+        },
+        "offers": [
+          [
+            174,
+            "levelup",
+            "pet-fly",
+            3,
+            false
+          ],
+          [
+            175,
+            "levelup",
+            "pet-dragon",
+            3,
+            true
+          ],
+          [
+            169,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            170,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            172,
+            "food",
+            "Sleeping Pill",
+            1,
+            false
+          ]
+        ],
+        "uids": [
+          171,
+          167,
+          142,
+          74,
+          25
+        ],
+        "unc": 175,
+        "gen": [
+          [
+            167,
+            "pet",
+            "roll",
+            "Dragon"
+          ],
+          [
+            168,
+            "pet",
+            "roll",
+            "Tiger"
+          ],
+          [
+            169,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            170,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            171,
+            "pet",
+            "roll",
+            "Pig"
+          ],
+          [
+            172,
+            "food",
+            "roll",
+            "Sleeping Pill"
+          ],
+          [
+            173,
+            "food",
+            "roll",
+            "Chocolate"
+          ],
+          [
+            174,
+            "pet",
+            "reward",
+            "Fly"
+          ],
+          [
+            175,
+            "pet",
+            "reward",
+            "Dragon"
+          ]
+        ],
+        "stock": []
+      },
+      {
+        "op": "end",
+        "id": null,
+        "x": null,
+        "target": null,
+        "gold0": 0,
+        "gold": 0,
+        "cost": 0,
+        "realCost": null,
+        "state": {
+          "board": [
+            [
+              "Dragon",
+              1,
+              0,
+              4,
+              9,
+              0,
+              0,
+              null
+            ],
+            [
+              "Tiger",
+              2,
+              2,
+              10,
+              9,
+              0,
+              0,
+              null
+            ],
+            [
+              "Blowfish",
+              2,
+              2,
+              13,
+              17,
+              0,
+              7,
+              "Bread"
+            ],
+            [
+              "Elephant",
+              2,
+              2,
+              19,
+              20,
+              0,
+              0,
+              null
+            ],
+            [
+              "Pig",
+              1,
+              0,
+              4,
+              1,
+              0,
+              0,
+              null
+            ]
+          ],
+          "frozen": [
+            [
+              175,
+              "pet",
+              "Dragon",
+              1,
+              0,
+              3,
+              8,
+              0,
+              0,
+              null,
+              3
+            ]
+          ],
+          "spent": 12,
+          "gold": 0,
+          "gain": 2
+        },
+        "uses": {
+          "171": 0,
+          "25": 0,
+          "74": 0,
+          "142": 0,
+          "167": 1
+        },
+        "offers": [
+          [
+            174,
+            "levelup",
+            "pet-fly",
+            3,
+            false
+          ],
+          [
+            175,
+            "levelup",
+            "pet-dragon",
+            3,
+            true
+          ],
+          [
+            169,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            170,
+            "pet",
+            "pet-peacock",
+            3,
+            false
+          ],
+          [
+            172,
+            "food",
+            "Sleeping Pill",
+            1,
+            false
+          ]
+        ],
+        "uids": [
+          167,
+          142,
+          74,
+          25,
+          171
+        ],
+        "unc": 175,
+        "gen": [
+          [
+            167,
+            "pet",
+            "roll",
+            "Dragon"
+          ],
+          [
+            168,
+            "pet",
+            "roll",
+            "Tiger"
+          ],
+          [
+            169,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            170,
+            "pet",
+            "roll",
+            "Peacock"
+          ],
+          [
+            171,
+            "pet",
+            "roll",
+            "Pig"
+          ],
+          [
+            172,
+            "food",
+            "roll",
+            "Sleeping Pill"
+          ],
+          [
+            173,
+            "food",
+            "roll",
+            "Chocolate"
+          ],
+          [
+            174,
+            "pet",
+            "reward",
+            "Fly"
+          ],
+          [
+            175,
+            "pet",
+            "reward",
+            "Dragon"
+          ]
+        ],
+        "stock": []
+      }
+    ]
+  }
+}

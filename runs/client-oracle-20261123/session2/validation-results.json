@@ -1,0 +1,580 @@
+[
+  {
+    "fight": "validation-01",
+    "id": "cedcbb67-ab7c-4632-8b3e-1f3ba1a76963",
+    "side": "L",
+    "read": [
+      [
+        "Rabbit",
+        3,
+        5
+      ],
+      [
+        "Snail",
+        3,
+        5
+      ]
+    ],
+    "expected": [
+      [
+        "Rabbit",
+        3,
+        5
+      ],
+      [
+        "Snail",
+        3,
+        5
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 37.446,
+    "source": "captures/validation-01/frame-0052.jpg"
+  },
+  {
+    "fight": "validation-02",
+    "id": "d28a53c6-f2c3-4f98-b2b6-7ce4440bd8c1",
+    "side": "L",
+    "read": [
+      [
+        "Skunk",
+        4,
+        3
+      ]
+    ],
+    "expected": [
+      [
+        "Skunk",
+        4,
+        3
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 45.635,
+    "source": "captures/validation-02/frame-0061.jpg"
+  },
+  {
+    "fight": "validation-03",
+    "id": "0b5cd930-f09e-4d3c-afa2-79b35a7151a8",
+    "side": "L",
+    "read": [
+      [
+        "Turkey",
+        3,
+        4
+      ],
+      [
+        "Bus",
+        8,
+        4
+      ],
+      [
+        "Crab",
+        16,
+        11
+      ]
+    ],
+    "expected": [
+      [
+        "Turkey",
+        3,
+        4
+      ],
+      [
+        "Bus",
+        8,
+        4
+      ],
+      [
+        "Crab",
+        16,
+        11
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 42.541,
+    "source": "captures/validation-03/frame-0057.jpg"
+  },
+  {
+    "fight": "validation-04",
+    "id": "13bd84da-bb7d-4e07-b463-3739fca04b0d",
+    "side": "R",
+    "read": [
+      [
+        "Pigeon",
+        9,
+        1
+      ],
+      [
+        "Beaver",
+        4,
+        3
+      ],
+      [
+        "Beaver",
+        4,
+        3
+      ]
+    ],
+    "expected": [
+      [
+        "Pigeon",
+        9,
+        1
+      ],
+      [
+        "Beaver",
+        4,
+        3
+      ],
+      [
+        "Beaver",
+        4,
+        3
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 21.612,
+    "source": "captures/validation-04/frame-0027.jpg"
+  },
+  {
+    "fight": "validation-05",
+    "id": "9b981433-4ab7-4d1d-bbe7-a8c77b2b648a",
+    "side": "L",
+    "read": [
+      [
+        "Parrot",
+        9,
+        2
+      ]
+    ],
+    "expected": [
+      [
+        "Parrot",
+        9,
+        2
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 29.693,
+    "source": "captures/validation-05/frame-0040.jpg"
+  },
+  {
+    "fight": "validation-06",
+    "id": "74c07a63-1e25-48e1-b74c-b17852fadff8",
+    "side": "R",
+    "read": [
+      [
+        "Horse",
+        6,
+        8
+      ]
+    ],
+    "expected": [
+      [
+        "Horse",
+        6,
+        8
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 41.758,
+    "source": "captures/validation-06/frame-0055.jpg"
+  },
+  {
+    "fight": "validation-07",
+    "id": "eaf6e4bd-877e-4b42-bac7-4f1e70201264",
+    "side": "L",
+    "read": [
+      [
+        "Shark",
+        27,
+        36
+      ],
+      [
+        "Rooster",
+        10,
+        11
+      ],
+      [
+        "Swan",
+        28,
+        6
+      ]
+    ],
+    "expected": [
+      [
+        "Shark",
+        27,
+        36
+      ],
+      [
+        "Rooster",
+        10,
+        11
+      ],
+      [
+        "Swan",
+        28,
+        6
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 39.455,
+    "source": "captures/validation-07/frame-0051.jpg"
+  },
+  {
+    "fight": "validation-08",
+    "id": "51555cb8-2c8b-4461-b3c3-4d3ae28f1492",
+    "side": "L",
+    "read": [
+      [
+        "Snail",
+        2,
+        1
+      ]
+    ],
+    "expected": [
+      [
+        "Snail",
+        2,
+        1
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 32.708,
+    "source": "captures/validation-08/frame-0045.jpg"
+  },
+  {
+    "fight": "validation-09",
+    "id": "64effd09-9a0f-4b22-b27d-c46083f290bc",
+    "side": "R",
+    "read": [
+      [
+        "Fish",
+        5,
+        1
+      ]
+    ],
+    "expected": [
+      [
+        "Fish",
+        5,
+        1
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 37.432,
+    "source": "captures/validation-09/frame-0050.jpg"
+  },
+  {
+    "fight": "validation-10",
+    "id": "a78bd83b-4312-4324-be10-08c80bf602ff",
+    "side": "L",
+    "read": [
+      [
+        "Snail",
+        4,
+        4
+      ]
+    ],
+    "expected": [
+      [
+        "Snail",
+        4,
+        4
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 37.591,
+    "source": "captures/validation-10/frame-0051.jpg"
+  },
+  {
+    "fight": "validation-11",
+    "id": "7cad9533-6ce4-48de-9c49-91cf89a765c4",
+    "side": "R",
+    "read": [
+      [
+        "Wolverine",
+        5,
+        2
+      ]
+    ],
+    "expected": [
+      [
+        "Wolverine",
+        5,
+        2
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 43.026,
+    "source": "captures/validation-11/frame-0074.jpg"
+  },
+  {
+    "fight": "validation-12",
+    "id": "aee2fb04-fbb2-4996-bbf2-ea7412521627",
+    "side": "R",
+    "read": [
+      [
+        "Wolverine",
+        7,
+        13
+      ]
+    ],
+    "expected": [
+      [
+        "Wolverine",
+        7,
+        13
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 33.961,
+    "source": "captures/validation-12/frame-0059.jpg"
+  },
+  {
+    "fight": "validation-13",
+    "id": "879f3248-7ce9-4c97-8699-044d6a6be988",
+    "side": "L",
+    "read": [
+      [
+        "Ox",
+        1,
+        6
+      ],
+      [
+        "Kangaroo",
+        3,
+        3
+      ],
+      [
+        "Ox",
+        3,
+        7
+      ]
+    ],
+    "expected": [
+      [
+        "Ox",
+        1,
+        6
+      ],
+      [
+        "Kangaroo",
+        3,
+        3
+      ],
+      [
+        "Ox",
+        3,
+        7
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 34.822,
+    "source": "captures/validation-13/frame-0062.jpg"
+  },
+  {
+    "fight": "validation-14",
+    "id": "896bd7d7-f558-4a5d-a03e-27993c66fc2b",
+    "side": "D",
+    "read": [],
+    "expected": [],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 50.891,
+    "source": "captures/validation-14/frame-0090.jpg"
+  },
+  {
+    "fight": "validation-15",
+    "id": "ad46d9d8-a682-4104-a4cf-abe2b0f33cd4",
+    "side": "R",
+    "read": [
+      [
+        "Ox",
+        47,
+        9
+      ]
+    ],
+    "expected": [
+      [
+        "Ox",
+        47,
+        9
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 39.078,
+    "source": "captures/validation-15/frame-0065.jpg"
+  },
+  {
+    "fight": "validation-16",
+    "id": "4dedf776-aa76-41c2-a911-a96d0e09e493",
+    "side": "L",
+    "read": [
+      [
+        "Wolverine",
+        7,
+        2
+      ],
+      [
+        "Blowfish",
+        11,
+        7
+      ]
+    ],
+    "expected": [
+      [
+        "Wolverine",
+        7,
+        2
+      ],
+      [
+        "Blowfish",
+        11,
+        7
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 38.449,
+    "source": "captures/validation-16/frame-0060.jpg"
+  },
+  {
+    "fight": "validation-17",
+    "id": "0cac1d53-5c1b-4096-adc8-e483851ba83e",
+    "side": "L",
+    "read": [
+      [
+        "Crab",
+        4,
+        3
+      ]
+    ],
+    "expected": [
+      [
+        "Crab",
+        4,
+        3
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 24.85,
+    "source": "captures/validation-17/frame-0044.jpg"
+  },
+  {
+    "fight": "validation-18",
+    "id": "09406345-32de-4c77-923c-6596968ed018",
+    "side": "R",
+    "read": [
+      [
+        "Shark",
+        26,
+        26
+      ]
+    ],
+    "expected": [
+      [
+        "Shark",
+        26,
+        26
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 45.097,
+    "source": "captures/validation-18/frame-0078.jpg"
+  },
+  {
+    "fight": "validation-19",
+    "id": "1bc3f4e8-8534-4b07-8681-d937c98ed46e",
+    "side": "R",
+    "read": [
+      [
+        "Dog",
+        11,
+        1
+      ]
+    ],
+    "expected": [
+      [
+        "Dog",
+        11,
+        1
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 34.957,
+    "source": "captures/validation-19/frame-0059.jpg"
+  },
+  {
+    "fight": "validation-20",
+    "id": "83b1fa65-95d1-4fd2-b2d4-d1750299e2ba",
+    "side": "R",
+    "read": [
+      [
+        "Leopard",
+        29,
+        8
+      ],
+      [
+        "Dragon",
+        9,
+        13
+      ]
+    ],
+    "expected": [
+      [
+        "Leopard",
+        29,
+        8
+      ],
+      [
+        "Dragon",
+        9,
+        13
+      ]
+    ],
+    "outcome_match": true,
+    "multiset_match": true,
+    "order_match": true,
+    "seconds": 30.466,
+    "source": "captures/validation-20/frame-0043.jpg"
+  }
+]

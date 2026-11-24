@@ -1,0 +1,13 @@
+players whose first shop is identical (same 3 pets in the same order, same food): 1420 pairs; same Hash after the turn-1 start action in 0 of them
+duplicate Hash values: 10 (chance for uniform 32-bit: 7.5)
+    1678602594 [('f1f4ab', 'turn 6', 'type 9', 'bcc 59', 'seed 1902257614', ''), ('ead9e8', 'turn 3', 'type 5', 'bcc 25', 'seed 1129354237', '')]
+    1934975803 [('e12d2a', 'turn 7', 'type 6', 'bcc 79', 'seed 726155814', ''), ('321c47', 'turn 14', 'type 9', 'bcc 157', 'seed 376939026', '')]
+    -1114217866 [('c826a9', 'turn 7', 'type 6', 'bcc 74', 'seed 2027756439', ''), ('2775cf', 'turn 3', 'type 9', 'bcc 25', 'seed 786062526', '')]
+    1336216522 [('8aedd2', 'turn 9', 'type 11', 'bcc 103', 'seed 1967824635', ''), ('c490c1', 'turn 7', 'type 4', 'bcc 75', 'seed 2140070645', '')]
+    -1478348672 [('923827', 'turn 1', 'type 4', 'bcc 1', 'seed 1122599953', ''), ('846e07', 'turn 9', 'type 5', 'bcc 105', 'seed 1415096130', '')]
+    1809731882 [('bb785d', 'turn 8', 'type 5', 'bcc 84', 'seed 1480958527', ''), ('98689f', 'turn 8', 'type 5', 'bcc 80', 'seed 1854469559', '')]
+    973268182 [('c8d209', 'turn 9', 'type 11', 'bcc 90', 'seed 765570257', ''), ('31b2a6', 'turn 11', 'type 4', 'bcc 129', 'seed 1708436385', '')]
+    1872249255 [('9e7d49', 'turn 5', 'type 9', 'bcc 52', 'seed 971546050', ''), ('fabc7f', 'turn 8', 'type 4', 'bcc 81', 'seed 1740791486', '')]
+    -1573950322 [('020e99', 'turn 9', 'type 4', 'bcc 95', 'seed 1507463629', ''), ('b2e4bd', 'turn 15', 'type 8', 'bcc 164', 'seed 271855805', '')]
+    -1636309635 [('8f5c9f', 'turn 11', 'type 5', 'bcc 129', 'seed 1924906014', ''), ('f90344', 'turn 5', 'type 5', 'bcc 50', 'seed 1520129605', '')]
+actions whose response Hash equals the previous response Hash (state unchanged), by type: {}

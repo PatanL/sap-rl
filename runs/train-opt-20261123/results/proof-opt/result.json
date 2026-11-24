@@ -1,0 +1,955 @@
+{
+  "backend": "rust",
+  "training": true,
+  "games": 256,
+  "workers": 10,
+  "wall": 172.4136613169685,
+  "matches": 4028,
+  "battles": 49452,
+  "waves": 2903,
+  "seat": 1221678,
+  "live": 914890,
+  "seat_s": 7085.737816065772,
+  "games_s": 23.362417857334687,
+  "learned_s": 4755.185834681371,
+  "learned": 819859,
+  "delivered": 911836,
+  "updates": 100,
+  "stale": 87688,
+  "stale_share": 0.09662089125962622,
+  "queued": 4289,
+  "backlog": 0.5,
+  "pending_stale": 779,
+  "gpu": 71.6472303206997,
+  "main_seconds": {
+    "turn_capture": 13.939885241910815,
+    "actor": 148.37886134092696,
+    "engine": 1.3662771719973534,
+    "reset": 2.6699369098059833,
+    "wait_publish": 5.120465294457972
+  },
+  "learner_wall": 130.07859134860337,
+  "actor_timing": {
+    "policy_stream_s": 138.66765140104263,
+    "service_s": 147.85919162305072
+  },
+  "mean_active_seats": 420.8329314502239,
+  "policy_batch_percentiles": [
+    99.0,
+    210.0,
+    324.0,
+    336.0
+  ],
+  "peak_gib": 7.931640625,
+  "steady": {
+    "seconds": 156.0972218750976,
+    "seat_s": 7136.16798260002,
+    "games_s": 24.164427384941767,
+    "learned_s": 4832.084686074217
+  },
+  "events": [
+    {
+      "version": 25773,
+      "min_version": 25772,
+      "max_version": 25772,
+      "seconds": 3.6422133569139987,
+      "decisions": 8204,
+      "turns": 1061,
+      "stale": 0
+    },
+    {
+      "version": 25774,
+      "min_version": 25772,
+      "max_version": 25773,
+      "seconds": 5.211085777031258,
+      "decisions": 8205,
+      "turns": 667,
+      "stale": 0
+    },
+    {
+      "version": 25775,
+      "min_version": 25773,
+      "max_version": 25774,
+      "seconds": 7.135529014049098,
+      "decisions": 8194,
+      "turns": 633,
+      "stale": 1181
+    },
+    {
+      "version": 25776,
+      "min_version": 25774,
+      "max_version": 25775,
+      "seconds": 8.734928180929273,
+      "decisions": 8198,
+      "turns": 605,
+      "stale": 1420
+    },
+    {
+      "version": 25777,
+      "min_version": 25775,
+      "max_version": 25776,
+      "seconds": 10.438883972819895,
+      "decisions": 8196,
+      "turns": 675,
+      "stale": 3165
+    },
+    {
+      "version": 25778,
+      "min_version": 25776,
+      "max_version": 25777,
+      "seconds": 12.002028934890404,
+      "decisions": 8199,
+      "turns": 743,
+      "stale": 3475
+    },
+    {
+      "version": 25779,
+      "min_version": 25777,
+      "max_version": 25778,
+      "seconds": 14.421506861923262,
+      "decisions": 8194,
+      "turns": 786,
+      "stale": 4382
+    },
+    {
+      "version": 25780,
+      "min_version": 25778,
+      "max_version": 25779,
+      "seconds": 16.19843154703267,
+      "decisions": 8194,
+      "turns": 672,
+      "stale": 4768
+    },
+    {
+      "version": 25781,
+      "min_version": 25779,
+      "max_version": 25780,
+      "seconds": 17.911305065033957,
+      "decisions": 8197,
+      "turns": 641,
+      "stale": 5907
+    },
+    {
+      "version": 25782,
+      "min_version": 25780,
+      "max_version": 25781,
+      "seconds": 19.538120966870338,
+      "decisions": 8210,
+      "turns": 622,
+      "stale": 6952
+    },
+    {
+      "version": 25783,
+      "min_version": 25781,
+      "max_version": 25782,
+      "seconds": 21.22658727900125,
+      "decisions": 8197,
+      "turns": 660,
+      "stale": 7949
+    },
+    {
+      "version": 25784,
+      "min_version": 25782,
+      "max_version": 25783,
+      "seconds": 22.861321937991306,
+      "decisions": 8194,
+      "turns": 675,
+      "stale": 8719
+    },
+    {
+      "version": 25785,
+      "min_version": 25783,
+      "max_version": 25784,
+      "seconds": 24.56197173288092,
+      "decisions": 8198,
+      "turns": 710,
+      "stale": 9676
+    },
+    {
+      "version": 25786,
+      "min_version": 25784,
+      "max_version": 25785,
+      "seconds": 26.31756642390974,
+      "decisions": 8195,
+      "turns": 665,
+      "stale": 10308
+    },
+    {
+      "version": 25787,
+      "min_version": 25785,
+      "max_version": 25786,
+      "seconds": 27.968085188884288,
+      "decisions": 8196,
+      "turns": 683,
+      "stale": 11628
+    },
+    {
+      "version": 25788,
+      "min_version": 25786,
+      "max_version": 25787,
+      "seconds": 29.560829465044662,
+      "decisions": 8203,
+      "turns": 647,
+      "stale": 12465
+    },
+    {
+      "version": 25789,
+      "min_version": 25787,
+      "max_version": 25788,
+      "seconds": 31.08513503195718,
+      "decisions": 8199,
+      "turns": 668,
+      "stale": 13651
+    },
+    {
+      "version": 25790,
+      "min_version": 25788,
+      "max_version": 25789,
+      "seconds": 32.73869135999121,
+      "decisions": 8199,
+      "turns": 650,
+      "stale": 14508
+    },
+    {
+      "version": 25791,
+      "min_version": 25789,
+      "max_version": 25790,
+      "seconds": 34.38611176190898,
+      "decisions": 8200,
+      "turns": 670,
+      "stale": 15263
+    },
+    {
+      "version": 25792,
+      "min_version": 25790,
+      "max_version": 25791,
+      "seconds": 36.13945825584233,
+      "decisions": 8200,
+      "turns": 672,
+      "stale": 15785
+    },
+    {
+      "version": 25793,
+      "min_version": 25791,
+      "max_version": 25792,
+      "seconds": 37.78458092594519,
+      "decisions": 8210,
+      "turns": 669,
+      "stale": 17083
+    },
+    {
+      "version": 25794,
+      "min_version": 25792,
+      "max_version": 25793,
+      "seconds": 39.473700172035024,
+      "decisions": 8196,
+      "turns": 646,
+      "stale": 17875
+    },
+    {
+      "version": 25795,
+      "min_version": 25793,
+      "max_version": 25794,
+      "seconds": 41.11176268500276,
+      "decisions": 8193,
+      "turns": 653,
+      "stale": 18862
+    },
+    {
+      "version": 25796,
+      "min_version": 25794,
+      "max_version": 25795,
+      "seconds": 42.72956481203437,
+      "decisions": 8198,
+      "turns": 653,
+      "stale": 19672
+    },
+    {
+      "version": 25797,
+      "min_version": 25795,
+      "max_version": 25796,
+      "seconds": 44.38418265292421,
+      "decisions": 8201,
+      "turns": 670,
+      "stale": 20810
+    },
+    {
+      "version": 25798,
+      "min_version": 25796,
+      "max_version": 25797,
+      "seconds": 46.173194866860285,
+      "decisions": 8194,
+      "turns": 648,
+      "stale": 21900
+    },
+    {
+      "version": 25799,
+      "min_version": 25797,
+      "max_version": 25798,
+      "seconds": 47.81807231903076,
+      "decisions": 8202,
+      "turns": 650,
+      "stale": 22922
+    },
+    {
+      "version": 25800,
+      "min_version": 25798,
+      "max_version": 25799,
+      "seconds": 49.52248973096721,
+      "decisions": 8198,
+      "turns": 667,
+      "stale": 23952
+    },
+    {
+      "version": 25801,
+      "min_version": 25799,
+      "max_version": 25800,
+      "seconds": 51.22343050385825,
+      "decisions": 8195,
+      "turns": 627,
+      "stale": 24918
+    },
+    {
+      "version": 25802,
+      "min_version": 25800,
+      "max_version": 25801,
+      "seconds": 52.90454759984277,
+      "decisions": 8196,
+      "turns": 642,
+      "stale": 26013
+    },
+    {
+      "version": 25803,
+      "min_version": 25801,
+      "max_version": 25802,
+      "seconds": 54.63689084001817,
+      "decisions": 8199,
+      "turns": 652,
+      "stale": 27011
+    },
+    {
+      "version": 25804,
+      "min_version": 25802,
+      "max_version": 25803,
+      "seconds": 56.376897586043924,
+      "decisions": 8196,
+      "turns": 664,
+      "stale": 28070
+    },
+    {
+      "version": 25805,
+      "min_version": 25803,
+      "max_version": 25804,
+      "seconds": 58.19148528785445,
+      "decisions": 8203,
+      "turns": 652,
+      "stale": 29014
+    },
+    {
+      "version": 25806,
+      "min_version": 25804,
+      "max_version": 25805,
+      "seconds": 59.840848890831694,
+      "decisions": 8201,
+      "turns": 653,
+      "stale": 29917
+    },
+    {
+      "version": 25807,
+      "min_version": 25805,
+      "max_version": 25806,
+      "seconds": 61.5726570058614,
+      "decisions": 8199,
+      "turns": 663,
+      "stale": 31056
+    },
+    {
+      "version": 25808,
+      "min_version": 25806,
+      "max_version": 25807,
+      "seconds": 63.15944455796853,
+      "decisions": 8194,
+      "turns": 643,
+      "stale": 31823
+    },
+    {
+      "version": 25809,
+      "min_version": 25807,
+      "max_version": 25808,
+      "seconds": 64.85683581186458,
+      "decisions": 8197,
+      "turns": 671,
+      "stale": 32818
+    },
+    {
+      "version": 25810,
+      "min_version": 25808,
+      "max_version": 25809,
+      "seconds": 66.44895485090092,
+      "decisions": 8197,
+      "turns": 701,
+      "stale": 33884
+    },
+    {
+      "version": 25811,
+      "min_version": 25809,
+      "max_version": 25810,
+      "seconds": 68.2306289698463,
+      "decisions": 8196,
+      "turns": 679,
+      "stale": 34663
+    },
+    {
+      "version": 25812,
+      "min_version": 25810,
+      "max_version": 25811,
+      "seconds": 69.94710122304969,
+      "decisions": 8202,
+      "turns": 683,
+      "stale": 35493
+    },
+    {
+      "version": 25813,
+      "min_version": 25811,
+      "max_version": 25812,
+      "seconds": 71.58747204300016,
+      "decisions": 8198,
+      "turns": 668,
+      "stale": 36384
+    },
+    {
+      "version": 25814,
+      "min_version": 25812,
+      "max_version": 25813,
+      "seconds": 73.27871695603244,
+      "decisions": 8199,
+      "turns": 682,
+      "stale": 37367
+    },
+    {
+      "version": 25815,
+      "min_version": 25813,
+      "max_version": 25814,
+      "seconds": 75.01250188797712,
+      "decisions": 8195,
+      "turns": 678,
+      "stale": 38493
+    },
+    {
+      "version": 25816,
+      "min_version": 25814,
+      "max_version": 25815,
+      "seconds": 76.63196668587625,
+      "decisions": 8195,
+      "turns": 669,
+      "stale": 39744
+    },
+    {
+      "version": 25817,
+      "min_version": 25815,
+      "max_version": 25816,
+      "seconds": 78.51844039093703,
+      "decisions": 8197,
+      "turns": 673,
+      "stale": 41115
+    },
+    {
+      "version": 25818,
+      "min_version": 25816,
+      "max_version": 25817,
+      "seconds": 80.22768163704313,
+      "decisions": 8194,
+      "turns": 662,
+      "stale": 42071
+    },
+    {
+      "version": 25819,
+      "min_version": 25817,
+      "max_version": 25818,
+      "seconds": 81.93775445804931,
+      "decisions": 8195,
+      "turns": 682,
+      "stale": 43113
+    },
+    {
+      "version": 25820,
+      "min_version": 25818,
+      "max_version": 25819,
+      "seconds": 83.60114815086126,
+      "decisions": 8193,
+      "turns": 675,
+      "stale": 44103
+    },
+    {
+      "version": 25821,
+      "min_version": 25819,
+      "max_version": 25820,
+      "seconds": 85.32650872203521,
+      "decisions": 8194,
+      "turns": 669,
+      "stale": 45220
+    },
+    {
+      "version": 25822,
+      "min_version": 25820,
+      "max_version": 25821,
+      "seconds": 87.077116408851,
+      "decisions": 8196,
+      "turns": 655,
+      "stale": 46127
+    },
+    {
+      "version": 25823,
+      "min_version": 25821,
+      "max_version": 25822,
+      "seconds": 88.88929834589362,
+      "decisions": 8197,
+      "turns": 674,
+      "stale": 47070
+    },
+    {
+      "version": 25824,
+      "min_version": 25822,
+      "max_version": 25823,
+      "seconds": 90.45559983095154,
+      "decisions": 8197,
+      "turns": 695,
+      "stale": 47993
+    },
+    {
+      "version": 25825,
+      "min_version": 25823,
+      "max_version": 25824,
+      "seconds": 92.26736611593515,
+      "decisions": 8198,
+      "turns": 699,
+      "stale": 48763
+    },
+    {
+      "version": 25826,
+      "min_version": 25824,
+      "max_version": 25825,
+      "seconds": 93.83363774605095,
+      "decisions": 8195,
+      "turns": 668,
+      "stale": 49174
+    },
+    {
+      "version": 25827,
+      "min_version": 25825,
+      "max_version": 25826,
+      "seconds": 95.59330557589419,
+      "decisions": 8197,
+      "turns": 691,
+      "stale": 50455
+    },
+    {
+      "version": 25828,
+      "min_version": 25826,
+      "max_version": 25827,
+      "seconds": 97.25159226497635,
+      "decisions": 8205,
+      "turns": 689,
+      "stale": 51157
+    },
+    {
+      "version": 25829,
+      "min_version": 25827,
+      "max_version": 25828,
+      "seconds": 99.09965323493816,
+      "decisions": 8193,
+      "turns": 707,
+      "stale": 52112
+    },
+    {
+      "version": 25830,
+      "min_version": 25828,
+      "max_version": 25829,
+      "seconds": 100.76633946900256,
+      "decisions": 8193,
+      "turns": 717,
+      "stale": 52834
+    },
+    {
+      "version": 25831,
+      "min_version": 25829,
+      "max_version": 25830,
+      "seconds": 102.38538608700037,
+      "decisions": 8193,
+      "turns": 703,
+      "stale": 53628
+    },
+    {
+      "version": 25832,
+      "min_version": 25830,
+      "max_version": 25831,
+      "seconds": 104.12024334887974,
+      "decisions": 8202,
+      "turns": 723,
+      "stale": 54532
+    },
+    {
+      "version": 25833,
+      "min_version": 25831,
+      "max_version": 25832,
+      "seconds": 105.80850444291718,
+      "decisions": 8217,
+      "turns": 719,
+      "stale": 55362
+    },
+    {
+      "version": 25834,
+      "min_version": 25832,
+      "max_version": 25833,
+      "seconds": 107.51454738900065,
+      "decisions": 8208,
+      "turns": 696,
+      "stale": 56017
+    },
+    {
+      "version": 25835,
+      "min_version": 25833,
+      "max_version": 25834,
+      "seconds": 109.39994540484622,
+      "decisions": 8195,
+      "turns": 717,
+      "stale": 56803
+    },
+    {
+      "version": 25836,
+      "min_version": 25834,
+      "max_version": 25835,
+      "seconds": 111.05065453983843,
+      "decisions": 8197,
+      "turns": 714,
+      "stale": 57671
+    },
+    {
+      "version": 25837,
+      "min_version": 25835,
+      "max_version": 25836,
+      "seconds": 112.71513907494955,
+      "decisions": 8193,
+      "turns": 722,
+      "stale": 58287
+    },
+    {
+      "version": 25838,
+      "min_version": 25836,
+      "max_version": 25837,
+      "seconds": 114.48895633989014,
+      "decisions": 8194,
+      "turns": 718,
+      "stale": 58912
+    },
+    {
+      "version": 25839,
+      "min_version": 25837,
+      "max_version": 25838,
+      "seconds": 116.14184470986947,
+      "decisions": 8203,
+      "turns": 716,
+      "stale": 59667
+    },
+    {
+      "version": 25840,
+      "min_version": 25838,
+      "max_version": 25839,
+      "seconds": 117.8781247199513,
+      "decisions": 8198,
+      "turns": 712,
+      "stale": 60312
+    },
+    {
+      "version": 25841,
+      "min_version": 25839,
+      "max_version": 25840,
+      "seconds": 119.63910269085318,
+      "decisions": 8205,
+      "turns": 712,
+      "stale": 61178
+    },
+    {
+      "version": 25842,
+      "min_version": 25840,
+      "max_version": 25841,
+      "seconds": 121.34540144703351,
+      "decisions": 8199,
+      "turns": 737,
+      "stale": 62123
+    },
+    {
+      "version": 25843,
+      "min_version": 25841,
+      "max_version": 25842,
+      "seconds": 123.11281016096473,
+      "decisions": 8199,
+      "turns": 716,
+      "stale": 62730
+    },
+    {
+      "version": 25844,
+      "min_version": 25842,
+      "max_version": 25843,
+      "seconds": 124.82616273895837,
+      "decisions": 8202,
+      "turns": 724,
+      "stale": 63523
+    },
+    {
+      "version": 25845,
+      "min_version": 25843,
+      "max_version": 25844,
+      "seconds": 126.48517623497173,
+      "decisions": 8212,
+      "turns": 738,
+      "stale": 64304
+    },
+    {
+      "version": 25846,
+      "min_version": 25844,
+      "max_version": 25845,
+      "seconds": 128.14223273703828,
+      "decisions": 8203,
+      "turns": 716,
+      "stale": 64619
+    },
+    {
+      "version": 25847,
+      "min_version": 25845,
+      "max_version": 25846,
+      "seconds": 129.98747784201987,
+      "decisions": 8193,
+      "turns": 728,
+      "stale": 65330
+    },
+    {
+      "version": 25848,
+      "min_version": 25846,
+      "max_version": 25847,
+      "seconds": 131.70068312296644,
+      "decisions": 8193,
+      "turns": 727,
+      "stale": 65898
+    },
+    {
+      "version": 25849,
+      "min_version": 25847,
+      "max_version": 25848,
+      "seconds": 133.45446422882378,
+      "decisions": 8195,
+      "turns": 720,
+      "stale": 66772
+    },
+    {
+      "version": 25850,
+      "min_version": 25848,
+      "max_version": 25849,
+      "seconds": 135.09424712485634,
+      "decisions": 8192,
+      "turns": 719,
+      "stale": 67498
+    },
+    {
+      "version": 25851,
+      "min_version": 25849,
+      "max_version": 25850,
+      "seconds": 136.8035934108775,
+      "decisions": 8206,
+      "turns": 730,
+      "stale": 68747
+    },
+    {
+      "version": 25852,
+      "min_version": 25850,
+      "max_version": 25851,
+      "seconds": 138.60182712995447,
+      "decisions": 8201,
+      "turns": 713,
+      "stale": 69451
+    },
+    {
+      "version": 25853,
+      "min_version": 25851,
+      "max_version": 25852,
+      "seconds": 140.36761683784425,
+      "decisions": 8194,
+      "turns": 709,
+      "stale": 69952
+    },
+    {
+      "version": 25854,
+      "min_version": 25852,
+      "max_version": 25853,
+      "seconds": 142.0790382628329,
+      "decisions": 8196,
+      "turns": 721,
+      "stale": 70897
+    },
+    {
+      "version": 25855,
+      "min_version": 25853,
+      "max_version": 25854,
+      "seconds": 143.79205989395268,
+      "decisions": 8199,
+      "turns": 708,
+      "stale": 71628
+    },
+    {
+      "version": 25856,
+      "min_version": 25854,
+      "max_version": 25855,
+      "seconds": 145.44275806797668,
+      "decisions": 8206,
+      "turns": 696,
+      "stale": 72420
+    },
+    {
+      "version": 25857,
+      "min_version": 25855,
+      "max_version": 25856,
+      "seconds": 147.14502086886205,
+      "decisions": 8196,
+      "turns": 702,
+      "stale": 73485
+    },
+    {
+      "version": 25858,
+      "min_version": 25856,
+      "max_version": 25857,
+      "seconds": 148.75626306701452,
+      "decisions": 8202,
+      "turns": 664,
+      "stale": 74268
+    },
+    {
+      "version": 25859,
+      "min_version": 25857,
+      "max_version": 25858,
+      "seconds": 150.63097665389068,
+      "decisions": 8192,
+      "turns": 695,
+      "stale": 75479
+    },
+    {
+      "version": 25860,
+      "min_version": 25858,
+      "max_version": 25859,
+      "seconds": 152.317190323025,
+      "decisions": 8207,
+      "turns": 697,
+      "stale": 76384
+    },
+    {
+      "version": 25861,
+      "min_version": 25859,
+      "max_version": 25860,
+      "seconds": 153.9827170749195,
+      "decisions": 8193,
+      "turns": 689,
+      "stale": 77733
+    },
+    {
+      "version": 25862,
+      "min_version": 25860,
+      "max_version": 25861,
+      "seconds": 155.60196689493023,
+      "decisions": 8200,
+      "turns": 690,
+      "stale": 78776
+    },
+    {
+      "version": 25863,
+      "min_version": 25861,
+      "max_version": 25862,
+      "seconds": 157.30571236391552,
+      "decisions": 8211,
+      "turns": 690,
+      "stale": 79655
+    },
+    {
+      "version": 25864,
+      "min_version": 25862,
+      "max_version": 25863,
+      "seconds": 159.03498032898642,
+      "decisions": 8192,
+      "turns": 673,
+      "stale": 80640
+    },
+    {
+      "version": 25865,
+      "min_version": 25863,
+      "max_version": 25864,
+      "seconds": 160.87297962699085,
+      "decisions": 8197,
+      "turns": 664,
+      "stale": 81672
+    },
+    {
+      "version": 25866,
+      "min_version": 25864,
+      "max_version": 25865,
+      "seconds": 162.45097244693898,
+      "decisions": 8215,
+      "turns": 696,
+      "stale": 82673
+    },
+    {
+      "version": 25867,
+      "min_version": 25865,
+      "max_version": 25866,
+      "seconds": 164.00256402790546,
+      "decisions": 8200,
+      "turns": 675,
+      "stale": 83449
+    },
+    {
+      "version": 25868,
+      "min_version": 25866,
+      "max_version": 25867,
+      "seconds": 165.65397971286438,
+      "decisions": 8192,
+      "turns": 669,
+      "stale": 84194
+    },
+    {
+      "version": 25869,
+      "min_version": 25867,
+      "max_version": 25868,
+      "seconds": 167.2945635910146,
+      "decisions": 8204,
+      "turns": 659,
+      "stale": 84546
+    },
+    {
+      "version": 25870,
+      "min_version": 25868,
+      "max_version": 25869,
+      "seconds": 168.931937568821,
+      "decisions": 8196,
+      "turns": 673,
+      "stale": 85449
+    },
+    {
+      "version": 25871,
+      "min_version": 25869,
+      "max_version": 25870,
+      "seconds": 170.7452285720501,
+      "decisions": 8192,
+      "turns": 667,
+      "stale": 86463
+    },
+    {
+      "version": 25872,
+      "min_version": 25870,
+      "max_version": 25871,
+      "seconds": 172.4136566608213,
+      "decisions": 8205,
+      "turns": 658,
+      "stale": 87688
+    }
+  ],
+  "library_sha256": "ddf5a8f22f0c39067e7c96a6054f01b5c87b624373b4fc1879715469470f4372",
+  "seed": 2577223,
+  "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2"
+}

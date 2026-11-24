@@ -1,0 +1,66 @@
+{
+  "counts": {
+    "waves": 1121,
+    "seat_decisions": 87663,
+    "live_decisions": 66603,
+    "frozen_decisions": 21060,
+    "delivered_turns": 4971,
+    "delivered": 65969,
+    "battles": 3322,
+    "matches": 256,
+    "selected_turns": 4942,
+    "learner_decisions": 65602,
+    "selected_batches": 8,
+    "stale": 0,
+    "queued": 367,
+    "pending": 634
+  },
+  "assignment_decisions": {
+    "-2": 12779,
+    "-1": 66603,
+    "26024": 5054,
+    "26026": 2296,
+    "26028": 931
+  },
+  "policy": {
+    "sha256": "251694159b854c6b5179f465a36a59cdfb655df8e8a1e290c7f9dcda078c7b04",
+    "update": 26022,
+    "source_revision": "turtle-v31-replay-852b274e7eb2-20261123",
+    "joint_freeze": true
+  },
+  "observation_fields": [
+    "item_ids",
+    "kind_ids",
+    "status_ids",
+    "positions",
+    "numeric",
+    "entity_mask",
+    "type_mask",
+    "source_mask",
+    "target_mask",
+    "opponent_history_item_ids",
+    "opponent_history_status_ids",
+    "opponent_history_positions",
+    "opponent_history_numeric",
+    "opponent_history_mask",
+    "opponent_history_board_mask"
+  ],
+  "segment_fields": [
+    "observations",
+    "actions",
+    "behavior_log_probs",
+    "behavior_versions",
+    "rewards",
+    "discounts",
+    "freeze_masks",
+    "initial_memory",
+    "bootstrap_observation",
+    "terminal",
+    "battle_outcome",
+    "slot_id"
+  ],
+  "exact": true,
+  "decision_target": 8192,
+  "final_version": 26030,
+  "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2"
+}

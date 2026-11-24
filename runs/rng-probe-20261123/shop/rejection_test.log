@@ -1,0 +1,14 @@
+rolls dev 3636 held-out 1198 K 48 M range(10, 801)
+dotnet scaled   own seed       best M  131: excess min-coverage dev +0.056 held-out +0.082; best on shuffled labels +0.059
+dotnet scaled   previous seed  best M  125: excess min-coverage dev +0.062 held-out +0.085; best on shuffled labels +0.059
+dotnet mod      own seed       best M  125: excess min-coverage dev +0.058 held-out +0.086; best on shuffled labels +0.062
+dotnet mod      previous seed  best M  105: excess min-coverage dev +0.059 held-out +0.074; best on shuffled labels +0.058
+unity mod       own seed       best M  130: excess min-coverage dev +0.059 held-out +0.090; best on shuffled labels +0.062
+unity mod       previous seed  best M  154: excess min-coverage dev +0.058 held-out +0.092; best on shuffled labels +0.063
+unity scaled    own seed       best M  159: excess min-coverage dev +0.058 held-out +0.088; best on shuffled labels +0.059
+unity scaled    previous seed  best M  225: excess min-coverage dev +0.060 held-out +0.082; best on shuffled labels +0.061
+mt19937 mod     own seed       best M   88: excess min-coverage dev +0.060 held-out +0.068; best on shuffled labels +0.059
+mt19937 mod     previous seed  best M   93: excess min-coverage dev +0.059 held-out +0.085; best on shuffled labels +0.060
+mt19937 scaled  own seed       best M  123: excess min-coverage dev +0.061 held-out +0.084; best on shuffled labels +0.062
+mt19937 scaled  previous seed  best M  133: excess min-coverage dev +0.059 held-out +0.091; best on shuffled labels +0.055
+(truth with M up to 800 would show an excess of +0.4 to +1.0 on dev AND held-out)

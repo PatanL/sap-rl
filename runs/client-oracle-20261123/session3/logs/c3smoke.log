@@ -1,0 +1,25 @@
+BROWSER READY
+200 GET /0.48/api/ping
+200 GET /0.48/api/version/current
+200 POST /0.48/api/user/login
+200 GET /0.48/api/user/current
+200 GET /0.48/api/achievement/fetch
+200 GET /0.48/api/clientconfig
+200 GET /0.48/api/product/all
+200 GET /0.48/api/deck/all
+200 GET /0.48/api/challenge/current
+200 GET /0.48/api/news/1
+200 GET /0.48/api/news/0
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+200 GET /0.48/api/versus/datetime
+LOCAL current.json
+200 GET /0.48/api/battle/get/<id>
+BLOCK POST /0.48/api/arena/watch
+BLOCK GET /0.48/api/user/participation/<id>
+CAPTURED c3-a1-fly4dead-p870113 11 20.3
+EXIT 0
+session2/captures/c3-a1-fly4dead-p870113 14 readings
+BATCH DONE

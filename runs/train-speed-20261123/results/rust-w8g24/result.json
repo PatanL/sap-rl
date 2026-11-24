@@ -1,0 +1,47 @@
+{
+  "version": 25788,
+  "engine": "80ee15221b5fbfd7b641330cdeaebcc011a2c1dc77da3bce6ffb4979a44bf4b5",
+  "updates": 16,
+  "elapsed": 110.48791535501368,
+  "learned": 131137,
+  "delivered": 168272,
+  "seat": 231001,
+  "live": 170288,
+  "frozen": 60713,
+  "pending": 2016,
+  "queued": 8605,
+  "stale": 28530,
+  "matches": 720,
+  "queue_highwater": 8326,
+  "backpressure_hits": 16,
+  "assignment": {
+    "mirror": 434,
+    "parent:seat1": 253,
+    "parent:seat0": 223
+  },
+  "gpu_util_mean": 34.2262443438914,
+  "gpu_samples": 221,
+  "peak_bytes": 1965031424,
+  "learned_s": 1186.8899832043876,
+  "collected_s": 1522.990088638361,
+  "seat_s": 2090.7354370635044,
+  "stale_share": 0.17868438688019442,
+  "fully_overlapped_inference_waves": 1116,
+  "seats_fully_served_during_updates": 175837,
+  "main_seconds": {
+    "other": 0.41644126386381686,
+    "inference_service": 52.8122985153459,
+    "worker_wait_and_copy": 23.990731287980452,
+    "await_learner": 33.19777312828228,
+    "publish": 0.07067115954123437
+  },
+  "overlap_with_learner_seconds": {
+    "other": 0.11482549016363919,
+    "inference_service": 42.3036800827831,
+    "worker_wait_and_copy": 17.921949121868238,
+    "await_learner": 33.19632783718407
+  },
+  "learner_seconds": 93.53678253199905,
+  "worker_seconds": {},
+  "counts": {}
+}

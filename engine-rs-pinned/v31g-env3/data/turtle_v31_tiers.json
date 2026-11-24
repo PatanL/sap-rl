@@ -1,0 +1,76 @@
+{
+ "pet_tier_lookup_std": {
+  "1": [
+   "pet-ant",
+   "pet-beaver",
+   "pet-cricket",
+   "pet-duck",
+   "pet-fish",
+   "pet-horse",
+   "pet-mosquito",
+   "pet-otter",
+   "pet-pig",
+   "pet-pigeon"
+  ],
+  "2": [
+   "pet-crab",
+   "pet-flamingo",
+   "pet-hedgehog",
+   "pet-peacock",
+   "pet-rat",
+   "pet-spider",
+   "pet-swan",
+   "pet-kangaroo",
+   "pet-snail",
+   "pet-worm"
+  ],
+  "3": [
+   "pet-dodo",
+   "pet-dog",
+   "pet-elephant",
+   "pet-badger",
+   "pet-camel",
+   "pet-giraffe",
+   "pet-ox",
+   "pet-rabbit",
+   "pet-sheep",
+   "pet-dolphin"
+  ],
+  "4": [
+   "pet-blowfish",
+   "pet-turtle",
+   "pet-whale",
+   "pet-bison",
+   "pet-deer",
+   "pet-hippo",
+   "pet-penguin",
+   "pet-skunk",
+   "pet-squirrel",
+   "pet-parrot"
+  ],
+  "5": [
+   "pet-monkey",
+   "pet-rooster",
+   "pet-cow",
+   "pet-crocodile",
+   "pet-rhino",
+   "pet-scorpion",
+   "pet-seal",
+   "pet-shark",
+   "pet-turkey",
+   "pet-armadillo"
+  ],
+  "6": [
+   "pet-cat",
+   "pet-boar",
+   "pet-dragon",
+   "pet-fly",
+   "pet-gorilla",
+   "pet-leopard",
+   "pet-mammoth",
+   "pet-snake",
+   "pet-tiger",
+   "pet-wolverine"
+  ]
+ }
+}

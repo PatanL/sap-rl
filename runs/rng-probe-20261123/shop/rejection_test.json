@@ -1,0 +1,275 @@
+{
+ "K": 48,
+ "M": [
+  10,
+  800
+ ],
+ "dev": 3636,
+ "held": 1198,
+ "results": [
+  {
+   "stream": "dotnet scaled",
+   "seed": "own seed",
+   "top": [
+    {
+     "M": 131,
+     "excess_min_coverage_dev": 0.05638889165213573,
+     "excess_min_coverage_held": 0.08155621048806705
+    },
+    {
+     "M": 183,
+     "excess_min_coverage_dev": 0.055713109312737985,
+     "excess_min_coverage_held": 0.08845875194849051
+    },
+    {
+     "M": 129,
+     "excess_min_coverage_dev": 0.05531284384302615,
+     "excess_min_coverage_held": 0.09139234244107991
+    }
+   ],
+   "best_excess_shuffled": 0.0587786323590867
+  },
+  {
+   "stream": "dotnet scaled",
+   "seed": "previous seed",
+   "top": [
+    {
+     "M": 125,
+     "excess_min_coverage_dev": 0.061618869045477254,
+     "excess_min_coverage_held": 0.08466056017877144
+    },
+    {
+     "M": 115,
+     "excess_min_coverage_dev": 0.06083148141841005,
+     "excess_min_coverage_held": 0.10200617109446208
+    },
+    {
+     "M": 77,
+     "excess_min_coverage_dev": 0.05983190751578338,
+     "excess_min_coverage_held": 0.08496675709594237
+    }
+   ],
+   "best_excess_shuffled": 0.05917407509028244
+  },
+  {
+   "stream": "dotnet mod",
+   "seed": "own seed",
+   "top": [
+    {
+     "M": 125,
+     "excess_min_coverage_dev": 0.058231668011217375,
+     "excess_min_coverage_held": 0.0863304075070157
+    },
+    {
+     "M": 131,
+     "excess_min_coverage_dev": 0.057365849192645146,
+     "excess_min_coverage_held": 0.09534400858262887
+    },
+    {
+     "M": 110,
+     "excess_min_coverage_dev": 0.05653815803199119,
+     "excess_min_coverage_held": 0.09470641944339309
+    }
+   ],
+   "best_excess_shuffled": 0.061676099177280286
+  },
+  {
+   "stream": "dotnet mod",
+   "seed": "previous seed",
+   "top": [
+    {
+     "M": 105,
+     "excess_min_coverage_dev": 0.05899750719790875,
+     "excess_min_coverage_held": 0.07388131306925055
+    },
+    {
+     "M": 209,
+     "excess_min_coverage_dev": 0.05765966071569467,
+     "excess_min_coverage_held": 0.08443812425313174
+    },
+    {
+     "M": 90,
+     "excess_min_coverage_dev": 0.05693342991898276,
+     "excess_min_coverage_held": 0.08489763573553755
+    }
+   ],
+   "best_excess_shuffled": 0.05800602461119175
+  },
+  {
+   "stream": "unity mod",
+   "seed": "own seed",
+   "top": [
+    {
+     "M": 130,
+     "excess_min_coverage_dev": 0.05935713698992984,
+     "excess_min_coverage_held": 0.09027983025676278
+    },
+    {
+     "M": 196,
+     "excess_min_coverage_dev": 0.057498217301373444,
+     "excess_min_coverage_held": 0.07481086443106999
+    },
+    {
+     "M": 149,
+     "excess_min_coverage_dev": 0.05713812718371619,
+     "excess_min_coverage_held": 0.08434901153745772
+    }
+   ],
+   "best_excess_shuffled": 0.06216870007996406
+  },
+  {
+   "stream": "unity mod",
+   "seed": "previous seed",
+   "top": [
+    {
+     "M": 154,
+     "excess_min_coverage_dev": 0.058149182358510354,
+     "excess_min_coverage_held": 0.0920101082750116
+    },
+    {
+     "M": 114,
+     "excess_min_coverage_dev": 0.05663370495569808,
+     "excess_min_coverage_held": 0.08370887417550571
+    },
+    {
+     "M": 123,
+     "excess_min_coverage_dev": 0.05662692493307531,
+     "excess_min_coverage_held": 0.08802671190271849
+    }
+   ],
+   "best_excess_shuffled": 0.06315203033039318
+  },
+  {
+   "stream": "unity scaled",
+   "seed": "own seed",
+   "top": [
+    {
+     "M": 159,
+     "excess_min_coverage_dev": 0.0580449231837179,
+     "excess_min_coverage_held": 0.08755440139360654
+    },
+    {
+     "M": 76,
+     "excess_min_coverage_dev": 0.055254196299142744,
+     "excess_min_coverage_held": 0.08677903534485887
+    },
+    {
+     "M": 111,
+     "excess_min_coverage_dev": 0.05481709236846616,
+     "excess_min_coverage_held": 0.07513917170996248
+    }
+   ],
+   "best_excess_shuffled": 0.05913966076827126
+  },
+  {
+   "stream": "unity scaled",
+   "seed": "previous seed",
+   "top": [
+    {
+     "M": 225,
+     "excess_min_coverage_dev": 0.05967666429358465,
+     "excess_min_coverage_held": 0.08231191155544992
+    },
+    {
+     "M": 171,
+     "excess_min_coverage_dev": 0.05897932204044265,
+     "excess_min_coverage_held": 0.09056899595348611
+    },
+    {
+     "M": 279,
+     "excess_min_coverage_dev": 0.05868502664294678,
+     "excess_min_coverage_held": 0.08021489959822459
+    }
+   ],
+   "best_excess_shuffled": 0.060727107188139395
+  },
+  {
+   "stream": "mt19937 mod",
+   "seed": "own seed",
+   "top": [
+    {
+     "M": 88,
+     "excess_min_coverage_dev": 0.05956388062666279,
+     "excess_min_coverage_held": 0.06756708190717498
+    },
+    {
+     "M": 158,
+     "excess_min_coverage_dev": 0.058993906594299206,
+     "excess_min_coverage_held": 0.07063147932912878
+    },
+    {
+     "M": 93,
+     "excess_min_coverage_dev": 0.05824786075417898,
+     "excess_min_coverage_held": 0.09088710815852707
+    }
+   ],
+   "best_excess_shuffled": 0.05923858319234643
+  },
+  {
+   "stream": "mt19937 mod",
+   "seed": "previous seed",
+   "top": [
+    {
+     "M": 93,
+     "excess_min_coverage_dev": 0.059446326717745634,
+     "excess_min_coverage_held": 0.08495653079937826
+    },
+    {
+     "M": 183,
+     "excess_min_coverage_dev": 0.05942853521063257,
+     "excess_min_coverage_held": 0.07485330977161975
+    },
+    {
+     "M": 194,
+     "excess_min_coverage_dev": 0.05711909960243894,
+     "excess_min_coverage_held": 0.08643356853215545
+    }
+   ],
+   "best_excess_shuffled": 0.05993924763189551
+  },
+  {
+   "stream": "mt19937 scaled",
+   "seed": "own seed",
+   "top": [
+    {
+     "M": 123,
+     "excess_min_coverage_dev": 0.06060044348049737,
+     "excess_min_coverage_held": 0.08397623675082566
+    },
+    {
+     "M": 145,
+     "excess_min_coverage_dev": 0.05963916456519641,
+     "excess_min_coverage_held": 0.076135911324764
+    },
+    {
+     "M": 117,
+     "excess_min_coverage_dev": 0.05941267953098733,
+     "excess_min_coverage_held": 0.08407993773861822
+    }
+   ],
+   "best_excess_shuffled": 0.061623342961223626
+  },
+  {
+   "stream": "mt19937 scaled",
+   "seed": "previous seed",
+   "top": [
+    {
+     "M": 133,
+     "excess_min_coverage_dev": 0.059174194585458584,
+     "excess_min_coverage_held": 0.0906550946377872
+    },
+    {
+     "M": 115,
+     "excess_min_coverage_dev": 0.058009153943082536,
+     "excess_min_coverage_held": 0.0929358763098816
+    },
+    {
+     "M": 167,
+     "excess_min_coverage_dev": 0.057684361232871795,
+     "excess_min_coverage_held": 0.09499937180369633
+    }
+   ],
+   "best_excess_shuffled": 0.05499544301134929
+  }
+ ]
+}

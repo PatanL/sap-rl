@@ -1,0 +1,495 @@
+{
+  "battle_id": "f5d9dc06-a8ae-4041-be28-4db59ea530a7",
+  "recorded_seed": 107309690,
+  "engine_seed": 107309690,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Rabbit",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Swan",
+          "attack": 14,
+          "health": 14,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 6,
+          "health": 7,
+          "perk": "status-garlic-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 6,
+          "health": 7,
+          "perk": "status-cake",
+          "slot": 3
+        },
+        {
+          "pet": "Snail",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 5,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dog",
+          "attack": 7,
+          "health": 6,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Rabbit",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Swan",
+          "attack": 14,
+          "health": 14,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 6,
+          "health": 7,
+          "perk": "status-garlic-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 6,
+          "health": 7,
+          "perk": "status-cake",
+          "slot": 3
+        },
+        {
+          "pet": "Snail",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 5,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dog",
+          "attack": 7,
+          "health": 6,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Swan",
+          "attack": 14,
+          "health": 14,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 6,
+          "health": 7,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Snail",
+          "attack": 6,
+          "health": 7,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ant",
+          "attack": 5,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Spider",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Dog",
+          "attack": 7,
+          "health": 6,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Swan",
+          "attack": 14,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 6,
+          "health": 7,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Snail",
+          "attack": 6,
+          "health": 7,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Deer",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dog",
+          "attack": 7,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Swan",
+          "attack": 14,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 6,
+          "health": 7,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Snail",
+          "attack": 6,
+          "health": 7,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bus",
+          "attack": 5,
+          "health": 3,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Spider",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dog",
+          "attack": 9,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Blowfish",
+          "attack": 6,
+          "health": 4,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Snail",
+          "attack": 6,
+          "health": 7,
+          "perk": "status-cake",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Spider",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dog",
+          "attack": 9,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Snail",
+          "attack": 6,
+          "health": 7,
+          "perk": "status-cake",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Spider",
+          "attack": 6,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dog",
+          "attack": 9,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [
+        {
+          "pet": "Snail",
+          "attack": 6,
+          "health": 1,
+          "perk": "status-cake",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Badger",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dog",
+          "attack": 11,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-07",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Dog",
+          "attack": 11,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Dog",
+          "attack": 11,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "package": "c",
+    "revision": "turtle-v31-replay-48218b4eb462-20261123",
+    "gym": "3291838db6765842d63dfc4cf8966e713cffbd40230c26ebd07014736b96ba86",
+    "tensors": 151,
+    "optimizer_states": 149,
+    "rates": {
+      "base": 2e-06,
+      "opponent_history": 0.0001,
+      "opponent_adapter": 1e-05,
+      "end_freeze": 5e-05
+    },
+    "update": 25772
+  },
+  {
+    "package": "f",
+    "revision": "turtle-v31-replay-37d1495292e8-20261123",
+    "gym": "3291838db6765842d63dfc4cf8966e713cffbd40230c26ebd07014736b96ba86",
+    "tensors": 151,
+    "optimizer_states": 149,
+    "rates": {
+      "base": 2e-06,
+      "opponent_history": 0.0001,
+      "opponent_adapter": 1e-05,
+      "end_freeze": 5e-05
+    },
+    "update": 25772
+  },
+  {
+    "package": "g",
+    "revision": "turtle-v31-replay-852b274e7eb2-20261123",
+    "gym": "3291838db6765842d63dfc4cf8966e713cffbd40230c26ebd07014736b96ba86",
+    "tensors": 151,
+    "optimizer_states": 149,
+    "rates": {
+      "base": 2e-06,
+      "opponent_history": 0.0001,
+      "opponent_adapter": 1e-05,
+      "end_freeze": 5e-05
+    },
+    "update": 25772
+  }
+]

@@ -1,0 +1,537 @@
+{
+  "battle_id": "b363f9e9-bc37-444f-8c02-3c83dfd7ea38",
+  "recorded_seed": -1676140602,
+  "engine_seed": 2618826694,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Cow",
+          "attack": 4,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Ox",
+          "attack": 20,
+          "health": 21,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Snake",
+          "attack": 12,
+          "health": 12,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "status-extra-life",
+          "slot": 3
+        },
+        {
+          "pet": "Fly",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dolphin",
+          "attack": 17,
+          "health": 15,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 8,
+          "health": 11,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Armadillo",
+          "attack": 7,
+          "health": 11,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Deer",
+          "attack": 6,
+          "health": 6,
+          "perk": "status-melon-armor",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 10,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Cow",
+          "attack": 4,
+          "health": 10,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Ox",
+          "attack": 20,
+          "health": 29,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Snake",
+          "attack": 12,
+          "health": 20,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Fly",
+          "attack": 8,
+          "health": 15,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dolphin",
+          "attack": 17,
+          "health": 23,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 8,
+          "health": 19,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Armadillo",
+          "attack": 7,
+          "health": 19,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Deer",
+          "attack": 6,
+          "health": 14,
+          "perk": "status-melon-armor",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 18,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Zombie Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Ox",
+          "attack": 21,
+          "health": 24,
+          "perk": "status-melon-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Snake",
+          "attack": 12,
+          "health": 20,
+          "perk": "status-bread",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Fly",
+          "attack": 8,
+          "health": 15,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dolphin",
+          "attack": 17,
+          "health": 19,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 8,
+          "health": 19,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Armadillo",
+          "attack": 7,
+          "health": 19,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Deer",
+          "attack": 6,
+          "health": 14,
+          "perk": "status-melon-armor",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 18,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Ox",
+          "attack": 22,
+          "health": 24,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 12,
+          "health": 20,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 8,
+          "health": 15,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dolphin",
+          "attack": 17,
+          "health": 15,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 8,
+          "health": 19,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Armadillo",
+          "attack": 7,
+          "health": 19,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Deer",
+          "attack": 6,
+          "health": 14,
+          "perk": "status-melon-armor",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 18,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Ox",
+          "attack": 22,
+          "health": 24,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 12,
+          "health": 15,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 8,
+          "health": 15,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Cat",
+          "attack": 8,
+          "health": 19,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Armadillo",
+          "attack": 7,
+          "health": 19,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 6,
+          "health": 14,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 13,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Ox",
+          "attack": 22,
+          "health": 13,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 12,
+          "health": 12,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 8,
+          "health": 12,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Armadillo",
+          "attack": 7,
+          "health": 19,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 6,
+          "health": 9,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Ox",
+          "attack": 22,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 12,
+          "health": 12,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 8,
+          "health": 12,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 6,
+          "perk": "status-splash-attack",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [
+        {
+          "pet": "Zombie Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 12,
+          "health": 7,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 8,
+          "health": 12,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Zombie Fly",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 12,
+          "health": 7,
+          "perk": "status-bread",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fly",
+          "attack": 8,
+          "health": 12,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

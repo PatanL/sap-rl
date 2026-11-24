@@ -1,0 +1,958 @@
+{
+ "pets": {
+  "pet-ant": {
+   "name": "Ant",
+   "tier": 1,
+   "attack": 2,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-beaver": {
+   "name": "Beaver",
+   "tier": 1,
+   "attack": 3,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-cricket": {
+   "name": "Cricket",
+   "tier": 1,
+   "attack": 1,
+   "health": 3,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-duck": {
+   "name": "Duck",
+   "tier": 1,
+   "attack": 2,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-fish": {
+   "name": "Fish",
+   "tier": 1,
+   "attack": 2,
+   "health": 3,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-horse": {
+   "name": "Horse",
+   "tier": 1,
+   "attack": 2,
+   "health": 1,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-mosquito": {
+   "name": "Mosquito",
+   "tier": 1,
+   "attack": 2,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-otter": {
+   "name": "Otter",
+   "tier": 1,
+   "attack": 1,
+   "health": 4,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-pig": {
+   "name": "Pig",
+   "tier": 1,
+   "attack": 4,
+   "health": 1,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-crab": {
+   "name": "Crab",
+   "tier": 2,
+   "attack": 4,
+   "health": 1,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-dodo": {
+   "name": "Dodo",
+   "tier": 3,
+   "attack": 4,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-dog": {
+   "name": "Dog",
+   "tier": 3,
+   "attack": 3,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-elephant": {
+   "name": "Elephant",
+   "tier": 3,
+   "attack": 3,
+   "health": 7,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-flamingo": {
+   "name": "Flamingo",
+   "tier": 2,
+   "attack": 3,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-hedgehog": {
+   "name": "Hedgehog",
+   "tier": 2,
+   "attack": 4,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-peacock": {
+   "name": "Peacock",
+   "tier": 2,
+   "attack": 2,
+   "health": 5,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-rat": {
+   "name": "Rat",
+   "tier": 2,
+   "attack": 3,
+   "health": 6,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-spider": {
+   "name": "Spider",
+   "tier": 2,
+   "attack": 2,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-swan": {
+   "name": "Swan",
+   "tier": 2,
+   "attack": 1,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-badger": {
+   "name": "Badger",
+   "tier": 3,
+   "attack": 6,
+   "health": 3,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-blowfish": {
+   "name": "Blowfish",
+   "tier": 4,
+   "attack": 3,
+   "health": 6,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-camel": {
+   "name": "Camel",
+   "tier": 3,
+   "attack": 3,
+   "health": 3,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-giraffe": {
+   "name": "Giraffe",
+   "tier": 3,
+   "attack": 1,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-kangaroo": {
+   "name": "Kangaroo",
+   "tier": 2,
+   "attack": 2,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-ox": {
+   "name": "Ox",
+   "tier": 3,
+   "attack": 1,
+   "health": 3,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-rabbit": {
+   "name": "Rabbit",
+   "tier": 3,
+   "attack": 1,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-sheep": {
+   "name": "Sheep",
+   "tier": 3,
+   "attack": 2,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-snail": {
+   "name": "Snail",
+   "tier": 2,
+   "attack": 2,
+   "health": 3,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-turtle": {
+   "name": "Turtle",
+   "tier": 4,
+   "attack": 2,
+   "health": 5,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-whale": {
+   "name": "Whale",
+   "tier": 4,
+   "attack": 3,
+   "health": 7,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-bison": {
+   "name": "Bison",
+   "tier": 4,
+   "attack": 4,
+   "health": 4,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-deer": {
+   "name": "Deer",
+   "tier": 4,
+   "attack": 2,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-dolphin": {
+   "name": "Dolphin",
+   "tier": 3,
+   "attack": 4,
+   "health": 3,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-hippo": {
+   "name": "Hippo",
+   "tier": 4,
+   "attack": 4,
+   "health": 6,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-monkey": {
+   "name": "Monkey",
+   "tier": 5,
+   "attack": 1,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-penguin": {
+   "name": "Penguin",
+   "tier": 4,
+   "attack": 2,
+   "health": 3,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-rooster": {
+   "name": "Rooster",
+   "tier": 5,
+   "attack": 6,
+   "health": 5,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-skunk": {
+   "name": "Skunk",
+   "tier": 4,
+   "attack": 3,
+   "health": 5,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-squirrel": {
+   "name": "Squirrel",
+   "tier": 4,
+   "attack": 3,
+   "health": 5,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-worm": {
+   "name": "Worm",
+   "tier": 2,
+   "attack": 1,
+   "health": 4,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-cow": {
+   "name": "Cow",
+   "tier": 5,
+   "attack": 4,
+   "health": 6,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-crocodile": {
+   "name": "Crocodile",
+   "tier": 5,
+   "attack": 8,
+   "health": 4,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-parrot": {
+   "name": "Parrot",
+   "tier": 4,
+   "attack": 4,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-rhino": {
+   "name": "Rhino",
+   "tier": 5,
+   "attack": 6,
+   "health": 7,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-scorpion": {
+   "name": "Scorpion",
+   "tier": 5,
+   "attack": 1,
+   "health": 3,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-seal": {
+   "name": "Seal",
+   "tier": 5,
+   "attack": 3,
+   "health": 8,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-shark": {
+   "name": "Shark",
+   "tier": 5,
+   "attack": 2,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-turkey": {
+   "name": "Turkey",
+   "tier": 5,
+   "attack": 3,
+   "health": 4,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-cat": {
+   "name": "Cat",
+   "tier": 6,
+   "attack": 4,
+   "health": 5,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-boar": {
+   "name": "Boar",
+   "tier": 6,
+   "attack": 10,
+   "health": 6,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-dragon": {
+   "name": "Dragon",
+   "tier": 6,
+   "attack": 3,
+   "health": 8,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-fly": {
+   "name": "Fly",
+   "tier": 6,
+   "attack": 4,
+   "health": 4,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-gorilla": {
+   "name": "Gorilla",
+   "tier": 6,
+   "attack": 7,
+   "health": 10,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-leopard": {
+   "name": "Leopard",
+   "tier": 6,
+   "attack": 10,
+   "health": 4,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-mammoth": {
+   "name": "Mammoth",
+   "tier": 6,
+   "attack": 4,
+   "health": 12,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-snake": {
+   "name": "Snake",
+   "tier": 6,
+   "attack": 8,
+   "health": 3,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-tiger": {
+   "name": "Tiger",
+   "tier": 6,
+   "attack": 6,
+   "health": 4,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-zombie-cricket": {
+   "name": "Zombie Cricket",
+   "tier": 1,
+   "attack": "?",
+   "health": "?",
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "pet-bus": {
+   "name": "Bus",
+   "tier": 1,
+   "attack": "?",
+   "health": "?",
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "pet-zombie-fly": {
+   "name": "Zombie Fly",
+   "tier": 1,
+   "attack": "?",
+   "health": "?",
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-dirty-rat": {
+   "name": "Dirty Rat",
+   "tier": 1,
+   "attack": 1,
+   "health": 1,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "pet-chick": {
+   "name": "Chick",
+   "tier": 1,
+   "attack": "?",
+   "health": 1,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "pet-ram": {
+   "name": "Ram",
+   "tier": 1,
+   "attack": "?",
+   "health": "?",
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "pet-bee": {
+   "name": "Bee",
+   "tier": 1,
+   "attack": 1,
+   "health": 1,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "pet-pigeon": {
+   "name": "Pigeon",
+   "tier": 1,
+   "attack": 3,
+   "health": 2,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-armadillo": {
+   "name": "Armadillo",
+   "tier": 5,
+   "attack": 4,
+   "health": 8,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "pet-wolverine": {
+   "name": "Wolverine",
+   "tier": 6,
+   "attack": 5,
+   "health": 7,
+   "packs": [
+    "StandardPack"
+   ]
+  }
+ },
+ "foods": {
+  "food-apple": {
+   "name": "Apple",
+   "tier": 1,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-honey": {
+   "name": "Honey",
+   "tier": 1,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-cupcake": {
+   "name": "Cupcake",
+   "tier": 2,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-meat-bone": {
+   "name": "Meat Bone",
+   "tier": 2,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-sleeping-pill": {
+   "name": "Sleeping Pill",
+   "tier": 2,
+   "cost": 1,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-garlic": {
+   "name": "Garlic",
+   "tier": 3,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-salad-bowl": {
+   "name": "Salad Bowl",
+   "tier": 3,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-canned-food": {
+   "name": "Canned Food",
+   "tier": 4,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-pear": {
+   "name": "Pear",
+   "tier": 4,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-chili": {
+   "name": "Chili",
+   "tier": 5,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-chocolate": {
+   "name": "Chocolate",
+   "tier": 5,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-sushi": {
+   "name": "Sushi",
+   "tier": 5,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-melon": {
+   "name": "Melon",
+   "tier": 6,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-mushroom": {
+   "name": "Mushroom",
+   "tier": 6,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-pizza": {
+   "name": "Pizza",
+   "tier": 6,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-steak": {
+   "name": "Steak",
+   "tier": 6,
+   "cost": 3,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-milk": {
+   "name": "Milk",
+   "tier": "Summoned",
+   "cost": 0,
+   "packs": [
+    "StandardPack",
+    "ExpansionPack1"
+   ]
+  },
+  "food-cake": {
+   "name": "Cake",
+   "tier": 3,
+   "cost": 3,
+   "packs": [
+    "StandardPack"
+   ]
+  },
+  "food-bread": {
+   "name": "Bread",
+   "tier": 4,
+   "cost": 3,
+   "packs": [
+    "StandardPack"
+   ]
+  }
+ },
+ "turns": {
+  "turn-1": {
+   "name": "Turn 1",
+   "id": "turn-1",
+   "index": 1,
+   "foodShopSlots": 1,
+   "animalShopSlots": 3,
+   "livesLost": 1,
+   "tiersAvailable": 1,
+   "levelUpTier": 2
+  },
+  "turn-2": {
+   "name": "Turn 2",
+   "id": "turn-2",
+   "index": 2,
+   "foodShopSlots": 1,
+   "animalShopSlots": 3,
+   "livesLost": 1,
+   "tiersAvailable": 1,
+   "levelUpTier": 2
+  },
+  "turn-3": {
+   "name": "Turn 3",
+   "id": "turn-3",
+   "index": 3,
+   "foodShopSlots": 1,
+   "animalShopSlots": 3,
+   "livesLost": 2,
+   "tiersAvailable": 2,
+   "levelUpTier": 3
+  },
+  "turn-4": {
+   "name": "Turn 4",
+   "id": "turn-4",
+   "index": 4,
+   "foodShopSlots": 1,
+   "animalShopSlots": 3,
+   "livesLost": 2,
+   "tiersAvailable": 2,
+   "levelUpTier": 3
+  },
+  "turn-5": {
+   "name": "Turn 5",
+   "id": "turn-5",
+   "index": 5,
+   "foodShopSlots": 2,
+   "animalShopSlots": 4,
+   "livesLost": 3,
+   "tiersAvailable": 3,
+   "levelUpTier": 4
+  },
+  "turn-6": {
+   "name": "Turn 6",
+   "id": "turn-6",
+   "index": 6,
+   "foodShopSlots": 2,
+   "animalShopSlots": 4,
+   "livesLost": 3,
+   "tiersAvailable": 3,
+   "levelUpTier": 4
+  },
+  "turn-7": {
+   "name": "Turn 7",
+   "id": "turn-7",
+   "index": 7,
+   "foodShopSlots": 2,
+   "animalShopSlots": 4,
+   "livesLost": 3,
+   "tiersAvailable": 4,
+   "levelUpTier": 5
+  },
+  "turn-8": {
+   "name": "Turn 8",
+   "id": "turn-8",
+   "index": 8,
+   "foodShopSlots": 2,
+   "animalShopSlots": 4,
+   "livesLost": 3,
+   "tiersAvailable": 4,
+   "levelUpTier": 5
+  },
+  "turn-9": {
+   "name": "Turn 9",
+   "id": "turn-9",
+   "index": 9,
+   "foodShopSlots": 2,
+   "animalShopSlots": 5,
+   "livesLost": 4,
+   "tiersAvailable": 5,
+   "levelUpTier": 6
+  },
+  "turn-10": {
+   "name": "Turn 10",
+   "id": "turn-10",
+   "index": 10,
+   "foodShopSlots": 2,
+   "animalShopSlots": 5,
+   "livesLost": 4,
+   "tiersAvailable": 5,
+   "levelUpTier": 6
+  },
+  "turn-11": {
+   "name": "Turn 11+",
+   "id": "turn-11",
+   "index": 11,
+   "foodShopSlots": 2,
+   "animalShopSlots": 5,
+   "livesLost": 5,
+   "tiersAvailable": 6,
+   "levelUpTier": 6
+  }
+ },
+ "rollable": [
+  "pet-ant",
+  "pet-armadillo",
+  "pet-badger",
+  "pet-beaver",
+  "pet-bison",
+  "pet-blowfish",
+  "pet-boar",
+  "pet-camel",
+  "pet-cat",
+  "pet-cow",
+  "pet-crab",
+  "pet-cricket",
+  "pet-crocodile",
+  "pet-deer",
+  "pet-dodo",
+  "pet-dog",
+  "pet-dolphin",
+  "pet-dragon",
+  "pet-duck",
+  "pet-elephant",
+  "pet-fish",
+  "pet-flamingo",
+  "pet-fly",
+  "pet-giraffe",
+  "pet-gorilla",
+  "pet-hedgehog",
+  "pet-hippo",
+  "pet-horse",
+  "pet-kangaroo",
+  "pet-leopard",
+  "pet-mammoth",
+  "pet-monkey",
+  "pet-mosquito",
+  "pet-otter",
+  "pet-ox",
+  "pet-parrot",
+  "pet-peacock",
+  "pet-penguin",
+  "pet-pig",
+  "pet-pigeon",
+  "pet-rabbit",
+  "pet-rat",
+  "pet-rhino",
+  "pet-rooster",
+  "pet-scorpion",
+  "pet-seal",
+  "pet-shark",
+  "pet-sheep",
+  "pet-skunk",
+  "pet-snail",
+  "pet-snake",
+  "pet-spider",
+  "pet-squirrel",
+  "pet-swan",
+  "pet-tiger",
+  "pet-turkey",
+  "pet-turtle",
+  "pet-whale",
+  "pet-wolverine",
+  "pet-worm"
+ ]
+}

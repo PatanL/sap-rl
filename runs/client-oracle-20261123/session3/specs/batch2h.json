@@ -1,0 +1,5 @@
+[
+ {"name":"sk1-skunk2-on-50","nseeds":2,"left":[["Skunk",5,5,{"lvl":2}],["Fish",2,20]],"right":[["Fish",2,50]]},
+ {"name":"sk2-skunk3-on-50","nseeds":1,"left":[["Skunk",5,5,{"lvl":3}],["Fish",2,20]],"right":[["Fish",2,50]]},
+ {"name":"em1-empty-opponent","nseeds":1,"left":[["Fish",3,10],["Whale",2,8],["Dodo",6,5]],"right":[]}
+]

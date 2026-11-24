@@ -1,0 +1,780 @@
+[
+ {
+  "file": "c3-f7x-tiger-dies-too-continues-p1203948571.json",
+  "id": "5fe87b56-ce34-560e-9211-2fb8ffa7aaa2",
+  "seed": 1203948571,
+  "sha256": "adc8c9c2da033ac33983d9726a38f457da98f20830c85227408f3f8b5e3f066f",
+  "test": "f7x-tiger-dies-too-continues",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7x-tiger-dies-too-continues-m402918337.json",
+  "id": "92d09d10-9648-5b98-89b5-30337baa8e92",
+  "seed": -402918337,
+  "sha256": "a273239d0583ed35c46362a3ef309456c87f222b9fe39074899bd3d8368f8272",
+  "test": "f7x-tiger-dies-too-continues",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7x-tiger-dies-too-continues-p1999999937.json",
+  "id": "cc070961-bf0e-5ff7-81f7-a73d57e08e91",
+  "seed": 1999999937,
+  "sha256": "6c5496d51c938cda79aa40b343457b48253b9dc13d55ad52a3fdde782660bcc3",
+  "test": "f7x-tiger-dies-too-continues",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7x-tiger-dies-too-continues-m2000000011.json",
+  "id": "642dcbfb-2263-54e4-9cdf-53a193c87339",
+  "seed": -2000000011,
+  "sha256": "4dc8dee43bb5527b459ddbda011993ee21745a6590e4fe75198e460ad933445e",
+  "test": "f7x-tiger-dies-too-continues",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7x-tiger-dies-too-continues-p55555.json",
+  "id": "9af0fe9c-4858-577b-9c4d-8f9e09c4d0fe",
+  "seed": 55555,
+  "sha256": "ece1654e81219cd08bbb454ceb024648d3379335cbec55872347de5267e5c7ac",
+  "test": "f7x-tiger-dies-too-continues",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7x-tiger-dies-too-continues-m987654321.json",
+  "id": "d639a1b1-dd84-5d75-bedb-103cf6527ce1",
+  "seed": -987654321,
+  "sha256": "6069e66cea2e380a79f578dfe0a145ae4c41c0be286d0f9af8dd6e7017f0dc7f",
+  "test": "f7x-tiger-dies-too-continues",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-ddynctl-crab-higher-no-dodo-p870113.json",
+  "id": "c030c6e5-a627-5e8f-9256-9fee534b4255",
+  "seed": 870113,
+  "sha256": "171826dedc212c9d6c7f09afb7bf50cd3a7dbdf15472f395eceaabdcc2084cba",
+  "test": "ddynctl-crab-higher-no-dodo",
+  "left": [
+   [
+    "Skunk",
+    5,
+    5
+   ],
+   [
+    "Fish",
+    10,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Crab",
+    9,
+    3
+   ],
+   [
+    "Fish",
+    2,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-ddynctl-crab-higher-no-dodo-m1714808783.json",
+  "id": "44432bd1-23fc-5151-b654-402811425c85",
+  "seed": -1714808783,
+  "sha256": "bd0f60ab275188937be7c957d7ea05470dd56ca7d82296c95c19b5ca665f4844",
+  "test": "ddynctl-crab-higher-no-dodo",
+  "left": [
+   [
+    "Skunk",
+    5,
+    5
+   ],
+   [
+    "Fish",
+    10,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Crab",
+    9,
+    3
+   ],
+   [
+    "Fish",
+    2,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-a7-fly-one-use-left-p870113.json",
+  "id": "9cf42a9d-de36-5bb2-bd45-c69f84d5ee45",
+  "seed": 870113,
+  "sha256": "89bed761d25ebbfbc33c5084de63eb6940b9b451e33a04f39b986cc09ccb83f4",
+  "test": "a7-fly-one-use-left",
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20,
+    {
+     "trco": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ]
+ },
+ {
+  "file": "c3-a7-fly-one-use-left-m1714808783.json",
+  "id": "15ffd070-e40a-5637-a7ef-f5cebe2289cb",
+  "seed": -1714808783,
+  "sha256": "54277e42b504b8cdc2b698af23f826dbdccd71cd7d7c1f0dc2472cf6032a64f7",
+  "test": "a7-fly-one-use-left",
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20,
+    {
+     "trco": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ]
+ },
+ {
+  "file": "c3-h9-fly1-two-snipes-dolphin-first-p870113.json",
+  "id": "62881325-e205-5099-adc7-ada0d341314b",
+  "seed": 870113,
+  "sha256": "22d698726c13492c4e06a531c0d853e14fdd3001eb272f4bc788e5fa573985d0",
+  "test": "h9-fly1-two-snipes-dolphin-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h9-fly1-two-snipes-dolphin-first-m1714808783.json",
+  "id": "75aee42d-a48a-51f9-8ecd-ab5cc9a3b49b",
+  "seed": -1714808783,
+  "sha256": "08254cdfd8e6feb2badb21e783f83429bebe9fa8dcae2849ee4bc1f78f29775f",
+  "test": "h9-fly1-two-snipes-dolphin-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h9r-fly1-two-snipes-croc-first-p870113.json",
+  "id": "6be15b71-a4ca-521c-acfe-99e6e901c473",
+  "seed": 870113,
+  "sha256": "289c17e1e5ceb5f691524f13aa035409115d9439a61e86172275f41730b0a324",
+  "test": "h9r-fly1-two-snipes-croc-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    7,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h9r-fly1-two-snipes-croc-first-m1714808783.json",
+  "id": "31e07af5-b435-5cdf-ba4d-23f057416cac",
+  "seed": -1714808783,
+  "sha256": "5a0c0ad4b26701c22cd088a8b1088ac9acdfe9c6f18b45d138f8a658bfbd35f8",
+  "test": "h9r-fly1-two-snipes-croc-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    7,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h10-fly1-swallow-vs-snipe-p870113.json",
+  "id": "e5335a3a-4345-5bdc-8667-ab376cd41cd6",
+  "seed": 870113,
+  "sha256": "ce058ba9736d46f50fe3e60377f4baac4f6a75bb50a1cfeb0105b63c969ded2e",
+  "test": "h10-fly1-swallow-vs-snipe",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h10-fly1-swallow-vs-snipe-m1714808783.json",
+  "id": "e12d851b-036b-5802-8b7c-48247f51560e",
+  "seed": -1714808783,
+  "sha256": "47a74223828e91ad92b4b2a98ac6db04f385b6e4d596b0e0f858ff3075121d20",
+  "test": "h10-fly1-swallow-vs-snipe",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h10r-fly1-swallow-vs-snipe-croc-first-p870113.json",
+  "id": "18445ca4-aed5-5183-a1da-9cc3a5fbd57b",
+  "seed": 870113,
+  "sha256": "da70cb4bc619628dae52d6a46473e012053507778653011096c171f9a8358a8a",
+  "test": "h10r-fly1-swallow-vs-snipe-croc-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    6,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h10r-fly1-swallow-vs-snipe-croc-first-m1714808783.json",
+  "id": "c0b8e9b6-4031-5e77-8025-7ec3ecf710a6",
+  "seed": -1714808783,
+  "sha256": "b84f0fd49f3932a40c8217d142e670823f2a69f7ad03663f55c6f1e200d8fbbc",
+  "test": "h10r-fly1-swallow-vs-snipe-croc-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    6,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ }
+]

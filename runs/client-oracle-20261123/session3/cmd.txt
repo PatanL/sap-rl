@@ -1,0 +1,18 @@
+snap s3-boot
+mode arena
+click 960 350 s3-play 1800
+snap s3-play
+click 960 350 s3-arena 3000
+click 1750 990 s3-start 6000
+drag 670 700 960 450 s3-buy1
+drag 380 700 815 450 s3-buy2
+drag 530 700 670 450 s3-buy3
+drag 380 700 670 450 s3-buy3b
+click 1720 1010 s3-end1 1800
+click 1240 563 s3-confirm1 3000
+click 1600 400 s3-name1 800
+click 960 683 s3-name2 1000
+click 1716 1011 s3-battle1a 8000
+snap s3-battle1b
+click 960 210 s3-t2a 5000
+quit

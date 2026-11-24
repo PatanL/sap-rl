@@ -1,0 +1,15 @@
+{
+  "backend": "rust",
+  "train": true,
+  "games": 256,
+  "workers": 10,
+  "seconds": 1500.0,
+  "updates": 520,
+  "save": false,
+  "out": "/out/results/snapshot-cross",
+  "backlog": 0.5,
+  "seed": 2577223,
+  "cap": 3072,
+  "compact": true,
+  "compile": true
+}

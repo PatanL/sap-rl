@@ -1,0 +1,18 @@
+{
+  "winner": "cohort12x16",
+  "proof": "final-proof",
+  "rates": {
+    "v-python-loose": 2003.0742104511296,
+    "v-python-train": 1982.5423364848095,
+    "v-python-train-128": 2316.8040501583164,
+    "v-python-train-256": 2441.9485373360867,
+    "v-python-train-512": 2340.0223260342964,
+    "cohort12x16": 2708.485584128607,
+    "cohort12x24": 2661.1672312297965,
+    "cohort12x40": 2599.087639556594
+  },
+  "baseline": 2417.4384861590406,
+  "ledger": "final-progression.json",
+  "confirmation": "final-confirm.json",
+  "board_test": "final-board-check.json"
+}

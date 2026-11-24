@@ -1,0 +1,355 @@
+[
+ {
+  "battleId": "b7cfa58b-e65b-4abd-b469-261fa514f32b",
+  "kind": "STATE",
+  "real": "player",
+  "sapai": {
+   "opponent": 54,
+   "player": 104,
+   "draw": 42
+  },
+  "calculator": {
+   "playerWins": 161,
+   "opponentWins": 8,
+   "draws": 31
+  },
+  "calcPReal": 0.805,
+  "sapaiPReal": 0.52
+ },
+ {
+  "battleId": "45a77143-a515-454e-a17a-becedd947d66",
+  "kind": "OUTCOME",
+  "real": "draw",
+  "sapai": {
+   "player": 200
+  },
+  "calculator": {
+   "playerWins": 0,
+   "opponentWins": 0,
+   "draws": 200
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 0.0
+ },
+ {
+  "battleId": "f57d6f81-5c5a-4fc3-8c17-3fa015d63046",
+  "kind": "STATE",
+  "real": "player",
+  "sapai": {
+   "player": 200
+  },
+  "calculator": {
+   "playerWins": 200,
+   "opponentWins": 0,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 1.0
+ },
+ {
+  "battleId": "ff20a284-7917-4dfa-97d0-a6028af2d0f7",
+  "kind": "STATE",
+  "real": "opponent",
+  "sapai": {
+   "opponent": 200
+  },
+  "calculator": {
+   "playerWins": 0,
+   "opponentWins": 200,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 1.0
+ },
+ {
+  "battleId": "0bffae36-b42d-4dcf-85a7-b6c38b3518f0",
+  "kind": "STATE",
+  "real": "opponent",
+  "sapai": {
+   "opponent": 200
+  },
+  "calculator": {
+   "playerWins": 0,
+   "opponentWins": 200,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 1.0
+ },
+ {
+  "battleId": "266ae41e-aa3c-4897-b074-800473e19cc3",
+  "kind": "STATE",
+  "real": "player",
+  "sapai": {
+   "player": 200
+  },
+  "calculator": {
+   "playerWins": 200,
+   "opponentWins": 0,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 1.0
+ },
+ {
+  "battleId": "c659944f-3a16-4825-91b6-484b08647d33",
+  "kind": "STATE",
+  "real": "player",
+  "sapai": {
+   "player": 200
+  },
+  "calculator": {
+   "playerWins": 200,
+   "opponentWins": 0,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 1.0
+ },
+ {
+  "battleId": "6d09ed53-0b23-4db6-9500-29037bf5cbc6",
+  "kind": "STATE",
+  "real": "opponent",
+  "sapai": {
+   "opponent": 200
+  },
+  "calculator": {
+   "playerWins": 0,
+   "opponentWins": 200,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 1.0
+ },
+ {
+  "battleId": "001ebae8-9212-4ca8-afd8-288ac41766e6",
+  "kind": "STATE",
+  "real": "opponent",
+  "sapai": {
+   "opponent": 200
+  },
+  "calculator": {
+   "playerWins": 0,
+   "opponentWins": 200,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 1.0
+ },
+ {
+  "battleId": "6b2e1d99-7781-4834-931c-876bbb314264",
+  "kind": "STATE",
+  "real": "opponent",
+  "sapai": {
+   "opponent": 200
+  },
+  "calculator": {
+   "playerWins": 0,
+   "opponentWins": 198,
+   "draws": 2
+  },
+  "calcPReal": 0.99,
+  "sapaiPReal": 1.0
+ },
+ {
+  "battleId": "31eb2b55-b65a-4850-b5fb-94ff18ba88a5",
+  "kind": "OUTCOME",
+  "real": "opponent",
+  "sapai": {
+   "draw": 200
+  },
+  "calculator": {
+   "playerWins": 0,
+   "opponentWins": 200,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 0.0
+ },
+ {
+  "battleId": "895eb43c-406e-45ce-9ddf-7e6eab8b54aa",
+  "kind": "STATE",
+  "real": "player",
+  "sapai": {
+   "opponent": 98,
+   "player": 53,
+   "draw": 49
+  },
+  "calculator": {
+   "playerWins": 162,
+   "opponentWins": 38,
+   "draws": 0
+  },
+  "calcPReal": 0.81,
+  "sapaiPReal": 0.265
+ },
+ {
+  "battleId": "e0bdb7ba-4a85-4ccf-9123-e9517db98060",
+  "kind": "STATE",
+  "real": "player",
+  "sapai": {
+   "player": 200
+  },
+  "calculator": {
+   "playerWins": 200,
+   "opponentWins": 0,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 1.0
+ },
+ {
+  "battleId": "27f97f3d-22ae-4a7f-9e2e-e6867398da91",
+  "kind": "STATE",
+  "real": "opponent",
+  "sapai": {
+   "opponent": 200
+  },
+  "calculator": {
+   "playerWins": 0,
+   "opponentWins": 200,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 1.0
+ },
+ {
+  "battleId": "e3a2d186-5f0b-4e93-bde8-2c3476315d4d",
+  "kind": "OUTCOME",
+  "real": "player",
+  "sapai": {
+   "opponent": 200
+  },
+  "calculator": {
+   "playerWins": 200,
+   "opponentWins": 0,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 0.0
+ },
+ {
+  "battleId": "4664ea1e-15c3-49f0-80ae-494638545d33",
+  "kind": "OUTCOME",
+  "real": "draw",
+  "sapai": {
+   "opponent": 200
+  },
+  "calculator": {
+   "playerWins": 0,
+   "opponentWins": 109,
+   "draws": 91
+  },
+  "calcPReal": 0.455,
+  "sapaiPReal": 0.0
+ },
+ {
+  "battleId": "72193ae9-788d-4ac6-95a7-8aaffa272dc1",
+  "kind": "STATE",
+  "real": "opponent",
+  "sapai": {
+   "opponent": 200
+  },
+  "calculator": {
+   "playerWins": 0,
+   "opponentWins": 200,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 1.0
+ },
+ {
+  "battleId": "11906e93-827a-4d76-a9fa-3541380658f9",
+  "kind": "STATE",
+  "real": "opponent",
+  "sapai": {
+   "player": 123,
+   "opponent": 59,
+   "draw": 18
+  },
+  "calculator": {
+   "playerWins": 58,
+   "opponentWins": 125,
+   "draws": 17
+  },
+  "calcPReal": 0.625,
+  "sapaiPReal": 0.295
+ },
+ {
+  "battleId": "1170fa02-0109-4b40-93aa-b392b20910a5",
+  "kind": "STATE",
+  "real": "opponent",
+  "sapai": {
+   "opponent": 86,
+   "player": 108,
+   "draw": 6
+  },
+  "calculator": {
+   "playerWins": 32,
+   "opponentWins": 136,
+   "draws": 32
+  },
+  "calcPReal": 0.68,
+  "sapaiPReal": 0.43
+ },
+ {
+  "battleId": "68734687-b624-4720-b14d-febc4260f8ef",
+  "kind": "STATE",
+  "real": "player",
+  "sapai": {
+   "player": 200
+  },
+  "calculator": {
+   "playerWins": 200,
+   "opponentWins": 0,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 1.0
+ },
+ {
+  "battleId": "56d6187b-93f9-44f1-bc4e-bdbe50fdd66c",
+  "kind": "STATE",
+  "real": "opponent",
+  "sapai": {
+   "opponent": 200
+  },
+  "calculator": {
+   "playerWins": 0,
+   "opponentWins": 200,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 1.0
+ },
+ {
+  "battleId": "2ef194f4-6e25-42e9-9ad6-852259420ec3",
+  "kind": "STATE",
+  "real": "opponent",
+  "sapai": {
+   "opponent": 200
+  },
+  "calculator": {
+   "playerWins": 0,
+   "opponentWins": 200,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 1.0
+ },
+ {
+  "battleId": "7f1d40a3-4807-4bc2-ae8f-2a398fc1b6ec",
+  "kind": "STATE",
+  "real": "opponent",
+  "sapai": {
+   "opponent": 200
+  },
+  "calculator": {
+   "playerWins": 0,
+   "opponentWins": 200,
+   "draws": 0
+  },
+  "calcPReal": 1.0,
+  "sapaiPReal": 1.0
+ }
+]

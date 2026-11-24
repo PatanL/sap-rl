@@ -1,0 +1,67 @@
+{
+  "affinity": [
+    19
+  ],
+  "results": {
+    "primitive": [
+      {
+        "seconds": 5.159786144969985,
+        "matches": 16,
+        "decisions": 13092,
+        "battles": 268,
+        "expanded": 13092
+      },
+      {
+        "seconds": 4.112743722973391,
+        "matches": 16,
+        "decisions": 10098,
+        "battles": 215,
+        "expanded": 10098
+      },
+      {
+        "seconds": 5.207284400006756,
+        "matches": 16,
+        "decisions": 12558,
+        "battles": 261,
+        "expanded": 12558
+      },
+      {
+        "seconds": 5.228061893954873,
+        "matches": 16,
+        "decisions": 12103,
+        "battles": 252,
+        "expanded": 12103
+      }
+    ],
+    "joint": [
+      {
+        "seconds": 3.6981406298000365,
+        "matches": 16,
+        "decisions": 7235,
+        "battles": 188,
+        "expanded": 7976
+      },
+      {
+        "seconds": 3.7095118649303913,
+        "matches": 16,
+        "decisions": 7248,
+        "battles": 192,
+        "expanded": 8039
+      },
+      {
+        "seconds": 3.740623289020732,
+        "matches": 16,
+        "decisions": 7227,
+        "battles": 192,
+        "expanded": 7969
+      },
+      {
+        "seconds": 3.8410558621399105,
+        "matches": 16,
+        "decisions": 7750,
+        "battles": 197,
+        "expanded": 8604
+      }
+    ]
+  }
+}

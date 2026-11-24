@@ -1,0 +1,99 @@
+{
+  "inference": {
+    "all": {
+      "turns": 710,
+      "mapped": 703,
+      "hit": 685,
+      "fixed": 8,
+      "broken": 3,
+      "preserved": 52944,
+      "lost": 3
+    },
+    "dev": {
+      "turns": 441,
+      "mapped": 436,
+      "hit": 424,
+      "fixed": 4,
+      "broken": 2,
+      "preserved": 2893,
+      "lost": 2
+    },
+    "heldout": {
+      "turns": 269,
+      "mapped": 267,
+      "hit": 261,
+      "fixed": 4,
+      "broken": 1,
+      "preserved": 50051,
+      "lost": 1
+    }
+  },
+  "pill": {
+    "pill": {
+      "total": 692,
+      "groups": {
+        "Deer": {
+          "usable": 4,
+          "compatible": 4,
+          "fixed_new_slots": 1,
+          "direct_end": 1,
+          "source_named": 4
+        },
+        "Sheep": {
+          "usable": 11,
+          "compatible": 11,
+          "fixed_new_slots": 0,
+          "direct_end": 0,
+          "source_named": 11
+        },
+        "Spider": {
+          "usable": 63,
+          "compatible": 63,
+          "fixed_new_slots": 3,
+          "direct_end": 3,
+          "source_named": 63
+        },
+        "Mushroom": {
+          "usable": 6,
+          "compatible": 6,
+          "fixed_new_slots": 2,
+          "direct_end": 1,
+          "source_named": 5
+        }
+      }
+    },
+    "pill-fresh": {
+      "total": 670,
+      "groups": {
+        "Deer": {
+          "usable": 7,
+          "compatible": 7,
+          "fixed_new_slots": 1,
+          "direct_end": 1,
+          "source_named": 7
+        },
+        "Sheep": {
+          "usable": 4,
+          "compatible": 4,
+          "fixed_new_slots": 0,
+          "direct_end": 0,
+          "source_named": 4
+        },
+        "Spider": {
+          "usable": 59,
+          "compatible": 59,
+          "fixed_new_slots": 3,
+          "direct_end": 3,
+          "source_named": 59
+        },
+        "Mushroom": {
+          "usable": 8,
+          "compatible": 8,
+          "fixed_new_slots": 4,
+          "direct_end": 2,
+          "source_named": 8
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,765 @@
+diff -ru -x __pycache__ -x '*.pyc' ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/battle.py engine-v31/sapai/battle.py
+--- ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/battle.py	2026-09-02 22:29:03.183533011 -0500
++++ engine-v31/sapai/battle.py	2026-11-23 05:53:36.645940074 -0600
+@@ -69,6 +69,25 @@
+         self.t0._battle = True
+         self.t1 = t1.copy()
+         self.t1._battle = True
++        # v31: a battle starts from each pet's effective stats. Temporary
++        # shop buffs (Bread, Cupcake) are folded into the battle copy so
++        # that effects writing the permanent field (Skunk's ReduceHealth,
++        # the Wolverine floor) cannot double-count them. The shop team is
++        # untouched. Evidence: 167 real fights that only failed when the
++        # battle started from the engine's own end-of-turn team.
++        for battle_team in (self.t0, self.t1):
++            for slot in battle_team:
++                if slot.empty:
++                    continue
++                pet = slot.pet
++                pet._attack = min(
++                    50, pet._attack + pet._until_end_of_battle_attack_buff
++                )
++                pet._health = min(
++                    50, pet._health + pet._until_end_of_battle_health_buff
++                )
++                pet._until_end_of_battle_attack_buff = 0
++                pet._until_end_of_battle_health_buff = 0
+         self.rs = np.random.RandomState()
+         if seed is not None:
+             self.rs.seed(int(seed))
+@@ -432,6 +451,12 @@
+                 temp_all_targets += entry
+             targets = temp_all_targets
+ 
++    # v31: a pet given to the other team (Rat's Dirty Rat) does not set off
++    # that team's friend-summoned abilities. Real client, five development
++    # fights: Horse, Dog and Turkey leave a gifted Dirty Rat at 1/1.
++    if target_team_idx != team_idx:
++        return len(targets)
++
+     for temp_te in targets:
+         # Generated units such as Deer's Bus enter with a built-in perk; that
+         # is not a perk-gain event. Scorpion is the exception because its
+@@ -626,7 +651,7 @@
+ 
+ 
+ def check_friend_hurt_triggers(
+-    phase_list, hurt_pet, team_idx, friendly_team, opponent_team
++    phase_list, hurt_pet, team_idx, friendly_team, opponent_team, pending=None
+ ):
+     """Notify Wolverine-style abilities about one friendly hurt event."""
+ 
+@@ -635,7 +660,7 @@
+             continue
+         observer = slot.pet
+         activated, targets, possible = observer.friend_hurt_trigger(
+-            hurt_pet, opponent_team
++            hurt_pet, opponent_team, pending
+         )
+         if activated:
+             observer_idx = friendly_team.get_idx(observer)
+@@ -676,6 +701,89 @@
+     return pets
+ 
+ 
++def _slot_insert(layout, slot_idx, pet):
++    """Put ``pet`` into a fixed board slot, shifting neighbours if needed.
++
++    v31: the board has five fixed slots and a summon goes into the slot
++    where the pet died. If that slot is taken, the pets from there are
++    pushed FORWARD when an empty slot exists ahead, and pushed back only
++    when none does. Evidence, all real fights also reproduced by
++    SAP-Calculator:
++    - Deer with Mushroom dies at the front: nothing ahead, so the Bus is
++      pushed back and the Mushroom Deer stands in front of it;
++    - Deer with Mushroom sniped mid-team or at the back while a slot ahead
++      is empty: the Bus is pushed forward and the Mushroom Deer is behind;
++    - Cricket with Honey at the front: Bee in front of the Zombie Cricket.
++    Preferring to push back instead fixed 3 real fights and broke 3.
++    """
++
++    size = len(layout)
++    target = min(max(int(slot_idx), 0), size - 1)
++    if layout[target] is None:
++        layout[target] = pet
++        return True
++    for empty in range(target - 1, -1, -1):
++        if layout[empty] is None:
++            layout[empty:target] = layout[empty + 1 : target + 1]
++            layout[target] = pet
++            return True
++    for empty in range(target + 1, size):
++        if layout[empty] is None:
++            layout[target + 1 : empty + 1] = layout[target:empty]
++            layout[target] = pet
++            return True
++    return False
++
++
++def _write_layout(team, layout):
++    from sapai.teams import TeamSlot
++
++    held = {id(slot.pet): slot for slot in team if not slot.empty}
++    for index, pet in enumerate(layout):
++        if pet is None:
++            team[index] = TeamSlot(seed_state=team.seed_state)
++        else:
++            team[index] = held[id(pet)]
++
++
++def _resync_layouts(layouts, teams, team_idx, slot_idx, created):
++    """Re-place whatever the last summon created, by fixed slot.
++
++    The summon effects compact the team and choose a position from a count
++    of pets ahead, which loses where the empty slots really are. After each
++    one, the new pets on the dead pet's own team are moved to the slot rule
++    above; a summon onto the other team keeps the engine's arrangement.
++    """
++
++    for index in (0, 1):
++        team = teams[index]
++        layout = layouts[index]
++        present = [slot.pet for slot in team if not slot.empty]
++        for position, pet in enumerate(layout):
++            if pet is not None and not any(pet is other for other in present):
++                layout[position] = None
++        fresh = [
++            pet
++            for pet in present
++            if not any(pet is other for other in layout if other is not None)
++        ]
++        if index != team_idx:
++            if fresh:
++                layouts[index] = [
++                    None if slot.empty else slot.pet for slot in team
++                ]
++            continue
++        ordered = [pet for pet in created if any(pet is other for other in fresh)]
++        ordered += [pet for pet in fresh if not any(pet is other for other in ordered)]
++        placed_all = True
++        for pet in ordered:
++            placed_all = _slot_insert(layout, slot_idx, pet) and placed_all
++        if placed_all:
++            _write_layout(team, layout)
++        else:
++            layouts[index] = [None if slot.empty else slot.pet for slot in team]
++
++
+ def _flush_post_removal_events(battle_obj, teams, phase_list):
+     """Resolve SAP-Calculator priorities 25 then 26."""
+ 
+@@ -683,6 +791,16 @@
+     battle_obj._pending_post_removal = []
+     if not pending:
+         return
++    # v31: pets that died together resolve their summons in attack order,
++    # highest first, like every other ability, not in the order the deaths
++    # were recorded. With the slot rule this decides who ends up in front:
++    # Deer (6 attack) before a Mushroom Hedgehog (5) gives Bus, Hedgehog,
++    # Deer, as in SAP-Calculator and the real result. Ties keep death order.
++    pending.sort(key=lambda record: -int(record["pet"].attack))
++    layouts = [
++        [None if slot.empty else slot.pet for slot in teams[index]]
++        for index in (0, 1)
++    ]
+ 
+     # Native PostRemovalFaint and faint equipment share priority 25. Pet
+     # source resolves before equipment for the same owner.
+@@ -699,6 +817,9 @@
+                 remove_before_effect=True,
+                 tiger_override=record["tiger"],
+             )
++            _resync_layouts(
++                layouts, teams, team_idx, pet_idx, _flatten_pet_targets(targets)
++            )
+             append_phase_list(
+                 phase_list,
+                 pet,
+@@ -722,6 +843,7 @@
+             check_status_triggers(
+                 phase_list, pet, team_idx, pet_idx, teams
+             )
++            _resync_layouts(layouts, teams, team_idx, pet_idx, [])
+ 
+     # Shark/Fly are PostRemovalFriendFaints priority 26. Only observers that
+     # existed when the faint event was created may observe it.
+@@ -745,6 +867,9 @@
+                 opponent_team,
+                 remove_before_effect=True,
+             )
++            _resync_layouts(
++                layouts, teams, team_idx, pet_idx, _flatten_pet_targets(targets)
++            )
+             append_phase_list(
+                 phase_list,
+                 observer,
+@@ -769,6 +894,14 @@
+     phase_list = phase_dict[phase]
+     records = []
+     recorded_pets = set()
++    # v31: Wolverine's "four friends hurt" does not fire the moment the fourth
++    # friend is hurt. It waits until no hurt or faint ability is left in the
++    # chain, runs before the dead are removed, and still runs if the Wolverine
++    # itself has died. Real client, fight b836f265: two Hedgehog blasts land
++    # after the fourth hurt, then the Wolverine (already dead) takes a
++    # Blowfish from 3 to 1, where the old order had killed it. 35 fights
++    # fixed across four replay batches, 1 broken.
++    pending_counters = []
+ 
+     # SAP-Calculator priorities 3-4 always preempt Faint. Recompute event
+     # priority after every activation because Hurt effects can enqueue more
+@@ -804,6 +937,7 @@
+                 team_idx,
+                 friendly_team,
+                 opponent_team,
++                pending_counters,
+             )
+             continue
+ 
+@@ -818,6 +952,22 @@
+                 new_dead = (team_idx, pet_idx, pet)
+                 break
+         if new_dead is None:
++            if pending_counters:
++                observer, trigger, observer_opponents = pending_counters.pop(0)
++                if observer.team.check_friend(observer):
++                    activated, targets, possible = observer.run_friend_hurt_effect(
++                        trigger, observer_opponents
++                    )
++                    append_phase_list(
++                        phase_list,
++                        observer,
++                        0 if observer.team is teams[0] else 1,
++                        observer.team.get_idx(observer),
++                        activated,
++                        targets,
++                        possible,
++                    )
++                continue
+             break
+ 
+         team_idx, pet_idx, pet = new_dead
+@@ -895,7 +1045,7 @@
+         pet_idx = record["pet_idx"]
+         _, opponent_team = get_teams([team_idx, pet_idx], teams)
+         for observer in record["listeners"]:
+-            if observer.name in {"pet-shark", "pet-fly"}:
++            if observer.acts_as("pet-shark", "pet-fly"):
+                 continue
+             if not observer.team.check_friend(observer):
+                 continue
+@@ -936,7 +1086,7 @@
+         record["post_observers"] = [
+             slot.pet
+             for slot in friendly_team
+-            if not slot.empty and slot.pet.name in {"pet-shark", "pet-fly"}
++            if not slot.empty and slot.pet.acts_as("pet-shark", "pet-fly")
+         ]
+         battle_obj._pending_post_removal.append(record)
+ 
+@@ -1231,9 +1381,24 @@
+             phase_dict,
+         )
+         for _ in killed_targets:
+-            knockout_queue.append(
+-                _make_knockout_event(battle_obj, apet, team_idx)
+-            )
++            chained = _make_knockout_event(battle_obj, apet, team_idx)
++            # v31: a Rhino that fainted in the same attack keeps chaining
++            # knockouts with the Tiger that stood behind it. Once the Rhino
++            # has left the board its Tiger can no longer be looked up, so the
++            # chained event inherits the one captured for this event while
++            # that Tiger is still alive (SAP-Calculator: "Rhino sniped Cow"
++            # then "(Tiger)" after Rhino and Dodo died together; real fight
++            # ends Tiger 14/12, Fly 10/5).
++            inherited = event.get("tiger")
++            if (
++                chained.get("tiger") is None
++                and inherited is not None
++                and inherited.health > 0
++                and inherited.team is not None
++                and inherited.team.check_friend(inherited)
++            ):
++                chained["tiger"] = inherited
++            knockout_queue.append(chained)
+ 
+     _flush_post_removal_events(battle_obj, teams, phase_list)
+     return phase_dict
+diff -ru -x __pycache__ -x '*.pyc' ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/effects.py engine-v31/sapai/effects.py
+--- ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/effects.py	2026-08-30 16:03:12.790864810 -0500
++++ engine-v31/sapai/effects.py	2026-11-23 05:06:53.538670848 -0600
+@@ -267,10 +267,13 @@
+         return ret_pets, [ret_pets]
+ 
+     elif kind == "AllOtherFriends":
++        # v31: "other" means other than the ability's owner. Dragon buffs
++        # every friend except itself, including the tier-1 pet just bought
++        # (44 real shop turns: Dragon unchanged, bought pet +1/+1).
+         ret_pets = [
+             fteam[index].pet
+             for index in fidx
+-            if fteam[index].pet is not te
++            if fteam[index].pet is not apet
+         ]
+         return ret_pets, [ret_pets]
+ 
+@@ -637,6 +640,27 @@
+             and not target_pet.team.battle
+         ):
+             target_pet.player._notify_friend_gained_perk(target_pet)
++        elif (
++            status in sap_status.PERK_STATUSES
++            and target_pet.team is not None
++            and target_pet.team.battle
++        ):
++            # v31: a perk gained during battle (Turtle, Ox) triggers Seal
++            # (the gaining pet) and Rabbit (a friend observer), as in the
++            # shop. Per-turn limits carry over from the shop phase through
++            # ability_counter, so a Rabbit that already used its three
++            # triggers this turn does nothing. Evidence: real replays (TrCo
++            # field) and SAP-Calculator's givePetEquipment food triggers.
++            # A Rabbit that is fainting in the same resolution still fires
++            # (11 real fights fixed, none broken), so health is not checked.
++            for slot in list(target_pet.team):
++                if slot.empty:
++                    continue
++                if slot.pet.ability["trigger"] in {
++                    "GainsPerk",
++                    "EatsShopFoodOrGainsPerk",
++                }:
++                    slot.pet.gains_perk_trigger(target_pet)
+         # print(f"Applied {status} to {target_pet.name}")
+     
+     # print(f"Final applied targets: {[t.name for t in applied_targets]}")
+@@ -671,7 +695,9 @@
+             health_amount = max(0, health_amount - 20)
+             target_pet.status = "none"
+         elif target_pet.status == "status-garlic-armor":
+-            health_amount = max(2, health_amount - 2)
++            # v31: same rule as attack damage; a hit of 1 or 2 is unchanged.
++            if health_amount > 2:
++                health_amount = max(2, health_amount - 2)
+         elif target_pet.status == "status-coconut-shield":
+             health_amount = 0
+             target_pet.status = "none"
+@@ -859,6 +885,11 @@
+             else:
+                 raise Exception()
+     for target_pet in target:
++        if target_pet._health <= 0:
++            # v31: a pet already reduced to 0 health cannot be buffed back to
++            # life before its faint resolves (real replays; SAP-Calculator's
++            # increaseAttack/increaseHealth ignore pets that are not alive).
++            continue
+         if (
+             "untilEndOfBattle" in apet.ability["effect"]
+             and apet.ability["effect"]["untilEndOfBattle"] is True
+@@ -873,7 +904,14 @@
+             )
+         else:
+             target_pet._attack += attack_amount
+-            target_pet._health += health_amount
++            if health_amount < 0:
++                # v31: stat removal cannot faint a pet. The real game floors
++                # health at 1 (Wolverine); SAP-Calculator's increaseHealth
++                # clamps the same way.
++                if target_pet._health > 0:
++                    target_pet._health = max(1, target_pet._health + health_amount)
++            else:
++                target_pet._health += health_amount
+         if (
+             "includingFuture" in apet.ability["effect"]["target"]
+             and apet.ability["effect"]["target"]["includingFuture"] is True
+@@ -1140,7 +1178,10 @@
+     # ``apet.name == "pet-rooster"`` therefore left copied Chicks with the
+     # data placeholder ``"?"`` for attack and summoned only one Chick.
+     if "n" not in apet.ability["effect"]:
+-        if apet.name == "pet-sheep":
++        # v31: keyed on the summoned token, not the owner's name, so a
++        # Parrot copying Sheep also summons two Rams (real replays;
++        # SAP-Calculator "Parrot's Sheep spawned Ram" twice).
++        if spet_name == "pet-ram":
+             n = 2
+         elif spet_name == "pet-chick":
+             n = apet.level
+@@ -1166,6 +1207,15 @@
+             spet._health = apet.ability["effect"]["withHealth"]
+         if "withLevel" in apet.ability["effect"]:
+             spet.level = apet.ability["effect"]["withLevel"]
++        # v31: a summoned token sells for its summoner's level. Real shop
++        # turns: two Rams from a pilled level-2 Sheep sold for 4 gold in
++        # total; the engine paid 2. A Honey Bee comes from the perk, not
++        # from the pet's ability, and sells for 1 whatever the pet's level
++        # (three real shop turns).
++        if team == "Friendly" and spet_name != "pet-bee":
++            spet.sell_value = max(
++                int(spet.sell_value), int(spet.level), int(apet.level)
++            )
+         if spet_name == "pet-chick":
+             spet._attack = int(apet.attack * 0.5)
+ 
+@@ -1251,6 +1301,9 @@
+         shealth = data["pets"][spet.name]["baseHealth"]
+     if "level" in apet.ability["effect"]:
+         spet.level = apet.ability["effect"]["level"]
++        # v31: sell value follows the summoned level (real replays: a
++        # level-2 Spider summon sells for 2, the engine paid 1).
++        spet.sell_value = max(spet.sell_value, spet.level)
+     if "statsModifier" in apet.ability["effect"]:
+         sattack *= apet.ability["effect"]["statsModifier"]
+         shealth *= apet.ability["effect"]["statsModifier"]
+@@ -1414,11 +1467,20 @@
+ 
+     if len(target) > 0:
+         source = target[0]
+-        ability = source.fd.get(
+-            f"level{apet.level}Ability", source.ability
+-        )
++        origin = source.name
++        native = source.fd
++        # v31: a Parrot behind a Parrot that has already copied this turn
++        # copies what that Parrot holds, at its own level. End-of-turn copies
++        # resolve in attack order, so a back Parrot with higher attack acts
++        # first and copies nothing useful. Real replays record each Parrot's
++        # ability: Sheep, Parrot 9/5, Parrot 5/3 both hold Sheep's; Deer,
++        # Parrot 7/3, Parrot 11/11 leaves the back one with its own.
++        if source.override_ability and source.ability.get("_copiedFrom"):
++            origin = source.ability["_copiedFrom"]
++            native = data["pets"][origin]
++        ability = native.get(f"level{apet.level}Ability", source.ability)
+         ability = copy.deepcopy(ability)
+-        ability["_copiedFrom"] = source.name
++        ability["_copiedFrom"] = origin
+         apet.set_ability(ability)
+ 
+     return target, possible
+diff -ru -x __pycache__ -x '*.pyc' ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/foods.py engine-v31/sapai/foods.py
+--- ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/foods.py	2026-08-27 06:08:40.191993938 -0500
++++ engine-v31/sapai/foods.py	2026-11-23 05:02:46.460616141 -0600
+@@ -2,7 +2,7 @@
+ import numpy as np
+ 
+ from sapai.data import data
+-from sapai.rand import MockRandomState
++from sapai.rand import MockRandomState, LazyRandomState
+ 
+ # %%
+ 
+@@ -22,8 +22,7 @@
+ 
+         self.seed_state = seed_state
+         if self.seed_state is not None:
+-            self.rs = np.random.RandomState()
+-            self.rs.set_state(self.seed_state)
++            self.rs = LazyRandomState(self.seed_state)
+         else:
+             ### Otherwise, set use
+             self.rs = MockRandomState()
+@@ -118,8 +117,7 @@
+         if "seed_state" in state:
+             if state["seed_state"] is not None:
+                 food.seed_state = state["seed_state"]
+-                food.rs = np.random.RandomState()
+-                food.rs.set_state(state["seed_state"])
++                food.rs = LazyRandomState(state["seed_state"])
+         return food
+ 
+     def __repr__(self):
+diff -ru -x __pycache__ -x '*.pyc' ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/lists.py engine-v31/sapai/lists.py
+--- ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/lists.py	2026-08-27 03:02:58.061082510 -0500
++++ engine-v31/sapai/lists.py	2026-11-23 05:02:46.463522438 -0600
+@@ -33,8 +33,8 @@
+             if isinstance(obj, type(self)):
+                 obj = obj.obj
+             if (
+-                not hasattr(obj, "state")
+-                or not hasattr(obj, "from_state")
++                not hasattr(type(obj), "state")
++                or not hasattr(type(obj), "from_state")
+                 or not hasattr(obj, "name")
+             ):
+                 raise Exception(
+diff -ru -x __pycache__ -x '*.pyc' ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/pets.py engine-v31/sapai/pets.py
+--- ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/pets.py	2026-09-04 15:52:01.534781301 -0500
++++ engine-v31/sapai/pets.py	2026-11-23 05:53:36.645537831 -0600
+@@ -10,7 +10,7 @@
+     SummonStoredPets,
+ )
+ from sapai.tiers import pet_tier_lookup
+-from sapai.rand import MockRandomState
++from sapai.rand import MockRandomState, LazyRandomState
+ from sapai import status
+ 
+ # %%
+@@ -30,8 +30,7 @@
+                 name = f"pet-{name}"
+         self.seed_state = seed_state
+         if self.seed_state is not None:
+-            self.rs = np.random.RandomState()
+-            self.rs.set_state(self.seed_state)
++            self.rs = LazyRandomState(self.seed_state)
+         else:
+             ### Otherwise, set use
+             self.rs = MockRandomState()
+@@ -117,6 +116,21 @@
+         else:
+             return empty_ability
+ 
++    def acts_as(self, *names):
++        """True for a named pet, or a Parrot currently copying its ability.
++
++        v31: Shark and Fly resolve after dead pets are removed. A Parrot
++        that copied one of them must follow the same timing; the engine
++        used to check the pet's own name only.
++        """
++
++        if self.name in names:
++            return True
++        try:
++            return self.ability.get("_copiedFrom") in names
++        except AttributeError:
++            return False
++
+     def get_damage(self, value):
+         return status.apply_damage_dict[self.status](value)
+ 
+@@ -701,7 +715,7 @@
+             raise Exception("Index of triggering entity must be input")
+ 
+         if (
+-            self.name in {"pet-shark", "pet-fly"}
++            self.acts_as("pet-shark", "pet-fly")
+             and self.health <= 0
+             and self.ability["triggeredBy"]["kind"] == "EachFriend"
+         ):
+@@ -730,7 +744,7 @@
+             pass
+ 
+         ### Check for Fly
+-        if self.name == "pet-fly":
++        if self.acts_as("pet-fly"):
+             # print("fly activated2, trigger: ", trigger)
+             # print("trigger.team: ", trigger.team)
+             # print("te_idx: ", te_idx)
+@@ -963,8 +977,13 @@
+         activated = True
+         return activated, targets, possible
+ 
+-    def friend_hurt_trigger(self, trigger, opponent_team):
+-        """Activate current Wolverine after every fourth friendly hurt event."""
++    def friend_hurt_trigger(self, trigger, opponent_team, pending=None):
++        """Count friendly hurt events; every fourth one activates Wolverine.
++
++        v31: with ``pending`` given (battle), the activation is queued there
++        and runs once no hurt or faint ability is left, see
++        ``battle_phase_hurt_and_faint``.
++        """
+ 
+         if self.ability["trigger"] != "FourFriendsHurt":
+             return False, [], []
+@@ -974,6 +993,12 @@
+         if self.friends_hurt_counter < 4:
+             return False, [], []
+         self.friends_hurt_counter = 0
++        if pending is not None:
++            pending.append((self, trigger, opponent_team))
++            return False, [], []
++        return self.run_friend_hurt_effect(trigger, opponent_team)
++
++    def run_friend_hurt_effect(self, trigger, opponent_team):
+         func = get_effect_function(self)
+         pet_idx = self.team.get_idx(self)
+         targets, possible = tiger_func(
+@@ -1121,8 +1146,7 @@
+         if "seed_state" in state:
+             if state["seed_state"] is not None:
+                 pet.seed_state = state["seed_state"]
+-                pet.rs = np.random.RandomState()
+-                pet.rs.set_state(pet.seed_state)
++                pet.rs = LazyRandomState(pet.seed_state)
+ 
+         return pet
+ 
+diff -ru -x __pycache__ -x '*.pyc' ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/player.py engine-v31/sapai/player.py
+--- ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/player.py	2026-09-04 15:52:01.534781301 -0500
++++ engine-v31/sapai/player.py	2026-11-23 05:02:46.463677448 -0600
+@@ -118,6 +118,9 @@
+ 
+         self.team.player = self
+         self.team.shop = self.shop
++        # The stream does not advance inside this method, so one snapshot
++        # equals the per-object snapshots taken before (speed only).
++        seed_state = self.shop.rs.get_state()
+         for slot in self.team:
+             slot._pet.team = self.team
+             slot._pet.player = self
+@@ -125,12 +128,12 @@
+             # One authoritative stream drives every shop-phase random target.
+             # Battle copies replace this with their battle-owned stream.
+             slot._pet.rs = self.shop.rs
+-            slot._pet.seed_state = self.shop.rs.get_state()
++            slot._pet.seed_state = seed_state
+         for slot in self.shop:
+             slot.obj.player = self
+             slot.obj.shop = self.shop
+             slot.obj.rs = self.shop.rs
+-            slot.obj.seed_state = self.shop.rs.get_state()
++            slot.obj.seed_state = seed_state
+ 
+     def _shop_trigger_order(self, pets):
+         """Highest attack first; ties consume the player's seeded shop RNG."""
+@@ -264,6 +267,10 @@
+         else:
+             self.team[team_idx] = pet
+         self.shop.buy(pet)
++        # v31: "Summoned: Gain Peanut perk". Real shop Scorpions carry no
++        # perk until bought; make the buy grant it regardless of shop state.
++        if pet.name == "pet-scorpion":
++            pet.status = "status-poison-attack"
+         if pet.status in status.PERK_STATUSES:
+             self._notify_friend_gained_perk(pet)
+         # self.last_bought_pet = pet.name
+@@ -343,6 +350,11 @@
+                 self.shop.levelup(levelups)
+ 
+             ### After feeding, check for eats_shop_food triggers
++            # v31: only pets on the team count. Canned Food also feeds shop
++            # pets, and those spent Rabbit's three per-turn uses (real
++            # replays: the uses were still available for board pets).
++            if not self.team.check_friend(pet):
++                continue
+             for slot in self.team:
+                 slot._pet.eats_shop_food_trigger(pet)
+ 
+diff -ru -x __pycache__ -x '*.pyc' ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/rand.py engine-v31/sapai/rand.py
+--- ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/rand.py	2026-08-27 03:02:58.061288127 -0500
++++ engine-v31/sapai/rand.py	2026-11-23 05:02:46.456947229 -0600
+@@ -27,3 +27,34 @@
+ 
+     def choice(self, *args, **kwargs):
+         return np.random.choice(*args, **kwargs)
++
++
++class LazyRandomState:
++    """A ``RandomState`` restored from ``seed_state`` only when first used.
++
++    Speed only, no behaviour change. Building a numpy ``RandomState`` and
++    restoring its state costs about 90 microseconds, and pets, foods and shop
++    slots each built a private one that the owning Player then replaced with
++    the shop's stream. Every attribute is forwarded to the real generator,
++    which is created on first use from the same state, so any draw it makes is
++    identical to the eager version.
++    """
++
++    __slots__ = ("_seed_state", "_real")
++
++    def __init__(self, seed_state):
++        self._seed_state = seed_state
++        self._real = None
++
++    def _materialize(self):
++        real = self._real
++        if real is None:
++            real = np.random.RandomState(0)
++            real.set_state(self._seed_state)
++            self._real = real
++        return real
++
++    def __getattr__(self, name):
++        if name.startswith("_"):
++            raise AttributeError(name)
++        return getattr(self._materialize(), name)
+diff -ru -x __pycache__ -x '*.pyc' ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/shop.py engine-v31/sapai/shop.py
+--- ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/shop.py	2026-09-11 15:30:38.232261632 -0500
++++ engine-v31/sapai/shop.py	2026-11-23 05:02:46.463292116 -0600
+@@ -9,7 +9,7 @@
+ from sapai.pets import Pet
+ import sapai.foods
+ import sapai.pets
+-from sapai.rand import MockRandomState
++from sapai.rand import MockRandomState, LazyRandomState
+ 
+ # %%
+ 
+@@ -323,6 +323,30 @@
+         for index, slot in zip(pet_indices, compacted_pets):
+             self._slots[index] = slot
+ 
++        # v31: freshly rolled foods are listed higher tier first, ties in
++        # draw order (2,467 of 2,467 real pairs). Frozen foods keep their
++        # positions; no rule for them has been verified.
++        def _food_tier(slot):
++            # A Food keeps its ability dict in ``fd``; the tier is in the
++            # data table. Stocked tokens ("Token", "Summoned") sort last.
++            try:
++                return int(data["foods"][slot.obj.name]["tier"])
++            except (AttributeError, KeyError, TypeError, ValueError):
++                return 0
++
++        food_indices = [
++            index
++            for index, slot in enumerate(self.slots)
++            if slot.slot_type == "food" and not slot.frozen
++        ]
++        rerolled_foods = sorted(
++            (self.slots[index] for index in food_indices),
++            key=_food_tier,
++            reverse=True,
++        )
++        for index, slot in zip(food_indices, rerolled_foods):
++            self._slots[index] = slot
++
+         for team_slot in team:
+             team_slot._pet.shop_ability(shop=self, trigger="roll")
+ 
+@@ -363,8 +387,7 @@
+         if isinstance(self.rs, MockRandomState):
+             slot.rs = MockRandomState()
+         else:
+-            slot.rs = np.random.RandomState()
+-            slot.rs.set_state(self.seed_state)
++            slot.rs = LazyRandomState(self.seed_state)
+ 
+     def freeze(self, idx):
+         """
+@@ -868,8 +891,7 @@
+         self.seed_state = seed_state
+         self.obj = None
+         if self.seed_state is not None:
+-            self.rs = np.random.RandomState()
+-            self.rs.set_state(self.seed_state)
++            self.rs = LazyRandomState(self.seed_state)
+         else:
+             ### Otherwise, set use
+             self.rs = MockRandomState()
+@@ -916,8 +938,7 @@
+     ):
+         self.seed_state = seed_state
+         if self.seed_state is not None:
+-            self.rs = np.random.RandomState()
+-            self.rs.set_state(self.seed_state)
++            self.rs = LazyRandomState(self.seed_state)
+         else:
+             ### Otherwise, set use
+             self.rs = MockRandomState()
+diff -ru -x __pycache__ -x '*.pyc' ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/status.py engine-v31/sapai/status.py
+--- ../search-throughput-5x-20260912-v1/reference-source/sapai/sapai/status.py	2026-08-29 18:27:24.911296249 -0500
++++ engine-v31/sapai/status.py	2026-11-22 22:55:19.288511716 -0600
+@@ -20,10 +20,14 @@
+ 
+ 
+ def apply_garlic_armor(value):
+-    if value > 0:
+-        return max([value - 2, 2])
+-    else:
++    # v31: Garlic takes 2 off, with a floor of 2, but never raises a hit.
++    # A 1-damage hit stays 1 (real replays; SAP-Calculator
++    # calculateIncomingDamageBeforeReductions).
++    if value <= 0:
+         return 0
++    if value <= 2:
++        return value
++    return max([value - 2, 2])
+ 
+ 
+ def apply_melon_armor(value):

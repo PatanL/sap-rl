@@ -1,0 +1,48 @@
+{
+  "main_exclusive_percent": {
+    "engine": 19.69330514167643,
+    "public observation encoding": 4.282614911098685,
+    "inference service": 57.63141674769439,
+    "waiting on learner publication": 12.548922645974107,
+    "IPC / other worker waiting": 0.8856919994093176,
+    "copy/publish/control": 4.958048554147071
+  },
+  "main_detail_percent": {
+    "other": 1.6159518316996282,
+    "inference_service": 57.63141674769439,
+    "ipc_wait": 0.8856919994093178,
+    "drain": 3.2678533661328597,
+    "shop_api": 13.865223312044597,
+    "environment": 5.769146246525206,
+    "encoding": 4.282614911098684,
+    "battle": 0.058935583106623446,
+    "await_learner": 12.548922645974105,
+    "publish": 0.07424335631458377
+  },
+  "worker_lane_percent": {
+    "other": 1.1646982316721306,
+    "actor_wait": 62.65950038101087,
+    "environment": 6.6102853643285,
+    "shop_api": 22.561840058136468,
+    "encoding": 6.902854357636202,
+    "battle": 0.10082160721582883
+  },
+  "gpu_utilization": 42.00769230769231,
+  "learner_active_pct": 56.72238967518707,
+  "simultaneous_learner_and_inference_pct": 30.289309991341476,
+  "fully_overlapped_waves": 485,
+  "fully_overlapped_seats": 76483,
+  "ablation_seconds": {
+    "python": 24.06303849699907,
+    "rust": 16.105587888043374,
+    "cached": 16.02568152709864,
+    "cached-noobs": 14.2876667981036,
+    "replay": 0.002870216965675354
+  },
+  "measured_differences": {
+    "rust_battle_real_saving": 7.957450608955696,
+    "ideal_battle_saving": 8.03735696990043,
+    "encoding_with_cached_battles": 1.73801472899504,
+    "remaining_shop_gym_vs_oracle": 14.284796581137925
+  }
+}

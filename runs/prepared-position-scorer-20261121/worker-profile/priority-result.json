@@ -1,0 +1,25 @@
+{
+  "battlesPerPass": 768,
+  "librarySHA256": "8f13394cb9081a528c42afc12659a4a742c073039831a304b792edc7b64da27c",
+  "terminalDigest": "0f9d17210a16948f5886e4cecc83556d36272e9d185fb08d42a1567a51328c91",
+  "tieChecks": 352,
+  "timings": [
+    {
+      "method": "baseline",
+      "cpuSeconds": 2.2074935040000003
+    },
+    {
+      "method": "grouped",
+      "cpuSeconds": 2.0083307679999987
+    },
+    {
+      "method": "grouped",
+      "cpuSeconds": 1.9922839840000002
+    },
+    {
+      "method": "baseline",
+      "cpuSeconds": 2.2286606399999993
+    }
+  ],
+  "speedRatio": 1.1088681162769458
+}

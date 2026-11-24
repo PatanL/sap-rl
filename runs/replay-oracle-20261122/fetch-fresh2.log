@@ -1,0 +1,21 @@
+fetched 25 (page 15, total listed 2600)
+fetched 50 (page 15, total listed 2600)
+fetched 75 (page 16, total listed 2600)
+fetched 100 (page 16, total listed 2600)
+error 59ae01a6-56ad-4341-ab3a-feb5c59bb032 <HTTPError 502: 'Bad Gateway'>
+error b5e2b43a-c5ab-4a11-a668-656e84e30906 <HTTPError 502: 'Bad Gateway'>
+error a1aac91f-71a7-4f16-935f-9fcc05f52895 <HTTPError 502: 'Bad Gateway'>
+error 88f308ac-ee9d-457b-add1-05ea46a3f03f <HTTPError 502: 'Bad Gateway'>
+error 2985613b-a21f-4df3-8dc9-15740215350e <HTTPError 502: 'Bad Gateway'>
+fetched 125 (page 17, total listed 2600)
+error dc78c644-5042-4212-94d6-b8f4e289963d <HTTPError 502: 'Bad Gateway'>
+fetched 150 (page 18, total listed 2600)
+error 465e2551-6118-4e9b-9ef1-bd7f930acb3d <HTTPError 502: 'Bad Gateway'>
+fetched 175 (page 18, total listed 2600)
+fetched 200 (page 19, total listed 2600)
+fetched 225 (page 19, total listed 2600)
+error 6d4d6399-4ef4-40de-9d37-05b0f5c0429c <HTTPError 502: 'Bad Gateway'>
+fetched 250 (page 20, total listed 2600)
+fetched 275 (page 20, total listed 2600)
+fetched 300 (page 21, total listed 2600)
+done: fetched 300, errors 8, pages 21

@@ -1,0 +1,1827 @@
+{
+  "candidate": {
+    "joint_freeze": true,
+    "sha256": "bf816b6f73be79513dd8d7ca541cbf1fcf96a342d6522ab7dff062bab6c675aa",
+    "source_revision": "turtle-v31-replay-852b274e7eb2-20261123",
+    "update": 27022
+  },
+  "ci95": [
+    0.5078125,
+    0.6171875
+  ],
+  "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2",
+  "games": 256,
+  "mode": "confirm",
+  "opponent": {
+    "joint_freeze": true,
+    "sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+    "source_revision": "turtle-v30-food-right-reorder10-v1-20260911",
+    "update": 25772
+  },
+  "pairs": 128,
+  "peak_reserved_bytes": 171966464,
+  "protocol": "paired-greedy-v31g-v1",
+  "records": [
+    {
+      "last_battle": 13,
+      "pair": 0,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 151724042261475292
+    },
+    {
+      "last_battle": 14,
+      "pair": 0,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 151724042261475292
+    },
+    {
+      "last_battle": 10,
+      "pair": 1,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 166819698580832967
+    },
+    {
+      "last_battle": 10,
+      "pair": 1,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 166819698580832967
+    },
+    {
+      "last_battle": 9,
+      "pair": 2,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 146400223690683931
+    },
+    {
+      "last_battle": 13,
+      "pair": 2,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 146400223690683931
+    },
+    {
+      "last_battle": 12,
+      "pair": 3,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 196104951163758620
+    },
+    {
+      "last_battle": 15,
+      "pair": 3,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 196104951163758620
+    },
+    {
+      "last_battle": 14,
+      "pair": 4,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 187956724054741814
+    },
+    {
+      "last_battle": 15,
+      "pair": 4,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 187956724054741814
+    },
+    {
+      "last_battle": 8,
+      "pair": 5,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 202246778860984654
+    },
+    {
+      "last_battle": 8,
+      "pair": 5,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 202246778860984654
+    },
+    {
+      "last_battle": 15,
+      "pair": 6,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 208332568028177795
+    },
+    {
+      "last_battle": 14,
+      "pair": 6,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 208332568028177795
+    },
+    {
+      "last_battle": 15,
+      "pair": 7,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 189082482723830422
+    },
+    {
+      "last_battle": 13,
+      "pair": 7,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 189082482723830422
+    },
+    {
+      "last_battle": 7,
+      "pair": 8,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 187480809151050551
+    },
+    {
+      "last_battle": 15,
+      "pair": 8,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 187480809151050551
+    },
+    {
+      "last_battle": 16,
+      "pair": 9,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 194756746884910817
+    },
+    {
+      "last_battle": 15,
+      "pair": 9,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 194756746884910817
+    },
+    {
+      "last_battle": 11,
+      "pair": 10,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 188515161064578217
+    },
+    {
+      "last_battle": 12,
+      "pair": 10,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 188515161064578217
+    },
+    {
+      "last_battle": 15,
+      "pair": 11,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 155017800718826706
+    },
+    {
+      "last_battle": 12,
+      "pair": 11,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 155017800718826706
+    },
+    {
+      "last_battle": 13,
+      "pair": 12,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 187320784043736254
+    },
+    {
+      "last_battle": 10,
+      "pair": 12,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 187320784043736254
+    },
+    {
+      "last_battle": 7,
+      "pair": 13,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 186162857796071465
+    },
+    {
+      "last_battle": 13,
+      "pair": 13,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 186162857796071465
+    },
+    {
+      "last_battle": 13,
+      "pair": 14,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 210647689315516142
+    },
+    {
+      "last_battle": 11,
+      "pair": 14,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 210647689315516142
+    },
+    {
+      "last_battle": 12,
+      "pair": 15,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 176958402777726290
+    },
+    {
+      "last_battle": 10,
+      "pair": 15,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 176958402777726290
+    },
+    {
+      "last_battle": 14,
+      "pair": 16,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 195028601307749618
+    },
+    {
+      "last_battle": 11,
+      "pair": 16,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 195028601307749618
+    },
+    {
+      "last_battle": 15,
+      "pair": 17,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 193762346283398796
+    },
+    {
+      "last_battle": 14,
+      "pair": 17,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 193762346283398796
+    },
+    {
+      "last_battle": 12,
+      "pair": 18,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 198319794594565229
+    },
+    {
+      "last_battle": 12,
+      "pair": 18,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 198319794594565229
+    },
+    {
+      "last_battle": 12,
+      "pair": 19,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 146903458929682262
+    },
+    {
+      "last_battle": 12,
+      "pair": 19,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 146903458929682262
+    },
+    {
+      "last_battle": 11,
+      "pair": 20,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 197240124798939528
+    },
+    {
+      "last_battle": 13,
+      "pair": 20,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 197240124798939528
+    },
+    {
+      "last_battle": 9,
+      "pair": 21,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 151003235912440580
+    },
+    {
+      "last_battle": 12,
+      "pair": 21,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 151003235912440580
+    },
+    {
+      "last_battle": 8,
+      "pair": 22,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 167035161936037253
+    },
+    {
+      "last_battle": 9,
+      "pair": 22,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 167035161936037253
+    },
+    {
+      "last_battle": 14,
+      "pair": 23,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 185184229590796001
+    },
+    {
+      "last_battle": 16,
+      "pair": 23,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 185184229590796001
+    },
+    {
+      "last_battle": 8,
+      "pair": 24,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 164465941302223617
+    },
+    {
+      "last_battle": 8,
+      "pair": 24,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 164465941302223617
+    },
+    {
+      "last_battle": 9,
+      "pair": 25,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 209076933506670862
+    },
+    {
+      "last_battle": 7,
+      "pair": 25,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 209076933506670862
+    },
+    {
+      "last_battle": 14,
+      "pair": 26,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 214375132836485480
+    },
+    {
+      "last_battle": 12,
+      "pair": 26,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 214375132836485480
+    },
+    {
+      "last_battle": 13,
+      "pair": 27,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 205902414911730809
+    },
+    {
+      "last_battle": 12,
+      "pair": 27,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 205902414911730809
+    },
+    {
+      "last_battle": 9,
+      "pair": 28,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 205744102797233812
+    },
+    {
+      "last_battle": 12,
+      "pair": 28,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 205744102797233812
+    },
+    {
+      "last_battle": 8,
+      "pair": 29,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 147123015547982165
+    },
+    {
+      "last_battle": 8,
+      "pair": 29,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 147123015547982165
+    },
+    {
+      "last_battle": 13,
+      "pair": 30,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 175578020111534784
+    },
+    {
+      "last_battle": 12,
+      "pair": 30,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 175578020111534784
+    },
+    {
+      "last_battle": 9,
+      "pair": 31,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 159798850836377570
+    },
+    {
+      "last_battle": 13,
+      "pair": 31,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 159798850836377570
+    },
+    {
+      "last_battle": 15,
+      "pair": 32,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 163686723714520597
+    },
+    {
+      "last_battle": 13,
+      "pair": 32,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 163686723714520597
+    },
+    {
+      "last_battle": 7,
+      "pair": 33,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 200969843701939266
+    },
+    {
+      "last_battle": 10,
+      "pair": 33,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 200969843701939266
+    },
+    {
+      "last_battle": 15,
+      "pair": 34,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 165869317433848054
+    },
+    {
+      "last_battle": 11,
+      "pair": 34,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 165869317433848054
+    },
+    {
+      "last_battle": 10,
+      "pair": 35,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 198577446874846599
+    },
+    {
+      "last_battle": 14,
+      "pair": 35,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 198577446874846599
+    },
+    {
+      "last_battle": 13,
+      "pair": 36,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 207220383736523750
+    },
+    {
+      "last_battle": 15,
+      "pair": 36,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 207220383736523750
+    },
+    {
+      "last_battle": 9,
+      "pair": 37,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 165324812728388068
+    },
+    {
+      "last_battle": 12,
+      "pair": 37,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 165324812728388068
+    },
+    {
+      "last_battle": 13,
+      "pair": 38,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 152329251756945628
+    },
+    {
+      "last_battle": 16,
+      "pair": 38,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 152329251756945628
+    },
+    {
+      "last_battle": 14,
+      "pair": 39,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 164248885873372526
+    },
+    {
+      "last_battle": 13,
+      "pair": 39,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 164248885873372526
+    },
+    {
+      "last_battle": 15,
+      "pair": 40,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 162355321375064056
+    },
+    {
+      "last_battle": 11,
+      "pair": 40,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 162355321375064056
+    },
+    {
+      "last_battle": 9,
+      "pair": 41,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 187967642391888819
+    },
+    {
+      "last_battle": 16,
+      "pair": 41,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 187967642391888819
+    },
+    {
+      "last_battle": 13,
+      "pair": 42,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 162351972846735124
+    },
+    {
+      "last_battle": 13,
+      "pair": 42,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 162351972846735124
+    },
+    {
+      "last_battle": 13,
+      "pair": 43,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 155401441812675500
+    },
+    {
+      "last_battle": 13,
+      "pair": 43,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 155401441812675500
+    },
+    {
+      "last_battle": 13,
+      "pair": 44,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 151934359367957904
+    },
+    {
+      "last_battle": 13,
+      "pair": 44,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 151934359367957904
+    },
+    {
+      "last_battle": 9,
+      "pair": 45,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 177159687256489588
+    },
+    {
+      "last_battle": 11,
+      "pair": 45,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 177159687256489588
+    },
+    {
+      "last_battle": 11,
+      "pair": 46,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 202963711650817569
+    },
+    {
+      "last_battle": 9,
+      "pair": 46,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 202963711650817569
+    },
+    {
+      "last_battle": 8,
+      "pair": 47,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 207605954764171218
+    },
+    {
+      "last_battle": 12,
+      "pair": 47,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 207605954764171218
+    },
+    {
+      "last_battle": 12,
+      "pair": 48,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 183364841739222947
+    },
+    {
+      "last_battle": 14,
+      "pair": 48,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 183364841739222947
+    },
+    {
+      "last_battle": 12,
+      "pair": 49,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 197122251571728499
+    },
+    {
+      "last_battle": 13,
+      "pair": 49,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 197122251571728499
+    },
+    {
+      "last_battle": 9,
+      "pair": 50,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 200971072031513294
+    },
+    {
+      "last_battle": 15,
+      "pair": 50,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 200971072031513294
+    },
+    {
+      "last_battle": 12,
+      "pair": 51,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 150643349819996866
+    },
+    {
+      "last_battle": 13,
+      "pair": 51,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 150643349819996866
+    },
+    {
+      "last_battle": 7,
+      "pair": 52,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 189658710451686763
+    },
+    {
+      "last_battle": 7,
+      "pair": 52,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 189658710451686763
+    },
+    {
+      "last_battle": 13,
+      "pair": 53,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 189686757920497269
+    },
+    {
+      "last_battle": 12,
+      "pair": 53,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 189686757920497269
+    },
+    {
+      "last_battle": 13,
+      "pair": 54,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 187872406145513206
+    },
+    {
+      "last_battle": 12,
+      "pair": 54,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 187872406145513206
+    },
+    {
+      "last_battle": 14,
+      "pair": 55,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 163257697647472065
+    },
+    {
+      "last_battle": 11,
+      "pair": 55,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 163257697647472065
+    },
+    {
+      "last_battle": 9,
+      "pair": 56,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 207491723860050994
+    },
+    {
+      "last_battle": 11,
+      "pair": 56,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 207491723860050994
+    },
+    {
+      "last_battle": 13,
+      "pair": 57,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 183914279190788175
+    },
+    {
+      "last_battle": 14,
+      "pair": 57,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 183914279190788175
+    },
+    {
+      "last_battle": 12,
+      "pair": 58,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 215705537146197407
+    },
+    {
+      "last_battle": 12,
+      "pair": 58,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 215705537146197407
+    },
+    {
+      "last_battle": 14,
+      "pair": 59,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 192001135048624464
+    },
+    {
+      "last_battle": 11,
+      "pair": 59,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 192001135048624464
+    },
+    {
+      "last_battle": 15,
+      "pair": 60,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 201957712786631121
+    },
+    {
+      "last_battle": 9,
+      "pair": 60,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 201957712786631121
+    },
+    {
+      "last_battle": 10,
+      "pair": 61,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 147768752977538026
+    },
+    {
+      "last_battle": 12,
+      "pair": 61,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 147768752977538026
+    },
+    {
+      "last_battle": 10,
+      "pair": 62,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 157795115324095877
+    },
+    {
+      "last_battle": 14,
+      "pair": 62,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 157795115324095877
+    },
+    {
+      "last_battle": 16,
+      "pair": 63,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 213007911064173067
+    },
+    {
+      "last_battle": 12,
+      "pair": 63,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 213007911064173067
+    },
+    {
+      "last_battle": 12,
+      "pair": 64,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 154415810735695182
+    },
+    {
+      "last_battle": 11,
+      "pair": 64,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 154415810735695182
+    },
+    {
+      "last_battle": 14,
+      "pair": 65,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 196555074613988333
+    },
+    {
+      "last_battle": 8,
+      "pair": 65,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 196555074613988333
+    },
+    {
+      "last_battle": 11,
+      "pair": 66,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 195309312391850784
+    },
+    {
+      "last_battle": 11,
+      "pair": 66,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 195309312391850784
+    },
+    {
+      "last_battle": 10,
+      "pair": 67,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 200504570934389868
+    },
+    {
+      "last_battle": 16,
+      "pair": 67,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 200504570934389868
+    },
+    {
+      "last_battle": 12,
+      "pair": 68,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 185033557796161897
+    },
+    {
+      "last_battle": 12,
+      "pair": 68,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 185033557796161897
+    },
+    {
+      "last_battle": 10,
+      "pair": 69,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 215302544512139707
+    },
+    {
+      "last_battle": 15,
+      "pair": 69,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 215302544512139707
+    },
+    {
+      "last_battle": 8,
+      "pair": 70,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 196502048792844870
+    },
+    {
+      "last_battle": 11,
+      "pair": 70,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 196502048792844870
+    },
+    {
+      "last_battle": 10,
+      "pair": 71,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 212671251484547772
+    },
+    {
+      "last_battle": 12,
+      "pair": 71,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 212671251484547772
+    },
+    {
+      "last_battle": 11,
+      "pair": 72,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 177859661066123393
+    },
+    {
+      "last_battle": 10,
+      "pair": 72,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 177859661066123393
+    },
+    {
+      "last_battle": 11,
+      "pair": 73,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 156678986712986384
+    },
+    {
+      "last_battle": 11,
+      "pair": 73,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 156678986712986384
+    },
+    {
+      "last_battle": 11,
+      "pair": 74,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 146164591905084850
+    },
+    {
+      "last_battle": 7,
+      "pair": 74,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 146164591905084850
+    },
+    {
+      "last_battle": 14,
+      "pair": 75,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 193466452506338019
+    },
+    {
+      "last_battle": 13,
+      "pair": 75,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 193466452506338019
+    },
+    {
+      "last_battle": 15,
+      "pair": 76,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 183534788540139567
+    },
+    {
+      "last_battle": 13,
+      "pair": 76,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 183534788540139567
+    },
+    {
+      "last_battle": 12,
+      "pair": 77,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 153500756622106768
+    },
+    {
+      "last_battle": 12,
+      "pair": 77,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 153500756622106768
+    },
+    {
+      "last_battle": 7,
+      "pair": 78,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 159163580214946757
+    },
+    {
+      "last_battle": 9,
+      "pair": 78,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 159163580214946757
+    },
+    {
+      "last_battle": 11,
+      "pair": 79,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 198573135970139299
+    },
+    {
+      "last_battle": 12,
+      "pair": 79,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 198573135970139299
+    },
+    {
+      "last_battle": 11,
+      "pair": 80,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 181748846968372194
+    },
+    {
+      "last_battle": 11,
+      "pair": 80,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 181748846968372194
+    },
+    {
+      "last_battle": 10,
+      "pair": 81,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 146512530732069620
+    },
+    {
+      "last_battle": 11,
+      "pair": 81,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 146512530732069620
+    },
+    {
+      "last_battle": 11,
+      "pair": 82,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 199714413695954766
+    },
+    {
+      "last_battle": 12,
+      "pair": 82,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 199714413695954766
+    },
+    {
+      "last_battle": 8,
+      "pair": 83,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 169302943722393426
+    },
+    {
+      "last_battle": 14,
+      "pair": 83,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 169302943722393426
+    },
+    {
+      "last_battle": 9,
+      "pair": 84,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 179642584137285589
+    },
+    {
+      "last_battle": 12,
+      "pair": 84,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 179642584137285589
+    },
+    {
+      "last_battle": 12,
+      "pair": 85,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 181924269164126885
+    },
+    {
+      "last_battle": 7,
+      "pair": 85,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 181924269164126885
+    },
+    {
+      "last_battle": 11,
+      "pair": 86,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 193488730803890648
+    },
+    {
+      "last_battle": 8,
+      "pair": 86,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 193488730803890648
+    },
+    {
+      "last_battle": 11,
+      "pair": 87,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 211627196773868557
+    },
+    {
+      "last_battle": 12,
+      "pair": 87,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 211627196773868557
+    },
+    {
+      "last_battle": 17,
+      "pair": 88,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 161105991083968905
+    },
+    {
+      "last_battle": 13,
+      "pair": 88,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 161105991083968905
+    },
+    {
+      "last_battle": 13,
+      "pair": 89,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 184469610255305726
+    },
+    {
+      "last_battle": 13,
+      "pair": 89,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 184469610255305726
+    },
+    {
+      "last_battle": 12,
+      "pair": 90,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 165495753926930270
+    },
+    {
+      "last_battle": 10,
+      "pair": 90,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 165495753926930270
+    },
+    {
+      "last_battle": 11,
+      "pair": 91,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 198946016798841909
+    },
+    {
+      "last_battle": 7,
+      "pair": 91,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 198946016798841909
+    },
+    {
+      "last_battle": 12,
+      "pair": 92,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 151000585578333972
+    },
+    {
+      "last_battle": 13,
+      "pair": 92,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 151000585578333972
+    },
+    {
+      "last_battle": 10,
+      "pair": 93,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 148538491765838469
+    },
+    {
+      "last_battle": 9,
+      "pair": 93,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 148538491765838469
+    },
+    {
+      "last_battle": 14,
+      "pair": 94,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 213534813781617153
+    },
+    {
+      "last_battle": 14,
+      "pair": 94,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 213534813781617153
+    },
+    {
+      "last_battle": 10,
+      "pair": 95,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 153937734469748336
+    },
+    {
+      "last_battle": 10,
+      "pair": 95,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 153937734469748336
+    },
+    {
+      "last_battle": 11,
+      "pair": 96,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 202623234128509698
+    },
+    {
+      "last_battle": 17,
+      "pair": 96,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 202623234128509698
+    },
+    {
+      "last_battle": 14,
+      "pair": 97,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 165801286715168597
+    },
+    {
+      "last_battle": 11,
+      "pair": 97,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 165801286715168597
+    },
+    {
+      "last_battle": 10,
+      "pair": 98,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 187838746381451376
+    },
+    {
+      "last_battle": 11,
+      "pair": 98,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 187838746381451376
+    },
+    {
+      "last_battle": 10,
+      "pair": 99,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 165927243438859298
+    },
+    {
+      "last_battle": 13,
+      "pair": 99,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 165927243438859298
+    },
+    {
+      "last_battle": 16,
+      "pair": 100,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 181775724607743871
+    },
+    {
+      "last_battle": 12,
+      "pair": 100,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 181775724607743871
+    },
+    {
+      "last_battle": 10,
+      "pair": 101,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 195632391037320250
+    },
+    {
+      "last_battle": 14,
+      "pair": 101,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 195632391037320250
+    },
+    {
+      "last_battle": 13,
+      "pair": 102,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 196724583399225219
+    },
+    {
+      "last_battle": 10,
+      "pair": 102,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 196724583399225219
+    },
+    {
+      "last_battle": 11,
+      "pair": 103,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 162944719290341640
+    },
+    {
+      "last_battle": 13,
+      "pair": 103,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 162944719290341640
+    },
+    {
+      "last_battle": 12,
+      "pair": 104,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 191667966587376220
+    },
+    {
+      "last_battle": 10,
+      "pair": 104,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 191667966587376220
+    },
+    {
+      "last_battle": 13,
+      "pair": 105,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 149768434128239433
+    },
+    {
+      "last_battle": 16,
+      "pair": 105,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 149768434128239433
+    },
+    {
+      "last_battle": 11,
+      "pair": 106,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 150271107808923980
+    },
+    {
+      "last_battle": 14,
+      "pair": 106,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 150271107808923980
+    },
+    {
+      "last_battle": 12,
+      "pair": 107,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 171387885146901687
+    },
+    {
+      "last_battle": 10,
+      "pair": 107,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 171387885146901687
+    },
+    {
+      "last_battle": 11,
+      "pair": 108,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 163837143164072070
+    },
+    {
+      "last_battle": 11,
+      "pair": 108,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 163837143164072070
+    },
+    {
+      "last_battle": 15,
+      "pair": 109,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 191395607140911606
+    },
+    {
+      "last_battle": 11,
+      "pair": 109,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 191395607140911606
+    },
+    {
+      "last_battle": 11,
+      "pair": 110,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 158908478612846337
+    },
+    {
+      "last_battle": 11,
+      "pair": 110,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 158908478612846337
+    },
+    {
+      "last_battle": 10,
+      "pair": 111,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 191111440077831848
+    },
+    {
+      "last_battle": 10,
+      "pair": 111,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 191111440077831848
+    },
+    {
+      "last_battle": 12,
+      "pair": 112,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 183297593709221045
+    },
+    {
+      "last_battle": 11,
+      "pair": 112,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 183297593709221045
+    },
+    {
+      "last_battle": 13,
+      "pair": 113,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 150288068246936543
+    },
+    {
+      "last_battle": 14,
+      "pair": 113,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 150288068246936543
+    },
+    {
+      "last_battle": 13,
+      "pair": 114,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 159989430162373824
+    },
+    {
+      "last_battle": 10,
+      "pair": 114,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 159989430162373824
+    },
+    {
+      "last_battle": 11,
+      "pair": 115,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 204311616440155330
+    },
+    {
+      "last_battle": 13,
+      "pair": 115,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 204311616440155330
+    },
+    {
+      "last_battle": 12,
+      "pair": 116,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 163222473315230594
+    },
+    {
+      "last_battle": 13,
+      "pair": 116,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 163222473315230594
+    },
+    {
+      "last_battle": 10,
+      "pair": 117,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 204377637918818618
+    },
+    {
+      "last_battle": 12,
+      "pair": 117,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 204377637918818618
+    },
+    {
+      "last_battle": 14,
+      "pair": 118,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 146108344483863861
+    },
+    {
+      "last_battle": 13,
+      "pair": 118,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 146108344483863861
+    },
+    {
+      "last_battle": 11,
+      "pair": 119,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 214480415061175288
+    },
+    {
+      "last_battle": 14,
+      "pair": 119,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 214480415061175288
+    },
+    {
+      "last_battle": 12,
+      "pair": 120,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 213338706875234043
+    },
+    {
+      "last_battle": 12,
+      "pair": 120,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 213338706875234043
+    },
+    {
+      "last_battle": 13,
+      "pair": 121,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 198651362353056666
+    },
+    {
+      "last_battle": 7,
+      "pair": 121,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 198651362353056666
+    },
+    {
+      "last_battle": 10,
+      "pair": 122,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 147985520638387305
+    },
+    {
+      "last_battle": 16,
+      "pair": 122,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 147985520638387305
+    },
+    {
+      "last_battle": 13,
+      "pair": 123,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 169152365369408429
+    },
+    {
+      "last_battle": 15,
+      "pair": 123,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 169152365369408429
+    },
+    {
+      "last_battle": 14,
+      "pair": 124,
+      "score": 1.0,
+      "seat": 0,
+      "seed": 197460246925571478
+    },
+    {
+      "last_battle": 14,
+      "pair": 124,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 197460246925571478
+    },
+    {
+      "last_battle": 14,
+      "pair": 125,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 170584024415077984
+    },
+    {
+      "last_battle": 12,
+      "pair": 125,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 170584024415077984
+    },
+    {
+      "last_battle": 14,
+      "pair": 126,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 188379820426809917
+    },
+    {
+      "last_battle": 8,
+      "pair": 126,
+      "score": 0.0,
+      "seat": 1,
+      "seed": 188379820426809917
+    },
+    {
+      "last_battle": 7,
+      "pair": 127,
+      "score": 0.0,
+      "seat": 0,
+      "seed": 186203334841076410
+    },
+    {
+      "last_battle": 9,
+      "pair": 127,
+      "score": 1.0,
+      "seat": 1,
+      "seed": 186203334841076410
+    }
+  ],
+  "revision": "turtle-v31-replay-852b274e7eb2-20261123",
+  "score": 0.5625,
+  "seconds": 137.71449800301343,
+  "utc": "2026-11-23T15:15:07.545358+00:00",
+  "wdl": [
+    144,
+    0,
+    112
+  ]
+}

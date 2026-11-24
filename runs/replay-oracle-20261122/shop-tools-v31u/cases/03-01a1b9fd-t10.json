@@ -1,0 +1,2389 @@
+{
+  "split": "dev",
+  "replayFile": "3e966882-1f2f-4eb8-acb7-d4e9c3fe3cfc.json",
+  "why": "The two Canned Foods consumed the native Rabbit\u2019s uses on shop pets. The real Tiger received the level-two Rabbit\u2019s +2 HP when it ate Bread.",
+  "headlineDifference": "Tiger x2 HP 6 / 4",
+  "seed": 2656726110,
+  "result": {
+    "key": [
+      "01a1b9fd-85ca-7e93-aa07-f5de7eaf5d35",
+      "01a1b9fd-85cc-7577-86fd-d03398bf0cf8",
+      10
+    ],
+    "split": "dev",
+    "source": "raw",
+    "pets": [
+      "Camel",
+      "Cat",
+      "Rabbit",
+      "Skunk",
+      "Tiger"
+    ],
+    "foods": [
+      "Bread",
+      "Canned Food"
+    ],
+    "ops": [
+      "end",
+      "food",
+      "roll",
+      "start"
+    ],
+    "actions": 6,
+    "boardSize": 5,
+    "inferred": 0,
+    "shapeIssues": {},
+    "direct": [
+      "Tiger"
+    ],
+    "frozenPetNames": [
+      "Cow"
+    ],
+    "reproduced": false,
+    "boardMatch": false,
+    "ever": [
+      "economy",
+      "frozen",
+      "frozen IDs",
+      "gain",
+      "gold",
+      "level/xp",
+      "perk",
+      "remaining IDs",
+      "species/order",
+      "spent",
+      "temporary"
+    ],
+    "diff": [
+      "permanent"
+    ],
+    "tries": 8192,
+    "distinct": 1,
+    "seed": 2656726110,
+    "first": [
+      "permanent"
+    ],
+    "completed": true,
+    "uncDiff": 0,
+    "genIssues": [],
+    "costErrors": [],
+    "orderEvidence": 0,
+    "unresolvedEviction": [],
+    "inventoryMatch": true,
+    "frozenIdsMatch": true,
+    "actual": {
+      "board": [
+        [
+          "Rabbit",
+          2,
+          2,
+          3,
+          6,
+          0,
+          0,
+          "Cake"
+        ],
+        [
+          "Cat",
+          1,
+          1,
+          5,
+          8,
+          0,
+          0,
+          null
+        ],
+        [
+          "Tiger",
+          1,
+          0,
+          6,
+          6,
+          0,
+          7,
+          "Bread"
+        ],
+        [
+          "Skunk",
+          1,
+          0,
+          3,
+          5,
+          0,
+          0,
+          null
+        ],
+        [
+          "Camel",
+          2,
+          2,
+          12,
+          20,
+          0,
+          7,
+          "Bread"
+        ]
+      ],
+      "frozen": [
+        [
+          175,
+          "pet",
+          "Cow",
+          1,
+          0,
+          8,
+          10,
+          0,
+          0,
+          null,
+          3
+        ]
+      ],
+      "spent": 10,
+      "gold": 0,
+      "gain": 0
+    },
+    "result": {
+      "board": [
+        [
+          "Rabbit",
+          2,
+          2,
+          3,
+          6,
+          0,
+          0,
+          "Cake"
+        ],
+        [
+          "Cat",
+          1,
+          1,
+          5,
+          8,
+          0,
+          0,
+          null
+        ],
+        [
+          "Tiger",
+          1,
+          0,
+          6,
+          4,
+          0,
+          7,
+          "Bread"
+        ],
+        [
+          "Skunk",
+          1,
+          0,
+          3,
+          5,
+          0,
+          0,
+          null
+        ],
+        [
+          "Camel",
+          2,
+          2,
+          12,
+          20,
+          0,
+          7,
+          "Bread"
+        ]
+      ],
+      "frozen": [
+        [
+          175,
+          "pet",
+          "Cow",
+          1,
+          0,
+          8,
+          10,
+          0,
+          0,
+          null,
+          3
+        ]
+      ],
+      "spent": 10,
+      "gold": 0,
+      "gain": 0
+    },
+    "error": null,
+    "at": null,
+    "op": null,
+    "budgetAtError": null
+  },
+  "fixture": {
+    "key": [
+      "01a1b9fd-85ca-7e93-aa07-f5de7eaf5d35",
+      "01a1b9fd-85cc-7577-86fd-d03398bf0cf8",
+      10
+    ],
+    "before": {
+      "turn": 9,
+      "tier": 5,
+      "board": [
+        {
+          "id": 155,
+          "name": "Tiger",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 6,
+          "h": 4,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 136,
+          "name": "Skunk",
+          "x": 1,
+          "lvl": 1,
+          "xp": 0,
+          "a": 3,
+          "h": 5,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 18,
+          "name": "Rabbit",
+          "x": 2,
+          "lvl": 2,
+          "xp": 2,
+          "a": 3,
+          "h": 6,
+          "ta": 0,
+          "th": 0,
+          "perk": "Cake",
+          "uses": 1,
+          "sellBonus": 4,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 147,
+          "name": "Cat",
+          "x": 3,
+          "lvl": 1,
+          "xp": 1,
+          "a": 5,
+          "h": 8,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 21,
+          "name": "Camel",
+          "x": 4,
+          "lvl": 2,
+          "xp": 2,
+          "a": 12,
+          "h": 20,
+          "ta": 0,
+          "th": 7,
+          "perk": "Bread",
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        }
+      ],
+      "shop": [
+        {
+          "id": 158,
+          "name": "Penguin",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 3,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 159,
+          "name": "Turtle",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 5,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 157,
+          "name": "Elephant",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 3,
+          "h": 7,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 160,
+          "name": "Ant",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 2,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 161,
+          "name": "Pigeon",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 3,
+          "h": 2,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        }
+      ],
+      "food": [
+        {
+          "id": 163,
+          "name": "Bread",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        },
+        {
+          "id": 162,
+          "name": "Honey",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      ],
+      "unc": 163,
+      "spent": 14,
+      "gain": 4,
+      "gold": 0,
+      "rolls": 2,
+      "buffs": [],
+      "result": 1,
+      "wins": 6,
+      "losses": 2,
+      "pslots": 5,
+      "fslots": 2
+    },
+    "after": {
+      "turn": 10,
+      "tier": 5,
+      "board": [
+        {
+          "id": 18,
+          "name": "Rabbit",
+          "x": 0,
+          "lvl": 2,
+          "xp": 2,
+          "a": 3,
+          "h": 6,
+          "ta": 0,
+          "th": 0,
+          "perk": "Cake",
+          "uses": 1,
+          "sellBonus": 5,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 147,
+          "name": "Cat",
+          "x": 1,
+          "lvl": 1,
+          "xp": 1,
+          "a": 5,
+          "h": 8,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 2,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 155,
+          "name": "Tiger",
+          "x": 2,
+          "lvl": 1,
+          "xp": 0,
+          "a": 6,
+          "h": 6,
+          "ta": 0,
+          "th": 7,
+          "perk": "Bread",
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        },
+        {
+          "id": 136,
+          "name": "Skunk",
+          "x": 3,
+          "lvl": 1,
+          "xp": 0,
+          "a": 3,
+          "h": 5,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 21,
+          "name": "Camel",
+          "x": 4,
+          "lvl": 2,
+          "xp": 2,
+          "a": 12,
+          "h": 20,
+          "ta": 0,
+          "th": 7,
+          "perk": "Bread",
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": true,
+          "links": []
+        }
+      ],
+      "shop": [
+        {
+          "id": 173,
+          "name": "Monkey",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 5,
+          "h": 6,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 174,
+          "name": "Rooster",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 10,
+          "h": 9,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 175,
+          "name": "Cow",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 8,
+          "h": 10,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": true,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 171,
+          "name": "Pig",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 8,
+          "h": 5,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        },
+        {
+          "id": 172,
+          "name": "Ant",
+          "x": 0,
+          "lvl": 1,
+          "xp": 0,
+          "a": 6,
+          "h": 6,
+          "ta": 0,
+          "th": 0,
+          "perk": null,
+          "uses": 0,
+          "sellBonus": 0,
+          "f": false,
+          "cost": 3,
+          "reward": false,
+          "links": []
+        }
+      ],
+      "food": [
+        {
+          "id": 177,
+          "name": "Salad Bowl",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      ],
+      "unc": 177,
+      "spent": 10,
+      "gain": 0,
+      "gold": 0,
+      "rolls": 1,
+      "buffs": [
+        {
+          "At": 4,
+          "Hp": 4
+        }
+      ],
+      "result": 1,
+      "wins": 7,
+      "losses": 2,
+      "pslots": 5,
+      "fslots": 2
+    },
+    "steps": [
+      [
+        "start",
+        null
+      ],
+      [
+        "food",
+        null
+      ],
+      [
+        "food",
+        null
+      ],
+      [
+        "roll",
+        null
+      ],
+      [
+        "food",
+        null
+      ],
+      [
+        "end",
+        null
+      ]
+    ],
+    "actions": [
+      {
+        "t": 4,
+        "seed": 16489811
+      },
+      {
+        "t": 8,
+        "seed": 517552142,
+        "id": 170,
+        "target": null,
+        "spell": {
+          "id": 170,
+          "name": "Canned Food",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      },
+      {
+        "t": 8,
+        "seed": 177554742,
+        "id": 169,
+        "target": null,
+        "spell": {
+          "id": 169,
+          "name": "Canned Food",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      },
+      {
+        "t": 5,
+        "seed": 1434866885
+      },
+      {
+        "t": 8,
+        "seed": 939902655,
+        "freeze": [
+          [
+            173,
+            false
+          ],
+          [
+            174,
+            false
+          ],
+          [
+            175,
+            true
+          ],
+          [
+            171,
+            false
+          ],
+          [
+            172,
+            false
+          ],
+          [
+            176,
+            false
+          ],
+          [
+            177,
+            false
+          ]
+        ],
+        "id": 176,
+        "target": 155,
+        "spell": {
+          "id": 176,
+          "name": "Bread",
+          "f": false,
+          "cost": 3,
+          "power": 0,
+          "stock": false
+        }
+      },
+      {
+        "t": 11,
+        "seed": 1868979785,
+        "orders": [
+          [
+            18,
+            0
+          ],
+          [
+            147,
+            1
+          ],
+          [
+            155,
+            2
+          ],
+          [
+            136,
+            3
+          ],
+          [
+            21,
+            4
+          ]
+        ]
+      }
+    ],
+    "names": {
+      "170": "Canned Food",
+      "169": "Canned Food",
+      "176": "Bread",
+      "155": "Tiger"
+    },
+    "inferred": {},
+    "run": {
+      "state": {
+        "board": [
+          [
+            "Rabbit",
+            2,
+            2,
+            3,
+            6,
+            0,
+            0,
+            "Cake"
+          ],
+          [
+            "Cat",
+            1,
+            1,
+            5,
+            8,
+            0,
+            0,
+            null
+          ],
+          [
+            "Tiger",
+            1,
+            0,
+            6,
+            4,
+            0,
+            7,
+            "Bread"
+          ],
+          [
+            "Skunk",
+            1,
+            0,
+            3,
+            5,
+            0,
+            0,
+            null
+          ],
+          [
+            "Camel",
+            2,
+            2,
+            12,
+            20,
+            0,
+            7,
+            "Bread"
+          ]
+        ],
+        "frozen": [
+          [
+            175,
+            "pet",
+            "Cow",
+            1,
+            0,
+            8,
+            10,
+            0,
+            0,
+            null,
+            3
+          ]
+        ],
+        "spent": 10,
+        "gold": 0,
+        "gain": 0
+      },
+      "shopDetail": [
+        {
+          "uid": 173,
+          "kind": "pet",
+          "body": [
+            "Monkey",
+            1,
+            0,
+            5,
+            6,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        },
+        {
+          "uid": 174,
+          "kind": "pet",
+          "body": [
+            "Rooster",
+            1,
+            0,
+            10,
+            9,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        },
+        {
+          "uid": 175,
+          "kind": "pet",
+          "body": [
+            "Cow",
+            1,
+            0,
+            8,
+            10,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": true,
+          "reward": false
+        },
+        {
+          "uid": 171,
+          "kind": "pet",
+          "body": [
+            "Pig",
+            1,
+            0,
+            8,
+            5,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        },
+        {
+          "uid": 172,
+          "kind": "pet",
+          "body": [
+            "Ant",
+            1,
+            0,
+            6,
+            6,
+            0,
+            0,
+            null
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        },
+        {
+          "uid": 177,
+          "kind": "food",
+          "body": [
+            "Salad Bowl"
+          ],
+          "cost": 3,
+          "frozen": false,
+          "reward": false
+        }
+      ],
+      "unc": 177,
+      "genIssues": [],
+      "costErrors": [],
+      "orderEvidence": 0,
+      "unresolvedEviction": [],
+      "inventory": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        177
+      ],
+      "log": [
+        {
+          "op": "start",
+          "id": null,
+          "x": null,
+          "target": null,
+          "gold0": 0,
+          "gold": 10,
+          "cost": 0,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Tiger",
+                1,
+                0,
+                6,
+                4,
+                0,
+                0,
+                null
+              ],
+              [
+                "Skunk",
+                1,
+                0,
+                3,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                2,
+                2,
+                3,
+                6,
+                0,
+                0,
+                "Cake"
+              ],
+              [
+                "Cat",
+                1,
+                1,
+                5,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                2,
+                2,
+                12,
+                20,
+                0,
+                0,
+                "Bread"
+              ]
+            ],
+            "frozen": [],
+            "spent": 0,
+            "gold": 10,
+            "gain": 0
+          },
+          "uses": {
+            "21": 0,
+            "147": 0,
+            "18": 0,
+            "136": 0,
+            "155": 0
+          },
+          "offers": [
+            [
+              164,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              165,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              166,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              167,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              168,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              169,
+              "food",
+              "Canned Food",
+              3,
+              false
+            ],
+            [
+              170,
+              "food",
+              "Canned Food",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            155,
+            136,
+            18,
+            147,
+            21
+          ],
+          "unc": 170,
+          "gen": [
+            [
+              164,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              165,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              166,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              167,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              168,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              169,
+              "food",
+              "roll",
+              "Canned Food"
+            ],
+            [
+              170,
+              "food",
+              "roll",
+              "Canned Food"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "food",
+          "id": 170,
+          "x": null,
+          "target": null,
+          "gold0": 10,
+          "gold": 7,
+          "cost": 3,
+          "realCost": 3,
+          "state": {
+            "board": [
+              [
+                "Tiger",
+                1,
+                0,
+                6,
+                4,
+                0,
+                0,
+                null
+              ],
+              [
+                "Skunk",
+                1,
+                0,
+                3,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                2,
+                2,
+                3,
+                6,
+                0,
+                0,
+                "Cake"
+              ],
+              [
+                "Cat",
+                1,
+                1,
+                5,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                2,
+                2,
+                12,
+                20,
+                0,
+                0,
+                "Bread"
+              ]
+            ],
+            "frozen": [],
+            "spent": 3,
+            "gold": 7,
+            "gain": 0
+          },
+          "uses": {
+            "21": 0,
+            "147": 1,
+            "18": 3,
+            "136": 0,
+            "155": 0
+          },
+          "offers": [
+            [
+              164,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              165,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              166,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              167,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              168,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              169,
+              "food",
+              "Canned Food",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            155,
+            136,
+            18,
+            147,
+            21
+          ],
+          "unc": 170,
+          "gen": [
+            [
+              164,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              165,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              166,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              167,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              168,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              169,
+              "food",
+              "roll",
+              "Canned Food"
+            ],
+            [
+              170,
+              "food",
+              "roll",
+              "Canned Food"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "food",
+          "id": 169,
+          "x": null,
+          "target": null,
+          "gold0": 7,
+          "gold": 4,
+          "cost": 3,
+          "realCost": 3,
+          "state": {
+            "board": [
+              [
+                "Tiger",
+                1,
+                0,
+                6,
+                4,
+                0,
+                0,
+                null
+              ],
+              [
+                "Skunk",
+                1,
+                0,
+                3,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                2,
+                2,
+                3,
+                6,
+                0,
+                0,
+                "Cake"
+              ],
+              [
+                "Cat",
+                1,
+                1,
+                5,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                2,
+                2,
+                12,
+                20,
+                0,
+                0,
+                "Bread"
+              ]
+            ],
+            "frozen": [],
+            "spent": 6,
+            "gold": 4,
+            "gain": 0
+          },
+          "uses": {
+            "21": 0,
+            "147": 2,
+            "18": 3,
+            "136": 0,
+            "155": 0
+          },
+          "offers": [
+            [
+              164,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              165,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              166,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              167,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ],
+            [
+              168,
+              "pet",
+              "pet-none",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            155,
+            136,
+            18,
+            147,
+            21
+          ],
+          "unc": 170,
+          "gen": [
+            [
+              164,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              165,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              166,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              167,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              168,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              169,
+              "food",
+              "roll",
+              "Canned Food"
+            ],
+            [
+              170,
+              "food",
+              "roll",
+              "Canned Food"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "roll",
+          "id": null,
+          "x": null,
+          "target": null,
+          "gold0": 4,
+          "gold": 3,
+          "cost": 1,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Tiger",
+                1,
+                0,
+                6,
+                4,
+                0,
+                0,
+                null
+              ],
+              [
+                "Skunk",
+                1,
+                0,
+                3,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                2,
+                2,
+                3,
+                6,
+                0,
+                0,
+                "Cake"
+              ],
+              [
+                "Cat",
+                1,
+                1,
+                5,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                2,
+                2,
+                12,
+                20,
+                0,
+                0,
+                "Bread"
+              ]
+            ],
+            "frozen": [],
+            "spent": 7,
+            "gold": 3,
+            "gain": 0
+          },
+          "uses": {
+            "21": 0,
+            "147": 2,
+            "18": 3,
+            "136": 0,
+            "155": 0
+          },
+          "offers": [
+            [
+              173,
+              "pet",
+              "pet-monkey",
+              3,
+              false
+            ],
+            [
+              174,
+              "pet",
+              "pet-rooster",
+              3,
+              false
+            ],
+            [
+              175,
+              "pet",
+              "pet-cow",
+              3,
+              false
+            ],
+            [
+              171,
+              "pet",
+              "pet-pig",
+              3,
+              false
+            ],
+            [
+              172,
+              "pet",
+              "pet-ant",
+              3,
+              false
+            ],
+            [
+              176,
+              "food",
+              "Bread",
+              3,
+              false
+            ],
+            [
+              177,
+              "food",
+              "Salad Bowl",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            155,
+            136,
+            18,
+            147,
+            21
+          ],
+          "unc": 177,
+          "gen": [
+            [
+              164,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              165,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              166,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              167,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              168,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              169,
+              "food",
+              "roll",
+              "Canned Food"
+            ],
+            [
+              170,
+              "food",
+              "roll",
+              "Canned Food"
+            ],
+            [
+              171,
+              "pet",
+              "roll",
+              "Pig"
+            ],
+            [
+              172,
+              "pet",
+              "roll",
+              "Ant"
+            ],
+            [
+              173,
+              "pet",
+              "roll",
+              "Monkey"
+            ],
+            [
+              174,
+              "pet",
+              "roll",
+              "Rooster"
+            ],
+            [
+              175,
+              "pet",
+              "roll",
+              "Cow"
+            ],
+            [
+              176,
+              "food",
+              "roll",
+              "Bread"
+            ],
+            [
+              177,
+              "food",
+              "roll",
+              "Salad Bowl"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "food",
+          "id": 176,
+          "x": null,
+          "target": 155,
+          "gold0": 3,
+          "gold": 0,
+          "cost": 3,
+          "realCost": 3,
+          "state": {
+            "board": [
+              [
+                "Tiger",
+                1,
+                0,
+                6,
+                4,
+                0,
+                0,
+                "Bread"
+              ],
+              [
+                "Skunk",
+                1,
+                0,
+                3,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Rabbit",
+                2,
+                2,
+                3,
+                6,
+                0,
+                0,
+                "Cake"
+              ],
+              [
+                "Cat",
+                1,
+                1,
+                5,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                2,
+                2,
+                12,
+                20,
+                0,
+                0,
+                "Bread"
+              ]
+            ],
+            "frozen": [
+              [
+                175,
+                "pet",
+                "Cow",
+                1,
+                0,
+                8,
+                10,
+                0,
+                0,
+                null,
+                3
+              ]
+            ],
+            "spent": 10,
+            "gold": 0,
+            "gain": 0
+          },
+          "uses": {
+            "21": 0,
+            "147": 2,
+            "18": 3,
+            "136": 0,
+            "155": 0
+          },
+          "offers": [
+            [
+              173,
+              "pet",
+              "pet-monkey",
+              3,
+              false
+            ],
+            [
+              174,
+              "pet",
+              "pet-rooster",
+              3,
+              false
+            ],
+            [
+              175,
+              "pet",
+              "pet-cow",
+              3,
+              true
+            ],
+            [
+              171,
+              "pet",
+              "pet-pig",
+              3,
+              false
+            ],
+            [
+              172,
+              "pet",
+              "pet-ant",
+              3,
+              false
+            ],
+            [
+              177,
+              "food",
+              "Salad Bowl",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            155,
+            136,
+            18,
+            147,
+            21
+          ],
+          "unc": 177,
+          "gen": [
+            [
+              164,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              165,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              166,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              167,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              168,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              169,
+              "food",
+              "roll",
+              "Canned Food"
+            ],
+            [
+              170,
+              "food",
+              "roll",
+              "Canned Food"
+            ],
+            [
+              171,
+              "pet",
+              "roll",
+              "Pig"
+            ],
+            [
+              172,
+              "pet",
+              "roll",
+              "Ant"
+            ],
+            [
+              173,
+              "pet",
+              "roll",
+              "Monkey"
+            ],
+            [
+              174,
+              "pet",
+              "roll",
+              "Rooster"
+            ],
+            [
+              175,
+              "pet",
+              "roll",
+              "Cow"
+            ],
+            [
+              176,
+              "food",
+              "roll",
+              "Bread"
+            ],
+            [
+              177,
+              "food",
+              "roll",
+              "Salad Bowl"
+            ]
+          ],
+          "stock": []
+        },
+        {
+          "op": "end",
+          "id": null,
+          "x": null,
+          "target": null,
+          "gold0": 0,
+          "gold": 0,
+          "cost": 0,
+          "realCost": null,
+          "state": {
+            "board": [
+              [
+                "Rabbit",
+                2,
+                2,
+                3,
+                6,
+                0,
+                0,
+                "Cake"
+              ],
+              [
+                "Cat",
+                1,
+                1,
+                5,
+                8,
+                0,
+                0,
+                null
+              ],
+              [
+                "Tiger",
+                1,
+                0,
+                6,
+                4,
+                0,
+                7,
+                "Bread"
+              ],
+              [
+                "Skunk",
+                1,
+                0,
+                3,
+                5,
+                0,
+                0,
+                null
+              ],
+              [
+                "Camel",
+                2,
+                2,
+                12,
+                20,
+                0,
+                7,
+                "Bread"
+              ]
+            ],
+            "frozen": [
+              [
+                175,
+                "pet",
+                "Cow",
+                1,
+                0,
+                8,
+                10,
+                0,
+                0,
+                null,
+                3
+              ]
+            ],
+            "spent": 10,
+            "gold": 0,
+            "gain": 0
+          },
+          "uses": {
+            "21": 0,
+            "136": 0,
+            "155": 0,
+            "147": 2,
+            "18": 3
+          },
+          "offers": [
+            [
+              173,
+              "pet",
+              "pet-monkey",
+              3,
+              false
+            ],
+            [
+              174,
+              "pet",
+              "pet-rooster",
+              3,
+              false
+            ],
+            [
+              175,
+              "pet",
+              "pet-cow",
+              3,
+              true
+            ],
+            [
+              171,
+              "pet",
+              "pet-pig",
+              3,
+              false
+            ],
+            [
+              172,
+              "pet",
+              "pet-ant",
+              3,
+              false
+            ],
+            [
+              177,
+              "food",
+              "Salad Bowl",
+              3,
+              false
+            ]
+          ],
+          "uids": [
+            18,
+            147,
+            155,
+            136,
+            21
+          ],
+          "unc": 177,
+          "gen": [
+            [
+              164,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              165,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              166,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              167,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              168,
+              "pet",
+              "roll",
+              null
+            ],
+            [
+              169,
+              "food",
+              "roll",
+              "Canned Food"
+            ],
+            [
+              170,
+              "food",
+              "roll",
+              "Canned Food"
+            ],
+            [
+              171,
+              "pet",
+              "roll",
+              "Pig"
+            ],
+            [
+              172,
+              "pet",
+              "roll",
+              "Ant"
+            ],
+            [
+              173,
+              "pet",
+              "roll",
+              "Monkey"
+            ],
+            [
+              174,
+              "pet",
+              "roll",
+              "Rooster"
+            ],
+            [
+              175,
+              "pet",
+              "roll",
+              "Cow"
+            ],
+            [
+              176,
+              "food",
+              "roll",
+              "Bread"
+            ],
+            [
+              177,
+              "food",
+              "roll",
+              "Salad Bowl"
+            ]
+          ],
+          "stock": []
+        }
+      ]
+    }
+  },
+  "foodTargetProbe": {
+    "key": [
+      "01a1b9fd-85ca-7e93-aa07-f5de7eaf5d35",
+      "01a1b9fd-85cc-7577-86fd-d03398bf0cf8",
+      10
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "omit shop pets from Rabbit": {
+        "nativeTargetIndices": [],
+        "events": [
+          {
+            "food": "food-canned-food",
+            "observerEvents": [
+              [
+                18,
+                2,
+                164,
+                false,
+                2
+              ],
+              [
+                18,
+                2,
+                165,
+                false,
+                2
+              ],
+              [
+                18,
+                2,
+                166,
+                false,
+                2
+              ],
+              [
+                18,
+                2,
+                167,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                168,
+                false,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-canned-food",
+            "observerEvents": [
+              [
+                18,
+                2,
+                164,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                165,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                166,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                167,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                168,
+                false,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-bread",
+            "observerEvents": [
+              [
+                18,
+                2,
+                155,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [],
+        "events": [
+          {
+            "food": "food-canned-food",
+            "observerEvents": [
+              [
+                18,
+                2,
+                164,
+                false,
+                2
+              ],
+              [
+                18,
+                2,
+                165,
+                false,
+                2
+              ],
+              [
+                18,
+                2,
+                166,
+                false,
+                2
+              ],
+              [
+                18,
+                2,
+                167,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                168,
+                false,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-canned-food",
+            "observerEvents": [
+              [
+                18,
+                2,
+                164,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                165,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                166,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                167,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                168,
+                false,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-bread",
+            "observerEvents": [
+              [
+                18,
+                2,
+                155,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

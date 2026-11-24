@@ -1,0 +1,106 @@
+{
+ "f7x-tiger-dies-too-continues": [
+  {
+   "count": 24,
+   "steps": [
+    "start: P[Cricket 1/2, Tiger 4/2, Fish 2/20] O[Hedgehog 1/1, Fish 1/30]",
+    "after-attack-01: P[Zombie Cricket 1/1, Zombie Cricket 1/1, Fish 2/18] O[Fish 1/28]",
+    "after-attack-02: P[Zombie Cricket 1/1, Fish 2/18] O[Fish 1/27]",
+    "after-attack-03: P[Fish 2/18] O[Fish 1/26]",
+    "after-attack-04: P[Fish 2/17] O[Fish 1/24]",
+    "after-attack-05: P[Fish 2/16] O[Fish 1/22]",
+    "after-attack-06: P[Fish 2/15] O[Fish 1/20]",
+    "after-attack-07: P[Fish 2/14] O[Fish 1/18]",
+    "after-attack-08: P[Fish 2/13] O[Fish 1/16]",
+    "after-attack-09: P[Fish 2/12] O[Fish 1/14]",
+    "after-attack-10: P[Fish 2/11] O[Fish 1/12]",
+    "after-attack-11: P[Fish 2/10] O[Fish 1/10]",
+    "after-attack-12: P[Fish 2/9] O[Fish 1/8]",
+    "after-attack-13: P[Fish 2/8] O[Fish 1/6]",
+    "after-attack-14: P[Fish 2/7] O[Fish 1/4]",
+    "after-attack-15: P[Fish 2/6] O[Fish 1/2]",
+    "after-attack-16: P[Fish 2/5] O[empty]",
+    "final: P[Fish 2/5] O[empty]"
+   ]
+  }
+ ],
+ "ddynctl-crab-higher-no-dodo": [
+  {
+   "count": 24,
+   "steps": [
+    "start: P[Skunk 5/5, Fish 10/6] O[Crab 9/13, Fish 2/26]",
+    "after-attack-01: P[Fish 10/6] O[Crab 9/8, Fish 2/26]",
+    "after-attack-02: P[empty] O[Fish 2/26]",
+    "final: P[empty] O[Fish 2/26]"
+   ]
+  }
+ ],
+ "a7-fly-one-use-left": [
+  {
+   "count": 24,
+   "steps": [
+    "start: P[Pig 5/3, Duck 7/2, Fish 1/2, Beaver 3/2, Fly 4/20] O[Hedgehog 1/1]",
+    "after-attack-01: P[Zombie Fly 4/4, Fly 4/18] O[empty]",
+    "final: P[Zombie Fly 4/4, Fly 4/18] O[empty]"
+   ]
+  }
+ ],
+ "h9-fly1-two-snipes-dolphin-first": [
+  {
+   "count": 24,
+   "steps": [
+    "start: P[Fish 13/12, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/40, Dolphin 9/5, Crocodile 8/4]",
+    "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/27, Dolphin 9/5, Crocodile 8/4]",
+    "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/14, Dolphin 9/5, Crocodile 8/4]",
+    "after-attack-03: P[Fish 13/9, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/1, Dolphin 9/5, Crocodile 8/4]",
+    "after-attack-04: P[Fish 13/8, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Dolphin 9/5, Crocodile 8/4]",
+    "after-attack-05: P[Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Crocodile 8/4]",
+    "after-attack-06: P[Fish 12/14, Fly 15/13] O[empty]",
+    "final: P[Fish 12/14, Fly 15/13] O[empty]"
+   ]
+  }
+ ],
+ "h9r-fly1-two-snipes-croc-first": [
+  {
+   "count": 24,
+   "steps": [
+    "start: P[Fish 13/12, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/40, Dolphin 7/5, Crocodile 8/4]",
+    "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/27, Dolphin 7/5, Crocodile 8/4]",
+    "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/14, Dolphin 7/5, Crocodile 8/4]",
+    "after-attack-03: P[Fish 13/9, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Fish 1/1, Dolphin 7/5, Crocodile 8/4]",
+    "after-attack-04: P[Fish 13/8, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Dolphin 7/5, Crocodile 8/4]",
+    "after-attack-05: P[Fish 13/1, Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[Crocodile 8/4]",
+    "after-attack-06: P[Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[empty]",
+    "final: P[Zombie Fly 4/4, Fish 12/14, Fly 15/13] O[empty]"
+   ]
+  }
+ ],
+ "h10-fly1-swallow-vs-snipe": [
+  {
+   "count": 24,
+   "steps": [
+    "start: P[Fish 13/12, Zombie Fly 4/4, Whale 12/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]",
+    "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Whale 12/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]",
+    "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Whale 12/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]",
+    "after-attack-03: P[Fish 13/9, Zombie Fly 4/4, Whale 12/14, Fly 15/13] O[Fish 1/1, Crocodile 8/4]",
+    "after-attack-04: P[Fish 13/8, Zombie Fly 4/4, Whale 12/14, Fly 15/13] O[Crocodile 8/4]",
+    "after-attack-05: P[Zombie Fly 4/4, Whale 12/14, Fly 15/13] O[empty]",
+    "final: P[Zombie Fly 4/4, Whale 12/14, Fly 15/13] O[empty]"
+   ]
+  }
+ ],
+ "h10r-fly1-swallow-vs-snipe-croc-first": [
+  {
+   "count": 24,
+   "steps": [
+    "start: P[Fish 13/12, Zombie Fly 4/4, Whale 6/14, Fly 15/13] O[Fish 1/40, Crocodile 8/4]",
+    "after-attack-01: P[Fish 13/11, Zombie Fly 4/4, Whale 6/14, Fly 15/13] O[Fish 1/27, Crocodile 8/4]",
+    "after-attack-02: P[Fish 13/10, Zombie Fly 4/4, Whale 6/14, Fly 15/13] O[Fish 1/14, Crocodile 8/4]",
+    "after-attack-03: P[Fish 13/9, Zombie Fly 4/4, Whale 6/14, Fly 15/13] O[Fish 1/1, Crocodile 8/4]",
+    "after-attack-04: P[Fish 13/8, Zombie Fly 4/4, Whale 6/14, Fly 15/13] O[Crocodile 8/4]",
+    "after-attack-05: P[Zombie Fly 4/4, Whale 6/14, Fly 15/13] O[empty]",
+    "final: P[Zombie Fly 4/4, Whale 6/14, Fly 15/13] O[empty]"
+   ]
+  }
+ ]
+}

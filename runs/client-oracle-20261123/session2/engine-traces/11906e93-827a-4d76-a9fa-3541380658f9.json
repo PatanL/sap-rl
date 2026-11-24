@@ -1,0 +1,404 @@
+{
+  "battle_id": "11906e93-827a-4d76-a9fa-3541380658f9",
+  "recorded_seed": 226120649,
+  "engine_seed": 226120649,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 15,
+          "perk": "status-extra-life",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 7,
+          "health": 11,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Scorpion",
+          "attack": 1,
+          "health": 3,
+          "perk": "status-poison-attack",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 6,
+          "health": 9,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bison",
+          "attack": 34,
+          "health": 34,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Mammoth",
+          "attack": 12,
+          "health": 20,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fish",
+          "attack": 27,
+          "health": 27,
+          "perk": "status-steak-attack",
+          "slot": 3
+        },
+        {
+          "pet": "Cat",
+          "attack": 8,
+          "health": 9,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Elephant",
+          "attack": 13,
+          "health": 15,
+          "perk": "status-extra-life",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 7,
+          "health": 11,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Scorpion",
+          "attack": 1,
+          "health": 3,
+          "perk": "status-poison-attack",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 6,
+          "health": 9,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bison",
+          "attack": 34,
+          "health": 34,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Mammoth",
+          "attack": 12,
+          "health": 20,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Fish",
+          "attack": 27,
+          "health": 27,
+          "perk": "status-steak-attack",
+          "slot": 3
+        },
+        {
+          "pet": "Cat",
+          "attack": 8,
+          "health": 9,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Elephant",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 7,
+          "health": 9,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Scorpion",
+          "attack": 1,
+          "health": 3,
+          "perk": "status-poison-attack",
+          "slot": 3
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bison",
+          "attack": 34,
+          "health": 34,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Mammoth",
+          "attack": 12,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Fish",
+          "attack": 27,
+          "health": 27,
+          "perk": "status-steak-attack",
+          "slot": 2
+        },
+        {
+          "pet": "Cat",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Blowfish",
+          "attack": 7,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Scorpion",
+          "attack": 1,
+          "health": 3,
+          "perk": "status-poison-attack",
+          "slot": 2
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bison",
+          "attack": 38,
+          "health": 34,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Fish",
+          "attack": 31,
+          "health": 22,
+          "perk": "status-steak-attack",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Tiger",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Scorpion",
+          "attack": 1,
+          "health": 3,
+          "perk": "status-poison-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bison",
+          "attack": 38,
+          "health": 21,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Fish",
+          "attack": 31,
+          "health": 16,
+          "perk": "status-steak-attack",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Scorpion",
+          "attack": 1,
+          "health": 3,
+          "perk": "status-poison-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Wolverine",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bison",
+          "attack": 38,
+          "health": 10,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Fish",
+          "attack": 31,
+          "health": 13,
+          "perk": "status-steak-attack",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Wolverine",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Fish",
+          "attack": 31,
+          "health": 13,
+          "perk": "status-steak-attack",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Fish",
+          "attack": 31,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Fish",
+          "attack": 31,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "compact": true,
+  "device": "cpu",
+  "precision": "fp32",
+  "rows": 1539,
+  "cap": 448,
+  "reference": {
+    "decisions": 1539,
+    "microbatches": 18,
+    "turns": 189,
+    "loss": 0.21480428662255185,
+    "grad_norm": 1.1118606328964233,
+    "primitive_actions": 1766
+  },
+  "fast": {
+    "decisions": 1539,
+    "turns": 189,
+    "microbatches": 5,
+    "padded_rows": 1792,
+    "loss": 0.2148042768239975,
+    "grad_norm": 1.1118606328964233,
+    "primitive_actions": 1766
+  },
+  "gradient": {
+    "relative_l2": 8.097404768159216e-07,
+    "max_abs": 3.259629011154175e-08,
+    "cosine": 0.999999999999672
+  },
+  "delta": {
+    "relative_l2": 8.09309201927409e-06,
+    "max_abs": 1.4901161193847656e-08,
+    "cosine": 0.9999999999672519
+  },
+  "difference": {
+    "loss_abs": 9.798554356788003e-09,
+    "gradient_relative_l2": 8.097404768159216e-07,
+    "delta_relative_l2": 8.09309201927409e-06,
+    "weight_max_abs": 1.4901161193847656e-08
+  },
+  "tolerance": {
+    "loss_abs": 2e-05,
+    "gradient_relative_l2": 0.0003,
+    "delta_relative_l2": 0.001,
+    "weight_max_abs": 2e-06
+  },
+  "passed": true
+}

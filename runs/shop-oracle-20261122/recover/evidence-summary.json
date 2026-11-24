@@ -1,0 +1,158 @@
+{
+  "all": [
+    {
+      "source": "named stock receipt + producer",
+      "result": "match",
+      "n": 216
+    },
+    {
+      "source": "terminal effects discriminate",
+      "result": "match",
+      "n": 207
+    },
+    {
+      "source": "engine reconstruction; no action/wallet competitor witnessed",
+      "result": "match",
+      "n": 68
+    },
+    {
+      "source": "multiple endpoint-compatible identities",
+      "result": "match",
+      "n": 164
+    },
+    {
+      "source": "sale proceeds",
+      "result": "match",
+      "n": 13
+    },
+    {
+      "source": "Pill + documented summon/perk",
+      "result": "match",
+      "n": 12
+    },
+    {
+      "source": "named stock receipt + producer",
+      "result": "miss",
+      "n": 6
+    },
+    {
+      "source": "no witness; identity unresolved",
+      "result": "miss",
+      "n": 12
+    },
+    {
+      "source": "unmapped food; no witness",
+      "result": "miss",
+      "n": 7
+    },
+    {
+      "source": "Pill + documented summon/perk",
+      "result": "miss",
+      "n": 5
+    }
+  ],
+  "dev": [
+    {
+      "source": "named stock receipt + producer",
+      "result": "match",
+      "n": 138
+    },
+    {
+      "source": "terminal effects discriminate",
+      "result": "match",
+      "n": 132
+    },
+    {
+      "source": "multiple endpoint-compatible identities",
+      "result": "match",
+      "n": 96
+    },
+    {
+      "source": "engine reconstruction; no action/wallet competitor witnessed",
+      "result": "match",
+      "n": 43
+    },
+    {
+      "source": "Pill + documented summon/perk",
+      "result": "match",
+      "n": 7
+    },
+    {
+      "source": "named stock receipt + producer",
+      "result": "miss",
+      "n": 4
+    },
+    {
+      "source": "sale proceeds",
+      "result": "match",
+      "n": 6
+    },
+    {
+      "source": "no witness; identity unresolved",
+      "result": "miss",
+      "n": 8
+    },
+    {
+      "source": "unmapped food; no witness",
+      "result": "miss",
+      "n": 5
+    },
+    {
+      "source": "Pill + documented summon/perk",
+      "result": "miss",
+      "n": 2
+    }
+  ],
+  "heldout": [
+    {
+      "source": "named stock receipt + producer",
+      "result": "match",
+      "n": 78
+    },
+    {
+      "source": "engine reconstruction; no action/wallet competitor witnessed",
+      "result": "match",
+      "n": 25
+    },
+    {
+      "source": "multiple endpoint-compatible identities",
+      "result": "match",
+      "n": 68
+    },
+    {
+      "source": "terminal effects discriminate",
+      "result": "match",
+      "n": 75
+    },
+    {
+      "source": "sale proceeds",
+      "result": "match",
+      "n": 7
+    },
+    {
+      "source": "Pill + documented summon/perk",
+      "result": "match",
+      "n": 5
+    },
+    {
+      "source": "named stock receipt + producer",
+      "result": "miss",
+      "n": 2
+    },
+    {
+      "source": "no witness; identity unresolved",
+      "result": "miss",
+      "n": 4
+    },
+    {
+      "source": "unmapped food; no witness",
+      "result": "miss",
+      "n": 2
+    },
+    {
+      "source": "Pill + documented summon/perk",
+      "result": "miss",
+      "n": 3
+    }
+  ]
+}

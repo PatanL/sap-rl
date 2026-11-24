@@ -1,0 +1,145 @@
+{
+  "available": true,
+  "rows": [
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 9.46737890625,
+      "deviceActiveMs": 1.1586025390625,
+      "deviceEvents": 535
+    },
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 7.063998046875,
+      "deviceActiveMs": 1.1153076171875,
+      "deviceEvents": 535
+    },
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 7.224447265625,
+      "deviceActiveMs": 1.109943359375,
+      "deviceEvents": 535
+    },
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 6.7671953125,
+      "deviceActiveMs": 1.11041015625,
+      "deviceEvents": 535
+    },
+    {
+      "model": "parent",
+      "batch": 1,
+      "profiledWallMs": 6.8163798828125,
+      "deviceActiveMs": 1.111083984375,
+      "deviceEvents": 535
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 7.457697265625,
+      "deviceActiveMs": 1.4684326171875,
+      "deviceEvents": 535
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 7.56525,
+      "deviceActiveMs": 1.4667236328125,
+      "deviceEvents": 535
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 7.4614248046875,
+      "deviceActiveMs": 1.47799609375,
+      "deviceEvents": 535
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 6.9823974609375,
+      "deviceActiveMs": 1.4682685546875,
+      "deviceEvents": 535
+    },
+    {
+      "model": "parent",
+      "batch": 16,
+      "profiledWallMs": 7.084734375,
+      "deviceActiveMs": 1.473703125,
+      "deviceEvents": 535
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 6.1039892578125,
+      "deviceActiveMs": 0.648966796875,
+      "deviceEvents": 475
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 5.822978515625,
+      "deviceActiveMs": 0.6494208984375,
+      "deviceEvents": 475
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 5.8312509765625,
+      "deviceActiveMs": 0.6479658203125,
+      "deviceEvents": 475
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 6.407080078125,
+      "deviceActiveMs": 0.6481953125,
+      "deviceEvents": 475
+    },
+    {
+      "model": "mid",
+      "batch": 1,
+      "profiledWallMs": 6.4093037109375,
+      "deviceActiveMs": 0.649130859375,
+      "deviceEvents": 475
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 7.07340625,
+      "deviceActiveMs": 0.760404296875,
+      "deviceEvents": 493
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 6.275046875,
+      "deviceActiveMs": 0.7639169921875,
+      "deviceEvents": 493
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 6.8272119140625,
+      "deviceActiveMs": 0.7608740234375,
+      "deviceEvents": 493
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 6.12595703125,
+      "deviceActiveMs": 0.7609658203125,
+      "deviceEvents": 493
+    },
+    {
+      "model": "mid",
+      "batch": 16,
+      "profiledWallMs": 6.6411142578125,
+      "deviceActiveMs": 0.7705615234375,
+      "deviceEvents": 493
+    }
+  ]
+}

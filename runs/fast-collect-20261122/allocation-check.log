@@ -1,0 +1,5 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+_CudaDeviceProperties(name='NVIDIA GB10', major=12, minor=1, total_memory=122570MB, multi_processor_count=48, uuid=001b86d7-72a5-3a2e-d7b8-a0b70eaa0871, pci_bus_id=1, pci_device_id=0, pci_domain_id=15, L2_cache_size=24MB)
+(5216976896, 128524263424)
+tensor([0., 0.], device='cuda:0')

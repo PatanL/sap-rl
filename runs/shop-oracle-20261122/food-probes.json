@@ -1,0 +1,3907 @@
+[
+  {
+    "key": [
+      "01a17d38-1ee1-7c35-b2e4-e5cbccfc50f8",
+      "01a17d38-1ee3-78b8-bd66-137de44e0bb7",
+      7
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a19e76-562c-754f-8ba7-8c41914ff149",
+      "01a19e76-562e-780e-b8de-50887bceea23",
+      7
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a17f1a-dd5a-7935-9f89-fd1c73a971e3",
+      "01a17f1a-dd5d-783d-a4ca-b550915103e4",
+      6
+    ],
+    "nativeChoiceCounts": [
+      6
+    ],
+    "paths": 6,
+    "distinctFoodStates": 6,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          5
+        ],
+        "events": [
+          {
+            "food": "food-sleeping-pill",
+            "observerEvents": [
+              [
+                48,
+                1,
+                43,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                48,
+                1,
+                72,
+                true,
+                1
+              ],
+              [
+                48,
+                1,
+                8,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "omit shop pets from Rabbit": {
+        "nativeTargetIndices": [
+          5
+        ],
+        "events": [
+          {
+            "food": "food-sleeping-pill",
+            "observerEvents": [
+              [
+                48,
+                1,
+                43,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                48,
+                1,
+                72,
+                true,
+                1
+              ],
+              [
+                48,
+                1,
+                8,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          5
+        ],
+        "events": [
+          {
+            "food": "food-sleeping-pill",
+            "observerEvents": [
+              [
+                48,
+                1,
+                43,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                48,
+                1,
+                72,
+                true,
+                1
+              ],
+              [
+                48,
+                1,
+                8,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          5
+        ],
+        "events": [
+          {
+            "food": "food-sleeping-pill",
+            "observerEvents": [
+              [
+                48,
+                1,
+                43,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                48,
+                1,
+                72,
+                true,
+                1
+              ],
+              [
+                48,
+                1,
+                8,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a19b76-6bd4-75d4-9328-1d3302268730",
+      "01a19b76-6bd6-7192-8256-40995b176cdd",
+      8
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a1d3d5-d5ac-7faf-b813-63b83655a818",
+      "01a1d3d5-d5ae-78c0-8abe-0b2762c3a0bb",
+      10
+    ],
+    "nativeChoiceCounts": [
+      10
+    ],
+    "paths": 10,
+    "distinctFoodStates": 10,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          0
+        ],
+        "events": [
+          {
+            "food": "food-pear",
+            "observerEvents": [
+              [
+                23,
+                2,
+                102,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                23,
+                2,
+                24,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                102,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                152,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-chocolate",
+            "observerEvents": [
+              [
+                23,
+                2,
+                24,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          0
+        ],
+        "events": [
+          {
+            "food": "food-pear",
+            "observerEvents": [
+              [
+                23,
+                2,
+                102,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                23,
+                2,
+                24,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                102,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                152,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-chocolate",
+            "observerEvents": [
+              [
+                23,
+                2,
+                24,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          0
+        ],
+        "events": [
+          {
+            "food": "food-pear",
+            "observerEvents": [
+              [
+                23,
+                2,
+                102,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                23,
+                2,
+                24,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                102,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                152,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-chocolate",
+            "observerEvents": [
+              [
+                23,
+                2,
+                24,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a1c61f-fbf5-72db-9f8e-250f8cbfd65d",
+      "01a1c621-5eb8-70e1-9f8d-e73efb2ad84c",
+      6
+    ],
+    "nativeChoiceCounts": [
+      10,
+      10
+    ],
+    "paths": 100,
+    "distinctFoodStates": 75,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          2,
+          3
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                57,
+                1,
+                57,
+                true,
+                1
+              ],
+              [
+                57,
+                1,
+                2,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                57,
+                1,
+                57,
+                true,
+                1
+              ],
+              [
+                57,
+                1,
+                33,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          2,
+          3
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                57,
+                1,
+                57,
+                true,
+                1
+              ],
+              [
+                57,
+                1,
+                2,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                57,
+                1,
+                57,
+                true,
+                1
+              ],
+              [
+                57,
+                1,
+                33,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          2,
+          3
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                57,
+                1,
+                57,
+                true,
+                1
+              ],
+              [
+                57,
+                1,
+                2,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                57,
+                1,
+                57,
+                true,
+                1
+              ],
+              [
+                57,
+                1,
+                33,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a1b9fd-85ca-7e93-aa07-f5de7eaf5d35",
+      "01a1b9fd-85cc-7577-86fd-d03398bf0cf8",
+      10
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "omit shop pets from Rabbit": {
+        "nativeTargetIndices": [],
+        "events": [
+          {
+            "food": "food-canned-food",
+            "observerEvents": [
+              [
+                18,
+                2,
+                164,
+                false,
+                2
+              ],
+              [
+                18,
+                2,
+                165,
+                false,
+                2
+              ],
+              [
+                18,
+                2,
+                166,
+                false,
+                2
+              ],
+              [
+                18,
+                2,
+                167,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                168,
+                false,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-canned-food",
+            "observerEvents": [
+              [
+                18,
+                2,
+                164,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                165,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                166,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                167,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                168,
+                false,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-bread",
+            "observerEvents": [
+              [
+                18,
+                2,
+                155,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [],
+        "events": [
+          {
+            "food": "food-canned-food",
+            "observerEvents": [
+              [
+                18,
+                2,
+                164,
+                false,
+                2
+              ],
+              [
+                18,
+                2,
+                165,
+                false,
+                2
+              ],
+              [
+                18,
+                2,
+                166,
+                false,
+                2
+              ],
+              [
+                18,
+                2,
+                167,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                168,
+                false,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-canned-food",
+            "observerEvents": [
+              [
+                18,
+                2,
+                164,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                165,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                166,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                167,
+                false,
+                0
+              ],
+              [
+                18,
+                2,
+                168,
+                false,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-bread",
+            "observerEvents": [
+              [
+                18,
+                2,
+                155,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a19400-096e-7d8e-b5c2-e9e44dfe1580",
+      "01a19400-0971-72e2-9dd0-7db7cf8b8474",
+      6
+    ],
+    "nativeChoiceCounts": [
+      10,
+      6
+    ],
+    "paths": 60,
+    "distinctFoodStates": 49,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          4,
+          4
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                15,
+                1,
+                39,
+                true,
+                1
+              ],
+              [
+                32,
+                1,
+                39,
+                true,
+                1
+              ],
+              [
+                15,
+                1,
+                15,
+                true,
+                1
+              ],
+              [
+                32,
+                1,
+                15,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                15,
+                1,
+                39,
+                true,
+                1
+              ],
+              [
+                32,
+                1,
+                39,
+                true,
+                1
+              ],
+              [
+                15,
+                1,
+                32,
+                true,
+                0
+              ],
+              [
+                32,
+                1,
+                32,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a1a17c-f3c1-753c-bc06-4253174fdc9e",
+      "01a1a17d-3e33-74c0-afc3-7a931819321d",
+      12
+    ],
+    "nativeChoiceCounts": [
+      10
+    ],
+    "paths": 10,
+    "distinctFoodStates": 10,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a1ef46-9cec-7efd-8ad0-2736496b5cf4",
+      "01a1ef46-9cef-7725-8d05-3e2031d39937",
+      7
+    ],
+    "nativeChoiceCounts": [
+      10,
+      6
+    ],
+    "paths": 60,
+    "distinctFoodStates": 49,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          7,
+          2
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                60,
+                1,
+                55,
+                true,
+                1
+              ],
+              [
+                60,
+                1,
+                79,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                60,
+                1,
+                91,
+                true,
+                1
+              ],
+              [
+                60,
+                1,
+                60,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          7,
+          2
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                60,
+                1,
+                55,
+                true,
+                1
+              ],
+              [
+                60,
+                1,
+                79,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                60,
+                1,
+                91,
+                true,
+                1
+              ],
+              [
+                60,
+                1,
+                60,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          7,
+          2
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                60,
+                1,
+                55,
+                true,
+                1
+              ],
+              [
+                60,
+                1,
+                79,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                60,
+                1,
+                91,
+                true,
+                1
+              ],
+              [
+                60,
+                1,
+                60,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a1a256-1e09-7bc5-8ee4-0cb1b0ec5fad",
+      "01a1a256-32af-7d06-a7a7-b5b417b71add",
+      8
+    ],
+    "nativeChoiceCounts": [
+      10
+    ],
+    "paths": 10,
+    "distinctFoodStates": 10,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a1a977-c92f-7ddd-923f-dac1f8c58d97",
+      "01a1a978-e19b-7603-a212-6602bb906767",
+      7
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a19439-2c49-7089-b418-4c9a0cb0e33c",
+      "01a1943b-41d2-7667-be24-2b78ac1d6111",
+      8
+    ],
+    "nativeChoiceCounts": [
+      6
+    ],
+    "paths": 6,
+    "distinctFoodStates": 6,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a1db4e-1782-7c59-b236-7684f9c010f2",
+      "01a1db4f-c567-7338-841f-ec429eb754ed",
+      12
+    ],
+    "nativeChoiceCounts": [
+      10
+    ],
+    "paths": 10,
+    "distinctFoodStates": 10,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          1
+        ],
+        "events": [
+          {
+            "food": "food-steak",
+            "observerEvents": [
+              [
+                18,
+                2,
+                128,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                18,
+                2,
+                114,
+                true,
+                2
+              ],
+              [
+                18,
+                2,
+                128,
+                true,
+                2
+              ],
+              [
+                18,
+                2,
+                18,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-pear",
+            "observerEvents": [
+              [
+                18,
+                2,
+                119,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          1
+        ],
+        "events": [
+          {
+            "food": "food-steak",
+            "observerEvents": [
+              [
+                18,
+                2,
+                128,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                18,
+                2,
+                114,
+                true,
+                2
+              ],
+              [
+                18,
+                2,
+                128,
+                true,
+                2
+              ],
+              [
+                18,
+                2,
+                18,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-pear",
+            "observerEvents": [
+              [
+                18,
+                2,
+                119,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          1
+        ],
+        "events": [
+          {
+            "food": "food-steak",
+            "observerEvents": [
+              [
+                18,
+                2,
+                128,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                18,
+                2,
+                114,
+                true,
+                2
+              ],
+              [
+                18,
+                2,
+                128,
+                true,
+                2
+              ],
+              [
+                18,
+                2,
+                18,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-pear",
+            "observerEvents": [
+              [
+                18,
+                2,
+                119,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a1d3d5-d5ac-7faf-b813-63b83655a818",
+      "01a1d3d5-d5ae-78c0-8abe-0b2762c3a0bb",
+      9
+    ],
+    "nativeChoiceCounts": [
+      10
+    ],
+    "paths": 10,
+    "distinctFoodStates": 10,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          2
+        ],
+        "events": [
+          {
+            "food": "food-pear",
+            "observerEvents": [
+              [
+                23,
+                2,
+                102,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                23,
+                2,
+                24,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                102,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                23,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          2
+        ],
+        "events": [
+          {
+            "food": "food-pear",
+            "observerEvents": [
+              [
+                23,
+                2,
+                102,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                23,
+                2,
+                24,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                102,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                23,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          2
+        ],
+        "events": [
+          {
+            "food": "food-pear",
+            "observerEvents": [
+              [
+                23,
+                2,
+                102,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                23,
+                2,
+                24,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                102,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                23,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a1ce58-bcfb-783e-8577-d12054514edf",
+      "01a1ce5b-830c-7ae6-a4e1-5b7e3e7374e8",
+      12
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a1e29a-a52e-7e21-bfda-da48eff3e4e3",
+      "01a1e29a-a531-7f42-821f-f16e88643c2b",
+      7
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a1a2f5-0544-7191-97a8-11d83b5e0769",
+      "01a1a2f5-0546-7eac-a78c-104e0207deec",
+      10
+    ],
+    "nativeChoiceCounts": [
+      10
+    ],
+    "paths": 10,
+    "distinctFoodStates": 10,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          1
+        ],
+        "events": [
+          {
+            "food": "food-apple",
+            "observerEvents": [
+              [
+                34,
+                1,
+                32,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-apple",
+            "observerEvents": [
+              [
+                34,
+                1,
+                32,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                34,
+                1,
+                169,
+                true,
+                1
+              ],
+              [
+                34,
+                1,
+                32,
+                true,
+                0
+              ],
+              [
+                34,
+                1,
+                34,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          1
+        ],
+        "events": [
+          {
+            "food": "food-apple",
+            "observerEvents": [
+              [
+                34,
+                1,
+                32,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-apple",
+            "observerEvents": [
+              [
+                34,
+                1,
+                32,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                34,
+                1,
+                169,
+                true,
+                1
+              ],
+              [
+                34,
+                1,
+                32,
+                true,
+                0
+              ],
+              [
+                34,
+                1,
+                34,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          1
+        ],
+        "events": [
+          {
+            "food": "food-apple",
+            "observerEvents": [
+              [
+                34,
+                1,
+                32,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-apple",
+            "observerEvents": [
+              [
+                34,
+                1,
+                32,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                34,
+                1,
+                169,
+                true,
+                1
+              ],
+              [
+                34,
+                1,
+                32,
+                true,
+                0
+              ],
+              [
+                34,
+                1,
+                34,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a194ec-c4a5-779e-966a-3065cd1c5853",
+      "01a194ec-c4a8-790d-b9ff-c50a30fb407f",
+      10
+    ],
+    "nativeChoiceCounts": [
+      4
+    ],
+    "paths": 4,
+    "distinctFoodStates": 4,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          3
+        ],
+        "events": [
+          {
+            "food": "food-apple",
+            "observerEvents": [
+              [
+                33,
+                2,
+                33,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                33,
+                2,
+                33,
+                true,
+                2
+              ],
+              [
+                33,
+                2,
+                119,
+                true,
+                2
+              ],
+              [
+                33,
+                2,
+                89,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          3
+        ],
+        "events": [
+          {
+            "food": "food-apple",
+            "observerEvents": [
+              [
+                33,
+                2,
+                33,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                33,
+                2,
+                33,
+                true,
+                2
+              ],
+              [
+                33,
+                2,
+                119,
+                true,
+                2
+              ],
+              [
+                33,
+                2,
+                89,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          3
+        ],
+        "events": [
+          {
+            "food": "food-apple",
+            "observerEvents": [
+              [
+                33,
+                2,
+                33,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                33,
+                2,
+                33,
+                true,
+                2
+              ],
+              [
+                33,
+                2,
+                119,
+                true,
+                2
+              ],
+              [
+                33,
+                2,
+                89,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a1a7a6-2309-7f50-b4c3-712da49a09bf",
+      "01a1a7a6-a96f-788a-9445-c66089c1f64c",
+      5
+    ],
+    "nativeChoiceCounts": [
+      3
+    ],
+    "paths": 3,
+    "distinctFoodStates": 3,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a1ccee-726f-76e2-8884-df4806fb6ca0",
+      "01a1ccee-7272-7fbd-b6a5-6c308fefccc6",
+      7
+    ],
+    "nativeChoiceCounts": [
+      10
+    ],
+    "paths": 10,
+    "distinctFoodStates": 10,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "omit shop pets from Rabbit": {
+        "nativeTargetIndices": [
+          8
+        ],
+        "events": [
+          {
+            "food": "food-canned-food",
+            "observerEvents": [
+              [
+                17,
+                1,
+                99,
+                false,
+                1
+              ],
+              [
+                17,
+                1,
+                100,
+                false,
+                1
+              ],
+              [
+                17,
+                1,
+                101,
+                false,
+                1
+              ],
+              [
+                17,
+                1,
+                102,
+                false,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-bread",
+            "observerEvents": [
+              [
+                17,
+                1,
+                14,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                17,
+                1,
+                16,
+                true,
+                0
+              ],
+              [
+                17,
+                1,
+                56,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          8
+        ],
+        "events": [
+          {
+            "food": "food-canned-food",
+            "observerEvents": [
+              [
+                17,
+                1,
+                99,
+                false,
+                1
+              ],
+              [
+                17,
+                1,
+                100,
+                false,
+                1
+              ],
+              [
+                17,
+                1,
+                101,
+                false,
+                1
+              ],
+              [
+                17,
+                1,
+                102,
+                false,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-bread",
+            "observerEvents": [
+              [
+                17,
+                1,
+                14,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                17,
+                1,
+                16,
+                true,
+                0
+              ],
+              [
+                17,
+                1,
+                56,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a1d8f2-6a59-7aca-86f4-1f34b228d34b",
+      "01a1d8f2-aa5a-747e-b15a-c512deb5737c",
+      7
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a1ab49-5ffe-7274-81e0-28b04dbfee7b",
+      "01a1ab49-c1e5-72b5-b7df-c8253c90863e",
+      7
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a16cb8-70d1-71e7-9a18-38c03c2223c9",
+      "01a16cb8-70d4-788b-9f4c-245476a04f9c",
+      8
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a19391-27d9-7efe-9bca-7e69c2e97b9c",
+      "01a19391-27dc-7e6d-b7be-7b4c05a27236",
+      7
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a1c95b-4d6a-77e7-b3b5-ad746be706ba",
+      "01a1c95b-4d6d-7628-bf37-307184aa1bda",
+      9
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "omit shop pets from Rabbit": {
+        "nativeTargetIndices": [],
+        "events": [
+          {
+            "food": "food-canned-food",
+            "observerEvents": [
+              [
+                82,
+                2,
+                152,
+                false,
+                2
+              ],
+              [
+                82,
+                2,
+                153,
+                false,
+                2
+              ],
+              [
+                82,
+                2,
+                154,
+                false,
+                2
+              ],
+              [
+                82,
+                2,
+                155,
+                false,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-pear",
+            "observerEvents": [
+              [
+                82,
+                2,
+                22,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [],
+        "events": [
+          {
+            "food": "food-canned-food",
+            "observerEvents": [
+              [
+                82,
+                2,
+                152,
+                false,
+                2
+              ],
+              [
+                82,
+                2,
+                153,
+                false,
+                2
+              ],
+              [
+                82,
+                2,
+                154,
+                false,
+                2
+              ],
+              [
+                82,
+                2,
+                155,
+                false,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-pear",
+            "observerEvents": [
+              [
+                82,
+                2,
+                22,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a19dc1-7da2-781c-87d0-9dc5a090c032",
+      "01a19dc2-518e-77a9-9dec-16d14d6d0f6b",
+      7
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a19dc1-7da2-781c-87d0-9dc5a090c032",
+      "01a19dc2-518e-77a9-9dec-16d14d6d0f6b",
+      8
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a20415-f76d-7475-9327-a6800e4d93e1",
+      "01a20415-f76f-70ca-9f6e-e0ab8d5220c7",
+      9
+    ],
+    "nativeChoiceCounts": [
+      10
+    ],
+    "paths": 10,
+    "distinctFoodStates": 10,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          8
+        ],
+        "events": [
+          {
+            "food": "food-apple",
+            "observerEvents": [
+              [
+                27,
+                2,
+                101,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                27,
+                2,
+                54,
+                true,
+                2
+              ],
+              [
+                27,
+                2,
+                29,
+                true,
+                2
+              ],
+              [
+                27,
+                2,
+                27,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          8
+        ],
+        "events": [
+          {
+            "food": "food-apple",
+            "observerEvents": [
+              [
+                27,
+                2,
+                101,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                27,
+                2,
+                54,
+                true,
+                2
+              ],
+              [
+                27,
+                2,
+                29,
+                true,
+                2
+              ],
+              [
+                27,
+                2,
+                27,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          8
+        ],
+        "events": [
+          {
+            "food": "food-apple",
+            "observerEvents": [
+              [
+                27,
+                2,
+                101,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                27,
+                2,
+                54,
+                true,
+                2
+              ],
+              [
+                27,
+                2,
+                29,
+                true,
+                2
+              ],
+              [
+                27,
+                2,
+                27,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a1e117-33a4-73f0-9750-03a5df946f4b",
+      "01a1e117-33a6-7f67-aa33-e8fb5eea3824",
+      7
+    ],
+    "nativeChoiceCounts": [
+      10,
+      10
+    ],
+    "paths": 100,
+    "distinctFoodStates": 75,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          1,
+          3
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                22,
+                1,
+                22,
+                true,
+                1
+              ],
+              [
+                67,
+                1,
+                22,
+                true,
+                1
+              ],
+              [
+                22,
+                1,
+                21,
+                true,
+                1
+              ],
+              [
+                67,
+                1,
+                21,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                22,
+                1,
+                22,
+                true,
+                1
+              ],
+              [
+                67,
+                1,
+                22,
+                true,
+                1
+              ],
+              [
+                22,
+                1,
+                67,
+                true,
+                0
+              ],
+              [
+                67,
+                1,
+                67,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a1fc65-8637-7e3a-a1eb-dae8ecad0701",
+      "01a1fc65-a5a3-7c34-babf-237f828c5e84",
+      8
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a1b28b-4e03-755c-ac3e-4db556c0da52",
+      "01a1b28b-7987-7f86-a551-59cc752f6f10",
+      5
+    ],
+    "nativeChoiceCounts": [
+      6,
+      10
+    ],
+    "paths": 60,
+    "distinctFoodStates": 45,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          4,
+          0
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                25,
+                1,
+                14,
+                true,
+                1
+              ],
+              [
+                25,
+                1,
+                23,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                25,
+                1,
+                7,
+                true,
+                1
+              ],
+              [
+                25,
+                1,
+                14,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          4,
+          0
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                25,
+                1,
+                14,
+                true,
+                1
+              ],
+              [
+                25,
+                1,
+                23,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                25,
+                1,
+                7,
+                true,
+                1
+              ],
+              [
+                25,
+                1,
+                14,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          4,
+          0
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                25,
+                1,
+                14,
+                true,
+                1
+              ],
+              [
+                25,
+                1,
+                23,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                25,
+                1,
+                7,
+                true,
+                1
+              ],
+              [
+                25,
+                1,
+                14,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a1dc49-2e83-7fc4-951f-5702a20627bd",
+      "01a1dc49-2e87-7c58-be88-95e5294aee35",
+      12
+    ],
+    "nativeChoiceCounts": [
+      6,
+      4
+    ],
+    "paths": 24,
+    "distinctFoodStates": 24,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          2,
+          0
+        ],
+        "events": [
+          {
+            "food": "food-pizza",
+            "observerEvents": [
+              [
+                23,
+                2,
+                23,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                101,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                23,
+                2,
+                23,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                138,
+                true,
+                0
+              ],
+              [
+                23,
+                2,
+                97,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          2,
+          0
+        ],
+        "events": [
+          {
+            "food": "food-pizza",
+            "observerEvents": [
+              [
+                23,
+                2,
+                23,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                101,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                23,
+                2,
+                23,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                138,
+                true,
+                0
+              ],
+              [
+                23,
+                2,
+                97,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          2,
+          0
+        ],
+        "events": [
+          {
+            "food": "food-pizza",
+            "observerEvents": [
+              [
+                23,
+                2,
+                23,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                101,
+                true,
+                2
+              ]
+            ]
+          },
+          {
+            "food": "food-sushi",
+            "observerEvents": [
+              [
+                23,
+                2,
+                23,
+                true,
+                2
+              ],
+              [
+                23,
+                2,
+                138,
+                true,
+                0
+              ],
+              [
+                23,
+                2,
+                97,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a1dc49-2e83-7fc4-951f-5702a20627bd",
+      "01a1dc49-6562-7070-abb7-b6b32192cd0d",
+      5
+    ],
+    "nativeChoiceCounts": [
+      3,
+      3
+    ],
+    "paths": 9,
+    "distinctFoodStates": 8,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          0,
+          1
+        ],
+        "events": [
+          {
+            "food": "food-sleeping-pill",
+            "observerEvents": [
+              [
+                17,
+                1,
+                14,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                17,
+                1,
+                19,
+                true,
+                1
+              ],
+              [
+                17,
+                1,
+                40,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                17,
+                1,
+                19,
+                true,
+                0
+              ],
+              [
+                17,
+                1,
+                17,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "omit shop pets from Rabbit": {
+        "nativeTargetIndices": [
+          0,
+          1
+        ],
+        "events": [
+          {
+            "food": "food-sleeping-pill",
+            "observerEvents": [
+              [
+                17,
+                1,
+                14,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                17,
+                1,
+                19,
+                true,
+                1
+              ],
+              [
+                17,
+                1,
+                40,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                17,
+                1,
+                19,
+                true,
+                0
+              ],
+              [
+                17,
+                1,
+                17,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          0,
+          1
+        ],
+        "events": [
+          {
+            "food": "food-sleeping-pill",
+            "observerEvents": [
+              [
+                17,
+                1,
+                14,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                17,
+                1,
+                19,
+                true,
+                1
+              ],
+              [
+                17,
+                1,
+                40,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                17,
+                1,
+                19,
+                true,
+                0
+              ],
+              [
+                17,
+                1,
+                17,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          0,
+          1
+        ],
+        "events": [
+          {
+            "food": "food-sleeping-pill",
+            "observerEvents": [
+              [
+                17,
+                1,
+                14,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                17,
+                1,
+                19,
+                true,
+                1
+              ],
+              [
+                17,
+                1,
+                40,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                17,
+                1,
+                19,
+                true,
+                0
+              ],
+              [
+                17,
+                1,
+                17,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a19a59-0fbc-7b7d-99aa-adc147408e11",
+      "01a19a5a-2f90-7b34-968c-a01305b8085f",
+      8
+    ],
+    "nativeChoiceCounts": [
+      6
+    ],
+    "paths": 6,
+    "distinctFoodStates": 6,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          4
+        ],
+        "events": [
+          {
+            "food": "food-sleeping-pill",
+            "observerEvents": [
+              [
+                56,
+                2,
+                92,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                56,
+                2,
+                29,
+                true,
+                2
+              ],
+              [
+                56,
+                2,
+                43,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "omit shop pets from Rabbit": {
+        "nativeTargetIndices": [
+          4
+        ],
+        "events": [
+          {
+            "food": "food-sleeping-pill",
+            "observerEvents": [
+              [
+                56,
+                2,
+                92,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                56,
+                2,
+                29,
+                true,
+                2
+              ],
+              [
+                56,
+                2,
+                43,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          4
+        ],
+        "events": [
+          {
+            "food": "food-sleeping-pill",
+            "observerEvents": [
+              [
+                56,
+                2,
+                92,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                56,
+                2,
+                29,
+                true,
+                2
+              ],
+              [
+                56,
+                2,
+                43,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          4
+        ],
+        "events": [
+          {
+            "food": "food-sleeping-pill",
+            "observerEvents": [
+              [
+                56,
+                2,
+                92,
+                true,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                56,
+                2,
+                29,
+                true,
+                2
+              ],
+              [
+                56,
+                2,
+                43,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a193c1-faa8-7f64-8d46-f06878d9dae9",
+      "01a193c3-050f-7505-b6f9-607db38aedd2",
+      7
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a1d3c6-58f6-78e4-8b6a-40e2561846f2",
+      "01a1d3c6-58f9-7aea-92b6-7c2af287f0e2",
+      6
+    ],
+    "nativeChoiceCounts": [
+      10,
+      10
+    ],
+    "paths": 100,
+    "distinctFoodStates": 75,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          1,
+          3
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                78,
+                1,
+                63,
+                true,
+                1
+              ],
+              [
+                78,
+                1,
+                71,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                78,
+                1,
+                63,
+                true,
+                1
+              ],
+              [
+                78,
+                1,
+                78,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          1,
+          3
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                78,
+                1,
+                63,
+                true,
+                1
+              ],
+              [
+                78,
+                1,
+                71,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                78,
+                1,
+                63,
+                true,
+                1
+              ],
+              [
+                78,
+                1,
+                78,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          1,
+          3
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                78,
+                1,
+                63,
+                true,
+                1
+              ],
+              [
+                78,
+                1,
+                71,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                78,
+                1,
+                63,
+                true,
+                1
+              ],
+              [
+                78,
+                1,
+                78,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a1d3c6-58f6-78e4-8b6a-40e2561846f2",
+      "01a1d3c6-58f9-7aea-92b6-7c2af287f0e2",
+      8
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a1e6ae-715c-713a-a2ec-02cfeb2187ba",
+      "01a1e6af-b573-7d4d-a1f6-68947cc13201",
+      5
+    ],
+    "nativeChoiceCounts": [
+      6
+    ],
+    "paths": 6,
+    "distinctFoodStates": 6,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a1ea6a-fe21-7581-be42-003d1dcf6ea8",
+      "01a1ea6b-d628-7325-a12c-ae2980b3c45d",
+      6
+    ],
+    "nativeChoiceCounts": [
+      10
+    ],
+    "paths": 10,
+    "distinctFoodStates": 10,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "permute food notifications": {
+        "nativeTargetIndices": [
+          8
+        ],
+        "events": [
+          {
+            "food": "food-bread-crumbs",
+            "observerEvents": [
+              [
+                78,
+                1,
+                30,
+                true,
+                1
+              ],
+              [
+                50,
+                1,
+                30,
+                true,
+                1
+              ],
+              [
+                33,
+                1,
+                30,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-cupcake",
+            "observerEvents": [
+              [
+                33,
+                1,
+                30,
+                true,
+                1
+              ],
+              [
+                78,
+                1,
+                30,
+                true,
+                1
+              ],
+              [
+                50,
+                1,
+                30,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                33,
+                1,
+                33,
+                true,
+                1
+              ],
+              [
+                78,
+                1,
+                33,
+                true,
+                1
+              ],
+              [
+                50,
+                1,
+                33,
+                true,
+                1
+              ],
+              [
+                33,
+                1,
+                50,
+                true,
+                0
+              ],
+              [
+                78,
+                1,
+                50,
+                true,
+                0
+              ],
+              [
+                50,
+                1,
+                50,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [
+          8
+        ],
+        "events": [
+          {
+            "food": "food-bread-crumbs",
+            "observerEvents": [
+              [
+                78,
+                1,
+                30,
+                true,
+                1
+              ],
+              [
+                50,
+                1,
+                30,
+                true,
+                1
+              ],
+              [
+                33,
+                1,
+                30,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-cupcake",
+            "observerEvents": [
+              [
+                33,
+                1,
+                30,
+                true,
+                1
+              ],
+              [
+                78,
+                1,
+                30,
+                true,
+                1
+              ],
+              [
+                50,
+                1,
+                30,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                33,
+                1,
+                33,
+                true,
+                1
+              ],
+              [
+                78,
+                1,
+                33,
+                true,
+                1
+              ],
+              [
+                50,
+                1,
+                33,
+                true,
+                1
+              ],
+              [
+                33,
+                1,
+                50,
+                true,
+                0
+              ],
+              [
+                78,
+                1,
+                50,
+                true,
+                0
+              ],
+              [
+                50,
+                1,
+                50,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          8
+        ],
+        "events": [
+          {
+            "food": "food-bread-crumbs",
+            "observerEvents": [
+              [
+                78,
+                1,
+                30,
+                true,
+                1
+              ],
+              [
+                50,
+                1,
+                30,
+                true,
+                1
+              ],
+              [
+                33,
+                1,
+                30,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-cupcake",
+            "observerEvents": [
+              [
+                33,
+                1,
+                30,
+                true,
+                1
+              ],
+              [
+                78,
+                1,
+                30,
+                true,
+                1
+              ],
+              [
+                50,
+                1,
+                30,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                33,
+                1,
+                33,
+                true,
+                1
+              ],
+              [
+                78,
+                1,
+                33,
+                true,
+                1
+              ],
+              [
+                50,
+                1,
+                33,
+                true,
+                1
+              ],
+              [
+                33,
+                1,
+                50,
+                true,
+                0
+              ],
+              [
+                78,
+                1,
+                50,
+                true,
+                0
+              ],
+              [
+                50,
+                1,
+                50,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a1d859-90f7-7b79-b145-9cc6246324bd",
+      "01a1d85a-047d-75ff-8aaa-2a5c62eceb6d",
+      12
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a1bead-418a-7cce-86aa-b40d7d4cc3c5",
+      "01a1bead-418c-7e96-b03a-13b135c602d1",
+      7
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a05ab8-51aa-75fd-a18d-2fde032134a0",
+      "01a05ab8-51ac-72e7-8498-423d573c600b",
+      8
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "omit shop pets from Rabbit": {
+        "nativeTargetIndices": [],
+        "events": [
+          {
+            "food": "food-canned-food",
+            "observerEvents": [
+              [
+                23,
+                1,
+                104,
+                false,
+                1
+              ],
+              [
+                23,
+                1,
+                105,
+                false,
+                1
+              ],
+              [
+                23,
+                1,
+                106,
+                false,
+                1
+              ],
+              [
+                23,
+                1,
+                107,
+                false,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-bread",
+            "observerEvents": [
+              [
+                23,
+                1,
+                60,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      "both": {
+        "nativeTargetIndices": [],
+        "events": [
+          {
+            "food": "food-canned-food",
+            "observerEvents": [
+              [
+                23,
+                1,
+                104,
+                false,
+                1
+              ],
+              [
+                23,
+                1,
+                105,
+                false,
+                1
+              ],
+              [
+                23,
+                1,
+                106,
+                false,
+                1
+              ],
+              [
+                23,
+                1,
+                107,
+                false,
+                0
+              ]
+            ]
+          },
+          {
+            "food": "food-bread",
+            "observerEvents": [
+              [
+                23,
+                1,
+                60,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "key": [
+      "01a072f3-b00c-7123-94df-303832c5dbd5",
+      "01a072f3-e00c-7986-b5d0-e0145f5e328a",
+      7
+    ],
+    "nativeChoiceCounts": [],
+    "paths": 1,
+    "distinctFoodStates": 1,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {}
+  },
+  {
+    "key": [
+      "01a0630d-c832-7bd8-b7e9-b2ac09cf884c",
+      "01a0630e-1164-7104-9736-b001c991ee3b",
+      6
+    ],
+    "nativeChoiceCounts": [
+      6,
+      6
+    ],
+    "paths": 36,
+    "distinctFoodStates": 29,
+    "nativeMatches": 0,
+    "other": 0,
+    "explainedBy": {
+      "per-observer ordering": {
+        "nativeTargetIndices": [
+          2,
+          5
+        ],
+        "events": [
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                18,
+                1,
+                18,
+                true,
+                1
+              ],
+              [
+                36,
+                1,
+                18,
+                true,
+                1
+              ],
+              [
+                18,
+                1,
+                46,
+                true,
+                1
+              ],
+              [
+                36,
+                1,
+                46,
+                true,
+                1
+              ]
+            ]
+          },
+          {
+            "food": "food-salad-bowl",
+            "observerEvents": [
+              [
+                18,
+                1,
+                16,
+                true,
+                1
+              ],
+              [
+                36,
+                1,
+                16,
+                true,
+                1
+              ],
+              [
+                18,
+                1,
+                46,
+                true,
+                0
+              ],
+              [
+                36,
+                1,
+                46,
+                true,
+                0
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

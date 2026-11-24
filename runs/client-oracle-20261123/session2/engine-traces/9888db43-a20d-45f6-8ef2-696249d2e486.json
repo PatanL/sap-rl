@@ -1,0 +1,369 @@
+{
+  "battle_id": "9888db43-a20d-45f6-8ef2-696249d2e486",
+  "recorded_seed": 1960762969,
+  "engine_seed": 1960762969,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Camel",
+          "attack": 12,
+          "health": 27,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 5,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 6,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 14,
+          "health": 27,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 7,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Leopard",
+          "attack": 10,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 6,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Camel",
+          "attack": 12,
+          "health": 22,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 7,
+          "health": 12,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 6,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 1,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Elephant",
+          "attack": 14,
+          "health": 12,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 7,
+          "perk": "status-garlic-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Leopard",
+          "attack": 10,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 6,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Camel",
+          "attack": 12,
+          "health": 5,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 11,
+          "health": 20,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 3,
+          "health": 1,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 3,
+          "health": 5,
+          "perk": "status-garlic-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Leopard",
+          "attack": 10,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 6,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Camel",
+          "attack": 12,
+          "health": 2,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 13,
+          "health": 24,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Leopard",
+          "attack": 10,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 6,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Cat",
+          "attack": 15,
+          "health": 28,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Dolphin",
+          "attack": 6,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Cat",
+          "attack": 15,
+          "health": 22,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Rabbit",
+          "attack": 1,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Cat",
+          "attack": 15,
+          "health": 21,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 1
+        }
+      ],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [
+        {
+          "pet": "Cat",
+          "attack": 15,
+          "health": 21,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 1
+        }
+      ],
+      "opponent": []
+    }
+  ]
+}

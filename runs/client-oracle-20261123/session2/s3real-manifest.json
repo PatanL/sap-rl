@@ -1,0 +1,1494 @@
+[
+ {
+  "file": "c3-e5b-wolv-vs-rhino-tier2-p870113.json",
+  "id": "a8411753-fcbe-5f48-b4fa-fc7ec59e3968",
+  "seed": 870113,
+  "sha256": "51e00d9b8928f422f6feb879c6523428530585db9d43b06dcb9528d48a3c4a93",
+  "test": "e5b-wolv-vs-rhino-tier2",
+  "left": [
+   [
+    "Rhino",
+    6,
+    20
+   ],
+   [
+    "Pig",
+    2,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Duck",
+    4,
+    22
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Snail",
+    1,
+    7
+   ],
+   [
+    "Swan",
+    2,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-e5b-wolv-vs-rhino-tier2-m1714808783.json",
+  "id": "6b70c698-48a5-5315-b823-3da10086c6cf",
+  "seed": -1714808783,
+  "sha256": "ce59396dc49723d61aec79e4b6b8151fb4d1ed832b834504f94980830267aa61",
+  "test": "e5b-wolv-vs-rhino-tier2",
+  "left": [
+   [
+    "Rhino",
+    6,
+    20
+   ],
+   [
+    "Pig",
+    2,
+    20
+   ],
+   [
+    "Beaver",
+    3,
+    21
+   ],
+   [
+    "Duck",
+    4,
+    22
+   ],
+   [
+    "Wolverine",
+    6,
+    23
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Snail",
+    1,
+    7
+   ],
+   [
+    "Swan",
+    2,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f10-snake-tiger-dead-front-p870113.json",
+  "id": "ca3725e7-0abd-56ee-8443-4aec59510aa2",
+  "seed": 870113,
+  "sha256": "01d85539d9b3f77aa9ba0c227998af94924bafa7de5d4ea984c2f522daea6417",
+  "test": "f10-snake-tiger-dead-front",
+  "left": [
+   [
+    "Fish",
+    9,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Pig",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Fish",
+    2,
+    31
+   ]
+  ]
+ },
+ {
+  "file": "c3-f10-snake-tiger-dead-front-m1714808783.json",
+  "id": "2db93d43-5136-5170-88b8-30925350f5dc",
+  "seed": -1714808783,
+  "sha256": "6a1ab94c17b01a902dc76e1a12b48dcf95c238cd31c2e390474c4c1e483d6220",
+  "test": "f10-snake-tiger-dead-front",
+  "left": [
+   [
+    "Fish",
+    9,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Pig",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Fish",
+    2,
+    31
+   ]
+  ]
+ },
+ {
+  "file": "c3-f10-snake-tiger-dead-front-p1203948571.json",
+  "id": "b368fc12-80ce-5c7c-aea5-c88d44694cf3",
+  "seed": 1203948571,
+  "sha256": "31f3df85405aa3e389f533fda58f3d1eb770039699591acc6fa1c0b9678646ee",
+  "test": "f10-snake-tiger-dead-front",
+  "left": [
+   [
+    "Fish",
+    9,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Pig",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Fish",
+    2,
+    31
+   ]
+  ]
+ },
+ {
+  "file": "c3-f10-snake-tiger-dead-front-m402918337.json",
+  "id": "33de8860-bc34-55a2-8fad-785e55560a56",
+  "seed": -402918337,
+  "sha256": "14c4602333efd466ee87e90c8425d25475ccb7c8d50a246f8d6453d9638645cf",
+  "test": "f10-snake-tiger-dead-front",
+  "left": [
+   [
+    "Fish",
+    9,
+    50
+   ],
+   [
+    "Snake",
+    8,
+    3
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Pig",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Fish",
+    2,
+    31
+   ]
+  ]
+ },
+ {
+  "file": "c3-f11-hippo-tiger-limit-p870113.json",
+  "id": "bf4de903-c304-5032-8295-1e997672e67b",
+  "seed": 870113,
+  "sha256": "99e253d245eb298e7dabf829264dad62eba2e2716a2fc8ebcdaf470b7fb95bc3",
+  "test": "f11-hippo-tiger-limit",
+  "left": [
+   [
+    "Hippo",
+    10,
+    50
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Pig",
+    1,
+    3
+   ],
+   [
+    "Duck",
+    1,
+    4
+   ],
+   [
+    "Beaver",
+    1,
+    5
+   ]
+  ]
+ },
+ {
+  "file": "c3-f11-hippo-tiger-limit-m1714808783.json",
+  "id": "5a3159a2-0ab7-5f87-98eb-7e6ca93c05c9",
+  "seed": -1714808783,
+  "sha256": "d9ba4f7f295eda672ab24548d49f28736b8019dfe2e82f138e15e77c7c29d4ce",
+  "test": "f11-hippo-tiger-limit",
+  "left": [
+   [
+    "Hippo",
+    10,
+    50
+   ],
+   [
+    "Tiger",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Pig",
+    1,
+    3
+   ],
+   [
+    "Duck",
+    1,
+    4
+   ],
+   [
+    "Beaver",
+    1,
+    5
+   ]
+  ]
+ },
+ {
+  "file": "c3-f11c-hippo-alone-control-p870113.json",
+  "id": "84ce278f-e9e3-59cc-bd34-f05e3a1afb58",
+  "seed": 870113,
+  "sha256": "a2551637725936384b40e4f11fefb01123995b9f0e684d5678b65d133b1aae28",
+  "test": "f11c-hippo-alone-control",
+  "left": [
+   [
+    "Hippo",
+    10,
+    50
+   ],
+   [
+    "Fish",
+    6,
+    4
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Pig",
+    1,
+    3
+   ],
+   [
+    "Duck",
+    1,
+    4
+   ],
+   [
+    "Beaver",
+    1,
+    5
+   ]
+  ]
+ },
+ {
+  "file": "s3f-0c7467fa.json",
+  "id": "0c7467fa-24ae-46ec-b25d-1670da21b8d7",
+  "seed": 657136633,
+  "sha256": "dc91d3a8beddafe74ee08570301d771aa8e9202311451623c2d72c0bf58ee2bc",
+  "origin": "raw-fresh2/6c844740-d5c6-47c8-af46-88264cc5ce7c.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": true,
+  "outcomePossible": false,
+  "statePossible": false,
+  "turn": 12,
+  "matchId": "01a08203-768b-7541-80bf-268dc82b385c",
+  "realOutcome": "player",
+  "distinctStates": 1,
+  "pReal": 0.0
+ },
+ {
+  "file": "s3f-31eb2b55.json",
+  "id": "31eb2b55-b65a-4850-b5fb-94ff18ba88a5",
+  "seed": -1840213071,
+  "sha256": "4f1fa1b598da3616da5169642dacb82808e71781e6398e4f9a7266641c9d74d8",
+  "origin": "raw-fresh2/9ee36bc8-7fdf-476e-b413-63818f6f08b7.json",
+  "previously_traced": false,
+  "set": "340",
+  "deterministic": true,
+  "outcomePossible": false,
+  "statePossible": false,
+  "turn": 8,
+  "matchId": "01a072e6-a743-7fd4-a4eb-228890f98585",
+  "realOutcome": "opponent",
+  "distinctStates": 1,
+  "pReal": 0.0
+ },
+ {
+  "file": "s3f-44f50389.json",
+  "id": "44f50389-f1dd-4185-b195-15a8ed69c24c",
+  "seed": -1780527164,
+  "sha256": "00d66a3242369e791e4f4a6cf675cdbd9f83619ec5c1ecab9561d5e779f0f1a8",
+  "origin": "raw-fresh2/8ee8eadc-100c-42df-9b34-643dbc91079f.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": true,
+  "outcomePossible": false,
+  "statePossible": false,
+  "turn": 13,
+  "matchId": "01a06d73-44b5-742c-9c38-8b97fd56aa08",
+  "realOutcome": "draw",
+  "distinctStates": 1,
+  "pReal": 0.0
+ },
+ {
+  "file": "s3f-55252099.json",
+  "id": "55252099-498b-4110-90f3-7a675767caf2",
+  "seed": -2063508362,
+  "sha256": "a07b7603acd95e01800a5ceb9a75b1005e3599d1106776fc9d0aeff4a2f1a1e0",
+  "origin": "raw-fresh2/b85114d7-e133-483f-9141-164f0d8fb3e6.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": true,
+  "outcomePossible": false,
+  "statePossible": false,
+  "turn": 11,
+  "matchId": "01a0d25a-2210-7fef-995c-49601e7b0056",
+  "realOutcome": "draw",
+  "distinctStates": 1,
+  "pReal": 0.0
+ },
+ {
+  "file": "s3f-701fc622.json",
+  "id": "701fc622-5ec1-4d18-bd07-ba16b2bbaad1",
+  "seed": 2030149713,
+  "sha256": "9c146d62acf546fb5546996b6b3ab6df3e7d75807315e58ea148790bbb3f8e37",
+  "origin": "raw-fresh2/ce33a5b5-c551-4565-b070-2762fcf5d8b1.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": true,
+  "outcomePossible": false,
+  "statePossible": false,
+  "turn": 12,
+  "matchId": "01a0a750-a643-7594-b697-fbf97fe2ba2d",
+  "realOutcome": "draw",
+  "distinctStates": 1,
+  "pReal": 0.0
+ },
+ {
+  "file": "s3f-8356ce35.json",
+  "id": "8356ce35-444a-4c34-822e-e5c19dad1438",
+  "seed": -342871493,
+  "sha256": "a39ac59ca550ffaf509559a374cb78eee6fd1637b3a493d357a14ed269798512",
+  "origin": "raw-fresh2/b85114d7-e133-483f-9141-164f0d8fb3e6.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": true,
+  "outcomePossible": false,
+  "statePossible": false,
+  "turn": 14,
+  "matchId": "01a0d25a-2210-7fef-995c-49601e7b0056",
+  "realOutcome": "draw",
+  "distinctStates": 1,
+  "pReal": 0.0
+ },
+ {
+  "file": "s3f-95ca0a3c.json",
+  "id": "95ca0a3c-65c4-4f48-8692-5c6d6e3e08c4",
+  "seed": -1411191085,
+  "sha256": "5335b0b5c00cec3cf1a0deceef12048000c01f55d873755d994380fd3b22accf",
+  "origin": "raw-fresh/a682a961-907c-4f6c-b266-ebef96f194b9.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": true,
+  "outcomePossible": false,
+  "statePossible": false,
+  "turn": 8,
+  "matchId": "01a0f1e5-2431-7e3d-b418-29efb132810b",
+  "realOutcome": "player",
+  "distinctStates": 1,
+  "pReal": 0.0
+ },
+ {
+  "file": "s3f-975bfbc7.json",
+  "id": "975bfbc7-4be4-4bfa-869b-a4d1d0bff846",
+  "seed": 739027289,
+  "sha256": "90ee59ee33fb7b0aeba13a7b40e3f0b1846f6d9d320d6fd592ffe4d53d4d3adc",
+  "origin": "raw-fresh2/99530c95-99e1-4443-ad9a-be4dc34a2113.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": true,
+  "outcomePossible": false,
+  "statePossible": false,
+  "turn": 10,
+  "matchId": "01a0c534-14a4-7f5d-b794-469e48b96bf3",
+  "realOutcome": "draw",
+  "distinctStates": 1,
+  "pReal": 0.0
+ },
+ {
+  "file": "s3f-9f89c3cb.json",
+  "id": "9f89c3cb-02b8-4cf6-846a-1b88d4c360a4",
+  "seed": -1599992167,
+  "sha256": "697ce3946814819bec13b4b846f7fe06b7da85cae3129a7fcf520bb2f4215904",
+  "origin": "raw-fresh/c988849f-9f59-4e26-aea7-50dd7eef25fd.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": true,
+  "outcomePossible": false,
+  "statePossible": false,
+  "turn": 12,
+  "matchId": "01a15f37-130a-7641-a2a3-1bfc95337219",
+  "realOutcome": "player",
+  "distinctStates": 1,
+  "pReal": 0.0
+ },
+ {
+  "file": "s3f-cef2483f.json",
+  "id": "cef2483f-3b7b-4944-9a0f-78fb2221f584",
+  "seed": -1352212608,
+  "sha256": "59ee132b10f78d8c8f664c1666785bff0b58908b9d36440e198934ca66493ec4",
+  "origin": "raw-fresh2/b85114d7-e133-483f-9141-164f0d8fb3e6.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": true,
+  "outcomePossible": false,
+  "statePossible": false,
+  "turn": 17,
+  "matchId": "01a0d25a-2210-7fef-995c-49601e7b0056",
+  "realOutcome": "player",
+  "distinctStates": 1,
+  "pReal": 0.0
+ },
+ {
+  "file": "s3f-fa0b28f6.json",
+  "id": "fa0b28f6-01b7-4d2d-b9ae-364769d7d6e5",
+  "seed": -1686892610,
+  "sha256": "28f55a417364efa2c3cbe166bbf9c36535ea6d36bc586f1401f98d969707889e",
+  "origin": "raw-fresh2/80a0ff6a-e5a0-4021-8dee-cd01d800ddb4.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": true,
+  "outcomePossible": false,
+  "statePossible": false,
+  "turn": 13,
+  "matchId": "01a08d0f-afc9-7ae8-b83a-b1c92392521e",
+  "realOutcome": "opponent",
+  "distinctStates": 1,
+  "pReal": 0.0
+ },
+ {
+  "file": "s3f-2ad6ecd6.json",
+  "id": "2ad6ecd6-bf67-4921-969c-ef57c7edf596",
+  "seed": 181155163,
+  "sha256": "2422a32a1a7db8d4e92e8889ac6804eeec8ba07d4334ae16f3a39765e07c351c",
+  "origin": "raw-fresh/d14ead44-699a-4f6e-b2e3-29eb07317150.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": true,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 9,
+  "matchId": "01a0e8a4-6bcd-77ee-bc6a-581053657018",
+  "realOutcome": "player",
+  "distinctStates": 1,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-4691b0e0.json",
+  "id": "4691b0e0-6680-4adc-81d5-3241da86b74b",
+  "seed": -2137738888,
+  "sha256": "8354bdc4b173e0ecfcc4c4025e67ad44a184db9cd526f2dfa1ca191262ee1e82",
+  "origin": "raw-fresh2/aba6fc55-6b7e-439e-a75f-0a7f3c13c662.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": true,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 15,
+  "matchId": "01a09566-6387-74fc-94cc-1ac25c2412ab",
+  "realOutcome": "opponent",
+  "distinctStates": 1,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-48421d51.json",
+  "id": "48421d51-b9a5-4e60-9086-81b2fceecf45",
+  "seed": 1045229491,
+  "sha256": "a126ac933f10d6d28975b9912d432e2a816193b5fb14c909ebd5c85bd77f5575",
+  "origin": "raw-fresh2/b85114d7-e133-483f-9141-164f0d8fb3e6.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": true,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 15,
+  "matchId": "01a0d25a-2210-7fef-995c-49601e7b0056",
+  "realOutcome": "opponent",
+  "distinctStates": 1,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-646d6abf.json",
+  "id": "646d6abf-84ce-4a63-920c-08bdc3352456",
+  "seed": 10094520,
+  "sha256": "1fb6c77273d1f386803d3a7de6aa4b37ca4a3bdc008d6dc42dfc94da9987c15f",
+  "origin": "raw/c627d43b-c07b-4c72-a2a0-ee998d1e7ebf.json",
+  "previously_traced": false,
+  "set": "340",
+  "deterministic": true,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 12,
+  "matchId": "01a1b536-f6ac-7ee9-9e7f-1a654b9c606c",
+  "realOutcome": "player",
+  "distinctStates": 1,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-6b7a8c78.json",
+  "id": "6b7a8c78-477e-429f-a54f-f9c69381781d",
+  "seed": -1226413123,
+  "sha256": "cd9402dce83f712c6a0872365f61b5c34097c989aea6ccccec26eed77d48e7ba",
+  "origin": "raw-fresh/43597d2b-9c2e-4c8e-9253-96cbba2e79be.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": true,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 9,
+  "matchId": "01a10db5-3664-7c1f-870f-34b9d63f7d49",
+  "realOutcome": "opponent",
+  "distinctStates": 1,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-744c55c3.json",
+  "id": "744c55c3-fab4-4194-a7a1-b30566b4128b",
+  "seed": 865708848,
+  "sha256": "812e9296aa1e204a0c976c0a9eefa2b0afd889320d1f714ff3dea4006c0fae87",
+  "origin": "raw-fresh/b48ba984-491c-4d53-9415-e3c9d5e43cbc.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": true,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 8,
+  "matchId": "01a14ba6-0c97-77c1-9f37-5948c32d1f03",
+  "realOutcome": "player",
+  "distinctStates": 1,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-7b1311d5.json",
+  "id": "7b1311d5-0cc0-4fa2-a174-71e809281949",
+  "seed": -494294586,
+  "sha256": "1467fe2fc3524e1dec560aab50fa0cc00e362b16a95ab12b8c4ae195461cfc36",
+  "origin": "raw-fresh/eec4efc2-1ead-4e38-8549-9e4160ec4565.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": true,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 9,
+  "matchId": "01a10408-76a4-7367-b522-c988ddbc80fc",
+  "realOutcome": "player",
+  "distinctStates": 1,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-92e0b53f.json",
+  "id": "92e0b53f-5f7b-4765-9454-d36de0b56b1b",
+  "seed": -1953290754,
+  "sha256": "704f5b7a8a573f3a9c4112ef2afaa96a5effee04da72d32fbc50130da400113d",
+  "origin": "raw/7243ef4b-0732-4a04-8aea-941024fdd059.json",
+  "previously_traced": false,
+  "set": "340",
+  "deterministic": true,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 6,
+  "matchId": "01a1d232-dc8a-7fe5-8a3b-7dcc64463133",
+  "realOutcome": "player",
+  "distinctStates": 1,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-c712cc5b.json",
+  "id": "c712cc5b-07db-4137-a082-0f2647f92913",
+  "seed": 320774022,
+  "sha256": "129611f0259face0472e9e663c54776cee47e84ea5ece8f996874e3ccdaf983c",
+  "origin": "raw-fresh/2762f41c-379a-4881-a934-3fdddbe1bc1a.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": true,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 13,
+  "matchId": "01a0e5b6-6d9b-7a27-93e5-04f0ec6cd0d6",
+  "realOutcome": "player",
+  "distinctStates": 1,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-d95df6ba.json",
+  "id": "d95df6ba-e7ff-4d15-b89c-781abcac1d01",
+  "seed": 1718075659,
+  "sha256": "394207b88af00699a58eb615b0830a4b9b2249800d538236edd5872e93a18536",
+  "origin": "raw-fresh2/6c844740-d5c6-47c8-af46-88264cc5ce7c.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": true,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 13,
+  "matchId": "01a08203-768b-7541-80bf-268dc82b385c",
+  "realOutcome": "player",
+  "distinctStates": 1,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-dda8b4ec.json",
+  "id": "dda8b4ec-684f-4bb3-936e-aa8584f868b2",
+  "seed": 1465995961,
+  "sha256": "b1ab43b9f6da8708280a94b86e8ae32fa7f3b703792603da2a64b993f7d92625",
+  "origin": "raw-fresh/c1bde5da-67d3-4154-87b9-87f479f11701.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": true,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 9,
+  "matchId": "01a15e86-893f-7ab8-8dea-979ce78db2e3",
+  "realOutcome": "opponent",
+  "distinctStates": 1,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-ede958be.json",
+  "id": "ede958be-e4e4-4076-998d-17ab33ccf95f",
+  "seed": -350688476,
+  "sha256": "343b35dca13a43bdf3e145167d741c2b993178acc046d0006bcafbb8963ebe41",
+  "origin": "raw/c627d43b-c07b-4c72-a2a0-ee998d1e7ebf.json",
+  "previously_traced": false,
+  "set": "340",
+  "deterministic": true,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 11,
+  "matchId": "01a1b536-f6ac-7ee9-9e7f-1a654b9c606c",
+  "realOutcome": "player",
+  "distinctStates": 1,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-2831f868.json",
+  "id": "2831f868-5088-400d-bb2a-1baf152739a4",
+  "seed": -547195811,
+  "sha256": "f41a2483b10cf0fbb644ad6ac1f109daefc0d7465ef03a1ae6561e949f5a14c4",
+  "origin": "raw-fresh2/35bff863-5647-4e15-ba7e-a06c4ca911da.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": false,
+  "outcomePossible": false,
+  "statePossible": false,
+  "turn": 10,
+  "matchId": "01a06dd9-c00c-7a35-8b00-3969b7a2f4d0",
+  "realOutcome": "opponent",
+  "distinctStates": 7,
+  "pReal": 0.0
+ },
+ {
+  "file": "s3f-1f7102db.json",
+  "id": "1f7102db-f0ab-42ba-92f7-a8547689fd3b",
+  "seed": 659578655,
+  "sha256": "f86fe618ae6d132c8a48a9c876778746ea972b9ca197f7a7ba38fa578784b403",
+  "origin": "raw-fresh/43597d2b-9c2e-4c8e-9253-96cbba2e79be.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 8,
+  "matchId": "01a10db5-3664-7c1f-870f-34b9d63f7d49",
+  "realOutcome": "opponent",
+  "distinctStates": 3,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-262f5055.json",
+  "id": "262f5055-81a2-4e77-ba85-56a960760a28",
+  "seed": -200550460,
+  "sha256": "e13f3476420626f43ee2889aec941c6a9087ff8307bb08362d56b7df47a3cb73",
+  "origin": "raw-fresh2/ff44a02e-a570-4de2-884c-85e18aeecef1.json",
+  "previously_traced": false,
+  "set": "340",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 7,
+  "matchId": "01a0683b-9559-73c9-b5a3-88425502ee9f",
+  "realOutcome": "player",
+  "distinctStates": 2,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-364ffdfa.json",
+  "id": "364ffdfa-4928-4fad-a1d3-afd936a7b744",
+  "seed": -1195210490,
+  "sha256": "521633983e22cf067cf1a686faad42260387aaf4bbdaf62d26b83d6e93bd7df7",
+  "origin": "raw-fresh4/981fd139-e6de-407f-8adb-c03464d1fcc7.json",
+  "previously_traced": false,
+  "set": "fresh4",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 12,
+  "matchId": "01a01880-ee28-7178-9d5a-c8409ff1d9b9",
+  "realOutcome": "opponent",
+  "distinctStates": 164,
+  "pReal": 0.9632
+ },
+ {
+  "file": "s3f-464525d6.json",
+  "id": "464525d6-5af6-4c52-a809-1d7b286aafd7",
+  "seed": 377296037,
+  "sha256": "6f6ef20cfe2730d705967021a7388f835a361d7dcae00396621f9230a22586f8",
+  "origin": "raw-fresh/209f98f5-a805-4f5c-af9a-ff78564593b5.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 14,
+  "matchId": "01a12fa5-2124-74da-8e2b-5af2efc988da",
+  "realOutcome": "opponent",
+  "distinctStates": 40,
+  "pReal": 0.0272
+ },
+ {
+  "file": "s3f-4d928b02.json",
+  "id": "4d928b02-75f6-42eb-984a-8575fca47de2",
+  "seed": 1222127009,
+  "sha256": "18330219502e7406c352c6708f26fbd23f01c59816450da2786da91daa320636",
+  "origin": "raw-fresh/e19e7136-0a0a-459c-a7e0-80ae767124b5.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 17,
+  "matchId": "01a13366-3840-7d0a-bf42-a472cf8bbe89",
+  "realOutcome": "player",
+  "distinctStates": 20,
+  "pReal": 0.5938
+ },
+ {
+  "file": "s3f-513bcff6.json",
+  "id": "513bcff6-d97c-4380-9b21-c392c889ae0f",
+  "seed": 1867520632,
+  "sha256": "331dd5f541632ac9c1d1800b0f54b817318b8f4a37abfbbad9d6e3022a6ed340",
+  "origin": "raw-fresh/43597d2b-9c2e-4c8e-9253-96cbba2e79be.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 7,
+  "matchId": "01a10db5-3664-7c1f-870f-34b9d63f7d49",
+  "realOutcome": "opponent",
+  "distinctStates": 8,
+  "pReal": 0.2544
+ },
+ {
+  "file": "s3f-529f794d.json",
+  "id": "529f794d-2b61-4f43-99ff-f12294ceeb49",
+  "seed": -317757643,
+  "sha256": "312e179f7ff33f7996c86e4d9d90ae13883236bfdf0ced9d946d2068e8d8eae8",
+  "origin": "raw-fresh3/837cbcc8-bd05-4418-a794-d315d58f8a69.json",
+  "previously_traced": false,
+  "set": "fresh3",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 9,
+  "matchId": "01a0d84e-af06-7f99-a180-b1ec2c022681",
+  "realOutcome": "player",
+  "distinctStates": 10,
+  "pReal": 0.0954
+ },
+ {
+  "file": "s3f-5ff086f9.json",
+  "id": "5ff086f9-d244-40ca-a3f0-63228dae44ec",
+  "seed": -115688761,
+  "sha256": "a7adf147a7cf600306c5e3a33bd1d5f5c560494f7c09739b7d2497c0cfe61229",
+  "origin": "raw-fresh3/d831a6d2-7071-435e-a27f-dd475c260e01.json",
+  "previously_traced": false,
+  "set": "fresh3",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 6,
+  "matchId": "01a0d839-d6f2-7be0-bcd5-ea6a7cf1a54b",
+  "realOutcome": "player",
+  "distinctStates": 2,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-6b036ac0.json",
+  "id": "6b036ac0-c2d6-4268-889c-17f2276d2248",
+  "seed": 334782577,
+  "sha256": "51c6ccf2577767e4917377b62716b19555eb5f85a19b38133fa3d5c3d0ce8f37",
+  "origin": "raw-fresh/984c26e0-2173-4c87-832e-9497d76cdb81.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 10,
+  "matchId": "01a10642-ab7b-7af4-9201-e0e2314ffccb",
+  "realOutcome": "player",
+  "distinctStates": 2,
+  "pReal": 0.3986
+ },
+ {
+  "file": "s3f-6bc5336c.json",
+  "id": "6bc5336c-3932-4144-a6b4-1dd780333598",
+  "seed": -1445020910,
+  "sha256": "192c098f9120b9f4765323afb2781fab1e3e5ba955d210317eafde9c7df78239",
+  "origin": "raw-fresh2/7d5ac095-1b85-470e-b66a-5c5200ee247c.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 9,
+  "matchId": "01a0a807-6ae6-7bd7-9f8b-5a814a4be077",
+  "realOutcome": "opponent",
+  "distinctStates": 4,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-75a5646e.json",
+  "id": "75a5646e-1e19-4354-9019-ca65707c52f3",
+  "seed": 2024371484,
+  "sha256": "afc28a188fa0f54bba87f7f01d67069aa58dc3072e616121fb98dcb415bdfc4c",
+  "origin": "raw-fresh2/6f4db43c-5d55-40b3-b897-9acb407f358d.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 5,
+  "matchId": "01a09ae5-e60b-70bf-9d9f-80396f1c3d54",
+  "realOutcome": "opponent",
+  "distinctStates": 4,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-7acfd854.json",
+  "id": "7acfd854-1e01-43db-82ac-76f66bcaee6d",
+  "seed": 457813062,
+  "sha256": "83e69aa6e4d545b2412c9934b485c01b96fba12d89972c7cd3ae711d9b56419b",
+  "origin": "raw/c627d43b-c07b-4c72-a2a0-ee998d1e7ebf.json",
+  "previously_traced": false,
+  "set": "340",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 13,
+  "matchId": "01a1b536-f6ac-7ee9-9e7f-1a654b9c606c",
+  "realOutcome": "player",
+  "distinctStates": 2,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-7f8443c4.json",
+  "id": "7f8443c4-a4d3-4a0f-8869-30678448b047",
+  "seed": 1837504429,
+  "sha256": "6fcec3b27a7cab1dd440f14abc89dca8164168bfaa3e2c7defb144d6340bde3e",
+  "origin": "raw-fresh/3fbbaaa3-0891-4fc7-9035-7fe78de1f78c.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 12,
+  "matchId": "01a162dc-a143-7ef2-8d25-8045f82251e7",
+  "realOutcome": "opponent",
+  "distinctStates": 21,
+  "pReal": 0.8912
+ },
+ {
+  "file": "s3f-80d189e9.json",
+  "id": "80d189e9-515a-4945-90aa-ddc3298b059a",
+  "seed": 235909404,
+  "sha256": "e7d9cb51c3b1d47f278d280a10e000a5327515bb499fcb60eb6679c684228b33",
+  "origin": "raw-fresh/3fbbaaa3-0891-4fc7-9035-7fe78de1f78c.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 14,
+  "matchId": "01a162dc-a143-7ef2-8d25-8045f82251e7",
+  "realOutcome": "opponent",
+  "distinctStates": 21,
+  "pReal": 0.819
+ },
+ {
+  "file": "s3f-8747a8b5.json",
+  "id": "8747a8b5-90fd-468b-9b93-f6ea4a3161ba",
+  "seed": -1245603615,
+  "sha256": "7d89e05cc2a2a09f8613d1a9eb30a7d55d7fe294f9e53db48dac9d20d6a7e4f5",
+  "origin": "raw-fresh3/d831a6d2-7071-435e-a27f-dd475c260e01.json",
+  "previously_traced": false,
+  "set": "fresh3",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 5,
+  "matchId": "01a0d839-d6f2-7be0-bcd5-ea6a7cf1a54b",
+  "realOutcome": "player",
+  "distinctStates": 2,
+  "pReal": 0.7492
+ },
+ {
+  "file": "s3f-8996092a.json",
+  "id": "8996092a-9280-4699-a75b-d376e16c8a2e",
+  "seed": -661652528,
+  "sha256": "09d6a64d2c34363608d8b57beca27b08f105183334856fadeaad1ec473b8c491",
+  "origin": "raw-fresh2/7d5ac095-1b85-470e-b66a-5c5200ee247c.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 10,
+  "matchId": "01a0a807-6ae6-7bd7-9f8b-5a814a4be077",
+  "realOutcome": "opponent",
+  "distinctStates": 3,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-89f424a1.json",
+  "id": "89f424a1-d8f7-4d78-9166-00f999ecdceb",
+  "seed": -2117341021,
+  "sha256": "4b0914b378fc888f2916364a0d177c4222534942def7e2c9f2e3baf9f4ed1563",
+  "origin": "raw/2f1f6c3d-ca4c-4e46-af06-b71db4b0679b.json",
+  "previously_traced": false,
+  "set": "340",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 13,
+  "matchId": "01a2023c-4369-7bda-8214-8564a22240fb",
+  "realOutcome": "opponent",
+  "distinctStates": 11,
+  "pReal": 0.3676
+ },
+ {
+  "file": "s3f-910a1631.json",
+  "id": "910a1631-046d-43f9-abc5-3d311e520924",
+  "seed": 304919844,
+  "sha256": "e2a426bf1d24a0e12cfac1d9a22551bb35d53da72f0fc7a4ba0176b52f484ebd",
+  "origin": "raw-fresh2/c0338ea0-f14b-4a9a-974b-ea07b8f447b6.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 16,
+  "matchId": "01a0a91a-45fa-74e2-9554-aee9495970d4",
+  "realOutcome": "opponent",
+  "distinctStates": 8,
+  "pReal": 0.9746
+ },
+ {
+  "file": "s3f-91d310a7.json",
+  "id": "91d310a7-a797-4313-bf3d-337b243819ae",
+  "seed": 1457722080,
+  "sha256": "d048f4ec90439f1f40a74ce9564bb0c930fa9db4985de724d200ccc3ebae2126",
+  "origin": "raw/f6651d59-56ba-42c9-be74-4ea17750ff79.json",
+  "previously_traced": false,
+  "set": "340",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 11,
+  "matchId": "01a1d859-90f7-7b79-b145-9cc6246324bd",
+  "realOutcome": "opponent",
+  "distinctStates": 9,
+  "pReal": 0.9476
+ },
+ {
+  "file": "s3f-92eb585b.json",
+  "id": "92eb585b-6b9b-46a5-b588-3c1abb44e75b",
+  "seed": 1050272980,
+  "sha256": "2dcc9ac755e5635fe20548e39f4f73b552f447db64e34a9f0d1d4593589294ea",
+  "origin": "raw/1778e3c1-0976-4176-9a32-c8e41bd52dda.json",
+  "previously_traced": false,
+  "set": "340",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 12,
+  "matchId": "01a1a807-6685-79d7-9cd6-26d5df618ae3",
+  "realOutcome": "opponent",
+  "distinctStates": 41,
+  "pReal": 0.0842
+ },
+ {
+  "file": "s3f-9a5f60c1.json",
+  "id": "9a5f60c1-470f-404c-af76-14db4a0e6399",
+  "seed": 1329862007,
+  "sha256": "3804d9f2cfd2b2897295df8200af14a712a8f58db3a05b7a98f752087ac17d45",
+  "origin": "raw-fresh2/20e54669-32f0-41e2-b8fa-8bd8934818ce.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 14,
+  "matchId": "01a07f9e-a89f-7a1a-aaf7-effba3c62ffd",
+  "realOutcome": "player",
+  "distinctStates": 241,
+  "pReal": 0.9648
+ },
+ {
+  "file": "s3f-a3b3ce27.json",
+  "id": "a3b3ce27-71bf-4388-ba0f-fa8c55d1cabf",
+  "seed": 475116065,
+  "sha256": "bf0d003392b6eafbd124f954cff9c7cd650d8eac00dc8155d127133dfe036ac9",
+  "origin": "raw-fresh2/641f158c-5c03-4d30-a999-f20f8bd13b77.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 15,
+  "matchId": "01a0c2a1-fe56-762d-862a-a85ec570fa9f",
+  "realOutcome": "opponent",
+  "distinctStates": 213,
+  "pReal": 0.777
+ },
+ {
+  "file": "s3f-aae53e70.json",
+  "id": "aae53e70-555b-4c03-92c8-41ab41932d96",
+  "seed": 821743701,
+  "sha256": "03930f92002477b71c6969ce22639dc6b9c3b7121eb96f9ef69ed2954deae594",
+  "origin": "raw-fresh2/13c9c264-fd92-4b33-ad94-7c1890bc73b9.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 15,
+  "matchId": "01a0c8e0-fc71-73c4-a486-27642332f386",
+  "realOutcome": "opponent",
+  "distinctStates": 10,
+  "pReal": 0.8504
+ },
+ {
+  "file": "s3f-b63cdbf5.json",
+  "id": "b63cdbf5-e674-4957-8b05-555c21512dec",
+  "seed": -1130676710,
+  "sha256": "fb42102d5c5fe3995ac9c9696be98464a1c1e9c511b36494fd04673774fee24f",
+  "origin": "raw-fresh/a682a961-907c-4f6c-b266-ebef96f194b9.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 7,
+  "matchId": "01a0f1e5-2431-7e3d-b418-29efb132810b",
+  "realOutcome": "opponent",
+  "distinctStates": 4,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-c0eeec25.json",
+  "id": "c0eeec25-a1d7-4738-aa56-18a36dd12c9b",
+  "seed": -149273085,
+  "sha256": "4385272d9f5e605b1303f0709cf1eb2c546d2297a2cbf92b9b74294e73b7b018",
+  "origin": "raw/2f1f6c3d-ca4c-4e46-af06-b71db4b0679b.json",
+  "previously_traced": false,
+  "set": "340",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 10,
+  "matchId": "01a2023c-4369-7bda-8214-8564a22240fb",
+  "realOutcome": "player",
+  "distinctStates": 62,
+  "pReal": 0.9472
+ },
+ {
+  "file": "s3f-c804ffcf.json",
+  "id": "c804ffcf-bfca-4efe-9f43-c4b9cceb18ab",
+  "seed": 829441062,
+  "sha256": "f3b411901afa998fb722194e8235b3d62302016ed2b7bb230e050fa3221cca94",
+  "origin": "raw-fresh/6980e086-1a59-47f6-9415-348eb3019eb6.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 15,
+  "matchId": "01a123db-b0ea-79ac-ace1-2c1c203a522c",
+  "realOutcome": "opponent",
+  "distinctStates": 9,
+  "pReal": 0.3266
+ },
+ {
+  "file": "s3f-ce8e3574.json",
+  "id": "ce8e3574-cfb9-4cd3-954f-f3cc751d8530",
+  "seed": 1570765452,
+  "sha256": "c08c3ae478ab793b2d3fb45139b1a4fcb423cef154ecfa62fc800ea2c2bea14f",
+  "origin": "raw-fresh2/7d5ac095-1b85-470e-b66a-5c5200ee247c.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 13,
+  "matchId": "01a0a807-6ae6-7bd7-9f8b-5a814a4be077",
+  "realOutcome": "player",
+  "distinctStates": 48,
+  "pReal": 0.5888
+ },
+ {
+  "file": "s3f-d26f1b24.json",
+  "id": "d26f1b24-8d54-4244-8ace-86b1c87e0e1c",
+  "seed": 335070866,
+  "sha256": "ce1fcc24818296b041447a2f9b1d8dea95bf918f482536e1b45a7715cd771473",
+  "origin": "raw/2f1f6c3d-ca4c-4e46-af06-b71db4b0679b.json",
+  "previously_traced": false,
+  "set": "340",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 11,
+  "matchId": "01a2023c-4369-7bda-8214-8564a22240fb",
+  "realOutcome": "player",
+  "distinctStates": 10,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-e0bdb7ba.json",
+  "id": "e0bdb7ba-4a85-4ccf-9123-e9517db98060",
+  "seed": -805568271,
+  "sha256": "6e961b63439ba7da8abc1a0eb3178360687d7cfadd57a4dc8597054f63072372",
+  "origin": "raw-fresh2/58c58db1-0836-493e-b186-4611a02e0fc0.json",
+  "previously_traced": false,
+  "set": "340",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 11,
+  "matchId": "01a072f3-b00c-7123-94df-303832c5dbd5",
+  "realOutcome": "player",
+  "distinctStates": 2,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-e9018f58.json",
+  "id": "e9018f58-a4d1-4fd8-8514-11703da0d82b",
+  "seed": 366634197,
+  "sha256": "31dcf872156be3744593fbd53f5d8b4c53d6e567c9b500267103323e8a72a70d",
+  "origin": "raw-fresh2/7d5ac095-1b85-470e-b66a-5c5200ee247c.json",
+  "previously_traced": false,
+  "set": "fresh2",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 14,
+  "matchId": "01a0a807-6ae6-7bd7-9f8b-5a814a4be077",
+  "realOutcome": "opponent",
+  "distinctStates": 91,
+  "pReal": 0.8708
+ },
+ {
+  "file": "s3f-f75f23cc.json",
+  "id": "f75f23cc-4771-4874-9c54-155d15430a68",
+  "seed": -2140899111,
+  "sha256": "47e70ececf80a9aacb14afee3c899eca725679948b03c6347f5ad7aa27fec3bd",
+  "origin": "raw-fresh/4af40383-8587-4d75-a745-c4e60d8ce5b1.json",
+  "previously_traced": false,
+  "set": "fresh",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 11,
+  "matchId": "01a129ac-3f71-7e3b-bd8b-0af71a14ad4d",
+  "realOutcome": "player",
+  "distinctStates": 2,
+  "pReal": 0.5102
+ },
+ {
+  "file": "s3f-4664ea1e.json",
+  "id": "4664ea1e-15c3-49f0-80ae-494638545d33",
+  "seed": 1287119371,
+  "sha256": "3b09b8d54ef49ae05dfa70e6931447846f2e1652ef4abd474f250377649faef9",
+  "origin": "raw-fresh2/caba6ed9-456f-44a0-ac19-ca8676d4883f.json",
+  "previously_traced": true,
+  "set": "340",
+  "deterministic": true,
+  "outcomePossible": false,
+  "statePossible": false,
+  "turn": 10,
+  "matchId": "01a0d3c9-fb0e-7496-9cad-aaaecc32a517",
+  "realOutcome": "draw",
+  "distinctStates": 1,
+  "pReal": 0.0
+ },
+ {
+  "file": "s3f-9001c280.json",
+  "id": "9001c280-1bcd-4034-ba37-14fdfb5a63d0",
+  "seed": 1700166647,
+  "sha256": "0ce0b0ede2e17c4ac5280c2eef300fa1d2a6d00d3ae40df4af897da92470a381",
+  "origin": "raw/b073c836-db2d-446c-ae00-d962f19a1b1b.json",
+  "previously_traced": true,
+  "set": "340",
+  "deterministic": true,
+  "outcomePossible": false,
+  "statePossible": false,
+  "turn": 5,
+  "matchId": "01a1b286-8a39-70ac-b008-cf00172a0897",
+  "realOutcome": "opponent",
+  "distinctStates": 1,
+  "pReal": 0.0
+ },
+ {
+  "file": "s3f-07933ed8.json",
+  "id": "07933ed8-38d5-4afc-bbbd-5c81f2f53d93",
+  "seed": -1249329185,
+  "sha256": "442df23bcda10085410331cc82eb120dea91136a0597f2446b0e52a324b66083",
+  "origin": "raw/d0b057fe-eac2-4324-8a07-e8412d21107c.json",
+  "previously_traced": true,
+  "set": "340",
+  "deterministic": true,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 17,
+  "matchId": "01a195bf-22cf-78f0-9a27-52538721a2cb",
+  "realOutcome": "player",
+  "distinctStates": 1,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-d0b33785.json",
+  "id": "d0b33785-acdf-4c86-98cf-d6757769fced",
+  "seed": -1244366435,
+  "sha256": "c2265fc75d899957f13106347e4aefb91288eb4cb86564ff7be839bbd538502c",
+  "origin": "raw/b5eab715-0356-4c88-8d77-218d3e93cfd1.json",
+  "previously_traced": true,
+  "set": "340",
+  "deterministic": true,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 8,
+  "matchId": "01a1aede-0694-79c2-9334-6190a70cde56",
+  "realOutcome": "opponent",
+  "distinctStates": 1,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-33dca0e0.json",
+  "id": "33dca0e0-a94a-4c0f-9fa7-b4a9866add02",
+  "seed": -1300926849,
+  "sha256": "d3d857d5fe9098465d8a102bf83f94c987998a2574d54923e778a5126bba7d7c",
+  "origin": "raw/cc089b13-285e-414d-af8e-e494b54e57fc.json",
+  "previously_traced": true,
+  "set": "340",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 12,
+  "matchId": "01a1f782-de59-7229-87c3-19b9c5ef1e86",
+  "realOutcome": "player",
+  "distinctStates": 20,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-4c67157e.json",
+  "id": "4c67157e-84ad-4492-b112-93edae33dc1a",
+  "seed": 1676946656,
+  "sha256": "87c843c12ec0186a81ccb4da64c8285a9bbaff6d9af5021e5b8b6968268b4ddf",
+  "origin": "raw/b073c836-db2d-446c-ae00-d962f19a1b1b.json",
+  "previously_traced": true,
+  "set": "340",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 11,
+  "matchId": "01a1b286-8a39-70ac-b008-cf00172a0897",
+  "realOutcome": "opponent",
+  "distinctStates": 2,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-5dccddde.json",
+  "id": "5dccddde-34e5-4a3a-9289-2cc3b91f9c58",
+  "seed": 738235690,
+  "sha256": "6eec7611b0bf8ff62de2e3a860e4585e70f32bb45c564768ba2ebf48dbc09787",
+  "origin": "raw/e9c653bb-4aaf-4188-90f7-f1b033cf20b1.json",
+  "previously_traced": true,
+  "set": "340",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 10,
+  "matchId": "01a18484-f539-7c61-b8e6-df4e7b4b5108",
+  "realOutcome": "opponent",
+  "distinctStates": 2,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-a06efcdf.json",
+  "id": "a06efcdf-f7f9-4af3-abb7-980b6cb9151f",
+  "seed": -981481974,
+  "sha256": "64e772cb012a48a1f7074fabc32d783b0382431ae340e59f2789c322f3d3b696",
+  "origin": "raw/380abfef-b250-4888-82f3-d566a0fbe672.json",
+  "previously_traced": true,
+  "set": "340",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 5,
+  "matchId": "01a174c9-807d-7a7b-a363-bcf835022e59",
+  "realOutcome": "opponent",
+  "distinctStates": 39,
+  "pReal": 1.0
+ },
+ {
+  "file": "s3f-b363f9e9.json",
+  "id": "b363f9e9-bc37-444f-8c02-3c83dfd7ea38",
+  "seed": -1676140602,
+  "sha256": "29d9ba5419217e7d1cee501e145dda1ae93a2d833f33917962b109dd9de32fc3",
+  "origin": "raw/576111d0-27cf-4999-846f-b389c264852b.json",
+  "previously_traced": true,
+  "set": "340",
+  "deterministic": false,
+  "outcomePossible": true,
+  "statePossible": false,
+  "turn": 11,
+  "matchId": "01a193ab-8822-7733-a641-dd581711e06d",
+  "realOutcome": "player",
+  "distinctStates": 7,
+  "pReal": 1.0
+ }
+]

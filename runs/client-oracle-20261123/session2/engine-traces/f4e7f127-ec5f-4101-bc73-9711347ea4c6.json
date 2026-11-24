@@ -1,0 +1,474 @@
+{
+  "battle_id": "f4e7f127-ec5f-4101-bc73-9711347ea4c6",
+  "recorded_seed": 853547954,
+  "engine_seed": 853547954,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Horse",
+          "attack": 8,
+          "health": 14,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 14,
+          "health": 9,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Cat",
+          "attack": 5,
+          "health": 6,
+          "perk": "status-steak-attack",
+          "slot": 3
+        },
+        {
+          "pet": "Dog",
+          "attack": 9,
+          "health": 10,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ox",
+          "attack": 11,
+          "health": 9,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 4,
+          "health": 4,
+          "perk": "status-extra-life",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Shark",
+          "attack": 8,
+          "health": 8,
+          "perk": "status-melon-armor",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Horse",
+          "attack": 8,
+          "health": 14,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 14,
+          "health": 9,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Cat",
+          "attack": 5,
+          "health": 6,
+          "perk": "status-steak-attack",
+          "slot": 3
+        },
+        {
+          "pet": "Dog",
+          "attack": 9,
+          "health": 10,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ox",
+          "attack": 11,
+          "health": 9,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 4,
+          "health": 4,
+          "perk": "status-extra-life",
+          "slot": 2
+        },
+        {
+          "pet": "Tiger",
+          "attack": 6,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Shark",
+          "attack": 8,
+          "health": 8,
+          "perk": "status-melon-armor",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Horse",
+          "attack": 8,
+          "health": 3,
+          "perk": "status-bread",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 14,
+          "health": 9,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Cat",
+          "attack": 5,
+          "health": 1,
+          "perk": "status-steak-attack",
+          "slot": 3
+        },
+        {
+          "pet": "Dog",
+          "attack": 9,
+          "health": 10,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ox",
+          "attack": 11,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 4,
+          "health": 4,
+          "perk": "status-extra-life",
+          "slot": 2
+        },
+        {
+          "pet": "Shark",
+          "attack": 12,
+          "health": 12,
+          "perk": "status-melon-armor",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Snake",
+          "attack": 14,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Cat",
+          "attack": 5,
+          "health": 1,
+          "perk": "status-steak-attack",
+          "slot": 2
+        },
+        {
+          "pet": "Dog",
+          "attack": 9,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ox",
+          "attack": 11,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Deer",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 6,
+          "perk": "status-splash-attack",
+          "slot": 3
+        },
+        {
+          "pet": "Shark",
+          "attack": 16,
+          "health": 16,
+          "perk": "status-melon-armor",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Deer",
+          "attack": 4,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 5,
+          "health": 1,
+          "perk": "status-steak-attack",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Snake",
+          "attack": 8,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 6,
+          "perk": "status-splash-attack",
+          "slot": 2
+        },
+        {
+          "pet": "Shark",
+          "attack": 20,
+          "health": 20,
+          "perk": "status-melon-armor",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Bus",
+          "attack": 5,
+          "health": 3,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 5,
+          "health": 1,
+          "perk": "status-steak-attack",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Deer",
+          "attack": 1,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 6,
+          "perk": "status-splash-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Shark",
+          "attack": 24,
+          "health": 24,
+          "perk": "status-melon-armor",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Bus",
+          "attack": 5,
+          "health": 2,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Cat",
+          "attack": 5,
+          "health": 1,
+          "perk": "status-steak-attack",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 6,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 1,
+          "perk": "status-splash-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Shark",
+          "attack": 28,
+          "health": 28,
+          "perk": "status-melon-armor",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 1,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Shark",
+          "attack": 32,
+          "health": 32,
+          "perk": "status-melon-armor",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Bus",
+          "attack": 10,
+          "health": 1,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Shark",
+          "attack": 32,
+          "health": 32,
+          "perk": "status-melon-armor",
+          "slot": 1
+        }
+      ]
+    }
+  ]
+}

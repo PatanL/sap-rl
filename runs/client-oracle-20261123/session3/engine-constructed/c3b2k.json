@@ -1,0 +1,23 @@
+{
+ "d7-dead-crab": [
+  {
+   "count": 16,
+   "steps": [
+    "start: P[Fish 3/40, Crab 4/7] O[Fish 1/30, Dolphin 9/5]",
+    "after-attack-01: P[Fish 3/39, Crab 4/7] O[Fish 1/27, Dolphin 9/5]",
+    "after-attack-02: P[Fish 3/38, Crab 4/7] O[Fish 1/24, Dolphin 9/5]",
+    "after-attack-03: P[Fish 3/37, Crab 4/7] O[Fish 1/21, Dolphin 9/5]",
+    "after-attack-04: P[Fish 3/36, Crab 4/7] O[Fish 1/18, Dolphin 9/5]",
+    "after-attack-05: P[Fish 3/35, Crab 4/7] O[Fish 1/15, Dolphin 9/5]",
+    "after-attack-06: P[Fish 3/34, Crab 4/7] O[Fish 1/12, Dolphin 9/5]",
+    "after-attack-07: P[Fish 3/33, Crab 4/7] O[Fish 1/9, Dolphin 9/5]",
+    "after-attack-08: P[Fish 3/32, Crab 4/7] O[Fish 1/6, Dolphin 9/5]",
+    "after-attack-09: P[Fish 3/31, Crab 4/7] O[Fish 1/3, Dolphin 9/5]",
+    "after-attack-10: P[Fish 3/30, Crab 4/7] O[Dolphin 9/5]",
+    "after-attack-11: P[Fish 3/21, Crab 4/7] O[Dolphin 9/2]",
+    "after-attack-12: P[Fish 3/12, Crab 4/7] O[empty]",
+    "final: P[Fish 3/12, Crab 4/7] O[empty]"
+   ]
+  }
+ ]
+}

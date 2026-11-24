@@ -1,0 +1,16 @@
+{
+ "e5b-wolv-vs-rhino-tier2": [
+  {
+   "count": 20,
+   "steps": [
+    "start: P[Rhino 6/20, Pig 2/20, Beaver 3/21, Duck 4/22, Wolverine 6/23] O[Hedgehog 1/1, Snail 1/7, Swan 2/30]",
+    "after-attack-01: P[Rhino 6/17, Pig 2/18, Beaver 3/19, Duck 4/20, Wolverine 6/21] O[Swan 2/21]",
+    "after-attack-02: P[Rhino 6/15, Pig 2/18, Beaver 3/19, Duck 4/20, Wolverine 6/21] O[Swan 2/15]",
+    "after-attack-03: P[Rhino 6/13, Pig 2/18, Beaver 3/19, Duck 4/20, Wolverine 6/21] O[Swan 2/9]",
+    "after-attack-04: P[Rhino 6/11, Pig 2/18, Beaver 3/19, Duck 4/20, Wolverine 6/21] O[Swan 2/1]",
+    "after-attack-05: P[Rhino 6/9, Pig 2/18, Beaver 3/19, Duck 4/20, Wolverine 6/21] O[empty]",
+    "final: P[Rhino 6/9, Pig 2/18, Beaver 3/19, Duck 4/20, Wolverine 6/21] O[empty]"
+   ]
+  }
+ ]
+}

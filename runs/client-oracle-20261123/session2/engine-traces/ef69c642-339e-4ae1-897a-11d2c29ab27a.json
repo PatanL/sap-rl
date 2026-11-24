@@ -1,0 +1,257 @@
+{
+  "battle_id": "ef69c642-339e-4ae1-897a-11d2c29ab27a",
+  "recorded_seed": -579515804,
+  "engine_seed": 3715451492,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Hedgehog",
+          "attack": 7,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 5,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Peacock",
+          "attack": 4,
+          "health": 10,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dodo",
+          "attack": 5,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Ox",
+          "attack": 1,
+          "health": 6,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Hedgehog",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Hedgehog",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Camel",
+          "attack": 8,
+          "health": 11,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 4,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 4,
+          "health": 7,
+          "perk": "status-cake",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Hedgehog",
+          "attack": 7,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 5,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Peacock",
+          "attack": 6,
+          "health": 10,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dodo",
+          "attack": 5,
+          "health": 6,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Ox",
+          "attack": 1,
+          "health": 6,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Hedgehog",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Hedgehog",
+          "attack": 6,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Camel",
+          "attack": 8,
+          "health": 11,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 4,
+          "health": 7,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 4,
+          "health": 7,
+          "perk": "status-cake",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Hedgehog",
+          "attack": 7,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 5,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Peacock",
+          "attack": 12,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Dodo",
+          "attack": 5,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Ox",
+          "attack": 1,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Hedgehog",
+          "attack": 6,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Camel",
+          "attack": 8,
+          "health": 6,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Blowfish",
+          "attack": 6,
+          "health": 9,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Kangaroo",
+          "attack": 4,
+          "health": 5,
+          "perk": "status-cake",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Blowfish",
+          "attack": 8,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    }
+  ]
+}

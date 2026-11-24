@@ -1,0 +1,458 @@
+{
+  "battle_id": "85fe3dba-52c5-4c86-8d9d-00e46d04e6ce",
+  "recorded_seed": -580915095,
+  "engine_seed": 3714052201,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Deer",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 6,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Swan",
+          "attack": 13,
+          "health": 16,
+          "perk": "status-melon-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 3
+        },
+        {
+          "pet": "Snail",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Deer",
+          "attack": 5,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Parrot",
+          "attack": 7,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Parrot",
+          "attack": 7,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Ox",
+          "attack": 4,
+          "health": 7,
+          "perk": "status-melon-armor",
+          "slot": 3
+        },
+        {
+          "pet": "Turkey",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Deer",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 6,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Swan",
+          "attack": 13,
+          "health": 16,
+          "perk": "status-melon-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 3
+        },
+        {
+          "pet": "Snail",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Deer",
+          "attack": 5,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Parrot",
+          "attack": 7,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Ox",
+          "attack": 5,
+          "health": 7,
+          "perk": "status-melon-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Turkey",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Bus",
+          "attack": 5,
+          "health": 3,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Dolphin",
+          "attack": 6,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Swan",
+          "attack": 13,
+          "health": 16,
+          "perk": "status-melon-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 3
+        },
+        {
+          "pet": "Snail",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Deer",
+          "attack": 5,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Parrot",
+          "attack": 7,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Ox",
+          "attack": 5,
+          "health": 7,
+          "perk": "status-melon-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Turkey",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Dolphin",
+          "attack": 6,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Swan",
+          "attack": 13,
+          "health": 16,
+          "perk": "status-melon-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 2
+        },
+        {
+          "pet": "Snail",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bus",
+          "attack": 8,
+          "health": 4,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Bus",
+          "attack": 8,
+          "health": 4,
+          "perk": "status-splash-attack",
+          "slot": 1
+        },
+        {
+          "pet": "Ox",
+          "attack": 5,
+          "health": 7,
+          "perk": "status-melon-armor",
+          "slot": 2
+        },
+        {
+          "pet": "Turkey",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Swan",
+          "attack": 13,
+          "health": 16,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rabbit",
+          "attack": 3,
+          "health": 3,
+          "perk": "status-cake",
+          "slot": 1
+        },
+        {
+          "pet": "Snail",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bus",
+          "attack": 8,
+          "health": 4,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Ox",
+          "attack": 5,
+          "health": 7,
+          "perk": "status-melon-armor",
+          "slot": 1
+        },
+        {
+          "pet": "Turkey",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Swan",
+          "attack": 13,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snail",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ox",
+          "attack": 5,
+          "health": 7,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Turkey",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Swan",
+          "attack": 13,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Snail",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Ox",
+          "attack": 5,
+          "health": 7,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Turkey",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [
+        {
+          "pet": "Snail",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Turkey",
+          "attack": 3,
+          "health": 4,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-07",
+      "player": [
+        {
+          "pet": "Snail",
+          "attack": 3,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Turkey",
+          "attack": 3,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-08",
+      "player": [],
+      "opponent": []
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": []
+    }
+  ]
+}

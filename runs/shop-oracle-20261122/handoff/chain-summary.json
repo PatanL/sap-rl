@@ -1,0 +1,103 @@
+{
+  "seats": {
+    "n": 6673,
+    "snapshot_fail": 147,
+    "chain_fail": 412,
+    "snap_outcome_fail": 15,
+    "chain_outcome_fail": 73,
+    "chained_only_fail": 265,
+    "snap_only_fail": 0,
+    "rescues": {
+      "count": 0,
+      "temp": 265,
+      "parrot": 0,
+      "slots": 0,
+      "count+temp+parrot+slots": 265
+    },
+    "mismatch_turns": 37
+  },
+  "unique": {
+    "n": 3666,
+    "snapshot_fail": 85,
+    "chain_fail": 252,
+    "snap_outcome_fail": 9,
+    "chain_outcome_fail": 44,
+    "chained_only_fail": 167,
+    "snap_only_fail": 0,
+    "rescues": {
+      "count": 0,
+      "temp": 167,
+      "parrot": 0,
+      "slots": 0,
+      "count+temp+parrot+slots": 167
+    },
+    "mismatch_turns": 15
+  },
+  "dev": {
+    "n": 2339,
+    "snapshot_fail": 52,
+    "chain_fail": 178,
+    "snap_outcome_fail": 7,
+    "chain_outcome_fail": 33,
+    "chained_only_fail": 126,
+    "snap_only_fail": 0,
+    "rescues": {
+      "count": 0,
+      "temp": 126,
+      "parrot": 0,
+      "slots": 0,
+      "count+temp+parrot+slots": 126
+    },
+    "mismatch_turns": 11
+  },
+  "heldout": {
+    "n": 1327,
+    "snapshot_fail": 33,
+    "chain_fail": 74,
+    "snap_outcome_fail": 2,
+    "chain_outcome_fail": 11,
+    "chained_only_fail": 41,
+    "snap_only_fail": 0,
+    "rescues": {
+      "count": 0,
+      "temp": 41,
+      "parrot": 0,
+      "slots": 0,
+      "count+temp+parrot+slots": 41
+    },
+    "mismatch_turns": 4
+  },
+  "by_side": {
+    "0": 3306,
+    "1": 360
+  },
+  "both": 3007,
+  "counter_pairs": 32494,
+  "either_nonzero": 1415,
+  "counter_mismatches": [
+    [
+      [
+        "pet-rabbit",
+        3,
+        2
+      ],
+      19
+    ],
+    [
+      [
+        "pet-rabbit",
+        2,
+        1
+      ],
+      16
+    ],
+    [
+      [
+        "pet-rabbit",
+        1,
+        0
+      ],
+      5
+    ]
+  ]
+}

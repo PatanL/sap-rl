@@ -1,0 +1,86 @@
+[
+  {
+    "layout": "sorted",
+    "compact": true,
+    "cap": 512,
+    "checks": {
+      "results/g48/batch.pt bf16": {
+        "passed": false,
+        "errors": {
+          "loss_abs": 0.0024779488843074127,
+          "gradient_relative_l2": 0.10683470530262804,
+          "delta_relative_l2": 0.013652984118493961,
+          "weight_max_abs": 4.120171070098877e-06
+        },
+        "decisions": 8193,
+        "cosine": 0.9945121177326309,
+        "gradient_max_abs": 0.0011977776885032654,
+        "loss_reference": 0.2538877775471797,
+        "loss_fast": 0.2514098286628723
+      }
+    }
+  },
+  {
+    "layout": "short",
+    "compact": false,
+    "cap": 512,
+    "checks": {
+      "results/g48/batch.pt bf16": {
+        "passed": true,
+        "errors": {
+          "loss_abs": 0.00017476580554154353,
+          "gradient_relative_l2": 0.018832632961098657,
+          "delta_relative_l2": 0.0029092794294733157,
+          "weight_max_abs": 2.1085143089294434e-06
+        },
+        "decisions": 8193,
+        "cosine": 0.9998248115881692,
+        "gradient_max_abs": 0.0001926422119140625,
+        "loss_reference": 0.2538877775471797,
+        "loss_fast": 0.2537130117416382
+      },
+      "results/g48/batch.pt fp32": {
+        "passed": true,
+        "errors": {
+          "loss_abs": 2.83727716321458e-09,
+          "gradient_relative_l2": 1.1464676110361294e-06,
+          "delta_relative_l2": 7.378727407069487e-06,
+          "weight_max_abs": 1.4901161193847656e-08
+        },
+        "decisions": 8193,
+        "cosine": 0.9999999999993504,
+        "gradient_max_abs": 1.83936208486557e-08,
+        "loss_reference": 0.24879758343706201,
+        "loss_fast": 0.24879758059978485
+      },
+      "results/batch.pt bf16": {
+        "passed": true,
+        "errors": {
+          "loss_abs": 2.799005185577519e-05,
+          "gradient_relative_l2": 0.01029118465060116,
+          "delta_relative_l2": 0.0027158432396462676,
+          "weight_max_abs": 3.0472874641418457e-06
+        },
+        "decisions": 8194,
+        "cosine": 0.9999472270786735,
+        "gradient_max_abs": 0.0001068115234375,
+        "loss_reference": 0.27951112956677887,
+        "loss_fast": 0.2794831395149231
+      },
+      "results/batch.pt fp32": {
+        "passed": true,
+        "errors": {
+          "loss_abs": 2.846023638980455e-09,
+          "gradient_relative_l2": 9.6743682632832e-07,
+          "delta_relative_l2": 9.255059682604e-06,
+          "weight_max_abs": 2.9802322387695312e-08
+        },
+        "decisions": 8194,
+        "cosine": 0.9999999999995371,
+        "gradient_max_abs": 1.7229467630386353e-08,
+        "loss_reference": 0.2808049945681306,
+        "loss_fast": 0.28080499172210693
+      }
+    }
+  }
+]

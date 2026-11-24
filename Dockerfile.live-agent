@@ -1,0 +1,6 @@
+FROM sap-rl-v13-runtime:20260828
+
+RUN pip install --no-cache-dir "opencv-python-headless>=4.10,<5"
+
+ENV PYTHONPATH=/workspace/sapai:/workspace/sapai-gym
+WORKDIR /workspace

@@ -1,0 +1,1181 @@
+{
+  "baseline_panel": {
+    "10050": {
+      "expected": "runs/corrected-observer-continuation-20260907-v1/run-v1/training/update-010050.pt",
+      "sha256": "862e65d2fa360a6012741e16f6f1e5ce0c6ec51027e9eddd9856f0eac8bd2656",
+      "unavailable": "checkpoint file absent"
+    },
+    "v22": {
+      "candidate_update": 25772,
+      "ci95": [
+        0.828125,
+        0.96875
+      ],
+      "games": 64,
+      "opponent": "runs/turtle-league-v22-curriculum-diverse-v3/update-002000.pt",
+      "opponent_sha256": "8f0cd760bdf3ea8258fec84ad6e93882054ee82755032808308737324aff6e5c",
+      "pairs": 32,
+      "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/baseline-v22.json",
+      "score": 0.90625,
+      "seconds": 12.997454235097393,
+      "wdl": [
+        58,
+        0,
+        6
+      ]
+    },
+    "v25": {
+      "candidate_update": 25772,
+      "ci95": [
+        0.71875,
+        0.90625
+      ],
+      "games": 64,
+      "opponent": "runs/turtle-league-v25-recalibration-from-v22-2000/update-000300.pt",
+      "opponent_sha256": "7c60acec58b56080bf240a85444163a1d72dba7bee25ac7f54e3dc8302d60994",
+      "pairs": 32,
+      "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/baseline-v25.json",
+      "score": 0.8125,
+      "seconds": 13.665472100954503,
+      "wdl": [
+        52,
+        0,
+        12
+      ]
+    }
+  },
+  "board_baseline": {
+    "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2",
+    "fixtures": [
+      "fixtures-340.json",
+      "fixtures-fresh-all.json",
+      "fixtures-fresh2-all.json",
+      "fixtures-fresh3-all.json",
+      "fixtures-players.json"
+    ],
+    "ghost_active_s": 23.149347206111997,
+    "ghost_wall_s": 23.149347206111997,
+    "includes_recorder_loading": false,
+    "index": 0.311378125,
+    "matches": 1000,
+    "measured_service_s": 140.849347206112,
+    "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/board-0669109e9b6ee2d4-d1a450928296-20261123/ghost.json",
+    "record_active_s": 117.7,
+    "record_command_wall_s": 409.6163352429867,
+    "recording_seconds": 117.7,
+    "revision": "turtle-v31-replay-852b274e7eb2-20261123",
+    "scores": {
+      "10": 0.24228125,
+      "12": 0.18509375,
+      "3": 0.4055625,
+      "5": 0.393234375,
+      "7": 0.33071875
+    },
+    "seed": 20261123,
+    "sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+    "split": "yardstick"
+  },
+  "champion": "runs/train-live-20261123/g-hist-frozen50/update-027022.pt",
+  "champion_sha256": "bf816b6f73be79513dd8d7ca541cbf1fcf96a342d6522ab7dff062bab6c675aa",
+  "checkpoints": [
+    {
+      "against_25772": {
+        "candidate_update": 26022,
+        "ci95": [
+          0.40625,
+          0.578125
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26022-251694159b85-champ-0669109e9b6e.json",
+        "score": 0.4921875,
+        "seconds": 78.43487017299049,
+        "wdl": [
+          63,
+          0,
+          65
+        ]
+      },
+      "against_champion": {
+        "candidate_update": 26022,
+        "ci95": [
+          0.40625,
+          0.578125
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26022-251694159b85-champ-0669109e9b6e.json",
+        "score": 0.4921875,
+        "seconds": 78.43487017299049,
+        "wdl": [
+          63,
+          0,
+          65
+        ]
+      },
+      "board_strength": {
+        "active_record_command_s": 381.7573260180652,
+        "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2",
+        "fixtures": [
+          "fixtures-340.json",
+          "fixtures-fresh-all.json",
+          "fixtures-fresh2-all.json",
+          "fixtures-fresh3-all.json",
+          "fixtures-players.json"
+        ],
+        "ghost_active_s": 18.464585511945188,
+        "ghost_wall_s": 19.53809499903582,
+        "includes_recorder_loading": true,
+        "index": 0.300659375,
+        "matches": 1000,
+        "measured_service_s": 400.2219115300104,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/board-251694159b854c6b-d1a450928296-20261123/ghost.json",
+        "record_active_s": 381.7573260180652,
+        "record_command_wall_s": 383.93124423292466,
+        "recording_seconds": 379.2,
+        "revision": "turtle-v31-replay-852b274e7eb2-20261123",
+        "scores": {
+          "10": 0.230875,
+          "12": 0.17275,
+          "3": 0.3941875,
+          "5": 0.389375,
+          "7": 0.316109375
+        },
+        "seed": 20261123,
+        "sha256": "251694159b854c6b5179f465a36a59cdfb655df8e8a1e290c7f9dcda078c7b04",
+        "split": "yardstick"
+      },
+      "checkpoint": "runs/train-live-20261123/g-hist-frozen50/update-026022.pt",
+      "confirmation": null,
+      "confirmed_champion": false,
+      "confirmed_regression": false,
+      "finished_utc": "2026-11-23T14:19:55.014455+00:00",
+      "panel": {
+        "10050": {
+          "expected": "runs/corrected-observer-continuation-20260907-v1/run-v1/training/update-010050.pt",
+          "sha256": "862e65d2fa360a6012741e16f6f1e5ce0c6ec51027e9eddd9856f0eac8bd2656",
+          "unavailable": "checkpoint file absent"
+        },
+        "v22": {
+          "candidate_update": 26022,
+          "ci95": [
+            0.6875,
+            0.875
+          ],
+          "delta_ci95": [
+            -0.21875,
+            -0.03125
+          ],
+          "delta_from_25772": -0.125,
+          "games": 64,
+          "opponent": "runs/turtle-league-v22-curriculum-diverse-v3/update-002000.pt",
+          "opponent_sha256": "8f0cd760bdf3ea8258fec84ad6e93882054ee82755032808308737324aff6e5c",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26022-251694159b85-panel-v22.json",
+          "score": 0.78125,
+          "seconds": 50.621170765021816,
+          "wdl": [
+            50,
+            0,
+            14
+          ]
+        },
+        "v25": {
+          "candidate_update": 26022,
+          "ci95": [
+            0.65625,
+            0.890625
+          ],
+          "delta_ci95": [
+            -0.1875,
+            0.125
+          ],
+          "delta_from_25772": -0.03125,
+          "games": 64,
+          "opponent": "runs/turtle-league-v25-recalibration-from-v22-2000/update-000300.pt",
+          "opponent_sha256": "7c60acec58b56080bf240a85444163a1d72dba7bee25ac7f54e3dc8302d60994",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26022-251694159b85-panel-v25.json",
+          "score": 0.78125,
+          "seconds": 56.46656942600384,
+          "wdl": [
+            50,
+            0,
+            14
+          ]
+        }
+      },
+      "sha256": "251694159b854c6b5179f465a36a59cdfb655df8e8a1e290c7f9dcda078c7b04",
+      "version": 26022
+    },
+    {
+      "against_25772": {
+        "candidate_update": 26272,
+        "ci95": [
+          0.4296875,
+          0.5859375
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26272-1028dcd746e9-champ-0669109e9b6e.json",
+        "score": 0.5078125,
+        "seconds": 67.68874980788678,
+        "wdl": [
+          65,
+          0,
+          63
+        ]
+      },
+      "against_champion": {
+        "candidate_update": 26272,
+        "ci95": [
+          0.4296875,
+          0.5859375
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26272-1028dcd746e9-champ-0669109e9b6e.json",
+        "score": 0.5078125,
+        "seconds": 67.68874980788678,
+        "wdl": [
+          65,
+          0,
+          63
+        ]
+      },
+      "board_strength": {
+        "active_record_command_s": 342.1176126168575,
+        "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2",
+        "fixtures": [
+          "fixtures-340.json",
+          "fixtures-fresh-all.json",
+          "fixtures-fresh2-all.json",
+          "fixtures-fresh3-all.json",
+          "fixtures-players.json"
+        ],
+        "ghost_active_s": 17.86801470303908,
+        "ghost_wall_s": 18.83267285511829,
+        "includes_recorder_loading": true,
+        "index": 0.3156125,
+        "matches": 1000,
+        "measured_service_s": 359.9856273198966,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/board-1028dcd746e9a0d8-d1a450928296-20261123/ghost.json",
+        "record_active_s": 342.1176126168575,
+        "record_command_wall_s": 344.44006264186464,
+        "recording_seconds": 339.6,
+        "revision": "turtle-v31-replay-852b274e7eb2-20261123",
+        "scores": {
+          "10": 0.24978125,
+          "12": 0.1973125,
+          "3": 0.39840625,
+          "5": 0.405234375,
+          "7": 0.327328125
+        },
+        "seed": 20261123,
+        "sha256": "1028dcd746e9a0d849b96518a703b8343e5184086c74d98f941135ec669aa46e",
+        "split": "yardstick"
+      },
+      "checkpoint": "runs/train-live-20261123/g-hist-frozen50/update-026272.pt",
+      "confirmation": null,
+      "confirmed_champion": false,
+      "confirmed_regression": false,
+      "finished_utc": "2026-11-23T14:32:56.480402+00:00",
+      "panel": {
+        "10050": {
+          "expected": "runs/corrected-observer-continuation-20260907-v1/run-v1/training/update-010050.pt",
+          "sha256": "862e65d2fa360a6012741e16f6f1e5ce0c6ec51027e9eddd9856f0eac8bd2656",
+          "unavailable": "checkpoint file absent"
+        },
+        "v22": {
+          "candidate_update": 26272,
+          "ci95": [
+            0.703125,
+            0.859375
+          ],
+          "delta_ci95": [
+            -0.203125,
+            -0.046875
+          ],
+          "delta_from_25772": -0.125,
+          "games": 64,
+          "opponent": "runs/turtle-league-v22-curriculum-diverse-v3/update-002000.pt",
+          "opponent_sha256": "8f0cd760bdf3ea8258fec84ad6e93882054ee82755032808308737324aff6e5c",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26272-1028dcd746e9-panel-v22.json",
+          "score": 0.78125,
+          "seconds": 49.34332797396928,
+          "wdl": [
+            50,
+            0,
+            14
+          ]
+        },
+        "v25": {
+          "candidate_update": 26272,
+          "ci95": [
+            0.703125,
+            0.890625
+          ],
+          "delta_ci95": [
+            -0.140625,
+            0.109375
+          ],
+          "delta_from_25772": -0.015625,
+          "games": 64,
+          "opponent": "runs/turtle-league-v25-recalibration-from-v22-2000/update-000300.pt",
+          "opponent_sha256": "7c60acec58b56080bf240a85444163a1d72dba7bee25ac7f54e3dc8302d60994",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26272-1028dcd746e9-panel-v25.json",
+          "score": 0.796875,
+          "seconds": 48.60941431997344,
+          "wdl": [
+            51,
+            0,
+            13
+          ]
+        }
+      },
+      "sha256": "1028dcd746e9a0d849b96518a703b8343e5184086c74d98f941135ec669aa46e",
+      "version": 26272
+    },
+    {
+      "against_25772": {
+        "candidate_update": 26522,
+        "ci95": [
+          0.4609375,
+          0.6171875
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26522-03af619acef1-champ-0669109e9b6e.json",
+        "score": 0.5390625,
+        "seconds": 69.87889158702455,
+        "wdl": [
+          69,
+          0,
+          59
+        ]
+      },
+      "against_champion": {
+        "candidate_update": 26522,
+        "ci95": [
+          0.4609375,
+          0.6171875
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26522-03af619acef1-champ-0669109e9b6e.json",
+        "score": 0.5390625,
+        "seconds": 69.87889158702455,
+        "wdl": [
+          69,
+          0,
+          59
+        ]
+      },
+      "board_strength": {
+        "active_record_command_s": 353.2969576159958,
+        "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2",
+        "fixtures": [
+          "fixtures-340.json",
+          "fixtures-fresh-all.json",
+          "fixtures-fresh2-all.json",
+          "fixtures-fresh3-all.json",
+          "fixtures-players.json"
+        ],
+        "ghost_active_s": 18.006708313943818,
+        "ghost_wall_s": 18.733899384038523,
+        "includes_recorder_loading": true,
+        "index": 0.3093,
+        "matches": 1000,
+        "measured_service_s": 371.3036659299396,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/board-03af619acef10192-d1a450928296-20261123/ghost.json",
+        "record_active_s": 353.2969576159958,
+        "record_command_wall_s": 355.4575594589114,
+        "recording_seconds": 350.9,
+        "revision": "turtle-v31-replay-852b274e7eb2-20261123",
+        "scores": {
+          "10": 0.23565625,
+          "12": 0.187984375,
+          "3": 0.41253125,
+          "5": 0.396328125,
+          "7": 0.314
+        },
+        "seed": 20261123,
+        "sha256": "03af619acef10192f755c8d13893dcdcd46ec7b8630b06a6b4ee5cb7436176a0",
+        "split": "yardstick"
+      },
+      "checkpoint": "runs/train-live-20261123/g-hist-frozen50/update-026522.pt",
+      "confirmation": null,
+      "confirmed_champion": false,
+      "confirmed_regression": false,
+      "finished_utc": "2026-11-23T14:47:49.725971+00:00",
+      "panel": {
+        "10050": {
+          "expected": "runs/corrected-observer-continuation-20260907-v1/run-v1/training/update-010050.pt",
+          "sha256": "862e65d2fa360a6012741e16f6f1e5ce0c6ec51027e9eddd9856f0eac8bd2656",
+          "unavailable": "checkpoint file absent"
+        },
+        "v22": {
+          "candidate_update": 26522,
+          "ci95": [
+            0.796875,
+            0.953125
+          ],
+          "delta_ci95": [
+            -0.109375,
+            0.046875
+          ],
+          "delta_from_25772": -0.03125,
+          "games": 64,
+          "opponent": "runs/turtle-league-v22-curriculum-diverse-v3/update-002000.pt",
+          "opponent_sha256": "8f0cd760bdf3ea8258fec84ad6e93882054ee82755032808308737324aff6e5c",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26522-03af619acef1-panel-v22.json",
+          "score": 0.875,
+          "seconds": 46.03157966211438,
+          "wdl": [
+            56,
+            0,
+            8
+          ]
+        },
+        "v25": {
+          "candidate_update": 26522,
+          "ci95": [
+            0.703125,
+            0.890625
+          ],
+          "delta_ci95": [
+            -0.15625,
+            0.125
+          ],
+          "delta_from_25772": -0.015625,
+          "games": 64,
+          "opponent": "runs/turtle-league-v25-recalibration-from-v22-2000/update-000300.pt",
+          "opponent_sha256": "7c60acec58b56080bf240a85444163a1d72dba7bee25ac7f54e3dc8302d60994",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26522-03af619acef1-panel-v25.json",
+          "score": 0.796875,
+          "seconds": 49.7179628291633,
+          "wdl": [
+            51,
+            0,
+            13
+          ]
+        }
+      },
+      "sha256": "03af619acef10192f755c8d13893dcdcd46ec7b8630b06a6b4ee5cb7436176a0",
+      "version": 26522
+    },
+    {
+      "against_25772": {
+        "candidate_update": 26772,
+        "ci95": [
+          0.4609375,
+          0.6171875
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26772-c61b0ebb0a1c-champ-0669109e9b6e.json",
+        "score": 0.5390625,
+        "seconds": 65.02104183798656,
+        "wdl": [
+          69,
+          0,
+          59
+        ]
+      },
+      "against_champion": {
+        "candidate_update": 26772,
+        "ci95": [
+          0.4609375,
+          0.6171875
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26772-c61b0ebb0a1c-champ-0669109e9b6e.json",
+        "score": 0.5390625,
+        "seconds": 65.02104183798656,
+        "wdl": [
+          69,
+          0,
+          59
+        ]
+      },
+      "board_strength": {
+        "active_record_command_s": 315.13346149306744,
+        "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2",
+        "fixtures": [
+          "fixtures-340.json",
+          "fixtures-fresh-all.json",
+          "fixtures-fresh2-all.json",
+          "fixtures-fresh3-all.json",
+          "fixtures-players.json"
+        ],
+        "ghost_active_s": 17.63629514304921,
+        "ghost_wall_s": 18.284969094907865,
+        "includes_recorder_loading": true,
+        "index": 0.31441875,
+        "matches": 1000,
+        "measured_service_s": 332.76975663611665,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/board-c61b0ebb0a1cde65-d1a450928296-20261123/ghost.json",
+        "record_active_s": 315.13346149306744,
+        "record_command_wall_s": 316.7226682831533,
+        "recording_seconds": 312.8,
+        "revision": "turtle-v31-replay-852b274e7eb2-20261123",
+        "scores": {
+          "10": 0.238453125,
+          "12": 0.19596875,
+          "3": 0.407453125,
+          "5": 0.411125,
+          "7": 0.31909375
+        },
+        "seed": 20261123,
+        "sha256": "c61b0ebb0a1cde65790dbd57a6be29579f90be96924f646b16251a992b1be755",
+        "split": "yardstick"
+      },
+      "checkpoint": "runs/train-live-20261123/g-hist-frozen50/update-026772.pt",
+      "confirmation": null,
+      "confirmed_champion": false,
+      "confirmed_regression": false,
+      "finished_utc": "2026-11-23T15:02:13.087658+00:00",
+      "panel": {
+        "10050": {
+          "expected": "runs/corrected-observer-continuation-20260907-v1/run-v1/training/update-010050.pt",
+          "sha256": "862e65d2fa360a6012741e16f6f1e5ce0c6ec51027e9eddd9856f0eac8bd2656",
+          "unavailable": "checkpoint file absent"
+        },
+        "v22": {
+          "candidate_update": 26772,
+          "ci95": [
+            0.71875,
+            0.90625
+          ],
+          "delta_ci95": [
+            -0.1875,
+            0.0
+          ],
+          "delta_from_25772": -0.09375,
+          "games": 64,
+          "opponent": "runs/turtle-league-v22-curriculum-diverse-v3/update-002000.pt",
+          "opponent_sha256": "8f0cd760bdf3ea8258fec84ad6e93882054ee82755032808308737324aff6e5c",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26772-c61b0ebb0a1c-panel-v22.json",
+          "score": 0.8125,
+          "seconds": 50.11267850198783,
+          "wdl": [
+            52,
+            0,
+            12
+          ]
+        },
+        "v25": {
+          "candidate_update": 26772,
+          "ci95": [
+            0.671875,
+            0.859375
+          ],
+          "delta_ci95": [
+            -0.1875,
+            0.09375
+          ],
+          "delta_from_25772": -0.046875,
+          "games": 64,
+          "opponent": "runs/turtle-league-v25-recalibration-from-v22-2000/update-000300.pt",
+          "opponent_sha256": "7c60acec58b56080bf240a85444163a1d72dba7bee25ac7f54e3dc8302d60994",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-26772-c61b0ebb0a1c-panel-v25.json",
+          "score": 0.765625,
+          "seconds": 46.43218541704118,
+          "wdl": [
+            49,
+            0,
+            15
+          ]
+        }
+      },
+      "sha256": "c61b0ebb0a1cde65790dbd57a6be29579f90be96924f646b16251a992b1be755",
+      "version": 26772
+    },
+    {
+      "against_25772": {
+        "candidate_update": 27022,
+        "ci95": [
+          0.5078125,
+          0.6484375
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27022-bf816b6f73be-champ-0669109e9b6e.json",
+        "score": 0.578125,
+        "seconds": 73.03880495787598,
+        "wdl": [
+          74,
+          0,
+          54
+        ]
+      },
+      "against_champion": {
+        "candidate_update": 27022,
+        "ci95": [
+          0.5078125,
+          0.6484375
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27022-bf816b6f73be-champ-0669109e9b6e.json",
+        "score": 0.578125,
+        "seconds": 73.03880495787598,
+        "wdl": [
+          74,
+          0,
+          54
+        ]
+      },
+      "board_strength": {
+        "active_record_command_s": 365.49515490280464,
+        "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2",
+        "fixtures": [
+          "fixtures-340.json",
+          "fixtures-fresh-all.json",
+          "fixtures-fresh2-all.json",
+          "fixtures-fresh3-all.json",
+          "fixtures-players.json"
+        ],
+        "ghost_active_s": 17.1106962650083,
+        "ghost_wall_s": 18.067367466865107,
+        "includes_recorder_loading": true,
+        "index": 0.312309375,
+        "matches": 1000,
+        "measured_service_s": 382.60585116781294,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/board-bf816b6f73be7951-d1a450928296-20261123/ghost.json",
+        "record_active_s": 365.49515490280464,
+        "record_command_wall_s": 367.60224816715345,
+        "recording_seconds": 363.2,
+        "revision": "turtle-v31-replay-852b274e7eb2-20261123",
+        "scores": {
+          "10": 0.2495625,
+          "12": 0.187359375,
+          "3": 0.416125,
+          "5": 0.392953125,
+          "7": 0.315546875
+        },
+        "seed": 20261123,
+        "sha256": "bf816b6f73be79513dd8d7ca541cbf1fcf96a342d6522ab7dff062bab6c675aa",
+        "split": "yardstick"
+      },
+      "checkpoint": "runs/train-live-20261123/g-hist-frozen50/update-027022.pt",
+      "confirmation": {
+        "candidate_update": 27022,
+        "ci95": [
+          0.5078125,
+          0.6171875
+        ],
+        "games": 256,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 128,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27022-bf816b6f73be-confirm-0669109e9b6e.json",
+        "score": 0.5625,
+        "seconds": 137.71449800301343,
+        "wdl": [
+          144,
+          0,
+          112
+        ]
+      },
+      "confirmed_champion": true,
+      "confirmed_regression": false,
+      "finished_utc": "2026-11-23T15:21:34.973796+00:00",
+      "panel": {
+        "10050": {
+          "expected": "runs/corrected-observer-continuation-20260907-v1/run-v1/training/update-010050.pt",
+          "sha256": "862e65d2fa360a6012741e16f6f1e5ce0c6ec51027e9eddd9856f0eac8bd2656",
+          "unavailable": "checkpoint file absent"
+        },
+        "v22": {
+          "candidate_update": 27022,
+          "ci95": [
+            0.6875,
+            0.875
+          ],
+          "delta_ci95": [
+            -0.234375,
+            -0.015625
+          ],
+          "delta_from_25772": -0.125,
+          "games": 64,
+          "opponent": "runs/turtle-league-v22-curriculum-diverse-v3/update-002000.pt",
+          "opponent_sha256": "8f0cd760bdf3ea8258fec84ad6e93882054ee82755032808308737324aff6e5c",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27022-bf816b6f73be-panel-v22.json",
+          "score": 0.78125,
+          "seconds": 46.041002064943314,
+          "wdl": [
+            50,
+            0,
+            14
+          ]
+        },
+        "v25": {
+          "candidate_update": 27022,
+          "ci95": [
+            0.65625,
+            0.875
+          ],
+          "delta_ci95": [
+            -0.1875,
+            0.09375
+          ],
+          "delta_from_25772": -0.046875,
+          "games": 64,
+          "opponent": "runs/turtle-league-v25-recalibration-from-v22-2000/update-000300.pt",
+          "opponent_sha256": "7c60acec58b56080bf240a85444163a1d72dba7bee25ac7f54e3dc8302d60994",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27022-bf816b6f73be-panel-v25.json",
+          "score": 0.765625,
+          "seconds": 48.60928431595676,
+          "wdl": [
+            49,
+            0,
+            15
+          ]
+        }
+      },
+      "sha256": "bf816b6f73be79513dd8d7ca541cbf1fcf96a342d6522ab7dff062bab6c675aa",
+      "version": 27022
+    },
+    {
+      "against_25772": {
+        "candidate_update": 27272,
+        "ci95": [
+          0.4375,
+          0.6015625
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27272-bcfe34756634-parent.json",
+        "score": 0.5234375,
+        "seconds": 69.12208568211645,
+        "wdl": [
+          67,
+          0,
+          61
+        ]
+      },
+      "against_champion": {
+        "candidate_update": 27272,
+        "ci95": [
+          0.4453125,
+          0.5859375
+        ],
+        "games": 128,
+        "opponent": "runs/train-live-20261123/g-hist-frozen50/update-027022.pt",
+        "opponent_sha256": "bf816b6f73be79513dd8d7ca541cbf1fcf96a342d6522ab7dff062bab6c675aa",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27272-bcfe34756634-champ-bf816b6f73be.json",
+        "score": 0.515625,
+        "seconds": 72.48221244895831,
+        "wdl": [
+          66,
+          0,
+          62
+        ]
+      },
+      "board_strength": {
+        "active_record_command_s": 342.63621364091523,
+        "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2",
+        "fixtures": [
+          "fixtures-340.json",
+          "fixtures-fresh-all.json",
+          "fixtures-fresh2-all.json",
+          "fixtures-fresh3-all.json",
+          "fixtures-players.json"
+        ],
+        "ghost_active_s": 17.03353061596863,
+        "ghost_wall_s": 17.714988583000377,
+        "includes_recorder_loading": true,
+        "index": 0.313353125,
+        "matches": 1000,
+        "measured_service_s": 359.66974425688386,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/board-bcfe34756634a2e8-d1a450928296-20261123/ghost.json",
+        "record_active_s": 342.63621364091523,
+        "record_command_wall_s": 344.4994175909087,
+        "recording_seconds": 340.2,
+        "revision": "turtle-v31-replay-852b274e7eb2-20261123",
+        "scores": {
+          "10": 0.24853125,
+          "12": 0.190984375,
+          "3": 0.415328125,
+          "5": 0.386109375,
+          "7": 0.3258125
+        },
+        "seed": 20261123,
+        "sha256": "bcfe34756634a2e88ac6d46f90a0aaab6b6e2632fc4dba2bc58dd43c496834d0",
+        "split": "yardstick"
+      },
+      "checkpoint": "runs/train-live-20261123/g-hist-frozen50/update-027272.pt",
+      "confirmation": null,
+      "confirmed_champion": false,
+      "confirmed_regression": false,
+      "finished_utc": "2026-11-23T15:36:17.843773+00:00",
+      "panel": {
+        "10050": {
+          "expected": "runs/corrected-observer-continuation-20260907-v1/run-v1/training/update-010050.pt",
+          "sha256": "862e65d2fa360a6012741e16f6f1e5ce0c6ec51027e9eddd9856f0eac8bd2656",
+          "unavailable": "checkpoint file absent"
+        },
+        "v22": {
+          "candidate_update": 27272,
+          "ci95": [
+            0.78125,
+            0.9375
+          ],
+          "delta_ci95": [
+            -0.125,
+            0.03125
+          ],
+          "delta_from_25772": -0.046875,
+          "games": 64,
+          "opponent": "runs/turtle-league-v22-curriculum-diverse-v3/update-002000.pt",
+          "opponent_sha256": "8f0cd760bdf3ea8258fec84ad6e93882054ee82755032808308737324aff6e5c",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27272-bcfe34756634-panel-v22.json",
+          "score": 0.859375,
+          "seconds": 47.72705203597434,
+          "wdl": [
+            55,
+            0,
+            9
+          ]
+        },
+        "v25": {
+          "candidate_update": 27272,
+          "ci95": [
+            0.734375,
+            0.921875
+          ],
+          "delta_ci95": [
+            -0.109375,
+            0.140625
+          ],
+          "delta_from_25772": 0.015625,
+          "games": 64,
+          "opponent": "runs/turtle-league-v25-recalibration-from-v22-2000/update-000300.pt",
+          "opponent_sha256": "7c60acec58b56080bf240a85444163a1d72dba7bee25ac7f54e3dc8302d60994",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27272-bcfe34756634-panel-v25.json",
+          "score": 0.828125,
+          "seconds": 46.457545045996085,
+          "wdl": [
+            53,
+            0,
+            11
+          ]
+        }
+      },
+      "sha256": "bcfe34756634a2e88ac6d46f90a0aaab6b6e2632fc4dba2bc58dd43c496834d0",
+      "version": 27272
+    },
+    {
+      "against_25772": {
+        "candidate_update": 27522,
+        "ci95": [
+          0.4453125,
+          0.5859375
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27522-50f099bfbb09-parent.json",
+        "score": 0.515625,
+        "seconds": 63.367154019884765,
+        "wdl": [
+          66,
+          0,
+          62
+        ]
+      },
+      "against_champion": {
+        "candidate_update": 27522,
+        "ci95": [
+          0.421875,
+          0.5859375
+        ],
+        "games": 128,
+        "opponent": "runs/train-live-20261123/g-hist-frozen50/update-027022.pt",
+        "opponent_sha256": "bf816b6f73be79513dd8d7ca541cbf1fcf96a342d6522ab7dff062bab6c675aa",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27522-50f099bfbb09-champ-bf816b6f73be.json",
+        "score": 0.5,
+        "seconds": 68.51549206511118,
+        "wdl": [
+          64,
+          0,
+          64
+        ]
+      },
+      "board_strength": {
+        "active_record_command_s": 333.28379910904914,
+        "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2",
+        "fixtures": [
+          "fixtures-340.json",
+          "fixtures-fresh-all.json",
+          "fixtures-fresh2-all.json",
+          "fixtures-fresh3-all.json",
+          "fixtures-players.json"
+        ],
+        "ghost_active_s": 17.932188112055883,
+        "ghost_wall_s": 18.766259170137346,
+        "includes_recorder_loading": true,
+        "index": 0.30915312500000003,
+        "matches": 1000,
+        "measured_service_s": 351.215987221105,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/board-50f099bfbb09ef43-d1a450928296-20261123/ghost.json",
+        "record_active_s": 333.28379910904914,
+        "record_command_wall_s": 335.159500655951,
+        "recording_seconds": 331.0,
+        "revision": "turtle-v31-replay-852b274e7eb2-20261123",
+        "scores": {
+          "10": 0.24528125,
+          "12": 0.185265625,
+          "3": 0.40590625,
+          "5": 0.3993125,
+          "7": 0.31
+        },
+        "seed": 20261123,
+        "sha256": "50f099bfbb09ef4311873e7d7b69d18f4ad7cc85f4e7b28efcaadfcb44b23579",
+        "split": "yardstick"
+      },
+      "checkpoint": "runs/train-live-20261123/g-hist-frozen50/update-027522.pt",
+      "confirmation": null,
+      "confirmed_champion": false,
+      "confirmed_regression": false,
+      "finished_utc": "2026-11-23T15:52:02.815230+00:00",
+      "panel": {
+        "10050": {
+          "expected": "runs/corrected-observer-continuation-20260907-v1/run-v1/training/update-010050.pt",
+          "sha256": "862e65d2fa360a6012741e16f6f1e5ce0c6ec51027e9eddd9856f0eac8bd2656",
+          "unavailable": "checkpoint file absent"
+        },
+        "v22": {
+          "candidate_update": 27522,
+          "ci95": [
+            0.765625,
+            0.921875
+          ],
+          "delta_ci95": [
+            -0.171875,
+            0.046875
+          ],
+          "delta_from_25772": -0.0625,
+          "games": 64,
+          "opponent": "runs/turtle-league-v22-curriculum-diverse-v3/update-002000.pt",
+          "opponent_sha256": "8f0cd760bdf3ea8258fec84ad6e93882054ee82755032808308737324aff6e5c",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27522-50f099bfbb09-panel-v22.json",
+          "score": 0.84375,
+          "seconds": 46.92542202793993,
+          "wdl": [
+            54,
+            0,
+            10
+          ]
+        },
+        "v25": {
+          "candidate_update": 27522,
+          "ci95": [
+            0.703125,
+            0.890625
+          ],
+          "delta_ci95": [
+            -0.15625,
+            0.125
+          ],
+          "delta_from_25772": -0.015625,
+          "games": 64,
+          "opponent": "runs/turtle-league-v25-recalibration-from-v22-2000/update-000300.pt",
+          "opponent_sha256": "7c60acec58b56080bf240a85444163a1d72dba7bee25ac7f54e3dc8302d60994",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27522-50f099bfbb09-panel-v25.json",
+          "score": 0.796875,
+          "seconds": 48.31641337485053,
+          "wdl": [
+            51,
+            0,
+            13
+          ]
+        }
+      },
+      "sha256": "50f099bfbb09ef4311873e7d7b69d18f4ad7cc85f4e7b28efcaadfcb44b23579",
+      "version": 27522
+    },
+    {
+      "against_25772": {
+        "candidate_update": 27772,
+        "ci95": [
+          0.4609375,
+          0.6171875
+        ],
+        "games": 128,
+        "opponent": "checkpoints/update-025772.pt",
+        "opponent_sha256": "0669109e9b6ee2d4f0309a3fec83039fc8a7d74f74e3c9f629d2f7026e515d49",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27772-c8d97c8d7fcc-parent.json",
+        "score": 0.5390625,
+        "seconds": 49.731493269093335,
+        "wdl": [
+          69,
+          0,
+          59
+        ]
+      },
+      "against_champion": {
+        "candidate_update": 27772,
+        "ci95": [
+          0.3984375,
+          0.5703125
+        ],
+        "games": 128,
+        "opponent": "runs/train-live-20261123/g-hist-frozen50/update-027022.pt",
+        "opponent_sha256": "bf816b6f73be79513dd8d7ca541cbf1fcf96a342d6522ab7dff062bab6c675aa",
+        "pairs": 64,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27772-c8d97c8d7fcc-champ-bf816b6f73be.json",
+        "score": 0.484375,
+        "seconds": 51.47858346789144,
+        "wdl": [
+          62,
+          0,
+          66
+        ]
+      },
+      "board_strength": {
+        "active_record_command_s": 300.93364842096344,
+        "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2",
+        "fixtures": [
+          "fixtures-340.json",
+          "fixtures-fresh-all.json",
+          "fixtures-fresh2-all.json",
+          "fixtures-fresh3-all.json",
+          "fixtures-players.json"
+        ],
+        "ghost_active_s": 14.641911924118176,
+        "ghost_wall_s": 148.74460192397237,
+        "includes_recorder_loading": true,
+        "index": 0.31218124999999997,
+        "matches": 1000,
+        "measured_service_s": 315.5755603450816,
+        "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/board-c8d97c8d7fccf950-d1a450928296-20261123/ghost.json",
+        "record_active_s": 300.93364842096344,
+        "record_command_wall_s": 302.8039164170623,
+        "recording_seconds": 299.0,
+        "revision": "turtle-v31-replay-852b274e7eb2-20261123",
+        "scores": {
+          "10": 0.23978125,
+          "12": 0.1920625,
+          "3": 0.40615625,
+          "5": 0.397671875,
+          "7": 0.325234375
+        },
+        "seed": 20261123,
+        "sha256": "c8d97c8d7fccf95057260406d50d925d5f5dd01969563cd0fbdf58c721bbb43d",
+        "split": "yardstick"
+      },
+      "checkpoint": "runs/train-live-20261123/g-hist-frozen50/update-027772.pt",
+      "confirmation": null,
+      "confirmed_champion": false,
+      "confirmed_regression": false,
+      "finished_utc": "2026-11-23T16:10:00.006011+00:00",
+      "panel": {
+        "10050": {
+          "expected": "runs/corrected-observer-continuation-20260907-v1/run-v1/training/update-010050.pt",
+          "sha256": "862e65d2fa360a6012741e16f6f1e5ce0c6ec51027e9eddd9856f0eac8bd2656",
+          "unavailable": "checkpoint file absent"
+        },
+        "v22": {
+          "candidate_update": 27772,
+          "ci95": [
+            0.78125,
+            0.9375
+          ],
+          "delta_ci95": [
+            -0.140625,
+            0.046875
+          ],
+          "delta_from_25772": -0.046875,
+          "games": 64,
+          "opponent": "runs/turtle-league-v22-curriculum-diverse-v3/update-002000.pt",
+          "opponent_sha256": "8f0cd760bdf3ea8258fec84ad6e93882054ee82755032808308737324aff6e5c",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27772-c8d97c8d7fcc-panel-v22.json",
+          "score": 0.859375,
+          "seconds": 31.04071726812981,
+          "wdl": [
+            55,
+            0,
+            9
+          ]
+        },
+        "v25": {
+          "candidate_update": 27772,
+          "ci95": [
+            0.78125,
+            0.9375
+          ],
+          "delta_ci95": [
+            -0.09375,
+            0.1875
+          ],
+          "delta_from_25772": 0.046875,
+          "games": 64,
+          "opponent": "runs/turtle-league-v25-recalibration-from-v22-2000/update-000300.pt",
+          "opponent_sha256": "7c60acec58b56080bf240a85444163a1d72dba7bee25ac7f54e3dc8302d60994",
+          "pairs": 32,
+          "receipt": "/home/dzliu/pzliu/sap-rl/runs/train-vector-20261123/receipts/g-hist-frozen50-27772-c8d97c8d7fcc-panel-v25.json",
+          "score": 0.859375,
+          "seconds": 53.78292122390121,
+          "wdl": [
+            55,
+            0,
+            9
+          ]
+        }
+      },
+      "sha256": "c8d97c8d7fccf95057260406d50d925d5f5dd01969563cd0fbdf58c721bbb43d",
+      "version": 27772
+    }
+  ],
+  "engine": "d1a4509282965e41b92ed55021e266ca4440c86f52a9055399c5d1eba48d57a2",
+  "pair_counts": {
+    "confirm": 128,
+    "panel": 32,
+    "screen": 64
+  },
+  "protocol": "paired-greedy-v31g-v1",
+  "revision": "turtle-v31-replay-852b274e7eb2-20261123",
+  "run": "/home/dzliu/pzliu/sap-rl/runs/train-live-20261123/g-hist-frozen50"
+}

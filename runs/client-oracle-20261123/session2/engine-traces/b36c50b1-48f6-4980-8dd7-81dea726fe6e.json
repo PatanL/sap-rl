@@ -1,0 +1,684 @@
+{
+  "battle_id": "b36c50b1-48f6-4980-8dd7-81dea726fe6e",
+  "recorded_seed": 721396185,
+  "engine_seed": 721396185,
+  "steps": [
+    {
+      "stage": "init",
+      "player": [
+        {
+          "pet": "Turtle",
+          "attack": 7,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Peacock",
+          "attack": 8,
+          "health": 12,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dodo",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Penguin",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Turkey",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Cricket",
+          "attack": 7,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Squirrel",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Rat",
+          "attack": 5,
+          "health": 8,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "start",
+      "player": [
+        {
+          "pet": "Turtle",
+          "attack": 7,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Peacock",
+          "attack": 16,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dodo",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Penguin",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Turkey",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Cricket",
+          "attack": 7,
+          "health": 9,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Squirrel",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Rat",
+          "attack": 5,
+          "health": 8,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-01",
+      "player": [
+        {
+          "pet": "Turtle",
+          "attack": 7,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Peacock",
+          "attack": 16,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Dodo",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Penguin",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Turkey",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 4
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Cricket",
+          "attack": 7,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Squirrel",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Rat",
+          "attack": 5,
+          "health": 8,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-02",
+      "player": [
+        {
+          "pet": "Peacock",
+          "attack": 16,
+          "health": 8,
+          "perk": "status-melon-armor",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Penguin",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Turkey",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Zombie Cricket",
+          "attack": 3,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Deer",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Squirrel",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Rat",
+          "attack": 5,
+          "health": 8,
+          "perk": "none",
+          "slot": 3
+        },
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 4
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-03",
+      "player": [
+        {
+          "pet": "Peacock",
+          "attack": 16,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Penguin",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Turkey",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Deer",
+          "attack": 2,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Squirrel",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rat",
+          "attack": 5,
+          "health": 8,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-04",
+      "player": [
+        {
+          "pet": "Peacock",
+          "attack": 22,
+          "health": 6,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 8,
+          "health": 7,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Penguin",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Turkey",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Bus",
+          "attack": 5,
+          "health": 3,
+          "perk": "status-splash-attack",
+          "slot": 0
+        },
+        {
+          "pet": "Squirrel",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Rat",
+          "attack": 5,
+          "health": 8,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 3
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-05",
+      "player": [
+        {
+          "pet": "Peacock",
+          "attack": 28,
+          "health": 1,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dodo",
+          "attack": 8,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Penguin",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Turkey",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Squirrel",
+          "attack": 3,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Rat",
+          "attack": 5,
+          "health": 8,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 2
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-06",
+      "player": [
+        {
+          "pet": "Dodo",
+          "attack": 8,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Penguin",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Turkey",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Rat",
+          "attack": 5,
+          "health": 8,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 1
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-07",
+      "player": [
+        {
+          "pet": "Dirty Rat",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Dirty Rat",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Penguin",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 2
+        },
+        {
+          "pet": "Turkey",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 3
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 21,
+          "perk": "status-bread",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-08",
+      "player": [
+        {
+          "pet": "Dirty Rat",
+          "attack": 4,
+          "health": 2,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Penguin",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 1
+        },
+        {
+          "pet": "Turkey",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 2
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 17,
+          "perk": "status-bread",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-09",
+      "player": [
+        {
+          "pet": "Penguin",
+          "attack": 2,
+          "health": 3,
+          "perk": "none",
+          "slot": 0
+        },
+        {
+          "pet": "Turkey",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 1
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 13,
+          "perk": "status-bread",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-10",
+      "player": [
+        {
+          "pet": "Turkey",
+          "attack": 4,
+          "health": 5,
+          "perk": "none",
+          "slot": 0
+        }
+      ],
+      "opponent": [
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 11,
+          "perk": "status-bread",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "after-attack-11",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 7,
+          "perk": "status-bread",
+          "slot": 0
+        }
+      ]
+    },
+    {
+      "stage": "final",
+      "player": [],
+      "opponent": [
+        {
+          "pet": "Skunk",
+          "attack": 8,
+          "health": 7,
+          "perk": "status-bread",
+          "slot": 0
+        }
+      ]
+    }
+  ]
+}

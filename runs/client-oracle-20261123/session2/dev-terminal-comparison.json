@@ -1,0 +1,1772 @@
+[
+  {
+    "id": "5ee1a36a-0b52-4e76-8d3f-f2c2182e38a5",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        3,
+        "Worm",
+        29,
+        23
+      ]
+    ],
+    "recorded": [
+      [
+        3,
+        "Worm",
+        29,
+        23
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "5fafe4d0-cf70-43f5-b344-e1016b4be6e3",
+    "slots_and_stats": true,
+    "flags": "partially read",
+    "observed": [
+      [
+        3,
+        null,
+        31,
+        1
+      ],
+      [
+        4,
+        "Hedgehog",
+        9,
+        6
+      ]
+    ],
+    "recorded": [
+      [
+        3,
+        "Blowfish",
+        31,
+        1
+      ],
+      [
+        4,
+        "Hedgehog",
+        9,
+        6
+      ]
+    ],
+    "manual": [
+      "L",
+      [
+        [
+          "Blowfish",
+          31,
+          1
+        ],
+        [
+          "Hedgehog",
+          9,
+          6
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "6f416aeb-1191-4967-9e53-d9775b860427",
+    "slots_and_stats": false,
+    "flags": "partially read",
+    "observed": [
+      [
+        3,
+        null,
+        28,
+        1
+      ],
+      [
+        4,
+        "Hedgehog",
+        null,
+        6
+      ]
+    ],
+    "recorded": [
+      [
+        3,
+        "Blowfish",
+        28,
+        1
+      ],
+      [
+        4,
+        "Hedgehog",
+        9,
+        6
+      ]
+    ],
+    "manual": [
+      "L",
+      [
+        [
+          "Blowfish",
+          28,
+          1
+        ],
+        [
+          "Hedgehog",
+          9,
+          6
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "b836f265-47a3-488c-99d6-ba224526313b",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [],
+    "recorded": [],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "07933ed8-38d5-4afc-bbbd-5c81f2f53d93",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        4,
+        "Elephant",
+        39,
+        13
+      ]
+    ],
+    "recorded": [
+      [
+        4,
+        "Elephant",
+        39,
+        13
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "11906e93-827a-4d76-a9fa-3541380658f9",
+    "slots_and_stats": true,
+    "flags": "partially read",
+    "observed": [
+      [
+        6,
+        "Snake",
+        12,
+        2
+      ],
+      [
+        7,
+        null,
+        31,
+        25
+      ]
+    ],
+    "recorded": [
+      [
+        6,
+        "Snake",
+        12,
+        2
+      ],
+      [
+        7,
+        "Fish",
+        31,
+        25
+      ]
+    ],
+    "manual": [
+      "R",
+      [
+        [
+          "Snake",
+          12,
+          2
+        ],
+        [
+          "Fish",
+          31,
+          25
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "33dca0e0-a94a-4c0f-9fa7-b4a9866add02",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        1,
+        "Crocodile",
+        9,
+        5
+      ],
+      [
+        2,
+        "Tiger",
+        8,
+        6
+      ],
+      [
+        3,
+        "Snake",
+        14,
+        6
+      ],
+      [
+        4,
+        "Turtle",
+        3,
+        13
+      ]
+    ],
+    "recorded": [
+      [
+        1,
+        "Crocodile",
+        9,
+        5
+      ],
+      [
+        2,
+        "Tiger",
+        8,
+        6
+      ],
+      [
+        3,
+        "Snake",
+        14,
+        6
+      ],
+      [
+        4,
+        "Turtle",
+        3,
+        13
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "4c67157e-84ad-4492-b112-93edae33dc1a",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Dodo",
+        22,
+        6
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Dodo",
+        22,
+        6
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "544f869c-fc6d-4346-bf89-e769cabacc50",
+    "slots_and_stats": true,
+    "flags": "partially read",
+    "observed": [
+      [
+        5,
+        null,
+        31,
+        4
+      ],
+      [
+        6,
+        "Skunk",
+        21,
+        7
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Dolphin",
+        31,
+        4
+      ],
+      [
+        6,
+        "Skunk",
+        21,
+        7
+      ]
+    ],
+    "manual": [
+      "R",
+      [
+        [
+          "Dolphin",
+          31,
+          4
+        ],
+        [
+          "Skunk",
+          21,
+          7
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "59cba9e8-867f-4103-8b98-b94434f9c32f",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        3,
+        "Snake",
+        21,
+        14
+      ]
+    ],
+    "recorded": [
+      [
+        3,
+        "Snake",
+        21,
+        14
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "5dccddde-34e5-4a3a-9289-2cc3b91f9c58",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        6,
+        "Tiger",
+        6,
+        4
+      ],
+      [
+        7,
+        "Shark",
+        35,
+        42
+      ]
+    ],
+    "recorded": [
+      [
+        6,
+        "Tiger",
+        6,
+        4
+      ],
+      [
+        7,
+        "Shark",
+        35,
+        42
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "661bedfe-a444-480e-8fd4-f026e8bb57ab",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        6,
+        "Dog",
+        37,
+        17
+      ],
+      [
+        7,
+        "Blowfish",
+        30,
+        4
+      ]
+    ],
+    "recorded": [
+      [
+        6,
+        "Dog",
+        37,
+        17
+      ],
+      [
+        7,
+        "Blowfish",
+        30,
+        4
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "6b2e1d99-7781-4834-931c-876bbb314264",
+    "slots_and_stats": false,
+    "flags": "requires visual review",
+    "observed": [
+      [
+        5,
+        null,
+        13,
+        5
+      ],
+      [
+        6,
+        null,
+        8,
+        9
+      ],
+      [
+        7,
+        "Skunk",
+        10,
+        1
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Elephant",
+        13,
+        5
+      ],
+      [
+        6,
+        "Blowfish",
+        8,
+        8
+      ],
+      [
+        7,
+        "Skunk",
+        10,
+        1
+      ]
+    ],
+    "manual": [
+      "R",
+      [
+        [
+          "Elephant",
+          13,
+          5
+        ],
+        [
+          "Blowfish",
+          8,
+          9
+        ],
+        [
+          "Skunk",
+          10,
+          1
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      false
+    ]
+  },
+  {
+    "id": "6bf41824-82ba-42b8-8201-3ff571d180f7",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        3,
+        "Cat",
+        6,
+        7
+      ],
+      [
+        4,
+        "Blowfish",
+        18,
+        6
+      ]
+    ],
+    "recorded": [
+      [
+        3,
+        "Cat",
+        6,
+        7
+      ],
+      [
+        4,
+        "Blowfish",
+        18,
+        6
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "779ee949-286c-4924-a33c-bb20b5ece03f",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        3,
+        "Cat",
+        6,
+        1
+      ],
+      [
+        4,
+        "Shark",
+        22,
+        3
+      ]
+    ],
+    "recorded": [
+      [
+        3,
+        "Cat",
+        6,
+        1
+      ],
+      [
+        4,
+        "Shark",
+        22,
+        3
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "7b5167ee-c4ec-4726-b74d-67cd4aac8f7a",
+    "slots_and_stats": true,
+    "flags": "partially read",
+    "observed": [
+      [
+        3,
+        "Leopard",
+        18,
+        1
+      ],
+      [
+        4,
+        null,
+        10,
+        1
+      ]
+    ],
+    "recorded": [
+      [
+        3,
+        "Leopard",
+        18,
+        1
+      ],
+      [
+        4,
+        "Bus",
+        10,
+        1
+      ]
+    ],
+    "manual": [
+      "L",
+      [
+        [
+          "Leopard",
+          18,
+          1
+        ],
+        [
+          "Bus",
+          10,
+          1
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "7bca8879-da3e-47d8-8c3d-a489863debb3",
+    "slots_and_stats": true,
+    "flags": "partially read",
+    "observed": [
+      [
+        6,
+        "Shark",
+        23,
+        21
+      ],
+      [
+        7,
+        null,
+        7,
+        5
+      ]
+    ],
+    "recorded": [
+      [
+        6,
+        "Shark",
+        23,
+        21
+      ],
+      [
+        7,
+        "Wolverine",
+        7,
+        5
+      ]
+    ],
+    "manual": [
+      "R",
+      [
+        [
+          "Shark",
+          23,
+          21
+        ],
+        [
+          "Wolverine",
+          7,
+          5
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "9805c981-4189-40ab-a6f6-e59daa7ae963",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        3,
+        "Wolverine",
+        8,
+        3
+      ],
+      [
+        4,
+        "Skunk",
+        16,
+        11
+      ]
+    ],
+    "recorded": [
+      [
+        3,
+        "Wolverine",
+        8,
+        3
+      ],
+      [
+        4,
+        "Skunk",
+        16,
+        11
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "9888db43-a20d-45f6-8ef2-696249d2e486",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        3,
+        "Skunk",
+        3,
+        5
+      ],
+      [
+        4,
+        "Rabbit",
+        15,
+        23
+      ]
+    ],
+    "recorded": [
+      [
+        3,
+        "Skunk",
+        3,
+        5
+      ],
+      [
+        4,
+        "Rabbit",
+        15,
+        23
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "ae41dfde-dacb-404b-96dc-807a4c179a05",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        6,
+        "Dolphin",
+        23,
+        19
+      ]
+    ],
+    "recorded": [
+      [
+        6,
+        "Dolphin",
+        23,
+        19
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "b363f9e9-bc37-444f-8c02-3c83dfd7ea38",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        4,
+        "Fly",
+        8,
+        1
+      ]
+    ],
+    "recorded": [
+      [
+        4,
+        "Fly",
+        8,
+        1
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "b995797f-6221-462b-a7f8-7c8f36ce44cb",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [],
+    "recorded": [],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "dcbeb3f1-c972-4064-b1d6-61cb475edd92",
+    "slots_and_stats": true,
+    "flags": "partially read",
+    "observed": [
+      [
+        6,
+        null,
+        19,
+        5
+      ],
+      [
+        7,
+        "Wolverine",
+        5,
+        6
+      ],
+      [
+        8,
+        "Wolverine",
+        5,
+        6
+      ]
+    ],
+    "recorded": [
+      [
+        6,
+        "Cat",
+        19,
+        5
+      ],
+      [
+        7,
+        "Wolverine",
+        5,
+        6
+      ],
+      [
+        8,
+        "Wolverine",
+        5,
+        6
+      ]
+    ],
+    "manual": [
+      "R",
+      [
+        [
+          "Cat",
+          19,
+          5
+        ],
+        [
+          "Wolverine",
+          5,
+          6
+        ],
+        [
+          "Wolverine",
+          5,
+          6
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "de5b4a04-9a86-44b7-81ae-a6d0f4e8b67b",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Shark",
+        22,
+        8
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Shark",
+        22,
+        8
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "e45c0242-5be9-4df4-8c1a-4ab287ebf95f",
+    "slots_and_stats": true,
+    "flags": "partially read",
+    "observed": [
+      [
+        1,
+        "Deer",
+        1,
+        1
+      ],
+      [
+        2,
+        null,
+        5,
+        3
+      ],
+      [
+        3,
+        "Skunk",
+        27,
+        1
+      ]
+    ],
+    "recorded": [
+      [
+        1,
+        "Deer",
+        1,
+        1
+      ],
+      [
+        2,
+        "Bus",
+        5,
+        3
+      ],
+      [
+        3,
+        "Skunk",
+        27,
+        1
+      ]
+    ],
+    "manual": [
+      "L",
+      [
+        [
+          "Deer",
+          1,
+          1
+        ],
+        [
+          "Bus",
+          5,
+          3
+        ],
+        [
+          "Skunk",
+          27,
+          1
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "eabe368d-8ba8-434d-b45c-4eac634b99c6",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Squirrel",
+        20,
+        6
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Squirrel",
+        20,
+        6
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "f4e7f127-ec5f-4101-bc73-9711347ea4c6",
+    "slots_and_stats": true,
+    "flags": "partially read",
+    "observed": [
+      [
+        5,
+        null,
+        28,
+        3
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Shark",
+        28,
+        3
+      ]
+    ],
+    "manual": [
+      "R",
+      [
+        [
+          "Shark",
+          28,
+          3
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "d0b33785-acdf-4c86-98cf-d6757769fced",
+    "slots_and_stats": true,
+    "flags": "partially read",
+    "observed": [
+      [
+        5,
+        null,
+        17,
+        7
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Dodo",
+        17,
+        7
+      ]
+    ],
+    "manual": [
+      "R",
+      [
+        [
+          "Dodo",
+          17,
+          7
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "14e14fd4-13f1-4668-ba0d-9af7db7aaa4e",
+    "slots_and_stats": true,
+    "flags": "partially read",
+    "observed": [
+      [
+        1,
+        "Blowfish",
+        5,
+        5
+      ],
+      [
+        2,
+        "Blowfish",
+        12,
+        11
+      ],
+      [
+        3,
+        null,
+        3,
+        5
+      ]
+    ],
+    "recorded": [
+      [
+        1,
+        "Blowfish",
+        5,
+        5
+      ],
+      [
+        2,
+        "Blowfish",
+        12,
+        11
+      ],
+      [
+        3,
+        "Giraffe",
+        3,
+        5
+      ]
+    ],
+    "manual": [
+      "L",
+      [
+        [
+          "Blowfish",
+          5,
+          5
+        ],
+        [
+          "Blowfish",
+          12,
+          11
+        ],
+        [
+          "Giraffe",
+          3,
+          5
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "476821cb-b4bb-476d-b567-34eddcf50d67",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Elephant",
+        13,
+        5
+      ],
+      [
+        7,
+        "Deer",
+        2,
+        1
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Elephant",
+        13,
+        5
+      ],
+      [
+        7,
+        "Deer",
+        2,
+        1
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "83e018d0-302e-431b-bc4a-b82189ecb463",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Dog",
+        16,
+        7
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Dog",
+        16,
+        7
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "fa795e91-6737-4061-9ce5-d58a76b480d2",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Dog",
+        12,
+        2
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Dog",
+        12,
+        2
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "30b6dee8-7738-4b4d-97c2-e848232bb222",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Horse",
+        4,
+        1
+      ],
+      [
+        6,
+        "Horse",
+        2,
+        1
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Horse",
+        4,
+        1
+      ],
+      [
+        6,
+        "Horse",
+        2,
+        1
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "4664ea1e-15c3-49f0-80ae-494638545d33",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [],
+    "recorded": [],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "9001c280-1bcd-4034-ba37-14fdfb5a63d0",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Snail",
+        5,
+        2
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Snail",
+        5,
+        2
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "916edd0d-3b7c-49ea-8e5a-00586b20d2dd",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [],
+    "recorded": [],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "b36c50b1-48f6-4980-8dd7-81dea726fe6e",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Skunk",
+        8,
+        13
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Skunk",
+        8,
+        13
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "23a2625d-607e-43cc-abcc-286b729cad2e",
+    "slots_and_stats": true,
+    "flags": "partially read",
+    "observed": [
+      [
+        3,
+        "Skunk",
+        3,
+        2
+      ],
+      [
+        4,
+        null,
+        8,
+        3
+      ]
+    ],
+    "recorded": [
+      [
+        3,
+        "Skunk",
+        3,
+        2
+      ],
+      [
+        4,
+        "Crab",
+        8,
+        3
+      ]
+    ],
+    "manual": [
+      "L",
+      [
+        [
+          "Skunk",
+          3,
+          2
+        ],
+        [
+          "Crab",
+          8,
+          3
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "4b49f5cb-74ad-430c-85d3-c782c96c625a",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Snail",
+        7,
+        7
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Snail",
+        7,
+        7
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "5577690a-3e2d-45dc-9f59-a12c258aad19",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Dolphin",
+        2,
+        2
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Dolphin",
+        2,
+        2
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "592d8a5d-4ea0-4844-bbd8-3e5dff04742c",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Mosquito",
+        5,
+        1
+      ],
+      [
+        6,
+        "Mosquito",
+        2,
+        2
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Mosquito",
+        5,
+        1
+      ],
+      [
+        6,
+        "Mosquito",
+        2,
+        2
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "85fe3dba-52c5-4c86-8d9d-00e46d04e6ce",
+    "slots_and_stats": true,
+    "flags": "partially read",
+    "observed": [
+      [
+        6,
+        null,
+        5,
+        7
+      ],
+      [
+        7,
+        "Turkey",
+        3,
+        4
+      ]
+    ],
+    "recorded": [
+      [
+        6,
+        "Ox",
+        5,
+        7
+      ],
+      [
+        7,
+        "Turkey",
+        3,
+        4
+      ]
+    ],
+    "manual": [
+      "R",
+      [
+        [
+          "Ox",
+          5,
+          7
+        ],
+        [
+          "Turkey",
+          3,
+          4
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "8e332da8-9b45-4950-a145-de05d9b47655",
+    "slots_and_stats": true,
+    "flags": "requires visual review",
+    "observed": [
+      [
+        1,
+        null,
+        3,
+        4
+      ],
+      [
+        2,
+        "Fly",
+        4,
+        4
+      ],
+      [
+        3,
+        "Fly",
+        4,
+        4
+      ],
+      [
+        4,
+        null,
+        10,
+        2
+      ]
+    ],
+    "recorded": [
+      [
+        1,
+        "Penguin",
+        3,
+        4
+      ],
+      [
+        2,
+        "Fly",
+        4,
+        4
+      ],
+      [
+        3,
+        "Zombie Fly",
+        4,
+        4
+      ],
+      [
+        4,
+        "Mosquito",
+        10,
+        2
+      ]
+    ],
+    "manual": [
+      "L",
+      [
+        [
+          "Penguin",
+          3,
+          4
+        ],
+        [
+          "Fly",
+          4,
+          4
+        ],
+        [
+          "Zombie Fly",
+          4,
+          4
+        ],
+        [
+          "Mosquito",
+          10,
+          2
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "9a066210-3b25-4abc-aa74-6ddd4815c981",
+    "slots_and_stats": true,
+    "flags": "partially read",
+    "observed": [
+      [
+        0,
+        "Parrot",
+        4,
+        2
+      ],
+      [
+        1,
+        "Crocodile",
+        8,
+        4
+      ],
+      [
+        2,
+        "Skunk",
+        6,
+        5
+      ],
+      [
+        3,
+        null,
+        12,
+        13
+      ]
+    ],
+    "recorded": [
+      [
+        0,
+        "Parrot",
+        4,
+        2
+      ],
+      [
+        1,
+        "Crocodile",
+        8,
+        4
+      ],
+      [
+        2,
+        "Skunk",
+        6,
+        5
+      ],
+      [
+        3,
+        "Bison",
+        12,
+        13
+      ]
+    ],
+    "manual": [
+      "L",
+      [
+        [
+          "Parrot",
+          4,
+          2
+        ],
+        [
+          "Crocodile",
+          8,
+          4
+        ],
+        [
+          "Skunk",
+          6,
+          5
+        ],
+        [
+          "Bison",
+          12,
+          13
+        ]
+      ]
+    ],
+    "manual_winner_and_board": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "a06efcdf-f7f9-4af3-abb7-980b6cb9151f",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Rabbit",
+        3,
+        2
+      ],
+      [
+        6,
+        "Kangaroo",
+        3,
+        5
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Rabbit",
+        3,
+        2
+      ],
+      [
+        6,
+        "Kangaroo",
+        3,
+        5
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "c2646a84-1d86-4265-b79b-d760e649149b",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Dog",
+        14,
+        3
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Dog",
+        14,
+        3
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "ef69c642-339e-4ae1-897a-11d2c29ab27a",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        1,
+        "Ox",
+        2,
+        2
+      ]
+    ],
+    "recorded": [
+      [
+        1,
+        "Ox",
+        2,
+        2
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  },
+  {
+    "id": "f5d9dc06-a8ae-4041-be28-4db59ea530a7",
+    "slots_and_stats": true,
+    "flags": "exact",
+    "observed": [
+      [
+        5,
+        "Dog",
+        13,
+        5
+      ]
+    ],
+    "recorded": [
+      [
+        5,
+        "Dog",
+        13,
+        5
+      ]
+    ],
+    "manual": null,
+    "manual_winner_and_board": null
+  }
+]

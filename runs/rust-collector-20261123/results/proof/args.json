@@ -1,0 +1,12 @@
+{
+  "backend": "rust",
+  "train": true,
+  "games": 256,
+  "workers": 10,
+  "seconds": 810.0,
+  "updates": 100,
+  "save": true,
+  "out": "results/proof",
+  "backlog": 0.5,
+  "seed": 2577223
+}

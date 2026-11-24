@@ -1,0 +1,662 @@
+{
+ "stratum": "roll0",
+ "rows": 2472,
+ "targets": {
+  "pet slot 1": {
+   "dev": 1409,
+   "held": 433
+  },
+  "pet slot 2": {
+   "dev": 1404,
+   "held": 435
+  },
+  "pet slot 3": {
+   "dev": 1406,
+   "held": 428
+  },
+  "food slot": {
+   "dev": 1396,
+   "held": 442
+  }
+ },
+ "hypotheses": 552240,
+ "z_mean": 0.06632715567307566,
+ "z_sd": 5.359015853980955,
+ "best_z_shuffled": [
+  6.429126148870658,
+  6.822618522401431
+ ],
+ "top": [
+  {
+   "z_dev": 950.2988175102429,
+   "purity_dev": 0.9829302987197724,
+   "z_held": 283.87600377925764,
+   "purity_held": 0.9813084112149533,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | draw 4 floor(u*10) | pet slot 3"
+  },
+  {
+   "z_dev": 950.2988175102429,
+   "purity_dev": 0.9829302987197724,
+   "z_held": 283.87600377925764,
+   "purity_held": 0.9813084112149533,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 4 element 0 | pet slot 3"
+  },
+  {
+   "z_dev": 950.2988175102429,
+   "purity_dev": 0.9829302987197724,
+   "z_held": 283.87600377925764,
+   "purity_held": 0.9813084112149533,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY backward scaled skip 4 element 9 | pet slot 3"
+  },
+  {
+   "z_dev": 950.1820783943741,
+   "purity_dev": 0.9815471965933286,
+   "z_held": 290.87527267036813,
+   "purity_held": 0.9861431870669746,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | draw 2 floor(u*10) | pet slot 1"
+  },
+  {
+   "z_dev": 950.1820783943741,
+   "purity_dev": 0.9815471965933286,
+   "z_held": 290.87527267036813,
+   "purity_held": 0.9861431870669746,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 2 element 0 | pet slot 1"
+  },
+  {
+   "z_dev": 950.1820783943741,
+   "purity_dev": 0.9815471965933286,
+   "z_held": 290.87527267036813,
+   "purity_held": 0.9861431870669746,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY backward scaled skip 2 element 9 | pet slot 1"
+  },
+  {
+   "z_dev": 947.372018890858,
+   "purity_dev": 0.9821937321937322,
+   "z_held": 292.42884014521667,
+   "purity_held": 0.9862068965517241,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | draw 3 floor(u*10) | pet slot 2"
+  },
+  {
+   "z_dev": 947.372018890858,
+   "purity_dev": 0.9821937321937322,
+   "z_held": 292.42884014521667,
+   "purity_held": 0.9862068965517241,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 3 element 0 | pet slot 2"
+  },
+  {
+   "z_dev": 947.372018890858,
+   "purity_dev": 0.9821937321937322,
+   "z_held": 292.42884014521667,
+   "purity_held": 0.9862068965517241,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY backward scaled skip 3 element 9 | pet slot 2"
+  },
+  {
+   "z_dev": 649.4056063471372,
+   "purity_dev": null,
+   "z_held": 190.66397629316756,
+   "purity_held": null,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | draw 4 floor(u*20) | pet slot 3"
+  },
+  {
+   "z_dev": 649.3001217723216,
+   "purity_dev": null,
+   "z_held": 195.4364409329372,
+   "purity_held": null,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | draw 2 floor(u*20) | pet slot 1"
+  },
+  {
+   "z_dev": 647.4064458047857,
+   "purity_dev": null,
+   "z_held": 196.50435224686464,
+   "purity_held": null,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | draw 3 floor(u*20) | pet slot 2"
+  },
+  {
+   "z_dev": 505.00450214982743,
+   "purity_dev": 0.6493967352732435,
+   "z_held": 155.23958868133855,
+   "purity_held": 0.6905311778290993,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 1 element 1 | pet slot 1"
+  },
+  {
+   "z_dev": 504.51233847393064,
+   "purity_dev": 0.6571834992887624,
+   "z_held": 149.10012865914283,
+   "purity_held": 0.6635514018691588,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 3 element 1 | pet slot 3"
+  },
+  {
+   "z_dev": 500.1682664417282,
+   "purity_dev": 0.6545584045584045,
+   "z_held": 164.3903140412989,
+   "purity_held": 0.6827586206896552,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 2 element 1 | pet slot 2"
+  },
+  {
+   "z_dev": 493.06650853473207,
+   "purity_dev": 0.6848828956706884,
+   "z_held": 159.63798137237902,
+   "purity_held": 0.7182448036951501,
+   "hypothesis": "dotnet System.Random | own seed + turn | draw 2 floor(u*10) | pet slot 1"
+  },
+  {
+   "z_dev": 493.06650853473207,
+   "purity_dev": 0.6848828956706884,
+   "z_held": 159.63798137237902,
+   "purity_held": 0.7182448036951501,
+   "hypothesis": "dotnet System.Random | own seed + turn | FY forward scaled skip 2 element 0 | pet slot 1"
+  },
+  {
+   "z_dev": 493.06650853473207,
+   "purity_dev": 0.6848828956706884,
+   "z_held": 159.63798137237902,
+   "purity_held": 0.7182448036951501,
+   "hypothesis": "dotnet System.Random | own seed + turn | FY backward scaled skip 2 element 9 | pet slot 1"
+  },
+  {
+   "z_dev": 492.504448190309,
+   "purity_dev": 0.6352022711142654,
+   "z_held": 167.00475303325587,
+   "purity_held": 0.7297921478060047,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY backward scaled skip 1 element 8 | pet slot 1"
+  },
+  {
+   "z_dev": 489.55673763897585,
+   "purity_dev": 0.6467236467236467,
+   "z_held": 163.77641409079536,
+   "purity_held": 0.6827586206896552,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY backward scaled skip 2 element 8 | pet slot 2"
+  },
+  {
+   "z_dev": 483.06994757516406,
+   "purity_dev": 0.6372688477951636,
+   "z_held": 152.44487572937294,
+   "purity_held": 0.6728971962616822,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY backward scaled skip 3 element 8 | pet slot 3"
+  },
+  {
+   "z_dev": 434.62596883593557,
+   "purity_dev": 0.5974395448079659,
+   "z_held": 131.37474314947934,
+   "purity_held": 0.6004672897196262,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 2 element 2 | pet slot 3"
+  },
+  {
+   "z_dev": 431.6270937067377,
+   "purity_dev": 0.5862313697657914,
+   "z_held": 131.4929685758847,
+   "purity_held": 0.6073903002309469,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 0 element 2 | pet slot 1"
+  },
+  {
+   "z_dev": 424.0571152043693,
+   "purity_dev": 0.5876068376068376,
+   "z_held": 133.201764521324,
+   "purity_held": 0.5954022988505747,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY backward scaled skip 1 element 7 | pet slot 2"
+  },
+  {
+   "z_dev": 423.28473305143143,
+   "purity_dev": 0.5776353276353277,
+   "z_held": 129.59494725448812,
+   "purity_held": 0.5816091954022988,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY forward scaled skip 1 element 2 | pet slot 2"
+  },
+  {
+   "z_dev": 421.39345031941184,
+   "purity_dev": 0.5706174591909156,
+   "z_held": 137.94727463732505,
+   "purity_held": 0.628175519630485,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY backward scaled skip 0 element 7 | pet slot 1"
+  },
+  {
+   "z_dev": 416.0921499213903,
+   "purity_dev": 0.5803698435277382,
+   "z_held": 130.37165866053886,
+   "purity_held": 0.602803738317757,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | FY backward scaled skip 2 element 7 | pet slot 3"
+  },
+  {
+   "z_dev": 359.9857110845746,
+   "purity_dev": 0.6082621082621082,
+   "z_held": 118.19123342665628,
+   "purity_held": 0.6298850574712643,
+   "hypothesis": "dotnet System.Random | own seed + turn | draw 3 floor(u*10) | pet slot 2"
+  },
+  {
+   "z_dev": 359.9857110845746,
+   "purity_dev": 0.6082621082621082,
+   "z_held": 118.19123342665628,
+   "purity_held": 0.6298850574712643,
+   "hypothesis": "dotnet System.Random | own seed + turn | FY forward scaled skip 3 element 0 | pet slot 2"
+  },
+  {
+   "z_dev": 359.9857110845746,
+   "purity_dev": 0.6082621082621082,
+   "z_held": 118.19123342665628,
+   "purity_held": 0.6298850574712643,
+   "hypothesis": "dotnet System.Random | own seed + turn | FY backward scaled skip 3 element 9 | pet slot 2"
+  },
+  {
+   "z_dev": 357.86338327237826,
+   "purity_dev": null,
+   "z_held": 97.45890770531439,
+   "purity_held": null,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | draw 4 floor(u*60) | pet slot 3"
+  },
+  {
+   "z_dev": 357.8046914124724,
+   "purity_dev": null,
+   "z_held": 100.20122003710148,
+   "purity_held": null,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | draw 2 floor(u*60) | pet slot 1"
+  },
+  {
+   "z_dev": 356.814431261108,
+   "purity_dev": null,
+   "z_held": 100.79197338168107,
+   "purity_held": null,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | draw 3 floor(u*60) | pet slot 2"
+  },
+  {
+   "z_dev": 335.6135133946769,
+   "purity_dev": null,
+   "z_held": 107.25285449949232,
+   "purity_held": null,
+   "hypothesis": "dotnet System.Random | own seed + turn | draw 2 floor(u*20) | pet slot 1"
+  },
+  {
+   "z_dev": 334.75462624875854,
+   "purity_dev": null,
+   "z_held": 99.07997777081508,
+   "purity_held": null,
+   "hypothesis": "dotnet System.Random | own seed + turn | draw 4 floor(u*20) | pet slot 3"
+  },
+  {
+   "z_dev": 327.73042256656595,
+   "purity_dev": null,
+   "z_held": 92.24266052488551,
+   "purity_held": null,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | draw 2 floor(u*64) | pet slot 1"
+  },
+  {
+   "z_dev": 326.9190351685805,
+   "purity_dev": 1.0,
+   "z_held": 102.05907875125837,
+   "purity_held": 1.0,
+   "hypothesis": "unity xorshift128 InitState | previous action seed | draw 5 mod 10 | food slot"
+  },
+  {
+   "z_dev": 326.8620391796397,
+   "purity_dev": null,
+   "z_held": 87.19195641720249,
+   "purity_held": null,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | draw 4 floor(u*64) | pet slot 3"
+  },
+  {
+   "z_dev": 325.8169061627481,
+   "purity_dev": null,
+   "z_held": 91.07716571263448,
+   "purity_held": null,
+   "hypothesis": "dotnet System.Random | own seed (response of the generating action) | draw 3 floor(u*64) | pet slot 2"
+  },
+  {
+   "z_dev": 266.3183363654262,
+   "purity_dev": null,
+   "z_held": 85.88053162844992,
+   "purity_held": null,
+   "hypothesis": "dotnet System.Random | own seed + turn | draw 3 floor(u*20) | pet slot 2"
+  }
+ ],
+ "per_generator": {
+  "dotnet System.Random": {
+   "tests": 15000,
+   "best_z_dev": 950.2988175102429,
+   "best_desc": "dotnet System.Random | own seed (response of the generating action) | draw 4 floor(u*10) | pet slot 3",
+   "best_z_held_of_that": 283.87600377925764,
+   "best_z_shuffled": [
+    3.982782171173859,
+    4.363130168098948
+   ]
+  },
+  "old Mono System.Random (inextp 31)": {
+   "tests": 15000,
+   "best_z_dev": 5.5630651260021375,
+   "best_desc": "old Mono System.Random (inextp 31) | own seed (response of the generating action) | draw 16 mod 20 | food slot",
+   "best_z_held_of_that": 1.8279129378825985,
+   "best_z_shuffled": [
+    4.702313664196126,
+    6.051617216065081
+   ]
+  },
+  "unity xorshift128 InitState": {
+   "tests": 16920,
+   "best_z_dev": 326.9190351685805,
+   "best_desc": "unity xorshift128 InitState | previous action seed | draw 5 mod 10 | food slot",
+   "best_z_held_of_that": 102.05907875125837,
+   "best_z_shuffled": [
+    4.60640261828816,
+    4.329240319226378
+   ]
+  },
+  "mt19937 init_genrand": {
+   "tests": 16920,
+   "best_z_dev": 5.1160748317033224,
+   "best_desc": "mt19937 init_genrand | previous action seed | draw 22 mod 10 | food slot",
+   "best_z_held_of_that": -0.967950362650509,
+   "best_z_shuffled": [
+    4.751291847579161,
+    4.387912217977641
+   ]
+  },
+  "pcg32 (seed, seq 54)": {
+   "tests": 16920,
+   "best_z_dev": 4.22904147149962,
+   "best_desc": "pcg32 (seed, seq 54) | previous hash (request BoardHash) | FY forward scaled skip 3 element 8 | pet slot 1",
+   "best_z_held_of_that": -0.3115507605061456,
+   "best_z_shuffled": [
+    4.3595099250878935,
+    4.5198554911924855
+   ]
+  },
+  "pcg32 (seed, default stream)": {
+   "tests": 16920,
+   "best_z_dev": 5.764315955968167,
+   "best_desc": "pcg32 (seed, default stream) | previous hash (request BoardHash) | draw 19 mod 10 | food slot",
+   "best_z_held_of_that": -0.24828788133263865,
+   "best_z_shuffled": [
+    4.976805273803177,
+    4.747022143691995
+   ]
+  },
+  "pcg32 (seed, seq seed)": {
+   "tests": 16920,
+   "best_z_dev": 4.77404801514319,
+   "best_desc": "pcg32 (seed, seq seed) | own seed + turn | draw 13 mod 10 | food slot",
+   "best_z_held_of_that": -0.7162560121841716,
+   "best_z_shuffled": [
+    4.957079418797395,
+    4.372937512167176
+   ]
+  },
+  "splitmix64 high 32": {
+   "tests": 16920,
+   "best_z_dev": 4.195920565724153,
+   "best_desc": "splitmix64 high 32 | own seed (response of the generating action) | draw 11 mod 10 | food slot",
+   "best_z_held_of_that": -0.4284100469381882,
+   "best_z_shuffled": [
+    4.1132824263054,
+    5.1670439237572054
+   ]
+  },
+  "splitmix64 low 32": {
+   "tests": 16920,
+   "best_z_dev": 4.846345646208572,
+   "best_desc": "splitmix64 low 32 | previous action seed | draw 36 mod 10 | food slot",
+   "best_z_held_of_that": -0.6125726550503307,
+   "best_z_shuffled": [
+    4.975065736777673,
+    5.563261328001215
+   ]
+  },
+  "xorshift32 (13,17,5)": {
+   "tests": 16920,
+   "best_z_dev": 4.453386253833087,
+   "best_desc": "xorshift32 (13,17,5) | own seed + turn | FY backward scaled skip 6 element 8 | pet slot 3",
+   "best_z_held_of_that": -0.446142187526537,
+   "best_z_shuffled": [
+    5.108654573377781,
+    6.822618522401431
+   ]
+  },
+  "xorshift64 (13,7,17) low 32": {
+   "tests": 16920,
+   "best_z_dev": 4.806418033197941,
+   "best_desc": "xorshift64 (13,7,17) low 32 | own hash | argmax of draws 6..15 | pet slot 1",
+   "best_z_held_of_that": -1.1604944672826705,
+   "best_z_shuffled": [
+    4.4523679900141175,
+    4.24279083666574
+   ]
+  },
+  "xorshift64 (13,7,17) high 32": {
+   "tests": 16920,
+   "best_z_dev": 4.969737048023869,
+   "best_desc": "xorshift64 (13,7,17) high 32 | own hash | draw 33 mod 10 | food slot",
+   "best_z_held_of_that": 0.6597460645725526,
+   "best_z_shuffled": [
+    5.556597614725959,
+    6.437348833255141
+   ]
+  },
+  "xorshift64*": {
+   "tests": 16920,
+   "best_z_dev": 4.549246541783408,
+   "best_desc": "xorshift64* | own hash | draw 14 mod 10 | food slot",
+   "best_z_held_of_that": -0.13077776433799454,
+   "best_z_shuffled": [
+    6.429126148870658,
+    4.166292553559563
+   ]
+  },
+  "xoshiro256** (splitmix seeded) high 32": {
+   "tests": 16920,
+   "best_z_dev": 4.616531227472405,
+   "best_desc": "xoshiro256** (splitmix seeded) high 32 | previous action seed | draw 14 floor(u*10) | food slot",
+   "best_z_held_of_that": -1.2395938710211627,
+   "best_z_shuffled": [
+    5.595613206858265,
+    4.872849019725345
+   ]
+  },
+  "xoshiro256** (splitmix seeded) low 32": {
+   "tests": 16920,
+   "best_z_dev": 5.367324263521676,
+   "best_desc": "xoshiro256** (splitmix seeded) low 32 | own seed (response of the generating action) | draw 22 floor(u*60) | pet slot 1",
+   "best_z_held_of_that": -0.7726419105609147,
+   "best_z_shuffled": [
+    5.202392882239705,
+    4.030101453667128
+   ]
+  },
+  "xoroshiro128+ (splitmix seeded) high 32": {
+   "tests": 16920,
+   "best_z_dev": 4.857481756971897,
+   "best_desc": "xoroshiro128+ (splitmix seeded) high 32 | own seed + turn | draw 36 mod 20 | food slot",
+   "best_z_held_of_that": 0.036839235926213805,
+   "best_z_shuffled": [
+    4.617196894161605,
+    4.409526577702342
+   ]
+  },
+  "java.util.Random next(31)": {
+   "tests": 15000,
+   "best_z_dev": 4.768193256434955,
+   "best_desc": "java.util.Random next(31) | own seed xor previous seed | draw 35 floor(u*64) | food slot",
+   "best_z_held_of_that": 1.0073000757082247,
+   "best_z_shuffled": [
+    4.460667041978029,
+    4.925756571382504
+   ]
+  },
+  "glibc random()": {
+   "tests": 15000,
+   "best_z_dev": 4.169254658082789,
+   "best_desc": "glibc random() | previous hash (request BoardHash) | draw 28 mod 63 | food slot",
+   "best_z_held_of_that": 1.4528810959211687,
+   "best_z_shuffled": [
+    4.1366647782674075,
+    5.637977523361658
+   ]
+  },
+  "MSVC rand()": {
+   "tests": 15000,
+   "best_z_dev": 4.665245839690178,
+   "best_desc": "MSVC rand() | own seed (response of the generating action) | draw 20 floor(u*10) | food slot",
+   "best_z_held_of_that": -0.28354969761664284,
+   "best_z_shuffled": [
+    4.446150240752255,
+    4.13125199939713
+   ]
+  },
+  "LCG ANSI C mod 2^31": {
+   "tests": 15000,
+   "best_z_dev": 4.403094819639003,
+   "best_desc": "LCG ANSI C mod 2^31 | own hash | FY backward mod skip 6 element 8 | pet slot 2",
+   "best_z_held_of_that": -0.32941227246654314,
+   "best_z_shuffled": [
+    4.212196580586288,
+    4.916853686206705
+   ]
+  },
+  "LCG POSIX rand() example": {
+   "tests": 15000,
+   "best_z_dev": 4.085218426424762,
+   "best_desc": "LCG POSIX rand() example | own seed xor previous seed | FY backward mod skip 1 element 8 | pet slot 3",
+   "best_z_held_of_that": -0.05959206162485446,
+   "best_z_shuffled": [
+    4.958346555556909,
+    5.567463461082075
+   ]
+  },
+  "LCG Numerical Recipes full state": {
+   "tests": 16920,
+   "best_z_dev": 6.276303031659097,
+   "best_desc": "LCG Numerical Recipes full state | previous action seed | draw 9 mod 10 | food slot",
+   "best_z_held_of_that": -0.9188214393417787,
+   "best_z_shuffled": [
+    4.492503933420356,
+    4.694230718768576
+   ]
+  },
+  "LCG Numerical Recipes high 16": {
+   "tests": 15000,
+   "best_z_dev": 4.470433290870144,
+   "best_desc": "LCG Numerical Recipes high 16 | previous action seed | FY forward scaled skip 7 element 1 | pet slot 2",
+   "best_z_held_of_that": 1.410620127653397,
+   "best_z_shuffled": [
+    4.492503933420356,
+    4.705595028699315
+   ]
+  },
+  "LCG Borland high 15": {
+   "tests": 15000,
+   "best_z_dev": 4.568712021777588,
+   "best_desc": "LCG Borland high 15 | previous action seed | FY forward mod skip 4 element 8 | pet slot 3",
+   "best_z_held_of_that": -0.4354130242723165,
+   "best_z_shuffled": [
+    4.662108022321924,
+    4.866779313420956
+   ]
+  },
+  "LCG Knuth MMIX high 32": {
+   "tests": 16920,
+   "best_z_dev": 4.452190356505593,
+   "best_desc": "LCG Knuth MMIX high 32 | previous action seed | argmax of draws 6..15 | pet slot 1",
+   "best_z_held_of_that": -0.22310327610007932,
+   "best_z_shuffled": [
+    4.576819854745792,
+    4.680450098882631
+   ]
+  },
+  "MINSTD 16807": {
+   "tests": 15000,
+   "best_z_dev": 6.662181170731049,
+   "best_desc": "MINSTD 16807 | previous hash (request BoardHash) | draw 38 mod 10 | food slot",
+   "best_z_held_of_that": -0.8391291367181596,
+   "best_z_shuffled": [
+    4.645716088429172,
+    4.830196953521666
+   ]
+  },
+  "MINSTD 48271": {
+   "tests": 15000,
+   "best_z_dev": 4.796928858879081,
+   "best_desc": "MINSTD 48271 | own seed + turn | draw 30 floor(u*20) | food slot",
+   "best_z_held_of_that": -0.2672948360788991,
+   "best_z_shuffled": [
+    4.891293727322503,
+    4.859755455719746
+   ]
+  },
+  "murmur fmix32(seed+i)": {
+   "tests": 16920,
+   "best_z_dev": 4.926214622530686,
+   "best_desc": "murmur fmix32(seed+i) | own hash | draw 24 mod 10 | food slot",
+   "best_z_held_of_that": 1.2525120922754258,
+   "best_z_shuffled": [
+    4.542193581712752,
+    4.500857767063318
+   ]
+  },
+  "murmur fmix32(seed^i*phi)": {
+   "tests": 16920,
+   "best_z_dev": 4.910514822747023,
+   "best_desc": "murmur fmix32(seed^i*phi) | own hash | draw 11 mod 10 | food slot",
+   "best_z_held_of_that": -0.33607448235592774,
+   "best_z_shuffled": [
+    4.649227245490162,
+    6.055707299269948
+   ]
+  },
+  "identity seed+i": {
+   "tests": 16920,
+   "best_z_dev": 3.576435900459641,
+   "best_desc": "identity seed+i | previous hash (request BoardHash) | FY backward mod skip 1 element 2 | pet slot 2",
+   "best_z_held_of_that": -2.218012601754602,
+   "best_z_shuffled": [
+    3.913765484908802,
+    3.5617738751104
+   ]
+  },
+  "Knuth multiplicative hash (seed+i)": {
+   "tests": 16920,
+   "best_z_dev": 4.163823763314169,
+   "best_desc": "Knuth multiplicative hash (seed+i) | previous action seed | FY forward scaled skip 7 element 7 | pet slot 1",
+   "best_z_held_of_that": 1.2002704610800283,
+   "best_z_shuffled": [
+    4.146803421314757,
+    3.662978477641085
+   ]
+  },
+  "LCG 9301/49297 mod 233280": {
+   "tests": 15000,
+   "best_z_dev": 4.306166146985323,
+   "best_desc": "LCG 9301/49297 mod 233280 | own seed xor previous seed | draw 7 floor(u*20) | food slot",
+   "best_z_held_of_that": 0.038313531808922136,
+   "best_z_shuffled": [
+    4.010149895731103,
+    4.232033879596794
+   ]
+  },
+  "mulberry32": {
+   "tests": 16920,
+   "best_z_dev": 3.852432380017583,
+   "best_desc": "mulberry32 | own seed (response of the generating action) | draw 27 mod 63 | pet slot 2",
+   "best_z_held_of_that": 0.10812107409776614,
+   "best_z_shuffled": [
+    5.829009769288533,
+    4.717563330018719
+   ]
+  },
+  "xorshift128+ (splitmix seeded) high 32": {
+   "tests": 16920,
+   "best_z_dev": 4.972857653464174,
+   "best_desc": "xorshift128+ (splitmix seeded) high 32 | own hash | draw 36 mod 10 | food slot",
+   "best_z_held_of_that": -1.8572901426949442,
+   "best_z_shuffled": [
+    4.491012237641694,
+    4.528406089465044
+   ]
+  }
+ },
+ "sources": [
+  "own seed (response of the generating action)",
+  "previous action seed",
+  "own hash",
+  "previous hash (request BoardHash)",
+  "own seed xor previous seed",
+  "own seed + turn"
+ ],
+ "K": 40
+}

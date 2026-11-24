@@ -1,0 +1,1517 @@
+import math
+import gymnasium as gym
+from gymnasium import spaces
+import numpy as np
+from typing import Optional, List
+import itertools
+from sklearn.preprocessing import OneHotEncoder
+import copy  # For deep copying opponent and agent states
+
+# Import game-specific classes and data from game engine
+from sapai import Player, Pet, Food, Battle, Shop, Team
+from sapai.data import data 
+
+# Import MaskablePPO for opponent models
+from sb3_contrib import MaskablePPO 
+from sb3_contrib.common.maskable.utils import get_action_masks
+from stable_baselines3.common.torch_layers import BaseFeaturesExtractor
+from .rl.action_schema import (
+    ActionType,
+    AutoregressiveAction,
+    FlatActionCodec,
+    MAX_SHOP_SLOTS,
+    NO_TARGET,
+)
+from .rl.identity_lifetime import IdentityLifetime
+
+
+class SuperAutoPetsEnv(gym.Env):
+    """
+    A Gymnasium environment for training a single-agent AI in Super Auto Pets using self-play with an opponent pool.
+    This environment ensures mutual visibility between the agent and the opponent:
+        - The agent sees its current state and the opponent's previous state.
+        - The opponent sees its current state and the agent's previous state.
+    """
+    metadata = {'render_modes': ['human']}
+    
+    # Define constants
+    # Stable action regions keyed by physical shop/team slots.  The previous
+    # implementation renumbered filtered affordable items, causing an action
+    # ID to silently change meaning as gold changed.
+    MAX_ACTIONS = FlatActionCodec.NUM_ACTIONS
+    ACTION_BASE_NUM = {
+        "end_turn": FlatActionCodec.END_TURN,
+        "buy_pet": FlatActionCodec.BUY_PET,
+        "buy_food": FlatActionCodec.BUY_FOOD,
+        "combine": FlatActionCodec.COMBINE,
+        "sell": FlatActionCodec.SELL,
+        "roll": FlatActionCodec.ROLL,
+        "freeze": FlatActionCodec.FREEZE,
+        "unfreeze": FlatActionCodec.UNFREEZE,
+        "move": FlatActionCodec.MOVE,
+    }
+    MAX_TURN = 25
+    MAX_LIVES = 6
+    MAX_REORDERS_PER_TURN = 10
+    BAD_ACTION_PENALTY = -0.5
+    # Current Turtle P1 has no gold carry-over or end-turn ability that
+    # benefits from retaining gold. Even a final roll can reveal an item worth
+    # freezing for the next shop, so normal END_TURN is legal only at zero.
+    # The hard 50-action safety cap below can still force termination.
+    MAX_UNSPENT_GOLD_TO_END = 0
+    MAX_TEAM_PETS = 5
+    MAX_SHOP_PETS = 6
+    MAX_SHOP_FOODS = 7
+    ALL_PETS = [
+        "pet-ant", "pet-beaver", "pet-beetle", "pet-bluebird", "pet-cricket", "pet-duck",
+        "pet-fish", "pet-horse", "pet-ladybug", "pet-mosquito", "pet-otter", "pet-pig",
+        "pet-sloth", "pet-bat", "pet-crab", "pet-dodo", "pet-dog", "pet-dromedary",
+        "pet-elephant", "pet-flamingo", "pet-hedgehog", "pet-peacock", "pet-rat",
+        "pet-shrimp", "pet-spider", "pet-swan", "pet-tabby-cat", "pet-badger",
+        "pet-blowfish", "pet-caterpillar", "pet-camel", "pet-hatching-chick",
+        "pet-giraffe", "pet-kangaroo", "pet-owl", "pet-ox", "pet-puppy", "pet-rabbit",
+        "pet-sheep", "pet-snail", "pet-tropical-fish", "pet-turtle", "pet-whale",
+        "pet-bison", "pet-buffalo", "pet-deer", "pet-dolphin", "pet-hippo",
+        "pet-llama", "pet-lobster", "pet-monkey", "pet-penguin", "pet-poodle",
+        "pet-rooster", "pet-skunk", "pet-squirrel", "pet-worm", "pet-chicken",
+        "pet-cow", "pet-crocodile", "pet-eagle", "pet-goat", "pet-microbe",
+        "pet-parrot", "pet-rhino", "pet-scorpion", "pet-seal", "pet-shark",
+        "pet-turkey", "pet-cat", "pet-boar", "pet-dragon", "pet-fly", "pet-gorilla",
+        "pet-leopard", "pet-mammoth", "pet-octopus", "pet-sauropod", "pet-snake",
+        "pet-tiger", "pet-tyrannosaurus", "pet-zombie-cricket", "pet-bus",
+        "pet-zombie-fly", "pet-dirty-rat", "pet-chick", "pet-ram",
+        "pet-butterfly", "pet-bee", "pet-pigeon", "pet-armadillo",
+        "pet-wolverine"
+    ]
+    ALL_FOODS = [
+        "food-apple", "food-honey", "food-cupcake", "food-meat-bone",
+        "food-sleeping-pill", "food-garlic", "food-salad-bowl",
+        "food-canned-food", "food-pear", "food-chili", "food-chocolate",
+        "food-sushi", "food-melon", "food-mushroom", "food-pizza",
+        "food-steak", "food-milk", "food-cake", "food-bread",
+        "food-bread-crumbs"
+    ]
+    ALL_STATUSES = [
+        "status-weak", "status-coconut-shield", "status-honey-bee",
+        "status-bone-attack", "status-garlic-armor", "status-splash-attack",
+        "status-melon-armor", "status-extra-life", "status-steak-attack",
+        "status-poison-attack", "status-cake", "status-bread"
+    ]
+
+    def __init__(self, opponent_generator=None, valid_actions_only=True, manual_battles=False, *, initialization_seed=None):
+        """
+        Initialize the SuperAutoPetsEnv environment.
+        
+        :param opponent_generator: Not used in self-play. Set to None.
+        :param valid_actions_only: If True, invalid actions will raise exceptions.
+        :param manual_battles: If True, battles are controlled manually.
+        """
+        super(SuperAutoPetsEnv, self).__init__()
+        # Public clones overwrite these bootstrap players. Use private empty
+        # placeholders on that explicit path, never the caller's global RNG.
+        # Default None retains ordinary environment initialization behavior.
+        self._initialization_seed = initialization_seed
+        bootstrap_state = None if initialization_seed is None else np.random.RandomState(initialization_seed).get_state()
+        bootstrap_slots = None if initialization_seed is None else []
+
+        # Validate parameters
+        if manual_battles:
+            assert opponent_generator is None, "Opponent generator must be None for manual battles."
+        # Define action space for single agent
+        self.action_space = spaces.Discrete(self.MAX_ACTIONS)
+
+        # Calculate observation space length
+        # (len(ALL_PETS) + 2 + len(ALL_STATUSES)) * MAX_TEAM_PETS for each agent
+        # + (len(ALL_FOODS) + 1) * MAX_SHOP_FOODS for shop foods
+        # + 5 for other stats
+        # + MAX_ACTIONS for action masks (to be removed)
+        len_obs_space = (len(self.ALL_PETS) + 2 + len(self.ALL_STATUSES)) * self.MAX_TEAM_PETS + \
+                        (len(self.ALL_FOODS) + 1) * self.MAX_SHOP_FOODS + 5
+        total_obs_size = len_obs_space * 2  # For both agent and opponent
+
+        # self.observation_space = spaces.Box(low=0.0, high=1.0, shape=(total_obs_size,), dtype=np.float32)
+        # Calculate feature vector size for one pet and one food
+        pet_feature_size = len(self.ALL_PETS) + 2 + len(self.ALL_STATUSES) # name, stats, status
+        food_feature_size = len(self.ALL_FOODS) + 1 # name, cost
+
+        # Calculate size for one player's full state (team, shop, stats)
+        agent_state_size = (pet_feature_size * self.MAX_TEAM_PETS) + \
+                        (pet_feature_size * self.MAX_SHOP_PETS) + \
+                        (food_feature_size * self.MAX_SHOP_FOODS) + \
+                        5 # Agent stats
+                        
+        # Calculate size for opponent's partial state (team, stats)
+        opponent_state_size = (pet_feature_size * self.MAX_TEAM_PETS) + \
+                            3 # Opponent stats
+
+        total_obs_size = agent_state_size + opponent_state_size
+        # print("total_obs_size: ", total_obs_size)
+
+        self.observation_space = spaces.Box(
+            low=0.0,
+            high=1.0,
+            shape=(total_obs_size,),
+            dtype=np.float32,
+        )
+        self.reward_range = (-1.0, 1.0)
+
+        self.valid_actions_only = valid_actions_only
+        self.manual_battles = manual_battles
+
+        # Create encoders once and reuse them
+        self.pet_encoder = OneHotEncoder(categories=[self.ALL_PETS], sparse_output=False, handle_unknown='ignore')
+        self.food_encoder = OneHotEncoder(categories=[self.ALL_FOODS], sparse_output=False, handle_unknown='ignore')
+        self.status_encoder = OneHotEncoder(categories=[self.ALL_STATUSES], sparse_output=False, handle_unknown='ignore')
+
+        # Pre-fit the encoders with all possible values. This is key.
+        self.pet_encoder.fit(np.array(self.ALL_PETS).reshape(-1, 1))
+        self.food_encoder.fit(np.array(self.ALL_FOODS).reshape(-1, 1))
+        self.status_encoder.fit(np.array(self.ALL_STATUSES).reshape(-1, 1))
+
+        # Initialize the single agent and the opponent
+        self.agent = Player(record_actions=False, shop=bootstrap_slots, seed_state=bootstrap_state)
+        self.opponent = Player(record_actions=False, shop=bootstrap_slots, seed_state=bootstrap_state)
+
+        # Initialize shops and teams
+        self.shop_agent = Shop(slots=bootstrap_slots, turn=1, pack="StandardPack", seed_state=bootstrap_state)
+        self.shop_opponent = Shop(slots=bootstrap_slots, turn=1, pack="StandardPack", seed_state=bootstrap_state)
+
+        self.agent.shop = self.shop_agent
+        self.opponent.shop = self.shop_opponent
+
+        self.team_agent = Team(pack="StandardPack")
+        self.team_opponent = Team(pack="StandardPack")
+
+        self.agent.team = self.team_agent
+        self.opponent.team = self.team_opponent
+
+        # Initialize game state
+        self.bad_action_reward_sum_agent = 0
+        self.bad_action_reward_sum_opponent = 0
+        self.done = False
+        self.info = {}
+        self.last_actions = [None]  # Only for the agent
+
+        # Initialize opponent pool
+        self.opponent_pool: List[MaskablePPO] = []  
+        self.max_opponents = 10  # Maximum number of opponents in the pool
+
+        # Initialize variables for consistent opponent selection and previous states
+        self.current_opponent_model: Optional[PPO] = None  # Opponent selected for the current game
+        self.previous_opponent_state: Optional[Team] = None  # Opponent's state from the previous turn
+        self.previous_agent_state: Optional[Team] = None  # Agent's state from the previous turn
+        self.previous_previous_opponent_state: Optional[Team] = None
+        self.previous_previous_agent_state: Optional[Team] = None
+
+        # Initialize random state
+        self.rs_random = np.random.RandomState(initialization_seed)
+        self.reset(seed=initialization_seed)
+
+        self.reorder_count_agent = 0
+        self.allow_additional_reorder_agent = False
+
+        self.reorder_count_opponent = 0
+        self.allow_additional_reorder_opponent = False
+        self.shop_action_count_agent = 0
+        self.shop_action_count_opponent = 0
+
+        self._agent_actions_cache = None
+        self._opponent_actions_cache = None
+        self._freeze_toggled_agent = set()
+        self._freeze_toggled_opponent = set()
+        self._legality_identities = IdentityLifetime()
+        self._seen_team_orders_agent = {
+            self._team_order_key(self.agent)
+        }
+        self._seen_team_orders_opponent = {
+            self._team_order_key(self.opponent)
+        }
+
+        # variables for reward shaping and annealing
+        self.agent_max_team_stats = 0
+        self.shaping_scale = 1.0  # Starts at full strength
+        self.step_reward = 0.0    # For immediate rewards like buying food
+
+
+
+    def reset(self, *, seed: Optional[int] = None, options: Optional[dict] = None):
+        """
+        Reset the environment to start a new game.
+        
+        :return: Initial observation and info dictionary.
+        """
+        super().reset(seed=seed)
+        if seed is not None:
+            self.rs_random = np.random.RandomState(seed)
+        else:
+            self.rs_random = np.random.RandomState()
+
+        def next_seed_state():
+            child_seed = int(self.rs_random.randint(0, 2**32 - 1))
+            return np.random.RandomState(child_seed).get_state()
+
+        # Give both self-play sides independent shop and team RNG streams.
+        # Passing the same explicit reset seed reproduces all four streams;
+        # reset(seed=None) draws fresh entropy for ordinary training/play.
+        self.shop_agent = Shop(
+            turn=1, pack="StandardPack", seed_state=next_seed_state()
+        )
+        self.team_agent = Team(
+            pack="StandardPack", seed_state=next_seed_state()
+        )
+        self.shop_opponent = Shop(
+            turn=1, pack="StandardPack", seed_state=next_seed_state()
+        )
+        self.team_opponent = Team(
+            pack="StandardPack", seed_state=next_seed_state()
+        )
+        self.agent = Player(
+            shop=self.shop_agent,
+            team=self.team_agent,
+            record_actions=False,
+        )
+        self.opponent = Player(
+            shop=self.shop_opponent,
+            team=self.team_opponent,
+            record_actions=False,
+        )
+
+        # Reset game state
+        self.done = False
+        self.info = {}
+        self.bad_action_reward_sum_agent = 0
+        self.bad_action_reward_sum_opponent = 0
+        self.last_actions = [None]
+
+        # Reset turn counter
+        self.turn = 1  # Assuming turn starts at 1
+
+        # Reset reorder counters and flags
+        self.reorder_count_agent = 0
+        self.allow_additional_reorder_agent = False
+
+        self.reorder_count_opponent = 0
+        self.allow_additional_reorder_opponent = False
+        self.shop_action_count_agent = 0
+        self.shop_action_count_opponent = 0
+
+        # Select a consistent opponent for this game from the opponent pool
+        if self.opponent_pool:
+            self.current_opponent_model = self.rs_random.choice(self.opponent_pool)
+            # print(f"Selected an opponent from the pool for this game.")
+        else:
+            self.current_opponent_model = None  # Use default opponent actions
+            # print("Opponent pool is empty. Using default opponent strategy.")
+
+        # Initialize previous states as None
+        self.previous_opponent_state = None
+        self.previous_agent_state = None
+        self.previous_previous_opponent_state = None
+        self.previous_previous_agent_state = None
+
+        # Clear the avail_actions cache on reset
+        self._agent_actions_cache = None
+        self._opponent_actions_cache = None
+        self._freeze_toggled_agent = set()
+        self._freeze_toggled_opponent = set()
+        self._legality_identities = IdentityLifetime()
+        self._seen_team_orders_agent = {
+            self._team_order_key(self.agent)
+        }
+        self._seen_team_orders_opponent = {
+            self._team_order_key(self.opponent)
+        }
+
+        self.agent_max_team_stats = 0
+        self.step_reward = 0.0
+
+
+        # Store the initial agent state as previous_agent_state for the opponent
+        # self.previous_agent_state = copy.deepcopy(self.agent.team)
+        # Instead of: self.previous_agent_state = copy.deepcopy(self.agent.team)
+        self.previous_agent_state_dict = self.agent.team.state # Store the dictionary state
+
+        # Generate initial observation
+        obs = self._encode_state()
+        
+        # Generate action mask for the agent
+        action_mask = self._generate_action_mask(agent_idx=0)[None, :] 
+        self.info['action_mask'] = action_mask
+
+        return obs, self.info
+
+    def step(self, action):
+        """
+        Execute one step in the environment with the agent's action and the opponent's action.
+        
+        :param action: Action for the single agent.
+        :return: Observation, aggregated reward, done flag, truncated flag, and info dictionary.
+        """
+        if self.done:
+            obs, info = self.reset()
+            return obs, 0.0, self.done, False, info
+
+        # Store Agent's Previous State before taking the action
+        # self.previous_agent_state = copy.deepcopy(self.agent.team)
+        # Instead of: self.previous_agent_state = copy.deepcopy(self.agent.team)
+        self.previous_agent_state_dict = self.agent.team.state
+
+
+        # Resolve the agent's action
+        agent_action_name = self.resolve_action(agent_idx=0, action=action)
+
+        # Resolve one opponent action while it is still shopping.  If the
+        # learning agent ends first, finish the opponent shop phase internally
+        # so the ended agent can never act again before battle.
+        if not self.opponent.turn_ended:
+            opponent_action = self.get_opponent_action()
+            self.resolve_action(agent_idx=1, action=opponent_action)
+
+        if self.agent.turn_ended:
+            for _ in range(100):
+                if self.opponent.turn_ended:
+                    break
+                opponent_action = self.get_opponent_action()
+                self.resolve_action(agent_idx=1, action=opponent_action)
+            if not self.opponent.turn_ended:
+                self.resolve_action(
+                    agent_idx=1, action=self.ACTION_BASE_NUM["end_turn"]
+                )
+
+        # Resolve action
+        #     player_to_act = self.player
+        #     action_to_play = self._avail_actions()[action]
+        #     action_name = self._get_action_name(action_to_play).split(".")[-1]
+        #     action_method = getattr(player_to_act, action_name)
+        #     action_method(*action_to_play[1:])
+
+        #     # If turn is ended, play an opponent
+        #     if action_name == "end_turn" and not self.manual_battles:
+        #         opponent = self.opponents[self.player.turn - 1]
+        #         battle_result = Battle(self.player.team, opponent).battle()
+        #         self._player_fight_outcome(battle_result)
+        #         self.player.start_turn()
+        # self.last_action = action
+
+        # Execute battle phase if both have ended their turns
+        if self.agent.turn_ended and self.opponent.turn_ended and not self.manual_battles:
+            # Store the current opponent state before the battle
+            # self.previous_opponent_state = copy.deepcopy(self.opponent.team)
+            # Instead of: self.previous_opponent_state = copy.deepcopy(self.opponent.team)
+            self.previous_previous_opponent_state = self.previous_opponent_state
+            self.previous_previous_agent_state = self.previous_agent_state
+            self.previous_opponent_state = Team.from_state(self.opponent.team.state)
+            self.previous_agent_state = Team.from_state(self.agent.team.state)
+
+            # Conduct the battle
+            battle_result = Battle(
+                self.agent.team,
+                self.opponent.team,
+                seed=int(self.rs_random.randint(0, 2**32 - 1)),
+            ).battle()
+            self._player_fight_outcome(battle_result)
+            self.agent.start_turn(winner=self.agent.lf_winner)
+            self.opponent.start_turn(winner=self.opponent.lf_winner)
+            self.turn += 1
+
+            self.reorder_count_agent = 0
+            self.allow_additional_reorder_agent = False
+
+            self.reorder_count_opponent = 0
+            self.allow_additional_reorder_opponent = False
+            self.shop_action_count_agent = 0
+            self.shop_action_count_opponent = 0
+            self._freeze_toggled_agent.clear()
+            self._freeze_toggled_opponent.clear()
+            self._legality_identities.clear()
+            self._seen_team_orders_agent = {
+                self._team_order_key(self.agent)
+            }
+            self._seen_team_orders_opponent = {
+                self._team_order_key(self.opponent)
+            }
+
+            # Check for game termination
+            self.done = self.is_done()
+
+        # Assign rewards
+        reward_agent = self.get_reward_agent()
+        aggregated_reward = reward_agent  # Use only agent's reward
+
+        # Generate observations
+        obs = self._encode_state()
+
+        # Generate action mask for the agent
+        action_mask = self._generate_action_mask(agent_idx=0)[None, :]
+        self.info['action_mask'] = action_mask
+
+        # Reset bad action penalties
+        self.bad_action_reward_sum_agent = 0
+        self.bad_action_reward_sum_opponent = 0
+
+        return obs, aggregated_reward, self.done, False, self.info
+
+    def resolve_action(self, agent_idx: int, action: int):
+        """
+        Resolve the action for a specific agent.
+        
+        :param agent_idx: Index of the agent (0 for agent, 1 for opponent).
+        :param action: Action to be executed.
+        """
+        if not isinstance(action, int):
+            action = int(action)
+
+        player = self.agent if agent_idx == 0 else self.opponent
+        # print("available actions: ", self._avail_actions(agent_idx).keys())
+        action_to_play = self._avail_actions(agent_idx).get(action, None)
+        if action_to_play is None:
+            if self.valid_actions_only:
+                raise RuntimeError(f"Agent {agent_idx} attempted invalid action {action}.")
+            # Apply penalty for invalid action
+            if agent_idx == 0:
+                self.bad_action_reward_sum_agent += self.BAD_ACTION_PENALTY
+            else:
+                self.bad_action_reward_sum_opponent += self.BAD_ACTION_PENALTY
+            return
+
+        # start executing the action
+        action_name = self._get_action_name(action_to_play).split(".")[-1]
+
+         # logic for steak and melon reward
+        if agent_idx == 0 and action_name == "buy_food":
+            shop_idx = action_to_play[1]
+            food_name = player.shop[shop_idx].obj.name
+            if food_name in ["food-melon", "food-steak"]:
+                self.step_reward += 0.1 * self.shaping_scale
+
+        # finish executing action
+        action_method = getattr(player, action_name)
+        freeze_keys = []
+        if action_name in {"freeze", "unfreeze"}:
+            selected_slot = player.shop.slots[action_to_play[1]]
+            # Discover purchase linkage does not couple freeze toggles. The
+            # sibling remains independently freezeable in the same shop.
+            freeze_keys = [self._legality_identities.remember(selected_slot.obj)]
+        action_method(*action_to_play[1:])
+        toggled = (
+            self._freeze_toggled_agent
+            if agent_idx == 0
+            else self._freeze_toggled_opponent
+        )
+        if freeze_keys:
+            toggled.update(freeze_keys)
+        elif action_name == "roll":
+            toggled.clear()
+
+        if agent_idx == 0:
+            self.shop_action_count_agent += 1
+        else:
+            self.shop_action_count_opponent += 1
+
+        
+        # Invalidate the cache for the agent that just acted
+        if agent_idx == 0:
+            self._agent_actions_cache = None
+        else:
+            self._opponent_actions_cache = None
+
+        # Track last actions for the agent
+        if agent_idx == 0:
+            self.last_actions[0] = action
+        
+        if action_name in ("reorder", "swap"):
+            if agent_idx == 0:
+                self.reorder_count_agent += 1
+                self._seen_team_orders_agent.add(
+                    self._team_order_key(self.agent)
+                )
+            else:
+                self.reorder_count_opponent += 1
+                self._seen_team_orders_opponent.add(
+                    self._team_order_key(self.opponent)
+                )
+        
+        # if agent_idx == 0:
+        #     if action_name == "buy_pet":
+        #         # Assuming Player class has an attribute 'last_bought_pet'
+        #         bought_pet = player.last_bought_pet  # You need to ensure this attribute exists
+        #         if bought_pet in ["pet-monkey", "pet-giraffe"]:
+        #             self.allow_additional_reorder_agent = True
+        #     elif action_name in ["trigger_pile_faint_effect"]:  # Replace with actual action names
+        #         # Replace with the correct action name(s) that require additional reorder
+        #         self.allow_additional_reorder_agent = True
+
+        return action_name
+
+    def add_opponent_from_state(self, policy_state_dict, policy_class, policy_kwargs):
+        """
+        Recreates an opponent model from its weights and adds it to the pool.
+        This method is designed to be called via `env_method` from a callback,
+        avoiding the need to pickle an entire model object.
+        """
+        # 1. Create a new model instance. Since this is running inside the
+        #    environment's process, it's safe to pass `self` as the env.
+        opponent_model = MaskablePPO(
+            policy=policy_class,
+            env=self,
+            policy_kwargs=policy_kwargs,
+        )
+        
+        # 2. Load the weights that were sent from the main process.
+        opponent_model.policy.load_state_dict(policy_state_dict)
+        
+        # 3. Add the fully-reconstructed opponent model to this env's pool.
+        self.add_opponent(opponent_model)
+
+    def add_opponent(self, opponent_model: MaskablePPO):
+        """
+        Adds a new opponent to this environment's opponent pool.
+        """
+        if len(self.opponent_pool) >= self.max_opponents:
+            self.opponent_pool.pop(0)  # Remove the oldest opponent
+        self.opponent_pool.append(opponent_model)
+
+    def get_opponent_action(self):
+        """
+        Get the action from the selected opponent.
+        If no opponent is selected (opponent_pool is empty), use a default opponent action strategy.
+        
+        :return: Action chosen by the opponent.
+        """
+        if self.current_opponent_model is None:
+            return self.default_opponent_action()
+
+        # Opponent's observation includes its current state and the agent's previous state
+        opponent_obs = self._encode_state(agent_idx=1)  # Encode opponent's observation including agent's previous state
+        # action_mask = self.info.get('action_mask', None)
+        opponent_action_mask = self._generate_action_mask(agent_idx=1)
+        opponent_action, _states = self.current_opponent_model.predict(opponent_obs, action_masks=opponent_action_mask, deterministic=True)
+        return opponent_action
+
+    def default_opponent_action(self):
+        """
+        Define a default opponent action strategy (e.g., random actions).
+        
+        :return: Randomly selected valid action.
+        """
+        available_actions = list(self._avail_actions(agent_idx=1).keys())
+        if not available_actions:
+            return self.ACTION_BASE_NUM["end_turn"]
+        return self.rs_random.choice(available_actions)
+    
+    def add_opponent_from_path(self, model_path: str):
+        """
+        Loads a MaskablePPO model from a file path and adds it to the pool.
+        This is safe to call via `env_method` as it only passes a string.
+        """
+        try:
+            # We need an env to load the model; it's safe to use `self`.
+            # No device needs to be specified; it will auto-detect.
+            opponent_model = MaskablePPO.load(model_path, env=self)
+            self.add_opponent(opponent_model)
+        except Exception as e:
+            # This can happen if the file doesn't exist or is corrupted.
+            # It's better to log this than to crash the worker process.
+            print(f"Warning: Could not load opponent model from {model_path}. Error: {e}")
+
+
+    def is_done(self):
+        """
+        Determine if the game has ended.
+        
+        :return: Boolean indicating if the game is done.
+        """
+        return (self.agent.lives <= 0 or self.opponent.lives <= 0 or self.turn >= self.MAX_TURN)
+
+    def get_reward_agent(self):
+        """
+        Calculate reward for the agent.
+        
+        :return: Agent's reward.
+        """
+
+        # Start with any immediate rewards collected during the step
+        reward = self.step_reward
+        self.step_reward = 0.0
+
+        if self.agent.lf_winner is True and self.opponent.lf_winner is False:
+            reward += 0.1  # Won the battle
+
+        
+        # Proportional reward for achieving a new "high score" in team stats
+        current_team_stats = sum(p.pet.attack + p.pet.health for p in self.agent.team if not p.empty)
+        
+        if current_team_stats > self.agent_max_team_stats:
+            increase = current_team_stats - self.agent_max_team_stats
+            # Apply the annealed, proportional reward
+            reward += (increase * 0.005) * self.shaping_scale 
+            self.agent_max_team_stats = current_team_stats
+    
+        if self.opponent.lives <= 0:
+            reward += 2.0
+        
+        if self.agent.lives <= 0:
+            reward -= 2.0
+        
+        reward += self.bad_action_reward_sum_agent
+
+        return reward
+
+    def _avail_end_turn(self, agent_idx: int, force: bool = False):
+        """
+        Get available 'end_turn' actions for the specified agent.
+        
+        :param agent_idx: Index of the agent (0 for agent, 1 for opponent).
+        :return: Dictionary of available 'end_turn' actions.
+        """
+        action_dict = {}
+        player = self.agent if agent_idx == 0 else self.opponent
+        if not force and player.gold > self.MAX_UNSPENT_GOLD_TO_END:
+            return action_dict
+        action_num = self.ACTION_BASE_NUM["end_turn"]
+        action_dict[action_num] = (player.end_turn,)
+        return action_dict
+
+    # def _avail_buy_pets(self, agent_idx: int):
+    #     """
+    #     Get available 'buy_pet' actions for the specified agent.
+        
+    #     :param agent_idx: Index of the agent (0 for agent, 1 for opponent).
+    #     :return: Dictionary of available 'buy_pet' actions.
+    #     """
+    #     action_dict = {}
+    #     player = self.agent if agent_idx == 0 else self.opponent
+    #     shop = self.shop_agent if agent_idx == 0 else self.shop_opponent
+    #     team = self.team_agent if agent_idx == 0 else self.team_opponent
+
+    #     if len(player.team) >= self.MAX_TEAM_PETS:
+    #         return action_dict  # Cannot buy if team is full
+
+    #     pet_index = 0
+    #     for shop_idx, shop_slot in enumerate(player.shop):
+    #         if shop_slot.slot_type == "pet":
+    #             if shop_slot.cost <= player.gold:
+    #                 action_num = self.ACTION_BASE_NUM["buy_pet"] + pet_index
+    #                 action_dict[action_num] = (player.buy_pet, shop_idx)
+    #             pet_index += 1
+    #     return action_dict
+    def _avail_buy_pets(self, agent_idx: int):
+        action_dict = {}
+        player = self.agent if agent_idx == 0 else self.opponent
+        for shop_idx, shop_slot in enumerate(player.shop):
+            if shop_idx >= MAX_SHOP_SLOTS:
+                break
+            if (
+                shop_slot.slot_type not in {"pet", "levelup"}
+                or shop_slot.cost > player.gold
+            ):
+                continue
+            for team_idx, team_slot in enumerate(player.team):
+                action = AutoregressiveAction(
+                    ActionType.BUY_PET, shop_idx, team_idx
+                )
+                action_num = FlatActionCodec.encode(action)
+                if team_slot.empty:
+                    action_dict[action_num] = (player.buy_pet, shop_idx, team_idx)
+                elif (
+                    team_slot.pet.name == shop_slot.obj.name
+                    and team_slot.pet.level < 3
+                ):
+                    action_dict[action_num] = (
+                        player.buy_combine,
+                        shop_idx,
+                        team_idx,
+                    )
+                
+        return action_dict
+
+    # def _avail_buy_foods(self, agent_idx: int):
+    #     action_dict = dict()
+    #     action_dict = {}
+    #     player = self.agent if agent_idx == 0 else self.opponent
+    #     shop = self.shop_agent if agent_idx == 0 else self.shop_opponent
+    #     team = self.team_agent if agent_idx == 0 else self.team_opponent
+
+    #     if len(player.team) == 0:
+    #         return action_dict
+
+    #     food_index = 0
+    #     for shop_idx, shop_slot in enumerate(player.shop):
+    #         if shop_slot.slot_type == "food":
+    #             if shop_slot.cost <= player.gold:
+    #                 # Multi-foods (eg. salad, sushi, etc.)
+    #                 food_effect = data["foods"][shop_slot.obj.name]["ability"]["effect"]
+    #                 if shop_slot.obj.name == "food-canned-food" or ("target" in food_effect and "kind" in food_effect["target"] and food_effect["target"]["kind"] == "RandomFriend"):
+    #                     action_num = self.ACTION_BASE_NUM["buy_food_team"] + food_index
+    #                     action_dict[action_num] = (player.buy_food, shop_idx)
+    #                 else:
+    #                     # Single target foods (eg. apple, melon)
+    #                     for team_idx, team_slot in enumerate(player.team):
+    #                         if team_slot.empty:
+    #                             continue
+    #                         action_num = self.ACTION_BASE_NUM["buy_food"] + (food_index * self.MAX_TEAM_PETS) + team_idx
+    #                         action_dict[action_num] = (player.buy_food, shop_idx, team_idx)
+    #             food_index += 1
+    #     return action_dict
+    def _avail_buy_foods(self, agent_idx: int):
+        """
+        Generates available actions for buying food from the shop.
+        This version correctly separates the food-specific index from the shop's global index.
+        """
+        action_dict = {}
+        player = self.agent if agent_idx == 0 else self.opponent
+
+        if len(player.team) == 0:
+            return action_dict
+
+        for shop_idx, shop_slot in enumerate(player.shop):
+            if shop_idx >= MAX_SHOP_SLOTS:
+                break
+            if shop_slot.slot_type != "food" or shop_slot.cost > player.gold:
+                continue
+            food_effect = data["foods"][shop_slot.obj.name]["ability"]["effect"]
+
+            # Handle team-wide foods (like Canned Food)
+            if shop_slot.obj.name == "food-canned-food" or \
+            ("target" in food_effect and food_effect["target"].get("kind") == "RandomFriend"):
+                
+                action_num = FlatActionCodec.encode(
+                    AutoregressiveAction(
+                        ActionType.BUY_FOOD, shop_idx, NO_TARGET
+                    )
+                )
+                action_dict[action_num] = (player.buy_food, shop_idx)
+            else:
+                # Handle targeted foods (like Apple)
+                for team_idx, team_slot in enumerate(player.team):
+                    if (
+                        not team_slot.empty
+                        and team_slot.pet.can_eat(shop_slot.obj)
+                    ):
+                        action_num = FlatActionCodec.encode(
+                            AutoregressiveAction(
+                                ActionType.BUY_FOOD, shop_idx, team_idx
+                            )
+                        )
+                        action_dict[action_num] = (player.buy_food, shop_idx, team_idx)
+                
+        return action_dict
+    
+    # def _avail_buy_combine(self, agent_idx: int):
+    #     action_dict = {}
+    #     player = self.agent if agent_idx == 0 else self.opponent
+    #     shop = self.shop_agent if agent_idx == 0 else self.shop_opponent
+    #     team = self.team_agent if agent_idx == 0 else self.team_opponent    
+
+    #     team_names = {}
+    #     if len(player.team) == 0:
+    #         return action_dict
+
+    #     # Find pet names on team
+    #     for team_idx, slot in enumerate(player.team):
+    #         if slot.empty:
+    #             continue
+    #         if slot.pet.name not in team_names:
+    #             team_names[slot.pet.name] = []
+    #         team_names[slot.pet.name].append(team_idx)
+
+    #     # Search through pets in the shop
+    #     shop_pet_index = 0
+    #     for shop_idx, shop_slot in enumerate(player.shop):
+    #         if shop_slot.slot_type == "pet":
+    #             # Can't combine if pet not already on team
+    #             if shop_slot.obj.name not in team_names:
+    #                 continue
+
+    #             if shop_slot.cost <= player.gold:
+    #                 for team_idx in team_names[shop_slot.obj.name]:
+    #                     action_num = self.ACTION_BASE_NUM["buy_combine"] + (shop_pet_index * self.MAX_TEAM_PETS) + team_idx
+    #                     action_dict[action_num] = (player.buy_combine, shop_idx, team_idx)
+    #             shop_pet_index += 1
+
+    #     return action_dict
+    def _avail_team_combine(self, agent_idx: int):
+        """
+        Get available 'combine' actions for the specified agent.
+        
+        :param agent_idx: Index of the agent (0 for agent, 1 for opponent).
+        :return: Dictionary of available 'combine' actions.
+        """
+        action_dict = {}
+        player = self.agent if agent_idx == 0 else self.opponent
+        team = self.team_agent if agent_idx == 0 else self.team_opponent
+
+        if len(player.team) <= 1:
+            return action_dict
+
+        for source_idx, source_slot in enumerate(player.team):
+            if source_slot.empty:
+                continue
+            for target_idx, target_slot in enumerate(player.team):
+                if source_idx == target_idx or target_slot.empty:
+                    continue
+                if source_slot.pet.name != target_slot.pet.name:
+                    continue
+                if source_slot.pet.level >= 3 or target_slot.pet.level >= 3:
+                    continue
+                action_num = FlatActionCodec.encode(
+                    AutoregressiveAction(
+                        ActionType.COMBINE, source_idx, target_idx
+                    )
+                )
+                # The destination/target pet is retained.
+                action_dict[action_num] = (
+                    player.combine,
+                    target_idx,
+                    source_idx,
+                )
+
+        return action_dict
+
+    
+    def _avail_sell(self, agent_idx):
+        """
+        Get available 'sell' actions for the specified agent.
+        
+        :param agent_idx: Index of the agent (0 for agent, 1 for opponent).
+        :return: Dictionary of available 'sell' actions.
+        """
+        action_dict = {}
+        player = self.agent if agent_idx == 0 else self.opponent
+        team = self.team_agent if agent_idx == 0 else self.team_opponent
+        
+        for team_idx, slot in enumerate(player.team):
+            if slot.empty:
+                continue
+            action_num = FlatActionCodec.encode(
+                AutoregressiveAction(ActionType.SELL, team_idx)
+            )
+            action_dict[action_num] = (player.sell, team_idx)
+        
+        return action_dict
+
+    def _avail_roll(self, agent_idx):
+        """
+        Get available 'roll' actions for the specified agent.
+        
+        :param agent_idx: Index of the agent (0 for agent, 1 for opponent).
+        :return: Dictionary of available 'roll' actions.
+        """
+        action_dict = dict()
+        player = self.agent if agent_idx == 0 else self.opponent
+        shop = self.shop_agent if agent_idx == 0 else self.shop_opponent
+
+        if player.gold >= 1:
+            action_dict[FlatActionCodec.ROLL] = (player.roll,)
+        return action_dict
+
+    def _avail_freeze(self, agent_idx):
+        action_dict = {}
+        player = self.agent if agent_idx == 0 else self.opponent
+        toggled = (
+            self._freeze_toggled_agent
+            if agent_idx == 0
+            else self._freeze_toggled_opponent
+        )
+        for shop_idx, slot in enumerate(player.shop):
+            if shop_idx >= MAX_SHOP_SLOTS:
+                break
+            if slot.empty or slot.frozen or id(slot.obj) in toggled:
+                continue
+            action_num = FlatActionCodec.encode(
+                AutoregressiveAction(ActionType.FREEZE, shop_idx)
+            )
+            action_dict[action_num] = (player.freeze, shop_idx)
+        return action_dict
+
+    def _avail_unfreeze(self, agent_idx):
+        action_dict = {}
+        player = self.agent if agent_idx == 0 else self.opponent
+        toggled = (
+            self._freeze_toggled_agent
+            if agent_idx == 0
+            else self._freeze_toggled_opponent
+        )
+        for shop_idx, slot in enumerate(player.shop):
+            if shop_idx >= MAX_SHOP_SLOTS:
+                break
+            if slot.empty or not slot.frozen or id(slot.obj) in toggled:
+                continue
+            action_num = FlatActionCodec.encode(
+                AutoregressiveAction(ActionType.UNFREEZE, shop_idx)
+            )
+            action_dict[action_num] = (player.unfreeze, shop_idx)
+        return action_dict
+
+    def _team_order_key(self, player):
+        # Object identity distinguishes same-name pets with different stats,
+        # including removed pets referenced by this turn's visited orders.
+        # Owning these objects prevents a new purchase reusing an old address.
+        return tuple(
+            None if slot.empty else self._legality_identities.remember(slot.pet)
+            for slot in player.team
+        )
+
+    def _avail_move(self, agent_idx):
+        action_dict = {}
+        player = self.agent if agent_idx == 0 else self.opponent
+        reorder_count = (
+            self.reorder_count_agent
+            if agent_idx == 0
+            else self.reorder_count_opponent
+        )
+        if reorder_count >= self.MAX_REORDERS_PER_TURN:
+            return action_dict
+        seen_orders = (
+            self._seen_team_orders_agent
+            if agent_idx == 0
+            else self._seen_team_orders_opponent
+        )
+        current_order = self._team_order_key(player)
+        seen_orders.add(current_order)
+        for source_idx, source_slot in enumerate(player.team):
+            if source_slot.empty:
+                continue
+            for target_idx in range(self.MAX_TEAM_PETS):
+                if source_idx == target_idx:
+                    continue
+                resulting_order = list(current_order)
+                moved = resulting_order.pop(source_idx)
+                resulting_order.insert(target_idx, moved)
+                if tuple(resulting_order) in seen_orders:
+                    continue
+                action_num = FlatActionCodec.encode(
+                    AutoregressiveAction(
+                        ActionType.MOVE, source_idx, target_idx
+                    )
+                )
+                action_dict[action_num] = (
+                    player.swap,
+                    source_idx,
+                    target_idx,
+                )
+        return action_dict
+
+    def _get_action_name(self, input_action):
+        """
+        Retrieve the action name from the action tuple.
+        
+        :param input_action: Tuple containing the action method and its parameters.
+        :return: Name of the action method.
+        """
+        return str(input_action[0].__name__)
+
+    def _avail_actions(self, agent_idx: int):
+        """
+        Get all available actions for the specified agent.
+        
+        :param agent_idx: Index of the agent (0 for agent, 1 for opponent).
+        :return: Dictionary mapping action numbers to action tuples.
+        """
+        cache_name = (
+            "_agent_actions_cache"
+            if agent_idx == 0
+            else "_opponent_actions_cache"
+        )
+        player = self.agent if agent_idx == 0 else self.opponent
+        action_count = (
+            self.shop_action_count_agent
+            if agent_idx == 0
+            else self.shop_action_count_opponent
+        )
+        reorder_count = (
+            self.reorder_count_agent
+            if agent_idx == 0
+            else self.reorder_count_opponent
+        )
+        toggled = (
+            self._freeze_toggled_agent
+            if agent_idx == 0
+            else self._freeze_toggled_opponent
+        )
+        seen_orders = (
+            self._seen_team_orders_agent
+            if agent_idx == 0
+            else self._seen_team_orders_opponent
+        )
+        # Direct diagnostic/test state edits can bypass resolve_action(). A
+        # compact identity/legality fingerprint keeps caching correct in those
+        # paths while remaining far cheaper than rebuilding every action.
+        fingerprint = (
+            int(player.gold),
+            int(action_count),
+            int(reorder_count),
+            tuple(sorted(toggled)),
+            frozenset(seen_orders),
+            tuple(
+                None
+                if slot.empty
+                else (id(slot.pet), slot.pet.name, int(slot.pet.level))
+                for slot in player.team
+            ),
+            tuple(
+                (
+                    id(slot.obj),
+                    slot.slot_type,
+                    int(slot.cost),
+                    bool(slot.frozen),
+                )
+                for slot in player.shop
+            ),
+        )
+        cached = getattr(self, cache_name, None)
+        if cached is not None and cached[0] == fingerprint:
+            return cached[1]
+
+        end_turn_actions = self._avail_end_turn(agent_idx)
+        if action_count >= 50:
+            # Safety valve: a malformed or cycling policy must still be able
+            # to terminate the shop after the hard action cap.
+            actions = self._avail_end_turn(agent_idx, force=True)
+            setattr(self, cache_name, (fingerprint, actions))
+            return actions
+        buy_pet_actions = self._avail_buy_pets(agent_idx)
+        buy_food_actions = self._avail_buy_foods(agent_idx)
+        team_combine_actions = self._avail_team_combine(agent_idx)
+        sell_actions = self._avail_sell(agent_idx)
+        roll_actions = self._avail_roll(agent_idx)
+        freeze_actions = self._avail_freeze(agent_idx)
+        unfreeze_actions = self._avail_unfreeze(agent_idx)
+        move_actions = self._avail_move(agent_idx)
+
+        # Combine all actions
+        all_avail_actions = {**end_turn_actions, **buy_pet_actions, **buy_food_actions,
+                             **team_combine_actions, **sell_actions,
+                             **roll_actions, **freeze_actions,
+                             **unfreeze_actions, **move_actions}
+
+        # Validate action uniqueness
+        total_action_len = len(end_turn_actions) + len(buy_pet_actions) + len(buy_food_actions) + \
+                           len(team_combine_actions) + len(sell_actions) + \
+                           len(roll_actions) + len(freeze_actions) + \
+                           len(unfreeze_actions) + len(move_actions)
+        assert total_action_len == len(all_avail_actions), "Duplicate or missing actions detected."
+
+        setattr(self, cache_name, (fingerprint, all_avail_actions))
+        return all_avail_actions
+
+    def _is_valid_action(self, action: int) -> bool:
+        """
+        Check if the action is valid.
+        
+        :param action: Action number to validate.
+        :return: True if valid, False otherwise.
+        """
+        return 0 <= action < self.MAX_ACTIONS
+
+    def action_masks(self) -> List[np.ndarray]:
+        """
+        Generate action masks for both the agent and the opponent.
+        
+        :return: List containing action masks for the agent and the opponent.
+        """
+        masks_agent = np.zeros(self.MAX_ACTIONS, dtype=bool)
+        masks_opponent = np.zeros(self.MAX_ACTIONS, dtype=bool)
+
+        avail_actions_agent = self._avail_actions(agent_idx=0).keys()
+        avail_actions_opponent = self._avail_actions(agent_idx=1).keys()
+
+        masks_agent[list(avail_actions_agent)] = True
+        masks_opponent[list(avail_actions_opponent)] = True
+
+        # return [masks_agent, masks_opponent]
+        return masks_agent
+
+    # def _encode_pets(self, pets: List[Pet]) -> List[np.ndarray]:
+    #     """
+    #     One-hot encode the list of pets.
+        
+    #     :param pets: List of Pet objects.
+    #     :return: List of encoded pet arrays.
+    #     """
+    #     arrays_to_concat = []
+    #     for pet in pets:
+    #         if pet.name == "pet-none":
+    #             arrays_to_concat.append(np.zeros(len(self.ALL_PETS)))
+    #             arrays_to_concat.append(np.zeros(2))  # Placeholder for attack and health, change to -> arrays_to_concat.append(np.zeros((2,)))
+    #             arrays_to_concat.append(np.zeros(len(self.ALL_STATUSES)))
+    #         else:
+    #             arrays_to_concat.append(self._encode_single(pet.name, self.ALL_PETS))
+    #             arrays_to_concat.append(np.array([pet.attack / 50, pet.health / 50]))
+    #             if pet.status == "none":
+    #                 arrays_to_concat.append(np.zeros(len(self.ALL_STATUSES))) # -> arrays_to_concat.append(np.zeros((len(self.ALL_STATUSES),)))
+    #             else:
+    #                 arrays_to_concat.append(self._encode_single(pet.status, self.ALL_STATUSES))
+    #     return arrays_to_concat
+    def _encode_pets(self, pets: List[Pet]) -> List[np.ndarray]:
+        """
+        One-hot encode the list of pets.
+        ...
+        """
+        arrays_to_concat = []
+        for pet in pets:
+            if pet.name == "pet-none":
+                arrays_to_concat.append(np.zeros(len(self.ALL_PETS)))
+                arrays_to_concat.append(np.zeros(2))
+                arrays_to_concat.append(np.zeros(len(self.ALL_STATUSES)))
+            else:
+                # Use the pre-fitted pet_encoder
+                encoded_pet = self.pet_encoder.transform(np.array([[pet.name]]))[0]
+                arrays_to_concat.append(encoded_pet)
+
+                arrays_to_concat.append(np.array([pet.attack / 50, pet.health / 50]))
+                if pet.status == "none":
+                    arrays_to_concat.append(np.zeros(len(self.ALL_STATUSES)))
+                else:
+                    # Use the pre-fitted status_encoder
+                    encoded_status = self.status_encoder.transform(np.array([[pet.status]]))[0]
+                    arrays_to_concat.append(encoded_status)
+        return arrays_to_concat
+
+    # def _encode_foods(self, foods: List[tuple]) -> List[np.ndarray]:
+    #     """
+    #     One-hot encode the list of foods.
+        
+    #     :param foods: List of tuples containing Food objects and their costs.
+    #     :return: List of encoded food arrays.
+    #     """
+    #     arrays_to_concat = []
+    #     for food_tuple in foods:
+    #         (food, cost) = food_tuple
+    #         if food.name == "food-none":
+    #             arrays_to_concat.append(np.zeros(len(self.ALL_FOODS)))
+    #             arrays_to_concat.append(np.zeros(1))  # Placeholder for cost, change to arrays_to_concat.append(np.zeros((1,)))
+    #         else:
+    #             arrays_to_concat.append(self._encode_single(food.name, self.ALL_FOODS))
+    #             arrays_to_concat.append(np.array([cost / 3]))  # Normalize cost (assuming max cost is 3)
+    #     return arrays_to_concat
+    def _encode_foods(self, foods: List[tuple]) -> List[np.ndarray]:
+        """
+        One-hot encode the list of foods.
+        ...
+        """
+        arrays_to_concat = []
+        for food_tuple in foods:
+            (food, cost) = food_tuple
+            if food.name == "food-none":
+                arrays_to_concat.append(np.zeros(len(self.ALL_FOODS)))
+                arrays_to_concat.append(np.zeros(1))
+            else:
+                # Use the pre-fitted food_encoder
+                encoded_food = self.food_encoder.transform(np.array([[food.name]]))[0]
+                arrays_to_concat.append(encoded_food)
+                
+                arrays_to_concat.append(np.array([cost / 3]))
+        return arrays_to_concat
+
+    # def _get_shop_foods(self, agent_idx: int) -> List[tuple]:
+    #     """
+    #     Retrieve the list of food items in the shop for the specified agent.
+        
+    #     :param agent_idx: Index of the agent (0 for agent, 1 for opponent).
+    #     :return: List of tuples containing Food objects and their costs.
+    #     """
+    #     shop = self.shop_agent if agent_idx == 0 else self.shop_opponent
+    #     food_slots = []
+    #     for slot in shop.foods:
+    #         if slot.name != "food-none":
+    #             food_slots.append((Food(slot.name), slot.cost))
+    #     return food_slots
+
+    def _get_shop_foods(self, agent_idx: int):
+        """
+        Retrieve the list of food items in the shop for the specified agent.
+        
+        :param agent_idx: Index of the agent (0 for agent, 1 for opponent).
+        :return: List of tuples containing Food objects and their costs.
+        """
+        shop = self.shop_agent if agent_idx == 0 else self.shop_opponent
+        player = self.agent if agent_idx == 0 else self.opponent
+        food_slots = []
+        for slot in player.shop._slots: #change back to shop_slots
+            if slot.slot_type == "food":
+                food_slots.append((slot.obj, slot.cost)) #change to slot.item?
+        return food_slots
+
+    def _encode_state(self, agent_idx: Optional[int] = None) -> np.ndarray:
+        """
+        Encode the current state of the game.
+        
+        :param agent_idx: Index of the agent to encode state for (0 for agent, 1 for opponent). If None, encode for both.
+        :return: Encoded state as a NumPy array.
+        """
+        if agent_idx is None:
+            # Encode Agent's Current State
+            # encoded_team_pets_agent = self._encode_pets([p for p in self.team_agent.pets])
+            # Encode team
+            encoded_team_pets_agent = self._encode_pets([p.pet for p in self.agent.team])
+            # Encode shop
+            shop_pets = self.agent.shop.pets[: self.MAX_SHOP_PETS]
+            shop_foods = self._get_shop_foods(agent_idx=0)[: self.MAX_SHOP_FOODS]
+
+            # Pad to the maximum number of pets and foods that can be in a shop
+            while len(shop_pets) < self.MAX_SHOP_PETS:
+                shop_pets.append(Pet("pet-none"))
+            while len(shop_foods) < self.MAX_SHOP_FOODS:
+                shop_foods.append((Food("food-none"), 0))
+
+            encoded_shop_pets_agent = self._encode_pets(shop_pets)
+            encoded_shop_foods_agent = self._encode_foods(shop_foods)
+            stats_agent = self._encode_stats(self.agent)
+
+            # Encode Opponent's Previous State
+            if self.previous_opponent_state is not None:
+                # encoded_team_pets_opponent = self._encode_pets([p for p in self.previous_opponent_state.pets])
+                encoded_team_pets_opponent = self._encode_pets([p.pet for p in self.previous_opponent_state])
+
+                # opponent_shop_pets = self.opponent.shop.pets
+                # opponent_shop_foods = self._get_shop_foods(agent_idx=1)
+
+                # while len(opponent_shop_pets) < 6:
+                #     opponent_shop_pets.append(Pet("pet-none"))
+                # while len(opponent_shop_foods) < 2:
+                #     opponent_shop_foods.append((Food("food-none"), 0))
+
+                # encoded_shop_pets_opponent = self._encode_pets(opponent_shop_pets)
+                # encoded_shop_foods_opponent = self._encode_foods(opponent_shop_foods)
+                stats_opponent = self._encode_stats_opponent(self.opponent)
+            else:
+                # Initialize with default values if no previous state exists
+                encoded_team_pets_opponent = self._encode_pets([Pet("pet-none")] * self.MAX_TEAM_PETS)
+                # encoded_shop_pets_opponent = self._encode_pets([Pet("pet-none")] * self.MAX_SHOP_PETS)
+                # encoded_shop_foods_opponent = self._encode_foods([(Food("food-none"), 0)] * self.MAX_SHOP_FOODS)
+                stats_opponent = self._encode_stats_opponent(
+                    Player() if getattr(self, '_initialization_seed', None) is None else Player(shop=[], record_actions=False)
+                )
+
+            # Concatenate Agent and Opponent States
+            state_agent = np.concatenate(encoded_team_pets_agent + encoded_shop_pets_agent + encoded_shop_foods_agent + [stats_agent])
+            state_opponent = np.concatenate(encoded_team_pets_opponent + [stats_opponent])
+
+            # Concatenate both agent and opponent states
+            combined_state = np.concatenate([state_agent, state_opponent])
+
+            # After encoding
+            # print("Combined state length:", len(combined_state))
+            # print("Combined state shape:", combined_state.shape)
+
+            # Convert to float32
+            final_state = combined_state.astype(np.float32)
+
+            return final_state
+
+        else:
+            # Encode State for a Specific Agent (used for Opponent's Observation)
+            if agent_idx == 1:
+                # Opponent's current state
+
+                encoded_team_pets_opponent = self._encode_pets([p.pet for p in self.opponent.team])
+
+                opponent_shop_pets = self.opponent.shop.pets[: self.MAX_SHOP_PETS]
+                opponent_shop_foods = self._get_shop_foods(agent_idx=1)[
+                    : self.MAX_SHOP_FOODS
+                ]
+
+                while len(opponent_shop_pets) < self.MAX_SHOP_PETS:
+                    opponent_shop_pets.append(Pet("pet-none"))
+                while len(opponent_shop_foods) < self.MAX_SHOP_FOODS:
+                    opponent_shop_foods.append((Food("food-none"), 0))
+
+                encoded_shop_pets_opponent = self._encode_pets(opponent_shop_pets)
+                encoded_shop_foods_opponent = self._encode_foods(opponent_shop_foods)
+                stats_opponent = self._encode_stats(self.opponent)
+
+                # Agent's previous state
+                if self.previous_agent_state is not None:
+                    encoded_team_pets_agent_prev = self._encode_pets([p.pet for p in self.previous_agent_state])
+                    stats_agent_prev = self._encode_stats_opponent(self.agent)
+                else:
+                    # Initialize with default values if no previous state exists
+                    encoded_team_pets_agent_prev = self._encode_pets([Pet("pet-none")] * self.MAX_TEAM_PETS)
+                    stats_agent_prev = self._encode_stats_opponent(
+                        Player() if getattr(self, '_initialization_seed', None) is None else Player(shop=[], record_actions=False)
+                    )
+
+                # Concatenate Opponent's and Agent's Previous States
+                state_opponent = np.concatenate(encoded_team_pets_opponent + encoded_shop_pets_opponent + encoded_shop_foods_opponent + [stats_opponent])
+                state_agent_prev = np.concatenate(encoded_team_pets_agent_prev + [stats_agent_prev])
+
+                # Concatenate both opponent's current state and agent's previous state
+                combined_specific_state = np.concatenate([state_opponent, state_agent_prev])
+
+                # Convert to float32
+                final_specific_state = combined_specific_state.astype(np.float32)
+
+                return final_specific_state
+            else:
+                raise ValueError("Invalid agent_idx. Only agent_idx=0 (agent) and agent_idx=1 (opponent) are supported.")
+
+    def _encode_single(self, value: str, category: List[str]) -> np.ndarray:
+        """
+        One-hot encode a single categorical value.
+        
+        :param value: The categorical value to encode.
+        :param category: List of all possible categories.
+        :return: One-hot encoded array.
+        """
+        encoder = OneHotEncoder(categories=[category], sparse_output=False, handle_unknown='ignore')
+        encoded = encoder.fit_transform(np.array([[value]]))
+        return encoded.flatten()
+
+    def render(self, mode='human'):
+        """
+        Render the current state of the game.
+        """
+        print("=== Agent ===")
+        self._render_player(self.agent)
+        print("Shop Agent:")
+        self._render_shop(self.shop_agent)
+        print("=== Opponent ===")
+        self._render_player(self.opponent)
+        print("Shop Opponent:")
+        self._render_shop(self.shop_opponent)
+        print(f"Turn: {self.turn}")
+        print(f"Game Over: {self.done}")
+
+    def _render_player(self, player: Player):
+        """
+        Render the player's team and stats.
+        
+        :param player: Player object.
+        """
+        print(f"Wins: {player.wins}, Lives: {player.lives}, Gold: {player.gold}, Turn: {player.turn}")
+        print("Team:")
+        # --- THIS IS THE FIX ---
+        # A Team object is iterable. Each item in it is a TeamSlot.
+        # We access the actual pet via the .pet attribute of the slot.
+        for slot in player.team:
+            if not slot.empty: # Only print pets that actually exist
+                pet = slot.pet
+                print(f" - {pet.name} (Atk: {pet.attack}, HP: {pet.health}, Status: {pet.status})")
+            else:
+                print(" - [Empty Slot]")
+        # --- END OF FIX ---
+
+    def _render_shop(self, shop: Shop):
+        """
+        Render the shop's pets and foods.
+        
+        :param shop: Shop object.
+        """
+        print("Pets in Shop:")
+        # A Shop object is also iterable. Each item is a ShopSlot.
+        # We can access the pet/food via the .obj attribute.
+        pet_slots = [slot for slot in shop if slot.slot_type == 'pet']
+        if not pet_slots:
+            print(" - (No pets in shop)")
+        for slot in pet_slots:
+            pet = slot.obj
+            print(f" - {pet.name} (Cost: {slot.cost})")
+
+        print("Foods in Shop:")
+        food_slots = [slot for slot in shop if slot.slot_type == 'food']
+        if not food_slots:
+            print(" - (No food in shop)")
+        for slot in food_slots:
+            food = slot.obj
+            print(f" - {food.name} (Cost: {slot.cost})")
+
+    def _player_fight_outcome(self, outcome: int):
+        """
+        Assign fight outcomes based on the battle result.
+        
+        :param outcome: Result of the battle (0: Agent wins, 1: Opponent wins, 2: Draw).
+        """
+        if outcome == 0:
+            self.agent.lf_winner = True
+            self.opponent.lf_winner = False
+            self.agent.last_battle_outcome = 1
+            self.opponent.last_battle_outcome = -1
+            self.agent.wins += 1
+            self.opponent.lives -= 1
+            self.opponent.lives = max(self.opponent.lives, 0)
+        elif outcome == 1:
+            self.opponent.lf_winner = True
+            self.agent.lf_winner = False
+            self.agent.last_battle_outcome = -1
+            self.opponent.last_battle_outcome = 1
+            self.opponent.wins += 1
+            self.agent.lives -= 1
+            self.agent.lives = max(self.agent.lives, 0)
+        elif outcome == 2:
+            # Handle draw if necessary
+            self.agent.lf_winner = True
+            self.opponent.lf_winner = True
+            self.agent.last_battle_outcome = 0
+            self.opponent.last_battle_outcome = 0
+
+        # Current P1 restores one heart to both players after the turn-two
+        # battle, regardless of its result, without exceeding six.  Battle
+        # outcome flags deliberately remain unchanged so a net-zero turn-two
+        # loss still enables Snail and other loss-dependent decisions.
+        if self.turn == 2:
+            self.agent.lives = min(self.MAX_LIVES, self.agent.lives + 1)
+            self.opponent.lives = min(
+                self.MAX_LIVES, self.opponent.lives + 1
+            )
+
+    def close(self):
+        """
+        Clean up resources.
+        """
+        pass
+
+    def _generate_action_mask(self, agent_idx: int) -> np.ndarray:
+        """
+        Generate a binary action mask for the specified agent.
+        
+        :param agent_idx: Index of the agent (0 for agent, 1 for opponent).
+        :return: Binary action mask as a NumPy array.
+        """
+        mask = np.zeros(self.MAX_ACTIONS, dtype=np.float32)
+        available_actions = self._avail_actions(agent_idx).keys()
+        mask[list(available_actions)] = True
+        return mask
+
+    def _encode_stats(self, player: Player) -> np.ndarray:
+        """
+        Encode player's stats.
+        
+        :param player: Player object.
+        :return: Normalized stats array.
+        """
+        wins_normalized = player.wins / 10  # Assuming max wins is 10
+        lives_normalized = player.lives / 6  # Assuming max lives is 10
+        gold_normalized = min(player.gold, 30) / 30  # Assuming max gold is 30
+        turn_normalized = min(player.turn, self.MAX_TURN) / self.MAX_TURN  # Assuming max turn is MAX_TURN
+        shop_attack_normalized = min(player.shop.shop_attack, 20) / 20  # Assuming max shop attack is 20
+
+        return np.array([
+            wins_normalized,
+            lives_normalized,
+            gold_normalized,
+            turn_normalized,
+            shop_attack_normalized
+        ])
+    
+    def _encode_stats_opponent(self, opponent: Player) -> np.ndarray:
+        """
+        Encode player's stats.
+        
+        :param player: Player object.
+        :return: Normalized stats array.
+        """
+        wins_normalized = opponent.wins / 10  # Assuming max wins is 10
+        lives_normalized = opponent.lives / 6  # Assuming max lives is 6
+        turn_normalized = min(opponent.turn, self.MAX_TURN) / self.MAX_TURN  # Assuming max turn is MAX_TURN
+
+        return np.array([
+            wins_normalized,
+            lives_normalized,
+            turn_normalized
+        ])
+    def set_shaping_scale(self, scale: float):
+        """
+        This method allows a callback to update the annealing scale for shaped rewards.
+        """
+        self.shaping_scale = scale

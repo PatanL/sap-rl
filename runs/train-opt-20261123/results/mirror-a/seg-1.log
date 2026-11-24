@@ -1,0 +1,42 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/usr/local/lib/python3.12/dist-packages/torch/backends/__init__.py:46: UserWarning: Please use the new API settings to control TF32 behavior, such as torch.backends.cudnn.conv.fp32_precision = 'tf32' or torch.backends.cuda.matmul.fp32_precision = 'ieee'. Old settings, e.g, torch.backends.cuda.matmul.allow_tf32 = True, torch.backends.cudnn.allow_tf32 = True, allowTF32CuDNN() and allowTF32CuBLAS() will be deprecated after Pytorch 2.9. Please see https://pytorch.org/docs/main/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices (Triggered internally at /opt/pytorch/pytorch/aten/src/ATen/Context.cpp:80.)
+  self.setter(val)
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+compiled encoder warmed up
+STALL: no update for 240.0 s at version 26523; exiting
+Thread 0x0000f646db287180 (most recent call first):
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 89 in _worker
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Current thread 0x0000f6470ea3f180 (most recent call first):
+  File "/out/collect_v2.py", line 107 in watchdog
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x0000f6470f24f180 (most recent call first):
+  File "/usr/local/lib/python3.12/dist-packages/pynvml.py", line 3710 in nvmlDeviceGetUtilizationRates
+  File "/sap/runs/train-vector-20261123/collector_g.py", line 110 in poll
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x0000f6470fa5f180 (most recent call first):
+  <no Python frame>
+
+Thread 0x0000f6471575d180 (most recent call first):
+  File "/usr/lib/python3.12/threading.py", line 359 in wait
+  File "/usr/lib/python3.12/threading.py", line 655 in wait
+  File "/usr/local/lib/python3.12/dist-packages/tqdm/_monitor.py", line 60 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x0000f64a49bb6960 (most recent call first):
+  File "/engine/sapai-gym/sapai_gym1/rl/dense_trajectory.py", line 105 in segments
+  File "/sap/runs/train-vector-20261123/trajectories.py", line 39 in finish
+  File "/out/collect_v2.py", line 131 in run
+  File "/out/collect_v2.py", line 159 in <module>

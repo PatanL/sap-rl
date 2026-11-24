@@ -1,0 +1,20 @@
+{
+  "tested": 20,
+  "matched": 20,
+  "median_seconds": 37.5185,
+  "min_seconds": 21.612,
+  "max_seconds": 50.891,
+  "median_with_navigation": 68.78999999999999,
+  "outcome_counts": {
+    "L": 10,
+    "R": 9,
+    "D": 1
+  },
+  "visible_survivors": 30,
+  "diagnostic_only": {
+    "n": 29,
+    "stat_correct": 28,
+    "species_assigned": 23,
+    "species_correct": 23
+  }
+}

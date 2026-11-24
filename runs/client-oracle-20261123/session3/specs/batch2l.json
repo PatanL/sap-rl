@@ -1,0 +1,9 @@
+[
+ {"name":"x1-dead-leopard","nseeds":3,"left":[["Fish",3,40],["Leopard",6,2]],"right":[["Fish",1,30],["Dolphin",20,50]]},
+ {"name":"x2-dead-dolphin","nseeds":3,"left":[["Fish",3,40],["Dolphin",5,2]],"right":[["Fish",1,30],["Dolphin",20,50]]},
+ {"name":"x3-dead-crocodile","nseeds":3,"left":[["Fish",3,40],["Crocodile",5,2]],"right":[["Fish",1,30],["Dolphin",20,50]]},
+ {"name":"x4-dead-mosquito","nseeds":3,"left":[["Fish",3,40],["Mosquito",2,2]],"right":[["Fish",1,30],["Dolphin",20,50]]},
+ {"name":"x5-dead-skunk","nseeds":3,"left":[["Fish",3,40],["Skunk",3,2]],"right":[["Fish",1,30],["Dolphin",20,50]]},
+ {"name":"x6-dead-whale","nseeds":3,"left":[["Cricket",3,40],["Whale",3,2]],"right":[["Fish",1,30],["Dolphin",20,50]]},
+ {"name":"x7-dead-dolphin-killed-by-croc","nseeds":3,"left":[["Fish",3,40],["Dolphin",5,6]],"right":[["Fish",1,30],["Crocodile",20,50]]}
+]

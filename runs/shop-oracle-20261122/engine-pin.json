@@ -1,0 +1,26 @@
+{
+  "source": "/home/dzliu/pzliu/sap-rl/runs/replay-oracle-20261122/engine-v31",
+  "files": {
+    "sapai/__init__.py": "f488318581f06234ed0747f1205d9de7738479e423b7ea136a054240babfc684",
+    "sapai/agents.py": "2d4be01532133edfade51d0487b32a3248e2aacce3e74fe81fa78a07993299ca",
+    "sapai/battle.py": "03332ca6c673d4c138b6ffed7c4272a497e9660f42ff875964c327ef98ecd923",
+    "sapai/compress.py": "675bba17d105ee0ce9e9fb83b42e6573df3841ebf7530620124b2a80c0669d6b",
+    "sapai/data.py": "7892347ba634ae0380ed1e4cd5660dc84c19d3ff427eb2fb159e768b4ce76423",
+    "sapai/effects.py": "cfc40e726f8d7893858707b2354de2db810c9f13daba7c7066667a0bd3990e23",
+    "sapai/foods.py": "927b61bb8973efa739ebe506d34f3289616e5af0e16e619997234b1d56248027",
+    "sapai/graph.py": "80dfce5cf1c019e8b83e433c68ca84030c4e613e6e18bea94e2de6ad7bfcf997",
+    "sapai/lists.py": "96a3351ed74322e4cf420b59df398a694ed9bb9300ba8696e39ecd0a5ec68b03",
+    "sapai/model.py": "536199eeef4d6817ceb1bc3dd6f0f0eb399e074868a2b269985aa1e30ed4c726",
+    "sapai/paired_random_tape.py": "bef4b4c98487861819122db203ce4943e2b3be3af74eba63379a7089ee27ff0f",
+    "sapai/pets.py": "853bc756eadcfe429fb95572b6f7516e83016332c09a53244e50471fc3767e3a",
+    "sapai/play.py": "a34adc874e304d2a95fd0b7d7dd611148dae3e93a946c891535ee8ffd6ead9b0",
+    "sapai/player.py": "21d7c06bb37773938d517ab35d011dffa6baac84205c7e1f477fd20b166402f2",
+    "sapai/rand.py": "2c8213c7691f211c791cb4916acc089bf6504152a384a057ee28902ef99ff896",
+    "sapai/shop.py": "d6843507c1731772bc98550a0d04d0c952148f1652aee61bbd4be32bd959bf50",
+    "sapai/status.py": "ae329eb841da7657d017e319bc58da739159c0b22769b3a3e9f67127b13e9c6d",
+    "sapai/teams.py": "0b7d6a7898d5dfedc2424182f31ea1f64080b97a2266871127f30499bbf69754",
+    "sapai/tiers.py": "659f166277ec59046864899b3ea49c47eec44663036523e39652e07df55f3f63",
+    "sapai/turtle_pack.py": "6fe49781971b4919fd26ada5806e4e00a443d2422241e467c473f31b92b6f9c4"
+  },
+  "sha256": "1f4abd3ef1c578fc207f23612275988f0a802b778d9f0ef2a0fe661646ef4a25"
+}

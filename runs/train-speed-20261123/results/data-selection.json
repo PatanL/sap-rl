@@ -1,0 +1,58 @@
+[
+  {
+    "update": 25773,
+    "serial_rows": 8193,
+    "concurrent_rows": 8193,
+    "identical_turns": 1479,
+    "identical_rows": 8193
+  },
+  {
+    "update": 25774,
+    "serial_rows": 8196,
+    "concurrent_rows": 8195,
+    "identical_turns": 342,
+    "identical_rows": 2475
+  },
+  {
+    "update": 25775,
+    "serial_rows": 8194,
+    "concurrent_rows": 8194,
+    "identical_turns": 0,
+    "identical_rows": 0
+  },
+  {
+    "update": 25776,
+    "serial_rows": 8208,
+    "concurrent_rows": 8204,
+    "identical_turns": 0,
+    "identical_rows": 0
+  },
+  {
+    "update": 25777,
+    "serial_rows": 8208,
+    "concurrent_rows": 8199,
+    "identical_turns": 0,
+    "identical_rows": 0
+  },
+  {
+    "update": 25778,
+    "serial_rows": 8201,
+    "concurrent_rows": 8195,
+    "identical_turns": 0,
+    "identical_rows": 0
+  },
+  {
+    "update": 25779,
+    "serial_rows": 8196,
+    "concurrent_rows": 8207,
+    "identical_turns": 0,
+    "identical_rows": 0
+  },
+  {
+    "update": 25780,
+    "serial_rows": 8200,
+    "concurrent_rows": 8195,
+    "identical_turns": 0,
+    "identical_rows": 0
+  }
+]

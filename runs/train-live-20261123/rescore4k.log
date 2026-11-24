@@ -1,0 +1,13 @@
+10:15:26 26022-25772 exit 0 score 0.5029 games 4096 seconds 70.5 decisions/s 16284
+10:17:00 26272-25772 exit 0 score 0.5189 games 4096 seconds 87.0 decisions/s 12340
+10:18:33 26522-25772 exit 0 score 0.5118 games 4096 seconds 87.3 decisions/s 12504
+10:20:03 26772-25772 exit 0 score 0.5308 games 4096 seconds 83.3 decisions/s 12510
+10:21:42 27022-25772 exit 0 score 0.5071 games 4096 seconds 93.7 decisions/s 12344
+10:23:18 27272-25772 exit 0 score 0.5153 games 4096 seconds 90.8 decisions/s 12135
+10:24:50 27522-25772 exit 0 score 0.5275 games 4096 seconds 85.3 decisions/s 12432
+10:26:24 27772-25772 exit 0 score 0.5312 games 4096 seconds 87.8 decisions/s 12526
+10:28:03 25772-v22 exit 0 score 0.7698 games 4096 seconds 94.4 decisions/s 13339
+10:29:41 25772-v25 exit 0 score 0.7610 games 4096 seconds 93.3 decisions/s 13515
+10:31:21 27772-v22 exit 0 score 0.7803 games 4096 seconds 95.5 decisions/s 13368
+10:33:04 27772-v25 exit 0 score 0.7839 games 4096 seconds 97.1 decisions/s 13062
+10:34:31 25772-25772 exit 0 score 0.5000 games 4096 seconds 82.0 decisions/s 13158

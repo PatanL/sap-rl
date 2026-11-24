@@ -1,0 +1,2721 @@
+[
+ {
+  "file": "c3-sk1-skunk2-on-50-p870113.json",
+  "id": "dcaffd20-592b-5c78-bc0d-98640f84c8d2",
+  "seed": 870113,
+  "sha256": "e5d22dbc4fb5e67c9dd999919432f0be8369cac5105db06abadcac9063b497b1",
+  "test": "sk1-skunk2-on-50",
+  "left": [
+   [
+    "Skunk",
+    5,
+    5,
+    {
+     "lvl": 2
+    }
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    2,
+    50
+   ]
+  ]
+ },
+ {
+  "file": "c3-sk1-skunk2-on-50-m1714808783.json",
+  "id": "3a6f1538-58c9-5fb1-a895-d0bec43dfc5d",
+  "seed": -1714808783,
+  "sha256": "84bf6783c79c873eaca09d080cf4625b4ecf5a3b123c67c8b7cabc1890f59909",
+  "test": "sk1-skunk2-on-50",
+  "left": [
+   [
+    "Skunk",
+    5,
+    5,
+    {
+     "lvl": 2
+    }
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    2,
+    50
+   ]
+  ]
+ },
+ {
+  "file": "c3-sk2-skunk3-on-50-p870113.json",
+  "id": "d9830b0d-5cfb-55e6-b445-b137b1a7dd67",
+  "seed": 870113,
+  "sha256": "723f3d93ee6a0c8589f5cf675f66ab55ac6ac189260bcb1100314d3bb372604b",
+  "test": "sk2-skunk3-on-50",
+  "left": [
+   [
+    "Skunk",
+    5,
+    5,
+    {
+     "lvl": 3
+    }
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    2,
+    50
+   ]
+  ]
+ },
+ {
+  "file": "c3-em1-empty-opponent-p870113.json",
+  "id": "a2898f56-086a-53f5-a03b-e994669476d2",
+  "seed": 870113,
+  "sha256": "b316ded2a4044db582b3c0b164257824c836faf9d3c8946bce492ab9e51fb356",
+  "test": "em1-empty-opponent",
+  "left": [
+   [
+    "Fish",
+    3,
+    10
+   ],
+   [
+    "Whale",
+    2,
+    8
+   ],
+   [
+    "Dodo",
+    6,
+    5
+   ]
+  ],
+  "right": []
+ },
+ {
+  "file": "c3-a7-fly-one-use-left-p870113.json",
+  "id": "9cf42a9d-de36-5bb2-bd45-c69f84d5ee45",
+  "seed": 870113,
+  "sha256": "89bed761d25ebbfbc33c5084de63eb6940b9b451e33a04f39b986cc09ccb83f4",
+  "test": "a7-fly-one-use-left",
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20,
+    {
+     "trco": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ]
+ },
+ {
+  "file": "c3-a7-fly-one-use-left-m1714808783.json",
+  "id": "15ffd070-e40a-5637-a7ef-f5cebe2289cb",
+  "seed": -1714808783,
+  "sha256": "54277e42b504b8cdc2b698af23f826dbdccd71cd7d7c1f0dc2472cf6032a64f7",
+  "test": "a7-fly-one-use-left",
+  "left": [
+   [
+    "Pig",
+    5,
+    3
+   ],
+   [
+    "Duck",
+    7,
+    2
+   ],
+   [
+    "Fish",
+    1,
+    2
+   ],
+   [
+    "Beaver",
+    3,
+    2
+   ],
+   [
+    "Fly",
+    4,
+    20,
+    {
+     "trco": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7x-tiger-dies-too-continues-p1203948571.json",
+  "id": "5fe87b56-ce34-560e-9211-2fb8ffa7aaa2",
+  "seed": 1203948571,
+  "sha256": "adc8c9c2da033ac33983d9726a38f457da98f20830c85227408f3f8b5e3f066f",
+  "test": "f7x-tiger-dies-too-continues",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7x-tiger-dies-too-continues-m402918337.json",
+  "id": "92d09d10-9648-5b98-89b5-30337baa8e92",
+  "seed": -402918337,
+  "sha256": "a273239d0583ed35c46362a3ef309456c87f222b9fe39074899bd3d8368f8272",
+  "test": "f7x-tiger-dies-too-continues",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7x-tiger-dies-too-continues-p1999999937.json",
+  "id": "cc070961-bf0e-5ff7-81f7-a73d57e08e91",
+  "seed": 1999999937,
+  "sha256": "6c5496d51c938cda79aa40b343457b48253b9dc13d55ad52a3fdde782660bcc3",
+  "test": "f7x-tiger-dies-too-continues",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7x-tiger-dies-too-continues-m2000000011.json",
+  "id": "642dcbfb-2263-54e4-9cdf-53a193c87339",
+  "seed": -2000000011,
+  "sha256": "4dc8dee43bb5527b459ddbda011993ee21745a6590e4fe75198e460ad933445e",
+  "test": "f7x-tiger-dies-too-continues",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7x-tiger-dies-too-continues-p55555.json",
+  "id": "9af0fe9c-4858-577b-9c4d-8f9e09c4d0fe",
+  "seed": 55555,
+  "sha256": "ece1654e81219cd08bbb454ceb024648d3379335cbec55872347de5267e5c7ac",
+  "test": "f7x-tiger-dies-too-continues",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f7x-tiger-dies-too-continues-m987654321.json",
+  "id": "d639a1b1-dd84-5d75-bedb-103cf6527ce1",
+  "seed": -987654321,
+  "sha256": "6069e66cea2e380a79f578dfe0a145ae4c41c0be286d0f9af8dd6e7017f0dc7f",
+  "test": "f7x-tiger-dies-too-continues",
+  "left": [
+   [
+    "Cricket",
+    1,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-ddynctl-crab-higher-no-dodo-p870113.json",
+  "id": "c030c6e5-a627-5e8f-9256-9fee534b4255",
+  "seed": 870113,
+  "sha256": "171826dedc212c9d6c7f09afb7bf50cd3a7dbdf15472f395eceaabdcc2084cba",
+  "test": "ddynctl-crab-higher-no-dodo",
+  "left": [
+   [
+    "Skunk",
+    5,
+    5
+   ],
+   [
+    "Fish",
+    10,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Crab",
+    9,
+    3
+   ],
+   [
+    "Fish",
+    2,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-ddynctl-crab-higher-no-dodo-m1714808783.json",
+  "id": "44432bd1-23fc-5151-b654-402811425c85",
+  "seed": -1714808783,
+  "sha256": "bd0f60ab275188937be7c957d7ea05470dd56ca7d82296c95c19b5ca665f4844",
+  "test": "ddynctl-crab-higher-no-dodo",
+  "left": [
+   [
+    "Skunk",
+    5,
+    5
+   ],
+   [
+    "Fish",
+    10,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Crab",
+    9,
+    3
+   ],
+   [
+    "Fish",
+    2,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-h9-fly1-two-snipes-dolphin-first-p870113.json",
+  "id": "62881325-e205-5099-adc7-ada0d341314b",
+  "seed": 870113,
+  "sha256": "22d698726c13492c4e06a531c0d853e14fdd3001eb272f4bc788e5fa573985d0",
+  "test": "h9-fly1-two-snipes-dolphin-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h9-fly1-two-snipes-dolphin-first-m1714808783.json",
+  "id": "75aee42d-a48a-51f9-8ecd-ab5cc9a3b49b",
+  "seed": -1714808783,
+  "sha256": "08254cdfd8e6feb2badb21e783f83429bebe9fa8dcae2849ee4bc1f78f29775f",
+  "test": "h9-fly1-two-snipes-dolphin-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h9r-fly1-two-snipes-croc-first-p870113.json",
+  "id": "6be15b71-a4ca-521c-acfe-99e6e901c473",
+  "seed": 870113,
+  "sha256": "289c17e1e5ceb5f691524f13aa035409115d9439a61e86172275f41730b0a324",
+  "test": "h9r-fly1-two-snipes-croc-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    7,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h9r-fly1-two-snipes-croc-first-m1714808783.json",
+  "id": "31e07af5-b435-5cdf-ba4d-23f057416cac",
+  "seed": -1714808783,
+  "sha256": "5a0c0ad4b26701c22cd088a8b1088ac9acdfe9c6f18b45d138f8a658bfbd35f8",
+  "test": "h9r-fly1-two-snipes-croc-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    7,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h10-fly1-swallow-vs-snipe-p870113.json",
+  "id": "e5335a3a-4345-5bdc-8667-ab376cd41cd6",
+  "seed": 870113,
+  "sha256": "ce058ba9736d46f50fe3e60377f4baac4f6a75bb50a1cfeb0105b63c969ded2e",
+  "test": "h10-fly1-swallow-vs-snipe",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h10-fly1-swallow-vs-snipe-m1714808783.json",
+  "id": "e12d851b-036b-5802-8b7c-48247f51560e",
+  "seed": -1714808783,
+  "sha256": "47a74223828e91ad92b4b2a98ac6db04f385b6e4d596b0e0f858ff3075121d20",
+  "test": "h10-fly1-swallow-vs-snipe",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h10r-fly1-swallow-vs-snipe-croc-first-p870113.json",
+  "id": "18445ca4-aed5-5183-a1da-9cc3a5fbd57b",
+  "seed": 870113,
+  "sha256": "da70cb4bc619628dae52d6a46473e012053507778653011096c171f9a8358a8a",
+  "test": "h10r-fly1-swallow-vs-snipe-croc-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    6,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h10r-fly1-swallow-vs-snipe-croc-first-m1714808783.json",
+  "id": "c0b8e9b6-4031-5e77-8025-7ec3ecf710a6",
+  "seed": -1714808783,
+  "sha256": "b84f0fd49f3932a40c8217d142e670823f2a69f7ad03663f55c6f1e200d8fbbc",
+  "test": "h10r-fly1-swallow-vs-snipe-croc-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Pig",
+    15,
+    13
+   ],
+   [
+    "Whale",
+    6,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13,
+    {
+     "trco": 2
+    }
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-k3-fly-failed-attempt-uses-p870113.json",
+  "id": "fd0e2436-2584-579e-ad65-bb99df53b908",
+  "seed": 870113,
+  "sha256": "478d5f3437fdea387b128fe72fd7f05c70a3d7d6f53196db3122575125afc636",
+  "test": "k3-fly-failed-attempt-uses",
+  "left": [
+   [
+    "Deer",
+    6,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Fish",
+    1,
+    41
+   ],
+   [
+    "Fish",
+    1,
+    42
+   ],
+   [
+    "Fly",
+    2,
+    40,
+    {
+     "trco": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    50
+   ]
+  ]
+ },
+ {
+  "file": "c3-k3-fly-failed-attempt-uses-m1714808783.json",
+  "id": "be71ddf3-7b54-529c-b9b1-b969914a458a",
+  "seed": -1714808783,
+  "sha256": "4f511efdcf5c427f9323a84c9aa636652cedd1aa4599a9003669babe6261e20f",
+  "test": "k3-fly-failed-attempt-uses",
+  "left": [
+   [
+    "Deer",
+    6,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Fish",
+    1,
+    41
+   ],
+   [
+    "Fish",
+    1,
+    42
+   ],
+   [
+    "Fly",
+    2,
+    40,
+    {
+     "trco": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    50
+   ]
+  ]
+ },
+ {
+  "file": "c3-k4-fly-zombie-death-p870113.json",
+  "id": "e2685ca2-6711-523d-b7ee-cb4b3cfe8acf",
+  "seed": 870113,
+  "sha256": "f0388bef3959107e4caefbc422ea82e3bc04715cc297ccf9c1c59a5fc335f958",
+  "test": "k4-fly-zombie-death",
+  "left": [
+   [
+    "Pig",
+    6,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Fly",
+    2,
+    40
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    2,
+    50
+   ]
+  ]
+ },
+ {
+  "file": "c3-f13-tiger-killed-by-original-p870113.json",
+  "id": "ce6480e9-4357-5a51-9d06-cac204eb5df8",
+  "seed": 870113,
+  "sha256": "80874ddc34448d188fba3c4766d6b9102034acd34e301ed5c74d5e86b2a9bddc",
+  "test": "f13-tiger-killed-by-original",
+  "left": [
+   [
+    "Hedgehog",
+    9,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    3,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f13-tiger-killed-by-original-m1714808783.json",
+  "id": "358e1241-9485-57d4-b95c-68510fa1401a",
+  "seed": -1714808783,
+  "sha256": "89d790c4f8dba0d7b9da668be19521da147cac2a6286b01ae0ea2d494d012ff0",
+  "test": "f13-tiger-killed-by-original",
+  "left": [
+   [
+    "Hedgehog",
+    9,
+    1
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    3,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f14-hedgehog-tiger-die-together-p870113.json",
+  "id": "219eabc5-72b1-554e-a553-ab500c87d160",
+  "seed": 870113,
+  "sha256": "da4d342276252d26b9473783c7027790626fbac8647347db84f3652f6617aef4",
+  "test": "f14-hedgehog-tiger-die-together",
+  "left": [
+   [
+    "Fish",
+    3,
+    20
+   ],
+   [
+    "Hedgehog",
+    2,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    21
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-f14-hedgehog-tiger-die-together-m1714808783.json",
+  "id": "3f9b1410-360f-516a-a698-9dd1261568c7",
+  "seed": -1714808783,
+  "sha256": "752fdc835f1738a84f9388f1d28dadda3403fde665dfd05c8bea5c4359025013",
+  "test": "f14-hedgehog-tiger-die-together",
+  "left": [
+   [
+    "Fish",
+    3,
+    20
+   ],
+   [
+    "Hedgehog",
+    2,
+    2
+   ],
+   [
+    "Tiger",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    21
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ],
+   [
+    "Fish",
+    1,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-d2c-crab-skunk-tie-p870113.json",
+  "id": "6ba5a9af-322f-52af-aab2-01846cc71ed0",
+  "seed": 870113,
+  "sha256": "e8264866baa9c124d76aec242399c27fb79856766c637c11f2aea3fbe0b9eec1",
+  "test": "d2c-crab-skunk-tie",
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ]
+ },
+ {
+  "file": "c3-d2c-crab-skunk-tie-m1714808783.json",
+  "id": "f057a271-5629-53e6-a7d5-ee4717534269",
+  "seed": -1714808783,
+  "sha256": "e2d937e72970851597c654a2fe1f6c9152e79a26bfa75c000f602f7221dddfcb",
+  "test": "d2c-crab-skunk-tie",
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ]
+ },
+ {
+  "file": "c3-d2c-crab-skunk-tie-p1203948571.json",
+  "id": "397afa60-e0be-5733-8315-5d1a804d50a6",
+  "seed": 1203948571,
+  "sha256": "864c50591c1500806e10d46aa68e8d970ac1d3ffffb604be332823aa01b809fb",
+  "test": "d2c-crab-skunk-tie",
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ]
+ },
+ {
+  "file": "c3-d2c-crab-skunk-tie-m402918337.json",
+  "id": "e4ef79d3-083e-5177-99bc-581c75dd08d5",
+  "seed": -402918337,
+  "sha256": "8aa494e5d9c298e832a1b7be597d2ef0c0cc0922b76a64b2309c8fe27685dc5f",
+  "test": "d2c-crab-skunk-tie",
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ]
+ },
+ {
+  "file": "c3-d2c-crab-skunk-tie-p1999999937.json",
+  "id": "a64f02c6-e9c4-559c-a989-ff8f2d0298be",
+  "seed": 1999999937,
+  "sha256": "1aedee1366ec87872add352e510d808a4e145e22a614b44545145bf19a562110",
+  "test": "d2c-crab-skunk-tie",
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ]
+ },
+ {
+  "file": "c3-d2c-crab-skunk-tie-m2000000011.json",
+  "id": "c0ed7ed5-0c7f-5731-9dcf-1a7c05d463d3",
+  "seed": -2000000011,
+  "sha256": "e5eeb94f68b77a8335ce4e19a07645b454df793e1e7b32094d3b65d80dce3820",
+  "test": "d2c-crab-skunk-tie",
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ]
+ },
+ {
+  "file": "c3-d2c-crab-skunk-tie-p55555.json",
+  "id": "4b43497a-1eb5-5752-9e22-f351324e41c3",
+  "seed": 55555,
+  "sha256": "5b06cc4e6b8cf15263660dac0c2184b30c00b5f56f27c041bd73a149afd5e686",
+  "test": "d2c-crab-skunk-tie",
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ]
+ },
+ {
+  "file": "c3-d2c-crab-skunk-tie-m987654321.json",
+  "id": "15410685-dac1-5eec-b675-a78eb618bf67",
+  "seed": -987654321,
+  "sha256": "7a8bdd7405cabed56a6c84de2a3d4dd1caa16a8d4dd9221761009ac544dace22",
+  "test": "d2c-crab-skunk-tie",
+  "left": [
+   [
+    "Fish",
+    3,
+    40
+   ],
+   [
+    "Crab",
+    5,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Skunk",
+    5,
+    5
+   ]
+  ]
+ },
+ {
+  "file": "c3-d4t-dodo-tie-p870113.json",
+  "id": "eef3e2f3-7184-5c51-827a-200912f86cae",
+  "seed": 870113,
+  "sha256": "9a5dc30825081885eaa332daaafbd1ae010e96e361ce58023f827451b0611e2d",
+  "test": "d4t-dodo-tie",
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-d4t-dodo-tie-m1714808783.json",
+  "id": "35cd0786-2727-525c-8fd2-fe316e81d69c",
+  "seed": -1714808783,
+  "sha256": "7b337ccc9b91898a1074e4595151f8aa022ff0540664972a77467ab60f333bc1",
+  "test": "d4t-dodo-tie",
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-d4t-dodo-tie-p1203948571.json",
+  "id": "0857aefe-fafc-5381-8ce7-af2140bf1a81",
+  "seed": 1203948571,
+  "sha256": "950281868c7093dbdb9eb118c44c4b974002cf7b83f68d2ccff85b4a9d3c99b8",
+  "test": "d4t-dodo-tie",
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-d4t-dodo-tie-m402918337.json",
+  "id": "59a9ebbf-4a4f-5e76-9613-8227da278f63",
+  "seed": -402918337,
+  "sha256": "528b01a29d66b42df9bdee9c86ee3e1bea7ee5ffddaa762b52c2cd4a35e80e97",
+  "test": "d4t-dodo-tie",
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-d4t-dodo-tie-p1999999937.json",
+  "id": "cb3ce56a-700c-5cd9-8f32-1b95fffaab9d",
+  "seed": 1999999937,
+  "sha256": "dced3ecf9503c69d7ac855e8815d914351a7136fbd5a972fc455f7682042390e",
+  "test": "d4t-dodo-tie",
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-d4t-dodo-tie-m2000000011.json",
+  "id": "6b4b3f1e-68a6-566e-a460-48f72c9bcf69",
+  "seed": -2000000011,
+  "sha256": "60cb59feb4e6cd35408a3cbd1d0a1c6f46125e1e896f7d530016d00ff44b7790",
+  "test": "d4t-dodo-tie",
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-d4t-dodo-tie-p55555.json",
+  "id": "01505d6f-5351-52c8-9035-3aa573345d1d",
+  "seed": 55555,
+  "sha256": "e40fe4fffce14a38558b09b1ac1e26ba5b67b59197c5df54225585dd1977ac78",
+  "test": "d4t-dodo-tie",
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-d4t-dodo-tie-m987654321.json",
+  "id": "dde64dab-e7a2-5ac3-abf2-f2045e95edda",
+  "seed": -987654321,
+  "sha256": "3589050272eb182a0843c7ccdf47ca2f2cc73ff1f5c86a7be29c7ade6e16ab00",
+  "test": "d4t-dodo-tie",
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    8,
+    5
+   ],
+   [
+    "Dodo",
+    8,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-d4-dodo-chain-p870113.json",
+  "id": "e5d87f71-9313-50e5-afcc-1bdf6fd095eb",
+  "seed": 870113,
+  "sha256": "ae62502eb81ca1a4597729e3f3e4d7d1ea21c91f14d9bedca9d6cca78b7ecb4a",
+  "test": "d4-dodo-chain",
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    6,
+    5
+   ],
+   [
+    "Dodo",
+    10,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-d4-dodo-chain-m1714808783.json",
+  "id": "6ace221f-1d47-58c7-99d3-9135f9d363ad",
+  "seed": -1714808783,
+  "sha256": "57bc5b726dcd22acdc5f5f82e084f1438a55b728ec9978e218ac375f93a1b07c",
+  "test": "d4-dodo-chain",
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    6,
+    5
+   ],
+   [
+    "Dodo",
+    10,
+    6
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-d1-crab-round-p870113.json",
+  "id": "5aaa0757-d21e-5f3f-9a26-19fd746ca2ff",
+  "seed": 870113,
+  "sha256": "cdb2ced69c28cb4d280db62dbf9ea22cde2b742de29080a51d019ac8aa35918f",
+  "test": "d1-crab-round",
+  "left": [
+   [
+    "Fish",
+    3,
+    30
+   ],
+   [
+    "Crab",
+    4,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-d1t-crab-temp-p870113.json",
+  "id": "817ea553-1110-5c94-8368-83050961c7df",
+  "seed": 870113,
+  "sha256": "df972e2a099d370cc47206d9ce5801e1d0e6c5124721e9d4bfdf52aadf17f0de",
+  "test": "d1t-crab-temp",
+  "left": [
+   [
+    "Fish",
+    3,
+    20,
+    {
+     "thp": 20
+    }
+   ],
+   [
+    "Crab",
+    4,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-d3t-dodo-temp-p870113.json",
+  "id": "d7e338e0-18c9-5f3f-b9f0-a2402e26a932",
+  "seed": 870113,
+  "sha256": "bc27956b05bff061ef54aa4c1c8eba0c3c798b07ee34f90f1953b6a2443161fd",
+  "test": "d3t-dodo-temp",
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    4,
+    5,
+    {
+     "tatk": 4
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ]
+  ]
+ },
+ {
+  "file": "c3-d6-dead-dodo-acts-p870113.json",
+  "id": "410b5dc9-0f86-5166-96ae-8b57ef5d2a54",
+  "seed": 870113,
+  "sha256": "18013f6d3ef5c2969397f1a93ecc42df9a7c16b1f4b256dd770832d69b7a1e86",
+  "test": "d6-dead-dodo-acts",
+  "left": [
+   [
+    "Fish",
+    2,
+    20
+   ],
+   [
+    "Dodo",
+    4,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ]
+  ]
+ },
+ {
+  "file": "c3-c1-whale-release-p870113.json",
+  "id": "870ef835-ec7b-5ab3-aa6b-bbecd40dcdb0",
+  "seed": 870113,
+  "sha256": "8a1918cb9bf11d4ca467061c6430ede47e3e1e0c7a3c3004cdfe4ae99341982d",
+  "test": "c1-whale-release",
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-c1-whale-release-m1714808783.json",
+  "id": "3d873682-d5fe-5bf9-929b-66b31c35c7a9",
+  "seed": -1714808783,
+  "sha256": "034fc40c7d0a2287603363d72f381e0f53a4ca376a1dda507ca084ff282e404a",
+  "test": "c1-whale-release",
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-c2-whale2-release-p870113.json",
+  "id": "4efe4d2d-d70b-565c-8d1d-2b217fdcbb9a",
+  "seed": 870113,
+  "sha256": "ab8e08bacf3c1b502e086633aee42d7bb5149114df707e5558d5da6b32cf31c5",
+  "test": "c2-whale2-release",
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1,
+    {
+     "lvl": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-c2-whale2-release-m1714808783.json",
+  "id": "ea4188e3-edc2-5b9b-9d5a-4f63beef9ffb",
+  "seed": -1714808783,
+  "sha256": "98125480e2645cece02066d3ae290b53865b2791631e755f0a514f7b9e0e9aa8",
+  "test": "c2-whale2-release",
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1,
+    {
+     "lvl": 2
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-c3-whale-honey-p870113.json",
+  "id": "ff19f16c-87bc-53d6-be18-06991666161e",
+  "seed": 870113,
+  "sha256": "8567fccb0471468a359706ac82eed9028912c85fcec9c5083b8a18052c0a9f76",
+  "test": "c3-whale-honey",
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1,
+    {
+     "perk": "Honey"
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-c4-whale-mushroom-p870113.json",
+  "id": "83b3936d-31ce-599f-9128-14d6e106774b",
+  "seed": 870113,
+  "sha256": "7ae53ad4b4090baa764843dc9f5f65e399f5ef4e5a9255ca8af10a44b840054b",
+  "test": "c4-whale-mushroom",
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-c6-whale-cricket-p870113.json",
+  "id": "44304c76-3371-53e8-8dfa-121b2f9bc1b2",
+  "seed": 870113,
+  "sha256": "94a1e5a72a9d01e72f12f33c2a056f942ff54443c27eaa634e3500b792523cc3",
+  "test": "c6-whale-cricket",
+  "left": [
+   [
+    "Cricket",
+    3,
+    4
+   ],
+   [
+    "Whale",
+    3,
+    1
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-c7-whale-sheep-blast-p870113.json",
+  "id": "1b8c49c2-cfb6-588f-85d1-096b518da0cb",
+  "seed": 870113,
+  "sha256": "f20e87ccbed2d746ed3dee79c1eb3e1ef5ff6a12437fdf4d5b358af33643accb",
+  "test": "c7-whale-sheep-blast",
+  "left": [
+   [
+    "Fish",
+    6,
+    9
+   ],
+   [
+    "Whale",
+    5,
+    2
+   ],
+   [
+    "Sheep",
+    4,
+    2
+   ],
+   [
+    "Fish",
+    2,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Hedgehog",
+    1,
+    1
+   ]
+  ]
+ },
+ {
+  "file": "c3-g1-rabbit-turtle2-p870113.json",
+  "id": "4e116126-c3b6-5b3b-b012-c37b66e789f0",
+  "seed": 870113,
+  "sha256": "ee4d6d607992d482e4aeeafa3e1a799735f2b38eb2f7a6835f478281785c451f",
+  "test": "g1-rabbit-turtle2",
+  "left": [
+   [
+    "Turtle",
+    2,
+    1,
+    {
+     "lvl": 2
+    }
+   ],
+   [
+    "Fish",
+    3,
+    10
+   ],
+   [
+    "Fish",
+    4,
+    12
+   ],
+   [
+    "Rabbit",
+    1,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-g1-rabbit-turtle2-m1714808783.json",
+  "id": "621b0997-e51c-5a26-b58a-80464453a1e6",
+  "seed": -1714808783,
+  "sha256": "e76b27f674f38bbb80ff85cb5bb83604ba871a52843c6291ab16545aff026dac",
+  "test": "g1-rabbit-turtle2",
+  "left": [
+   [
+    "Turtle",
+    2,
+    1,
+    {
+     "lvl": 2
+    }
+   ],
+   [
+    "Fish",
+    3,
+    10
+   ],
+   [
+    "Fish",
+    4,
+    12
+   ],
+   [
+    "Rabbit",
+    1,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-g2-seal-turtle-p870113.json",
+  "id": "50717084-f2f0-5cf7-aefe-65973fe9e46f",
+  "seed": 870113,
+  "sha256": "1916c604182b9ec69888d8b03c0129c69a7952d8588f15dc27a67760a3c8738c",
+  "test": "g2-seal-turtle",
+  "left": [
+   [
+    "Turtle",
+    2,
+    1
+   ],
+   [
+    "Seal",
+    3,
+    8
+   ],
+   [
+    "Fish",
+    1,
+    10
+   ],
+   [
+    "Fish",
+    2,
+    11
+   ],
+   [
+    "Fish",
+    3,
+    12
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    5,
+    30
+   ]
+  ]
+ },
+ {
+  "file": "c3-h1-deer-gap-behind-p870113.json",
+  "id": "edba235c-ec07-5004-bf70-afa24f2946e3",
+  "seed": 870113,
+  "sha256": "b532b0db3e2bdcbe8653112eecef4b47af6e933f1b666774714a83866d10ed20",
+  "test": "h1-deer-gap-behind",
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Deer",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ],
+   null,
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ]
+ },
+ {
+  "file": "c3-h1-deer-gap-behind-m1714808783.json",
+  "id": "68d5a680-06fa-5e36-b685-166d38f33276",
+  "seed": -1714808783,
+  "sha256": "57879b465b5dcd959d3fcb20f868cf8bd961773ab983822402d156c8b1e77b7d",
+  "test": "h1-deer-gap-behind",
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Deer",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ],
+   null,
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ]
+ },
+ {
+  "file": "c3-h2-deer-no-gap-p870113.json",
+  "id": "80221ee6-e09c-5878-9740-72574d12e5e2",
+  "seed": 870113,
+  "sha256": "b63a7367bd3f6938e1d843c7f6e25bb93dfe450f8c832704bc0a8707309c8f65",
+  "test": "h2-deer-no-gap",
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Deer",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ],
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ]
+ },
+ {
+  "file": "c3-h2-deer-no-gap-m1714808783.json",
+  "id": "5b6b620f-483b-5ba9-8a79-d7b9db6a3eb0",
+  "seed": -1714808783,
+  "sha256": "c92bd37caa4d8ef0c4584f53171e7345abf2ef6601138f922132288c6b6f93c7",
+  "test": "h2-deer-no-gap",
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Deer",
+    3,
+    1,
+    {
+     "perk": "Mushroom"
+    }
+   ],
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ]
+ },
+ {
+  "file": "c3-h3-fly-gap-p870113.json",
+  "id": "acf8e815-ba9f-5e63-a731-df6387ab4440",
+  "seed": 870113,
+  "sha256": "f6bd411bfb9b005686023cc85064cac3edc3bcbbbfb68067a51b04794b171a02",
+  "test": "h3-fly-gap",
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Pig",
+    3,
+    1
+   ],
+   null,
+   [
+    "Fly",
+    4,
+    20
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ]
+ },
+ {
+  "file": "c3-h4-sheep-mid-p870113.json",
+  "id": "d9e66139-8fb5-54f7-a58e-0636e729d7fe",
+  "seed": 870113,
+  "sha256": "7592d3d271c464d72c85755f2ac4fae6e2cb489eebea297fa3119390acd370e2",
+  "test": "h4-sheep-mid",
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   [
+    "Sheep",
+    3,
+    1
+   ],
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ]
+ },
+ {
+  "file": "c3-h5-sheep-gap-ahead-p870113.json",
+  "id": "f62b527d-77d3-5ab4-aca6-c61134ae2eeb",
+  "seed": 870113,
+  "sha256": "657d96edaf0e33dcae132707ff44efa7b7d5a8712f75c76ac9915df8e0c9f7ad",
+  "test": "h5-sheep-gap-ahead",
+  "left": [
+   [
+    "Fish",
+    5,
+    19
+   ],
+   null,
+   [
+    "Sheep",
+    3,
+    1
+   ],
+   [
+    "Pig",
+    4,
+    18
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    30
+   ],
+   [
+    "Dolphin",
+    2,
+    25
+   ]
+  ]
+ },
+ {
+  "file": "c3-h7-fly-two-snipes-dolphin-first-p870113.json",
+  "id": "fa95e2bd-7c64-5915-b72c-858c1095db03",
+  "seed": 870113,
+  "sha256": "63da140647304801f159b4c41007d93fb94df5307318ea51a8572de46e711d96",
+  "test": "h7-fly-two-snipes-dolphin-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h7-fly-two-snipes-dolphin-first-m1714808783.json",
+  "id": "879aa3ad-32e1-5d03-942a-1ef421dfad2f",
+  "seed": -1714808783,
+  "sha256": "d6be9382cd2158d32d9e5c6f72071b707d4e66817dbfc89e708fdcbb51671d46",
+  "test": "h7-fly-two-snipes-dolphin-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h7r-fly-two-snipes-croc-first-p870113.json",
+  "id": "8f53b788-6fd3-56fe-b57e-36fbad1e4596",
+  "seed": 870113,
+  "sha256": "c2ba7c509105bd7fa30d6ad394e515aa007bcfd0b17a52ad73ee0f97860030dd",
+  "test": "h7r-fly-two-snipes-croc-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    7,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h7r-fly-two-snipes-croc-first-m1714808783.json",
+  "id": "c4ed038c-3c1a-59b7-be11-41d67836a08b",
+  "seed": -1714808783,
+  "sha256": "8d86e038aa11e3df6589e4664f564c3bc987d2c491fd013d49453f08310c2425",
+  "test": "h7r-fly-two-snipes-croc-first",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Deer",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Duck",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    7,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h8-fly-two-snipes-deer-back-p870113.json",
+  "id": "740250dc-6ac7-5244-b410-c55c146fef38",
+  "seed": 870113,
+  "sha256": "350071dd83a9abbcab674b3e140e6bd8f4ba001c9f336a02f2778a8fc8eb5706",
+  "test": "h8-fly-two-snipes-deer-back",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Duck",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Deer",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "file": "c3-h8-fly-two-snipes-deer-back-m1714808783.json",
+  "id": "d8b12827-54f0-5b19-a71d-79d845ab98fa",
+  "seed": -1714808783,
+  "sha256": "69c0584ab135cc7ee3174fc3b83395fa4d4ad4e9abbe899550b3f064c77041d9",
+  "test": "h8-fly-two-snipes-deer-back",
+  "left": [
+   [
+    "Fish",
+    13,
+    12
+   ],
+   [
+    "Duck",
+    5,
+    1
+   ],
+   [
+    "Fish",
+    12,
+    14
+   ],
+   [
+    "Fly",
+    15,
+    13
+   ],
+   [
+    "Deer",
+    4,
+    5
+   ]
+  ],
+  "right": [
+   [
+    "Fish",
+    1,
+    40
+   ],
+   [
+    "Dolphin",
+    9,
+    5
+   ],
+   [
+    "Crocodile",
+    8,
+    4
+   ]
+  ]
+ }
+]
