@@ -4,10 +4,15 @@ import itertools
 import numpy as np
 import sapai
 from sapai import status as sap_status
+from sapai import rules
 
 from sapai.data import data
 from sapai.tiers import pet_tier_lookup, pet_tier_lookup_std
 from sapai.foods import Food
+
+# v32 R1: numbers the DealDamage calls so that friends killed by the same call
+# (one Hedgehog blast) can be recognised later. Only equality matters.
+_DAMAGE_EVENTS = itertools.count(1)
 
 
 """
@@ -684,6 +689,7 @@ def DealDamage(apet, apet_idx, teams, te=None, te_idx=None, fixed_targets=None):
             )
         else:
             raise Exception()
+    damage_event = next(_DAMAGE_EVENTS) if rules.on("R1") else None
     for target_pet in target:
         health_amount = base_health_amount
         if (
@@ -704,7 +710,10 @@ def DealDamage(apet, apet_idx, teams, te=None, te_idx=None, fixed_targets=None):
         elif target_pet.status == "status-weak":
             health_amount += 3
 
+        alive_before = target_pet.health > 0
         target_pet.hurt(health_amount)
+        if damage_event is not None and alive_before and target_pet.health <= 0:
+            target_pet._killed_by_event = damage_event
     return target, possible
 
 
@@ -718,6 +727,11 @@ def GainHealthPercentHighestFriend(
     """
 
     fteam, _ = get_teams(apet_idx, teams)
+    if rules.on("R16") and apet.health <= 0:
+        # v32 R16: a Crab killed by an earlier start-of-battle ability stays
+        # dead; it gains nothing and makes no random draw (constructed test
+        # d7 and eight real fights).
+        return [], []
     friends = [
         slot.pet
         for slot in fteam
@@ -885,7 +899,13 @@ def ModifyStats(apet, apet_idx, teams, te=None, te_idx=None, fixed_targets=None)
             else:
                 raise Exception()
     for target_pet in target:
-        if target_pet._health <= 0:
+        # v32 R12: "not alive" means total health, battle-only part included.
+        # A Dog at 0 permanent health that lives on its own +1 health buffs
+        # still receives them (real fights 31eb2b55, 262f5055).
+        dead = (
+            target_pet.health <= 0 if rules.on("R12") else target_pet._health <= 0
+        )
+        if dead:
             # v31: a pet already reduced to 0 health cannot be buffed back to
             # life before its faint resolves (real replays; SAP-Calculator's
             # increaseAttack/increaseHealth ignore pets that are not alive).
@@ -964,9 +984,18 @@ def ReduceHealth(apet, apet_idx, teams, te=None, te_idx=None, fixed_targets=None
     per = apet.ability["effect"]["percentage"] * 0.01
     for temp_pet in target:
         if temp_pet.health > 0:
-            temp_pet._health = max(
-                1, int(np.floor(temp_pet.health * (1.0 - per)))
-            )
+            if rules.on("R14"):
+                # v32 R14: the client computes this in single precision. The
+                # only difference from the double formula for 33/66/99% on 1
+                # to 50 health is level 2 on 50 health: 16 left, not 17
+                # (constructed test sk1 and six real fights).
+                keep = np.float32(1.0) - np.float32(
+                    apet.ability["effect"]["percentage"]
+                ) / np.float32(100.0)
+                remaining = int(np.floor(np.float32(temp_pet.health) * keep))
+            else:
+                remaining = int(np.floor(temp_pet.health * (1.0 - per)))
+            temp_pet._health = max(1, remaining)
     return target, possible
 
 
@@ -1416,7 +1445,9 @@ def Swallow(apet, apet_idx, teams, te=None, te_idx=None, fixed_targets=None):
         )
         temp_target._health = -1
 
-    fteam.move_forward()
+    # v32 R11: empty slots stay open while start-of-battle abilities resolve.
+    if not rules.on("R11"):
+        fteam.move_forward()
 
     return target, possible
 

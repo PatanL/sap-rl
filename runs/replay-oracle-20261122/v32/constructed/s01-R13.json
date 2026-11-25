@@ -1,0 +1,1912 @@
+{
+ "c3-a1-fly4dead-m1714808783": {
+  "test": "a1-fly4dead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-a1-fly4dead-m2000000011": {
+  "test": "a1-fly4dead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-a1-fly4dead-m402918337": {
+  "test": "a1-fly4dead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-a1-fly4dead-m987654321": {
+  "test": "a1-fly4dead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-a1-fly4dead-p1203948571": {
+  "test": "a1-fly4dead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-a1-fly4dead-p1999999937": {
+  "test": "a1-fly4dead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-a1-fly4dead-p55555": {
+  "test": "a1-fly4dead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-a1-fly4dead-p870113": {
+  "test": "a1-fly4dead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-a2-fly4tie-m1714808783": {
+  "test": "a2-fly4tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-a2-fly4tie-p870113": {
+  "test": "a2-fly4tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-a3-twofly-m1714808783": {
+  "test": "a3-twofly",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 2
+ },
+ "c3-a3-twofly-p870113": {
+  "test": "a3-twofly",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 2
+ },
+ "c3-a3r-twofly-rev-m1714808783": {
+  "test": "a3r-twofly-rev",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 2
+ },
+ "c3-a3r-twofly-rev-p870113": {
+  "test": "a3r-twofly-rev",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 2
+ },
+ "c3-a4-shark4dead-m1714808783": {
+  "test": "a4-shark4dead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-a4-shark4dead-p870113": {
+  "test": "a4-shark4dead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-a5-fly-sheep-m1714808783": {
+  "test": "a5-fly-sheep",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 2
+ },
+ "c3-a5-fly-sheep-p870113": {
+  "test": "a5-fly-sheep",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 2
+ },
+ "c3-a6-fly-deer-m1714808783": {
+  "test": "a6-fly-deer",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 2
+ },
+ "c3-a6-fly-deer-p870113": {
+  "test": "a6-fly-deer",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-a7-fly-one-use-left-m1714808783": {
+  "test": "a7-fly-one-use-left",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-a7-fly-one-use-left-p870113": {
+  "test": "a7-fly-one-use-left",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-b1-whale-gap-m1714808783": {
+  "test": "b1-whale-gap",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 14,
+  "stages": 14
+ },
+ "c3-b1-whale-gap-p870113": {
+  "test": "b1-whale-gap",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 14,
+  "stages": 14
+ },
+ "c3-b2-dodo-gap-m1714808783": {
+  "test": "b2-dodo-gap",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 7,
+  "stages": 7
+ },
+ "c3-b2-dodo-gap-p870113": {
+  "test": "b2-dodo-gap",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 7,
+  "stages": 7
+ },
+ "c3-b4-whale-deadahead-m1714808783": {
+  "test": "b4-whale-deadahead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 13,
+  "stages": 13
+ },
+ "c3-b4-whale-deadahead-p870113": {
+  "test": "b4-whale-deadahead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 13,
+  "stages": 13
+ },
+ "c3-b6-dodo-deadahead-m1714808783": {
+  "test": "b6-dodo-deadahead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 11,
+  "stages": 11
+ },
+ "c3-b6-dodo-deadahead-p870113": {
+  "test": "b6-dodo-deadahead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 11,
+  "stages": 11
+ },
+ "c3-c1-whale-release-m1714808783": {
+  "test": "c1-whale-release",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 4,
+  "stages": 4
+ },
+ "c3-c1-whale-release-p870113": {
+  "test": "c1-whale-release",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 4,
+  "stages": 4
+ },
+ "c3-c2-whale2-release-m1714808783": {
+  "test": "c2-whale2-release",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 4,
+  "stages": 4
+ },
+ "c3-c2-whale2-release-p870113": {
+  "test": "c2-whale2-release",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 4,
+  "stages": 4
+ },
+ "c3-c3-whale-honey-p870113": {
+  "test": "c3-whale-honey",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 5,
+  "stages": 5
+ },
+ "c3-c4-whale-mushroom-p870113": {
+  "test": "c4-whale-mushroom",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 5,
+  "stages": 5
+ },
+ "c3-c5-whale-fly-m1714808783": {
+  "test": "c5-whale-fly",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 8,
+  "stages": 8
+ },
+ "c3-c5-whale-fly-p870113": {
+  "test": "c5-whale-fly",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 8,
+  "stages": 8
+ },
+ "c3-c5s-whale-shark-m1714808783": {
+  "test": "c5s-whale-shark",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 6,
+  "stages": 6
+ },
+ "c3-c5s-whale-shark-p870113": {
+  "test": "c5s-whale-shark",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 6,
+  "stages": 6
+ },
+ "c3-c6-whale-cricket-p870113": {
+  "test": "c6-whale-cricket",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 5,
+  "stages": 5
+ },
+ "c3-c7-whale-sheep-blast-p870113": {
+  "test": "c7-whale-sheep-blast",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-d1-crab-round-p870113": {
+  "test": "d1-crab-round",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 15,
+  "stages": 15
+ },
+ "c3-d1t-crab-temp-p870113": {
+  "test": "d1t-crab-temp",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 15,
+  "stages": 15
+ },
+ "c3-d2c-crab-skunk-tie-m1714808783": {
+  "test": "d2c-crab-skunk-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 24,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-d2c-crab-skunk-tie-m2000000011": {
+  "test": "d2c-crab-skunk-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 26,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-d2c-crab-skunk-tie-m402918337": {
+  "test": "d2c-crab-skunk-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 26,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-d2c-crab-skunk-tie-m987654321": {
+  "test": "d2c-crab-skunk-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 24,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-d2c-crab-skunk-tie-p1203948571": {
+  "test": "d2c-crab-skunk-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 24,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-d2c-crab-skunk-tie-p1999999937": {
+  "test": "d2c-crab-skunk-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 26,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-d2c-crab-skunk-tie-p55555": {
+  "test": "d2c-crab-skunk-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 26,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-d2c-crab-skunk-tie-p870113": {
+  "test": "d2c-crab-skunk-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 26,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-d3t-dodo-temp-p870113": {
+  "test": "d3t-dodo-temp",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 8,
+  "stages": 8
+ },
+ "c3-d4-dodo-chain-m1714808783": {
+  "test": "d4-dodo-chain",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 7,
+  "stages": 7
+ },
+ "c3-d4-dodo-chain-p870113": {
+  "test": "d4-dodo-chain",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 7,
+  "stages": 7
+ },
+ "c3-d4t-dodo-tie-m1714808783": {
+  "test": "d4t-dodo-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 26,
+  "followLag": 26,
+  "distinct": 2,
+  "bestStages": 6,
+  "stages": 6
+ },
+ "c3-d4t-dodo-tie-m2000000011": {
+  "test": "d4t-dodo-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 26,
+  "followLag": 26,
+  "distinct": 2,
+  "bestStages": 6,
+  "stages": 6
+ },
+ "c3-d4t-dodo-tie-m402918337": {
+  "test": "d4t-dodo-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 24,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 8,
+  "stages": 8
+ },
+ "c3-d4t-dodo-tie-m987654321": {
+  "test": "d4t-dodo-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 26,
+  "followLag": 26,
+  "distinct": 2,
+  "bestStages": 6,
+  "stages": 6
+ },
+ "c3-d4t-dodo-tie-p1203948571": {
+  "test": "d4t-dodo-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 26,
+  "followLag": 26,
+  "distinct": 2,
+  "bestStages": 6,
+  "stages": 6
+ },
+ "c3-d4t-dodo-tie-p1999999937": {
+  "test": "d4t-dodo-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 26,
+  "followLag": 26,
+  "distinct": 2,
+  "bestStages": 6,
+  "stages": 6
+ },
+ "c3-d4t-dodo-tie-p55555": {
+  "test": "d4t-dodo-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 24,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 8,
+  "stages": 8
+ },
+ "c3-d4t-dodo-tie-p870113": {
+  "test": "d4t-dodo-tie",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 24,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 8,
+  "stages": 8
+ },
+ "c3-d6-dead-dodo-acts-p870113": {
+  "test": "d6-dead-dodo-acts",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 13,
+  "stages": 13
+ },
+ "c3-d7-dead-crab-m1714808783": {
+  "test": "d7-dead-crab",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 13
+ },
+ "c3-d7-dead-crab-p870113": {
+  "test": "d7-dead-crab",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 13
+ },
+ "c3-ddyn-sob-dynamic-m1714808783": {
+  "test": "ddyn-sob-dynamic",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 3
+ },
+ "c3-ddyn-sob-dynamic-p870113": {
+  "test": "ddyn-sob-dynamic",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 3
+ },
+ "c3-ddynctl-crab-higher-no-dodo-m1714808783": {
+  "test": "ddynctl-crab-higher-no-dodo",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-ddynctl-crab-higher-no-dodo-p870113": {
+  "test": "ddynctl-crab-higher-no-dodo",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-e0-wolv-self-m1714808783": {
+  "test": "e0-wolv-self",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 6,
+  "stages": 6
+ },
+ "c3-e0-wolv-self-p870113": {
+  "test": "e0-wolv-self",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 6,
+  "stages": 6
+ },
+ "c3-e1-wolv-timing-m1714808783": {
+  "test": "e1-wolv-timing",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-e1-wolv-timing-p870113": {
+  "test": "e1-wolv-timing",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-e2-wolv-dead-m1714808783": {
+  "test": "e2-wolv-dead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-e2-wolv-dead-p870113": {
+  "test": "e2-wolv-dead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-e3-wolv-both-m1714808783": {
+  "test": "e3-wolv-both",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 8,
+  "stages": 8
+ },
+ "c3-e3-wolv-both-p870113": {
+  "test": "e3-wolv-both",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 8,
+  "stages": 8
+ },
+ "c3-e4-wolv-pair-m1714808783": {
+  "test": "e4-wolv-pair",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 4
+ },
+ "c3-e4-wolv-pair-p870113": {
+  "test": "e4-wolv-pair",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 4
+ },
+ "c3-e5-wolv-vs-rhino-m1714808783": {
+  "test": "e5-wolv-vs-rhino",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 5,
+  "stages": 5
+ },
+ "c3-e5-wolv-vs-rhino-p870113": {
+  "test": "e5-wolv-vs-rhino",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 5,
+  "stages": 5
+ },
+ "c3-e5b-wolv-vs-rhino-tier2-m1714808783": {
+  "test": "e5b-wolv-vs-rhino-tier2",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 6
+ },
+ "c3-e5b-wolv-vs-rhino-tier2-p870113": {
+  "test": "e5b-wolv-vs-rhino-tier2",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 6
+ },
+ "c3-em1-empty-opponent-p870113": {
+  "test": "em1-empty-opponent",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-f10-snake-tiger-dead-front-m1714808783": {
+  "test": "f10-snake-tiger-dead-front",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 14,
+  "bestStages": 3,
+  "stages": 5
+ },
+ "c3-f10-snake-tiger-dead-front-m402918337": {
+  "test": "f10-snake-tiger-dead-front",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 14,
+  "bestStages": 1,
+  "stages": 5
+ },
+ "c3-f10-snake-tiger-dead-front-p1203948571": {
+  "test": "f10-snake-tiger-dead-front",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 14,
+  "bestStages": 2,
+  "stages": 5
+ },
+ "c3-f10-snake-tiger-dead-front-p870113": {
+  "test": "f10-snake-tiger-dead-front",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 14,
+  "bestStages": 1,
+  "stages": 5
+ },
+ "c3-f11-hippo-tiger-limit-m1714808783": {
+  "test": "f11-hippo-tiger-limit",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 6
+ },
+ "c3-f11-hippo-tiger-limit-p870113": {
+  "test": "f11-hippo-tiger-limit",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 6
+ },
+ "c3-f11c-hippo-alone-control-p870113": {
+  "test": "f11c-hippo-alone-control",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 6,
+  "stages": 6
+ },
+ "c3-f13-tiger-killed-by-original-m1714808783": {
+  "test": "f13-tiger-killed-by-original",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 15,
+  "stages": 15
+ },
+ "c3-f13-tiger-killed-by-original-p870113": {
+  "test": "f13-tiger-killed-by-original",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 15,
+  "stages": 15
+ },
+ "c3-f14-hedgehog-tiger-die-together-m1714808783": {
+  "test": "f14-hedgehog-tiger-die-together",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 10,
+  "stages": 10
+ },
+ "c3-f14-hedgehog-tiger-die-together-p870113": {
+  "test": "f14-hedgehog-tiger-die-together",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 10,
+  "stages": 10
+ },
+ "c3-f1a-tiger-sob-low-m1714808783": {
+  "test": "f1a-tiger-sob-low",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 5,
+  "stages": 5
+ },
+ "c3-f1a-tiger-sob-low-p870113": {
+  "test": "f1a-tiger-sob-low",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 5,
+  "stages": 5
+ },
+ "c3-f1b-tiger-sob-mid-m1714808783": {
+  "test": "f1b-tiger-sob-mid",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 4
+ },
+ "c3-f1b-tiger-sob-mid-p870113": {
+  "test": "f1b-tiger-sob-mid",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 4,
+  "stages": 4
+ },
+ "c3-f1c-notiger-control-m1714808783": {
+  "test": "f1c-notiger-control",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 5,
+  "stages": 5
+ },
+ "c3-f1c-notiger-control-p870113": {
+  "test": "f1c-notiger-control",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 5,
+  "stages": 5
+ },
+ "c3-f2-tiger-faint-m1714808783": {
+  "test": "f2-tiger-faint",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 2
+ },
+ "c3-f2-tiger-faint-p870113": {
+  "test": "f2-tiger-faint",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 2
+ },
+ "c3-f2r-tiger-faint-rev-m1714808783": {
+  "test": "f2r-tiger-faint-rev",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 3
+ },
+ "c3-f2r-tiger-faint-rev-p870113": {
+  "test": "f2r-tiger-faint-rev",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 3,
+  "stages": 3
+ },
+ "c3-f2x-tiger-faint-continues-m1714808783": {
+  "test": "f2x-tiger-faint-continues",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 6
+ },
+ "c3-f2x-tiger-faint-continues-p870113": {
+  "test": "f2x-tiger-faint-continues",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 6
+ },
+ "c3-f7-tiger-dies-too-m1714808783": {
+  "test": "f7-tiger-dies-too",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 2
+ },
+ "c3-f7-tiger-dies-too-p870113": {
+  "test": "f7-tiger-dies-too",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 2
+ },
+ "c3-f7c-tiger-survives-control-m1714808783": {
+  "test": "f7c-tiger-survives-control",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 11,
+  "stages": 11
+ },
+ "c3-f7c-tiger-survives-control-p870113": {
+  "test": "f7c-tiger-survives-control",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 11,
+  "stages": 11
+ },
+ "c3-f7x-tiger-dies-too-continues-m1714808783": {
+  "test": "f7x-tiger-dies-too-continues",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 17
+ },
+ "c3-f7x-tiger-dies-too-continues-m2000000011": {
+  "test": "f7x-tiger-dies-too-continues",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 17
+ },
+ "c3-f7x-tiger-dies-too-continues-m402918337": {
+  "test": "f7x-tiger-dies-too-continues",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 17
+ },
+ "c3-f7x-tiger-dies-too-continues-m987654321": {
+  "test": "f7x-tiger-dies-too-continues",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 17
+ },
+ "c3-f7x-tiger-dies-too-continues-p1203948571": {
+  "test": "f7x-tiger-dies-too-continues",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 17
+ },
+ "c3-f7x-tiger-dies-too-continues-p1999999937": {
+  "test": "f7x-tiger-dies-too-continues",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 17
+ },
+ "c3-f7x-tiger-dies-too-continues-p55555": {
+  "test": "f7x-tiger-dies-too-continues",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 17
+ },
+ "c3-f7x-tiger-dies-too-continues-p870113": {
+  "test": "f7x-tiger-dies-too-continues",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 1,
+  "stages": 17
+ },
+ "c3-f9-snake-tiger-shots-m1714808783": {
+  "test": "f9-snake-tiger-shots",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 4,
+  "bestStages": 5,
+  "stages": 6
+ },
+ "c3-f9-snake-tiger-shots-m2000000011": {
+  "test": "f9-snake-tiger-shots",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 4,
+  "bestStages": 2,
+  "stages": 6
+ },
+ "c3-f9-snake-tiger-shots-m271828182": {
+  "test": "f9-snake-tiger-shots",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 4,
+  "bestStages": 5,
+  "stages": 6
+ },
+ "c3-f9-snake-tiger-shots-m402918337": {
+  "test": "f9-snake-tiger-shots",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 4,
+  "bestStages": 5,
+  "stages": 6
+ },
+ "c3-f9-snake-tiger-shots-m987654321": {
+  "test": "f9-snake-tiger-shots",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 4,
+  "bestStages": 5,
+  "stages": 6
+ },
+ "c3-f9-snake-tiger-shots-p1203948571": {
+  "test": "f9-snake-tiger-shots",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 4,
+  "bestStages": 5,
+  "stages": 6
+ },
+ "c3-f9-snake-tiger-shots-p1999999937": {
+  "test": "f9-snake-tiger-shots",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 4,
+  "bestStages": 2,
+  "stages": 6
+ },
+ "c3-f9-snake-tiger-shots-p314159265": {
+  "test": "f9-snake-tiger-shots",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 4,
+  "bestStages": 5,
+  "stages": 6
+ },
+ "c3-f9-snake-tiger-shots-p55555": {
+  "test": "f9-snake-tiger-shots",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 4,
+  "bestStages": 5,
+  "stages": 6
+ },
+ "c3-f9-snake-tiger-shots-p870113": {
+  "test": "f9-snake-tiger-shots",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 4,
+  "bestStages": 5,
+  "stages": 6
+ },
+ "c3-g1-rabbit-turtle2-m1714808783": {
+  "test": "g1-rabbit-turtle2",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 10,
+  "stages": 10
+ },
+ "c3-g1-rabbit-turtle2-p870113": {
+  "test": "g1-rabbit-turtle2",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 10,
+  "stages": 10
+ },
+ "c3-g2-seal-turtle-p870113": {
+  "test": "g2-seal-turtle",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 12,
+  "stages": 12
+ },
+ "c3-h1-deer-gap-behind-m1714808783": {
+  "test": "h1-deer-gap-behind",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 12,
+  "stages": 12
+ },
+ "c3-h1-deer-gap-behind-p870113": {
+  "test": "h1-deer-gap-behind",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 12,
+  "stages": 12
+ },
+ "c3-h10-fly1-swallow-vs-snipe-m1714808783": {
+  "test": "h10-fly1-swallow-vs-snipe",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 6
+ },
+ "c3-h10-fly1-swallow-vs-snipe-p870113": {
+  "test": "h10-fly1-swallow-vs-snipe",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 6,
+  "stages": 6
+ },
+ "c3-h10r-fly1-swallow-vs-snipe-croc-first-m1714808783": {
+  "test": "h10r-fly1-swallow-vs-snipe-croc-first",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 6,
+  "stages": 6
+ },
+ "c3-h10r-fly1-swallow-vs-snipe-croc-first-p870113": {
+  "test": "h10r-fly1-swallow-vs-snipe-croc-first",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 6,
+  "stages": 6
+ },
+ "c3-h11-deer-gap-ahead-and-behind-m1714808783": {
+  "test": "h11-deer-gap-ahead-and-behind",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 12
+ },
+ "c3-h11-deer-gap-ahead-and-behind-p870113": {
+  "test": "h11-deer-gap-ahead-and-behind",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 12
+ },
+ "c3-h2-deer-no-gap-m1714808783": {
+  "test": "h2-deer-no-gap",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 12,
+  "stages": 12
+ },
+ "c3-h2-deer-no-gap-p870113": {
+  "test": "h2-deer-no-gap",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 12,
+  "stages": 12
+ },
+ "c3-h3-fly-gap-p870113": {
+  "test": "h3-fly-gap",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 12,
+  "stages": 12
+ },
+ "c3-h4-sheep-mid-p870113": {
+  "test": "h4-sheep-mid",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 12,
+  "stages": 12
+ },
+ "c3-h5-sheep-gap-ahead-p870113": {
+  "test": "h5-sheep-gap-ahead",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 12,
+  "stages": 12
+ },
+ "c3-h6-fly-two-deaths-sob-m1714808783": {
+  "test": "h6-fly-two-deaths-sob",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 6
+ },
+ "c3-h6-fly-two-deaths-sob-m2000000011": {
+  "test": "h6-fly-two-deaths-sob",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 6
+ },
+ "c3-h6-fly-two-deaths-sob-m402918337": {
+  "test": "h6-fly-two-deaths-sob",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 6
+ },
+ "c3-h6-fly-two-deaths-sob-m987654321": {
+  "test": "h6-fly-two-deaths-sob",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 6
+ },
+ "c3-h6-fly-two-deaths-sob-p1203948571": {
+  "test": "h6-fly-two-deaths-sob",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 6
+ },
+ "c3-h6-fly-two-deaths-sob-p1999999937": {
+  "test": "h6-fly-two-deaths-sob",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 6
+ },
+ "c3-h6-fly-two-deaths-sob-p55555": {
+  "test": "h6-fly-two-deaths-sob",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 6
+ },
+ "c3-h6-fly-two-deaths-sob-p870113": {
+  "test": "h6-fly-two-deaths-sob",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 6
+ },
+ "c3-h7-fly-two-snipes-dolphin-first-m1714808783": {
+  "test": "h7-fly-two-snipes-dolphin-first",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 7,
+  "stages": 7
+ },
+ "c3-h7-fly-two-snipes-dolphin-first-p870113": {
+  "test": "h7-fly-two-snipes-dolphin-first",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 7
+ },
+ "c3-h7r-fly-two-snipes-croc-first-m1714808783": {
+  "test": "h7r-fly-two-snipes-croc-first",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 7,
+  "stages": 7
+ },
+ "c3-h7r-fly-two-snipes-croc-first-p870113": {
+  "test": "h7r-fly-two-snipes-croc-first",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 7,
+  "stages": 7
+ },
+ "c3-h8-fly-two-snipes-deer-back-m1714808783": {
+  "test": "h8-fly-two-snipes-deer-back",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 7,
+  "stages": 7
+ },
+ "c3-h8-fly-two-snipes-deer-back-p870113": {
+  "test": "h8-fly-two-snipes-deer-back",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 7,
+  "stages": 7
+ },
+ "c3-h9-fly1-two-snipes-dolphin-first-m1714808783": {
+  "test": "h9-fly1-two-snipes-dolphin-first",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 7,
+  "stages": 7
+ },
+ "c3-h9-fly1-two-snipes-dolphin-first-p870113": {
+  "test": "h9-fly1-two-snipes-dolphin-first",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 7
+ },
+ "c3-h9r-fly1-two-snipes-croc-first-m1714808783": {
+  "test": "h9r-fly1-two-snipes-croc-first",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 0,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 7
+ },
+ "c3-h9r-fly1-two-snipes-croc-first-p870113": {
+  "test": "h9r-fly1-two-snipes-croc-first",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 7,
+  "stages": 7
+ },
+ "c3-k3-fly-failed-attempt-uses-m1714808783": {
+  "test": "k3-fly-failed-attempt-uses",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 22,
+  "stages": 22
+ },
+ "c3-k3-fly-failed-attempt-uses-p870113": {
+  "test": "k3-fly-failed-attempt-uses",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 22,
+  "stages": 22
+ },
+ "c3-k4-fly-zombie-death-p870113": {
+  "test": "k4-fly-zombie-death",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 30,
+  "stages": 30
+ },
+ "c3-sk1-skunk2-on-50-m1714808783": {
+  "test": "sk1-skunk2-on-50",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 5
+ },
+ "c3-sk1-skunk2-on-50-p870113": {
+  "test": "sk1-skunk2-on-50",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 0,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 0,
+  "stages": 5
+ },
+ "c3-sk2-skunk3-on-50-p870113": {
+  "test": "sk2-skunk3-on-50",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 2,
+  "stages": 2
+ },
+ "c3-x1-dead-leopard-m1714808783": {
+  "test": "x1-dead-leopard",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 26,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 12,
+  "stages": 12
+ },
+ "c3-x1-dead-leopard-p1203948571": {
+  "test": "x1-dead-leopard",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 24,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 13,
+  "stages": 13
+ },
+ "c3-x1-dead-leopard-p870113": {
+  "test": "x1-dead-leopard",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 24,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 13,
+  "stages": 13
+ },
+ "c3-x2-dead-dolphin-m1714808783": {
+  "test": "x2-dead-dolphin",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 12,
+  "stages": 12
+ },
+ "c3-x2-dead-dolphin-p1203948571": {
+  "test": "x2-dead-dolphin",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 12,
+  "stages": 12
+ },
+ "c3-x2-dead-dolphin-p870113": {
+  "test": "x2-dead-dolphin",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 12,
+  "stages": 12
+ },
+ "c3-x3-dead-crocodile-m1714808783": {
+  "test": "x3-dead-crocodile",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 13,
+  "stages": 13
+ },
+ "c3-x3-dead-crocodile-p1203948571": {
+  "test": "x3-dead-crocodile",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 13,
+  "stages": 13
+ },
+ "c3-x3-dead-crocodile-p870113": {
+  "test": "x3-dead-crocodile",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 13,
+  "stages": 13
+ },
+ "c3-x4-dead-mosquito-m1714808783": {
+  "test": "x4-dead-mosquito",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 26,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 13,
+  "stages": 13
+ },
+ "c3-x4-dead-mosquito-p1203948571": {
+  "test": "x4-dead-mosquito",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 24,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 13,
+  "stages": 13
+ },
+ "c3-x4-dead-mosquito-p870113": {
+  "test": "x4-dead-mosquito",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 24,
+  "followLag": 50,
+  "distinct": 2,
+  "bestStages": 13,
+  "stages": 13
+ },
+ "c3-x5-dead-skunk-m1714808783": {
+  "test": "x5-dead-skunk",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 13,
+  "stages": 13
+ },
+ "c3-x5-dead-skunk-p1203948571": {
+  "test": "x5-dead-skunk",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 13,
+  "stages": 13
+ },
+ "c3-x5-dead-skunk-p870113": {
+  "test": "x5-dead-skunk",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 13,
+  "stages": 13
+ },
+ "c3-x6-dead-whale-m1714808783": {
+  "test": "x6-dead-whale",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 15,
+  "stages": 15
+ },
+ "c3-x6-dead-whale-p1203948571": {
+  "test": "x6-dead-whale",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 15,
+  "stages": 15
+ },
+ "c3-x6-dead-whale-p870113": {
+  "test": "x6-dead-whale",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 15,
+  "stages": 15
+ },
+ "c3-x7-dead-dolphin-killed-by-croc-m1714808783": {
+  "test": "x7-dead-dolphin-killed-by-croc",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 12,
+  "stages": 12
+ },
+ "c3-x7-dead-dolphin-killed-by-croc-p1203948571": {
+  "test": "x7-dead-dolphin-killed-by-croc",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 12,
+  "stages": 12
+ },
+ "c3-x7-dead-dolphin-killed-by-croc-p870113": {
+  "test": "x7-dead-dolphin-killed-by-croc",
+  "seeds": 50,
+  "errors": 0,
+  "follow": 50,
+  "followLag": 50,
+  "distinct": 1,
+  "bestStages": 12,
+  "stages": 12
+ }
+}

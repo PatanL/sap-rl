@@ -361,3 +361,11 @@ guest-data/
 
 # Raw battle responses carrying other players' display names
 /runs/client-oracle-20261123/session2/fixtures/
+
+# Added 2026-11-24: result files over 1 MB from the v32 rules work and the long runs' per-update logs.
+/runs/replay-oracle-20261122/v32/scores/*-340.json
+/runs/replay-oracle-20261122/v32/scores/*-fresh.json
+/runs/train-opt-20261123/results/long-c/updates.jsonl
+/runs/rules-v32-20261124/results/long-*/updates.jsonl
+/runs/rules-v32-20261124/results/long-*/seg-*/updates.jsonl
+/runs/rules-v32-20261124/tmp/

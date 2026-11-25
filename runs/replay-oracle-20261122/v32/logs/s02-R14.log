@@ -1,0 +1,44 @@
+gen 340: {"fights": 4065, "rows": 12195, "errors": 0}  rows differing from v31 53  from previous step 14
+gen fresh: {"fights": 3693, "rows": 7386, "errors": 0}  rows differing from v31 30  from previous step 12
+gen fresh2: {"fights": 3328, "rows": 6656, "errors": 0}  rows differing from v31 26  from previous step 12
+gen fresh3: {"fights": 878, "rows": 1756, "errors": 0}  rows differing from v31 4  from previous step 0
+gen fuzz: {"fights": 6000, "rows": 12000, "errors": 0}  rows differing from v31 14  from previous step 14
+gen fuzz2: {"fights": 20000, "rows": 60000, "errors": 0}  rows differing from v31 58  from previous step 58
+gen constructed: {"fights": 80, "rows": 4000, "errors": 0}  rows differing from v31 n/a  from previous step 50
+rust 340: rows: 12195  matched exactly: 12195  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+rust fresh: rows: 7386  matched exactly: 7386  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+rust fresh2: rows: 6656  matched exactly: 6656  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+rust fresh3: rows: 1756  matched exactly: 1756  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+rust fuzz: rows: 12000  matched exactly: 12000  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+rust fuzz2: rows: 60000  matched exactly: 60000  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+rust constructed: rows: 4000  matched exactly: 4000  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+340     fights  4065  s01-R13:  21 (3)  s02-R14:  19 (3)  fixed 2  broken 0 []
+fresh   fights  3693  s01-R13:  15 (2)  s02-R14:  15 (2)  fixed 0  broken 0 []
+fresh2  fights  3328  s01-R13:  21 (9)  s02-R14:  18 (9)  fixed 3  broken 0 []
+fresh3  fights   878  s01-R13:   3 (0)  s02-R14:   3 (0)  fixed 0  broken 0 []
+fresh4  fights   653  s01-R13:   1 (0)  s02-R14:   1 (0)  fixed 0  broken 0 []
+TOTAL   fights 12617  s01-R13:  61 (14)  s02-R14:  56 (14)  fixed 5  broken 0
+fixed: 646d6abf 7acfd854 4691b0e0 910a1631 9a5f60c1
+broken: 
+identical rows: False
+s02-R14: captures 191  some seed follows 130  every seed follows 108  some seed follows with label lag 158  engine errors 0
+  R1   captures  14  some  11  every  11  some(lag)  11
+  R2   captures   4  some   0  every   0  some(lag)   2
+  R3   captures  28  some  16  every  16  some(lag)  16
+  R4   captures   4  some   2  every   2  some(lag)   2
+  R5   captures   4  some   2  every   2  some(lag)   4
+  R6   captures  10  some   8  every   8  some(lag)  10
+  R7   captures  12  some   6  every   6  some(lag)  12
+  R8   captures  16  some   6  every   6  some(lag)   6
+  R9   captures  17  some   1  every   1  some(lag)  17
+  R10  captures   8  some   8  every   8  some(lag)   8
+  R11  captures   9  some   7  every   7  some(lag)   7
+  R13  captures   1  some   1  every   1  some(lag)   1
+  R14  captures   3  some   3  every   3  some(lag)   3
+  R16  captures   2  some   0  every   0  some(lag)   0
+  R20  captures  22  some  22  every  16  some(lag)  22
+  R15  captures  12  some  12  every  12  some(lag)  12
+  R18  captures  21  some  21  every   5  some(lag)  21
+  R19  captures   3  some   3  every   3  some(lag)   3
+  changed c3-sk1-skunk2-on-50-m1714808783: follow 0/50 -> 50/50  lag 50 -> 50
+  changed c3-sk1-skunk2-on-50-p870113: follow 0/50 -> 50/50  lag 50 -> 50

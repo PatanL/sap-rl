@@ -12,6 +12,7 @@ from sapai.effects import (
 from sapai.tiers import pet_tier_lookup
 from sapai.rand import MockRandomState, LazyRandomState
 from sapai import status
+from sapai import rules
 
 # %%
 
@@ -977,32 +978,54 @@ class Pet:
         activated = True
         return activated, targets, possible
 
-    def friend_hurt_trigger(self, trigger, opponent_team, pending=None):
+    def friend_hurt_trigger(
+        self, trigger, opponent_team, pending=None, allow_removed=False
+    ):
         """Count friendly hurt events; every fourth one activates Wolverine.
 
         v31: with ``pending`` given (battle), the activation is queued there
         and runs once no hurt or faint ability is left, see
         ``battle_phase_hurt_and_faint``.
+
+        v32 R5b: ``allow_removed`` lets a holder that died and left the board
+        earlier in the same attack keep counting. v32 R5: the queued entry
+        also carries the Tiger standing behind at that moment.
         """
 
         if self.ability["trigger"] != "FourFriendsHurt":
             return False, [], []
-        if trigger is self or not self.team.check_friend(self):
+        on_board = self.team.check_friend(self)
+        if trigger is self or not (on_board or allow_removed):
             return False, [], []
         self.friends_hurt_counter += 1
         if self.friends_hurt_counter < 4:
             return False, [], []
         self.friends_hurt_counter = 0
         if pending is not None:
-            pending.append((self, trigger, opponent_team))
+            tiger = None
+            if rules.on("R5") and on_board:
+                behind = self.team.get_behind(self, n=1)
+                if behind and behind[0].pet.name == "pet-tiger":
+                    tiger = behind[0].pet
+            pending.append((self, trigger, opponent_team, tiger))
             return False, [], []
         return self.run_friend_hurt_effect(trigger, opponent_team)
 
-    def run_friend_hurt_effect(self, trigger, opponent_team):
+    def run_friend_hurt_effect(self, trigger, opponent_team, tiger_override=None):
         func = get_effect_function(self)
-        pet_idx = self.team.get_idx(self)
+        try:
+            pet_idx = self.team.get_idx(self)
+        except Exception:
+            # v32 R5: the holder has already left the board.
+            pet_idx = 0
         targets, possible = tiger_func(
-            func, False, self, [0, pet_idx], [self.team, opponent_team], trigger
+            func,
+            False,
+            self,
+            [0, pet_idx],
+            [self.team, opponent_team],
+            trigger,
+            tiger_override=tiger_override,
         )
         return True, targets, possible
 
@@ -1214,6 +1237,18 @@ def tiger_func(func, te_fainted, *args, tiger_override=None):
         if not apet.team.check_friend(pet_behind):
             return targets, possible
 
+    # v32 R9: the Tiger's repeat spends one use of an ability with a use
+    # limit and is skipped when none is left (real client: Snake with a Tiger
+    # fires five shots in all, Hippo gains three times, Ox once). The limit
+    # is the one of the pet's own ability. A repeated summon that finds no
+    # room gives its use back, like the pet's own summon does.
+    charged_repeat = False
+    if rules.on("R9") and "maxTriggers" in ability_before_trigger:
+        if apet.ability_counter >= ability_before_trigger["maxTriggers"]:
+            return targets, possible
+        apet.ability_counter += 1
+        charged_repeat = True
+
     post_override = apet.override_ability
     post_override_dict = copy.deepcopy(apet.override_ability_dict)
     # The repeated ability resolves at the Tiger's level. Native abilities are
@@ -1247,6 +1282,13 @@ def tiger_func(func, te_fainted, *args, tiger_override=None):
         apet.level = original_level
         apet.override_ability = post_override
         apet.override_ability_dict = post_override_dict
+
+    if (
+        charged_repeat
+        and temp_possible == [[]]
+        and repeat_func in [RespawnPet, SummonPet, SummonRandomPet, SummonStoredPets]
+    ):
+        apet.ability_counter -= 1
 
     return [targets] + [temp_targets], [possible] + [temp_possible]
 

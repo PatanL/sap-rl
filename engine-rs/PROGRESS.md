@@ -929,51 +929,204 @@ worker's SHA-256 of it and uses the worker's `load_pool` and `make_team` verbati
 
 # Rules v32 from the real client
 
-Status 2026-11-23 22:30: **paused before any rule was implemented.** Nothing under `engine-rs/` has
-changed: `src/engine.rs` is as it was, nothing was rebuilt, no rules switch exists yet, and no
-`golden/v32-*.jsonl` exists. The six `golden/v31-*.jsonl` files pass with the existing binary
-(100,193 rows, 0 mismatched). `tools/check_search.sh` was not run, since none of its inputs changed.
+Status 2026-11-24 06:45: **done.** All twelve switches (R1, R2, R4, R5, R5b, R8, R9, R11, R12, R13,
+R14, R16) are implemented in the Python reference `runs/replay-oracle-20261122/engine-v32` and in
+`src/engine.rs`, each behind its own flag, and all twelve are on under `v32`. The two engines agree
+on every trace row (123,993 real and fuzz rows plus 4,000 constructed rows under `SAP_RULES=v32`).
+Real fights not reproduced: 12 of 12,617 (1 wrong winner), from 64 (14). R3 and R17 are not
+implemented. The Rust default is unchanged v31 behaviour.
 
-Done so far, all outside this directory (`runs/replay-oracle-20261122/`):
-- `engine-v32/`: a byte-identical copy of `engine-v31/`, to take the rule changes.
-- Baseline reproduced row for row from `rust-v31g-5000-*.json`: 64 of 12,617 fights not reproduced,
-  14 wrong winner. The stored fresh2 and fresh3 results use `fixtures-fresh2.json` and
-  `fixtures-fresh3.json`; the `-all` files repeat 467 fights of the 340 set.
-- `v32/score_all.sh <tag>` and `v32/compare_scores.py A B` for per-rule scoring.
+Final checks on the build as it stands (`target/release/libsap_engine.so` sha256 `622b562a...4a0e`):
+- `SAP_RULES` unset: all six `golden/v31-*.jsonl` reproduced, 99,993 of 99,993 rows.
+- `tools/check_search.sh` (full sizes, `SAP_RULES` unset): `ALL CHECKS PASSED`, same library hash
+  before and after; 11,568 of 11,568 trace matches, the 8,668 earlier matches identical to the
+  baseline, digest `31035309134488a8`, every C-interface check `ALL EQUAL`, `SHOPSET CHECKS PASSED`.
+  It was run unedited but with `taskset` and `docker` wrappers first in `PATH` that move every core
+  list up by ten (0-4 becomes 10-14), because cores 0-9 were busy with training. Log:
+  `runs/replay-oracle-20261122/v32/logs/check_search-default.log`.
+- `engine-v32` under `SAP_RULES=v31` still writes all six `golden/v31-*` files byte for byte.
+- Nothing was changed under `engine-v31/`, `engine-rs-pinned/`, `env-golden/` or `golden/v31-*`.
 
-Rules R1, R2, R4, R5, R8, R9, R11, R12, R13, R14, R16: not started. R3 and R17: not to be
-implemented. `runs/replay-oracle-20261122/REPORT-v32.md` has not been written (the agent's file
-tool refused a new report file); its intended content went to the coordinator as text.
+Not decided here: adopting v32 for training (nothing was copied to `engine-rs-pinned/`).
 
-Planned switch (not built): environment variable `SAP_RULES`, read by both engines. `v31` = every
-new rule off, `v32` = all on, a comma list such as `R13,R14` = a subset. Default here v31, so
-`check_search.sh`, `env-golden/` and `golden/v31-*` stay valid; default in `engine-v32` v32. All
-changes behind per-rule flags in `src/engine.rs`.
+## Switch
 
-Reading chosen for each rule (checked against the captures, not coded):
-- R13: skip the start-of-battle phase when either board is empty.
-- R14: remaining = `floor(h * (1 - p/100))` in strict `f32`, floor 1 (differs from v31 only at
-  level 2 on 50 health: 16, not 17).
+Environment variable `SAP_RULES`, read once per process by both engines
+(`engine-v32/sapai/rules.py`, `rules` module in `src/engine.rs`): `v31` = every new rule off, `v32` =
+the accepted set (`V32` / `RULES_V32`, kept identical in both files), a comma list such as `R13,R14`
+= exactly those rules, `-R1` takes one out. Unset means v31 in Rust (so `check_search.sh`,
+`env-golden/` and `golden/v31-*` stay valid) and v32 in `engine-v32`. An unknown token is an error in
+both. Rules: R1, R2, R4, R5, R5b, R8, R9, R11, R12, R13, R14, R16. R3 and R17 are not implemented.
+
+## How each step is run (cores 10-14 only)
+
+`tools/v32_step.sh <tag> <SAP_RULES> <previous tag>` does, for one cumulative rule set:
+1. regenerate `golden/v32-*.jsonl` from `engine-v32` under that `SAP_RULES` with `tools/gen_golden.py`
+   on the host venv (`/home/dzliu/pzliu/.venv`, numpy 2.2.6; checked byte for byte against all six
+   `golden/v31-*` files under `SAP_RULES=v31`), plus `golden/v32-constructed.jsonl` (the 80 distinct
+   session 3 constructed boards, 50 seeds each, six of them with empty slots) and, from step s08
+   on, `golden/v32-fuzz3.jsonl` (12,000 boards from `tools/gen_fuzz_v32.py`, 2 seeds: drawn from
+   the pets the v32 rules touch, low health, 3,178 boards with empty slots, 246 with an empty
+   board), and count the rows that differ from v31 and from the previous step (`golden/prev-v32/`,
+   emptied at the end);
+2. replay all seven files with the Rust `golden` binary under the same `SAP_RULES`;
+3. score the five real fixture files with the Rust `oracle` (5,000 seeds a fight, 5 threads) into
+   `runs/replay-oracle-20261122/v32/scores/<tag>-*.json` and compare with the previous tag
+   (`v32/compare_scores.py`); `v32/score_all.sh` is not used because it pins cores 0-4 too;
+4. `v32/check_constructed.py`: every session 3 capture against the engine traces, with session 3's
+   own test (an engine seed follows the real movie when each of its boards after start of battle and
+   after every attack is found, in order, among the real readings). Results in
+   `v32/constructed/<tag>.json`. Baseline v31: 127 of 191 captures are followed by some seed.
+
+`tools/v32_chain.sh` runs several steps back to back and keeps a rule when the Rust engine
+reproduces every row and the rule does not break more real fights than it fixes; its decisions are
+in `v32/logs/chain.log`. Both scripts can run from a frozen copy of the two engines
+(`V32_ENGINE`, `V32_BIN`), which is how s02 to s12 were run while later rules were being written.
+
+The constructed boards come from `v32/make_constructed_fixtures.py` (the injected battle JSON of
+each capture through `extract_battles.convert_board`, keeping slot positions; an empty slot is a
+`{"id": "pet-none"}` spec, built as an empty slot by `tools/gen_golden.py` and skipped by
+`Fight::new`).
+
+## Result table
+
+Cumulative: each row adds its rule to the set of the rows above that were kept. "Rows changed" is
+the number of trace rows (of 99,993 real and fuzz rows; constructed rows separately) that differ
+from the previous step, which shows how much the Rust parity check actually exercised the rule.
+Fights: not reproduced (wrong winner) of 12,617.
+
+| Step | SAP_RULES | Rows changed (real+fuzz / constructed) | Rust parity | Not reproduced | Fixed | Broken | Constructed: some seed follows | Kept |
+|---|---|---|---|---|---:|---:|---:|---|
+| s00 | v31 | 0 / - | 99,993 of 99,993 + 4,000 of 4,000 | 64 (14) | - | - | 127 of 191 | baseline, identical rows to `rust-v31g-5000-*` |
+| s01 | R13 | 75 / 50 | 99,993 of 99,993 + 4,000 of 4,000 | 61 (14) | 3 | 0 | 128 of 191 (em1 now on every seed) | yes |
+| s02 | R13,R14 | 110 / 50 | 99,993 of 99,993 + 4,000 of 4,000 | 56 (14) | 5 | 0 | 130 of 191 (sk1 x2 now on every seed) | yes |
+| s03 | R13,R14,R16 | 186 / 50 | 99,993 of 99,993 + 4,000 of 4,000 | 48 (14) | 8 | 0 | 132 of 191 (d7 x2 now on every seed) | yes |
+| s04 | R13,R14,R16,R12 | 54 / 0 | 99,993 of 99,993 + 4,000 of 4,000 | 46 (13) | 2 | 0 | 132 of 191 (no constructed test for R12) | yes |
+| s05 | R13,R14,R16,R12,R4 | 2742 / 150 | 99,993 of 99,993 + 4,000 of 4,000 | 39 (11) | 7 | 0 | 134 of 191 (ddyn x2 now on every seed) | yes |
+| s06 | R13,R14,R16,R12,R4,R9 | 230 / 150 | 99,993 of 99,993 + 4,000 of 4,000 | 30 (9) | 9 | 0 | 143 of 191 (f9 and f10 captures) | yes |
+| s07 | R13,R14,R16,R12,R4,R9,R8 | 83 / 100 | 99,993 of 99,993 + 4,000 of 4,000 | 28 (7) | 2 | 0 | 153 of 191 (f7, f7x captures now on every seed) | yes |
+| s08 | ...,R8,R5 | 5488 / 300 (fuzz3 included from here: 123,993 rows) | 123,993 of 123,993 + 4,000 of 4,000 | 23 (3) | 6 | 1 (11906e93, sampling noise, see R5 below) | 155 of 191 (e5b x2 now on every seed) | yes |
+| s09 | ...,R5,R5b | 86 / 0 | 123,993 of 123,993 + 4,000 of 4,000 | 21 (3) | 2 | 0 | 155 of 191 (no constructed test for R5b) | yes |
+| s10 | ...,R5b,R2 | 230 / 100 | 123,993 of 123,993 + 4,000 of 4,000 | 12 (1) | 9 | 0 | 159 of 191 (a3, a3r x2 each now on every seed) | yes |
+| s11 | ...,R2,R1 | 304 / 400 | 123,993 of 123,993 + 4,000 of 4,000 | 12 (1) | 0 | 0 | 162 of 191 (a5 x2 and a6 second seed now reachable; a6 first seed 29 of 50 seeds instead of 50) | yes (no real fight either way; constructed only) |
+| s12 | ...,R1,R11 | 13 / 50 | 123,993 of 123,993 + 4,000 of 4,000 | 12 (1) | 0 | 0 | 164 of 191 (h11 x2 now on every seed) | yes (score rows identical to s11: real fixtures have no empty slots; constructed only) |
+| final | v32 (built-in set, all twelve) | 0 / 0 | 123,993 of 123,993 + 4,000 of 4,000 | 12 (1) | 0 | 0 | 164 of 191 | score rows identical to s12; these are the `golden/v32-*` files now on disk |
+
+The steps ran from frozen copies of both engines (s02 to s07 from one, s08 to s12 from a later one
+that also held the later rules behind their switches), so the final row is the check of the code
+as it stands: `tools/v32_step.sh v32-final v32 s12-R11`, log
+`runs/replay-oracle-20261122/v32/logs/v32-final.log`.
+
+## Per rule
+
+| Rule | Python | Rust | On under v32 | Real fights fixed | Newly broken | Constructed captures for the rule: some seed follows the movie (v31 -> v32) | Real terminal board reached (v31 -> v32) |
+|---|---|---|---|---:|---:|---|---|
+| R13 | yes | yes | yes | 3 | 0 | 0 -> 1 of 1 | 0 -> 1 of 1 |
+| R14 | yes | yes | yes | 5 | 0 | 1 -> 3 of 3 | 3 -> 3 of 3 |
+| R16 | yes | yes | yes | 8 | 0 | 0 -> 2 of 2 | 0 -> 2 of 2 |
+| R12 | yes | yes | yes | 2 | 0 | no constructed test | - |
+| R4 | yes | yes | yes | 7 | 0 | 2 -> 4 of 4 | 2 -> 4 of 4 |
+| R9 | yes | yes | yes | 9 | 0 | 1 -> 10 of 17 (the other 7 reach the real terminal board; they differ mid-fight, where session 3 notes stale labels) | 1 -> 17 of 17 |
+| R8 | yes | yes | yes | 2 | 0 | 6 -> 16 of 16 | 6 -> 16 of 16 |
+| R5 | yes | yes | yes | 6 (one of them, 364ffdfa, is sampling noise) | 1 (11906e93, sampling noise) | 2 -> 4 of 4 | 2 -> 4 of 4 |
+| R5b | yes | yes | yes (needs R5) | 2 | 0 | no constructed test | - |
+| R2 | yes | yes | yes | 9 | 0 | 0 -> 4 of 4 | 0 -> 4 of 4 |
+| R1 | yes | yes | yes | 0 | 0 | 11 -> 14 of 14 | 11 -> 14 of 14 |
+| R11 | yes | yes | yes | 0 | 0 | 7 -> 9 of 9 | 7 -> 9 of 9 |
+
+All captures: the movie is followed by some seed in 127 -> 164 of 191, the real terminal board is
+reached by some seed in 135 -> 177 of 191 (`v32/check_constructed_terminal.py`), and no capture is
+lost by either measure. Not reached under v32: the 12 R3 captures (h6 x8, h7, h9, h9r, h10; R3 is
+not implemented) and f2 x2 (a stale Tiger label in the client, noted in session 3).
+
+## Real fights before and after (5,000 seeds a fight; not reproduced, wrong winner in brackets)
+
+| Fixture file | Fights | v31 | v32 | Fixed | Newly broken |
+|---|---:|---:|---:|---:|---:|
+| fixtures-340.json | 4,065 | 21 (3) | 6 (1) | 16 | 1 (11906e93) |
+| fixtures-fresh-all.json | 3,693 | 18 (2) | 5 (0) | 13 | 0 |
+| fixtures-fresh2.json | 3,328 | 21 (9) | 1 (0) | 20 | 0 |
+| fixtures-fresh3.json | 878 | 3 (0) | 0 (0) | 3 | 0 |
+| fixtures-fresh4-all.json | 653 | 1 (0) | 0 (0) | 1 | 0 |
+| total | 12,617 | 64 (14) | 12 (1) | 53 | 1 |
+
+The 12 left: 4664ea1e (wrong winner), 7f8443c4, 80d189e9, dda8b4ec (R3, not implemented); ede958be,
+e0bdb7ba (R17, not implemented); a06efcdf, c804ffcf (unexplained in session 3); 89f424a1 (attributed
+to R2 in session 3, not fixed by it, not looked into); 4d928b02 (two Flies behind a Mushroom
+Hedgehog, zombie-fly bookkeeping); a3b3ce27 (Snake with Tiger against a Snake); 11906e93 (reproduced
+at baseline by one seed in 5,000; its real end state has probability about 0.00015 under both rule
+sets).
+
+Two of the counts above are sampling noise at 5,000 seeds and cancel out: 11906e93 (counted as newly
+broken by R5: 47 hits in 300,000 seeds before R5, 44 after) and 364ffdfa (counted as fixed by R5:
+its real end state has probability about 0.0008 under v31 as well, 248 hits in 300,000 seeds
+against 256 under v32; the 5,000 baseline seeds happened to miss it). Of the 53 fixed fights only
+364ffdfa has a state probability under 0.002 in the final scores; 24 of the 53 are deterministic
+and exactly right. Mean probability of the real end state over all 12,617 fights: 0.63308 under
+v31, 0.63615 under v32.
+
+## Things to know before adopting v32
+
+- Nothing under `engine-rs-pinned/`, `engine-v31/`, `env-golden/` or `golden/v31-*` was touched, and
+  no training or scoring script. The training environment still runs v31: `battle_env` reads the
+  same process-wide switch, so a collector started with `SAP_RULES=v32` would fight under v32
+  without any other change. `env-golden/` traces are v31 and would not match under v32.
+- R1 is a model (uniform order per blast), not an established distribution: on test a5 both real
+  seeds gave the one order out of six that reproduces the board. It changes no real fight.
+- R2 keeps the old order on equal attack; R4 breaks ties by a fresh uniform draw. Neither tie rule
+  was tested in the client beyond d4t and d2c (random on a tie for start of battle).
+- R9 applies to every ability with `maxTriggers` that goes through the Tiger repeat (Snake, Hippo,
+  Ox, Gorilla, Fly). Session 3 tested Snake and Hippo and saw Ox in one real fight; Fly, Gorilla
+  and Elephant were not tested.
+- R5's Tiger rule (the Tiger behind the Wolverine when the activation is queued repeats it even if
+  dead by then) comes from four real fights, not from a constructed test.
+- Parity coverage is thin for R11 (13 rows of `v32-fuzz3` plus 50 constructed rows change), R5b
+  (86 rows) and R12 (54 rows); all of them match.
+
+## Reading of each rule (as coded)
+
+- R13: `Battle.start` skips the start-of-battle phase and its hurt/faint phase when either board is
+  empty (the two move phases and their priority draws stay).
+- R14: Skunk's remaining health = `floor(f32(h) * (1f32 - f32(pct) / 100f32))`, floor 1. Note the
+  division: `f32(pct) * f32(0.01)` gives 17 on 50 health like v31. Tabulated for 33/66/99% on 1 to 50
+  health in both engines (Rust unit test `skunk_single_precision_table`, Python check through
+  `ReduceHealth`): the only difference from v31 is level 2 on 50 health, 16 instead of 17.
 - R16: a Crab at 0 health or less gains nothing and makes no random draw.
-- R12: `modify_stats` skips on total health <= 0, not permanent health.
-- R4: next start-of-battle actor = not-yet-acted start-of-battle pet with the highest current
-  attack, random pick on a tie.
-- R9: a Tiger repeat takes one use of an ability with `maxTriggers` and is skipped when none is left.
-- R8: the Tiger for a post-removal summon is the first pet behind that did not die in the same
-  step and is alive when the summon runs.
-- R5: pending Wolverine activations run after the knock-out queue is empty, before the flush; a
-  removed Wolverine still acts. R5b (own flag): a Wolverine holder that died earlier in the same
-  attack keeps counting friend hurts through the knock-out phase (fight `48421d51`).
-- R2: Fly and Shark holders in attack order, each through every pending death before the next.
-- R1: same-team deaths from one `deal_damage` call get a uniform random order (battle stream, drawn
-  only when two or more exist and a Fly or Shark holder is present) within their positions in the
-  attack-sorted list; the dead pets' own summons keep attack order.
-- R11: no `move_forward` before `battle_phase_start` and none in `swallow`; `slot_insert` unchanged.
-  Real fixtures are already compact (the converter drops slot positions), so only constructed
-  boards with gaps exercise it; plan is a `pet-none` placeholder spec skipped in `Fight::new`.
-
-To resume: (1) add the `SAP_RULES` parser to `engine-v32/sapai` and a rules bitmask to `Fight`, and
-confirm `SAP_RULES=v31` still reproduces `golden/v31-*.jsonl` from both; (2) implement R13 in both,
-regenerate the six trace files from `engine-v32` with `tools/gen_golden.py` under that flag, check
-Rust under the same `SAP_RULES`, run `v32/score_all.sh`, diff with `v32/compare_scores.py`;
-(3) continue R14, R16, R12, R4, R9, R8, R5, R5b, R2, R1, R11.
+- R12: `ModifyStats` skips a target on total health <= 0 (permanent plus battle-only), not on
+  permanent health. The negative-amount branch (Wolverine, floor 1 on permanent health) is unchanged.
+- R4: the next start-of-battle actor is the not-yet-acted pet on the board whose current ability has
+  the StartOfBattle trigger and whose current attack is highest; candidates are scanned team 0 front
+  to back, then team 1; on a tie of k pets one draw `choice(arange(k), size=(1,))` picks. Dead pets
+  still act (R20). The priority list drawn by the move phase is still drawn.
+- R9: in `tiger_func`, when the pet's own ability (at its own level) has `maxTriggers`: the repeat is
+  skipped if the counter has reached it, otherwise it takes one use; a repeated summon that produced
+  nothing gives that use back. A skipped repeat returns the un-nested result, so a first summon that
+  found no room is refunded as without a Tiger.
+- R8: for a post-removal summon faint the Tiger is the first pet behind (at record time) that is not
+  among the pets recorded dead in the same hurt/faint pass, if that pet is a Tiger; at the flush it
+  must also be alive and on the board, otherwise there is no repeat.
+- R5: Wolverine activations queued in the after-attack and knock-out hurt/faint passes wait on the
+  battle object and run after the knock-out queue is empty, before the post-removal flush; a
+  removed Wolverine still acts (slot index 0). The Tiger that stood behind the Wolverine when the
+  activation was queued repeats it, also when that Tiger or the Wolverine has died and left the
+  board since. Start-of-battle and before-attack passes keep the v31 timing.
+  First reading (repeat only if the captured Tiger is still alive on the board, and only for a
+  removed Wolverine) fixed 6 fights and broke 5: 449b8e30, 952e5d95, b89b2047 and dba039db all have
+  a Tiger directly behind the Wolverine and no Rhino, and in engine-v31 the activation ran before
+  removal, where a Tiger that died in the same pass still repeated. With the reading above those
+  four are reproduced again (checked on a 13-fight file before the rerun). The fifth, 11906e93, is
+  sampling noise: its real end state has probability about 0.00015 with and without R5 (47 and 44
+  hits in 300,000 seeds), so at 5,000 seeds it is hit or missed by chance. Results of the first
+  reading are kept as `s08-R5-first-reading` (log, scores, constructed).
+- R5b (only with R5): a FourFriendsHurt holder removed earlier in the same attack keeps
+  counting friend hurts until the attack ends.
+- R2: at the flush, Fly and Shark holders are taken in attack order (highest first, read
+  once when the observer stage starts, ties in the old order), each through every pending death of
+  its team before the next holder.
+- R1: same-team deaths caused by one `DealDamage` call (health went from above 0 to 0 or
+  less in that call) are permuted among their own positions of the attack-sorted pending list by
+  one `choice(arange(k), size=k, replace=False)`, for the Fly/Shark stage only and only when the
+  group has two or more deaths and a living Fly or Shark holder on the board; the dead pets' own
+  summons keep attack order.
+- R11: no `move_forward` in the first move phase of `Battle.start` and none in `Swallow`;
+  `_slot_insert` unchanged. Only boards with empty slots can show it.

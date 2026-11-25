@@ -10,6 +10,7 @@ from sapai.effects import (
     SummonStoredPets,
 )
 from sapai import status
+from sapai import rules
 from collections import defaultdict
 
 
@@ -100,6 +101,10 @@ class Battle:
         self.pet_priority = []
         self.battle_history = {}
         self._pending_post_removal = []
+        # v32 R5: Wolverine activations waiting for the knock-out phase.
+        self._pending_counters = []
+        # v32 R5b: FourFriendsHurt holders removed during the current attack.
+        self._removed_counters = []
 
         ### Build initial effect queue order
         self.pet_priority = self.update_pet_priority(self.t0, self.t1, self.rs)
@@ -148,6 +153,8 @@ class Battle:
         t1 = self.t1
         teams = [t0, t1]
         self._pending_post_removal = []
+        self._pending_counters = []
+        self._removed_counters = []
 
         ### Phase of start
         phase_dict = {
@@ -164,7 +171,14 @@ class Battle:
             },
         }
 
+        # v32 R13: against an empty board nothing happens. No start-of-battle
+        # ability runs (real client: Armadillo gives no health, Whale does
+        # not swallow) and the fight ends with the starting board.
+        skip_start = rules.on("R13") and (len(t0) == 0 or len(t1) == 0)
+
         for temp_phase in phase_dict["start"]:
+            if skip_start and temp_phase in ("phase_start", "phase_hurt_and_faint"):
+                continue
             battle_phase(
                 self, temp_phase, teams, self.pet_priority, phase_dict["start"]
             )
@@ -194,6 +208,8 @@ class Battle:
         t0 = self.t0
         t1 = self.t1
         self._pending_post_removal = []
+        self._pending_counters = []
+        self._removed_counters = []
 
         attack_str = f"attack {battle_iter}"
         phase_dict = {
@@ -358,8 +374,19 @@ def battle_phase(battle_obj, phase, teams, pet_priority, phase_dict):
                 [str(x) for x in teams[0]],
                 [str(x) for x in teams[1]],
             ]
-        teams[0].move_forward()
-        teams[1].move_forward()
+        # v32 R11: empty slots are still open while start-of-battle abilities
+        # and the deaths they cause resolve; they close just before the first
+        # attack (constructed test h11: with a gap ahead the Bus ends in front
+        # of the returning Mushroom Deer). Only the first move phase of
+        # Battle.start is skipped.
+        keep_gaps = (
+            rules.on("R11")
+            and phase == "phase_move_start"
+            and "phase_start" in phase_dict
+        )
+        if not keep_gaps:
+            teams[0].move_forward()
+            teams[1].move_forward()
         if not battle_obj.fast_training:
             end_order = [
                 [str(x) for x in teams[0]],
@@ -521,9 +548,53 @@ def check_status_triggers(phase_list, p, team_idx, pet_idx, teams):
     )
 
 
+def _next_start_of_battle_pet(battle_obj, teams, acted):
+    """v32 R4: the start-of-battle pet that acts next.
+
+    Start-of-battle abilities are taken one at a time and the next one is
+    always the pet with the highest attack at that moment, so a Dodo's gift
+    moves the receiver ahead of pets it now out-attacks (constructed test
+    ddyn, six real fights). A tie is a uniform pick from the battle stream.
+    """
+
+    candidates = []
+    for team_idx, team in enumerate(teams):
+        for pet_idx, slot in enumerate(team):
+            if slot.empty:
+                continue
+            pet = slot.pet
+            if pet.ability["trigger"] != "StartOfBattle":
+                continue
+            if any(pet is other for other in acted):
+                continue
+            candidates.append((team_idx, pet_idx, pet))
+    if not candidates:
+        return None
+    top = max(pet.attack for _, _, pet in candidates)
+    tied = [entry for entry in candidates if entry[2].attack == top]
+    if len(tied) > 1:
+        pick = battle_obj.rs.choice(np.arange(len(tied)), size=(1,))[0]
+        return tied[int(pick)]
+    return tied[0]
+
+
 def battle_phase_start(battle_obj, phase, teams, pet_priority, phase_dict):
     phase_list = phase_dict["phase_start"]
     pp = pet_priority
+    if rules.on("R4"):
+        acted = []
+        while True:
+            entry = _next_start_of_battle_pet(battle_obj, teams, acted)
+            if entry is None:
+                break
+            team_idx, pet_idx, p = entry
+            acted.append(p)
+            fteam, oteam = get_teams([team_idx, pet_idx], teams)
+            activated, targets, possible = p.sob_trigger(oteam)
+            append_phase_list(
+                phase_list, p, team_idx, pet_idx, activated, targets, possible
+            )
+        pp = []
     for team_idx, pet_idx in pp:
         p = teams[team_idx][pet_idx].pet
         fteam, oteam = get_teams([team_idx, pet_idx], teams)
@@ -651,7 +722,13 @@ def find_pet_team_and_index(pet, teams):
 
 
 def check_friend_hurt_triggers(
-    phase_list, hurt_pet, team_idx, friendly_team, opponent_team, pending=None
+    phase_list,
+    hurt_pet,
+    team_idx,
+    friendly_team,
+    opponent_team,
+    pending=None,
+    removed=None,
 ):
     """Notify Wolverine-style abilities about one friendly hurt event."""
 
@@ -673,6 +750,45 @@ def check_friend_hurt_triggers(
                 targets,
                 possible,
             )
+    # v32 R5b: a holder that died earlier in this attack and has left the
+    # board keeps counting (real fight 48421d51). Its activation is always
+    # queued (R5), so there is nothing to log here.
+    for observer in list(removed or []):
+        if observer.team is friendly_team:
+            observer.friend_hurt_trigger(
+                hurt_pet, opponent_team, pending, allow_removed=True
+            )
+
+
+def _run_pending_counters(battle_obj, teams, phase_list):
+    """v32 R5: run the Wolverine activations held back during an attack.
+
+    A Wolverine whose count is reached during an attack acts only after
+    everything else of that attack has resolved, the knock-out chain included
+    (constructed test e5b, five real fights). A Wolverine that has left the
+    board still acts. The Tiger that stood behind it when the activation was
+    queued repeats it, also when that Tiger (or the Wolverine) has died and
+    left the board since: in engine-v31 the activation ran before removal and
+    a Tiger that died in the same pass repeated it, and four real fights
+    (449b8e30, 952e5d95, b89b2047, dba039db) need that repeat.
+    """
+
+    pending = battle_obj._pending_counters
+    while pending:
+        observer, trigger, observer_opponents, tiger = pending.pop(0)
+        on_board = observer.team.check_friend(observer)
+        activated, targets, possible = observer.run_friend_hurt_effect(
+            trigger, observer_opponents, tiger_override=tiger
+        )
+        append_phase_list(
+            phase_list,
+            observer,
+            0 if observer.team is teams[0] else 1,
+            observer.team.get_idx(observer) if on_board else 0,
+            activated,
+            targets,
+            possible,
+        )
 
 
 _POST_REMOVAL_FAINT_EFFECTS = {
@@ -810,12 +926,23 @@ def _flush_post_removal_events(battle_obj, teams, phase_list):
         pet_idx = record["pet_idx"]
         _, opponent_team = get_teams([team_idx, pet_idx], teams)
         if record["native_post"]:
+            tiger = record["tiger"]
+            if (
+                rules.on("R8")
+                and tiger is not None
+                and not (
+                    tiger.health > 0
+                    and tiger.team is not None
+                    and tiger.team.check_friend(tiger)
+                )
+            ):
+                tiger = None
             activated, targets, possible = pet.faint_trigger(
                 pet,
                 [team_idx, pet_idx],
                 opponent_team,
                 remove_before_effect=True,
-                tiger_override=record["tiger"],
+                tiger_override=tiger,
             )
             _resync_layouts(
                 layouts, teams, team_idx, pet_idx, _flatten_pet_targets(targets)
@@ -847,48 +974,116 @@ def _flush_post_removal_events(battle_obj, teams, phase_list):
 
     # Shark/Fly are PostRemovalFriendFaints priority 26. Only observers that
     # existed when the faint event was created may observe it.
-    for record in pending:
+    order = _r1_order(battle_obj, teams, pending) if rules.on("R1") else pending
+    if rules.on("R2"):
+        # v32 R2: with two holders of the Fly (or Shark) ability the one with
+        # the higher attack reacts to every dead friend first and the other
+        # gets what is left (constructed tests a3, a3r; eight real fights).
+        # Attack is read once here; ties keep the old order.
+        observers = []
+        for record in order:
+            for observer in record["post_observers"]:
+                if not any(observer is other for other in observers):
+                    observers.append(observer)
+        observers.sort(key=lambda observer: -int(observer.attack))
+        pairs = [
+            (record, observer)
+            for observer in observers
+            for record in order
+            if any(observer is other for other in record["post_observers"])
+        ]
+    else:
+        pairs = [
+            (record, observer)
+            for record in order
+            for observer in record["post_observers"]
+        ]
+    for record, observer in pairs:
         fainted_pet = record["pet"]
         team_idx = record["team_idx"]
         pet_idx = record["pet_idx"]
         friendly_team, opponent_team = get_teams(
             [team_idx, pet_idx], teams
         )
-        for observer in record["post_observers"]:
-            if (
-                not friendly_team.check_friend(observer)
-                or observer.health <= 0
-            ):
-                continue
-            observer_idx = friendly_team.get_idx(observer)
-            activated, targets, possible = observer.faint_trigger(
-                fainted_pet,
-                [team_idx, pet_idx],
-                opponent_team,
-                remove_before_effect=True,
-            )
-            _resync_layouts(
-                layouts, teams, team_idx, pet_idx, _flatten_pet_targets(targets)
-            )
-            append_phase_list(
-                phase_list,
-                observer,
-                team_idx,
-                observer_idx,
-                activated,
-                targets,
-                possible,
-            )
-            check_summon_triggers(
-                phase_list,
-                observer,
-                team_idx,
-                observer_idx,
-                teams,
-                activated,
-                targets,
-                possible,
-            )
+        if (
+            not friendly_team.check_friend(observer)
+            or observer.health <= 0
+        ):
+            continue
+        observer_idx = friendly_team.get_idx(observer)
+        activated, targets, possible = observer.faint_trigger(
+            fainted_pet,
+            [team_idx, pet_idx],
+            opponent_team,
+            remove_before_effect=True,
+        )
+        _resync_layouts(
+            layouts, teams, team_idx, pet_idx, _flatten_pet_targets(targets)
+        )
+        append_phase_list(
+            phase_list,
+            observer,
+            team_idx,
+            observer_idx,
+            activated,
+            targets,
+            possible,
+        )
+        check_summon_triggers(
+            phase_list,
+            observer,
+            team_idx,
+            observer_idx,
+            teams,
+            activated,
+            targets,
+            possible,
+        )
+
+
+def _r1_order(battle_obj, teams, pending):
+    """v32 R1: the order in which Fly and Shark are served simultaneous deaths.
+
+    Friends killed by the same DealDamage call (one Hedgehog blast) are served
+    in a random order that does not depend on attack or position (constructed
+    tests a1, a2, a5, a6: 8 seeds, 8 orders). Model: a uniform permutation
+    from the battle stream of each such group, within the positions the group
+    holds in the attack-sorted list. Drawn only for a group of two or more
+    with a living holder on the board, so other fights keep their draws.
+    """
+
+    order = list(pending)
+    seen = []
+    for pos, record in enumerate(pending):
+        event = getattr(record["pet"], "_killed_by_event", None)
+        if event is None:
+            continue
+        key = (record["team_idx"], event)
+        if key in seen:
+            continue
+        seen.append(key)
+        positions = [
+            index
+            for index in range(pos, len(pending))
+            if pending[index]["team_idx"] == key[0]
+            and getattr(pending[index]["pet"], "_killed_by_event", None) == event
+        ]
+        if len(positions) < 2:
+            continue
+        team = teams[key[0]]
+        if not any(
+            team.check_friend(observer) and observer.health > 0
+            for index in positions
+            for observer in pending[index]["post_observers"]
+        ):
+            continue
+        perm = battle_obj.rs.choice(
+            np.arange(len(positions)), size=len(positions), replace=False
+        )
+        for i, index in enumerate(positions):
+            order[index] = pending[positions[int(perm[i])]]
+    return order
+
 
 def battle_phase_hurt_and_faint(battle_obj, phase, teams, pet_priority, phase_dict):
     phase_list = phase_dict[phase]
@@ -901,7 +1096,17 @@ def battle_phase_hurt_and_faint(battle_obj, phase, teams, pet_priority, phase_di
     # after the fourth hurt, then the Wolverine (already dead) takes a
     # Blowfish from 3 to 1, where the old order had killed it. 35 fights
     # fixed across four replay batches, 1 broken.
-    pending_counters = []
+    # v32 R5: in the two passes that belong to an attack (after the attack and
+    # after each knock-out) the activations are held on the battle object and
+    # run by battle_phase_knockout once the knock-out queue is empty.
+    defer_post = phase in {"phase_hurt_and_faint_aa", "phase_hurt_and_faint_k"}
+    hold_counters = rules.on("R5") and defer_post
+    pending_counters = battle_obj._pending_counters if hold_counters else []
+    removed_counters = (
+        battle_obj._removed_counters
+        if rules.on("R5") and rules.on("R5b")
+        else None
+    )
 
     # SAP-Calculator priorities 3-4 always preempt Faint. Recompute event
     # priority after every activation because Hurt effects can enqueue more
@@ -938,6 +1143,7 @@ def battle_phase_hurt_and_faint(battle_obj, phase, teams, pet_priority, phase_di
                 friendly_team,
                 opponent_team,
                 pending_counters,
+                removed_counters,
             )
             continue
 
@@ -952,8 +1158,8 @@ def battle_phase_hurt_and_faint(battle_obj, phase, teams, pet_priority, phase_di
                 new_dead = (team_idx, pet_idx, pet)
                 break
         if new_dead is None:
-            if pending_counters:
-                observer, trigger, observer_opponents = pending_counters.pop(0)
+            if pending_counters and not hold_counters:
+                observer, trigger, observer_opponents, _ = pending_counters.pop(0)
                 if observer.team.check_friend(observer):
                     activated, targets, possible = observer.run_friend_hurt_effect(
                         trigger, observer_opponents
@@ -1026,7 +1232,25 @@ def battle_phase_hurt_and_faint(battle_obj, phase, teams, pet_priority, phase_di
     # own queued Faint is Tiger-repeated and Deer also reaches the same Tiger
     # after synchronized removal.
     dead_pets = {record["pet"] for record in records}
+    if rules.on("R8"):
+        # v32 R8: a Tiger that dies in the same step does not repeat the
+        # summon of the pet ahead (constructed tests f7, f7x: one Zombie
+        # Cricket; two real fights). The Tiger for a post-removal summon is
+        # the first pet behind that did not die in this step; it must also be
+        # alive when the summon runs (_flush_post_removal_events).
+        for record in records:
+            if not record["native_post"]:
+                continue
+            record["tiger"] = None
+            for support in record["support_chain"]:
+                if support in dead_pets:
+                    continue
+                if support.name == "pet-tiger":
+                    record["tiger"] = support
+                break
     for record in records:
+        if rules.on("R8"):
+            break
         if not record["native_post"] or record["tiger"] is not None:
             continue
         for support in record["support_chain"]:
@@ -1074,6 +1298,11 @@ def battle_phase_hurt_and_faint(battle_obj, phase, teams, pet_priority, phase_di
         friendly_team = teams[team_idx]
         if friendly_team.check_friend(pet):
             friendly_team.remove(pet)
+            if (
+                removed_counters is not None
+                and pet.ability["trigger"] == "FourFriendsHurt"
+            ):
+                removed_counters.append(pet)
             if getattr(phase_list, "fast_training", False):
                 phase_list.append(None)
             else:
@@ -1091,7 +1320,6 @@ def battle_phase_hurt_and_faint(battle_obj, phase, teams, pet_priority, phase_di
         battle_obj._pending_post_removal.append(record)
 
     # Attack knockouts are priority 13 and must run before priorities 25-26.
-    defer_post = phase in {"phase_hurt_and_faint_aa", "phase_hurt_and_faint_k"}
     if not defer_post:
         _flush_post_removal_events(battle_obj, teams, phase_list)
 
@@ -1329,6 +1557,8 @@ def battle_phase_knockout(battle_obj, phase, teams, pet_priority, phase_dict):
     phase_list = phase_dict[phase]
     attack_history = phase_dict["phase_attack"]
     if len(attack_history) == 0:
+        if rules.on("R5"):
+            _run_pending_counters(battle_obj, teams, phase_list)
         _flush_post_removal_events(battle_obj, teams, phase_list)
         return phase_dict
     knockout_queue = list(attack_history[-1])
@@ -1400,6 +1630,8 @@ def battle_phase_knockout(battle_obj, phase, teams, pet_priority, phase_dict):
                 chained["tiger"] = inherited
             knockout_queue.append(chained)
 
+    if rules.on("R5"):
+        _run_pending_counters(battle_obj, teams, phase_list)
     _flush_post_removal_events(battle_obj, teams, phase_list)
     return phase_dict
 

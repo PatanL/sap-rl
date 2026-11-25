@@ -1,0 +1,44 @@
+gen 340: {"fights": 4065, "rows": 12195, "errors": 0}  rows differing from v31 1337  from previous step 3
+gen fresh: {"fights": 3693, "rows": 7386, "errors": 0}  rows differing from v31 819  from previous step 1
+gen fresh2: {"fights": 3328, "rows": 6656, "errors": 0}  rows differing from v31 871  from previous step 2
+gen fresh3: {"fights": 878, "rows": 1756, "errors": 0}  rows differing from v31 219  from previous step 0
+gen fuzz: {"fights": 6000, "rows": 12000, "errors": 0}  rows differing from v31 683  from previous step 2
+gen fuzz2: {"fights": 20000, "rows": 60000, "errors": 0}  rows differing from v31 3050  from previous step 11
+gen fuzz3: {"fights": 12000, "rows": 24000, "errors": 0}  rows differing from v31 n/a  from previous step 67
+gen constructed: {"fights": 80, "rows": 4000, "errors": 0}  rows differing from v31 n/a  from previous step 0
+rust 340: rows: 12195  matched exactly: 12195  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+rust fresh: rows: 7386  matched exactly: 7386  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+rust fresh2: rows: 6656  matched exactly: 6656  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+rust fresh3: rows: 1756  matched exactly: 1756  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+rust fuzz: rows: 12000  matched exactly: 12000  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+rust fuzz2: rows: 60000  matched exactly: 60000  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+rust fuzz3: rows: 24000  matched exactly: 24000  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+rust constructed: rows: 4000  matched exactly: 4000  mismatched: 0  (engine errors: 0, skipped reference errors: 0)
+340     fights  4065  s08-R5:   9 (1)  s09-R5b:   8 (1)  fixed 1  broken 0 []
+fresh   fights  3693  s08-R5:   5 (0)  s09-R5b:   5 (0)  fixed 0  broken 0 []
+fresh2  fights  3328  s08-R5:   9 (2)  s09-R5b:   8 (2)  fixed 1  broken 0 []
+fresh3  fights   878  s08-R5:   0 (0)  s09-R5b:   0 (0)  fixed 0  broken 0 []
+fresh4  fights   653  s08-R5:   0 (0)  s09-R5b:   0 (0)  fixed 0  broken 0 []
+TOTAL   fights 12617  s08-R5:  23 (3)  s09-R5b:  21 (3)  fixed 2  broken 0
+fixed: 07933ed8 48421d51
+broken: 
+identical rows: False
+s09-R5b: captures 191  some seed follows 155  every seed follows 124  some seed follows with label lag 172  engine errors 0
+  R1   captures  14  some  11  every  11  some(lag)  11
+  R2   captures   4  some   0  every   0  some(lag)   2
+  R3   captures  28  some  16  every  16  some(lag)  16
+  R4   captures   4  some   4  every   4  some(lag)   4
+  R5   captures   4  some   4  every   4  some(lag)   4
+  R6   captures  10  some   8  every   8  some(lag)  10
+  R7   captures  12  some   6  every   6  some(lag)  12
+  R8   captures  16  some  16  every  16  some(lag)  16
+  R9   captures  17  some  10  every   1  some(lag)  17
+  R10  captures   8  some   8  every   8  some(lag)   8
+  R11  captures   9  some   7  every   7  some(lag)   7
+  R13  captures   1  some   1  every   1  some(lag)   1
+  R14  captures   3  some   3  every   3  some(lag)   3
+  R16  captures   2  some   2  every   2  some(lag)   2
+  R20  captures  22  some  22  every  16  some(lag)  22
+  R15  captures  12  some  12  every  12  some(lag)  12
+  R18  captures  21  some  21  every   5  some(lag)  21
+  R19  captures   3  some   3  every   3  some(lag)   3

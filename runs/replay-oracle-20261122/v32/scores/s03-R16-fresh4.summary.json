@@ -1,0 +1,10 @@
+{
+  "deterministic": 305,
+  "fights": 653,
+  "meanProbabilityOfRealOutcome": 0.883435222052067,
+  "meanProbabilityOfRealState": 0.6577344563552829,
+  "outcomeImpossible": 0,
+  "samplesPerFight": 5000,
+  "simulated": 653,
+  "stateImpossible": 1
+}

@@ -29,6 +29,10 @@ import copy  # noqa: E402
 def make_team(specs):
     pets = []
     for spec in specs:
+        if spec["id"] == "pet-none":
+            # An empty slot of a constructed board (the Rust side skips it).
+            pets.append(Pet("pet-none"))
+            continue
         pet = Pet(spec["id"])
         pet._attack = int(spec["attack"])
         pet._health = int(spec["health"])
@@ -64,6 +68,9 @@ def board(team):
 
 
 def spec(pet):
+    if pet["id"] == "pet-none":
+        return {"id": "pet-none", "attack": 0, "health": 0, "experience": 0, "status": "none",
+                "triggersConsumed": 0}
     out = {key: pet[key] for key in ("id", "attack", "health", "experience", "status")} | {
         "triggersConsumed": int(pet.get("triggersConsumed", 0))}
     if "parrotCopies" in pet:

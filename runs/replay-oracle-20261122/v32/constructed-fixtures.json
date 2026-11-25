@@ -1,0 +1,6878 @@
+{
+ "fixtures": [
+  {
+   "battleId": "a1-fly4dead",
+   "player": [
+    {
+     "id": "pet-pig",
+     "attack": 5,
+     "health": 3,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 7,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-beaver",
+     "attack": 3,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 4,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "a2-fly4tie",
+   "player": [
+    {
+     "id": "pet-pig",
+     "attack": 5,
+     "health": 3,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 5,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-beaver",
+     "attack": 5,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 4,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "a3-twofly",
+   "player": [
+    {
+     "id": "pet-pig",
+     "attack": 5,
+     "health": 3,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 7,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 8,
+     "health": 20,
+     "experience": 2,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 4,
+     "health": 21,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "a3r-twofly-rev",
+   "player": [
+    {
+     "id": "pet-pig",
+     "attack": 5,
+     "health": 3,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 7,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 4,
+     "health": 20,
+     "experience": 2,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 8,
+     "health": 21,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "a4-shark4dead",
+   "player": [
+    {
+     "id": "pet-pig",
+     "attack": 5,
+     "health": 3,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 7,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-beaver",
+     "attack": 3,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-shark",
+     "attack": 4,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "a5-fly-sheep",
+   "player": [
+    {
+     "id": "pet-pig",
+     "attack": 5,
+     "health": 3,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-sheep",
+     "attack": 7,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 4,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "a6-fly-deer",
+   "player": [
+    {
+     "id": "pet-pig",
+     "attack": 5,
+     "health": 3,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-deer",
+     "attack": 7,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 4,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "a7-fly-one-use-left",
+   "player": [
+    {
+     "id": "pet-pig",
+     "attack": 5,
+     "health": 3,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 7,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-beaver",
+     "attack": 3,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 4,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 2
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "b1-whale-gap",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 10,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-none"
+    },
+    {
+     "id": "pet-whale",
+     "attack": 2,
+     "health": 8,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "b2-dodo-gap",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 10,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-none"
+    },
+    {
+     "id": "pet-dodo",
+     "attack": 6,
+     "health": 8,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "b4-whale-deadahead",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-whale",
+     "attack": 2,
+     "health": 8,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 9,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "b6-dodo-deadahead",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dodo",
+     "attack": 4,
+     "health": 8,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 9,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "c1-whale-release",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 6,
+     "health": 9,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-whale",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "c2-whale2-release",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 6,
+     "health": 9,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-whale",
+     "attack": 3,
+     "health": 1,
+     "experience": 2,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "c3-whale-honey",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 6,
+     "health": 9,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-whale",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "status-honey-bee",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "c4-whale-mushroom",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 6,
+     "health": 9,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-whale",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "status-extra-life",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "c5-whale-fly",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 6,
+     "health": 9,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-whale",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 4,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "c5s-whale-shark",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 6,
+     "health": 9,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-whale",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-shark",
+     "attack": 4,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "c6-whale-cricket",
+   "player": [
+    {
+     "id": "pet-cricket",
+     "attack": 3,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-whale",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "c7-whale-sheep-blast",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 6,
+     "health": 9,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-whale",
+     "attack": 5,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-sheep",
+     "attack": 4,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "d1-crab-round",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crab",
+     "attack": 4,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "d1t-crab-temp",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crab",
+     "attack": 4,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "d2c-crab-skunk-tie",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crab",
+     "attack": 5,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-skunk",
+     "attack": 5,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "d3t-dodo-temp",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dodo",
+     "attack": 8,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "d4-dodo-chain",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dodo",
+     "attack": 6,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dodo",
+     "attack": 10,
+     "health": 6,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "d4t-dodo-tie",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dodo",
+     "attack": 8,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dodo",
+     "attack": 8,
+     "health": 6,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "d6-dead-dodo-acts",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dodo",
+     "attack": 4,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 9,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "d7-dead-crab",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crab",
+     "attack": 4,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 9,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "ddyn-sob-dynamic",
+   "player": [
+    {
+     "id": "pet-skunk",
+     "attack": 5,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dodo",
+     "attack": 10,
+     "health": 6,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-crab",
+     "attack": 6,
+     "health": 3,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "ddynctl-crab-higher-no-dodo",
+   "player": [
+    {
+     "id": "pet-skunk",
+     "attack": 5,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 10,
+     "health": 6,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-crab",
+     "attack": 9,
+     "health": 3,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "e0-wolv-self",
+   "player": [
+    {
+     "id": "pet-dolphin",
+     "attack": 5,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-beaver",
+     "attack": 3,
+     "health": 21,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-wolverine",
+     "attack": 6,
+     "health": 22,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "e1-wolv-timing",
+   "player": [
+    {
+     "id": "pet-pig",
+     "attack": 5,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-beaver",
+     "attack": 3,
+     "health": 21,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 4,
+     "health": 22,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 24,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-wolverine",
+     "attack": 6,
+     "health": 23,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 7,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "e2-wolv-dead",
+   "player": [
+    {
+     "id": "pet-pig",
+     "attack": 5,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-beaver",
+     "attack": 3,
+     "health": 21,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 4,
+     "health": 22,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 24,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-wolverine",
+     "attack": 6,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 7,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "e3-wolv-both",
+   "player": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 2,
+     "health": 7,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-beaver",
+     "attack": 3,
+     "health": 7,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 4,
+     "health": 7,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-wolverine",
+     "attack": 6,
+     "health": 23,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 2,
+     "health": 7,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-beaver",
+     "attack": 3,
+     "health": 7,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 4,
+     "health": 7,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-wolverine",
+     "attack": 5,
+     "health": 24,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "e4-wolv-pair",
+   "player": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-beaver",
+     "attack": 3,
+     "health": 21,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-wolverine",
+     "attack": 6,
+     "health": 23,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-wolverine",
+     "attack": 5,
+     "health": 24,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "e5-wolv-vs-rhino",
+   "player": [
+    {
+     "id": "pet-rhino",
+     "attack": 6,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-beaver",
+     "attack": 3,
+     "health": 21,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 4,
+     "health": 22,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-wolverine",
+     "attack": 6,
+     "health": 23,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 7,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "e5b-wolv-vs-rhino-tier2",
+   "player": [
+    {
+     "id": "pet-rhino",
+     "attack": 6,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-beaver",
+     "attack": 3,
+     "health": 21,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 4,
+     "health": 22,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-wolverine",
+     "attack": 6,
+     "health": 23,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-snail",
+     "attack": 1,
+     "health": 7,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-swan",
+     "attack": 2,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "em1-empty-opponent",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 10,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-whale",
+     "attack": 2,
+     "health": 8,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dodo",
+     "attack": 6,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": []
+  },
+  {
+   "battleId": "f10-snake-tiger-dead-front",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 9,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-snake",
+     "attack": 8,
+     "health": 3,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-tiger",
+     "attack": 6,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-pig",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 31,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "f11-hippo-tiger-limit",
+   "player": [
+    {
+     "id": "pet-hippo",
+     "attack": 10,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-tiger",
+     "attack": 6,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 1,
+     "health": 3,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 1,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-beaver",
+     "attack": 1,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "f11c-hippo-alone-control",
+   "player": [
+    {
+     "id": "pet-hippo",
+     "attack": 10,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 6,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 1,
+     "health": 3,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 1,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-beaver",
+     "attack": 1,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "f13-tiger-killed-by-original",
+   "player": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 9,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-tiger",
+     "attack": 4,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "f14-hedgehog-tiger-die-together",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-hedgehog",
+     "attack": 2,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-tiger",
+     "attack": 4,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 21,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "f1a-tiger-sob-low",
+   "player": [
+    {
+     "id": "pet-skunk",
+     "attack": 9,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-tiger",
+     "attack": 4,
+     "health": 6,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crab",
+     "attack": 5,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "f1b-tiger-sob-mid",
+   "player": [
+    {
+     "id": "pet-skunk",
+     "attack": 9,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-tiger",
+     "attack": 7,
+     "health": 6,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crab",
+     "attack": 5,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "f1c-notiger-control",
+   "player": [
+    {
+     "id": "pet-skunk",
+     "attack": 9,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 4,
+     "health": 6,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crab",
+     "attack": 5,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "f2-tiger-faint",
+   "player": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 9,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-tiger",
+     "attack": 4,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-mammoth",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "f2r-tiger-faint-rev",
+   "player": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 2,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-tiger",
+     "attack": 4,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-mammoth",
+     "attack": 9,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "f2x-tiger-faint-continues",
+   "player": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 9,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-tiger",
+     "attack": 4,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-mammoth",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "f7-tiger-dies-too",
+   "player": [
+    {
+     "id": "pet-cricket",
+     "attack": 1,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-tiger",
+     "attack": 4,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "f7c-tiger-survives-control",
+   "player": [
+    {
+     "id": "pet-cricket",
+     "attack": 1,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-tiger",
+     "attack": 4,
+     "health": 9,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "f7x-tiger-dies-too-continues",
+   "player": [
+    {
+     "id": "pet-cricket",
+     "attack": 1,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-tiger",
+     "attack": 4,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-hedgehog",
+     "attack": 1,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "f9-snake-tiger-shots",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-snake",
+     "attack": 8,
+     "health": 3,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-tiger",
+     "attack": 6,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 2,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "g1-rabbit-turtle2",
+   "player": [
+    {
+     "id": "pet-turtle",
+     "attack": 2,
+     "health": 1,
+     "experience": 2,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 10,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 4,
+     "health": 12,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-rabbit",
+     "attack": 1,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "g2-seal-turtle",
+   "player": [
+    {
+     "id": "pet-turtle",
+     "attack": 2,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-seal",
+     "attack": 3,
+     "health": 8,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 10,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 11,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 12,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "h1-deer-gap-behind",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 19,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-deer",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "status-extra-life",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-none"
+    },
+    {
+     "id": "pet-pig",
+     "attack": 4,
+     "health": 18,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 2,
+     "health": 25,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "h10-fly1-swallow-vs-snipe",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 13,
+     "health": 12,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 15,
+     "health": 13,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-whale",
+     "attack": 12,
+     "health": 14,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 15,
+     "health": 13,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 2
+    },
+    {
+     "id": "pet-duck",
+     "attack": 4,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crocodile",
+     "attack": 8,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "h10r-fly1-swallow-vs-snipe-croc-first",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 13,
+     "health": 12,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 15,
+     "health": 13,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-whale",
+     "attack": 6,
+     "health": 14,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 15,
+     "health": 13,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 2
+    },
+    {
+     "id": "pet-duck",
+     "attack": 4,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crocodile",
+     "attack": 8,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "h11-deer-gap-ahead-and-behind",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 19,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-none"
+    },
+    {
+     "id": "pet-deer",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "status-extra-life",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-none"
+    },
+    {
+     "id": "pet-pig",
+     "attack": 4,
+     "health": 18,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 2,
+     "health": 25,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "h2-deer-no-gap",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 19,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-deer",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "status-extra-life",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 4,
+     "health": 18,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 2,
+     "health": 25,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "h3-fly-gap",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 19,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-none"
+    },
+    {
+     "id": "pet-fly",
+     "attack": 4,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 2,
+     "health": 25,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "h4-sheep-mid",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 19,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-sheep",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 4,
+     "health": 18,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 2,
+     "health": 25,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "h5-sheep-gap-ahead",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 5,
+     "health": 19,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-none"
+    },
+    {
+     "id": "pet-sheep",
+     "attack": 3,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 4,
+     "health": 18,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 2,
+     "health": 25,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "h6-fly-two-deaths-sob",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 13,
+     "health": 12,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-deer",
+     "attack": 15,
+     "health": 13,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-whale",
+     "attack": 12,
+     "health": 14,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 15,
+     "health": 13,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 4,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crocodile",
+     "attack": 8,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "h7-fly-two-snipes-dolphin-first",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 13,
+     "health": 12,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-deer",
+     "attack": 5,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 12,
+     "health": 14,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 15,
+     "health": 13,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 4,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 9,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crocodile",
+     "attack": 8,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "h7r-fly-two-snipes-croc-first",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 13,
+     "health": 12,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-deer",
+     "attack": 5,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 12,
+     "health": 14,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 15,
+     "health": 13,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 4,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 7,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crocodile",
+     "attack": 8,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "h8-fly-two-snipes-deer-back",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 13,
+     "health": 12,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-duck",
+     "attack": 5,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 12,
+     "health": 14,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 15,
+     "health": 13,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-deer",
+     "attack": 4,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 9,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crocodile",
+     "attack": 8,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "h9-fly1-two-snipes-dolphin-first",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 13,
+     "health": 12,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 5,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 12,
+     "health": 14,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 15,
+     "health": 13,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 2
+    },
+    {
+     "id": "pet-duck",
+     "attack": 4,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 9,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crocodile",
+     "attack": 8,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "h9r-fly1-two-snipes-croc-first",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 13,
+     "health": 12,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-pig",
+     "attack": 5,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 12,
+     "health": 14,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 15,
+     "health": 13,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 2
+    },
+    {
+     "id": "pet-duck",
+     "attack": 4,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 7,
+     "health": 5,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crocodile",
+     "attack": 8,
+     "health": 4,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "k3-fly-failed-attempt-uses",
+   "player": [
+    {
+     "id": "pet-deer",
+     "attack": 6,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 41,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 42,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 2,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 2
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "k4-fly-zombie-death",
+   "player": [
+    {
+     "id": "pet-pig",
+     "attack": 6,
+     "health": 1,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fly",
+     "attack": 2,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "sk1-skunk2-on-50",
+   "player": [
+    {
+     "id": "pet-skunk",
+     "attack": 5,
+     "health": 5,
+     "experience": 2,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "sk2-skunk3-on-50",
+   "player": [
+    {
+     "id": "pet-skunk",
+     "attack": 5,
+     "health": 5,
+     "experience": 5,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 20,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 2,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "x1-dead-leopard",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-leopard",
+     "attack": 6,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 20,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "x2-dead-dolphin",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 5,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 20,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "x3-dead-crocodile",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crocodile",
+     "attack": 5,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 20,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "x4-dead-mosquito",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-mosquito",
+     "attack": 2,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 20,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "x5-dead-skunk",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-skunk",
+     "attack": 3,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 20,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "x6-dead-whale",
+   "player": [
+    {
+     "id": "pet-cricket",
+     "attack": 3,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-whale",
+     "attack": 3,
+     "health": 2,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 20,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  },
+  {
+   "battleId": "x7-dead-dolphin-killed-by-croc",
+   "player": [
+    {
+     "id": "pet-fish",
+     "attack": 3,
+     "health": 40,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-dolphin",
+     "attack": 5,
+     "health": 6,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ],
+   "opponent": [
+    {
+     "id": "pet-fish",
+     "attack": 1,
+     "health": 30,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    },
+    {
+     "id": "pet-crocodile",
+     "attack": 20,
+     "health": 50,
+     "experience": 0,
+     "status": "none",
+     "triggersConsumed": 0
+    }
+   ]
+  }
+ ],
+ "captures": [
+  {
+   "capture": "c3-a1-fly4dead-m1714808783",
+   "test": "a1-fly4dead",
+   "fixture": "a1-fly4dead",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0032.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 4/4 | s3 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0052.jpg"
+   }
+  },
+  {
+   "capture": "c3-a1-fly4dead-m2000000011",
+   "test": "a1-fly4dead",
+   "fixture": "a1-fly4dead",
+   "seed": -2000000011,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0037.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 4/4 | s2 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0062.jpg"
+   }
+  },
+  {
+   "capture": "c3-a1-fly4dead-m402918337",
+   "test": "a1-fly4dead",
+   "fixture": "a1-fly4dead",
+   "seed": -402918337,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0039.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/4 | s2 4/4 | s3 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0065.jpg"
+   }
+  },
+  {
+   "capture": "c3-a1-fly4dead-m987654321",
+   "test": "a1-fly4dead",
+   "fixture": "a1-fly4dead",
+   "seed": -987654321,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0039.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/4 | s2 4/4 | s3 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0063.jpg"
+   }
+  },
+  {
+   "capture": "c3-a1-fly4dead-p1203948571",
+   "test": "a1-fly4dead",
+   "fixture": "a1-fly4dead",
+   "seed": 1203948571,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0045.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 4/4 | s2 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0068.jpg"
+   }
+  },
+  {
+   "capture": "c3-a1-fly4dead-p1999999937",
+   "test": "a1-fly4dead",
+   "fixture": "a1-fly4dead",
+   "seed": 1999999937,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0041.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 4/4 | s3 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0066.jpg"
+   }
+  },
+  {
+   "capture": "c3-a1-fly4dead-p55555",
+   "test": "a1-fly4dead",
+   "fixture": "a1-fly4dead",
+   "seed": 55555,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0040.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 4/4 | s2 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0064.jpg"
+   }
+  },
+  {
+   "capture": "c3-a1-fly4dead-p870113",
+   "test": "a1-fly4dead",
+   "fixture": "a1-fly4dead",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0033.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/4 | s2 4/4 | s3 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0057.jpg"
+   }
+  },
+  {
+   "capture": "c3-a2-fly4tie-m1714808783",
+   "test": "a2-fly4tie",
+   "fixture": "a2-fly4tie",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/3 | s1 5/2 | s2 5/2 | s3 5/2 | s4 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0029.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 4/4 | s3 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0047.jpg"
+   }
+  },
+  {
+   "capture": "c3-a2-fly4tie-p870113",
+   "test": "a2-fly4tie",
+   "fixture": "a2-fly4tie",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/3 | s1 5/2 | s2 5/2 | s3 5/2 | s4 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0030.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/4 | s2 4/4 | s3 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0051.jpg"
+   }
+  },
+  {
+   "capture": "c3-a3-twofly-m1714808783",
+   "test": "a3-twofly",
+   "fixture": "a3-twofly",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 3/2 | s3 8/20 | s4 4/21",
+    "O": "s0 1/1",
+    "frame": "tl/f0031.jpg"
+   },
+   "terminal": {
+    "P": "s0 8/8 | s1 8/8 | s2 8/8 | s3 8/18 | s4 4/19",
+    "O": "empty",
+    "frame": "tl/f0049.jpg"
+   }
+  },
+  {
+   "capture": "c3-a3-twofly-p870113",
+   "test": "a3-twofly",
+   "fixture": "a3-twofly",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 3/2 | s3 8/20 | s4 4/21",
+    "O": "s0 1/1",
+    "frame": "tl/f0031.jpg"
+   },
+   "terminal": {
+    "P": "s0 8/8 | s1 8/8 | s2 8/8 | s3 8/18 | s4 4/19",
+    "O": "empty",
+    "frame": "tl/f0052.jpg"
+   }
+  },
+  {
+   "capture": "c3-a3r-twofly-rev-m1714808783",
+   "test": "a3r-twofly-rev",
+   "fixture": "a3r-twofly-rev",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 3/2 | s3 4/20 | s4 8/21",
+    "O": "s0 1/1",
+    "frame": "tl/f0029.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 4/4 | s2 4/4 | s3 4/18 | s4 8/19",
+    "O": "empty",
+    "frame": "tl/f0047.jpg"
+   }
+  },
+  {
+   "capture": "c3-a3r-twofly-rev-p870113",
+   "test": "a3r-twofly-rev",
+   "fixture": "a3r-twofly-rev",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 3/2 | s3 4/20 | s4 8/21",
+    "O": "s0 1/1",
+    "frame": "tl/f0030.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 4/4 | s2 4/4 | s3 4/18 | s4 8/19",
+    "O": "empty",
+    "frame": "tl/f0048.jpg"
+   }
+  },
+  {
+   "capture": "c3-a4-shark4dead-m1714808783",
+   "test": "a4-shark4dead",
+   "fixture": "a4-shark4dead",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0033.jpg"
+   },
+   "terminal": {
+    "P": "s4 12/26",
+    "O": "empty",
+    "frame": "tl/f0053.jpg"
+   }
+  },
+  {
+   "capture": "c3-a4-shark4dead-p870113",
+   "test": "a4-shark4dead",
+   "fixture": "a4-shark4dead",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0030.jpg"
+   },
+   "terminal": {
+    "P": "s4 12/26",
+    "O": "empty",
+    "frame": "tl/f0050.jpg"
+   }
+  },
+  {
+   "capture": "c3-a5-fly-sheep-m1714808783",
+   "test": "a5-fly-sheep",
+   "fixture": "a5-fly-sheep",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0039.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 2/2 | s2 2/2 | s3 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0069.jpg"
+   }
+  },
+  {
+   "capture": "c3-a5-fly-sheep-p870113",
+   "test": "a5-fly-sheep",
+   "fixture": "a5-fly-sheep",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0030.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 2/2 | s2 2/2 | s3 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0054.jpg"
+   }
+  },
+  {
+   "capture": "c3-a6-fly-deer-m1714808783",
+   "test": "a6-fly-deer",
+   "fixture": "a6-fly-deer",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0034.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 4/4 | s2 5/3 | s3 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0061.jpg"
+   }
+  },
+  {
+   "capture": "c3-a6-fly-deer-p870113",
+   "test": "a6-fly-deer",
+   "fixture": "a6-fly-deer",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0033.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 5/3 | s2 4/4 | s3 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0060.jpg"
+   }
+  },
+  {
+   "capture": "c3-a7-fly-one-use-left-m1714808783",
+   "test": "a7-fly-one-use-left",
+   "fixture": "a7-fly-one-use-left",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0034.jpg"
+   },
+   "terminal": {
+    "P": "s3 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0051.jpg"
+   }
+  },
+  {
+   "capture": "c3-a7-fly-one-use-left-p870113",
+   "test": "a7-fly-one-use-left",
+   "fixture": "a7-fly-one-use-left",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/3 | s1 7/2 | s2 1/2 | s3 3/2 | s4 4/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0036.jpg"
+   },
+   "terminal": {
+    "P": "s3 4/4 | s4 4/18",
+    "O": "empty",
+    "frame": "tl/f0059.jpg"
+   }
+  },
+  {
+   "capture": "c3-b1-whale-gap-m1714808783",
+   "test": "b1-whale-gap",
+   "fixture": "b1-whale-gap",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 2/8",
+    "O": "s0 1/30",
+    "frame": "tl/f0045.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/5",
+    "O": "empty",
+    "frame": "tl/f0102.jpg"
+   }
+  },
+  {
+   "capture": "c3-b1-whale-gap-p870113",
+   "test": "b1-whale-gap",
+   "fixture": "b1-whale-gap",
+   "seed": 870113,
+   "start": {
+    "P": "s0 2/8",
+    "O": "s0 1/30",
+    "frame": "tl/f0038.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/5",
+    "O": "empty",
+    "frame": "tl/f0088.jpg"
+   }
+  },
+  {
+   "capture": "c3-b2-dodo-gap-m1714808783",
+   "test": "b2-dodo-gap",
+   "fixture": "b2-dodo-gap",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/10 | s1 6/8",
+    "O": "s0 1/30",
+    "frame": "tl/f0048.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/4 | s1 6/8",
+    "O": "empty",
+    "frame": "tl/f0076.jpg"
+   }
+  },
+  {
+   "capture": "c3-b2-dodo-gap-p870113",
+   "test": "b2-dodo-gap",
+   "fixture": "b2-dodo-gap",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/10 | s1 6/8",
+    "O": "s0 1/30",
+    "frame": "tl/f0047.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/4 | s1 6/8",
+    "O": "empty",
+    "frame": "tl/f0072.jpg"
+   }
+  },
+  {
+   "capture": "c3-b4-whale-deadahead-m1714808783",
+   "test": "b4-whale-deadahead",
+   "fixture": "b4-whale-deadahead",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 2/8",
+    "O": "s0 1/30 | s1 9/5",
+    "frame": "tl/f0051.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/8",
+    "O": "empty",
+    "frame": "tl/f0105.jpg"
+   }
+  },
+  {
+   "capture": "c3-b4-whale-deadahead-p870113",
+   "test": "b4-whale-deadahead",
+   "fixture": "b4-whale-deadahead",
+   "seed": 870113,
+   "start": {
+    "P": "s0 2/8",
+    "O": "s0 1/30 | s1 9/5",
+    "frame": null
+   },
+   "terminal": {
+    "P": "s0 5/8",
+    "O": "empty",
+    "frame": "tl/f0102.jpg"
+   }
+  },
+  {
+   "capture": "c3-b6-dodo-deadahead-m1714808783",
+   "test": "b6-dodo-deadahead",
+   "fixture": "b6-dodo-deadahead",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 4/20 | s1 3/-3 | s2 4/8",
+    "O": "s0 1/30 | s1 9/5",
+    "frame": "tl/f0042.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/8",
+    "O": "empty",
+    "frame": "tl/f0083.jpg"
+   }
+  },
+  {
+   "capture": "c3-b6-dodo-deadahead-p870113",
+   "test": "b6-dodo-deadahead",
+   "fixture": "b6-dodo-deadahead",
+   "seed": 870113,
+   "start": {
+    "P": "s0 4/20 | s1 4/8",
+    "O": "s0 1/30 | s1 9/5",
+    "frame": "tl/f0048.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/8",
+    "O": "empty",
+    "frame": "tl/f0089.jpg"
+   }
+  },
+  {
+   "capture": "c3-c1-whale-release-m1714808783",
+   "test": "c1-whale-release",
+   "fixture": "c1-whale-release",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 3/1",
+    "O": "s0 5/30",
+    "frame": "tl/f0040.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 5/15",
+    "frame": "tl/f0059.jpg"
+   }
+  },
+  {
+   "capture": "c3-c1-whale-release-p870113",
+   "test": "c1-whale-release",
+   "fixture": "c1-whale-release",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/1",
+    "O": "s0 5/30",
+    "frame": "tl/f0047.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 5/15",
+    "frame": "tl/f0063.jpg"
+   }
+  },
+  {
+   "capture": "c3-c2-whale2-release-m1714808783",
+   "test": "c2-whale2-release",
+   "fixture": "c2-whale2-release",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 3/1",
+    "O": "s0 5/30",
+    "frame": "tl/f0045.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 5/15",
+    "frame": "tl/f0064.jpg"
+   }
+  },
+  {
+   "capture": "c3-c2-whale2-release-p870113",
+   "test": "c2-whale2-release",
+   "fixture": "c2-whale2-release",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/1",
+    "O": "s0 5/30",
+    "frame": "tl/f0042.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 5/15",
+    "frame": "tl/f0061.jpg"
+   }
+  },
+  {
+   "capture": "c3-c3-whale-honey-p870113",
+   "test": "c3-whale-honey",
+   "fixture": "c3-whale-honey",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/1",
+    "O": "s0 5/30",
+    "frame": "tl/f0043.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 5/14",
+    "frame": "tl/f0070.jpg"
+   }
+  },
+  {
+   "capture": "c3-c4-whale-mushroom-p870113",
+   "test": "c4-whale-mushroom",
+   "fixture": "c4-whale-mushroom",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/1",
+    "O": "s0 5/30",
+    "frame": "tl/f0044.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 5/14",
+    "frame": "tl/f0074.jpg"
+   }
+  },
+  {
+   "capture": "c3-c5-whale-fly-m1714808783",
+   "test": "c5-whale-fly",
+   "fixture": "c5-whale-fly",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 4/4 | s1 3/1 | s2 4/20",
+    "O": "s0 5/30",
+    "frame": "tl/f0046.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/15",
+    "O": "empty",
+    "frame": "tl/f0089.jpg"
+   }
+  },
+  {
+   "capture": "c3-c5-whale-fly-p870113",
+   "test": "c5-whale-fly",
+   "fixture": "c5-whale-fly",
+   "seed": 870113,
+   "start": {
+    "P": "s0 4/4 | s1 3/1 | s2 4/20",
+    "O": "s0 5/30",
+    "frame": "tl/f0037.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/15",
+    "O": "empty",
+    "frame": "tl/f0083.jpg"
+   }
+  },
+  {
+   "capture": "c3-c5s-whale-shark-m1714808783",
+   "test": "c5s-whale-shark",
+   "fixture": "c5s-whale-shark",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 3/1 | s1 6/22",
+    "O": "s0 5/30",
+    "frame": "tl/f0046.jpg"
+   },
+   "terminal": {
+    "P": "s0 10/16",
+    "O": "empty",
+    "frame": "tl/f0077.jpg"
+   }
+  },
+  {
+   "capture": "c3-c5s-whale-shark-p870113",
+   "test": "c5s-whale-shark",
+   "fixture": "c5s-whale-shark",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/1 | s1 6/22",
+    "O": "s0 5/30",
+    "frame": "tl/f0046.jpg"
+   },
+   "terminal": {
+    "P": "s0 10/16",
+    "O": "empty",
+    "frame": "tl/f0082.jpg"
+   }
+  },
+  {
+   "capture": "c3-c6-whale-cricket-p870113",
+   "test": "c6-whale-cricket",
+   "fixture": "c6-whale-cricket",
+   "seed": 870113,
+   "start": {
+    "P": "s0 1/1 | s1 3/1",
+    "O": "s0 5/30",
+    "frame": "tl/f0044.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 5/22",
+    "frame": "tl/f0074.jpg"
+   }
+  },
+  {
+   "capture": "c3-c7-whale-sheep-blast-p870113",
+   "test": "c7-whale-sheep-blast",
+   "fixture": "c7-whale-sheep-blast",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/2 | s1 4/2 | s2 2/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0044.jpg"
+   },
+   "terminal": {
+    "P": "s0 6/9 | s1 2/2 | s2 2/2 | s3 2/18",
+    "O": "empty",
+    "frame": "tl/f0063.jpg"
+   }
+  },
+  {
+   "capture": "c3-d1-crab-round-p870113",
+   "test": "d1-crab-round",
+   "fixture": "d1-crab-round",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/30 | s1 4/9",
+    "O": "s0 1/40",
+    "frame": "tl/f0037.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/16 | s1 4/9",
+    "O": "empty",
+    "frame": "tl/f0089.jpg"
+   }
+  },
+  {
+   "capture": "c3-d1t-crab-temp-p870113",
+   "test": "d1t-crab-temp",
+   "fixture": "d1t-crab-temp",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/40 | s1 4/11",
+    "O": "s0 1/40",
+    "frame": "tl/f0039.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/26 | s1 4/11",
+    "O": "empty",
+    "frame": "tl/f0089.jpg"
+   }
+  },
+  {
+   "capture": "c3-d2c-crab-skunk-tie-m1714808783",
+   "test": "d2c-crab-skunk-tie",
+   "fixture": "d2c-crab-skunk-tie",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 3/26 | s1 5/11",
+    "O": "s0 5/5",
+    "frame": "tl/f0040.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/16 | s1 5/11",
+    "O": "empty",
+    "frame": "tl/f0054.jpg"
+   }
+  },
+  {
+   "capture": "c3-d2c-crab-skunk-tie-m2000000011",
+   "test": "d2c-crab-skunk-tie",
+   "fixture": "d2c-crab-skunk-tie",
+   "seed": -2000000011,
+   "start": {
+    "P": "s0 3/26 | s1 5/8",
+    "O": "s0 5/5",
+    "frame": "tl/f0040.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/16 | s1 5/8",
+    "O": "empty",
+    "frame": "tl/f0051.jpg"
+   }
+  },
+  {
+   "capture": "c3-d2c-crab-skunk-tie-m402918337",
+   "test": "d2c-crab-skunk-tie",
+   "fixture": "d2c-crab-skunk-tie",
+   "seed": -402918337,
+   "start": {
+    "P": "s0 3/26 | s1 5/8",
+    "O": "s0 5/5",
+    "frame": "tl/f0041.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/16 | s1 5/8",
+    "O": "empty",
+    "frame": "tl/f0055.jpg"
+   }
+  },
+  {
+   "capture": "c3-d2c-crab-skunk-tie-m987654321",
+   "test": "d2c-crab-skunk-tie",
+   "fixture": "d2c-crab-skunk-tie",
+   "seed": -987654321,
+   "start": {
+    "P": "s0 3/26 | s1 5/11",
+    "O": "s0 5/5",
+    "frame": "tl/f0046.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/16 | s1 5/11",
+    "O": "empty",
+    "frame": "tl/f0059.jpg"
+   }
+  },
+  {
+   "capture": "c3-d2c-crab-skunk-tie-p1203948571",
+   "test": "d2c-crab-skunk-tie",
+   "fixture": "d2c-crab-skunk-tie",
+   "seed": 1203948571,
+   "start": {
+    "P": "s0 3/26 | s1 5/11",
+    "O": "s0 5/5",
+    "frame": "tl/f0043.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/16 | s1 5/11",
+    "O": "empty",
+    "frame": "tl/f0054.jpg"
+   }
+  },
+  {
+   "capture": "c3-d2c-crab-skunk-tie-p1999999937",
+   "test": "d2c-crab-skunk-tie",
+   "fixture": "d2c-crab-skunk-tie",
+   "seed": 1999999937,
+   "start": {
+    "P": "s0 3/26 | s1 5/8",
+    "O": "s0 5/5",
+    "frame": "tl/f0041.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/16 | s1 5/8",
+    "O": "empty",
+    "frame": "tl/f0054.jpg"
+   }
+  },
+  {
+   "capture": "c3-d2c-crab-skunk-tie-p55555",
+   "test": "d2c-crab-skunk-tie",
+   "fixture": "d2c-crab-skunk-tie",
+   "seed": 55555,
+   "start": {
+    "P": "s0 3/26 | s1 5/8",
+    "O": "s0 5/5",
+    "frame": "tl/f0041.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/16 | s1 5/8",
+    "O": "empty",
+    "frame": "tl/f0052.jpg"
+   }
+  },
+  {
+   "capture": "c3-d2c-crab-skunk-tie-p870113",
+   "test": "d2c-crab-skunk-tie",
+   "fixture": "d2c-crab-skunk-tie",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/26 | s1 5/8",
+    "O": "s0 5/5",
+    "frame": "tl/f0043.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/16 | s1 5/8",
+    "O": "empty",
+    "frame": "tl/f0058.jpg"
+   }
+  },
+  {
+   "capture": "c3-d3t-dodo-temp-p870113",
+   "test": "d3t-dodo-temp",
+   "fixture": "d3t-dodo-temp",
+   "seed": 870113,
+   "start": {
+    "P": "s0 6/20 | s1 8/5",
+    "O": "s0 1/40",
+    "frame": "tl/f0040.jpg"
+   },
+   "terminal": {
+    "P": "s0 6/13 | s1 8/5",
+    "O": "empty",
+    "frame": "tl/f0069.jpg"
+   }
+  },
+  {
+   "capture": "c3-d4-dodo-chain-m1714808783",
+   "test": "d4-dodo-chain",
+   "fixture": "d4-dodo-chain",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 7/20 | s1 11/5 | s2 10/6",
+    "O": "s0 1/40",
+    "frame": "tl/f0042.jpg"
+   },
+   "terminal": {
+    "P": "s0 7/14 | s1 11/5 | s2 10/6",
+    "O": "empty",
+    "frame": "tl/f0067.jpg"
+   }
+  },
+  {
+   "capture": "c3-d4-dodo-chain-p870113",
+   "test": "d4-dodo-chain",
+   "fixture": "d4-dodo-chain",
+   "seed": 870113,
+   "start": {
+    "P": "s0 7/20 | s1 11/5 | s2 10/6",
+    "O": "s0 1/40",
+    "frame": "tl/f0040.jpg"
+   },
+   "terminal": {
+    "P": "s0 7/14 | s1 11/5 | s2 10/6",
+    "O": "empty",
+    "frame": "tl/f0064.jpg"
+   }
+  },
+  {
+   "capture": "c3-d4t-dodo-tie-m1714808783",
+   "test": "d4t-dodo-tie",
+   "fixture": "d4t-dodo-tie",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 8/20 | s1 12/5 | s2 8/6",
+    "O": "s0 1/40",
+    "frame": "tl/f0037.jpg"
+   },
+   "terminal": {
+    "P": "s0 8/15 | s1 12/5 | s2 8/6",
+    "O": "empty",
+    "frame": "tl/f0059.jpg"
+   }
+  },
+  {
+   "capture": "c3-d4t-dodo-tie-m2000000011",
+   "test": "d4t-dodo-tie",
+   "fixture": "d4t-dodo-tie",
+   "seed": -2000000011,
+   "start": {
+    "P": "s0 8/20 | s1 12/5 | s2 8/6",
+    "O": "s0 1/40",
+    "frame": "tl/f0042.jpg"
+   },
+   "terminal": {
+    "P": "s0 8/15 | s1 12/5 | s2 8/6",
+    "O": "empty",
+    "frame": "tl/f0065.jpg"
+   }
+  },
+  {
+   "capture": "c3-d4t-dodo-tie-m402918337",
+   "test": "d4t-dodo-tie",
+   "fixture": "d4t-dodo-tie",
+   "seed": -402918337,
+   "start": {
+    "P": "s0 6/20 | s1 12/5 | s2 8/6",
+    "O": "s0 1/40",
+    "frame": "tl/f0037.jpg"
+   },
+   "terminal": {
+    "P": "s0 6/13 | s1 12/5 | s2 8/6",
+    "O": "empty",
+    "frame": "tl/f0065.jpg"
+   }
+  },
+  {
+   "capture": "c3-d4t-dodo-tie-m987654321",
+   "test": "d4t-dodo-tie",
+   "fixture": "d4t-dodo-tie",
+   "seed": -987654321,
+   "start": {
+    "P": "s0 8/20 | s1 12/5 | s2 8/6",
+    "O": "s0 1/40",
+    "frame": "tl/f0038.jpg"
+   },
+   "terminal": {
+    "P": "s0 8/15 | s1 12/5 | s2 8/6",
+    "O": "empty",
+    "frame": "tl/f0058.jpg"
+   }
+  },
+  {
+   "capture": "c3-d4t-dodo-tie-p1203948571",
+   "test": "d4t-dodo-tie",
+   "fixture": "d4t-dodo-tie",
+   "seed": 1203948571,
+   "start": {
+    "P": "s0 8/20 | s1 12/5 | s2 8/6",
+    "O": "s0 1/40",
+    "frame": "tl/f0039.jpg"
+   },
+   "terminal": {
+    "P": "s0 8/15 | s1 12/5 | s2 8/6",
+    "O": "empty",
+    "frame": "tl/f0063.jpg"
+   }
+  },
+  {
+   "capture": "c3-d4t-dodo-tie-p1999999937",
+   "test": "d4t-dodo-tie",
+   "fixture": "d4t-dodo-tie",
+   "seed": 1999999937,
+   "start": {
+    "P": "s0 8/20 | s1 12/5 | s2 8/6",
+    "O": "s0 1/40",
+    "frame": "tl/f0040.jpg"
+   },
+   "terminal": {
+    "P": "s0 8/15 | s1 12/5 | s2 8/6",
+    "O": "empty",
+    "frame": "tl/f0060.jpg"
+   }
+  },
+  {
+   "capture": "c3-d4t-dodo-tie-p55555",
+   "test": "d4t-dodo-tie",
+   "fixture": "d4t-dodo-tie",
+   "seed": 55555,
+   "start": {
+    "P": "s0 6/20 | s1 12/5 | s2 8/6",
+    "O": "s0 1/40",
+    "frame": "tl/f0040.jpg"
+   },
+   "terminal": {
+    "P": "s0 6/13 | s1 12/5 | s2 8/6",
+    "O": "empty",
+    "frame": "tl/f0069.jpg"
+   }
+  },
+  {
+   "capture": "c3-d4t-dodo-tie-p870113",
+   "test": "d4t-dodo-tie",
+   "fixture": "d4t-dodo-tie",
+   "seed": 870113,
+   "start": {
+    "P": "s0 6/20 | s1 12/5 | s2 8/6",
+    "O": "s0 1/40",
+    "frame": "tl/f0040.jpg"
+   },
+   "terminal": {
+    "P": "s0 6/13 | s1 12/5 | s2 8/6",
+    "O": "empty",
+    "frame": "tl/f0068.jpg"
+   }
+  },
+  {
+   "capture": "c3-d6-dead-dodo-acts-p870113",
+   "test": "d6-dead-dodo-acts",
+   "fixture": "d6-dead-dodo-acts",
+   "seed": 870113,
+   "start": {
+    "P": "s0 4/20",
+    "O": "s0 1/40 | s1 9/5",
+    "frame": "tl/f0048.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "empty",
+    "frame": "tl/f0092.jpg"
+   }
+  },
+  {
+   "capture": "c3-d7-dead-crab-m1714808783",
+   "test": "d7-dead-crab",
+   "fixture": "d7-dead-crab",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/30 | s1 9/5",
+    "frame": "tl/f0043.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/12",
+    "O": "empty",
+    "frame": "tl/f0087.jpg"
+   }
+  },
+  {
+   "capture": "c3-d7-dead-crab-p870113",
+   "test": "d7-dead-crab",
+   "fixture": "d7-dead-crab",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/30 | s1 9/5",
+    "frame": null
+   },
+   "terminal": {
+    "P": "s0 3/12",
+    "O": "empty",
+    "frame": "tl/f0099.jpg"
+   }
+  },
+  {
+   "capture": "c3-ddyn-sob-dynamic-m1714808783",
+   "test": "ddyn-sob-dynamic",
+   "fixture": "ddyn-sob-dynamic",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 10/5 | s1 10/6",
+    "O": "s0 6/10 | s1 2/26",
+    "frame": "tl/f0042.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "empty",
+    "frame": "tl/f0061.jpg"
+   }
+  },
+  {
+   "capture": "c3-ddyn-sob-dynamic-p870113",
+   "test": "ddyn-sob-dynamic",
+   "fixture": "ddyn-sob-dynamic",
+   "seed": 870113,
+   "start": {
+    "P": "s0 10/5 | s1 10/6",
+    "O": "s0 6/10 | s1 2/26",
+    "frame": "tl/f0048.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "empty",
+    "frame": "tl/f0067.jpg"
+   }
+  },
+  {
+   "capture": "c3-ddynctl-crab-higher-no-dodo-m1714808783",
+   "test": "ddynctl-crab-higher-no-dodo",
+   "fixture": "ddynctl-crab-higher-no-dodo",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/5 | s1 10/6",
+    "O": "s0 9/13 | s1 2/26",
+    "frame": "tl/f0041.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s1 2/26",
+    "frame": "tl/f0053.jpg"
+   }
+  },
+  {
+   "capture": "c3-ddynctl-crab-higher-no-dodo-p870113",
+   "test": "ddynctl-crab-higher-no-dodo",
+   "fixture": "ddynctl-crab-higher-no-dodo",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/5 | s1 10/6",
+    "O": "s0 9/13 | s1 2/26",
+    "frame": "tl/f0043.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s1 2/26",
+    "frame": "tl/f0057.jpg"
+   }
+  },
+  {
+   "capture": "c3-e0-wolv-self-m1714808783",
+   "test": "e0-wolv-self",
+   "fixture": "e0-wolv-self",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/18 | s1 2/18 | s2 3/19 | s3 6/20",
+    "O": "s0 1/-3 | s1 1/28",
+    "frame": null
+   },
+   "terminal": {
+    "P": "s0 5/13 | s1 2/18 | s2 3/19 | s3 6/20",
+    "O": "empty",
+    "frame": "tl/f0088.jpg"
+   }
+  },
+  {
+   "capture": "c3-e0-wolv-self-p870113",
+   "test": "e0-wolv-self",
+   "fixture": "e0-wolv-self",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/18 | s1 2/18 | s2 3/? | s3 6/20",
+    "O": "s0 1/-3 | s1 1/28",
+    "frame": null
+   },
+   "terminal": {
+    "P": "s0 5/13 | s1 2/18 | s2 3/19 | s3 6/20",
+    "O": "empty",
+    "frame": "tl/f0086.jpg"
+   }
+  },
+  {
+   "capture": "c3-e1-wolv-timing-m1714808783",
+   "test": "e1-wolv-timing",
+   "fixture": "e1-wolv-timing",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/20 | s1 3/21 | s2 4/22 | s3 2/24 | s4 6/23",
+    "O": "s0 1/1 | s1 1/2 | s2 1/7",
+    "frame": "tl/f0031.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/14 | s1 3/17 | s2 4/18 | s3 2/20 | s4 6/19",
+    "O": "empty",
+    "frame": "tl/f0067.jpg"
+   }
+  },
+  {
+   "capture": "c3-e1-wolv-timing-p870113",
+   "test": "e1-wolv-timing",
+   "fixture": "e1-wolv-timing",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/20 | s1 3/21 | s2 4/22 | s3 2/24 | s4 6/23",
+    "O": "s0 1/1 | s1 1/2 | s2 1/7",
+    "frame": "tl/f0040.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/14 | s1 3/17 | s2 4/18 | s3 2/20 | s4 6/19",
+    "O": "empty",
+    "frame": "tl/f0075.jpg"
+   }
+  },
+  {
+   "capture": "c3-e2-wolv-dead-m1714808783",
+   "test": "e2-wolv-dead",
+   "fixture": "e2-wolv-dead",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/20 | s1 3/21 | s2 4/22 | s3 2/24 | s4 6/4",
+    "O": "s0 1/1 | s1 1/2 | s2 1/7",
+    "frame": "tl/f0030.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/14 | s1 3/17 | s2 4/18 | s3 2/20",
+    "O": "empty",
+    "frame": "tl/f0069.jpg"
+   }
+  },
+  {
+   "capture": "c3-e2-wolv-dead-p870113",
+   "test": "e2-wolv-dead",
+   "fixture": "e2-wolv-dead",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/20 | s1 3/21 | s2 4/22 | s3 2/24 | s4 6/4",
+    "O": "s0 1/1 | s1 1/2 | s2 1/7",
+    "frame": "tl/f0032.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/14 | s1 3/17 | s2 4/18 | s3 2/20",
+    "O": "empty",
+    "frame": "tl/f0067.jpg"
+   }
+  },
+  {
+   "capture": "c3-e3-wolv-both-m1714808783",
+   "test": "e3-wolv-both",
+   "fixture": "e3-wolv-both",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 1/1 | s1 2/7 | s2 3/7 | s3 4/7 | s4 6/23",
+    "O": "s0 1/1 | s1 2/7 | s2 3/7 | s3 4/7 | s4 5/24",
+    "frame": "tl/f0031.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "empty",
+    "frame": "tl/f0125.jpg"
+   }
+  },
+  {
+   "capture": "c3-e3-wolv-both-p870113",
+   "test": "e3-wolv-both",
+   "fixture": "e3-wolv-both",
+   "seed": 870113,
+   "start": {
+    "P": "s0 1/1 | s1 2/7 | s2 3/7 | s3 4/7 | s4 6/23",
+    "O": "s0 1/1 | s1 2/7 | s2 3/7 | s3 4/7 | s4 5/24",
+    "frame": "tl/f0030.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "empty",
+    "frame": "tl/f0118.jpg"
+   }
+  },
+  {
+   "capture": "c3-e4-wolv-pair-m1714808783",
+   "test": "e4-wolv-pair",
+   "fixture": "e4-wolv-pair",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 1/1 | s1 2/20 | s2 3/21 | s3 6/23 | s4 5/24",
+    "O": "s0 1/1 | s1 1/20",
+    "frame": "tl/f0031.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/14 | s1 3/17 | s2 6/19 | s3 5/20",
+    "O": "empty",
+    "frame": "tl/f0069.jpg"
+   }
+  },
+  {
+   "capture": "c3-e4-wolv-pair-p870113",
+   "test": "e4-wolv-pair",
+   "fixture": "e4-wolv-pair",
+   "seed": 870113,
+   "start": {
+    "P": "s0 1/1 | s1 2/20 | s2 3/21 | s3 6/23 | s4 5/24",
+    "O": "s0 1/1 | s1 1/20",
+    "frame": "tl/f0036.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/14 | s1 3/17 | s2 6/19 | s3 5/20",
+    "O": "empty",
+    "frame": "tl/f0077.jpg"
+   }
+  },
+  {
+   "capture": "c3-e5-wolv-vs-rhino-m1714808783",
+   "test": "e5-wolv-vs-rhino",
+   "fixture": "e5-wolv-vs-rhino",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 6/20 | s1 2/20 | s2 3/21 | s3 4/22 | s4 6/23",
+    "O": "s0 1/1 | s1 1/7 | s2 2/30",
+    "frame": "tl/f0036.jpg"
+   },
+   "terminal": {
+    "P": "s0 6/11 | s1 2/18 | s2 3/19 | s3 4/20 | s4 6/21",
+    "O": "empty",
+    "frame": "tl/f0077.jpg"
+   }
+  },
+  {
+   "capture": "c3-e5-wolv-vs-rhino-p870113",
+   "test": "e5-wolv-vs-rhino",
+   "fixture": "e5-wolv-vs-rhino",
+   "seed": 870113,
+   "start": {
+    "P": "s0 6/20 | s1 2/20 | s2 3/21 | s3 4/22 | s4 6/23",
+    "O": "s0 1/1 | s1 1/7 | s2 2/30",
+    "frame": "tl/f0048.jpg"
+   },
+   "terminal": {
+    "P": "s0 6/11 | s1 2/18 | s2 3/19 | s3 4/20 | s4 6/21",
+    "O": "empty",
+    "frame": null
+   }
+  },
+  {
+   "capture": "c3-e5b-wolv-vs-rhino-tier2-m1714808783",
+   "test": "e5b-wolv-vs-rhino-tier2",
+   "fixture": "e5b-wolv-vs-rhino-tier2",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 6/20 | s1 2/20 | s2 3/21 | s3 4/22 | s4 6/23",
+    "O": "s0 1/1 | s1 1/7 | s2 2/30",
+    "frame": "tl/f0034.jpg"
+   },
+   "terminal": {
+    "P": "s0 6/10 | s1 2/18 | s2 3/19 | s3 4/20 | s4 6/21",
+    "O": "empty",
+    "frame": null
+   }
+  },
+  {
+   "capture": "c3-e5b-wolv-vs-rhino-tier2-p870113",
+   "test": "e5b-wolv-vs-rhino-tier2",
+   "fixture": "e5b-wolv-vs-rhino-tier2",
+   "seed": 870113,
+   "start": {
+    "P": "s0 6/20 | s1 2/20 | s2 3/21 | s3 4/22 | s4 6/23",
+    "O": "s0 1/1 | s1 1/7 | s2 2/30",
+    "frame": "tl/f0051.jpg"
+   },
+   "terminal": {
+    "P": "s0 6/10 | s1 2/18 | s2 3/19 | s3 4/20 | s4 6/21",
+    "O": "empty",
+    "frame": "tl/f0103.jpg"
+   }
+  },
+  {
+   "capture": "c3-em1-empty-opponent-p870113",
+   "test": "em1-empty-opponent",
+   "fixture": "em1-empty-opponent",
+   "seed": 870113,
+   "start": null,
+   "terminal": {
+    "P": "s0 3/10 | s1 2/8 | s2 6/5",
+    "O": "empty",
+    "frame": "tl/f0043.jpg"
+   }
+  },
+  {
+   "capture": "c3-f10-snake-tiger-dead-front-m1714808783",
+   "test": "f10-snake-tiger-dead-front",
+   "fixture": "f10-snake-tiger-dead-front",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 9/50 | s1 8/3 | s2 6/4",
+    "O": "s0 1/1 | s1 1/30 | s2 2/31",
+    "frame": "tl/f0034.jpg"
+   },
+   "terminal": {
+    "P": "s0 9/41 | s1 8/3 | s2 6/4",
+    "O": "empty",
+    "frame": "tl/f0076.jpg"
+   }
+  },
+  {
+   "capture": "c3-f10-snake-tiger-dead-front-m402918337",
+   "test": "f10-snake-tiger-dead-front",
+   "fixture": "f10-snake-tiger-dead-front",
+   "seed": -402918337,
+   "start": {
+    "P": "s0 9/50 | s1 8/3 | s2 6/4",
+    "O": "s0 1/1 | s1 1/30 | s2 2/31",
+    "frame": "tl/f0034.jpg"
+   },
+   "terminal": {
+    "P": "s0 ?/41 | s1 8/3 | s2 6/4",
+    "O": "empty",
+    "frame": "tl/f0075.jpg"
+   }
+  },
+  {
+   "capture": "c3-f10-snake-tiger-dead-front-p1203948571",
+   "test": "f10-snake-tiger-dead-front",
+   "fixture": "f10-snake-tiger-dead-front",
+   "seed": 1203948571,
+   "start": {
+    "P": "s0 9/50 | s1 8/3 | s2 6/4",
+    "O": "s0 1/1 | s1 1/30 | s2 2/31",
+    "frame": "tl/f0039.jpg"
+   },
+   "terminal": {
+    "P": "s0 9/42 | s1 8/3 | s2 6/4",
+    "O": "empty",
+    "frame": "tl/f0082.jpg"
+   }
+  },
+  {
+   "capture": "c3-f10-snake-tiger-dead-front-p870113",
+   "test": "f10-snake-tiger-dead-front",
+   "fixture": "f10-snake-tiger-dead-front",
+   "seed": 870113,
+   "start": {
+    "P": "s0 9/50 | s1 8/3 | s2 6/4",
+    "O": "s0 1/1 | s1 1/30 | s2 2/31",
+    "frame": "tl/f0035.jpg"
+   },
+   "terminal": {
+    "P": "s0 9/41 | s1 8/3 | s2 6/4",
+    "O": "empty",
+    "frame": "tl/f0075.jpg"
+   }
+  },
+  {
+   "capture": "c3-f11-hippo-tiger-limit-m1714808783",
+   "test": "f11-hippo-tiger-limit",
+   "fixture": "f11-hippo-tiger-limit",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 10/50 | s1 6/4",
+    "O": "s0 1/1 | s1 1/2 | s2 1/3 | s3 1/4 | s4 1/5",
+    "frame": "tl/f0038.jpg"
+   },
+   "terminal": {
+    "P": "s0 ?/47 | s1 6/4",
+    "O": "empty",
+    "frame": "tl/f0079.jpg"
+   }
+  },
+  {
+   "capture": "c3-f11-hippo-tiger-limit-p870113",
+   "test": "f11-hippo-tiger-limit",
+   "fixture": "f11-hippo-tiger-limit",
+   "seed": 870113,
+   "start": {
+    "P": "s0 10/50 | s1 6/4",
+    "O": "s0 1/1 | s1 1/2 | s2 1/3 | s3 1/4 | s4 1/5",
+    "frame": "tl/f0036.jpg"
+   },
+   "terminal": {
+    "P": "s0 19/47 | s1 6/4",
+    "O": "empty",
+    "frame": "tl/f0082.jpg"
+   }
+  },
+  {
+   "capture": "c3-f11c-hippo-alone-control-p870113",
+   "test": "f11c-hippo-alone-control",
+   "fixture": "f11c-hippo-alone-control",
+   "seed": 870113,
+   "start": {
+    "P": "s0 10/50 | s1 6/4",
+    "O": "s0 1/1 | s1 1/2 | s2 1/3 | s3 1/4 | s4 1/5",
+    "frame": "tl/f0042.jpg"
+   },
+   "terminal": {
+    "P": "s0 19/48 | s1 6/4",
+    "O": "empty",
+    "frame": "tl/f0089.jpg"
+   }
+  },
+  {
+   "capture": "c3-f13-tiger-killed-by-original-m1714808783",
+   "test": "f13-tiger-killed-by-original",
+   "fixture": "f13-tiger-killed-by-original",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 9/1 | s1 4/2 | s2 2/20",
+    "O": "s0 3/1 | s1 1/30",
+    "frame": "tl/f0036.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/3",
+    "O": "empty",
+    "frame": "tl/f0098.jpg"
+   }
+  },
+  {
+   "capture": "c3-f13-tiger-killed-by-original-p870113",
+   "test": "f13-tiger-killed-by-original",
+   "fixture": "f13-tiger-killed-by-original",
+   "seed": 870113,
+   "start": {
+    "P": "s0 9/1 | s1 4/2 | s2 2/20",
+    "O": "s0 3/1 | s1 1/30",
+    "frame": "tl/f0037.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/3",
+    "O": "empty",
+    "frame": "tl/f0096.jpg"
+   }
+  },
+  {
+   "capture": "c3-f14-hedgehog-tiger-die-together-m1714808783",
+   "test": "f14-hedgehog-tiger-die-together",
+   "fixture": "f14-hedgehog-tiger-die-together",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 3/20 | s1 2/2 | s2 4/2 | s3 2/21",
+    "O": "s0 1/1 | s1 1/30",
+    "frame": "tl/f0037.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/5 | s1 2/15",
+    "O": "empty",
+    "frame": "tl/f0086.jpg"
+   }
+  },
+  {
+   "capture": "c3-f14-hedgehog-tiger-die-together-p870113",
+   "test": "f14-hedgehog-tiger-die-together",
+   "fixture": "f14-hedgehog-tiger-die-together",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/20 | s1 2/2 | s2 4/2 | s3 2/21",
+    "O": "s0 1/1 | s1 1/30",
+    "frame": "tl/f0035.jpg"
+   },
+   "terminal": {
+    "P": "s0 3/5 | s1 2/15",
+    "O": "empty",
+    "frame": "tl/f0086.jpg"
+   }
+  },
+  {
+   "capture": "c3-f1a-tiger-sob-low-m1714808783",
+   "test": "f1a-tiger-sob-low",
+   "fixture": "f1a-tiger-sob-low",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 9/5 | s1 4/6",
+    "O": "s0 3/13 | s1 5/5",
+    "frame": "tl/f0048.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "empty",
+    "frame": "tl/f0068.jpg"
+   }
+  },
+  {
+   "capture": "c3-f1a-tiger-sob-low-p870113",
+   "test": "f1a-tiger-sob-low",
+   "fixture": "f1a-tiger-sob-low",
+   "seed": 870113,
+   "start": {
+    "P": "s0 9/5 | s1 4/6",
+    "O": "s0 3/13 | s1 5/5",
+    "frame": "tl/f0040.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "empty",
+    "frame": "tl/f0062.jpg"
+   }
+  },
+  {
+   "capture": "c3-f1b-tiger-sob-mid-m1714808783",
+   "test": "f1b-tiger-sob-mid",
+   "fixture": "f1b-tiger-sob-mid",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 9/5 | s1 7/6",
+    "O": "s0 3/20 | s1 5/5",
+    "frame": "tl/f0048.jpg"
+   },
+   "terminal": {
+    "P": "s0 7/1",
+    "O": "empty",
+    "frame": "tl/f0065.jpg"
+   }
+  },
+  {
+   "capture": "c3-f1b-tiger-sob-mid-p870113",
+   "test": "f1b-tiger-sob-mid",
+   "fixture": "f1b-tiger-sob-mid",
+   "seed": 870113,
+   "start": {
+    "P": "s0 9/5 | s1 7/6",
+    "O": "s0 3/13 | s1 5/5",
+    "frame": "tl/f0045.jpg"
+   },
+   "terminal": {
+    "P": "s0 7/1",
+    "O": "empty",
+    "frame": "tl/f0065.jpg"
+   }
+  },
+  {
+   "capture": "c3-f1c-notiger-control-m1714808783",
+   "test": "f1c-notiger-control",
+   "fixture": "f1c-notiger-control",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 9/5 | s1 4/6",
+    "O": "s0 3/20 | s1 5/6",
+    "frame": null
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 5/2",
+    "frame": "tl/f0072.jpg"
+   }
+  },
+  {
+   "capture": "c3-f1c-notiger-control-p870113",
+   "test": "f1c-notiger-control",
+   "fixture": "f1c-notiger-control",
+   "seed": 870113,
+   "start": {
+    "P": "s0 9/5 | s1 4/6",
+    "O": "s0 3/20 | s1 5/6",
+    "frame": "tl/f0046.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 5/2",
+    "frame": "tl/f0069.jpg"
+   }
+  },
+  {
+   "capture": "c3-f2-tiger-faint-m1714808783",
+   "test": "f2-tiger-faint",
+   "fixture": "f2-tiger-faint",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 9/1 | s1 4/20",
+    "O": "s0 3/1 | s1 1/4",
+    "frame": "tl/f0041.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/18",
+    "O": "empty",
+    "frame": "tl/f0055.jpg"
+   }
+  },
+  {
+   "capture": "c3-f2-tiger-faint-p870113",
+   "test": "f2-tiger-faint",
+   "fixture": "f2-tiger-faint",
+   "seed": 870113,
+   "start": {
+    "P": "s0 9/1 | s1 4/20",
+    "O": "s0 3/1 | s1 1/4",
+    "frame": "tl/f0040.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/18",
+    "O": "empty",
+    "frame": "tl/f0062.jpg"
+   }
+  },
+  {
+   "capture": "c3-f2r-tiger-faint-rev-m1714808783",
+   "test": "f2r-tiger-faint-rev",
+   "fixture": "f2r-tiger-faint-rev",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 2/1 | s1 4/20",
+    "O": "s0 9/1 | s1 1/4",
+    "frame": "tl/f0040.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/13",
+    "O": "empty",
+    "frame": "tl/f0068.jpg"
+   }
+  },
+  {
+   "capture": "c3-f2r-tiger-faint-rev-p870113",
+   "test": "f2r-tiger-faint-rev",
+   "fixture": "f2r-tiger-faint-rev",
+   "seed": 870113,
+   "start": {
+    "P": "s0 2/1 | s1 4/20",
+    "O": "s0 9/1 | s1 1/4",
+    "frame": "tl/f0041.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/13",
+    "O": "empty",
+    "frame": "tl/f0066.jpg"
+   }
+  },
+  {
+   "capture": "c3-f2x-tiger-faint-continues-m1714808783",
+   "test": "f2x-tiger-faint-continues",
+   "fixture": "f2x-tiger-faint-continues",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 9/1 | s1 4/20",
+    "O": "s0 3/1 | s1 1/4 | s2 2/40",
+    "frame": "tl/f0036.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 4/22",
+    "frame": "tl/f0069.jpg"
+   }
+  },
+  {
+   "capture": "c3-f2x-tiger-faint-continues-p870113",
+   "test": "f2x-tiger-faint-continues",
+   "fixture": "f2x-tiger-faint-continues",
+   "seed": 870113,
+   "start": {
+    "P": "s0 9/1 | s1 4/20",
+    "O": "s0 3/1 | s1 1/4 | s2 2/40",
+    "frame": "tl/f0032.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 4/22",
+    "frame": "tl/f0064.jpg"
+   }
+  },
+  {
+   "capture": "c3-f7-tiger-dies-too-m1714808783",
+   "test": "f7-tiger-dies-too",
+   "fixture": "f7-tiger-dies-too",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 1/2 | s1 4/2 | s2 2/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0038.jpg"
+   },
+   "terminal": {
+    "P": "s0 1/1 | s2 2/18",
+    "O": "empty",
+    "frame": "tl/f0057.jpg"
+   }
+  },
+  {
+   "capture": "c3-f7-tiger-dies-too-p870113",
+   "test": "f7-tiger-dies-too",
+   "fixture": "f7-tiger-dies-too",
+   "seed": 870113,
+   "start": {
+    "P": "s0 1/2 | s1 4/2 | s2 2/20",
+    "O": "s0 1/1",
+    "frame": "tl/f0039.jpg"
+   },
+   "terminal": {
+    "P": "s0 1/1 | s2 2/18",
+    "O": "empty",
+    "frame": "tl/f0062.jpg"
+   }
+  },
+  {
+   "capture": "c3-f7c-tiger-survives-control-m1714808783",
+   "test": "f7c-tiger-survives-control",
+   "fixture": "f7c-tiger-survives-control",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 1/2 | s1 4/9 | s2 2/20",
+    "O": "s0 1/1 | s1 1/30",
+    "frame": "tl/f0036.jpg"
+   },
+   "terminal": {
+    "P": "s1 2/18",
+    "O": "empty",
+    "frame": "tl/f0090.jpg"
+   }
+  },
+  {
+   "capture": "c3-f7c-tiger-survives-control-p870113",
+   "test": "f7c-tiger-survives-control",
+   "fixture": "f7c-tiger-survives-control",
+   "seed": 870113,
+   "start": {
+    "P": "s0 1/2 | s1 4/? | s2 2/20",
+    "O": "s0 1/1 | s1 1/30",
+    "frame": null
+   },
+   "terminal": {
+    "P": "s1 2/18",
+    "O": "empty",
+    "frame": "tl/f0091.jpg"
+   }
+  },
+  {
+   "capture": "c3-f7x-tiger-dies-too-continues-m1714808783",
+   "test": "f7x-tiger-dies-too-continues",
+   "fixture": "f7x-tiger-dies-too-continues",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 1/2 | s1 4/2 | s2 2/20",
+    "O": "s0 1/1 | s1 1/30",
+    "frame": "tl/f0035.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/4",
+    "O": "empty",
+    "frame": "tl/f0108.jpg"
+   }
+  },
+  {
+   "capture": "c3-f7x-tiger-dies-too-continues-m2000000011",
+   "test": "f7x-tiger-dies-too-continues",
+   "fixture": "f7x-tiger-dies-too-continues",
+   "seed": -2000000011,
+   "start": {
+    "P": "s0 1/2 | s1 4/2 | s2 2/20",
+    "O": "s0 1/1 | s1 1/30",
+    "frame": "tl/f0037.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/4",
+    "O": "empty",
+    "frame": "tl/f0107.jpg"
+   }
+  },
+  {
+   "capture": "c3-f7x-tiger-dies-too-continues-m402918337",
+   "test": "f7x-tiger-dies-too-continues",
+   "fixture": "f7x-tiger-dies-too-continues",
+   "seed": -402918337,
+   "start": {
+    "P": "s0 1/2 | s1 4/2 | s2 2/20",
+    "O": "s0 1/1 | s1 1/30",
+    "frame": "tl/f0037.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/4",
+    "O": "empty",
+    "frame": "tl/f0110.jpg"
+   }
+  },
+  {
+   "capture": "c3-f7x-tiger-dies-too-continues-m987654321",
+   "test": "f7x-tiger-dies-too-continues",
+   "fixture": "f7x-tiger-dies-too-continues",
+   "seed": -987654321,
+   "start": {
+    "P": "s0 1/2 | s1 4/2 | s2 2/20",
+    "O": "s0 1/1 | s1 1/30",
+    "frame": "tl/f0037.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/4",
+    "O": "empty",
+    "frame": "tl/f0107.jpg"
+   }
+  },
+  {
+   "capture": "c3-f7x-tiger-dies-too-continues-p1203948571",
+   "test": "f7x-tiger-dies-too-continues",
+   "fixture": "f7x-tiger-dies-too-continues",
+   "seed": 1203948571,
+   "start": {
+    "P": "s0 1/2 | s1 4/2 | s2 2/20",
+    "O": "s0 1/1 | s1 1/30",
+    "frame": "tl/f0035.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/4",
+    "O": "empty",
+    "frame": "tl/f0104.jpg"
+   }
+  },
+  {
+   "capture": "c3-f7x-tiger-dies-too-continues-p1999999937",
+   "test": "f7x-tiger-dies-too-continues",
+   "fixture": "f7x-tiger-dies-too-continues",
+   "seed": 1999999937,
+   "start": {
+    "P": "s0 1/2 | s1 4/2 | s2 2/20",
+    "O": "s0 1/1 | s1 1/30",
+    "frame": "tl/f0035.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/4",
+    "O": "empty",
+    "frame": "tl/f0107.jpg"
+   }
+  },
+  {
+   "capture": "c3-f7x-tiger-dies-too-continues-p55555",
+   "test": "f7x-tiger-dies-too-continues",
+   "fixture": "f7x-tiger-dies-too-continues",
+   "seed": 55555,
+   "start": {
+    "P": "s0 1/2 | s1 4/2 | s2 2/20",
+    "O": "s0 1/1 | s1 1/30",
+    "frame": "tl/f0036.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/4",
+    "O": "empty",
+    "frame": "tl/f0109.jpg"
+   }
+  },
+  {
+   "capture": "c3-f7x-tiger-dies-too-continues-p870113",
+   "test": "f7x-tiger-dies-too-continues",
+   "fixture": "f7x-tiger-dies-too-continues",
+   "seed": 870113,
+   "start": {
+    "P": "s0 1/2 | s1 4/2 | s2 2/20",
+    "O": "s0 1/1 | s1 1/30",
+    "frame": "tl/f0038.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/4",
+    "O": "empty",
+    "frame": "tl/f0111.jpg"
+   }
+  },
+  {
+   "capture": "c3-f9-snake-tiger-shots-m1714808783",
+   "test": "f9-snake-tiger-shots",
+   "fixture": "f9-snake-tiger-shots",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 1/50 | s1 8/3 | s2 6/4",
+    "O": "s0 1/50 | s1 2/4",
+    "frame": "tl/f0036.jpg"
+   },
+   "terminal": {
+    "P": "s0 1/20 | s1 8/3 | s2 6/4",
+    "O": "empty",
+    "frame": "tl/f0148.jpg"
+   }
+  },
+  {
+   "capture": "c3-f9-snake-tiger-shots-m2000000011",
+   "test": "f9-snake-tiger-shots",
+   "fixture": "f9-snake-tiger-shots",
+   "seed": -2000000011,
+   "start": {
+    "P": "s0 1/50 | s1 8/3 | s2 6/4",
+    "O": "s0 1/50 | s1 2/4",
+    "frame": "tl/f0038.jpg"
+   },
+   "terminal": {
+    "P": "s0 1/20 | s1 8/3 | s2 6/4",
+    "O": "empty",
+    "frame": "tl/f0148.jpg"
+   }
+  },
+  {
+   "capture": "c3-f9-snake-tiger-shots-m271828182",
+   "test": "f9-snake-tiger-shots",
+   "fixture": "f9-snake-tiger-shots",
+   "seed": -271828182,
+   "start": {
+    "P": "s0 1/50 | s1 8/3 | s2 6/4",
+    "O": "s0 1/50 | s1 2/4",
+    "frame": "tl/f0039.jpg"
+   },
+   "terminal": {
+    "P": "s0 1/20 | s1 8/3 | s2 6/4",
+    "O": "empty",
+    "frame": "tl/f0154.jpg"
+   }
+  },
+  {
+   "capture": "c3-f9-snake-tiger-shots-m402918337",
+   "test": "f9-snake-tiger-shots",
+   "fixture": "f9-snake-tiger-shots",
+   "seed": -402918337,
+   "start": {
+    "P": "s0 1/50 | s1 8/3 | s2 6/4",
+    "O": "s0 1/50 | s1 2/4",
+    "frame": "tl/f0034.jpg"
+   },
+   "terminal": {
+    "P": "s0 1/20 | s1 8/3 | s2 6/4",
+    "O": "empty",
+    "frame": "tl/f0146.jpg"
+   }
+  },
+  {
+   "capture": "c3-f9-snake-tiger-shots-m987654321",
+   "test": "f9-snake-tiger-shots",
+   "fixture": "f9-snake-tiger-shots",
+   "seed": -987654321,
+   "start": {
+    "P": "s0 1/50 | s1 8/3 | s2 6/4",
+    "O": "s0 1/50 | s1 2/4",
+    "frame": "tl/f0039.jpg"
+   },
+   "terminal": {
+    "P": "s0 1/20 | s1 8/3 | s2 6/4",
+    "O": "empty",
+    "frame": "tl/f0154.jpg"
+   }
+  },
+  {
+   "capture": "c3-f9-snake-tiger-shots-p1203948571",
+   "test": "f9-snake-tiger-shots",
+   "fixture": "f9-snake-tiger-shots",
+   "seed": 1203948571,
+   "start": {
+    "P": "s0 1/50 | s1 8/3 | s2 6/4",
+    "O": "s0 1/50 | s1 2/4",
+    "frame": "tl/f0035.jpg"
+   },
+   "terminal": {
+    "P": "s0 1/20 | s1 8/3 | s2 6/4",
+    "O": "empty",
+    "frame": "tl/f0146.jpg"
+   }
+  },
+  {
+   "capture": "c3-f9-snake-tiger-shots-p1999999937",
+   "test": "f9-snake-tiger-shots",
+   "fixture": "f9-snake-tiger-shots",
+   "seed": 1999999937,
+   "start": {
+    "P": "s0 1/50 | s1 8/3 | s2 6/4",
+    "O": "s0 1/50 | s1 2/4",
+    "frame": "tl/f0037.jpg"
+   },
+   "terminal": {
+    "P": "s0 1/20 | s1 8/3 | s2 6/4",
+    "O": "empty",
+    "frame": "tl/f0148.jpg"
+   }
+  },
+  {
+   "capture": "c3-f9-snake-tiger-shots-p314159265",
+   "test": "f9-snake-tiger-shots",
+   "fixture": "f9-snake-tiger-shots",
+   "seed": 314159265,
+   "start": {
+    "P": "s0 1/50 | s1 8/3 | s2 6/4",
+    "O": "s0 1/50 | s1 2/4",
+    "frame": "tl/f0036.jpg"
+   },
+   "terminal": {
+    "P": "s0 1/20 | s1 8/3 | s2 6/4",
+    "O": "empty",
+    "frame": "tl/f0151.jpg"
+   }
+  },
+  {
+   "capture": "c3-f9-snake-tiger-shots-p55555",
+   "test": "f9-snake-tiger-shots",
+   "fixture": "f9-snake-tiger-shots",
+   "seed": 55555,
+   "start": {
+    "P": "s0 1/50 | s1 8/3 | s2 6/4",
+    "O": "s0 1/50 | s1 2/4",
+    "frame": "tl/f0034.jpg"
+   },
+   "terminal": {
+    "P": "s0 1/20 | s1 8/3 | s2 6/4",
+    "O": "empty",
+    "frame": "tl/f0144.jpg"
+   }
+  },
+  {
+   "capture": "c3-f9-snake-tiger-shots-p870113",
+   "test": "f9-snake-tiger-shots",
+   "fixture": "f9-snake-tiger-shots",
+   "seed": 870113,
+   "start": {
+    "P": "s0 1/50 | s1 8/3 | s2 6/4",
+    "O": "s0 1/50 | s1 2/4",
+    "frame": "tl/f0033.jpg"
+   },
+   "terminal": {
+    "P": "s0 1/20 | s1 8/3 | s2 6/4",
+    "O": "empty",
+    "frame": "tl/f0153.jpg"
+   }
+  },
+  {
+   "capture": "c3-g1-rabbit-turtle2-m1714808783",
+   "test": "g1-rabbit-turtle2",
+   "fixture": "g1-rabbit-turtle2",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 2/1 | s1 3/10 | s2 4/12 | s3 1/20",
+    "O": "s0 5/30",
+    "frame": "tl/f0035.jpg"
+   },
+   "terminal": {
+    "P": "s1 1/20",
+    "O": "empty",
+    "frame": "tl/f0082.jpg"
+   }
+  },
+  {
+   "capture": "c3-g1-rabbit-turtle2-p870113",
+   "test": "g1-rabbit-turtle2",
+   "fixture": "g1-rabbit-turtle2",
+   "seed": 870113,
+   "start": {
+    "P": "s0 2/1 | s1 3/10 | s2 4/12 | s3 1/20",
+    "O": "s0 5/30",
+    "frame": "tl/f0036.jpg"
+   },
+   "terminal": {
+    "P": "s1 1/20",
+    "O": "empty",
+    "frame": "tl/f0082.jpg"
+   }
+  },
+  {
+   "capture": "c3-g2-seal-turtle-p870113",
+   "test": "g2-seal-turtle",
+   "fixture": "g2-seal-turtle",
+   "seed": 870113,
+   "start": {
+    "P": "s0 2/1 | s1 3/8 | s2 1/10 | s3 2/11 | s4 3/12",
+    "O": "s0 5/30",
+    "frame": "tl/f0035.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/2",
+    "O": "empty",
+    "frame": "tl/f0092.jpg"
+   }
+  },
+  {
+   "capture": "c3-h1-deer-gap-behind-m1714808783",
+   "test": "h1-deer-gap-behind",
+   "fixture": "h1-deer-gap-behind",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/19 | s1 1/1 | s2 5/3 | s3 4/18",
+    "O": "s0 1/30 | s1 2/25",
+    "frame": "tl/f0048.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/3 | s1 1/1 | s2 5/3 | s3 4/18",
+    "O": "empty",
+    "frame": "tl/f0092.jpg"
+   }
+  },
+  {
+   "capture": "c3-h1-deer-gap-behind-p870113",
+   "test": "h1-deer-gap-behind",
+   "fixture": "h1-deer-gap-behind",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/19 | s1 1/1 | s2 5/3 | s3 4/18",
+    "O": "s0 1/30 | s1 2/25",
+    "frame": "tl/f0049.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/3 | s1 1/1 | s2 5/3 | s3 4/18",
+    "O": "empty",
+    "frame": "tl/f0092.jpg"
+   }
+  },
+  {
+   "capture": "c3-h10-fly1-swallow-vs-snipe-m1714808783",
+   "test": "h10-fly1-swallow-vs-snipe",
+   "fixture": "h10-fly1-swallow-vs-snipe",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 13/12 | s1 12/14 | s2 15/13 | s3 4/4",
+    "O": "s0 1/40 | s1 8/4",
+    "frame": "tl/f0054.jpg"
+   },
+   "terminal": {
+    "P": "s1 12/14 | s2 15/13 | s3 4/4",
+    "O": "empty",
+    "frame": "tl/f0079.jpg"
+   }
+  },
+  {
+   "capture": "c3-h10-fly1-swallow-vs-snipe-p870113",
+   "test": "h10-fly1-swallow-vs-snipe",
+   "fixture": "h10-fly1-swallow-vs-snipe",
+   "seed": 870113,
+   "start": {
+    "P": "s0 13/12 | s1 4/4 | s2 12/14 | s3 15/13",
+    "O": "s0 1/40 | s1 8/4",
+    "frame": "tl/f0047.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/4 | s2 12/14 | s3 15/13",
+    "O": "empty",
+    "frame": "tl/f0072.jpg"
+   }
+  },
+  {
+   "capture": "c3-h10r-fly1-swallow-vs-snipe-croc-first-m1714808783",
+   "test": "h10r-fly1-swallow-vs-snipe-croc-first",
+   "fixture": "h10r-fly1-swallow-vs-snipe-croc-first",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 13/12 | s1 4/4 | s2 6/14 | s3 15/13",
+    "O": "s0 1/40 | s1 8/4",
+    "frame": "tl/f0054.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/4 | s2 6/14 | s3 15/13",
+    "O": "empty",
+    "frame": "tl/f0080.jpg"
+   }
+  },
+  {
+   "capture": "c3-h10r-fly1-swallow-vs-snipe-croc-first-p870113",
+   "test": "h10r-fly1-swallow-vs-snipe-croc-first",
+   "fixture": "h10r-fly1-swallow-vs-snipe-croc-first",
+   "seed": 870113,
+   "start": {
+    "P": "s0 13/12 | s1 4/4 | s2 6/14 | s3 15/13",
+    "O": "s0 1/40 | s1 8/4",
+    "frame": "tl/f0050.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/4 | s2 6/14 | s3 15/13",
+    "O": "empty",
+    "frame": "tl/f0072.jpg"
+   }
+  },
+  {
+   "capture": "c3-h11-deer-gap-ahead-and-behind-m1714808783",
+   "test": "h11-deer-gap-ahead-and-behind",
+   "fixture": "h11-deer-gap-ahead-and-behind",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/19 | s1 5/3 | s2 1/1 | s3 4/18",
+    "O": "s0 1/30 | s1 2/25",
+    "frame": "tl/f0052.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/3 | s1 5/3 | s2 1/1 | s3 4/18",
+    "O": "empty",
+    "frame": "tl/f0093.jpg"
+   }
+  },
+  {
+   "capture": "c3-h11-deer-gap-ahead-and-behind-p870113",
+   "test": "h11-deer-gap-ahead-and-behind",
+   "fixture": "h11-deer-gap-ahead-and-behind",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/19 | s1 5/3 | s2 1/1 | s3 4/18",
+    "O": "s0 1/30 | s1 2/25",
+    "frame": "tl/f0062.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/3 | s1 5/3 | s2 1/1 | s3 4/18",
+    "O": "empty",
+    "frame": "tl/f0103.jpg"
+   }
+  },
+  {
+   "capture": "c3-h2-deer-no-gap-m1714808783",
+   "test": "h2-deer-no-gap",
+   "fixture": "h2-deer-no-gap",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/19 | s1 1/1 | s2 5/3 | s3 4/18",
+    "O": "s0 1/30 | s1 2/25",
+    "frame": "tl/f0053.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/3 | s1 1/1 | s2 5/3 | s3 4/18",
+    "O": "empty",
+    "frame": "tl/f0099.jpg"
+   }
+  },
+  {
+   "capture": "c3-h2-deer-no-gap-p870113",
+   "test": "h2-deer-no-gap",
+   "fixture": "h2-deer-no-gap",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/19 | s1 1/1 | s2 5/3 | s3 4/18",
+    "O": "s0 1/30 | s1 2/25",
+    "frame": "tl/f0049.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/3 | s1 1/1 | s2 5/3 | s3 4/18",
+    "O": "empty",
+    "frame": "tl/f0092.jpg"
+   }
+  },
+  {
+   "capture": "c3-h3-fly-gap-p870113",
+   "test": "h3-fly-gap",
+   "fixture": "h3-fly-gap",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/19 | s1 4/4 | s2 4/20",
+    "O": "s0 1/30 | s1 2/25",
+    "frame": "tl/f0047.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/3 | s1 4/4 | s2 4/20",
+    "O": "empty",
+    "frame": "tl/f0089.jpg"
+   }
+  },
+  {
+   "capture": "c3-h4-sheep-mid-p870113",
+   "test": "h4-sheep-mid",
+   "fixture": "h4-sheep-mid",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/19 | s1 2/2 | s2 2/2 | s3 4/18",
+    "O": "s0 1/30 | s1 2/25",
+    "frame": "tl/f0045.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/3 | s1 2/2 | s2 2/2 | s3 4/18",
+    "O": "empty",
+    "frame": "tl/f0086.jpg"
+   }
+  },
+  {
+   "capture": "c3-h5-sheep-gap-ahead-p870113",
+   "test": "h5-sheep-gap-ahead",
+   "fixture": "h5-sheep-gap-ahead",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/19 | s1 2/2 | s2 2/2 | s3 4/18",
+    "O": "s0 1/30 | s1 2/25",
+    "frame": "tl/f0048.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/3 | s1 2/2 | s2 2/2 | s3 4/18",
+    "O": "empty",
+    "frame": "tl/f0095.jpg"
+   }
+  },
+  {
+   "capture": "c3-h6-fly-two-deaths-sob-m1714808783",
+   "test": "h6-fly-two-deaths-sob",
+   "fixture": "h6-fly-two-deaths-sob",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "s0 1/40 | s1 8/4",
+    "frame": "tl/f0052.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "empty",
+    "frame": "tl/f0081.jpg"
+   }
+  },
+  {
+   "capture": "c3-h6-fly-two-deaths-sob-m2000000011",
+   "test": "h6-fly-two-deaths-sob",
+   "fixture": "h6-fly-two-deaths-sob",
+   "seed": -2000000011,
+   "start": {
+    "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "s0 1/40 | s1 8/4",
+    "frame": "tl/f0054.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "empty",
+    "frame": "tl/f0080.jpg"
+   }
+  },
+  {
+   "capture": "c3-h6-fly-two-deaths-sob-m402918337",
+   "test": "h6-fly-two-deaths-sob",
+   "fixture": "h6-fly-two-deaths-sob",
+   "seed": -402918337,
+   "start": {
+    "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "s0 1/40 | s1 8/4",
+    "frame": "tl/f0054.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "empty",
+    "frame": "tl/f0083.jpg"
+   }
+  },
+  {
+   "capture": "c3-h6-fly-two-deaths-sob-m987654321",
+   "test": "h6-fly-two-deaths-sob",
+   "fixture": "h6-fly-two-deaths-sob",
+   "seed": -987654321,
+   "start": {
+    "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "s0 1/40 | s1 8/4",
+    "frame": "tl/f0055.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "empty",
+    "frame": "tl/f0081.jpg"
+   }
+  },
+  {
+   "capture": "c3-h6-fly-two-deaths-sob-p1203948571",
+   "test": "h6-fly-two-deaths-sob",
+   "fixture": "h6-fly-two-deaths-sob",
+   "seed": 1203948571,
+   "start": {
+    "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "s0 1/40 | s1 8/4",
+    "frame": "tl/f0053.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "empty",
+    "frame": "tl/f0080.jpg"
+   }
+  },
+  {
+   "capture": "c3-h6-fly-two-deaths-sob-p1999999937",
+   "test": "h6-fly-two-deaths-sob",
+   "fixture": "h6-fly-two-deaths-sob",
+   "seed": 1999999937,
+   "start": {
+    "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "s0 1/40 | s1 8/4",
+    "frame": "tl/f0058.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "empty",
+    "frame": "tl/f0088.jpg"
+   }
+  },
+  {
+   "capture": "c3-h6-fly-two-deaths-sob-p55555",
+   "test": "h6-fly-two-deaths-sob",
+   "fixture": "h6-fly-two-deaths-sob",
+   "seed": 55555,
+   "start": {
+    "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "s0 1/40 | s1 8/4",
+    "frame": "tl/f0054.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "empty",
+    "frame": "tl/f0081.jpg"
+   }
+  },
+  {
+   "capture": "c3-h6-fly-two-deaths-sob-p870113",
+   "test": "h6-fly-two-deaths-sob",
+   "fixture": "h6-fly-two-deaths-sob",
+   "seed": 870113,
+   "start": {
+    "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "s0 1/40 | s1 8/4",
+    "frame": "tl/f0052.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "empty",
+    "frame": "tl/f0078.jpg"
+   }
+  },
+  {
+   "capture": "c3-h7-fly-two-snipes-dolphin-first-m1714808783",
+   "test": "h7-fly-two-snipes-dolphin-first",
+   "fixture": "h7-fly-two-snipes-dolphin-first",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 13/12 | s1 4/4 | s2 5/3 | s3 12/14 | s4 15/13",
+    "O": "s0 1/40 | s1 9/5 | s2 8/4",
+    "frame": "tl/f0048.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/4 | s2 5/3 | s3 12/14 | s4 15/13",
+    "O": "empty",
+    "frame": "tl/f0081.jpg"
+   }
+  },
+  {
+   "capture": "c3-h7-fly-two-snipes-dolphin-first-p870113",
+   "test": "h7-fly-two-snipes-dolphin-first",
+   "fixture": "h7-fly-two-snipes-dolphin-first",
+   "seed": 870113,
+   "start": {
+    "P": "s0 13/12 | s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "s0 1/40 | s1 9/5 | s2 8/4",
+    "frame": "tl/f0051.jpg"
+   },
+   "terminal": {
+    "P": "s1 5/3 | s2 12/14 | s3 15/13 | s4 4/4",
+    "O": "empty",
+    "frame": "tl/f0081.jpg"
+   }
+  },
+  {
+   "capture": "c3-h7r-fly-two-snipes-croc-first-m1714808783",
+   "test": "h7r-fly-two-snipes-croc-first",
+   "fixture": "h7r-fly-two-snipes-croc-first",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 13/12 | s1 4/4 | s2 5/3 | s3 12/14 | s4 15/13",
+    "O": "s0 1/40 | s1 7/5 | s2 8/4",
+    "frame": "tl/f0050.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 4/4 | s2 5/3 | s3 12/14 | s4 15/13",
+    "O": "empty",
+    "frame": "tl/f0085.jpg"
+   }
+  },
+  {
+   "capture": "c3-h7r-fly-two-snipes-croc-first-p870113",
+   "test": "h7r-fly-two-snipes-croc-first",
+   "fixture": "h7r-fly-two-snipes-croc-first",
+   "seed": 870113,
+   "start": {
+    "P": "s0 13/12 | s1 4/4 | s2 5/3 | s3 12/14 | s4 15/13",
+    "O": "s0 1/40 | s1 7/5 | s2 8/4",
+    "frame": "tl/f0046.jpg"
+   },
+   "terminal": {
+    "P": "s0 4/4 | s1 4/4 | s2 5/3 | s3 12/14 | s4 15/13",
+    "O": "empty",
+    "frame": "tl/f0076.jpg"
+   }
+  },
+  {
+   "capture": "c3-h8-fly-two-snipes-deer-back-m1714808783",
+   "test": "h8-fly-two-snipes-deer-back",
+   "fixture": "h8-fly-two-snipes-deer-back",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 13/12 | s1 4/4 | s2 12/14 | s3 15/13 | s4 5/3",
+    "O": "s0 1/40 | s1 9/5 | s2 8/4",
+    "frame": "tl/f0052.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/4 | s2 12/14 | s3 15/13 | s4 5/3",
+    "O": "empty",
+    "frame": "tl/f0084.jpg"
+   }
+  },
+  {
+   "capture": "c3-h8-fly-two-snipes-deer-back-p870113",
+   "test": "h8-fly-two-snipes-deer-back",
+   "fixture": "h8-fly-two-snipes-deer-back",
+   "seed": 870113,
+   "start": {
+    "P": "s0 13/12 | s1 4/4 | s2 12/14 | s3 15/13 | s4 5/3",
+    "O": "s0 1/40 | s1 9/5 | s2 8/4",
+    "frame": "tl/f0050.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/4 | s2 12/14 | s3 15/13 | s4 5/3",
+    "O": "empty",
+    "frame": "tl/f0081.jpg"
+   }
+  },
+  {
+   "capture": "c3-h9-fly1-two-snipes-dolphin-first-m1714808783",
+   "test": "h9-fly1-two-snipes-dolphin-first",
+   "fixture": "h9-fly1-two-snipes-dolphin-first",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 13/12 | s1 4/4 | s2 12/14 | s3 15/13",
+    "O": "s0 1/40 | s1 9/5 | s2 8/4",
+    "frame": null
+   },
+   "terminal": {
+    "P": "s1 12/14 | s2 15/13",
+    "O": "empty",
+    "frame": "tl/f0076.jpg"
+   }
+  },
+  {
+   "capture": "c3-h9-fly1-two-snipes-dolphin-first-p870113",
+   "test": "h9-fly1-two-snipes-dolphin-first",
+   "fixture": "h9-fly1-two-snipes-dolphin-first",
+   "seed": 870113,
+   "start": {
+    "P": "s0 13/12 | s1 12/14 | s2 15/13 | s3 4/4",
+    "O": "s0 1/40 | s1 9/5 | s2 8/4",
+    "frame": "tl/f0048.jpg"
+   },
+   "terminal": {
+    "P": "s0 12/6 | s1 15/13 | s2 4/4",
+    "O": "empty",
+    "frame": "tl/f0083.jpg"
+   }
+  },
+  {
+   "capture": "c3-h9r-fly1-two-snipes-croc-first-m1714808783",
+   "test": "h9r-fly1-two-snipes-croc-first",
+   "fixture": "h9r-fly1-two-snipes-croc-first",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 13/12 | s1 12/14 | s2 15/13 | s3 4/4",
+    "O": "s0 1/40 | s1 7/5 | s2 8/4",
+    "frame": "tl/f0043.jpg"
+   },
+   "terminal": {
+    "P": "s1 12/14 | s2 15/13 | s3 4/4",
+    "O": "empty",
+    "frame": "tl/f0073.jpg"
+   }
+  },
+  {
+   "capture": "c3-h9r-fly1-two-snipes-croc-first-p870113",
+   "test": "h9r-fly1-two-snipes-croc-first",
+   "fixture": "h9r-fly1-two-snipes-croc-first",
+   "seed": 870113,
+   "start": {
+    "P": "s0 13/12 | s1 4/4 | s2 12/14 | s3 15/13",
+    "O": "s0 1/40 | s1 7/5 | s2 8/4",
+    "frame": "tl/f0044.jpg"
+   },
+   "terminal": {
+    "P": "s1 4/4 | s2 12/14 | s3 15/13",
+    "O": "empty",
+    "frame": "tl/f0071.jpg"
+   }
+  },
+  {
+   "capture": "c3-k3-fly-failed-attempt-uses-m1714808783",
+   "test": "k3-fly-failed-attempt-uses",
+   "fixture": "k3-fly-failed-attempt-uses",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 6/1 | s1 1/40 | s2 1/41 | s3 1/42 | s4 2/40",
+    "O": "s0 1/50",
+    "frame": "tl/f0035.jpg"
+   },
+   "terminal": {
+    "P": "s0 1/27 | s1 1/41 | s2 1/42 | s3 2/40",
+    "O": "empty",
+    "frame": "tl/f0116.jpg"
+   }
+  },
+  {
+   "capture": "c3-k3-fly-failed-attempt-uses-p870113",
+   "test": "k3-fly-failed-attempt-uses",
+   "fixture": "k3-fly-failed-attempt-uses",
+   "seed": 870113,
+   "start": {
+    "P": "s0 6/1 | s1 1/40 | s2 1/41 | s3 1/42 | s4 2/40",
+    "O": "s0 1/50",
+    "frame": "tl/f0039.jpg"
+   },
+   "terminal": {
+    "P": "s0 1/27 | s1 1/41 | s2 1/42 | s3 2/40",
+    "O": "empty",
+    "frame": "tl/f0124.jpg"
+   }
+  },
+  {
+   "capture": "c3-k4-fly-zombie-death-p870113",
+   "test": "k4-fly-zombie-death",
+   "fixture": "k4-fly-zombie-death",
+   "seed": 870113,
+   "start": {
+    "P": "s0 6/1 | s1 1/40 | s2 2/40",
+    "O": "s0 2/50",
+    "frame": "tl/f0038.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/32",
+    "O": "empty",
+    "frame": "tl/f0144.jpg"
+   }
+  },
+  {
+   "capture": "c3-sk1-skunk2-on-50-m1714808783",
+   "test": "sk1-skunk2-on-50",
+   "fixture": "sk1-skunk2-on-50",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 5/5 | s1 2/20",
+    "O": "s0 2/16",
+    "frame": "tl/f0041.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/18",
+    "O": "empty",
+    "frame": "tl/f0062.jpg"
+   }
+  },
+  {
+   "capture": "c3-sk1-skunk2-on-50-p870113",
+   "test": "sk1-skunk2-on-50",
+   "fixture": "sk1-skunk2-on-50",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/5 | s1 2/20",
+    "O": "s0 2/16",
+    "frame": "tl/f0051.jpg"
+   },
+   "terminal": {
+    "P": "s0 2/18",
+    "O": "empty",
+    "frame": "tl/f0073.jpg"
+   }
+  },
+  {
+   "capture": "c3-sk2-skunk3-on-50-p870113",
+   "test": "sk2-skunk3-on-50",
+   "fixture": "sk2-skunk3-on-50",
+   "seed": 870113,
+   "start": {
+    "P": "s0 5/5 | s1 2/20",
+    "O": "s0 2/1",
+    "frame": "tl/f0037.jpg"
+   },
+   "terminal": {
+    "P": "s0 5/3 | s1 2/20",
+    "O": "empty",
+    "frame": "tl/f0044.jpg"
+   }
+  },
+  {
+   "capture": "c3-x1-dead-leopard-m1714808783",
+   "test": "x1-dead-leopard",
+   "fixture": "x1-dead-leopard",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/27 | s1 20/50",
+    "frame": "tl/f0044.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/44",
+    "frame": "tl/f0085.jpg"
+   }
+  },
+  {
+   "capture": "c3-x1-dead-leopard-p1203948571",
+   "test": "x1-dead-leopard",
+   "fixture": "x1-dead-leopard",
+   "seed": 1203948571,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/30 | s1 20/47",
+    "frame": "tl/f0051.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/41",
+    "frame": "tl/f0093.jpg"
+   }
+  },
+  {
+   "capture": "c3-x1-dead-leopard-p870113",
+   "test": "x1-dead-leopard",
+   "fixture": "x1-dead-leopard",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/30 | s1 20/47",
+    "frame": "tl/f0053.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/41",
+    "frame": "tl/f0097.jpg"
+   }
+  },
+  {
+   "capture": "c3-x2-dead-dolphin-m1714808783",
+   "test": "x2-dead-dolphin",
+   "fixture": "x2-dead-dolphin",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/26 | s1 20/50",
+    "frame": "tl/f0044.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/44",
+    "frame": "tl/f0085.jpg"
+   }
+  },
+  {
+   "capture": "c3-x2-dead-dolphin-p1203948571",
+   "test": "x2-dead-dolphin",
+   "fixture": "x2-dead-dolphin",
+   "seed": 1203948571,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/26 | s1 20/50",
+    "frame": "tl/f0044.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/44",
+    "frame": "tl/f0084.jpg"
+   }
+  },
+  {
+   "capture": "c3-x2-dead-dolphin-p870113",
+   "test": "x2-dead-dolphin",
+   "fixture": "x2-dead-dolphin",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/26 | s1 20/50",
+    "frame": "tl/f0044.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/44",
+    "frame": "tl/f0087.jpg"
+   }
+  },
+  {
+   "capture": "c3-x3-dead-crocodile-m1714808783",
+   "test": "x3-dead-crocodile",
+   "fixture": "x3-dead-crocodile",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/30 | s1 20/42",
+    "frame": "tl/f0044.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/36",
+    "frame": "tl/f0089.jpg"
+   }
+  },
+  {
+   "capture": "c3-x3-dead-crocodile-p1203948571",
+   "test": "x3-dead-crocodile",
+   "fixture": "x3-dead-crocodile",
+   "seed": 1203948571,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/30 | s1 20/42",
+    "frame": "tl/f0042.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/36",
+    "frame": "tl/f0089.jpg"
+   }
+  },
+  {
+   "capture": "c3-x3-dead-crocodile-p870113",
+   "test": "x3-dead-crocodile",
+   "fixture": "x3-dead-crocodile",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/30 | s1 20/42",
+    "frame": "tl/f0043.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/36",
+    "frame": "tl/f0090.jpg"
+   }
+  },
+  {
+   "capture": "c3-x4-dead-mosquito-m1714808783",
+   "test": "x4-dead-mosquito",
+   "fixture": "x4-dead-mosquito",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/29 | s1 20/50",
+    "frame": null
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/44",
+    "frame": "tl/f0092.jpg"
+   }
+  },
+  {
+   "capture": "c3-x4-dead-mosquito-p1203948571",
+   "test": "x4-dead-mosquito",
+   "fixture": "x4-dead-mosquito",
+   "seed": 1203948571,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/30 | s1 20/49",
+    "frame": null
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/43",
+    "frame": "tl/f0084.jpg"
+   }
+  },
+  {
+   "capture": "c3-x4-dead-mosquito-p870113",
+   "test": "x4-dead-mosquito",
+   "fixture": "x4-dead-mosquito",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/30 | s1 20/49",
+    "frame": "tl/f0044.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/43",
+    "frame": "tl/f0090.jpg"
+   }
+  },
+  {
+   "capture": "c3-x5-dead-skunk-m1714808783",
+   "test": "x5-dead-skunk",
+   "fixture": "x5-dead-skunk",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/30 | s1 20/33",
+    "frame": "tl/f0043.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/27",
+    "frame": "tl/f0086.jpg"
+   }
+  },
+  {
+   "capture": "c3-x5-dead-skunk-p1203948571",
+   "test": "x5-dead-skunk",
+   "fixture": "x5-dead-skunk",
+   "seed": 1203948571,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/30 | s1 20/33",
+    "frame": "tl/f0042.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/27",
+    "frame": "tl/f0087.jpg"
+   }
+  },
+  {
+   "capture": "c3-x5-dead-skunk-p870113",
+   "test": "x5-dead-skunk",
+   "fixture": "x5-dead-skunk",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/30 | s1 20/33",
+    "frame": "tl/f0044.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/27",
+    "frame": "tl/f0089.jpg"
+   }
+  },
+  {
+   "capture": "c3-x6-dead-whale-m1714808783",
+   "test": "x6-dead-whale",
+   "fixture": "x6-dead-whale",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 1/1 | s1 3/40",
+    "O": "s0 1/30 | s1 20/50",
+    "frame": "tl/f0052.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/43",
+    "frame": "tl/f0111.jpg"
+   }
+  },
+  {
+   "capture": "c3-x6-dead-whale-p1203948571",
+   "test": "x6-dead-whale",
+   "fixture": "x6-dead-whale",
+   "seed": 1203948571,
+   "start": {
+    "P": "s0 1/1 | s1 3/40",
+    "O": "s0 1/30 | s1 20/50",
+    "frame": "tl/f0052.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/43",
+    "frame": "tl/f0105.jpg"
+   }
+  },
+  {
+   "capture": "c3-x6-dead-whale-p870113",
+   "test": "x6-dead-whale",
+   "fixture": "x6-dead-whale",
+   "seed": 870113,
+   "start": {
+    "P": "s0 1/1 | s1 3/40",
+    "O": "s0 1/30 | s1 20/50",
+    "frame": "tl/f0053.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/43",
+    "frame": "tl/f0110.jpg"
+   }
+  },
+  {
+   "capture": "c3-x7-dead-dolphin-killed-by-croc-m1714808783",
+   "test": "x7-dead-dolphin-killed-by-croc",
+   "fixture": "x7-dead-dolphin-killed-by-croc",
+   "seed": -1714808783,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/26 | s1 20/50",
+    "frame": "tl/f0044.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/44",
+    "frame": "tl/f0088.jpg"
+   }
+  },
+  {
+   "capture": "c3-x7-dead-dolphin-killed-by-croc-p1203948571",
+   "test": "x7-dead-dolphin-killed-by-croc",
+   "fixture": "x7-dead-dolphin-killed-by-croc",
+   "seed": 1203948571,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/26 | s1 20/50",
+    "frame": "tl/f0040.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/44",
+    "frame": "tl/f0079.jpg"
+   }
+  },
+  {
+   "capture": "c3-x7-dead-dolphin-killed-by-croc-p870113",
+   "test": "x7-dead-dolphin-killed-by-croc",
+   "fixture": "x7-dead-dolphin-killed-by-croc",
+   "seed": 870113,
+   "start": {
+    "P": "s0 3/40",
+    "O": "s0 1/26 | s1 20/50",
+    "frame": "tl/f0042.jpg"
+   },
+   "terminal": {
+    "P": "empty",
+    "O": "s0 20/44",
+    "frame": "tl/f0082.jpg"
+   }
+  }
+ ]
+}

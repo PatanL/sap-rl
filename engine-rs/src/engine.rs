@@ -23,6 +23,81 @@ fn err<T>(m: impl Into<String>) -> R<T> {
     Err(EngineError(m.into()))
 }
 
+/// Rule switches for the v32 battle rules (real-client findings R1-R16).
+///
+/// The environment variable `SAP_RULES` selects the set, with the same grammar
+/// as `engine-v32/sapai/rules.py`: `v31` (every v32 rule off), `v32` (the
+/// accepted set, `RULES_V32`), a comma list such as `R13,R14`, and `-R1` to
+/// take one rule out. Unset means `v31` here, so the default build keeps the
+/// engine-v31 behaviour that `golden/v31-*`, `env-golden/` and the training
+/// environment rely on. An unknown token is an error.
+pub mod rules {
+    pub const R1: u32 = 1 << 0;
+    pub const R2: u32 = 1 << 1;
+    pub const R4: u32 = 1 << 2;
+    pub const R5: u32 = 1 << 3;
+    pub const R5B: u32 = 1 << 4;
+    pub const R8: u32 = 1 << 5;
+    pub const R9: u32 = 1 << 6;
+    pub const R11: u32 = 1 << 7;
+    pub const R12: u32 = 1 << 8;
+    pub const R13: u32 = 1 << 9;
+    pub const R14: u32 = 1 << 10;
+    pub const R16: u32 = 1 << 11;
+    const NAMES: [(&str, u32); 12] = [
+        ("R1", R1),
+        ("R2", R2),
+        ("R4", R4),
+        ("R5", R5),
+        ("R5b", R5B),
+        ("R8", R8),
+        ("R9", R9),
+        ("R11", R11),
+        ("R12", R12),
+        ("R13", R13),
+        ("R14", R14),
+        ("R16", R16),
+    ];
+    /// The rules that are on under `v32`. Must stay identical to `V32` in
+    /// `engine-v32/sapai/rules.py`.
+    pub const RULES_V32: u32 = R1 | R2 | R4 | R5 | R5B | R8 | R9 | R11 | R12 | R13 | R14 | R16;
+
+    pub fn parse(text: &str) -> Result<u32, String> {
+        let mut active = 0u32;
+        for token in text.split(',') {
+            let token = token.trim();
+            if token.is_empty() {
+                continue;
+            }
+            if token == "v31" {
+                active = 0;
+            } else if token == "v32" {
+                active |= RULES_V32;
+            } else if let Some((_, bit)) = NAMES.iter().find(|(name, _)| *name == token) {
+                active |= bit;
+            } else if let Some((_, bit)) =
+                NAMES.iter().find(|(name, _)| token.strip_prefix('-') == Some(*name))
+            {
+                active &= !bit;
+            } else {
+                return Err(format!("SAP_RULES: unknown token {token:?}"));
+            }
+        }
+        Ok(active)
+    }
+
+    /// The process-wide rule set, read once from `SAP_RULES`.
+    pub fn active() -> Result<u32, String> {
+        static ACTIVE: std::sync::OnceLock<Result<u32, String>> = std::sync::OnceLock::new();
+        ACTIVE
+            .get_or_init(|| match std::env::var("SAP_RULES") {
+                Ok(text) => parse(&text),
+                Err(_) => Ok(0),
+            })
+            .clone()
+    }
+}
+
 /// Placeholder for the "?" base stats of summoned tokens until the summon sets them.
 const UNRESOLVED: i32 = i32::MIN / 4;
 const NSLOTS: usize = 5;
@@ -95,6 +170,9 @@ struct Pet {
     swallowed: Vec<Stored>,
     /// The owning team (kept after removal, like `pet.team`).
     team: usize,
+    /// v32 R1: number of the `DealDamage` call that took this pet from above
+    /// 0 health to 0 or less (0: none).
+    killed_by: u32,
 }
 
 /// `apet_idx[1]`: a slot index, or the `[team_idx, pet_idx]` list a removed
@@ -160,10 +238,17 @@ pub struct Fight<'a> {
     rng: Mt,
     pet_priority: Vec<(usize, usize)>,
     pending: Vec<Record>,
-    /// Wolverine activations waiting for the hurt and faint chain to finish.
-    pending_counters: Vec<(usize, usize)>,
+    /// Wolverine activations waiting for the hurt and faint chain to finish:
+    /// (holder, triggering pet, Tiger behind the holder when queued; R5 only).
+    pending_counters: Vec<(usize, usize, Option<usize>)>,
+    /// v32 R5b: FourFriendsHurt holders removed during the current attack.
+    removed_counters: Vec<usize>,
     attack_happened: bool,
     ko_list: Vec<KoEvent>,
+    /// Active v32 rules (bits of `rules::*`); 0 is engine-v31.
+    rules: u32,
+    /// v32 R1: counts `DealDamage` calls.
+    damage_events: u32,
 }
 
 impl<'a> Fight<'a> {
@@ -172,6 +257,15 @@ impl<'a> Fight<'a> {
     // ------------------------------------------------------------------
 
     pub fn new(d: &'a Data, player: &[PetSpec], opponent: &[PetSpec], seed: u32) -> R<Self> {
+        let active = match rules::active() {
+            Ok(a) => a,
+            Err(e) => return err(e),
+        };
+        Self::with_rules(d, player, opponent, seed, active)
+    }
+
+    /// `new` with an explicit rule set (bits of `rules::*`).
+    pub fn with_rules(d: &'a Data, player: &[PetSpec], opponent: &[PetSpec], seed: u32, active: u32) -> R<Self> {
         let mut f = Fight {
             d,
             pets: Vec::with_capacity(24),
@@ -180,14 +274,22 @@ impl<'a> Fight<'a> {
             pet_priority: Vec::new(),
             pending: Vec::new(),
             pending_counters: Vec::new(),
+            removed_counters: Vec::new(),
             attack_happened: false,
             ko_list: Vec::new(),
+            rules: active,
+            damage_events: 0,
         };
         for (team, specs) in [(0usize, player), (1usize, opponent)] {
             if specs.len() > NSLOTS {
                 return err("more than five pets on a team");
             }
             for (index, spec) in specs.iter().enumerate() {
+                // An empty slot of a constructed board (tools/gen_golden.py
+                // builds an empty TeamSlot for it).
+                if spec.id == "pet-none" {
+                    continue;
+                }
                 let kind = match d.by_name.get(&spec.id) {
                     Some(k) => *k,
                     None => return err(format!("Pet {} not found", spec.id)),
@@ -265,6 +367,7 @@ impl<'a> Fight<'a> {
             override_ability: None,
             swallowed: Vec::new(),
             team,
+            killed_by: 0,
         });
         self.pets.len() - 1
     }
@@ -319,6 +422,11 @@ impl<'a> Fight<'a> {
     // ------------------------------------------------------------------
     // Pet helpers (sapai/pets.py)
     // ------------------------------------------------------------------
+
+    #[inline]
+    fn on(&self, rule: u32) -> bool {
+        self.rules & rule != 0
+    }
 
     #[inline]
     fn atk(&self, p: usize) -> i32 {
@@ -552,14 +660,25 @@ impl<'a> Fight<'a> {
     /// `Battle.start`.
     pub fn start(&mut self) -> R<()> {
         self.pending.clear();
+        self.pending_counters.clear();
+        self.removed_counters.clear();
         // phase_move_start
-        self.move_forward(0, 0, 10)?;
-        self.move_forward(1, 0, 10)?;
+        // v32 R11: empty slots stay open until the start-of-battle abilities
+        // and the deaths they cause have resolved (phase_move_end closes them).
+        if !self.on(rules::R11) {
+            self.move_forward(0, 0, 10)?;
+            self.move_forward(1, 0, 10)?;
+        }
         self.pet_priority = self.update_pet_priority();
-        // phase_start
-        self.battle_phase_start()?;
-        // phase_hurt_and_faint
-        self.battle_phase_hurt_and_faint(false)?;
+        // v32 R13: against an empty board nothing happens, no start-of-battle
+        // ability runs and the fight ends with the starting board.
+        let skip_start = self.on(rules::R13) && (self.team_len(0) == 0 || self.team_len(1) == 0);
+        if !skip_start {
+            // phase_start
+            self.battle_phase_start()?;
+            // phase_hurt_and_faint
+            self.battle_phase_hurt_and_faint(false)?;
+        }
         // phase_move_end
         self.move_forward(0, 0, 10)?;
         self.move_forward(1, 0, 10)?;
@@ -570,6 +689,8 @@ impl<'a> Fight<'a> {
     /// `Battle.attack`: returns whether another attack should follow.
     pub fn attack(&mut self) -> R<bool> {
         self.pending.clear();
+        self.pending_counters.clear();
+        self.removed_counters.clear();
         if self.team_len(0) == 0 || self.team_len(1) == 0 {
             return Ok(false);
         }
@@ -631,12 +752,48 @@ impl<'a> Fight<'a> {
     /// `battle_phase_start` (+ `check_self_summoned_triggers`).
     fn battle_phase_start(&mut self) -> R<()> {
         let pp = self.pet_priority.clone();
-        for &(team_idx, pet_idx) in &pp {
-            let p = match self.slots[team_idx][pet_idx] {
-                Some(p) => p,
-                None => continue, // "pet-none": no StartOfBattle ability
-            };
-            self.sob_trigger(p)?;
+        if self.on(rules::R4) {
+            // v32 R4 (`_next_start_of_battle_pet`): the next actor is always
+            // the start-of-battle pet with the highest attack at that moment;
+            // a tie is a uniform pick from the battle stream.
+            let mut acted: Vec<usize> = Vec::new();
+            loop {
+                let mut top = i32::MIN;
+                let mut tied: Vec<usize> = Vec::new();
+                for t in 0..2 {
+                    for i in 0..NSLOTS {
+                        let p = match self.slots[t][i] {
+                            Some(p) => p,
+                            None => continue,
+                        };
+                        if self.ability(p).trigger != Trigger::StartOfBattle || acted.contains(&p) {
+                            continue;
+                        }
+                        let attack = self.atk(p);
+                        if attack > top {
+                            top = attack;
+                            tied.clear();
+                        }
+                        if attack == top {
+                            tied.push(p);
+                        }
+                    }
+                }
+                if tied.is_empty() {
+                    break;
+                }
+                let p = if tied.len() > 1 { tied[self.rng.choice_replace(tied.len())] } else { tied[0] };
+                acted.push(p);
+                self.sob_trigger(p)?;
+            }
+        } else {
+            for &(team_idx, pet_idx) in &pp {
+                let p = match self.slots[team_idx][pet_idx] {
+                    Some(p) => p,
+                    None => continue, // "pet-none": no StartOfBattle ability
+                };
+                self.sob_trigger(p)?;
+            }
         }
         // check_self_summoned_triggers: only Butterfly (Summoned / Self).
         for &(team_idx, pet_idx) in &pp {
@@ -662,7 +819,17 @@ impl<'a> Fight<'a> {
         let snapshot = self.slots[team_idx];
         for slot in snapshot.iter() {
             if let Some(observer) = *slot {
-                self.friend_hurt_trigger(observer, hurt_pet)?;
+                self.friend_hurt_trigger(observer, hurt_pet, false)?;
+            }
+        }
+        // v32 R5b: a holder that died earlier in this attack and has left
+        // the board keeps counting.
+        if self.on(rules::R5) && self.on(rules::R5B) {
+            let removed = self.removed_counters.clone();
+            for observer in removed {
+                if self.pets[observer].team == team_idx {
+                    self.friend_hurt_trigger(observer, hurt_pet, true)?;
+                }
             }
         }
         Ok(())
@@ -735,7 +902,10 @@ impl<'a> Fight<'a> {
                 None => {
                     // Counter abilities (Wolverine) wait until no hurt or
                     // faint ability is left, and run before removal.
-                    if self.run_pending_counter()? {
+                    // v32 R5: in the passes of an attack (`defer_post`) they
+                    // are held for battle_phase_knockout instead.
+                    let hold_counters = self.on(rules::R5) && defer_post;
+                    if !hold_counters && self.run_pending_counter()? {
                         continue;
                     }
                     break;
@@ -768,8 +938,29 @@ impl<'a> Fight<'a> {
         // Post-removal summon Faints skip simultaneously dead intervening pets
         // when looking for a Tiger.
         let dead: Vec<usize> = records.iter().map(|r| r.pet).collect();
+        let r8 = self.on(rules::R8);
+        if r8 {
+            // v32 R8: the Tiger for a post-removal summon is the first pet
+            // behind that did not die in this step (and it must be alive
+            // when the summon runs, see flush_post_removal_events).
+            for record in records.iter_mut() {
+                if !record.native_post {
+                    continue;
+                }
+                record.tiger = None;
+                for &support in &record.support_chain {
+                    if dead.contains(&support) {
+                        continue;
+                    }
+                    if self.pets[support].kind == self.d.tiger {
+                        record.tiger = Some(support);
+                    }
+                    break;
+                }
+            }
+        }
         for record in records.iter_mut() {
-            if !record.native_post || record.tiger.is_some() {
+            if r8 || !record.native_post || record.tiger.is_some() {
                 continue;
             }
             for &support in &record.support_chain {
@@ -803,9 +994,13 @@ impl<'a> Fight<'a> {
         }
 
         // Synchronize deaths.
+        let track_removed = self.on(rules::R5) && self.on(rules::R5B);
         for record in &records {
             if self.check_friend(record.team_idx, record.pet) {
                 self.team_remove(record.team_idx, record.pet)?;
+                if track_removed && self.ability(record.pet).trigger == Trigger::FourFriendsHurt {
+                    self.removed_counters.push(record.pet);
+                }
             }
         }
 
@@ -924,8 +1119,17 @@ impl<'a> Fight<'a> {
             let team_idx = record.team_idx;
             let pet_idx = record.pet_idx;
             if record.native_post {
+                let mut tiger = record.tiger;
+                if self.on(rules::R8) {
+                    if let Some(tg) = tiger {
+                        let tt = self.pets[tg].team;
+                        if !(self.hp(tg) > 0 && self.check_friend(tt, tg)) {
+                            tiger = None;
+                        }
+                    }
+                }
                 let (activated, res) =
-                    self.faint_trigger(pet, pet, (team_idx, pet_idx), true, true, record.tiger)?;
+                    self.faint_trigger(pet, pet, (team_idx, pet_idx), true, true, tiger)?;
                 let created = res.targets.clone();
                 self.resync_layouts(&mut layouts, team_idx, pet_idx, &created);
                 self.check_summon_triggers(pet, team_idx, activated, &res.targets)?;
@@ -937,22 +1141,92 @@ impl<'a> Fight<'a> {
         }
 
         // Priority 26: Shark / Fly observers.
-        for record in &pending {
+        let mut order: Vec<usize> = (0..pending.len()).collect();
+        if self.on(rules::R1) {
+            self.r1_order(&pending, &mut order);
+        }
+        // (record, observer) in the order they are served.
+        let mut pairs: Vec<(usize, usize)> = Vec::new();
+        if self.on(rules::R2) {
+            // v32 R2: the holders in attack order, highest first (read once
+            // here, ties in the old order), each through every pending death
+            // before the next holder.
+            let mut observers: Vec<usize> = Vec::new();
+            for &ri in &order {
+                for &observer in &pending[ri].post_observers {
+                    if !observers.contains(&observer) {
+                        observers.push(observer);
+                    }
+                }
+            }
+            let attacks: Vec<i32> = observers.iter().map(|&o| self.atk(o)).collect();
+            let mut by_attack: Vec<usize> = (0..observers.len()).collect();
+            by_attack.sort_by(|&a, &b| attacks[b].cmp(&attacks[a]));
+            for i in by_attack {
+                let observer = observers[i];
+                for &ri in &order {
+                    if pending[ri].post_observers.contains(&observer) {
+                        pairs.push((ri, observer));
+                    }
+                }
+            }
+        } else {
+            for &ri in &order {
+                for &observer in &pending[ri].post_observers {
+                    pairs.push((ri, observer));
+                }
+            }
+        }
+        for (ri, observer) in pairs {
+            let record = &pending[ri];
             let fainted = record.pet;
             let team_idx = record.team_idx;
             let pet_idx = record.pet_idx;
-            for &observer in &record.post_observers {
-                if !self.check_friend(team_idx, observer) || self.hp(observer) <= 0 {
-                    continue;
-                }
-                let (activated, res) =
-                    self.faint_trigger(observer, fainted, (team_idx, pet_idx), true, true, None)?;
-                let created = res.targets.clone();
-                self.resync_layouts(&mut layouts, team_idx, pet_idx, &created);
-                self.check_summon_triggers(observer, team_idx, activated, &res.targets)?;
+            if !self.check_friend(team_idx, observer) || self.hp(observer) <= 0 {
+                continue;
             }
+            let (activated, res) =
+                self.faint_trigger(observer, fainted, (team_idx, pet_idx), true, true, None)?;
+            let created = res.targets.clone();
+            self.resync_layouts(&mut layouts, team_idx, pet_idx, &created);
+            self.check_summon_triggers(observer, team_idx, activated, &res.targets)?;
         }
         Ok(())
+    }
+
+    /// v32 R1 (`_r1_order`): friends killed by one `DealDamage` call are
+    /// served to Fly and Shark in a uniform random order, within the
+    /// positions they hold in the attack-sorted list. Drawn only for a group
+    /// of two or more with a living holder on the board.
+    fn r1_order(&mut self, pending: &[Record], order: &mut [usize]) {
+        let mut seen: Vec<(usize, u32)> = Vec::new();
+        for pos in 0..pending.len() {
+            let event = self.pets[pending[pos].pet].killed_by;
+            if event == 0 {
+                continue;
+            }
+            let key = (pending[pos].team_idx, event);
+            if seen.contains(&key) {
+                continue;
+            }
+            seen.push(key);
+            let positions: Vec<usize> = (pos..pending.len())
+                .filter(|&q| pending[q].team_idx == key.0 && self.pets[pending[q].pet].killed_by == event)
+                .collect();
+            if positions.len() < 2 {
+                continue;
+            }
+            let holder = positions.iter().any(|&q| {
+                pending[q].post_observers.iter().any(|&o| self.check_friend(key.0, o) && self.hp(o) > 0)
+            });
+            if !holder {
+                continue;
+            }
+            let perm = self.rng.permutation(positions.len());
+            for (i, &q) in positions.iter().enumerate() {
+                order[q] = positions[perm[i]];
+            }
+        }
     }
 
     /// `check_summon_triggers`.
@@ -1149,6 +1423,9 @@ impl<'a> Fight<'a> {
     /// `battle_phase_knockout`.
     fn battle_phase_knockout(&mut self) -> R<()> {
         if !self.attack_happened {
+            if self.on(rules::R5) {
+                while self.run_pending_counter()? {}
+            }
             return self.flush_post_removal_events();
         }
         let mut queue = std::mem::take(&mut self.ko_list);
@@ -1192,6 +1469,11 @@ impl<'a> Fight<'a> {
                 }
                 queue.push(chained);
             }
+        }
+        // v32 R5 (`_run_pending_counters`): the Wolverine activations of this
+        // attack run once the knock-out queue is empty.
+        if self.on(rules::R5) {
+            while self.run_pending_counter()? {}
         }
         self.flush_post_removal_events()
     }
@@ -1297,13 +1579,14 @@ impl<'a> Fight<'a> {
     }
 
     /// `Pet.friend_hurt_trigger` (Wolverine).
-    fn friend_hurt_trigger(&mut self, p: usize, trigger: usize) -> R<()> {
+    fn friend_hurt_trigger(&mut self, p: usize, trigger: usize, allow_removed: bool) -> R<()> {
         let ab = self.ability(p);
         if ab.trigger != Trigger::FourFriendsHurt {
             return Ok(());
         }
         let t = self.pets[p].team;
-        if trigger == p || !self.check_friend(t, p) {
+        let on_board = self.check_friend(t, p);
+        if trigger == p || !(on_board || allow_removed) {
             return Ok(());
         }
         self.pets[p].friends_hurt_counter += 1;
@@ -1313,7 +1596,9 @@ impl<'a> Fight<'a> {
         self.pets[p].friends_hurt_counter = 0;
         // v31: the activation waits until no hurt or faint ability is left
         // (see battle_phase_hurt_and_faint). Real client, fight b836f265.
-        self.pending_counters.push((p, trigger));
+        // v32 R5: remember the Tiger standing behind at this moment.
+        let tiger = if self.on(rules::R5) && on_board { self.capture_tiger_support(p) } else { None };
+        self.pending_counters.push((p, trigger, tiger));
         Ok(())
     }
 
@@ -1322,11 +1607,18 @@ impl<'a> Fight<'a> {
         if self.pending_counters.is_empty() {
             return Ok(false);
         }
-        let (p, trigger) = self.pending_counters.remove(0);
+        let (p, trigger, tiger) = self.pending_counters.remove(0);
         let t = self.pets[p].team;
         if self.check_friend(t, p) {
             let pet_idx = self.own_idx(p)?;
-            self.tiger_func(false, p, Idx::Int(pet_idx), true, Te::Pet(trigger), None, None)?;
+            // `tiger` is None without R5. With R5 it is the Tiger that stood
+            // behind when the activation was queued; it repeats even if it
+            // has died and left the board since (in engine-v31 the activation
+            // ran before removal, where a dead Tiger still repeated).
+            self.tiger_func(false, p, Idx::Int(pet_idx), true, Te::Pet(trigger), None, tiger)?;
+        } else if self.on(rules::R5) {
+            // v32 R5: a Wolverine that has left the board still acts.
+            self.tiger_func(false, p, Idx::Int(0), true, Te::Pet(trigger), None, tiger)?;
         }
         Ok(true)
     }
@@ -1537,6 +1829,19 @@ impl<'a> Fight<'a> {
             return Ok(first);
         }
 
+        // v32 R9: the repeat spends one use of an ability with a use limit
+        // and is skipped when none is left.
+        let mut charged_repeat = false;
+        if self.on(rules::R9) {
+            if let Some(max) = ability_before.max_triggers {
+                if self.pets[apet].ability_counter >= max {
+                    return Ok(first);
+                }
+                self.pets[apet].ability_counter += 1;
+                charged_repeat = true;
+            }
+        }
+
         let post_override = self.pets[apet].override_ability.clone();
         let original_level = self.pets[apet].level;
         let tiger_level = self.pets[pb].level;
@@ -1559,6 +1864,10 @@ impl<'a> Fight<'a> {
         self.pets[apet].level = original_level;
         self.pets[apet].override_ability = post_override;
         let second = repeat?;
+        // A repeated summon that found no room gives its use back.
+        if charged_repeat && second.possible_empty_nested {
+            self.pets[apet].ability_counter -= 1;
+        }
         let mut targets = first.targets;
         targets.extend(second.targets);
         Ok(EffResult { targets, possible_empty_nested: false })
@@ -1822,11 +2131,14 @@ impl<'a> Fight<'a> {
             Amount::AttackDamagePercent(_) | Amount::Other => return err("ModifyStats amount dict not understood"),
             _ => {}
         }
+        let total_health = self.on(rules::R12);
         for &tp in &target {
-            let pet = &mut self.pets[tp];
-            if pet.health <= 0 {
+            // v32 R12: "not alive" means total health, battle-only part included.
+            let dead = if total_health { self.hp(tp) <= 0 } else { self.pets[tp].health <= 0 };
+            if dead {
                 continue;
             }
+            let pet = &mut self.pets[tp];
             if eff.until_end_of_battle {
                 pet.tmp_attack = (pet.tmp_attack + attack_amount).min((50 - pet.attack).max(0));
                 pet.tmp_health = (pet.tmp_health + health_amount).min((50 - pet.health).max(0));
@@ -1854,6 +2166,8 @@ impl<'a> Fight<'a> {
             Amount::AttackDamagePercent(p) => (((self.atk(apet) as i64 * p) as f64) * 0.01) as i32,
             _ => return err("DealDamage amount not understood"),
         };
+        self.damage_events += 1;
+        let event = self.damage_events;
         for &tp in &target {
             let mut amount = base;
             if eff.double_against_tier.is_some() && eff.double_against_tier == self.d.pets[self.pets[tp].kind].tier {
@@ -1876,7 +2190,11 @@ impl<'a> Fight<'a> {
                 Status::Weak => amount += 3,
                 _ => {}
             }
+            let alive_before = self.hp(tp) > 0;
             self.hurt(tp, amount);
+            if alive_before && self.hp(tp) <= 0 {
+                self.pets[tp].killed_by = event;
+            }
         }
         Ok(EffResult::of(target))
     }
@@ -1891,7 +2209,11 @@ impl<'a> Fight<'a> {
         for &tp in &target {
             let h = self.hp(tp);
             if h > 0 {
-                let v = (h as f64 * (1.0 - per)).floor() as i32;
+                let v = if self.on(rules::R14) {
+                    skunk_remaining_f32(h, eff.percentage.unwrap_or(0))
+                } else {
+                    (h as f64 * (1.0 - per)).floor() as i32
+                };
                 self.pets[tp].health = v.max(1);
             }
         }
@@ -1936,6 +2258,10 @@ impl<'a> Fight<'a> {
     /// `GainHealthPercentHighestFriend` (Crab).
     fn gain_health_percent(&mut self, eff: &Effect, apet: usize) -> R<EffResult> {
         let ft = self.pets[apet].team;
+        // v32 R16: a Crab that is already dead gains nothing and draws nothing.
+        if self.on(rules::R16) && self.hp(apet) <= 0 {
+            return Ok(EffResult::none());
+        }
         let friends: Vec<usize> = self.slots[ft]
             .iter()
             .filter_map(|s| *s)
@@ -2012,7 +2338,9 @@ impl<'a> Fight<'a> {
             self.pets[tp].health = -1;
         }
         let ft = self.pets[apet].team;
-        self.move_forward(ft, 0, 10)?;
+        if !self.on(rules::R11) {
+            self.move_forward(ft, 0, 10)?;
+        }
         Ok(EffResult::of(target))
     }
 
@@ -2215,6 +2543,50 @@ impl<'a> Fight<'a> {
     }
 }
 
+/// v32 R14: Skunk's remaining health in single precision, as the client
+/// computes it: `floor(h * (1 - pct / 100))` with every step an `f32`.
+fn skunk_remaining_f32(h: i32, pct: i64) -> i32 {
+    let keep = 1.0f32 - (pct as f32) / 100.0f32;
+    ((h as f32) * keep).floor() as i32
+}
+
+#[cfg(test)]
+mod v32_tests {
+    use super::*;
+
+    /// The single-precision Skunk formula differs from engine-v31's double
+    /// formula in exactly one place for 33/66/99% on 1 to 50 health:
+    /// level 2 on 50 health leaves 16, not 17. The Python reference
+    /// (`ReduceHealth` under R14) is checked against the same statement.
+    #[test]
+    fn skunk_single_precision_table() {
+        let mut differing = Vec::new();
+        for pct in [33i64, 66, 99] {
+            for h in 1..=50 {
+                let v31 = (h as f64 * (1.0 - pct as f64 * 0.01)).floor() as i32;
+                let v32 = skunk_remaining_f32(h, pct);
+                if v31 != v32 {
+                    differing.push((pct, h, v31, v32));
+                }
+            }
+        }
+        assert_eq!(differing, vec![(66, 50, 17, 16)]);
+    }
+
+    #[test]
+    fn rules_parser() {
+        assert_eq!(rules::parse("v31"), Ok(0));
+        assert_eq!(rules::parse("R13, R14"), Ok(rules::R13 | rules::R14));
+        assert_eq!(rules::parse("R13,R14,-R13"), Ok(rules::R14));
+        assert_eq!(rules::parse("v32"), Ok(rules::RULES_V32));
+        assert_eq!(rules::parse("v32,-R1,-R11") , Ok(rules::RULES_V32 & !rules::R1 & !rules::R11));
+        assert_eq!(rules::parse("v32,v31"), Ok(0));
+        assert_eq!(rules::RULES_V32, (1 << 12) - 1);
+        assert!(rules::parse("R3").is_err());
+        assert!(rules::parse("v33").is_err());
+    }
+}
+
 /// `itertools.combinations(items, n)` in lexicographic order.
 fn combinations(items: &[usize], n: usize) -> Vec<Vec<usize>> {
     let mut out = Vec::new();
@@ -2301,6 +2673,10 @@ pub struct EnvPet {
 /// teams given slot by slot (empty slots stay where they are until the
 /// battle's own first move). Same rules and draws as `simulate`.
 pub fn battle_env(d: &Data, teams: [&[Option<EnvPet>; NSLOTS]; 2], seed: u32) -> Result<u8, EngineError> {
+    let active = match rules::active() {
+        Ok(a) => a,
+        Err(e) => return err(e),
+    };
     let mut f = Fight {
         d,
         pets: Vec::with_capacity(24),
@@ -2309,8 +2685,11 @@ pub fn battle_env(d: &Data, teams: [&[Option<EnvPet>; NSLOTS]; 2], seed: u32) ->
         pet_priority: Vec::new(),
         pending: Vec::new(),
         pending_counters: Vec::new(),
+        removed_counters: Vec::new(),
         attack_happened: false,
         ko_list: Vec::new(),
+        rules: active,
+        damage_events: 0,
     };
     for (team, slots) in teams.iter().enumerate() {
         for (index, slot) in slots.iter().enumerate() {

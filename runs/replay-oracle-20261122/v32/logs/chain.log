@@ -1,0 +1,15 @@
+04:24 s02-R14 SAP_RULES=R13,R14: kept | TOTAL   fights 12617  s01-R13:  61 (14)  s02-R14:  56 (14)  fixed 5  broken 0 | next set R13,R14, previous s02-R14
+04:35 s03-R16 SAP_RULES=R13,R14,R16: kept | TOTAL   fights 12617  s02-R14:  56 (14)  s03-R16:  48 (14)  fixed 8  broken 0 | next set R13,R14,R16, previous s03-R16
+04:43 s04-R12 SAP_RULES=R13,R14,R16,R12: kept | TOTAL   fights 12617  s03-R16:  48 (14)  s04-R12:  46 (13)  fixed 2  broken 0 | next set R13,R14,R16,R12, previous s04-R12
+04:51 s05-R4 SAP_RULES=R13,R14,R16,R12,R4: kept | TOTAL   fights 12617  s04-R12:  46 (13)  s05-R4:  39 (11)  fixed 7  broken 0 | next set R13,R14,R16,R12,R4, previous s05-R4
+05:00 s06-R9 SAP_RULES=R13,R14,R16,R12,R4,R9: kept | TOTAL   fights 12617  s05-R4:  39 (11)  s06-R9:  30 (9)  fixed 9  broken 0 | next set R13,R14,R16,R12,R4,R9, previous s06-R9
+05:08 s07-R8 SAP_RULES=R13,R14,R16,R12,R4,R9,R8: kept | TOTAL   fights 12617  s06-R9:  30 (9)  s07-R8:  28 (7)  fixed 2  broken 0 | next set R13,R14,R16,R12,R4,R9,R8, previous s07-R8
+05:08 chain done: kept R13,R14,R16,R12,R4,R9,R8, last tag s07-R8
+05:18 s08-R5 SAP_RULES=R13,R14,R16,R12,R4,R9,R8,R5: kept | TOTAL   fights 12617  s07-R8:  28 (7)  s08-R5:  27 (3)  fixed 6  broken 5 | next set R13,R14,R16,R12,R4,R9,R8,R5, previous s08-R5
+05:22 chain stopped by hand during s09: R5 reading corrected (captured Tiger repeats even if dead), s08 is rerun; the first s08 results are kept as s08-R5-first-reading
+05:35 s08-R5 SAP_RULES=R13,R14,R16,R12,R4,R9,R8,R5: kept | TOTAL   fights 12617  s07-R8:  28 (7)  s08-R5:  23 (3)  fixed 6  broken 1 | next set R13,R14,R16,R12,R4,R9,R8,R5, previous s08-R5
+05:43 s09-R5b SAP_RULES=R13,R14,R16,R12,R4,R9,R8,R5,R5b: kept | TOTAL   fights 12617  s08-R5:  23 (3)  s09-R5b:  21 (3)  fixed 2  broken 0 | next set R13,R14,R16,R12,R4,R9,R8,R5,R5b, previous s09-R5b
+05:52 s10-R2 SAP_RULES=R13,R14,R16,R12,R4,R9,R8,R5,R5b,R2: kept | TOTAL   fights 12617  s09-R5b:  21 (3)  s10-R2:  12 (1)  fixed 9  broken 0 | next set R13,R14,R16,R12,R4,R9,R8,R5,R5b,R2, previous s10-R2
+06:01 s11-R1 SAP_RULES=R13,R14,R16,R12,R4,R9,R8,R5,R5b,R2,R1: kept | TOTAL   fights 12617  s10-R2:  12 (1)  s11-R1:  12 (1)  fixed 0  broken 0 | next set R13,R14,R16,R12,R4,R9,R8,R5,R5b,R2,R1, previous s11-R1
+06:10 s12-R11 SAP_RULES=R13,R14,R16,R12,R4,R9,R8,R5,R5b,R2,R1,R11: kept | TOTAL   fights 12617  s11-R1:  12 (1)  s12-R11:  12 (1)  fixed 0  broken 0 | next set R13,R14,R16,R12,R4,R9,R8,R5,R5b,R2,R1,R11, previous s12-R11
+06:10 chain done: kept R13,R14,R16,R12,R4,R9,R8,R5,R5b,R2,R1,R11, last tag s12-R11

@@ -8,9 +8,10 @@ Current state, plans and results: `GOAL.md` (the Status section starts with how 
 | --- | --- |
 | `GOAL.md`, `*.md` | Goal, status, results, earlier audits |
 | `engine-rs/` | Rust battle engine and full game environment (source, tools, data) |
-| `engine-rs-pinned/` | The four pinned builds the training and scoring scripts load by hash, libraries included |
+| `engine-rs-pinned/` | The five pinned builds the training and scoring scripts load by hash, libraries included (`v32a-env` runs rules v31 or v32, chosen by `SAP_RULES`) |
 | `runs/replay-oracle-20261122/engine-v31/` | Python reference engine (source of truth for rules) |
-| `runs/replay-oracle-20261122/engine-v32/` | Copy for the next rule changes (no change yet) |
+| `runs/replay-oracle-20261122/engine-v32/` | Python reference with the twelve v32 rule switches (`SAP_RULES`); `engine-v31` stays the unchanged v31 reference |
+| `runs/rules-v32-20261124/` | Launcher, collector, scorer and results for training and scoring under a named rule set (on the training machine only; not pushed yet) |
 | `runs/train-opt-20261123/` | Current collector, learner, distillation, benchmarks and their results |
 | `runs/search-20261123/`, `runs/train-ghost-20261123/` | Search harness, ranked-board pools (training side and yardstick side) |
 | `runs/client-oracle-20261123/` | Real-client replay injection: scripts, report, findings R1–R20 |
